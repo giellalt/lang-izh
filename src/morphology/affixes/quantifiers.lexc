@@ -5,7 +5,7 @@
 
 ! (XIII)
 LEXICON Ord-toin
-+Num+Ord: # ;
++Num+Ord+Nom:n # ;
 
 
 
