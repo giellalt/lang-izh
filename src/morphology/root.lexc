@@ -37,7 +37,7 @@ Multichar_Symbols
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Part
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -99,7 +99,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
- A1 V1 
+ %> A1 V1 
 
 !! And following triggers to control variation
  {front} {back}
@@ -126,5 +126,6 @@ Abbreviation	 ;
 Acronym		 ;
 Punctuation	 ;
 wordToNumeral    ;
+
 
 ! vim: set ft=xfst-lexc:

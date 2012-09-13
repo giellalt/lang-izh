@@ -30,16 +30,16 @@ define Cns [ b | d | f | g | h | j | k | l
 
 define VwsFront [ ü | ä | ö | Ü | Ä | Ö ] ;
 
-define VwsBack  [ a | o | u | A | O | U] ;
+define VwsBack  [ a | o | u | A | O | U ] ;
 
-define VwsLessi [ e | VwsBack | VwsFront 
-                | E] ;
+define VwsLessi [ e | VwsBack | VwsFront | E] ;
 
 define Vws [ i | I | VwsLessi ] ;
 
 define Softie [ ’ ] ; ! soft sign
 
 define Lts [ Cns | Vws | Softie ] ; !
+
 
 define Dummy [ %> | %^ShVws | %^WCns ] ; 
 
