@@ -4,12 +4,12 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
-         <l>avvaaro</l>
+         <l>jälkkiä</l>
          <stg>
-            <st Contlex="A-avvaaro">avvaaro</st>
+            <st Contlex="PoTag">jälkkiä</st>
          </stg>
       </lg>
-      <pos>A</pos>
+      <pos>POSTP</pos>
       <e>
          <mg>
             <m>
@@ -19,7 +19,7 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>avara</t>
+               <t/>
             </tg>
          </mg>
       </e>

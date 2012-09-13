@@ -27,7 +27,9 @@ LEXICON V-olla
 +V+Ind+Prt+Pl3:ltii     #   ;
 +V+ConNeg+Prt:ltu         #   ;
 
-
+! (V)
+LEXICON V-ahavojja
+#;
 
 ! vim: set ft=xfst-lexc:
 

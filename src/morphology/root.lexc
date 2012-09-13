@@ -99,9 +99,11 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
+ A1 V1 
 
 !! And following triggers to control variation
  {front} {back}
+ %^ShVws %^WCns
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -113,8 +115,11 @@ LEXICON Root
 0   adjectives  ;
 0   adverbs  ;
 0   nouns   ;
+0   postpositions    ;
 0   prepositions    ;
 0   pronouns    ;
+0   propernouns    ;
+0   quantifiers   ;
 0   verbs   ;
 
 Abbreviation	 ;

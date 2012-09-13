@@ -2,12 +2,12 @@
 !! ---------------
 !! The UNDEFINED language nouns inflect in cases.
 
-! maa
+! maa (I)
 LEXICON N-maa
-+N+Sg+Nom:0     #   ; ! maa
-+N+Sg+Gen:n	#   ; ! maan
-+N+Sg+Part:tA1	#   ; ! maata
-+N+Sg+Ill:hV1	#   ; ! maaha
++N+Sg+Nom:0     K   ; ! maa
++N+Sg+Gen:%>^WCnsn	#   ; ! maan
++N+Sg+Part:%>tA1	#   ; ! maata
++N+Sg+Ill:%>hV1	#   ; ! maaha
 +N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! maaz
 +N+Sg+Ela:%>%^WCnsst    #   ; ! maast
 +N+Sg+All:%>%^WCnslle    #   ; ! maalle
@@ -27,7 +27,7 @@ LEXICON N-maa
 +N+Pl+Tra:%>%^WCnsks    #   ; ! maiks
 +N+Pl+Ess:%>n%^ShVws    #   ; ! main
 
-! mato
+! mato (II)
 LEXICON N-mato
 +N+Sg+Nom:0     #   ; ! mato
 +N+Sg+Gen:%>%^WCnsn	#   ; ! maon
@@ -65,12 +65,8 @@ LEXICON Cases
 +N+Sg+Abl:%>%^WCnslt    #   ; ! katto : katolt
 +N+Sg+Tra:%>%^WCnsks    #   ; ! musta : musaks
 +N+Sg+Ess:%>n%^ShVws    #   ; ! sotilaz : sotilahhaan, 
-!+N+Pl+Ine:ias   #   ;
-!+N+Sg+Loc:as    #   ;
-!+N+Pl+Loc:ias   #   ;
-!+N+Sg+Acc:at    #   ;
-!+N+Pl+Acc:iat   #   ;
-#:0   Nouns   ;
+
+
 
 ! vim: set ft=xfst-lexc:
 

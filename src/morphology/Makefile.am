@@ -25,10 +25,13 @@ GT_LEXC_SRCS=\
 			 stems/punct.lexc \
 			 stems/wordToNumeral.lexc \
 			 affixes/adjectives.lexc \
+			 affixes/adpositions.lexc \
+			 affixes/adverbs.lexc \
 			 affixes/clitics.lexc \
 			 affixes/nouns.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
+			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
@@ -36,6 +39,7 @@ GENERATED_LEXC_SRCS=\
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
 			 stems/nouns.lexc \
+			 stems/postpositions.lexc \
 			 stems/prepositions.lexc \
 			 stems/pronouns.lexc \
 			 stems/propernouns.lexc \
@@ -47,6 +51,7 @@ GT_XML_SRCS=\
 			 stems/adjectives.xml \
 			 stems/adverbs.xml \
 			 stems/nouns.xml \
+			 stems/postpositions.xml \
 			 stems/prepositions.xml \
 			 stems/pronouns.xml \
 			 stems/propernouns.xml \

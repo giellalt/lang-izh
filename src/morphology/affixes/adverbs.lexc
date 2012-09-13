@@ -1,0 +1,10 @@
+!! Adverb inflection
+!! --------------------
+!! Ingrian adjectives compare.
+
+LEXICON AdvTemp-Ess
++Adv+Ess:0        K   ;
+
+
+! vim: set ft=xfst-lexc:
+
