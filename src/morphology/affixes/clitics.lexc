@@ -1,0 +1,10 @@
+!! Clitics
+!! ---------------
+!! Ingrian clitics...
+
+LEXICON K
++Clt/ki:%>ki	#    ; ! hänelleki, meillekki
++Clt/kA:%>kQAÄ	#    ; !miulleka, heillekä
+
+! vim: set ft=xfst-lexc:
+

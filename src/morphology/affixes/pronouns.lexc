@@ -1,0 +1,129 @@
+!! Pronoun inflection
+!! ---------------
+!! Ingrian pronouns inflect in cases.
+
+! miä : mi
+LEXICON PersSg1
++Pron+Pers+Sg1+Nom:ä     K   ;
++Pron+Pers+Sg1+Gen:un  K   ;
++Pron+Pers+Sg1+Part:nnua  K   ;
++Pron+Pers+Sg1+Ill:uhe  K   ;
++Pron+Pers+Sg1+Ine:uz  K   ;
++Pron+Pers+Sg1+Ela:ust  K   ;
++Pron+Pers+Sg1+All:ulle  K   ;
++Pron+Pers+Sg1+Ade:ul  K   ;
++Pron+Pers+Sg1+Abl:ult  K   ;
++Pron+Pers+Sg1+Tra:uks  K   ;
++Pron+Pers+Sg1+Ess:uun  K   ;
+
+! siä : si
+LEXICON PersSg2
++Pron+Pers+Sg2+Nom:0     K   ;
++Pron+Pers+Sg2+Gen:un  K   ;
++Pron+Pers+Sg2+Part:nnua  K   ;
++Pron+Pers+Sg2+Ill:uhe  K   ;
++Pron+Pers+Sg2+Ine:uz  K   ;
++Pron+Pers+Sg2+Ela:ust  K   ;
++Pron+Pers+Sg2+All:ulle  K   ;
++Pron+Pers+Sg2+Ade:ul  K   ;
++Pron+Pers+Sg2+Abl:ult  K   ;
++Pron+Pers+Sg2+Tra:uks  K   ;
++Pron+Pers+Sg2+Ess:uun  K   ;
+
+
+! hää : hä
+LEXICON PersSg3
++Pron+Pers+Sg3+Nom:ä     K   ;
++Pron+Pers+Sg3+Gen:nen  K   ;
++Pron+Pers+Sg3+Part:nt  K   ;
++Pron+Pers+Sg3+Ill:nnee  K   ;
++Pron+Pers+Sg3+Ine:neez  K   ;
++Pron+Pers+Sg3+Ela:nest  K   ;
++Pron+Pers+Sg3+All:neulle  K   ;
++Pron+Pers+Sg3+Ade:neel  K   ;
++Pron+Pers+Sg3+Abl:nelt  K   ;
++Pron+Pers+Sg3+Tra:neks  K   ;
++Pron+Pers+Sg3+Ess:nneen  K   ;
+
+
+! möö : m
+LEXICON PersPl1
++Pron+Pers+Pl1+Nom:öö     K   ;
++Pron+Pers+Pl1+Gen:eijjen  K   ;
++Pron+Pers+Pl1+Part:eitä  K   ;
++Pron+Pers+Pl1+Ill:eihe  K   ;
++Pron+Pers+Pl1+Ine:eiz  K   ;
++Pron+Pers+Pl1+Ela:eist  K   ;
++Pron+Pers+Pl1+All:eille  K   ;
++Pron+Pers+Pl1+Ade:eil  K   ;
++Pron+Pers+Pl1+Abl:eilt  K   ;
++Pron+Pers+Pl1+Tra:eiks  K   ;
++Pron+Pers+Pl1+Ess:ein  K   ;
+
+
+! töö : t
+LEXICON PersPl2
++Pron+Pers+Pl2+Nom:0     K   ;
++Pron+Pers+PL2+Gen:eijjen  K   ;
++Pron+Pers+PL2+Part:eitä  K   ;
++Pron+Pers+PL2+Ill:eihe  K   ;
++Pron+Pers+PL2+Ine:eiz  K   ;
++Pron+Pers+PL2+Ela:eist  K   ;
++Pron+Pers+PL2+All:eille  K   ;
++Pron+Pers+PL2+Ade:eil  K   ;
++Pron+Pers+PL2+Abl:eilt  K   ;
++Pron+Pers+PL2+Tra:eiks  K   ;
++Pron+Pers+PL2+Ess:ein  K   ;
+
+
+! höö : h
+LEXICON PersPl3
++Pron+Pers+Pl3+Nom:öö     K   ;
++Pron+Pers+Pl3+Gen:eijjen  K   ;
++Pron+Pers+Pl3+Part:eitä  K   ;
++Pron+Pers+Pl3+Ill:eihe  K   ;
++Pron+Pers+Pl3+Ine:eiz  K   ;
++Pron+Pers+Pl3+Ela:eist  K   ;
++Pron+Pers+Pl3+All:eille  K   ;
++Pron+Pers+Pl3+Ade:eil  K   ;
++Pron+Pers+Pl3+Abl:eilt  K   ;
++Pron+Pers+Pl3+Tra:eiks  K   ;
++Pron+Pers+Pl3+Ess:ein  K   ;
+
+! se : s
+LEXICON Dem-se
++Pron+Dem+Sg+Nom:e  K   ;
++Pron+Dem+Sg+Gen:enen  K   ;
++Pron+Dem+Sg+Part:itä  K   ;
++Pron+Dem+Sg+Ill:iihe  K   ;
++Pron+Dem+Sg+Ine:iin  K   ;
++Pron+Dem+Sg+Ela:iint  K   ;
++Pron+Dem+Sg+All:ille  K   ;
++Pron+Dem+Sg+Ade:ill  K   ;
++Pron+Dem+Sg+Abl:ilt  K   ;
++Pron+Dem+Sg+Tra:iks  K   ;
++Pron+Dem+Sg+Ess:inä  K   ;
+
+! neet : n
+LEXICON Dem-neet
++Pron+Dem+Pl+Nom:eet  K   ;
++Pron+Dem+Pl+Gen:iijjen  K   ;
++Pron+Dem+Pl+Part:iitä  K   ;
++Pron+Dem+Pl+Ill:iihe  K   ;
++Pron+Dem+Pl+Ine:iiz  K   ;
++Pron+Dem+Pl+Ela:iist  K   ;
++Pron+Dem+Pl+All:iille  K   ;
++Pron+Dem+Pl+Ade:iil  K   ;
++Pron+Dem+Pl+Abl:iilt  K   ;
++Pron+Dem+Pl+Tra:iiks  K   ;
++Pron+Dem+Pl+Ess:iin  K   ;
+
+
+
+
+
+
+
+
+! vim: set ft=xfst-lexc:
+

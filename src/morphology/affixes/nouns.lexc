@@ -1,0 +1,76 @@
+!! Noun inflection
+!! ---------------
+!! The UNDEFINED language nouns inflect in cases.
+
+! maa
+LEXICON N-maa
++N+Sg+Nom:0     #   ; ! maa
++N+Sg+Gen:n	#   ; ! maan
++N+Sg+Part:tA1	#   ; ! maata
++N+Sg+Ill:hV1	#   ; ! maaha
++N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! maaz
++N+Sg+Ela:%>%^WCnsst    #   ; ! maast
++N+Sg+All:%>%^WCnslle    #   ; ! maalle
++N+Sg+Ade:%>%^WCnsl%^ShVws    #   ; ! maal
++N+Sg+Abl:%>%^WCnslt    #   ; ! maalt
++N+Sg+Tra:%>%^WCnsks    #   ; ! maaks
++N+Sg+Ess:%>n%^ShVws    #   ; ! maan
++N+Pl+Nom:t     #   ; ! maat
++N+Pl+Gen:ijjen	#   ; ! maijjen
++N+Pl+Part:itA1	#   ; ! maita
++N+Pl+Ill:ihV1	#   ; ! maihe
++N+Pl+Ine:%>%^WCnsz%^ShVws    #   ; ! maiz
++N+Pl+Ela:%>%^WCnsst    #   ; ! maist
++N+Pl+All:%>%^WCnslle    #   ; ! maille
++N+Pl+Ade:%>%^WCnsl%^ShVws    #   ; ! mail
++N+Pl+Abl:%>%^WCnslt    #   ; ! mailt
++N+Pl+Tra:%>%^WCnsks    #   ; ! maiks
++N+Pl+Ess:%>n%^ShVws    #   ; ! main
+
+! mato
+LEXICON N-mato
++N+Sg+Nom:0     #   ; ! mato
++N+Sg+Gen:%>%^WCnsn	#   ; ! maon
++N+Sg+Part:%>A1	#   ; ! mattooa
++N+Sg+Ill:V1	#   ; ! mattoo
++N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! maooz
++N+Sg+Ela:%>%^WCnsst    #   ; ! maost
++N+Sg+All:%>%^WCnslle    #   ; ! maolle
++N+Sg+Ade:%>%^WCnsl%^ShVws    #   ; ! maool
++N+Sg+Abl:%>%^WCnslt    #   ; ! maolt
++N+Sg+Tra:%>%^WCnsks    #   ; ! maoks
++N+Sg+Ess:%>n%^ShVws    #   ; ! mattoon
+! Plural
++N+Pl+Nom:%>%^WCnst     #   ; ! maot
++N+Pl+Gen:loin	#   ; ! matoloin
++N+Pl+Part:lO1jA1	#   ; ! matoloja
++N+Pl+Ill:lO1ihV1	#   ; ! matoloihe
++N+Pl+Ine:lO1iz    #   ; ! matoloiz
++N+Pl+Ela:lO1ist    #   ; ! matoloist
++N+Pl+All:lO1ille    #   ; ! matoloille
++N+Pl+Ade:lO1il    #   ; ! matoloil
++N+Pl+Abl:lO1ilt    #   ; ! matoloilt
++N+Pl+Tra:lO1iks    #   ; ! matoloiks
++N+Pl+Ess:lO1in    #   ; ! matoloin
+
+
+
+LEXICON Cases
+!+N+Sg+Nom:0     #   ;
+!+N+Pl+Nom:i     #   ;
++N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! opokka : opokaaz
++N+Sg+Ela:%>%^WCnsst    #   ; ! jalka : jalast
++N+Sg+All:%>%^WCnsle    #   ; ! katto : katolle
++N+Sg+Ade:%>%^WCnsl%^ShVws    #   ; ! katto : katool
++N+Sg+Abl:%>%^WCnslt    #   ; ! katto : katolt
++N+Sg+Tra:%>%^WCnsks    #   ; ! musta : musaks
++N+Sg+Ess:%>n%^ShVws    #   ; ! sotilaz : sotilahhaan, 
+!+N+Pl+Ine:ias   #   ;
+!+N+Sg+Loc:as    #   ;
+!+N+Pl+Loc:ias   #   ;
+!+N+Sg+Acc:at    #   ;
+!+N+Pl+Acc:iat   #   ;
+#:0   Nouns   ;
+
+! vim: set ft=xfst-lexc:
+
