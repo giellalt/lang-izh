@@ -1,0 +1,144 @@
+!! =================================== !
+!! The Ingrian morphophonological/twolc rules file !
+!! =================================== !
+
+
+Alphabet
+a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö
+A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö
+
+
+
+! Vowel harmony with "(t)a/ä"
+AÄ1:a
+AÄ1:ä
+
+! Vowel harmony with "loi/löi"
+OÖ1:o
+OÖ1:ö
+
+! this appears in the illative
+V1:a
+V1:e
+V1:o
+V1:u
+V1:ü
+V1:ä
+V1:ö
+
+
+%- !Hyphen in  constructions 
+%>:0
+#   ! Word boundary for both lexicalised and dynamic compounds
+
+%^LVws:0
+%^LCns:0
+%^WCns:0
+
+;
+
+
+Sets
+
+VwsBack = a o u ;
+VwsFront = ä ö ü ;
+VwsNeutral = e i ; 
+Vws = a o u ä ö ü e i ;
+
+Cons = b d f g h j k l m n p r s š t v z ž ;
+
+Letters = Vows Cons ;
+
+
+
+Definitions
+
+! Front Trigger
+FT = [ :VwsFront | :VwsFront Cons* VwsNeutral ] ;
+
+! Back Trigger 
+BT = [ :VwsBack | :VwsBack ( %>:0 ) i: | VwsBack:0 %>:0 i: ] ;
+
+
+Rules
+
+
+! Stem vowel loss before plural "i"
+"StemVowLoss"
+ X:Y <=> Vws _  %>:0 [ i | i:j ] %>:0 ;
+          where X in (a e o u ü ö ä)
+                Y in (0 0 0 0 0 0 0) matched ;
+
+!€ maa%>i%>n
+!€ ma00i0n
+
+! Stem vowel "i" loss before plural "i"
+"i:Zero"
+i:0 <=> Vws _ %>: i: %>:0 ;
+
+! iToj between vowels
+"i:j"
+i:j <=> :Vws :0* _ %>:0 [ AÄ1:a | AÄ1:ä ] ;
+
+!€ em0o0i%>%^LCnsAÄ1
+!€ emmooj00a
+
+!
+! Vowel harmony suffixes Front
+"AÄ1:ä"
+AÄ1:ä <=>  FT %>:0 [ | %^LCns: %^LVws: | t ]  _ ;!
+
+! mato : mattooa
+! Vowel harmony suffixes Back
+"AÄ1:a"
+AÄ1:a <=>  BT %>:0 [ | %^LCns: %^LVws: | t ]  _ ;!
+
+!
+! Vowel harmony suffixes Front
+"OÖ1:ö"
+OÖ1:ö <=>  FT %>:0 l  _ ;!
+
+! Vowel harmony suffixes Back
+"OÖ1:o"
+OÖ1:o <=>  BT %>:0 l  _ ;!
+
+! Vws %>:0 %^LCns: V1:
+! Vowel agreement in illative 
+"V1:aeouüäo"
+V1:Vx <=> Vx %>:0 [ h | ( %^LCns: ) ] _ ;
+        where Vx in (a o u ä ö ü) ;
+
+! Vowel agreement in illative e
+"V1:e"
+V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
+
+
+! ! Vowel Lengthening
+! mato : mattoon, mato : maool
+ "Zero:Vx"
+ 0:Vx <=> Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
+       where Vx in (a o u ä ö ü) ; 
+
+
+! Secondary Consonant lengthening
+! mato : mattoo
+!"even-syllable"
+"t:tt"
+ 0:Cx <=> Cns* Vws Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
+           where Cx in (t) ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Consonant weakening !!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! mato : maot, mato : maool
+! tToZero in weak
+"t:Zero"
+t:0 <=> Vws _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+
+
+!!
+!"Disallow WLoss after non-v"
+!WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %>:0 _ ;
+
