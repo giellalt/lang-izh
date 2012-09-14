@@ -4,6 +4,72 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
+         <l>jalka</l>
+         <stg>
+            <st Contlex="N-jalka">jalka</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>jalka</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ommeena</l>
+         <stg>
+            <st Contlex="N-ommeena">ommeena</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>omena</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>emoi</l>
+         <stg>
+            <st Contlex="N-emoi">emo</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>äiti</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>aho</l>
          <stg>
             <st Contlex="N-mato">aho</st>

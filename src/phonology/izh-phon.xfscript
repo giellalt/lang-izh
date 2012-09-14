@@ -25,21 +25,18 @@ echo << THE DEFININTIONS >>
 
 define Cns [ b | d | f | g | h | j | k | l 
            | B | D | F | G | H | J | K | L 
-           | m | n | p | r | s | š | ts | tš | t | v | z | ž
-           | M | N | P | R | S | Š | Ts | Tš | T | V | Z | Ž ] ;
+           | m | n | p | r | s | š | t | v | z | ž
+           | M | N | P | R | S | Š | T | V | Z | Ž ] ; ! removing "ts", "tš"
 
-define VwsFront [ ü | ä | ö | Ü | Ä | Ö ] ;
+define VwsFront [ ä | ö | ü | Ä | Ö | Ü ] ;
 
 define VwsBack  [ a | o | u | A | O | U ] ;
 
-define VwsLessi [ e | VwsBack | VwsFront | E] ;
+define VwsLessi [ e | E | VwsBack | VwsFront ] ;
 
 define Vws [ i | I | VwsLessi ] ;
 
-define Softie [ ’ ] ; ! soft sign
-
-define Lts [ Cns | Vws | Softie ] ; !
-
+define Lts [ Cns | Vws ] ; !
 
 define Dummy [ %> | %^ShVws | %^WCns ] ; 
 
@@ -50,13 +47,21 @@ define Dummy [ %> | %^ShVws | %^WCns ] ;
 
 echo << THE RULES >>
 
-define AÄ-harmony  [ A1 -> a || VwsBack [ %> | %> t ] _  ,,
-       		     A1 -> ä || VwsFront [ %> | %> t ] _ ] ;
 
-define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
+define VowelCorrelation [ V1 -> a || a %> h _ ,,
+                          V1 -> o || o %> h _   ,,
+                          V1 -> u || u %> h _  ,,
                           V1 -> e || [ i ] %> h _ ,,
-                          V1 -> e || [ QEQ1 ]  %> h _  ,,
-                          V1 -> o || o %> h _   ] ; ! Vowel harmony
+                          V1 -> e || e  %> h _  ,,
+                          V1 -> ä || ä  %> h _  ,,
+                          V1 -> ö || ö  %> h _  ,,
+                          V1 -> ü || ü  %> h _  ] ; ! Vowel harmony
+
+define OÖharmony [ OÖ1 -> o ||  [ VwsBack | VwsBack i | VwsBack %> i  ]   %> l  _ ,,
+                   OÖ1 -> ö ||  [ VwsFront ] %> l  _ ] ;
+
+define AÄharmony [ t AÄ1 -> t a , AÄ1 -> a ||  VwsBack Cns* [ i | %> i ] %>  _ ,,
+                   t AÄ1 -> t ä , AÄ1 -> ä ||  [ VwsFront | e e | i i ] %>  _ ] ;
 
 
 
@@ -64,29 +69,29 @@ define VowelCorrelation [ V1 -> а || [ QAO1 ]  %> h _ ,,
 !! two consonants
 !!    XY ==> X
 
-define CkToC0 [ k -> 0 || Vws Cns _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define CkToC0 [ k -> 0 || Vws Cns _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! paikka : paikan
 !! tuhka : tuhan
 !! jalka : jalan
 !! verka : veran
 !! matka : matan
 
-define CpToC0 [ p -> 0 || Vws Cns _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define CpToC0 [ p -> 0 || Vws Cns _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! lappa : lapan
 
-define lpTolv [ Vws p -> Vws v , m p -> m m , l p -> l v , r p -> r v ||  _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define lpTolv [ Vws p -> Vws v , m p -> m m , l p -> l v , r p -> r v ||  _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! lampahaal : lammaz
 !! kelpajaa : kelvata
 !! varpahaal : varvaz
 
-define CikToCi0 [ k -> 0 || Cns i _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define CikToCi0 [ k -> 0 || Cns i _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! vika : vian
 
-define VikToVijj [ k -> j j || Vws i _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define VikToVijj [ k -> j j || Vws i _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! aika : aijjan
 !! reikä : reijjän
 
-define VukToVuvv [ k -> v v || [ Vws [ u | o ] | u ] _ [ QAQ1 | QAO1 ] %> %^CLOSED ] ;
+define VukToVuvv [ k -> v v || [ Vws [ u | o ] | u ] _ [ QAQ1 | QAO1 ] %> %^WCns ] ;
 !! hauki : hauvven
 !! rooka : roovvan
 !! luku : luvvun
@@ -116,9 +121,8 @@ define VukToVuvv [ k -> v v || [ Vws [ u | o ] | u ] _ [ QAQ1 | QAO1 ] %> %^CLOS
 
 
 
-!! define iToj [ i -> j || Vws _ [ QAQ1 | QAO1 ] %> ,,
-!!              i -> 0 || Vws %- _ k ] ;
-!! 
+ define iToj [ i -> j || [ Vws | Vws %> ] _ %> Vws ] ;
+ 
 !! define SoftLossBeforeVowel [ ' -> 0 || _ QEQ1 %>  ] ;
 !! 
 !! define StemFinalVowelLoss [ QAO1 -> 0 , QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _  [ .#. | %- ]  ] ;
@@ -153,9 +157,10 @@ define DummyDeletion Dummy -> 0 ;
 
 read regex [
 
-    AÄ-harmony
-.o. VowelCorrelation
-!.o. iToj
+    VowelCorrelation
+.o. AÄharmony
+.o. OÖharmony
+.o. iToj
 !.o. SoftLossBeforeVowel
 !.o. StemFinalVowelLoss
 !.o. VowelLossBeforePli

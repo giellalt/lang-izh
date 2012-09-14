@@ -99,11 +99,11 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
- %> A1 V1 
+ %> V1 AÄ1 OÖ1 
 
 !! And following triggers to control variation
  {front} {back}
- %^ShVws %^WCns
+ %^LVws %^LCns %^WCns
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
