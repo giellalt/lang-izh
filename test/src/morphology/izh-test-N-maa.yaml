@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - maa: # Noun 'land'
+     maa+N+Sg+Nom: maa
+     maa+N+Sg+Gen: maan
+     maa+N+Sg+Acc: maan
+     maa+N+Sg+Part: maata
+     maa+N+Sg+Ill: maaha
+     maa+N+Sg+Ine: maas
+     maa+N+Sg+Ela: maast
+     maa+N+Sg+All: maalle
+     maa+N+Sg+Ade: maal
+     maa+N+Sg+Abl: maalt
+     maa+N+Sg+Tra: maaks
+     maa+N+Sg+Ess: maan
+
+     maa+N+Sg+Nom: maat
+     maa+N+Sg+Gen: maijen
+     maa+N+Sg+Acc: maat
+     maa+N+Sg+Part: maita
+     maa+N+Sg+Ill: maihe
+     maa+N+Sg+Ine: mais
+     maa+N+Sg+Ela: maist
+     maa+N+Sg+All: maille
+     maa+N+Sg+Ade: mail
+     maa+N+Sg+Abl: mailt
+     maa+N+Sg+Tra: maiks
+     maa+N+Sg+Ess: main
+
+
