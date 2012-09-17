@@ -32,6 +32,7 @@ V1:ö
 %>:0
 #   ! Word boundary for both lexicalised and dynamic compounds
 
+
 %^LVws:0
 %^LCns:0
 %^WCns:0
@@ -118,15 +119,21 @@ Rules
 ! mato : mattoon, mato : maool
  "Zero:Vx"
  0:Vx <=> Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
+         ~[ Cns | Vws ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | ~[ Cns | Vws ] ] ;
        where Vx in (a o u ä ö ü) ; 
 
 
 ! Secondary Consonant lengthening
-! mato : mattoo
-!"even-syllable"
-"t:tt"
- 0:Cx <=> Cns* Vws Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
-           where Cx in (t) ;
+! mato : mattoo, näytettävä : näytettävvää
+!"even-syllable" This should be secondary
+"consonant lengthening"
+ 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws :0+  :Vws ;
+! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
+           where Cx in (v m t n r l k) ;
+
+! oja: oija
+"j lengthening"
+0:i <=> ~[ Cns | Vws ] Cns* Vws _ j Vws ( 0: ) %>:0 %^LCns:0  ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!
 !! Consonant weakening !!
@@ -140,16 +147,34 @@ Rules
 ! lp:lv, rp:rv
 
 
+"rt:rr weakening"
+t:r <=> ~[ Cns | Vws ] Cns* Vws r _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+"lt:ll weakening"
+t:l <=> ~[ Cns | Vws ] Cns* Vws l _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+"nt:nn weakening"
+t:n <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+"mp:mm weakening"
+p:m <=> ~[ Cns | Vws ] Cns* Vws m _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+"nk:ng weakening"
+k:g <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+
+
+
 ! mato : maot, mato : maool
 ! tToZero in weak
-"Single stop:weakens"
-Cx:Cy <=> Vws _ :Vws ( 0: ) %>:0 %^WCns:0 ;
-       where Cx in (k p)
-             Cy in (0 v) matched ;
+"Double stop:weakens"
+Cx:Cy <=> ~[ Cns | Vws ] Cns* Vws ( Cx ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+       where Cx in (k t)
+             Cy in (0 0) matched ;
 
 ! lehti : lehen
-"t:Zero"
-t:0 <=> Vws ( h ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+"p:v"
+p:v <=> ~[ Cns | Vws ] Cns* Vws _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 
 
