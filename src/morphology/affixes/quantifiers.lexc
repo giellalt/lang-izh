@@ -5,7 +5,10 @@
 
 ! (XIII)
 LEXICON Ord-toin
-+Num+Ord+Nom:n # ;
++Num+Ord+Sg+Nom:n K ;
++Num+Ord+Sg+Ill:sehee K ;
+
++Num+Ord+Pl+Part:sia K ;
 
 
 

@@ -9,23 +9,72 @@ LEXICON NegAux
 +V+Neg+Pl1:mmä  #   ;
 +V+Neg+Pl2:ttä  #   ;
 +V+Neg+Pl3:vät  #   ;
++V+Neg+Imprt+Sg2:lä   #  ;
++V+Neg+Imprt+Sg3:lköö   #  ;
++V+Neg+Imprt+Pl2:lkää   #  ;
++V+Neg+Imprt+Pl3:lkööt   #  ;
+
+
 
 LEXICON V-olla
-+V+Ind+Prs+Sg1:on	#   ; ! oon
-+V+Ind+Prs+Sg2:ot	#   ;
-+V+Ind+Prs+Sg3:n	#   ;
-+V+Ind+Prs+Pl1:omma	#   ;
-+V+Ind+Prs+Pl2:otta	#   ;
-+V+Ind+Prs+Pl3:llaa	#   ;
-+V+ConNeg+Prs:o		#   ;
++V+Ind+Prs+Sg1:oon	#   ; ! oon
++V+Ind+Prs+Sg2:oot	#   ;
++V+Ind+Prs+Sg3:ono	#   ;
++V+Ind+Prs+Pl1:oomma	#   ;
++V+Ind+Prs+Pl2:ootta	#   ;
++V+Ind+Prs+Pl3:ovat	#   ;
++V+Ind+Prs+4:ollaa	#   ;
++V+Ind+Prs+ConNeg:oo		#   ;
 
-+V+Ind+Prt+Sg1:lin       #   ; ! oon
-+V+Ind+Prt+Sg2:lit       #   ;
-+V+Ind+Prt+Sg3:li        #   ;
-+V+Ind+Prt+Pl1:limma     #   ;
-+V+Ind+Prt+Pl2:litta     #   ;
-+V+Ind+Prt+Pl3:ltii     #   ;
-+V+ConNeg+Prt:ltu         #   ;
++V+Ind+Prt+Sg1:olin       #   ; ! oon
++V+Ind+Prt+Sg2:olit       #   ;
++V+Ind+Prt+Sg3:oli        #   ;
++V+Ind+Prt+Pl1:olimma     #   ;
++V+Ind+Prt+Pl2:olitta     #   ;
++V+Ind+Prt+Pl3:olivat     #   ;
++V+Ind+Prt+Pl3:oltii     #   ;
++V+Ind+Prt+ConNeg:olt         #   ;
+!+V+Ind+ConNeg+Prt:oltu         #   ;
+
++V+Pot+Prs+Sg1:leenen      #   ; ! oon
++V+Pot+Prs+Sg2:leenet      #   ;
++V+Pot+Prs+Sg3:leenöö      #   ;
++V+Pot+Prs+Pl1:leenemmä    #   ;
++V+Pot+Prs+Pl2:leenettä    #   ;
++V+Pot+Prs+Pl3:leenööt     #   ;
+!+V+Pot+Prs+4:ollaa      #   ;
+!+V+Pot+Prs+ConNeg:oo                #   ;
+
++V+Cond+Prs+Sg1:olisin      #   ; ! oon
++V+Cond+Prs+Sg2:olisit      #   ;
++V+Cond+Prs+Sg3:olis      #   ;
++V+Cond+Prs+Pl1:olisimma    #   ;
++V+Cond+Prs+Pl2:olisitta    #   ;
++V+Cond+Prs+Pl3:olisivat     #   ;
+!+V+Cond+Prs+4:oltais      #   ;
+!+V+Cond+Prs+ConNeg:oo                #   ;
+
++V+Imprt+Prs+Sg2:oo      #   ;
++V+Imprt+Prs+Sg3:olkoo      #   ;
++V+Imprt+Prs+Pl1:olkaa    #   ;
++V+Imprt+Prs+Pl2:olkoot    #   ;
+!+V+Imprt+Prs+Pl3:olisivat     #   ; ! laa ovat
++V+Imprt+Prs+4:oltakoo      #   ;
+!+V+Imprt+Prs+ConNeg:oo                #   ;
+
++V+Prc:oleva			       #   ;
++V+Prc:olt			       #   ;
++V+Prc:oltava			       #   ;
++V+Prc:oltu			       #   ;
+
++V+Inf:olla             #   ;
++V+Inf+Ill:olemaa       #   ;
++V+Inf+Ine:olemaas      #   ;
++V+Inf+Ela:olemast      #   ;
++V+Inf+Abe:olemata      #   ;
++V+Ger:ollees		#   ;
+
+
 
 ! (V)
 LEXICON V-ahavojja

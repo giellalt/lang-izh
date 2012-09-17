@@ -6,7 +6,8 @@
 Alphabet
 a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö
 A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö
-
+ş ƶ y
+Ş Ƶ Y
 
 
 ! Vowel harmony with "(t)a/ä"
@@ -22,7 +23,7 @@ V1:a
 V1:e
 V1:o
 V1:u
-V1:ü
+V1:y
 V1:ä
 V1:ö
 
@@ -41,11 +42,11 @@ V1:ö
 Sets
 
 VwsBack = a o u ;
-VwsFront = ä ö ü ;
+VwsFront = ä ö y ü ;
 VwsNeutral = e i ; 
-Vws = a o u ä ö ü e i ;
+Vws = a o u ä ö y ü e i ;
 
-Cons = b d f g h j k l m n p r s š t v z ž ;
+Cons = b d f g h j k l m n p r s ş š t v z ƶ ž ;
 
 Letters = Vows Cons ;
 
@@ -66,19 +67,19 @@ Rules
 ! Stem vowel loss before plural "i"
 "StemVowLoss"
  X:Y <=> Vws _  %>:0 [ i | i:j ] %>:0 ;
-          where X in (a e o u ü ö ä)
-                Y in (0 0 0 0 0 0 0) matched ;
+          where X in (a e o u y ü ö ä)
+                Y in (0 0 0 0 0 0 0 0) matched ;
 
 !€ maa%>i%>n
 !€ ma00i0n
 
 ! Stem vowel "i" loss before plural "i"
 "i:Zero"
-i:0 <=> Vws _ %>: i: %>:0 ;
+ i:0 <=> Vws _ %>:0 i: %>:0 ;
 
 ! iToj between vowels
 "i:j"
-i:j <=> :Vws :0* _ %>:0 [ AÄ1:a | AÄ1:ä ] ;
+ i:j <=> :Vws :0* _ %>:0 [ AÄ1:a | AÄ1:ä ] ;
 
 !€ em0o0i%>%^LCnsAÄ1
 !€ emmooj00a
@@ -86,31 +87,31 @@ i:j <=> :Vws :0* _ %>:0 [ AÄ1:a | AÄ1:ä ] ;
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
-AÄ1:ä <=>  FT %>:0 [ | %^LCns: %^LVws: | t ]  _ ;!
+ AÄ1:ä <=>  FT %>:0 ( %^LCns: %^LVws: | t )  _ ;!
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
-AÄ1:a <=>  BT %>:0 [ | %^LCns: %^LVws: | t ]  _ ;!
+ AÄ1:a <=>  BT %>:0 ( %^LCns: %^LVws: | t )  _ ;!
 
 !
 ! Vowel harmony suffixes Front
 "OÖ1:ö"
-OÖ1:ö <=>  FT %>:0 l  _ ;!
+ OÖ1:ö <=>  FT %>:0 l  _ ;!
 
 ! Vowel harmony suffixes Back
 "OÖ1:o"
-OÖ1:o <=>  BT %>:0 l  _ ;!
+ OÖ1:o <=>  BT %>:0 l  _ ;!
 
 ! Vws %>:0 %^LCns: V1:
 ! Vowel agreement in illative 
 "V1:aeouüäo"
-V1:Vx <=> Vx %>:0 [ h | ( %^LCns: ) ] _ ;
+ V1:Vx <=> Vx %>:0 [ h | ( %^LCns: ) ] _ ;
         where Vx in (a o u ä ö ü) ;
 
 ! Vowel agreement in illative e
 "V1:e"
-V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
+ V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
 
 
 ! ! Vowel Lengthening
@@ -130,11 +131,25 @@ V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
 !!!!!!!!!!!!!!!!!!!!!!!!!
 !! Consonant weakening !!
 !!!!!!!!!!!!!!!!!!!!!!!!!
+! t:0, k:0 (suku:suun), p:v, ht:h, hk:h, lt:ll, rt:rr
+! mp:mm, nt:nn, st:ss,
+! it:ij, lk:l, rk:r, nk:ng, sk:s, tk:t, 
+! kk:k, tt:t, pp:p
+! ut:vv, yt:vv (uut:uuvv), uk:vv
+! aika:ajan, poika:pojan, reikä:reijän, liika:liijan
+! lp:lv, rp:rv
+
 
 ! mato : maot, mato : maool
 ! tToZero in weak
+"Single stop:weakens"
+Cx:Cy <=> Vws _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+       where Cx in (k p)
+             Cy in (0 v) matched ;
+
+! lehti : lehen
 "t:Zero"
-t:0 <=> Vws _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> Vws ( h ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 
 

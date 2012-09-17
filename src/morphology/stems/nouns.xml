@@ -92,6 +92,28 @@
    </entry>
    <entry>
       <lg>
+         <l>jahti</l>
+         <stg>
+            <st Contlex="N-mato">jahti</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>mato</l>
          <stg>
             <st Contlex="N-mato">mato</st>
@@ -403,6 +425,50 @@
          <l>vöö</l>
          <stg>
             <st Contlex="N-maa">vöö</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>käsi</l>
+         <stg>
+            <st Contlex="N-käsi">kä</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>varis</l>
+         <stg>
+            <st Contlex="N-varis">vari</st>
          </stg>
       </lg>
       <pos>N</pos>
