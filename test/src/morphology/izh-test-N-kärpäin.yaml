@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kärpäin: # Noun 'fly'
+     kärpäin+N+Sg+Nom: kärpäin
+     kärpäin+N+Sg+Gen: kärpäisen
+     kärpäin+N+Sg+Acc: kärpäisen
+     kärpäin+N+Sg+Part: kärpäistä
+     kärpäin+N+Sg+Ill: kärpäisee
+     kärpäin+N+Sg+Ine: kärpäisees
+     kärpäin+N+Sg+Ela: kärpäisest
+     kärpäin+N+Sg+All: kärpäiselle
+     kärpäin+N+Sg+Ade: kärpäiseel
+     kärpäin+N+Sg+Abl: kärpäiselt
+     kärpäin+N+Sg+Tra: kärpäiseks
+     kärpäin+N+Sg+Ess: kärpäisennä
+     kärpäin+N+Sg+Exe: kärpäisent
+
+     kärpäin+N+Pl+Nom: kärpäiset
+     kärpäin+N+Pl+Gen: kärpäisiin
+     kärpäin+N+Pl+Acc: kärpäiset
+     kärpäin+N+Pl+Part: kärpäisiä
+     kärpäin+N+Pl+Ill: kärpäisii
+     kärpäin+N+Pl+Ine: kärpäisiis
+     kärpäin+N+Pl+Ela: kärpäisist
+     kärpäin+N+Pl+All: kärpäisille
+     kärpäin+N+Pl+Ade: kärpäisiil
+     kärpäin+N+Pl+Abl: kärpäisilt
+     kärpäin+N+Pl+Tra: kärpäisiks
+     kärpäin+N+Pl+Ess: kärpäisinnä
+     kärpäin+N+Pl+Exe: kärpäisint
+
+

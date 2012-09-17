@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - päivyt: # Noun 'sun'
+     päivyt+N+Sg+Nom: päivyt
+     päivyt+N+Sg+Gen: päivyen
+     päivyt+N+Sg+Acc: päivyen
+     päivyt+N+Sg+Part: päivyttä
+     päivyt+N+Sg+Ill: päivyesse
+     päivyt+N+Sg+Ine: päivyees
+     päivyt+N+Sg+Ela: päivyest
+     päivyt+N+Sg+All: päivyelle
+     päivyt+N+Sg+Ade: päivyeel
+     päivyt+N+Sg+Abl: päivyelt
+     päivyt+N+Sg+Tra: päivyeks
+     päivyt+N+Sg+Ess: päivyennä
+     päivyt+N+Sg+Exe: päivyent
+
+     päivyt+N+Pl+Nom: päivyet
+     päivyt+N+Pl+Gen: päivyein
+     päivyt+N+Pl+Acc: päivyet
+     päivyt+N+Pl+Part: päivyeitä
+     päivyt+N+Pl+Ill: päivyeisse
+     päivyt+N+Pl+Ine: päivyeis
+     päivyt+N+Pl+Ela: päivyeist
+     päivyt+N+Pl+All: päivyeille
+     päivyt+N+Pl+Ade: päivyeil
+     päivyt+N+Pl+Abl: päivyeilt
+     päivyt+N+Pl+Tra: päivyeiks
+     päivyt+N+Pl+Ess: päivyeinnä
+     päivyt+N+Pl+Exe: päivyeint
+
+

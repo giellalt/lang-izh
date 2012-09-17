@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - kalatoin: # Adjective 'fishless'
+     kalatoin+N+Sg+Nom: kalatoin
+     kalatoin+N+Sg+Gen: kalattoman
+     kalatoin+N+Sg+Acc: kalattoman
+     kalatoin+N+Sg+Part: kalatointa
+     kalatoin+N+Sg+Ill: kalattommaa
+     kalatoin+N+Sg+Ine: kalattomas
+     kalatoin+N+Sg+Ela: kalattomast
+     kalatoin+N+Sg+All: kalattomalle
+     kalatoin+N+Sg+Ade: kalattomal
+     kalatoin+N+Sg+Abl: kalattomalt
+     kalatoin+N+Sg+Tra: kalattomaks
+     kalatoin+N+Sg+Ess: kalattomanna
+     kalatoin+N+Sg+Exe: kalattomant
+
+     kalatoin+N+Pl+Nom: kalattomat
+     kalatoin+N+Pl+Gen: kalattommiin
+     kalatoin+N+Pl+Acc: kalattomat
+     kalatoin+N+Pl+Part: kalattommiä
+     kalatoin+N+Pl+Ill: kalattommii
+     kalatoin+N+Pl+Ine: kalattomis
+     kalatoin+N+Pl+Ela: kalattomist
+     kalatoin+N+Pl+All: kalattomille
+     kalatoin+N+Pl+Ade: kalattomil
+     kalatoin+N+Pl+Abl: kalattomilt
+     kalatoin+N+Pl+Tra: kalattomiks
+     kalatoin+N+Pl+Ess: kalattominna
+     kalatoin+N+Pl+Exe: kalattomint
+
+

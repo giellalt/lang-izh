@@ -27,6 +27,7 @@ Tests:
      lintu+N+Sg+Abl: linnult
      lintu+N+Sg+Tra: linnuks
      lintu+N+Sg+Ess: lintuun
+     lintu+N+Sg+Exe: lintuunt
 
      lintu+N+Pl+Nom: linnut
      lintu+N+Pl+Gen: lintuloin
@@ -40,5 +41,6 @@ Tests:
      lintu+N+Pl+Abl: lintuloilt
      lintu+N+Pl+Tra: lintuloiks
      lintu+N+Pl+Ess: lintuloin
+     lintu+N+Pl+Exe: lintuloint
 
 

@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Adjective - kalakas: # Adjective 'with plenty of fish'
+     kalakas+N+Sg+Nom: kalakas
+     kalakas+N+Sg+Gen: kalakkaan
+     kalakas+N+Sg+Acc: kalakkaan
+     kalakas+N+Sg+Part: kalakasta
+     kalakas+N+Sg+Ill: kalakkaasse
+     kalakas+N+Sg+Ine: kalakkaas
+     kalakas+N+Sg+Ela: kalakkaast
+     kalakas+N+Sg+All: kalakkaalle
+     kalakas+N+Sg+Ade: kalakkaal
+     kalakas+N+Sg+Abl: kalakkaalt
+     kalakas+N+Sg+Tra: kalakkaaks
+     kalakas+N+Sg+Ess: kalakkaanna
+     kalakas+N+Sg+Exe: kalakkaant
+
+     kalakas+N+Pl+Nom: kalakkaat
+     kalakas+N+Pl+Gen: kalakkain
+     kalakas+N+Pl+Acc: kalakkaat
+     kalakas+N+Pl+Part: kalakkaita
+     kalakas+N+Pl+Ill: kalakkaisse
+     kalakas+N+Pl+Ine: kalakkais
+     kalakas+N+Pl+Ela: kalakkaist
+     kalakas+N+Pl+All: kalakkaille
+     kalakas+N+Pl+Ade: kalakkail
+     kalakas+N+Pl+Abl: kalakkailt
+     kalakas+N+Pl+Tra: kalakkaiks
+     kalakas+N+Pl+Ess: kalakkainna
+     kalakas+N+Pl+Exe: kalakkaint
+
+

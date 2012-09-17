@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../bin/izh-gen.hfstol
+    Morph: ../bin/izh.hfstol
+  xerox:
+    Gen: ../bin/iizh.fst
+    Morph: ../bin/izh.fst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - lähe: # Noun 'spring'
+     lähe+N+Sg+Nom: lähe
+     lähe+N+Sg+Gen: lähteen
+     lähe+N+Sg+Acc: lähteen
+     lähe+N+Sg+Part: lähettä
+     lähe+N+Sg+Ill: lähteesse
+     lähe+N+Sg+Ine: lähtees
+     lähe+N+Sg+Ela: lähteest
+     lähe+N+Sg+All: lähteelle
+     lähe+N+Sg+Ade: lähteel
+     lähe+N+Sg+Abl: lähteelt
+     lähe+N+Sg+Tra: lähteeks
+     lähe+N+Sg+Ess: lähteennä
+     lähe+N+Sg+Exe: lähteent
+
+     lähe+N+Pl+Nom: lähteet
+     lähe+N+Pl+Gen: lähtein
+     lähe+N+Pl+Acc: lähteet
+     lähe+N+Pl+Part: lähteitä
+     lähe+N+Pl+Ill: lähteisse
+     lähe+N+Pl+Ine: lähteis
+     lähe+N+Pl+Ela: lähteist
+     lähe+N+Pl+All: lähteille
+     lähe+N+Pl+Ade: lähteil
+     lähe+N+Pl+Abl: lähteilt
+     lähe+N+Pl+Tra: lähteiks
+     lähe+N+Pl+Ess: lähteinnä
+     lähe+N+Pl+Exe: lähteint
+
+

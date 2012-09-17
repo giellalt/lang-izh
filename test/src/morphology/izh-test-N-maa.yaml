@@ -26,19 +26,22 @@ Tests:
      maa+N+Sg+Ade: maal
      maa+N+Sg+Abl: maalt
      maa+N+Sg+Tra: maaks
-     maa+N+Sg+Ess: maan
+     maa+N+Sg+Ess: [maanna, maan]
+     maa+N+Sg+Exe: maant
 
-     maa+N+Sg+Nom: maat
-     maa+N+Sg+Gen: maijen
-     maa+N+Sg+Acc: maat
-     maa+N+Sg+Part: maita
-     maa+N+Sg+Ill: maihe
-     maa+N+Sg+Ine: mais
-     maa+N+Sg+Ela: maist
-     maa+N+Sg+All: maille
-     maa+N+Sg+Ade: mail
-     maa+N+Sg+Abl: mailt
-     maa+N+Sg+Tra: maiks
-     maa+N+Sg+Ess: main
+
+     maa+N+Pl+Nom: maat
+     maa+N+Pl+Gen: maijen
+     maa+N+Pl+Acc: maat
+     maa+N+Pl+Part: maita
+     maa+N+Pl+Ill: maihe
+     maa+N+Pl+Ine: mais
+     maa+N+Pl+Ela: maist
+     maa+N+Pl+All: maille
+     maa+N+Pl+Ade: mail
+     maa+N+Pl+Abl: mailt
+     maa+N+Pl+Tra: maiks
+     maa+N+Pl+Ess: [mainna, main]
+     maa+N+Pl+Exe: maint
 
 
