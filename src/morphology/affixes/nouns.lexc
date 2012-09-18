@@ -41,6 +41,7 @@ LEXICON N-mato
 +N+Sg+Abl:%>%^WCnslt    #   ; ! maolt
 +N+Sg+Tra:%>%^WCnsks    #   ; ! maoks
 +N+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
++N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
 +N+Pl+Gen:%>lOÖ1i%>n	#   ; ! matoloin
@@ -52,7 +53,8 @@ LEXICON N-mato
 +N+Pl+Ade:%>lOÖ1i%>l    #   ; ! matoloil
 +N+Pl+Abl:%>lOÖ1i%>lt    #   ; ! matoloilt
 +N+Pl+Tra:%>lOÖ1i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:%>lOÖ1i%>n    #   ; ! matoloin
++N+Pl+Ess:%>lOÖ1i%>n    #   ; ! matoloinna
++N+Pl+Exe:%>lOÖ1i%>nt    #   ; ! matoloint
 
 ! emoi (III)
 LEXICON N-emoi
@@ -86,7 +88,7 @@ LEXICON N-jalka
 +N+Sg+Gen:%>%^WCnsn	#   ; ! jalan
 +N+Sg+Part:%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
 +N+Sg+Ill:%>%^LCnsV1	#   ; ! jalkaa
-+N+Sg+Ine:%>%^WCns%^LVwsz    #   ; ! jalaaz
++N+Sg+Ine:%>%^WCns%^LVwss    #   ; ! jalaaz
 +N+Sg+Ela:%>%^WCnsst    #   ; ! jalast
 +N+Sg+All:%>%^WCnslle    #   ; ! jalalle
 +N+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! jalaal
@@ -190,7 +192,7 @@ LEXICON N-tähkä
 +N+Sg+Gen:%>%^WCnsn	#   ; ! maon
 +N+Sg+Part:%>%^LCns%^LVwsAÄ1	#   ; ! mattooa
 +N+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:%>%^WCns%^LVwsz    #   ; ! maooz
++N+Sg+Ine:%>%^WCns%^LVwss    #   ; ! tähääs
 +N+Sg+Ela:%>%^WCnsst    #   ; ! maost
 +N+Sg+All:%>%^WCnslle    #   ; ! maolle
 +N+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool

@@ -24,4 +24,26 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>kalatoin</l>
+         <stg>
+            <st Contlex="A-kalatoin">kalat</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>avara</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

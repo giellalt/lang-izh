@@ -38,6 +38,7 @@ Multichar_Symbols
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
  +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Part
+ +Exe
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -103,7 +104,9 @@ Multichar_Symbols
 
 !! And following triggers to control variation
  {front} {back}
- %^LVws %^LCns %^WCns
+ %^ShVws %^LVws
+ %^ShCns %^LCns
+ %^WCns %^StrCns
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
