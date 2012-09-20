@@ -4,6 +4,10 @@ LEXICON nouns
 jalka:jalka N-jalka  "" ;
 ommeena:ommeena N-ommeena  "" ;
 emoi:emo N-emoi  "" ;
+harakka:harakka N-ommeena  "" ;
+kana:kana N-jalka  "" ;
+silta:silta N-jalka  "" ;
+lehmä:lehmä N-tähkä  "" ;
 aho:aho N-mato  "" ;
 jahti:jahti N-mato  "" ;
 mato:mato N-mato  "" ;
