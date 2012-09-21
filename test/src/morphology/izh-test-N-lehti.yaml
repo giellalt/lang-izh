@@ -1,10 +1,10 @@
 Config:
   hfst:
-    Gen: ../bin/izh-gen.hfstol
-    Morph: ../bin/izh.hfstol
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
   xerox:
-    Gen: ../bin/iizh.fst
-    Morph: ../bin/izh.fst
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
     App: lookup
 
 Tests:
