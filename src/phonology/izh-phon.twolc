@@ -56,10 +56,10 @@ Letters = Vows Cons ;
 Definitions
 
 ! Front Trigger
-FT = [ :VwsFront | :VwsFront Cons* VwsNeutral ] ;
+FT = [ #: [ Cons | VwsNeutral ]+ | :VwsFront [ Cons | VwsNeutral ]*  | VwsFront:0 [ Cons | VwsNeutral ]* ] ( %>:0 ) ( i: ) ;
 
 ! Back Trigger 
-BT = [ :VwsBack | :VwsBack ( %>:0 ) i: | VwsBack:0 %>:0 i: ] ;
+BT =  [ :VwsBack [ Cons | VwsNeutral]* | VwsBack:0 [ Cons | VwsNeutral]* ] ( %>:0 ) ( i: ) ;
 
 
 Rules
@@ -88,12 +88,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=>  FT %>:0 ( %^LCns: %^LVws: | t )  _ ;!
+ AÄ1:ä <=>  FT %>:0 ( %^LCns: %^LVws: | t | n n )  _ ;!
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=>  BT %>:0 ( %^LCns: %^LVws: | t )  _ ;!
+ AÄ1:a <=>  BT %>:0 ( %^LCns: %^LVws: | t | n n )  _ ;!
 
 !
 ! Vowel harmony suffixes Front
@@ -120,7 +120,7 @@ Rules
  "Zero:Vx"
  0:Vx <=> Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
          ~[ Cns | Vws ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | ~[ Cns | Vws ] ] ;
-       where Vx in (a o u ä ö ü) ; 
+       where Vx in (a o u ä ö y e i) ; 
 
 
 ! Secondary Consonant lengthening
@@ -129,7 +129,7 @@ Rules
 "consonant lengthening"
  0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws :0+  :Vws ;
 ! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
-           where Cx in (v m t n r l k) ;
+           where Cx in (v m t s n r l k h) ;
 
 ! oja: oija
 "j lengthening"

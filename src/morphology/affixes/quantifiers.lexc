@@ -3,9 +3,10 @@
 !! The UNDEFINED language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-! (XIII)
+! N-inmihiin (XIII)
 LEXICON Ord-toin
 +Num+Ord+Sg+Nom:n K ;
++Num+Ord+Sg+Gen:sen K ;
 +Num+Ord+Sg+Ill:sehee K ;
 
 +Num+Ord+Pl+Part:sia K ;
