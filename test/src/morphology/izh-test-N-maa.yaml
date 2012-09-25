@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - maa: # Noun 'land'
+     maa+N+Sg+Nom: maa
+     maa+N+Sg+Gen: maan
+     maa+N+Sg+Acc: maan
+     maa+N+Sg+Part: maata
+     maa+N+Sg+Ill: maaha
+     maa+N+Sg+Ine: maas
+     maa+N+Sg+Ela: maast
+     maa+N+Sg+All: maalle
+     maa+N+Sg+Ade: maal
+     maa+N+Sg+Abl: maalt
+     maa+N+Sg+Tra: maaks
+     maa+N+Sg+Ess: [maanna, maan]
+     maa+N+Sg+Exe: maant
+
+
+     maa+N+Pl+Nom: maat
+     maa+N+Pl+Gen: maijen
+     maa+N+Pl+Acc: maat
+     maa+N+Pl+Part: maita
+     maa+N+Pl+Ill: maihe
+     maa+N+Pl+Ine: mais
+     maa+N+Pl+Ela: maist
+     maa+N+Pl+All: maille
+     maa+N+Pl+Ade: mail
+     maa+N+Pl+Abl: mailt
+     maa+N+Pl+Tra: maiks
+     maa+N+Pl+Ess: [mainna, main]
+     maa+N+Pl+Exe: maint
+
+

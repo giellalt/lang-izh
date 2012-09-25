@@ -1,0 +1,13 @@
+!! Adverb inflection
+!! --------------------
+!! Ingrian adjectives compare.
+
+LEXICON PoTag
++Po:0	# ;
+
+LEXICON PrepTag
++Prep:0  #   ;
+
+
+! vim: set ft=xfst-lexc:
+

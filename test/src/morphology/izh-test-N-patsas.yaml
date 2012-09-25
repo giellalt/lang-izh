@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - patsas: # Noun 'statue'
+     patsas+N+Sg+Nom: patsas
+     patsas+N+Sg+Gen: patsaan
+     patsas+N+Sg+Acc: patsaan
+     patsas+N+Sg+Part: patsasta
+     patsas+N+Sg+Ill: patsaasse
+     patsas+N+Sg+Ine: patsaas
+     patsas+N+Sg+Ela: patsaast
+     patsas+N+Sg+All: patsaalle
+     patsas+N+Sg+Ade: patsaal
+     patsas+N+Sg+Abl: patsaalt
+     patsas+N+Sg+Tra: patsaaks
+     patsas+N+Sg+Ess: patsaanna
+     patsas+N+Sg+Exe: patsaant
+
+     patsas+N+Pl+Nom: patsaat
+     patsas+N+Pl+Gen: patsain
+     patsas+N+Pl+Acc: patsaat
+     patsas+N+Pl+Part: patsaita
+     patsas+N+Pl+Ill: patsaisse
+     patsas+N+Pl+Ine: patsais
+     patsas+N+Pl+Ela: patsaist
+     patsas+N+Pl+All: patsaille
+     patsas+N+Pl+Ade: patsail
+     patsas+N+Pl+Abl: patsailt
+     patsas+N+Pl+Tra: patsaiks
+     patsas+N+Pl+Ess: patsainna
+     patsas+N+Pl+Exe: patsaint
+
+

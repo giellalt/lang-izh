@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - petos: # Noun 'betrayal'
+     petos+N+Sg+Nom: petos
+     petos+N+Sg+Gen: petoksen
+     petos+N+Sg+Acc: petoksen
+     petos+N+Sg+Part: petosta
+     petos+N+Sg+Ill: petoksee
+     petos+N+Sg+Ine: petoksees
+     petos+N+Sg+Ela: petoksest
+     petos+N+Sg+All: petokselle
+     petos+N+Sg+Ade: petokseel
+     petos+N+Sg+Abl: petokselt
+     petos+N+Sg+Tra: petokseks
+     petos+N+Sg+Ess: petoksenna
+     petos+N+Sg+Exe: petoksent
+
+     petos+N+Pl+Nom: petokset
+     petos+N+Pl+Gen: petoksin
+     petos+N+Pl+Acc: petokset
+     petos+N+Pl+Part: petoksia
+     petos+N+Pl+Ill: petoksii
+     petos+N+Pl+Ine: petoksiis
+     petos+N+Pl+Ela: petoksist
+     petos+N+Pl+All: petoksille
+     petos+N+Pl+Ade: petoksiil
+     petos+N+Pl+Abl: petoksilt
+     petos+N+Pl+Tra: petoksiks
+     petos+N+Pl+Ess: petoksinna
+     petos+N+Pl+Exe: petoksint
+
+

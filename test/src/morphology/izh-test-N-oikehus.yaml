@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - oikehus: # Noun 'right'
+     oikehus+N+Sg+Nom: oikehus
+     oikehus+N+Sg+Gen: oikehuen
+     oikehus+N+Sg+Acc: oikehuen
+     oikehus+N+Sg+Part: oikehutta
+     oikehus+N+Sg+Ill: oikehuee
+     oikehus+N+Sg+Ine: oikehues
+     oikehus+N+Sg+Ela: oikehuest
+     oikehus+N+Sg+All: oikehuelle
+     oikehus+N+Sg+Ade: oikehuel
+     oikehus+N+Sg+Abl: oikehuelt
+     oikehus+N+Sg+Tra: oikehueks
+     oikehus+N+Sg+Ess: oikehuenna
+     oikehus+N+Sg+Exe: oikehuent
+
+     oikehus+N+Pl+Nom: oikehuet
+     oikehus+N+Pl+Gen: oikehuksiin
+     oikehus+N+Pl+Acc: oikehuet
+     oikehus+N+Pl+Part: oikehuksia
+     oikehus+N+Pl+Ill: oikehuksii
+     oikehus+N+Pl+Ine: oikehuksis
+     oikehus+N+Pl+Ela: oikehuksist
+     oikehus+N+Pl+All: oikehuksille
+     oikehus+N+Pl+Ade: oikehuksil
+     oikehus+N+Pl+Abl: oikehuksilt
+     oikehus+N+Pl+Tra: oikehuksiks
+     oikehus+N+Pl+Ess: oikehuksinna
+     oikehus+N+Pl+Exe: oikehuksint
+
+

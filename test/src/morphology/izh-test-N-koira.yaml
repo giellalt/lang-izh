@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - koira: # Noun 'dog'
+     koira+N+Sg+Nom: koira
+     koira+N+Sg+Gen: koiran
+     koira+N+Sg+Acc: koiran
+     koira+N+Sg+Part: koiraa
+     koira+N+Sg+Ill: koiraa
+     koira+N+Sg+Ine: koiraas
+     koira+N+Sg+Ela: koirast
+     koira+N+Sg+All: koiralle
+     koira+N+Sg+Ade: koiraal
+     koira+N+Sg+Abl: koiralt
+     koira+N+Sg+Tra: koiraks
+     koira+N+Sg+Ess: koiranna
+     koira+N+Sg+Exe: koirant
+
+     koira+N+Pl+Nom: koirat
+     koira+N+Pl+Gen: koiriin
+     koira+N+Pl+Acc: koirat
+     koira+N+Pl+Part: koiria
+     koira+N+Pl+Ill: koirii
+     koira+N+Pl+Ine: koiriis
+     koira+N+Pl+Ela: koirist
+     koira+N+Pl+All: koirille
+     koira+N+Pl+Ade: koiriil
+     koira+N+Pl+Abl: koirilt
+     koira+N+Pl+Tra: koiriks
+     koira+N+Pl+Ess: koirinna
+     koira+N+Pl+Exe: koirint
+
+
