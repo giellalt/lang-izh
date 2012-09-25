@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - kana: # Noun 'chicken'
+     kana+N+Sg+Nom: kana
+     kana+N+Sg+Gen: kanan
+     kana+N+Sg+Acc: kanan
+     kana+N+Sg+Part: kannaa
+     kana+N+Sg+Ill: kannaa
+     kana+N+Sg+Ine: kanas
+     kana+N+Sg+Ela: kanast
+     kana+N+Sg+All: kanalle
+     kana+N+Sg+Ade: kanal
+     kana+N+Sg+Abl: kanalt
+     kana+N+Sg+Tra: kanaks
+     kana+N+Sg+Ess: kananna
+     kana+N+Sg+Exe: kanant
+
+     kana+N+Pl+Nom: kanat
+     kana+N+Pl+Gen: kannoin
+     kana+N+Pl+Acc: kanat
+     kana+N+Pl+Part: kannoja
+     kana+N+Pl+Ill: kannoi
+     kana+N+Pl+Ine: kanois
+     kana+N+Pl+Ela: kanoist
+     kana+N+Pl+All: kanoille
+     kana+N+Pl+Ade: kanoil
+     kana+N+Pl+Abl: kanoilt
+     kana+N+Pl+Tra: kanoiks
+     kana+N+Pl+Ess: kanoinna
+     kana+N+Pl+Exe: kanoint
+
+

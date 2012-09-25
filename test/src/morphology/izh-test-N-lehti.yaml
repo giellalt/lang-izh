@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - lehti: # Noun 'leaf'
+     lehti+N+Sg+Nom: lehti
+     lehti+N+Sg+Gen: lehen
+     lehti+N+Sg+Acc: lehen
+     lehti+N+Sg+Part: lehteä
+     lehti+N+Sg+Ill: lehtee
+     lehti+N+Sg+Ine: lehes
+     lehti+N+Sg+Ela: lehest
+     lehti+N+Sg+All: lehelle
+     lehti+N+Sg+Ade: lehel
+     lehti+N+Sg+Abl: lehelt
+     lehti+N+Sg+Tra: leheks
+     lehti+N+Sg+Ess: lehtennä
+     lehti+N+Sg+Exe: lehtent
+
+     lehti+N+Pl+Nom: lehet
+     lehti+N+Pl+Gen: lehtilöin
+     lehti+N+Pl+Acc: lehet
+     lehti+N+Pl+Part: lehtilöjä
+     lehti+N+Pl+Ill: lehtilöihe
+     lehti+N+Pl+Ine: lehtilöis
+     lehti+N+Pl+Ela: lehtilöist
+     lehti+N+Pl+All: lehtilöille
+     lehti+N+Pl+Ade: lehtilöil
+     lehti+N+Pl+Abl: lehtilöilt
+     lehti+N+Pl+Tra: lehtilöiks
+     lehti+N+Pl+Ess: lehtilöinnä
+     lehti+N+Pl+Exe: lehtilöint
+
+

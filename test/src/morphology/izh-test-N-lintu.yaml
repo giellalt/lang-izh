@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - lintu: # Noun 'bird'
+     lintu+N+Sg+Nom: lintu
+     lintu+N+Sg+Gen: linnun
+     lintu+N+Sg+Acc: linnun
+     lintu+N+Sg+Part: lintuua
+     lintu+N+Sg+Ill: lintuu
+     lintu+N+Sg+Ine: linnuus
+     lintu+N+Sg+Ela: linnust
+     lintu+N+Sg+All: linnulle
+     lintu+N+Sg+Ade: linnuul
+     lintu+N+Sg+Abl: linnult
+     lintu+N+Sg+Tra: linnuks
+     lintu+N+Sg+Ess: lintuun
+     lintu+N+Sg+Exe: lintuunt
+
+     lintu+N+Pl+Nom: linnut
+     lintu+N+Pl+Gen: lintuloin
+     lintu+N+Pl+Acc: linnut
+     lintu+N+Pl+Part: lintuloja
+     lintu+N+Pl+Ill: lintuloihe
+     lintu+N+Pl+Ine: lintulois
+     lintu+N+Pl+Ela: lintuloist
+     lintu+N+Pl+All: lintuloille
+     lintu+N+Pl+Ade: lintuloil
+     lintu+N+Pl+Abl: lintuloilt
+     lintu+N+Pl+Tra: lintuloiks
+     lintu+N+Pl+Ess: lintuloin
+     lintu+N+Pl+Exe: lintuloint
+
+

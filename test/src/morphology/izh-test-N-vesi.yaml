@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator.gt.hfst
+    Morph: ../../../src/analyser.gt.hfst
+  xerox:
+    Gen: ../../../src/generator.gt.xfst
+    Morph: ../../../src/analyser.gt.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - vesi: # Noun 'water'
+     vesi+N+Sg+Nom: vesi
+     vesi+N+Sg+Gen: veen
+     vesi+N+Sg+Acc: veen
+     vesi+N+Sg+Part: vettä
+     vesi+N+Sg+Ill: vettee
+     vesi+N+Sg+Ine: vees
+     vesi+N+Sg+Ela: veest
+     vesi+N+Sg+All: veelle
+     vesi+N+Sg+Ade: veel
+     vesi+N+Sg+Abl: veelt
+     vesi+N+Sg+Tra: veeks
+     vesi+N+Sg+Ess: vetteennä
+     vesi+N+Sg+Exe: vettent
+
+     vesi+N+Pl+Nom: veet
+     vesi+N+Pl+Gen: vessiin
+     vesi+N+Pl+Acc: veet
+     vesi+N+Pl+Part: vessiä
+     vesi+N+Pl+Ill: vessii
+     vesi+N+Pl+Ine: vesis
+     vesi+N+Pl+Ela: vesist
+     vesi+N+Pl+All: vesille
+     vesi+N+Pl+Ade: vesil
+     vesi+N+Pl+Abl: vesilt
+     vesi+N+Pl+Tra: vesiks
+     vesi+N+Pl+Ess: vessiinnä
+     vesi+N+Pl+Exe: vessint
+
+
