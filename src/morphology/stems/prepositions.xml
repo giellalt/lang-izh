@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>krome</l>
+         <stg>
+            <st Contlex="PrepTag">krome</st>
+         </stg>
+      </lg>
+      <pos>PREP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>läpi</l>
          <stg>
             <st Contlex="PrepTag">läpi</st>

@@ -24,4 +24,26 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>ain</l>
+         <stg>
+            <st Contlex="AdvTemp-Ess">ain</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>aattona</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

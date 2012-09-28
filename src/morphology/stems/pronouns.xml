@@ -178,4 +178,70 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>nämä</l>
+         <stg>
+            <st Contlex="Dem-nämä">nä</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tämä</l>
+         <stg>
+            <st Contlex="Dem-tämä">tä</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kumpa</l>
+         <stg>
+            <st Contlex="Pron-kumpa">kumpa</st>
+         </stg>
+      </lg>
+      <pos>PRON-REL</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

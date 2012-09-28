@@ -3,5 +3,7 @@ LEXICON verbs
 
 ahavojja:ahavo V-ahavojja  "" ;
 jäävvä:jää V-jäävvä  "" ;
+antaa:ant V-antaa  "" ;
+kasvaa:kasv V-antaa  "" ;
 olla:0 V-olla  "" ;
 ei:0 V-ei  "" ;

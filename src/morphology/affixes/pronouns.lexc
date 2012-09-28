@@ -104,6 +104,20 @@ LEXICON Dem-se
 +Pron+Dem+Sg+Tra:iks  K   ;
 +Pron+Dem+Sg+Ess:inä  K   ;
 
+! tämä : tä
+LEXICON Dem-tämä
++Pron+Dem+Sg+Nom:mä  K   ;
++Pron+Dem+Sg+Gen:män  K   ;
++Pron+Dem+Sg+Part:tä  K   ;
++Pron+Dem+Sg+Ill:%>hV1  K   ;
++Pron+Dem+Sg+Ine:s  K   ;
++Pron+Dem+Sg+Ela:st  K   ;
++Pron+Dem+Sg+All:lle  K   ;
++Pron+Dem+Sg+Ade:l  K   ;
++Pron+Dem+Sg+Abl:lt  K   ;
++Pron+Dem+Sg+Tra:ks  K   ;
++Pron+Dem+Sg+Ess:nä  K   ;
+
 ! neet : n
 LEXICON Dem-neet
 +Pron+Dem+Pl+Nom:eet  K   ;
@@ -118,9 +132,49 @@ LEXICON Dem-neet
 +Pron+Dem+Pl+Tra:iiks  K   ;
 +Pron+Dem+Pl+Ess:iin  K   ;
 
+! nämä : nä
+LEXICON Dem-nämä
++Pron+Dem+Pl+Nom:mä  K   ;
++Pron+Dem+Pl+Gen:ijen  K   ;
++Pron+Dem+Pl+Part:itä  K   ;
++Pron+Dem+Pl+Ill:ihe  K   ;
++Pron+Dem+Pl+Ine:is  K   ;
++Pron+Dem+Pl+Ela:ist  K   ;
++Pron+Dem+Pl+All:ille  K   ;
++Pron+Dem+Pl+Ade:il  K   ;
++Pron+Dem+Pl+Abl:ilt  K   ;
++Pron+Dem+Pl+Tra:iks  K   ;
++Pron+Dem+Pl+Ess:in  K   ;
 
 
 
+
+LEXICON Pron-kumpa
++Sg+Nom:     #   ; ! kumpa
++Sg+Gen:%>%^WCnsn	#   ; ! oman
++Sg+Part:%>AÄ1	#   ; ! ommaa
++Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
++Sg+Ine:%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
++Sg+Ela:%>%^WCnsst    #   ; ! maost
++Sg+All:%>%^WCnslle    #   ; ! maolle
++Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
++Sg+Abl:%>%^WCnslt    #   ; ! maolt
++Sg+Tra:%>%^WCnsks    #   ; ! maoks
++Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
++Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
+! Plural
++Pl+Nom:%>%^WCnst     #   ; ! maot
++Pl+Gen:i%>i%>n	#   ; ! matoloin
++Pl+Part:%>i%>AÄ1	#   ; ! matoloja
++Pl+Ill:%>i%>hV1	#   ; ! kalattommii
++Pl+Ine:%>i%>s    #   ; ! matoloiz
++Pl+Ela:%>i%>st    #   ; ! matoloist
++Pl+All:%>i%>lle    #   ; ! matoloille
++Pl+Ade:%>i%>l    #   ; ! matoloil
++Pl+Abl:%>i%>lt    #   ; ! matoloilt
++Pl+Tra:%>i%>ks    #   ; ! matoloiks
++Pl+Ess:%>i%>n    #   ; ! matoloinna
++Pl+Exe:%>i%>nt    #   ; ! matoloint
 
 
 

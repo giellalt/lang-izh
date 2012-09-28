@@ -1,4 +1,10 @@
 
 LEXICON propernouns
 
+Hevaa:Hevaa Prop-laukaa  "" ;
+Laukaa:Laukaa Prop-laukaa  "" ;
+Bubrih:Bubrih Prop-bubrih  "" ;
+Stalin:Stalin Prop-bubrih  "" ;
+Iljina:Iljin Prop-iljina  "" ;
+Soikkola:Soikkola Prop-soikkola  "" ;
 Vennääjä:Vennääjä Prop-vennääjä  "" ;
