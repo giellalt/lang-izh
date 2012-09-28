@@ -48,6 +48,50 @@
    </entry>
    <entry>
       <lg>
+         <l>antaa</l>
+         <stg>
+            <st Contlex="V-antaa">ant</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kasvaa</l>
+         <stg>
+            <st Contlex="V-antaa">kasv</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>olla</l>
          <stg>
             <st Contlex="V-olla">0</st>

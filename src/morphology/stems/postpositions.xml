@@ -46,4 +46,48 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>kera</l>
+         <stg>
+            <st Contlex="PoTag">kera</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vart</l>
+         <stg>
+            <st Contlex="PoTag">vart</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>
