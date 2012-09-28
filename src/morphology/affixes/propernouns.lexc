@@ -16,6 +16,7 @@ LEXICON Prop-laukaa
 LEXICON Prop-soikkola
 +N+Prop+Sg+Nom: K  ;
 +N+Prop+Sg+Gen:%>n K  ;
++N+Prop+Sg+Part:%>AÄ1 K  ;
 +N+Prop+Sg+Ine:%>%^LVwss K  ;
 +N+Prop+Sg+Ela:%>st K  ;
 
