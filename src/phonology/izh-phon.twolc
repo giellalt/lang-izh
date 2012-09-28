@@ -128,9 +128,6 @@ Rules
          ~[ Cns | Vws ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | ~[ Cns | Vws ] ] ;
        where Vx in (a o u ä ö y e) ; 
 
-! Vowel a:o
-"a:o"
- a:o <=> _ %> %^AtoO:0 i: %> ;
 
 ! Secondary Consonant lengthening
 ! mato : mattoo, näytettävä : näytettävvää
@@ -176,7 +173,7 @@ k:g <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 ! aika: ajan
 "kToZero"
-k:0 <=> [ #: ] Cns* Vws ( k | i: ) _ Vws: ( 0: | %>:0 %^AtoO:0 i: ) %>:0 %^WCns:0 ;
+k:0 <=> [ #: ] Cns* Vws ( k | i: ) _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
 
 

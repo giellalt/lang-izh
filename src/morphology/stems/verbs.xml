@@ -50,7 +50,7 @@
       <lg>
          <l>olla</l>
          <stg>
-            <st Contlex="V-olla"/>
+            <st Contlex="V-olla">0</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -63,7 +63,29 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>ahavoida</t>
+               <t>olla</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ei</l>
+         <stg>
+            <st Contlex="V-ei">0</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>ei</t>
             </tg>
          </mg>
       </e>
