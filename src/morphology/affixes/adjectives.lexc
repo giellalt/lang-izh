@@ -69,7 +69,8 @@ LEXICON A-erilaajain
 +A+Pl+Ess:s%>i%>nnAÄ1    #   ; ! variksinna
 +A+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
 
-
+LEXICON Attr-eri
++Attr: # ;
 
 ! vim: set ft=xfst-lexc:
 

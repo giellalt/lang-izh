@@ -224,9 +224,31 @@
    </entry>
    <entry>
       <lg>
+         <l>aika-arvo</l>
+         <stg>
+            <st Contlex="N-mato">aika-arvo</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jalka</l>
          <stg>
-            <st Contlex="N-jalka">jalka</st>
+            <st Contlex="N-jalka">jalk</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -246,9 +268,97 @@
    </entry>
    <entry>
       <lg>
+         <l>iƶora</l>
+         <stg>
+            <st Contlex="N-jalka">iƶor</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>abessiva</l>
+         <stg>
+            <st Contlex="N-jalka">abessiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>adverba</l>
+         <stg>
+            <st Contlex="N-jalka">adverb</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>adjektiva</l>
+         <stg>
+            <st Contlex="N-jalka">adjektiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>laiva</l>
          <stg>
-            <st Contlex="N-jalka">laiva</st>
+            <st Contlex="N-jalka">laiv</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -270,7 +380,7 @@
       <lg>
          <l>kirja</l>
          <stg>
-            <st Contlex="N-jalka">kirja</st>
+            <st Contlex="N-jalka">kirj</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -292,7 +402,7 @@
       <lg>
          <l>aika</l>
          <stg>
-            <st Contlex="N-jalka">aika</st>
+            <st Contlex="N-jalka">aik</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -314,7 +424,7 @@
       <lg>
          <l>laajasana</l>
          <stg>
-            <st Contlex="N-jalka">laajasana</st>
+            <st Contlex="N-jalka">laajasan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -336,7 +446,7 @@
       <lg>
          <l>liitsa</l>
          <stg>
-            <st Contlex="N-jalka">liitsa</st>
+            <st Contlex="N-jalka">liits</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -358,7 +468,7 @@
       <lg>
          <l>kolhoza</l>
          <stg>
-            <st Contlex="N-jalka">kolhoza</st>
+            <st Contlex="N-jalka">kolhoz</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -446,7 +556,7 @@
       <lg>
          <l>kana</l>
          <stg>
-            <st Contlex="N-jalka">kana</st>
+            <st Contlex="N-jalka">kan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -468,7 +578,7 @@
       <lg>
          <l>kala</l>
          <stg>
-            <st Contlex="N-jalka">kala</st>
+            <st Contlex="N-jalka">kal</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -490,7 +600,7 @@
       <lg>
          <l>silta</l>
          <stg>
-            <st Contlex="N-jalka">silta</st>
+            <st Contlex="N-jalka">silt</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -512,7 +622,7 @@
       <lg>
          <l>cislasana</l>
          <stg>
-            <st Contlex="N-jalka">cislasana</st>
+            <st Contlex="N-jalka">cislasan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -534,7 +644,7 @@
       <lg>
          <l>geminatta</l>
          <stg>
-            <st Contlex="N-jalka">geminatta</st>
+            <st Contlex="N-jalka">geminatt</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -556,7 +666,7 @@
       <lg>
          <l>fakta</l>
          <stg>
-            <st Contlex="N-jalka">fakta</st>
+            <st Contlex="N-jalka">fakt</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -578,7 +688,7 @@
       <lg>
          <l>kansa</l>
          <stg>
-            <st Contlex="N-jalka">kansa</st>
+            <st Contlex="N-jalka">kans</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -600,7 +710,7 @@
       <lg>
          <l>bukva</l>
          <stg>
-            <st Contlex="N-jalka">bukva</st>
+            <st Contlex="N-jalka">bukv</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -622,7 +732,7 @@
       <lg>
          <l>alkuaika</l>
          <stg>
-            <st Contlex="N-jalka">alkuaika</st>
+            <st Contlex="N-jalka">alkuaik</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -644,7 +754,7 @@
       <lg>
          <l>nimisana</l>
          <stg>
-            <st Contlex="N-jalka">nimisana</st>
+            <st Contlex="N-jalka">nimisan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -666,7 +776,7 @@
       <lg>
          <l>dialekta</l>
          <stg>
-            <st Contlex="N-jalka">dialekta</st>
+            <st Contlex="N-jalka">dialekt</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -688,7 +798,7 @@
       <lg>
          <l>diftonga</l>
          <stg>
-            <st Contlex="N-jalka">diftonga</st>
+            <st Contlex="N-jalka">diftong</st>
          </stg>
       </lg>
       <pos>N</pos>
