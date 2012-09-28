@@ -132,7 +132,6 @@ LEXICON V-jäävvä
 +V+Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
 ! +V+Ger:ollees		#   ;
 
-
 LEXICON V-antaa
 +V+Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
 +V+Ind+Prs+Sg2:a%>%^WCnst	#   ;
@@ -191,6 +190,66 @@ LEXICON V-antaa
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
 +V+Der/min:a%>mi N-kärpäin ;
+
+! (??)
+LEXICON V-arvata
++V+Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
++V+Ind+Prs+Sg2:a%>%^WCnst	#   ;
++V+Ind+Prs+Sg3:a%>%^LVws	#   ;
++V+Ind+Prs+Pl1:a%>%^WCnsmmAÄ1	#   ;
++V+Ind+Prs+Pl2:a%>%^WCnsttAÄ1	#   ;
++V+Ind+Prs+Pl3:a%>%^LVwst	#   ;
++V+Ind+Prs+4:%>%^WCnstaa	#   ;
++V+Ind+Prs+ConNeg:a	#   ;
+
++V+Ind+Prt+Sg1:%>sin       #   ; ! oon
++V+Ind+Prt+Sg2:%>sit       #   ;
++V+Ind+Prt+Sg3:si        #   ;
++V+Ind+Prt+Pl1:%>simma     #   ;
++V+Ind+Prt+Pl2:%>sitta     #   ;
+!+V+Ind+Prt+Pl3:%>sivat     #   ;
++V+Ind+Prt+Pl3:%>ttii     #   ;
++V+Ind+Prt+ConNeg:nt         #   ;
+!+V+Ind+ConNeg+Prt:%>%^WCnsttu         #   ;
+
++V+Pot+Prs+Sg1:%>nen      #   ; ! oon
++V+Pot+Prs+Sg2:%>net      #   ;
++V+Pot+Prs+Sg3:%>noo      #   ;
++V+Pot+Prs+Pl1:%>nemmAÄ1    #   ;
++V+Pot+Prs+Pl2:%>nettAÄ1    #   ;
++V+Pot+Prs+Pl3:%>noot     #   ;
+!+V+Pot+Prs+4:ttanoo      #   ;
+!+V+Pot+Prs+ConNeg:oo                #   ;
+
+! +V+Cond+Prs+Sg1:olisin      #   ; ! oon
+! +V+Cond+Prs+Sg2:olisit      #   ;
+! +V+Cond+Prs+Sg3:olis      #   ;
+! +V+Cond+Prs+Pl1:olisimma    #   ;
+! +V+Cond+Prs+Pl2:olisitta    #   ;
+! +V+Cond+Prs+Pl3:olisivat     #   ;
++V+Cond+Prs+4:ttais      #   ;
+! !+V+Cond+Prs+ConNeg:oo                #   ;
+! 
+! +V+Imprt+Prs+Sg2:oo      #   ;
+! +V+Imprt+Prs+Sg3:olkoo      #   ;
+! +V+Imprt+Prs+Pl1:olkaa    #   ;
+! +V+Imprt+Prs+Pl2:olkoot    #   ;
+! !+V+Imprt+Prs+Pl3:olisivat     #   ; ! laa ovat
+! +V+Imprt+Prs+4:oltakoo      #   ;
+! !+V+Imprt+Prs+ConNeg:oo                #   ;
+! 
+! +V+Prc:oleva			       #   ;
+! +V+Prc:olt			       #   ;
++V+Prc:ttava			       #   ;
+! +V+Prc:oltu			       #   ;
+! 
++V+Inf:%>tAÄ1             #   ; ! antaa
++V+Inf+Ill:%>mAÄ1%>V1       #   ; ! antamaa
+! +V+Inf+Ine:olemaas      #   ;
+! +V+Inf+Ela:olemast      #   ;
+! +V+Inf+Abe:olemata      #   ;
+! +V+Ger:ollees		#   ;
++V+Der/min:%>mi N-kärpäin ;
 
 ! (V)
 LEXICON V-ahavojja
