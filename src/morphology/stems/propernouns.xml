@@ -4,6 +4,138 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
+         <l>Hevaa</l>
+         <stg>
+            <st Contlex="Prop-laukaa">Hevaa</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Laukaa</l>
+         <stg>
+            <st Contlex="Prop-laukaa">Laukaa</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Bubrih</l>
+         <stg>
+            <st Contlex="Prop-bubrih">Bubrih</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Stalin</l>
+         <stg>
+            <st Contlex="Prop-bubrih">Stalin</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Iljina</l>
+         <stg>
+            <st Contlex="Prop-iljina">Iljin</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Soikkola</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Soikkola</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Vennääjä</l>
          <stg>
             <st Contlex="Prop-vennääjä">Vennääjä</st>

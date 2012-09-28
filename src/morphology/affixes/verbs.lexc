@@ -133,6 +133,64 @@ LEXICON V-jäävvä
 ! +V+Ger:ollees		#   ;
 
 
+LEXICON V-antaa
++V+Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
++V+Ind+Prs+Sg2:a%>%^WCnst	#   ;
++V+Ind+Prs+Sg3:a%>%^LVws	#   ;
++V+Ind+Prs+Pl1:a%>%^WCnsmmAÄ1	#   ;
++V+Ind+Prs+Pl2:a%>%^WCnsttAÄ1	#   ;
++V+Ind+Prs+Pl3:a%>%^LVwst	#   ;
++V+Ind+Prs+4:e%>%^WCnstaa	#   ;
++V+Ind+Prs+ConNeg:a%>%^WCns	#   ;
+
++V+Ind+Prt+Sg1:o%>%^WCnsin       #   ; ! oon
++V+Ind+Prt+Sg2:o%>%^WCnsit       #   ;
++V+Ind+Prt+Sg3:oi        #   ;
++V+Ind+Prt+Pl1:o%>%^WCnsimma     #   ;
++V+Ind+Prt+Pl2:o%>%^WCnsitta     #   ;
+!+V+Ind+Prt+Pl3:oivat     #   ;
++V+Ind+Prt+Pl3:e%>tii     #   ;
++V+Ind+Prt+ConNeg:ant         #   ;
+!+V+Ind+ConNeg+Prt:e%>%^WCnsttu         #   ;
+
++V+Pot+Prs+Sg1:a%>nen      #   ; ! oon
++V+Pot+Prs+Sg2:a%>net      #   ;
++V+Pot+Prs+Sg3:a%>noo      #   ;
++V+Pot+Prs+Pl1:a%>nemmAÄ1    #   ;
++V+Pot+Prs+Pl2:a%>nettAÄ1    #   ;
++V+Pot+Prs+Pl3:a%>noot     #   ;
+!+V+Pot+Prs+4:ollaa      #   ;
+!+V+Pot+Prs+ConNeg:oo                #   ;
+
+! +V+Cond+Prs+Sg1:olisin      #   ; ! oon
+! +V+Cond+Prs+Sg2:olisit      #   ;
+! +V+Cond+Prs+Sg3:olis      #   ;
+! +V+Cond+Prs+Pl1:olisimma    #   ;
+! +V+Cond+Prs+Pl2:olisitta    #   ;
+! +V+Cond+Prs+Pl3:olisivat     #   ;
+! +V+Cond+Prs+4:oltais      #   ;
+! !+V+Cond+Prs+ConNeg:oo                #   ;
+! 
+! +V+Imprt+Prs+Sg2:oo      #   ;
+! +V+Imprt+Prs+Sg3:olkoo      #   ;
+! +V+Imprt+Prs+Pl1:olkaa    #   ;
+! +V+Imprt+Prs+Pl2:olkoot    #   ;
+! !+V+Imprt+Prs+Pl3:olisivat     #   ; ! laa ovat
+! +V+Imprt+Prs+4:oltakoo      #   ;
+! !+V+Imprt+Prs+ConNeg:oo                #   ;
+! 
+! +V+Prc:oleva			       #   ;
+! +V+Prc:olt			       #   ;
+! +V+Prc:oltava			       #   ;
+! +V+Prc:oltu			       #   ;
+! 
++V+Inf:a%>AÄ1             #   ; ! antaa
++V+Inf+Ill:a%>mAÄ1%>V1       #   ; ! antamaa
+! +V+Inf+Ine:olemaas      #   ;
+! +V+Inf+Ela:olemast      #   ;
+! +V+Inf+Abe:olemata      #   ;
+! +V+Ger:ollees		#   ;
++V+Der/min:a%>mi N-kärpäin ;
 
 ! (V)
 LEXICON V-ahavojja

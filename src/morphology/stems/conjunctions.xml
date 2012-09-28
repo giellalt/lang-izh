@@ -24,4 +24,92 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>tali</l>
+         <stg>
+            <st Contlex="CcTag">tali</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>tai</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>jot</l>
+         <stg>
+            <st Contlex="CsTag">jot</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ku</l>
+         <stg>
+            <st Contlex="CsTag">ku</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>kun</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mut</l>
+         <stg>
+            <st Contlex="CsTag">mut</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>mutta</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

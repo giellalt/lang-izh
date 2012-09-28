@@ -2,8 +2,11 @@
 !! --------------------
 !! Ingrian adjectives compare.
 
+LEXICON AdvTemp
++Adv+Temp:0        K   ;
+
 LEXICON AdvTemp-Ess
-+Adv+Ess:0        K   ;
++Adv+Temp+Ess:0        K   ;
 
 
 ! vim: set ft=xfst-lexc:

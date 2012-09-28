@@ -4,6 +4,13 @@ LEXICON adjectives
 avvaaro:avvaaro A-avvaaro  "" ;
 kalatoin:kalat A-kalatoin  "" ;
 liitsamääräämätöin:liitsamääräämät A-kalatoin  "" ;
+oma:oma A-oma  "" ;
+glavnoi:glavnoi A-glavnoi  "" ;
+prakticeskoi:prakticeskoi A-glavnoi  "" ;
+orfograficeskoi:orfograficeskoi A-glavnoi  "" ;
+natsionaljnoi:natsionaljnoi A-glavnoi  "" ;
+vaaƶnoi:vaaƶnoi A-glavnoi  "" ;
+vaaƶnoi:vaaƶnoi A-glavnoi  "" ;
 erilaajain:erilaajai A-erilaajain  "" ;
 eripainoin:eripainoi A-erilaajain  "" ;
 erityin:erityi A-erilaajain  "" ;

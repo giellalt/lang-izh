@@ -10,7 +10,11 @@ LEXICON Ord-toin
 +Num+Ord+Sg+Part:s%>tAÄ1 K ;
 +Num+Ord+Sg+Ill:sehee K ;
 +Num+Ord+Sg+Ine:ses K ;
++Num+Ord+Sg+Ela:sest K ;
++Num+Ord+Sg+All:selle K ;
 +Num+Ord+Sg+Ade:seel K ;
++Num+Ord+Sg+Abl:selt K ;
++N+Sg+Instr:see%>nkAÄ1    #   ; ! maanka
 
 +Num+Ord+Pl+Nom:set K ;
 +Num+Ord+Pl+Part:sia K ;

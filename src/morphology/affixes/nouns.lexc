@@ -407,6 +407,39 @@ LEXICON N-kärpäin
 +N+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
 +N+Pl+Instr:s%>i%>nkAÄ1    #   ; ! mataloinka
 
+! inmihiin (XIII-b)
+LEXICON N-inmihiin
++N+Sg+Nom:in           K  ;
++N+Sg+Gen:se%>n      K  ;
++N+Sg+Acc:se%>n      K  ;
++N+Sg+Part:s%>tAÄ1	#   ; ! kärpäistä
++N+Sg+Ill:se%>%^LCnsV1	#   ; ! mattoo
++N+Sg+Ine:se%>%^WCns%^LVwss    #   ; ! maooz
++N+Sg+Ela:se%>%^WCnsst    #   ; ! maost
++N+Sg+All:se%>%^WCnslle    #   ; ! maolle
++N+Sg+Ade:se%>%^WCns%^LVwsl    #   ; ! maool
++N+Sg+Abl:se%>%^WCnslt    #   ; ! maolt
++N+Sg+Tra:se%>%^WCnsks    #   ; ! maoks
++N+Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
++N+Sg+Exe:se%>nt			    K	; !variksent
++N+Sg+Instr:se%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++N+Pl+Nom:se%>%^WCnst     #   ; ! varikset
++N+Pl+Gen:si%>i%>n	#   ; ! variksin
++N+Pl+Acc:se%>%^WCnst     #   ; ! varikset
++N+Pl+Part:s%>i%>AÄ1	#   ; ! variksia
++N+Pl+Ill:s%>i%>V1	#   ; ! variksii
++N+Pl+Ine:s%>i%>%^LVwss    #   ; ! variksiis
++N+Pl+Ela:s%>i%>st    #   ; ! matoloist
++N+Pl+All:s%>i%>lle    #   ; ! matoloille
++N+Pl+Ade:s%>i%>%^LVwsl    #   ; ! variksiil
++N+Pl+Abl:s%>i%>lt    #   ; ! matoloilt
++N+Pl+Tra:s%>i%>ks    #   ; ! matoloiks
++N+Pl+Ess:s%>i%>nnAÄ1    #   ; ! variksinna
++N+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
++N+Pl+Instr:s%>i%>nkAÄ1    #   ; ! mataloinka
+
+
 ! keeli (IX-b)
 LEXICON N-keeli
 +N+Sg+Nom:i     #   ; ! keeli
