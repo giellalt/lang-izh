@@ -107,6 +107,8 @@ Multichar_Symbols
  %^ShVws %^LVws
  %^ShCns %^LCns
  %^WCns %^StrCns
+ %^AtoO
+ %^ÄtoÖ
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
@@ -117,6 +119,7 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 0   adjectives  ;
 0   adverbs  ;
+0   conjunctions   ;
 0   nouns   ;
 0   postpositions    ;
 0   prepositions    ;
@@ -130,5 +133,12 @@ Acronym		 ;
 Punctuation	 ;
 wordToNumeral    ;
 
+!! POS with minimal morphological variation
+
+LEXICON CcTag
++Cc:   #   ;
+
+LEXICON CsTag
++Cs:   #   ;
 
 ! vim: set ft=xfst-lexc:

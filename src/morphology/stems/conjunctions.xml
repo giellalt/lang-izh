@@ -4,44 +4,22 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
-         <l>ensimäin</l>
+         <l>ja</l>
          <stg>
-            <st Contlex="Ord-toin">ensimäi</st>
+            <st Contlex="CcTag">ja</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
+      <pos>CC</pos>
       <e>
          <mg>
             <m>
                <head/>
             </m>
             <tg lang="eng">
-               <t>first</t>
+               <t/>
             </tg>
             <tg lang="fin">
-               <t>ensimmäinen</t>
-            </tg>
-         </mg>
-      </e>
-   </entry>
-   <entry>
-      <lg>
-         <l>toin</l>
-         <stg>
-            <st Contlex="Ord-toin">toi</st>
-         </stg>
-      </lg>
-      <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>second</t>
-            </tg>
-            <tg lang="fin">
-               <t>toinen</t>
+               <t>ja</t>
             </tg>
          </mg>
       </e>

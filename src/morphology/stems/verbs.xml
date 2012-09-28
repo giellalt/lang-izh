@@ -26,9 +26,31 @@
    </entry>
    <entry>
       <lg>
+         <l>jäävvä</l>
+         <stg>
+            <st Contlex="V-jäävvä">jää</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>jäädä</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>olla</l>
          <stg>
-            <st Contlex="V-olla"></st>
+            <st Contlex="V-olla"/>
          </stg>
       </lg>
       <pos>V</pos>
