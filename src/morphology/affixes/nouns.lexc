@@ -385,16 +385,16 @@ LEXICON N-varis
 +N+Sg+Ade:kse%>%^WCns%^LVwsl    #   ; ! maool
 +N+Sg+Abl:kse%>%^WCnslt    #   ; ! maolt
 +N+Sg+Tra:kse%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:kse%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
++N+Sg+Ess:kse%>nnAÄ1    #   ; ! variksenna
 +N+Sg+Exe:kse%>nt			    K	; !variksent
-+N+Sg+Instr:kse%>%^WCnsnkAÄ1    #   ; ! maanka
++N+Sg+Instr:kse%>nkAÄ1    #   ; ! maanka
 ! Plural
 +N+Pl+Nom:kse%>%^WCnst     #   ; ! varikset
 +N+Pl+Gen:ks%>i%>n	#   ; ! variksin
 +N+Pl+Gen:ksi%>i%>n	#   ; ! variksiin
 +N+Pl+Acc:kse%>%^WCnst     #   ; ! varikset
 +N+Pl+Part:ks%>i%>AÄ1	#   ; ! variksia
-+N+Pl+Ill:ks%>i%>V1	#   ; ! variksii
++N+Pl+Ill:ks%>i%>%^LVws	#   ; ! variksii
 +N+Pl+Ine:ks%>i%>s    #   ; ! variksis
 +N+Pl+Ine:ks%>i%>%^LVwss    #   ; ! variksiis
 +N+Pl+Ela:ks%>i%>st    #   ; ! matoloist
