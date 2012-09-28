@@ -51,7 +51,7 @@ LEXICON V-olla
 +V+Cond+Prs+Pl1:olisimma    #   ;
 +V+Cond+Prs+Pl2:olisitta    #   ;
 +V+Cond+Prs+Pl3:olisivat     #   ;
-!+V+Cond+Prs+4:oltais      #   ;
++V+Cond+Prs+4:oltais      #   ;
 !+V+Cond+Prs+ConNeg:oo                #   ;
 
 +V+Imprt+Prs+Sg2:oo      #   ;
@@ -73,6 +73,64 @@ LEXICON V-olla
 +V+Inf+Ela:olemast      #   ;
 +V+Inf+Abe:olemata      #   ;
 +V+Ger:ollees		#   ;
+
+LEXICON V-jäävvä
++V+Ind+Prs+Sg1:n	#   ; ! oon
++V+Ind+Prs+Sg2: 	#   ;
++V+Ind+Prs+Sg3:p	#   ;
++V+Ind+Prs+Pl1:mmAÄ1	#   ;
++V+Ind+Prs+Pl2:ttAÄ1	#   ;
+!+V+Ind+Prs+Pl3:ovat	#   ;
++V+Ind+Prs+4:tAÄ1AÄ1	#   ;
++V+Ind+Prs+ConNeg:0		#   ;
+
++V+Ind+Prt+Sg1:in       #   ; ! oon
++V+Ind+Prt+Sg2:it       #   ;
++V+Ind+Prt+Sg3:i        #   ;
++V+Ind+Prt+Pl1:immAÄ1AÄ1     #   ;
++V+Ind+Prt+Pl2:ittAÄ1AÄ1     #   ;
+!+V+Ind+Prt+Pl3:olivat     #   ;
++V+Ind+Prt+Pl3:tii     #   ;
++V+Ind+Prt+ConNeg:nt         #   ;
+!+V+Ind+ConNeg+Prt:tUY1         #   ;
+
++V+Pot+Prs+Sg1:nen      #   ; ! oon
++V+Pot+Prs+Sg2:net      #   ;
++V+Pot+Prs+Sg3:nOÖ1OÖ1      #   ;
++V+Pot+Prs+Pl1:nemmAÄ1    #   ;
++V+Pot+Prs+Pl2:nettAÄ1    #   ;
+!+V+Pot+Prs+Pl3:nööt     #   ;
+!+V+Pot+Prs+4:      #   ;
+!+V+Pot+Prs+ConNeg:oo                #   ;
+
+! +V+Cond+Prs+Sg1:olisin      #   ; ! oon
+! +V+Cond+Prs+Sg2:olisit      #   ;
+! +V+Cond+Prs+Sg3:olis      #   ;
+! +V+Cond+Prs+Pl1:olisimma    #   ;
+! +V+Cond+Prs+Pl2:olisitta    #   ;
+! +V+Cond+Prs+Pl3:olisivat     #   ;
+! !+V+Cond+Prs+4:oltais      #   ;
+! !+V+Cond+Prs+ConNeg:oo                #   ;
+! 
+! +V+Imprt+Prs+Sg2:oo      #   ;
+! +V+Imprt+Prs+Sg3:olkoo      #   ;
+! +V+Imprt+Prs+Pl1:olkaa    #   ;
+! +V+Imprt+Prs+Pl2:olkoot    #   ;
+! !+V+Imprt+Prs+Pl3:olisivat     #   ; ! laa ovat
+! +V+Imprt+Prs+4:oltakoo      #   ;
+! !+V+Imprt+Prs+ConNeg:oo                #   ;
+! 
+! +V+Prc:oleva			       #   ;
++V+Prc:nt			       #   ; !jäänt
+! +V+Prc:oltava			       #   ;
+! +V+Prc:oltu			       #   ;
+! 
+! +V+Inf:olla             #   ;
++V+Inf+Ill:%>mAÄ1%>AÄ1       #   ;
+! +V+Inf+Ine:olemaas      #   ;
+! +V+Inf+Ela:olemast      #   ;
++V+Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
+! +V+Ger:ollees		#   ;
 
 
 

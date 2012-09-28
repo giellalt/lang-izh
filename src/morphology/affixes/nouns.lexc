@@ -113,18 +113,18 @@ LEXICON N-jalka
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
 +N+Pl+Nom:%>%^WCnst     #   ; ! jalat
-+N+Pl+Gen:%>i%>n	#   ; ! jalkoin
-+N+Pl+Part:%>i%>AÄ1	#   ; ! jalkoja
-+N+Pl+Ill:%>i%>hV1	#   ; ! jalkoihe
-+N+Pl+Ine:%>i%>s    #   ; ! jalois
-+N+Pl+Ela:%>i%>st    #   ; ! jaloist
-+N+Pl+All:%>i%>lle    #   ; ! jaloille
-+N+Pl+Ade:%>i%>l    #   ; ! jaloil
-+N+Pl+Abl:%>i%>lt    #   ; ! jaloilt
-+N+Pl+Tra:%>i%>ks    #   ; ! jaloiks
-+N+Pl+Ess:%>i%>nnAÄ1    #   ; ! jalkoin
-+N+Pl+Exe:%>i%>nt    #   ; ! jalkoin
-+N+Pl+Instr:%>i%>nkAÄ1    #   ; ! maanka
++N+Pl+Gen:%>%^AtoOi%>n	#   ; ! jalkoin
++N+Pl+Part:%>%^AtoOi%>AÄ1	#   ; ! jalkoja
++N+Pl+Ill:%>%^AtoOi%>hV1	#   ; ! jalkoihe
++N+Pl+Ine:%>%^AtoOi%>%^WCnss    #   ; ! jalois
++N+Pl+Ela:%>%^AtoOi%>%^WCnsst    #   ; ! jaloist
++N+Pl+All:%>%^AtoOi%>%^WCnslle    #   ; ! jaloille
++N+Pl+Ade:%>%^AtoOi%>%^WCnsl    #   ; ! jaloil
++N+Pl+Abl:%>%^AtoOi%>%^WCnslt    #   ; ! jaloilt
++N+Pl+Tra:%>%^AtoOi%>%^WCnsks    #   ; ! jaloiks
++N+Pl+Ess:%>%^AtoOi%>nnAÄ1    #   ; ! jalkoin
++N+Pl+Exe:%>%^AtoOi%>nt    #   ; ! jalkoin
++N+Pl+Instr:%>%^AtoOi%>nkAÄ1    #   ; ! maanka
 
 ! ommeena (V)
 LEXICON N-ommeena
@@ -406,6 +406,35 @@ LEXICON N-kärpäin
 +N+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
 +N+Pl+Instr:s%>i%>nkAÄ1    #   ; ! mataloinka
 
+! keeli (IX-b)
+LEXICON N-keeli
++N+Sg+Nom:i     #   ; ! keeli
++N+Sg+Gen:e%>%^WCnsn	#   ; ! maon
++N+Sg+Part:%>%^LCns%^LVwstAÄ1	#   ; ! keeltä
++N+Sg+Ill:e%>%^LCnsV1	#   ; ! mattoo
++N+Sg+Ine:e%>%^WCns%^LVwss    #   ; ! maooz
++N+Sg+Ela:e%>%^WCnsst    #   ; ! maost
++N+Sg+All:e%>%^WCnslle    #   ; ! maolle
++N+Sg+Ade:e%>%^WCns%^LVwsl    #   ; ! maool
++N+Sg+Abl:e%>%^WCnslt    #   ; ! maolt
++N+Sg+Tra:e%>%^WCnsks    #   ; ! maoks
++N+Sg+Ess:e%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++N+Sg+Exe:e%>%^LCns%^LVwsnt    #   ; ! mattoon
++N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++N+Pl+Nom:e%>%^WCnst     #   ; ! keelet
++N+Pl+Gen:%>ii%>n	#   ; ! keeliin
++N+Pl+Part:%>i%>AÄ1	#   ; ! matoloja
++N+Pl+Ill:%>i%>hV1	#   ; ! matoloihe
++N+Pl+Ine:%>ii%>s    #   ; ! keeliis
++N+Pl+Ela:%>i%>st    #   ; ! matoloist
++N+Pl+All:%>i%>lle    #   ; ! matoloille
++N+Pl+Ade:%>ii%>l    #   ; ! matoloil
++N+Pl+Abl:%>i%>lt    #   ; ! matoloilt
++N+Pl+Tra:%>i%>ks    #   ; ! matoloiks
++N+Pl+Ess:%>i%>nnAÄ1    #   ; ! matoloin
++N+Pl+Exe:%>i%>nt    #   ; ! matoloint
++N+Pl+Instr:%>ii%>nkAÄ1    #   ; ! mataloinka
 
 ! (XIV)
 LEXICON N-XIV

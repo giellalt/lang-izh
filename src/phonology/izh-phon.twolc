@@ -14,7 +14,7 @@ A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö
 AÄ1:a
 AÄ1:ä
 
-! Vowel harmony with "loi/löi"
+! Vowel harmony with "loi/löi" also kalatOÖ1in
 OÖ1:o
 OÖ1:ö
 
@@ -36,6 +36,9 @@ V1:ö
 %^LVws:0
 %^LCns:0
 %^WCns:0
+%^AtoO:0
+%^ÄtoÖ:0
+
 
 ;
 
@@ -47,20 +50,22 @@ VwsFront = ä ö y ü ;
 VwsNeutral = e i ; 
 Vws = a o u ä ö y ü e i ;
 
-Cons = b d f g h j k l m n p r s ş š t v z ƶ ž ;
+Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;
 
-Letters = Vows Cons ;
+Letters = Vws Cns ;
 
 
 
 Definitions
 
 ! Front Trigger
-FT = [ #: [ Cons | VwsNeutral ]+ | :VwsFront [ Cons | VwsNeutral ]*  | VwsFront:0 [ Cons | VwsNeutral ]* ] ( %>:0 ) ( i: ) ;
+FT = [ #: [ Cns | VwsNeutral ]+ | :VwsFront [ Cns | VwsNeutral ]*  | VwsFront:0 [ Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
 
 ! Back Trigger 
-BT =  [ :VwsBack [ Cons | VwsNeutral]* | VwsBack:0 [ Cons | VwsNeutral]* ] ( %>:0 ) ( i: ) ;
+BT =  [ :VwsBack [ Cns | VwsNeutral]* | VwsBack:0 [ Cns | VwsNeutral]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
 
+! Short vowel
+SV = [ [ #: | Cns+ ] :Vws ] ;
 
 Rules
 
@@ -81,6 +86,7 @@ Rules
 ! iToj between vowels
 "i:j"
  i:j <=> :Vws :0* _ %>:0 [ AÄ1:a | AÄ1:ä ] ;
+         Vws _ Cns:0 Vws: ;
 
 !€ em0o0i%>%^LCnsAÄ1
 !€ emmooj00a
@@ -120,21 +126,26 @@ Rules
  "Zero:Vx"
  0:Vx <=> Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
          ~[ Cns | Vws ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | ~[ Cns | Vws ] ] ;
-       where Vx in (a o u ä ö y e i) ; 
+       where Vx in (a o u ä ö y e) ; 
 
+! Vowel a:o
+"a:o"
+ a:o <=> _ %> %^AtoO:0 i: %> ;
 
 ! Secondary Consonant lengthening
 ! mato : mattoo, näytettävä : näytettävvää
 !"even-syllable" This should be secondary
 "consonant lengthening"
- 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws :0+  :Vws ;
+! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws :0+  :Vws ;
+ 0:Cx <=>  SV ( Vws* Cns+ Vws+ Cns+ Vws ) Cx _ Vws :0+  :Vws ;
 ! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
            where Cx in (v m t s n r l k h) ;
 
 ! oja: oija
 "j lengthening"
 0:i <=> ~[ Cns | Vws ] Cns* Vws _ j Vws ( 0: ) %>:0 %^LCns:0  ;
-
+          i _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
+         ~[ Cns | Vws ] Cns* Vws Cns 0: i _ Cns :0 Vws [ Cns | ~[ Cns | Vws ] ] ;
 !!!!!!!!!!!!!!!!!!!!!!!!!
 !! Consonant weakening !!
 !!!!!!!!!!!!!!!!!!!!!!!!!
@@ -163,14 +174,17 @@ p:m <=> ~[ Cns | Vws ] Cns* Vws m _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 k:g <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 
+! aika: ajan
+"kToZero"
+k:0 <=> [ #: ] Cns* Vws ( k | i: ) _ Vws: ( 0: | %>:0 %^AtoO:0 i: ) %>:0 %^WCns:0 ;
+
 
 
 ! mato : maot, mato : maool
 ! tToZero in weak
-"Double stop:weakens"
-Cx:Cy <=> ~[ Cns | Vws ] Cns* Vws ( Cx ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
-       where Cx in (k t)
-             Cy in (0 0) matched ;
+"Double stop:weakens tToZero"
+t:0 <=> ~[ Cns | Vws ] Cns* Vws ( t ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
 
 ! lehti : lehen
 "p:v"

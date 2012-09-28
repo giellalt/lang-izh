@@ -3,3 +3,8 @@ LEXICON adjectives
 
 avvaaro:avvaaro A-avvaaro  "" ;
 kalatoin:kalat A-kalatoin  "" ;
+liitsamääräämätöin:liitsamääräämät A-kalatoin  "" ;
+erilaajain:erilaajai A-erilaajain  "" ;
+eripainoin:eripainoi A-erilaajain  "" ;
+erityin:erityi A-erilaajain  "" ;
+entin:enti A-erilaajain  "" ;
