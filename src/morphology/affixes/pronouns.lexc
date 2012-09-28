@@ -124,7 +124,7 @@ LEXICON Dem-neet
 +Pron+Dem+Pl+Gen:iijen  K   ;
 +Pron+Dem+Pl+Part:iitä  K   ;
 +Pron+Dem+Pl+Ill:iihe  K   ;
-+Pron+Dem+Pl+Ine:iiz  K   ;
++Pron+Dem+Pl+Ine:iis  K   ;
 +Pron+Dem+Pl+Ela:iist  K   ;
 +Pron+Dem+Pl+All:iille  K   ;
 +Pron+Dem+Pl+Ade:iil  K   ;
@@ -150,31 +150,31 @@ LEXICON Dem-nämä
 
 
 LEXICON Pron-kumpa
-+Sg+Nom:     #   ; ! kumpa
-+Sg+Gen:%>%^WCnsn	#   ; ! oman
-+Sg+Part:%>AÄ1	#   ; ! ommaa
-+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Sg+Ine:%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
-+Sg+Ela:%>%^WCnsst    #   ; ! maost
-+Sg+All:%>%^WCnslle    #   ; ! maolle
-+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
-+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
-+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
++Pron+Sg+Nom:     #   ; ! kumpa
++Pron+Sg+Gen:%>%^WCnsn	#   ; ! oman
++Pron+Sg+Part:%>AÄ1	#   ; ! ommaa
++Pron+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
++Pron+Sg+Ine:%>%^WCns%^LVwss    #   ; ! kummaas
++Pron+Sg+Ela:%>%^WCnsst    #   ; ! kummast
++Pron+Sg+All:%>%^WCnslle    #   ; ! maolle
++Pron+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
++Pron+Sg+Abl:%>%^WCnslt    #   ; ! maolt
++Pron+Sg+Tra:%>%^WCnsks    #   ; ! maoks
++Pron+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
++Pron+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
-+Pl+Nom:%>%^WCnst     #   ; ! maot
-+Pl+Gen:i%>i%>n	#   ; ! matoloin
-+Pl+Part:%>i%>AÄ1	#   ; ! matoloja
-+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
-+Pl+Ine:%>i%>s    #   ; ! matoloiz
-+Pl+Ela:%>i%>st    #   ; ! matoloist
-+Pl+All:%>i%>lle    #   ; ! matoloille
-+Pl+Ade:%>i%>l    #   ; ! matoloil
-+Pl+Abl:%>i%>lt    #   ; ! matoloilt
-+Pl+Tra:%>i%>ks    #   ; ! matoloiks
-+Pl+Ess:%>i%>n    #   ; ! matoloinna
-+Pl+Exe:%>i%>nt    #   ; ! matoloint
++Pron+Pl+Nom:%>%^WCnst     #   ; ! maot
++Pron+Pl+Gen:i%>i%>n	#   ; ! matoloin
++Pron+Pl+Part:%>i%>AÄ1	#   ; ! kumpia
++Pron+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
++Pron+Pl+Ine:%>i%>s    #   ; ! matoloiz
++Pron+Pl+Ela:%>i%>st    #   ; ! matoloist
++Pron+Pl+All:%>i%>lle    #   ; ! matoloille
++Pron+Pl+Ade:%>i%>l    #   ; ! matoloil
++Pron+Pl+Abl:%>i%>lt    #   ; ! matoloilt
++Pron+Pl+Tra:%>i%>ks    #   ; ! matoloiks
++Pron+Pl+Ess:%>i%>n    #   ; ! matoloinna
++Pron+Pl+Exe:%>i%>nt    #   ; ! matoloint
 
 
 

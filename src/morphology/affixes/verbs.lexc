@@ -191,34 +191,37 @@ LEXICON V-antaa
 ! +V+Ger:ollees		#   ;
 +V+Der/min:a%>mi N-kärpäin ;
 
+LEXICON V-määrätä
+   V-arvata  ;
+
 ! (??)
 LEXICON V-arvata
-+V+Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
-+V+Ind+Prs+Sg2:a%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:a%>%^LVws	#   ;
-+V+Ind+Prs+Pl1:a%>%^WCnsmmAÄ1	#   ;
-+V+Ind+Prs+Pl2:a%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:a%>%^LVwst	#   ;
-+V+Ind+Prs+4:%>%^WCnstaa	#   ;
-+V+Ind+Prs+ConNeg:a	#   ;
++V+Ind+Prs+Sg1:%>AÄ1%^WCnsn	#   ; ! oon
++V+Ind+Prs+Sg2:%>AÄ1%^WCnst	#   ;
++V+Ind+Prs+Sg3:%>AÄ1%^LVws	#   ;
++V+Ind+Prs+Pl1:%>AÄ1%^WCnsmmAÄ1	#   ;
++V+Ind+Prs+Pl2:%>AÄ1%^WCnsttAÄ1	#   ;
++V+Ind+Prs+Pl3:%>AÄ1%^LVwst	#   ;
++V+Ind+Prs+4:%>%^WCnstAÄ1AÄ1	#   ;
++V+Ind+Prs+ConNeg:%>AÄ1 	#   ;
 
 +V+Ind+Prt+Sg1:%>sin       #   ; ! oon
 +V+Ind+Prt+Sg2:%>sit       #   ;
 +V+Ind+Prt+Sg3:si        #   ;
-+V+Ind+Prt+Pl1:%>simma     #   ;
-+V+Ind+Prt+Pl2:%>sitta     #   ;
-!+V+Ind+Prt+Pl3:%>sivat     #   ;
++V+Ind+Prt+Pl1:%>simmAÄ1     #   ;
++V+Ind+Prt+Pl2:%>sittAÄ1     #   ;
+!+V+Ind+Prt+Pl3:%>sivAÄ1t     #   ;
 +V+Ind+Prt+Pl3:%>ttii     #   ;
 +V+Ind+Prt+ConNeg:nt         #   ;
-!+V+Ind+ConNeg+Prt:%>%^WCnsttu         #   ;
+!+V+Ind+ConNeg+Prt:%>%^WCnsttUY1         #   ;
 
 +V+Pot+Prs+Sg1:%>nen      #   ; ! oon
 +V+Pot+Prs+Sg2:%>net      #   ;
-+V+Pot+Prs+Sg3:%>noo      #   ;
++V+Pot+Prs+Sg3:%>nOÖ1OÖ1      #   ;
 +V+Pot+Prs+Pl1:%>nemmAÄ1    #   ;
 +V+Pot+Prs+Pl2:%>nettAÄ1    #   ;
-+V+Pot+Prs+Pl3:%>noot     #   ;
-!+V+Pot+Prs+4:ttanoo      #   ;
++V+Pot+Prs+Pl3:%>nOÖ1OÖ1t     #   ;
+!+V+Pot+Prs+4:ttAÄ1nOÖ1OÖ1      #   ;
 !+V+Pot+Prs+ConNeg:oo                #   ;
 
 ! +V+Cond+Prs+Sg1:olisin      #   ; ! oon
@@ -227,7 +230,7 @@ LEXICON V-arvata
 ! +V+Cond+Prs+Pl1:olisimma    #   ;
 ! +V+Cond+Prs+Pl2:olisitta    #   ;
 ! +V+Cond+Prs+Pl3:olisivat     #   ;
-+V+Cond+Prs+4:ttais      #   ;
++V+Cond+Prs+4:ttAÄ1is      #   ;
 ! !+V+Cond+Prs+ConNeg:oo                #   ;
 ! 
 ! +V+Imprt+Prs+Sg2:oo      #   ;
@@ -240,7 +243,7 @@ LEXICON V-arvata
 ! 
 ! +V+Prc:oleva			       #   ;
 ! +V+Prc:olt			       #   ;
-+V+Prc:ttava			       #   ;
++V+Prc:ttAÄ1vAÄ1			       #   ;
 ! +V+Prc:oltu			       #   ;
 ! 
 +V+Inf:%>tAÄ1             #   ; ! antaa
