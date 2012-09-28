@@ -66,6 +66,38 @@ LEXICON N-mato
 +N+Pl+Exe:%>lOÖ1i%>nt    #   ; ! matoloint
 +N+Pl+Instr:%>lOÖ1i%>nkAÄ1    #   ; ! maanka
 
+! forma osa (II-b)
+LEXICON N-osa
++N+Sg+Nom:0     #   ; ! mato
++N+Sg+Gen:%>%^WCnsn	#   ; ! maon
++N+Sg+Acc:%>%^WCnsn	#   ; ! maon
++N+Sg+Part:%>%^LCns%^LVwsAÄ1	#   ; ! mattooa
++N+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
++N+Sg+Ine:%>%^WCns%^LVwss    #   ; ! maooz
++N+Sg+Ela:%>%^WCnsst    #   ; ! maost
++N+Sg+All:%>%^WCnslle    #   ; ! maolle
++N+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
++N+Sg+Abl:%>%^WCnslt    #   ; ! maolt
++N+Sg+Tra:%>%^WCnsks    #   ; ! maoks
++N+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
++N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
++N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++N+Pl+Nom:%>%^WCnst     #   ; ! osat
++N+Pl+Gen:%>i%>n	#   ; ! matoloin
++N+Pl+Acc:%>%^WCnst     #   ; ! osat
++N+Pl+Part:%>i%>AÄ1	#   ; ! osia
++N+Pl+Ill:%>i%>hV1	#   ; ! matoloihe
++N+Pl+Ine:%>i%>s    #   ; ! matolois
++N+Pl+Ela:%>i%>st    #   ; ! matoloist
++N+Pl+All:%>i%>lle    #   ; ! matoloille
++N+Pl+Ade:%>i%>l    #   ; ! matoloil
++N+Pl+Abl:%>i%>lt    #   ; ! matoloilt
++N+Pl+Tra:%>i%>ks    #   ; ! matoloiks
++N+Pl+Ess:%>i%>n    #   ; ! matoloinna
++N+Pl+Exe:%>i%>nt    #   ; ! matoloint
++N+Pl+Instr:%>i%>nkAÄ1    #   ; ! maanka
+
 ! emoi (III)
 LEXICON N-emoi
 +N+Sg+Nom:i     #   ; ! emoi

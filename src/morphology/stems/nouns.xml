@@ -1302,9 +1302,31 @@
    </entry>
    <entry>
       <lg>
+         <l>osa</l>
+         <stg>
+            <st Contlex="N-osa">osa</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>forma</l>
          <stg>
-            <st Contlex="N-mato">forma</st>
+            <st Contlex="N-osa">forma</st>
          </stg>
       </lg>
       <pos>N</pos>

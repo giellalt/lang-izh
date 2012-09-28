@@ -180,6 +180,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kirjatoin</l>
+         <stg>
+            <st Contlex="A-kalatoin">kirjat</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>natsionaljnoi</l>
          <stg>
             <st Contlex="A-glavnoi">natsionaljnoi</st>
