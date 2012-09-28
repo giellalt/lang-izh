@@ -2,17 +2,17 @@
 !! ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
-LEXICON NegAux
-+V+Neg+Sg1:n   #   ; ! en
-+V+Neg+Sg2:t   #   ;
-+V+Neg+Sg3:i    #   ;
-+V+Neg+Pl1:mmä  #   ;
-+V+Neg+Pl2:ttä  #   ;
-+V+Neg+Pl3:vät  #   ;
-+V+Neg+Imprt+Sg2:lä   #  ;
-+V+Neg+Imprt+Sg3:lköö   #  ;
-+V+Neg+Imprt+Pl2:lkää   #  ;
-+V+Neg+Imprt+Pl3:lkööt   #  ;
+LEXICON V-ei
++V+Neg+Sg1:en   #   ; ! en
++V+Neg+Sg2:et   #   ;
++V+Neg+Sg3:ei    #   ;
++V+Neg+Pl1:emmä  #   ;
++V+Neg+Pl2:että  #   ;
++V+Neg+Pl3:evät  #   ;
++V+Neg+Imprt+Sg2:elä   #  ;
++V+Neg+Imprt+Sg3:elköö   #  ;
++V+Neg+Imprt+Pl2:elkää   #  ;
++V+Neg+Imprt+Pl3:elkööt   #  ;
 
 
 
