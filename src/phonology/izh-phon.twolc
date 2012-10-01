@@ -94,12 +94,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=>  FT %>:0 ( %^LCns: %^LVws: | t | n n | m p: | n k )  _ ;!
+ AÄ1:ä <=>  FT %>:0 ( %^LCns: | %^LCns: %^LVws: | v v | t | n n | m p: | n k )  _ ;!
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=>  BT %>:0 ( %^LCns: %^LVws: | t | n n | m p: | n k )  _ ;!
+ AÄ1:a <=>  BT %>:0 (  %^LCns: | %^LCns: %^LVws: | v v | t | n n | m p: | n k )  _ ;!
 
 !
 ! Vowel harmony suffixes Front
@@ -133,10 +133,10 @@ Rules
 ! mato : mattoo, näytettävä : näytettävvää
 !"even-syllable" This should be secondary
 "consonant lengthening"
-! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws :0+  :Vws ;
- 0:Cx <=>  SV ( Vws* Cns+ Vws+ Cns+ Vws ) Cx _ Vws [ [ :0+  :Vws ] - [ %>:0 i: ] ] ;
+ 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] ;
+! 0:Cx <=>  SV ( Vws* Cns+ Vws+ Cns+ Vws ) Cx _ Vws [ [ :0+  :Vws ] - [ %>:0 i: ] ] ;
 ! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
-           where Cx in (v m t s n r l k h) ;
+           where Cx in (v m t s n r l k g h) ;
 
 ! oja: oija
 "j lengthening"
@@ -173,14 +173,14 @@ k:g <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 ! aika: ajan
 "kToZero"
-k:0 <=> [ #: ] Cns* Vws ( k | i: ) _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
+k:0 <=> [ #: ] Cns* Vws ( k | i: | t ) _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
 
 
 ! mato : maot, mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> ~[ Cns | Vws ] Cns* Vws ( t ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> ~[ Cns | Vws ] [ Cns* Vws ( t ) | Cns* Vws+ Cns+ Vws+ Cns+ Vws+ ( n ) t ] _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 
 ! lehti : lehen
