@@ -21,6 +21,40 @@ LEXICON Ord-toin
 +Num+Ord+Pl+Part:sia K ;
 +Num+Ord+Pl+All:sille K ;
 
+! yksi, kaksi
+! from käsi (XI)
+LEXICON Num-yks
++Num+Card+Sg+Nom:ks     #   ; ! yksi
++Num+Card+Sg+Gen:hte%>%^WCnsn	#   ; ! yhen
++Num+Card+Sg+Acc:hte%>%^WCnsn	#   ; ! yhen
++Num+Card+Sg+Part:ht%>tAÄ1	#   ; ! yhtä
++Num+Card+Sg+Ill:hte%>%^LCnsV1	#   ; ! ortee
++Num+Card+Sg+Ine:hte%>%^WCnss    #   ; ! orrees
++Num+Card+Sg+Ela:hte%>%^WCnsst    #   ; ! yhest
++Num+Card+Sg+All:hte%>%^WCnslle    #   ; ! maolle
++Num+Card+Sg+Ade:hte%>%^WCnsl    #   ; ! yhel
++Num+Card+Sg+Abl:hte%>%^WCnslt    #   ; ! maolt
++Num+Card+Sg+Tra:hte%>%^WCnsks    #   ; ! maoks
++Num+Card+Sg+Ess:hte%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Num+Card+Sg+Exe:hte%>%^LCnsnt    #   ; ! mattoont
++Num+Card+Sg+Instr:hte%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++Num+Card+Pl+Nom:hte%>%^WCnst     #   ; ! maot
++Num+Card+Pl+Gen:ksi%>%^LCnsi%>n	#   ; ! matoloin
++Num+Card+Pl+Acc:hte%>%^WCnst     #   ; ! maot
++Num+Card+Pl+Part:ksi%>%^LCns%>AÄ1	#   ; ! matoloja
++Num+Card+Pl+Ill:ksi%>%^LCns%>hV1	#   ; ! matoloihe
++Num+Card+Pl+Ine:ks%>i%>s    #   ; ! matoloiz
++Num+Card+Pl+Ela:ks%>i%>st    #   ; ! matoloist
++Num+Card+Pl+All:ks%>i%>lle    #   ; ! matoloille
++Num+Card+Pl+Ade:ks%>i%>l    #   ; ! matoloil
++Num+Card+Pl+Abl:ks%>i%>lt    #   ; ! matoloilt
++Num+Card+Pl+Tra:ks%>i%>ks    #   ; ! orsiks
++Num+Card+Pl+Ess:ksi%>%^LCns%>innAÄ1    #   ; ! matoloin
++Num+Card+Pl+Exe:ksi%>%^LCns%>nt    #   ; ! matoloint
++Num+Card+Pl+Exe:ksi%>%>nt    #   ; ! matoloint
++Num+Card+Pl+Instr:ksi%>nkAÄ1    #   ; ! mataloinka
+
 
 
 ! vim: set ft=xfst-lexc:

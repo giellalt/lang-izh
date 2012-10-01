@@ -8,6 +8,9 @@ LEXICON AdvTag
 LEXICON AdvManner
 +Adv+Manner:0      K   ;
 
+LEXICON AdvSpat
++Adv+Spat:0      K   ;
+
 LEXICON AdvTemp
 +Adv+Temp:0        K   ;
 

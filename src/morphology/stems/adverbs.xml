@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>ni</l>
+         <stg>
+            <st Contlex="AdvTag">ni</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>sentää</l>
          <stg>
             <st Contlex="AdvTag">sentää</st>
@@ -48,9 +70,53 @@
    </entry>
    <entry>
       <lg>
+         <l>mukkaa</l>
+         <stg>
+            <st Contlex="AdvSpat">mukkaa</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>ain</l>
          <stg>
             <st Contlex="AdvTemp">ain</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>aina</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>nyt</l>
+         <stg>
+            <st Contlex="AdvTemp">nyt</st>
          </stg>
       </lg>
       <pos>ADV-TEMP</pos>

@@ -114,6 +114,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kuiva</l>
+         <stg>
+            <st Contlex="A-oma">kuiva</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>pitkä</l>
          <stg>
             <st Contlex="A-oma">pitkä</st>
@@ -328,6 +350,28 @@
             </tg>
             <tg lang="fin">
                <t>erilainen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>monislogain</l>
+         <stg>
+            <st Contlex="A-erilaajain">monislogai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>monitavuinen</t>
             </tg>
          </mg>
       </e>

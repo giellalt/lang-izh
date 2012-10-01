@@ -46,4 +46,48 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>yks</l>
+         <stg>
+            <st Contlex="Num-yks">y</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>one</t>
+            </tg>
+            <tg lang="fin">
+               <t>yksi</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kaks</l>
+         <stg>
+            <st Contlex="Num-yks">ka</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>two</t>
+            </tg>
+            <tg lang="fin">
+               <t>kaksi</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>
