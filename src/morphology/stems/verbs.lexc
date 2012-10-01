@@ -1,10 +1,17 @@
 
 LEXICON verbs
 
-ahavojja:ahavo V-ahavojja  "" ;
+ahavoija:ahavoi V-voija  "" ;
 jäävvä:jää V-jäävvä  "" ;
+saavva:saa V-jäävvä  "" ;
+voija:voi V-voija  "" ;
 antaa:ant V-antaa  "" ;
+sannoa:sa V-sannoa  "" ;
+pittää:pitt V-pittää  "" ;
 kasvaa:kasv V-antaa  "" ;
+kirjuttaa:kirjutt V-kirjuttaa  "" ;
+ƶaarittaa:ƶaaritt V-kirjuttaa  "" ;
+ƶaalivoittaa:ƶaalivoitt V-kirjuttaa  "" ;
 arvata:arva V-arvata  "" ;
 määrätä:määrä V-määrätä  "" ;
 olla:0 V-olla  "" ;
