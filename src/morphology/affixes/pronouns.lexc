@@ -49,7 +49,8 @@ LEXICON PersSg3
 ! möö : m
 LEXICON PersPl1
 +Pron+Pers+Pl1+Nom:öö     K   ;
-+Pron+Pers+Pl1+Gen:eijjen  K   ;
++Pron+Pers+Pl1+Gen:eijen  K   ;
++Pron+Pers+Pl1+Acc:eijet  K   ;
 +Pron+Pers+Pl1+Part:eitä  K   ;
 +Pron+Pers+Pl1+Ill:eihe  K   ;
 +Pron+Pers+Pl1+Ine:eiz  K   ;
@@ -64,7 +65,8 @@ LEXICON PersPl1
 ! töö : t
 LEXICON PersPl2
 +Pron+Pers+Pl2+Nom:0     K   ;
-+Pron+Pers+PL2+Gen:eijjen  K   ;
++Pron+Pers+PL2+Gen:eijen  K   ;
++Pron+Pers+PL2+Acc:eijet  K   ;
 +Pron+Pers+PL2+Part:eitä  K   ;
 +Pron+Pers+PL2+Ill:eihe  K   ;
 +Pron+Pers+PL2+Ine:eiz  K   ;
@@ -79,7 +81,8 @@ LEXICON PersPl2
 ! höö : h
 LEXICON PersPl3
 +Pron+Pers+Pl3+Nom:öö     K   ;
-+Pron+Pers+Pl3+Gen:eijjen  K   ;
++Pron+Pers+Pl3+Gen:eijen  K   ;
++Pron+Pers+Pl3+Acc:eijet  K   ;
 +Pron+Pers+Pl3+Part:eitä  K   ;
 +Pron+Pers+Pl3+Ill:eihe  K   ;
 +Pron+Pers+Pl3+Ine:eiz  K   ;
@@ -94,6 +97,7 @@ LEXICON PersPl3
 LEXICON Dem-se
 +Pron+Dem+Sg+Nom:e  K   ;
 +Pron+Dem+Sg+Gen:enen  K   ;
++Pron+Dem+Sg+Gen:en  K   ;
 +Pron+Dem+Sg+Part:itä  K   ;
 +Pron+Dem+Sg+Ill:iihe  K   ;
 +Pron+Dem+Sg+Ine:iin  K   ;

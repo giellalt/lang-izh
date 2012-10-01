@@ -17,7 +17,9 @@ LEXICON Ord-toin
 +N+Sg+Instr:see%>nkAÄ1    #   ; ! maanka
 
 +Num+Ord+Pl+Nom:set K ;
++Num+Ord+Pl+Gen:siin K ;
 +Num+Ord+Pl+Part:sia K ;
++Num+Ord+Pl+All:sille K ;
 
 
 
