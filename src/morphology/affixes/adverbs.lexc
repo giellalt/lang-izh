@@ -2,6 +2,12 @@
 !! --------------------
 !! Ingrian adjectives compare.
 
+LEXICON AdvTag
++Adv:0      K   ;
+
+LEXICON AdvManner
++Adv+Manner:0      K   ;
+
 LEXICON AdvTemp
 +Adv+Temp:0        K   ;
 
