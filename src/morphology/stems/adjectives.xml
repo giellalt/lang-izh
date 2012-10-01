@@ -41,7 +41,29 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>avara</t>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>slogatoin</l>
+         <stg>
+            <st Contlex="A-kalatoin">slogat</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>
@@ -73,6 +95,28 @@
          <l>oma</l>
          <stg>
             <st Contlex="A-oma">oma</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>pitkä</l>
+         <stg>
+            <st Contlex="A-oma">pitkä</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -284,6 +328,50 @@
             </tg>
             <tg lang="fin">
                <t>erilainen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>viimäin</l>
+         <stg>
+            <st Contlex="A-erilaajain">viimäi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>viimeinen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tavallin</l>
+         <stg>
+            <st Contlex="A-erilaajain">tavalli</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>tavallinen</t>
             </tg>
          </mg>
       </e>

@@ -26,9 +26,31 @@
    </entry>
    <entry>
       <lg>
+         <l>sentää</l>
+         <stg>
+            <st Contlex="AdvTag">sentää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>ain</l>
          <stg>
-            <st Contlex="AdvTemp-Ess">ain</st>
+            <st Contlex="AdvTemp">ain</st>
          </stg>
       </lg>
       <pos>ADV-TEMP</pos>
@@ -41,7 +63,73 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>aattona</t>
+               <t>aina</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>jo</l>
+         <stg>
+            <st Contlex="AdvTemp">jo</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>jo</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>silloin</l>
+         <stg>
+            <st Contlex="AdvTemp">silloin</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>aina</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>viisii</l>
+         <stg>
+            <st Contlex="AdvManner">viisii</st>
+         </stg>
+      </lg>
+      <pos>ADV-MANNER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>tavalla</t>
             </tg>
          </mg>
       </e>

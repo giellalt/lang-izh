@@ -4,9 +4,9 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
-         <l>ahavojja</l>
+         <l>ahavoija</l>
          <stg>
-            <st Contlex="V-ahavojja">ahavo</st>
+            <st Contlex="V-voija">ahavoi</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -48,6 +48,50 @@
    </entry>
    <entry>
       <lg>
+         <l>saavva</l>
+         <stg>
+            <st Contlex="V-jäävvä">saa</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>saada</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>voija</l>
+         <stg>
+            <st Contlex="V-voija">voi</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>voida</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>antaa</l>
          <stg>
             <st Contlex="V-antaa">ant</st>
@@ -70,9 +114,119 @@
    </entry>
    <entry>
       <lg>
+         <l>sannoa</l>
+         <stg>
+            <st Contlex="V-sannoa">sa</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>pittää</l>
+         <stg>
+            <st Contlex="V-pittää">pitt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kasvaa</l>
          <stg>
             <st Contlex="V-antaa">kasv</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kirjuttaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">kirjutt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ƶaarittaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">ƶaaritt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ƶaalivoittaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">ƶaalivoitt</st>
          </stg>
       </lg>
       <pos>V</pos>
