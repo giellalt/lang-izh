@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>vaa</l>
+         <stg>
+            <st Contlex="CcTag">vaa</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>vaan</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>tali</l>
          <stg>
             <st Contlex="CcTag">tali</st>
@@ -48,9 +70,53 @@
    </entry>
    <entry>
       <lg>
+         <l>jos</l>
+         <stg>
+            <st Contlex="CsTag">jos</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jot</l>
          <stg>
             <st Contlex="CsTag">jot</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>niku</l>
+         <stg>
+            <st Contlex="CsTag">niku</st>
          </stg>
       </lg>
       <pos>CS</pos>
