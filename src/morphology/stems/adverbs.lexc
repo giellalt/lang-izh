@@ -2,8 +2,11 @@
 LEXICON adverbs
 
 aattoon:aattoon AdvTemp-Ess  "" ;
+ni:ni AdvTag  "" ;
 sentää:sentää AdvTag  "" ;
+mukkaa:mukkaa AdvSpat  "" ;
 ain:ain AdvTemp  "" ;
+nyt:nyt AdvTemp  "" ;
 jo:jo AdvTemp  "" ;
 silloin:silloin AdvTemp  "" ;
 viisii:viisii AdvManner  "" ;
