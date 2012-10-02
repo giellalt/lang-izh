@@ -90,4 +90,26 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>kolt</l>
+         <stg>
+            <st Contlex="Num-kolt">kol</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>three</t>
+            </tg>
+            <tg lang="fin">
+               <t>kolme</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

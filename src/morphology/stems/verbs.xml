@@ -356,6 +356,28 @@
    </entry>
    <entry>
       <lg>
+         <l>katsoa</l>
+         <stg>
+            <st Contlex="V-kutsua">katso</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>tulla</l>
          <stg>
             <st Contlex="V-tulla">tul</st>

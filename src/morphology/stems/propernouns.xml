@@ -48,9 +48,75 @@
    </entry>
    <entry>
       <lg>
+         <l>Ala-Laukaa</l>
+         <stg>
+            <st Contlex="Prop-laukaa">Ala-Laukaa</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Bubrih</l>
          <stg>
             <st Contlex="Prop-bubrih">Bubrih</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Kьzьl</l>
+         <stg>
+            <st Contlex="Prop-bubrih">Kьzьl</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Sьktьvkar</l>
+         <stg>
+            <st Contlex="Prop-bubrih">Sьktьvkar</st>
          </stg>
       </lg>
       <pos>PROP</pos>
@@ -114,9 +180,141 @@
    </entry>
    <entry>
       <lg>
+         <l>Katja</l>
+         <stg>
+            <st Contlex="Prop-iljina">Katj</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Harjavalta</l>
+         <stg>
+            <st Contlex="Prop-iljina">Harjavalt</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Kolja</l>
+         <stg>
+            <st Contlex="Prop-iljina">Kolj</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Soikkola</l>
          <stg>
             <st Contlex="Prop-soikkola">Soikkola</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Koskin</l>
+         <stg>
+            <st Contlex="Prop-koskin">Koski</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Someroin</l>
+         <stg>
+            <st Contlex="Prop-koskin">Someroi</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Keski-Soikkola</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Keski-Soikkola</st>
          </stg>
       </lg>
       <pos>PROP</pos>

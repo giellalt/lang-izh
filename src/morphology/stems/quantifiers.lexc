@@ -5,3 +5,4 @@ ensimäin:ensimäi Ord-toin  "first" ;
 toin:toi Ord-toin  "second" ;
 yks:y Num-yks  "one" ;
 kaks:ka Num-yks  "two" ;
+kolt:kol Num-kolt  "three" ;

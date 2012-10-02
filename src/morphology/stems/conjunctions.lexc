@@ -6,6 +6,7 @@ vaa:vaa CcTag  "" ;
 tali:tali CcTag  "" ;
 jos:jos CsTag  "" ;
 jot:jot CsTag  "" ;
+kuin:kuin CsTag  "" ;
 niku:niku CsTag  "" ;
 ku:ku CsTag  "" ;
 mut:mut CsTag  "" ;
