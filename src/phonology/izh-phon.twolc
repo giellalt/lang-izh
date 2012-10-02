@@ -106,21 +106,21 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=>  FT %>:0 ( %^LCns: | %^LCns: %^LVws: | v v | t | n n | m p: | n k )  _ ;!
+ AÄ1:ä <=>  FT %>:0 ( %^LCns: | %^LCns: %^LVws: | %^WCns: ) ( v :v | t | n n | m p: | n k | m m | t t | m | t )  _ ;!
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=>  BT %>:0 (  %^LCns: | %^LCns: %^LVws: | v v | t | n n | m p: | n k )  _ ;!
+ AÄ1:a <=>  BT %>:0 (  %^LCns: | %^LCns: %^LVws: | %^WCns:) ( v :v | t | n n | m p: | n k | m m | t t | m | t )  _ ;!
 
 !
 ! Vowel harmony suffixes Front
 "OÖ1:ö"
- OÖ1:ö <=>  FT [ %>:0 l | %>:0 ( %^LCns: ) ] _ ;!
+ OÖ1:ö <=>  FT [ %>:0 [ l | ( %^LCns: ) | t ] ] _ ;!
 
 ! Vowel harmony suffixes Back
 "OÖ1:o"
- OÖ1:o <=>  BT [ %>:0 l | %>:0 ( %^LCns: ) ] _ ;!
+ OÖ1:o <=>  BT [ %>:0 [ l | ( %^LCns: ) | t ] ] _ ;!
 
 !
 ! Vowel harmony suffixes Front
@@ -154,9 +154,8 @@ Rules
 ! mato : mattoo, näytettävä : näytettävvää
 !"even-syllable" This should be secondary
 "consonant lengthening"
- 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
-! 0:Cx <=>  SV ( Vws* Cns+ Vws+ Cns+ Vws ) Cx _ Vws [ [ :0+  :Vws ] - [ %>:0 i: ] ] ;
-! 0:Cx <=> ~[ Cns | Vws ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ Vws ( 0: ) %>:0 %^LCns:0  ;
+ 0:Cx <=> [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
+
            where Cx in (m t s n r l k g h) ;
 
 ! oja: oija
@@ -193,7 +192,7 @@ t:l <=> ~[ Cns | Vws ] Cns* Vws l _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 t:n <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 "mp:mm weakening"
-p:m <=> ~[ Cns | Vws ] Cns* Vws m _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+p:m <=> ~[ Cns | Vws ] Cns* Vws m _ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 "nk:ng weakening"
 k:g <=> ~[ Cns | Vws ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;

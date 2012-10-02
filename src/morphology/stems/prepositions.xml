@@ -26,6 +26,50 @@
    </entry>
    <entry>
       <lg>
+         <l>keskeel</l>
+         <stg>
+            <st Contlex="PrepTag">keskeel</st>
+         </stg>
+      </lg>
+      <pos>PREP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ilman</l>
+         <stg>
+            <st Contlex="PrepTag">ilman</st>
+         </stg>
+      </lg>
+      <pos>PREP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jälkkeen</l>
          <stg>
             <st Contlex="PrepTag">jälkkeen</st>

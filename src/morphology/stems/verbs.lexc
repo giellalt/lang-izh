@@ -17,6 +17,7 @@ kirjuttaa:kirjutt V-kirjuttaa  "" ;
 ƶaalivoittaa:ƶaalivoitt V-kirjuttaa  "" ;
 mukkoittaa:mukkoitt V-kirjuttaa  "" ;
 kutsua:kutsu V-kutsua  "" ;
+katsoa:katso V-kutsua  "" ;
 tulla:tul V-tulla  "" ;
 arvata:arva V-arvata  "" ;
 määrätä:määrä V-määrätä  "" ;

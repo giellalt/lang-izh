@@ -114,6 +114,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kuin</l>
+         <stg>
+            <st Contlex="CsTag">kuin</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>niku</l>
          <stg>
             <st Contlex="CsTag">niku</st>
