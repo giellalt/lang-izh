@@ -3,23 +3,10 @@
 !! The UNDEFINED language proper nouns inflect in the same cases as regular
 !! nouns, but with a colon (':') as separator.
 
-! N-kärpäin  N-inmihiin (XIII)
+! N-kärpäin (XIII)
 LEXICON Ord-toin
-+Num+Ord+Sg+Nom:n K ;
-+Num+Ord+Sg+Gen:sen K ;
-+Num+Ord+Sg+Part:s%>tAÄ1 K ;
-+Num+Ord+Sg+Ill:sehee K ;
-+Num+Ord+Sg+Ine:ses K ;
-+Num+Ord+Sg+Ela:sest K ;
-+Num+Ord+Sg+All:selle K ;
-+Num+Ord+Sg+Ade:seel K ;
-+Num+Ord+Sg+Abl:selt K ;
-+N+Sg+Instr:see%>nkAÄ1    #   ; ! maanka
++Num+Ord: N-kärpäin_01 ;
 
-+Num+Ord+Pl+Nom:set K ;
-+Num+Ord+Pl+Gen:siin K ;
-+Num+Ord+Pl+Part:sia K ;
-+Num+Ord+Pl+All:sille K ;
 
 ! yksi, kaksi
 ! from käsi (XI)
@@ -27,7 +14,7 @@ LEXICON Num-yks
 +Num+Card+Sg+Nom:ks     #   ; ! yksi
 +Num+Card+Sg+Gen:hte%>%^WCnsn	#   ; ! yhen
 +Num+Card+Sg+Acc:hte%>%^WCnsn	#   ; ! yhen
-+Num+Card+Sg+Part:ht%>tAÄ1	#   ; ! yhtä
++Num+Card+Sg+Part:h%>tAÄ1	#   ; ! yhtä
 +Num+Card+Sg+Ill:hte%>%^LCnsV1	#   ; ! ortee
 +Num+Card+Sg+Ine:hte%>%^WCnss    #   ; ! orrees
 +Num+Card+Sg+Ela:hte%>%^WCnsst    #   ; ! yhest
@@ -55,7 +42,73 @@ LEXICON Num-yks
 +Num+Card+Pl+Exe:ksi%>%>nt    #   ; ! matoloint
 +Num+Card+Pl+Instr:ksi%>nkAÄ1    #   ; ! mataloinka
 
+!! kolt
+! from kolt (??)
+LEXICON Num-kolt
++Num+Ord:ma NumOrd ;
++Num+Card+Sg+Nom:t     #   ; ! kolt
++Num+Card+Sg+Gen:me%>%^WCnsn	#   ; ! kolmen
++Num+Card+Sg+Acc:me%>%^WCnsn	#   ; ! yhen
++Num+Card+Sg+Part:me%>tAÄ1	#   ; ! yhtä
++Num+Card+Sg+Ill:me%>%^LCnsV1	#   ; ! ortee
++Num+Card+Sg+Ine:me%>%^WCnss    #   ; ! orrees
++Num+Card+Sg+Ela:me%>%^WCnsst    #   ; ! yhest
++Num+Card+Sg+All:me%>%^WCnslle    #   ; ! maolle
++Num+Card+Sg+Ade:me%>%^WCnsl    #   ; ! yhel
++Num+Card+Sg+Abl:me%>%^WCnslt    #   ; ! maolt
++Num+Card+Sg+Tra:me%>%^WCnsks    #   ; ! maoks
++Num+Card+Sg+Ess:me%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Num+Card+Sg+Exe:me%>%^LCnsnt    #   ; ! mattoont
++Num+Card+Sg+Instr:me%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++Num+Card+Pl+Nom:me%>%^WCnst     #   ; ! maot
++Num+Card+Pl+Gen:mi%>%^LCnsi%>n	#   ; ! matoloin
++Num+Card+Pl+Acc:me%>%^WCnst     #   ; ! maot
++Num+Card+Pl+Part:mi%>%^LCns%>AÄ1	#   ; ! matoloja
++Num+Card+Pl+Ill:mi%>%^LCns%>hV1	#   ; ! matoloihe
++Num+Card+Pl+Ine:m%>i%>s    #   ; ! matoloiz
++Num+Card+Pl+Ela:%>i%>st    #   ; ! matoloist
++Num+Card+Pl+All:m%>i%>lle    #   ; ! matoloille
++Num+Card+Pl+Ade:m%>i%>l    #   ; ! matoloil
++Num+Card+Pl+Abl:m%>i%>lt    #   ; ! matoloilt
++Num+Card+Pl+Tra:m%>i%>ks    #   ; ! orsiks
++Num+Card+Pl+Ess:mi%>%^LCns%>innAÄ1    #   ; ! matoloin
++Num+Card+Pl+Exe:mi%>%^LCns%>nt    #   ; ! matoloint
++Num+Card+Pl+Exe:mi%>%>nt    #   ; ! matoloint
++Num+Card+Pl+Instr:mi%>nkAÄ1    #   ; ! mataloinka
 
+! from 3 onward
+LEXICON NumOrd
++Num+Ord+Sg+Nom:s     #   ; ! kolmas
++Num+Ord+Sg+Gen:nte%>%^WCnsn	#   ; ! kolmen
++Num+Ord+Sg+Acc:nte%>%^WCnsn	#   ; ! yhen
++Num+Ord+Sg+Part:t%>tAÄ1	#   ; ! yhtä
++Num+Ord+Sg+Ill:nte%>%^LCnsV1	#   ; ! ortee
++Num+Ord+Sg+Ine:nte%>%^WCnss    #   ; ! orrees
++Num+Ord+Sg+Ela:nte%>%^WCnsst    #   ; ! yhest
++Num+Ord+Sg+All:nte%>%^WCnslle    #   ; ! maolle
++Num+Ord+Sg+Ade:nte%>%^WCnsl    #   ; ! yhel
++Num+Ord+Sg+Abl:nte%>%^WCnslt    #   ; ! maolt
++Num+Ord+Sg+Tra:nte%>%^WCnsks    #   ; ! maoks
++Num+Ord+Sg+Ess:nte%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Num+Ord+Sg+Exe:nte%>%^LCnsnt    #   ; ! mattoont
++Num+Ord+Sg+Instr:nte%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++Num+Ord+Pl+Nom:nte%>%^WCnst     #   ; ! maot
++Num+Ord+Pl+Gen:nsi%>%^LCnsi%>n	#   ; ! matoloin
++Num+Ord+Pl+Acc:nte%>%^WCnst     #   ; ! maot
++Num+Ord+Pl+Part:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
++Num+Ord+Pl+Ill:nsi%>%^LCns%>hV1	#   ; ! matoloihe
++Num+Ord+Pl+Ine:ns%>i%>s    #   ; ! matoloiz
++Num+Ord+Pl+Ela:ns%>i%>st    #   ; ! matoloist
++Num+Ord+Pl+All:ns%>i%>lle    #   ; ! matoloille
++Num+Ord+Pl+Ade:ns%>i%>l    #   ; ! matoloil
++Num+Ord+Pl+Abl:ns%>i%>lt    #   ; ! matoloilt
++Num+Ord+Pl+Tra:ns%>i%>ks    #   ; ! orsiks
++Num+Ord+Pl+Ess:nsi%>%^LCns%>innAÄ1    #   ; ! matoloin
++Num+Ord+Pl+Exe:nsi%>%^LCns%>nt    #   ; ! matoloint
++Num+Ord+Pl+Exe:nsi%>%>nt    #   ; ! matoloint
++Num+Ord+Pl+Instr:nsi%>nkAÄ1    #   ; ! mataloinka
 
 ! vim: set ft=xfst-lexc:
 

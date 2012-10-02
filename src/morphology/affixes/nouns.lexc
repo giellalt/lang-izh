@@ -51,20 +51,9 @@ LEXICON N-mato
 +N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
++N+Pl: lOi-Pl ;
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
-+N+Pl+Gen:%>lOÖ1i%>n	#   ; ! matoloin
 +N+Pl+Acc:%>%^WCnst     #   ; ! maot
-+N+Pl+Part:%>lOÖ1i%>AÄ1	#   ; ! matoloja
-+N+Pl+Ill:%>lOÖ1i%>hV1	#   ; ! matoloihe
-+N+Pl+Ine:%>lOÖ1i%>s    #   ; ! matolois
-+N+Pl+Ela:%>lOÖ1i%>st    #   ; ! matoloist
-+N+Pl+All:%>lOÖ1i%>lle    #   ; ! matoloille
-+N+Pl+Ade:%>lOÖ1i%>l    #   ; ! matoloil
-+N+Pl+Abl:%>lOÖ1i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:%>lOÖ1i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:%>lOÖ1i%>n    #   ; ! matoloinna
-+N+Pl+Exe:%>lOÖ1i%>nt    #   ; ! matoloint
-+N+Pl+Instr:%>lOÖ1i%>nkAÄ1    #   ; ! maanka
 
 ! forma osa (II-b)
 LEXICON N-osa
@@ -86,8 +75,8 @@ LEXICON N-osa
 +N+Pl+Nom:%>%^WCnst     #   ; ! osat
 +N+Pl+Gen:%>i%>n	#   ; ! matoloin
 +N+Pl+Acc:%>%^WCnst     #   ; ! osat
-+N+Pl+Part:%>i%>AÄ1	#   ; ! osia
-+N+Pl+Ill:%>i%>hV1	#   ; ! matoloihe
++N+Pl+Part:%>%^LCnsi%>AÄ1	#   ; ! ossia
++N+Pl+Ill:%>%^LCnsi%>V1	#   ; ! ossii
 +N+Pl+Ine:%>i%>s    #   ; ! matolois
 +N+Pl+Ela:%>i%>st    #   ; ! matoloist
 +N+Pl+All:%>i%>lle    #   ; ! matoloille
@@ -115,23 +104,45 @@ LEXICON N-joki
 +N+Sg+Exe:e%>%^LCns%^LVwsnt    #   ; ! mattoont
 +N+Sg+Instr:e%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl: lOi-Pl ;
 +N+Pl+Nom:e%>%^WCnst     #   ; ! maot
 +N+Pl+Acc:e%>%^WCnst     #   ; ! maot
 
+! lumi (II-d)
+LEXICON N-lumi
++N+Sg+Nom:mi     #   ; ! lumi
++N+Sg+Gen:me%>%^WCnsn	#   ; ! maon
++N+Sg+Acc:me%>%^WCnsn	#   ; ! maon
++N+Sg+Part:n%>%^LCns%^LVwstAÄ1	#   ; ! lunta
++N+Sg+Ill:me%>%^LCnsV1	#   ; ! mattoo
++N+Sg+Ine:me%>%^WCns%^LVwss    #   ; ! maooz
++N+Sg+Ela:me%>%^WCnsst    #   ; ! maost
++N+Sg+All:me%>%^WCnslle    #   ; ! maolle
++N+Sg+Ade:me%>%^WCns%^LVwsl    #   ; ! maool
++N+Sg+Abl:me%>%^WCnslt    #   ; ! maolt
++N+Sg+Tra:me%>%^WCnsks    #   ; ! maoks
++N+Sg+Ess:me%>%^LCns%^LVwsn    #   ; ! mattoon
++N+Sg+Exe:me%>%^LCns%^LVwsnt    #   ; ! mattoont
++N+Sg+Instr:me%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
++N+Pl:mi lOi-Pl ;
++N+Pl+Nom:me%>%^WCnst     #   ; ! lumet
++N+Pl+Acc:me%>%^WCnst     #   ; ! lumet
+
+! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
 LEXICON lOi-Pl
-+N+Pl+Gen:i%>lOÖ1i%>n	#   ; ! matoloin
-+N+Pl+Part:i%>lOÖ1i%>AÄ1	#   ; ! matoloja
-+N+Pl+Ill:i%>lOÖ1i%>hV1	#   ; ! matoloihe
-+N+Pl+Ine:i%>lOÖ1i%>s    #   ; ! matolois
-+N+Pl+Ela:i%>lOÖ1i%>st    #   ; ! matoloist
-+N+Pl+All:i%>lOÖ1i%>lle    #   ; ! matoloille
-+N+Pl+Ade:i%>lOÖ1i%>l    #   ; ! matoloil
-+N+Pl+Abl:i%>lOÖ1i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:i%>lOÖ1i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:i%>lOÖ1i%>n    #   ; ! matoloinna
-+N+Pl+Exe:i%>lOÖ1i%>nt    #   ; ! matoloint
-+N+Pl+Instr:i%>lOÖ1i%>nkAÄ1    #   ; ! maanka
++Gen:i%>lOÖ1i%>n	#   ; ! matoloin
++Part:i%>lOÖ1i%>AÄ1	#   ; ! matoloja
++Ill:i%>lOÖ1i%>hV1	#   ; ! matoloihe
++Ine:i%>lOÖ1i%>s    #   ; ! matolois
++Ela:i%>lOÖ1i%>st    #   ; ! matoloist
++All:i%>lOÖ1i%>lle    #   ; ! matoloille
++Ade:i%>lOÖ1i%>l    #   ; ! matoloil
++Abl:i%>lOÖ1i%>lt    #   ; ! matoloilt
++Tra:i%>lOÖ1i%>ks    #   ; ! matoloiks
++Ess:i%>lOÖ1i%>n    #   ; ! matoloinna
++Exe:i%>lOÖ1i%>nt    #   ; ! matoloint
++Instr:i%>lOÖ1i%>nkAÄ1    #   ; ! maanka
 
 ! emoi (III)
 LEXICON N-emoi
@@ -149,7 +160,7 @@ LEXICON N-emoi
 +N+Sg+Exe:i%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl: lOi-Pl ;
 +N+Pl+Nom:i%>%^WCnst     #   ; ! emoit
 
 ! the stem-final "a" is added here
@@ -230,27 +241,30 @@ LEXICON N-ommeena
 +N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl:  lOi-Pl ;
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
 
 ! leikkuu, kiukkaa, lämmää (VI)
 LEXICON N-leikkuu
-+N+Sg+Nom:0     #   ; ! mato
-+N+Sg+Gen:%>%^WCnsn	#   ; ! maon
-+N+Sg+Part:%>%^LCnstAÄ1	#   ; ! ?lämmäätä vs 
-+N+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:%>%^WCns%^LVwss    #   ; ! maoos
-+N+Sg+Ela:%>%^WCnsst    #   ; ! maost
-+N+Sg+All:%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
-+N+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
-+N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
-+N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-leikkuu_01 ;
+
+LEXICON N-leikkuu_01
++Sg+Nom:0     #   ; ! mato
++Sg+Gen:%>n	#   ; ! maon
++Sg+Part:%>tAÄ1	#   ; ! ?lämmäätä vs 
++Sg+Ill:%>sse	#   ; ! mattoo
++Sg+Ine:%>s    #   ; ! maoos
++Sg+Ela:%>st    #   ; ! maost
++Sg+All:%>lle    #   ; ! maolle
++Sg+Ade:%>l    #   ; ! maool
++Sg+Abl:%>lt    #   ; ! maolt
++Sg+Tra:%>ks    #   ; ! maoks
++Sg+Ess:%>nnAÄ1    #   ; ! mattoon
++Sg+Exe:%>nt    #   ; ! mattoon
++Sg+Instr:%>nkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
-+N+Pl+Nom:%>%^WCnst     #   ; ! maot
++Pl: lOi-Pl ;
++Pl+Nom:%>t     #   ; ! maot
 
 ! assia (VII)
 LEXICON N-assia
@@ -268,7 +282,7 @@ LEXICON N-assia
 +N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl:  lOi-Pl ;
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
 
 ! tähkä (VIII)
@@ -287,7 +301,7 @@ LEXICON N-tähkä
 +N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl:  lOi-Pl ;
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
 
 ! tähti (IX)
@@ -306,7 +320,7 @@ LEXICON N-tähti
 +N+Sg+Exe:e%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
- lOi-Pl ;
++N+Pl:  lOi-Pl ;
 +N+Pl+Nom:e%>%^WCnst     #   ; ! maot
 
 ! tähti (X)
@@ -325,19 +339,8 @@ LEXICON N-tähti
 +N+Sg+Exe:e%>%^LCns%^LVwsnt    #   ; ! mattoon
 +N+Sg+Instr:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
++N+Pl: lOi-Pl ;
 +N+Pl+Nom:e%>%^WCnst     #   ; ! maot
-+N+Pl+Gen:%>lOÖ1i%>n	#   ; ! matoloin
-+N+Pl+Part:%>lOÖ1i%>AÄ1	#   ; ! matoloja
-+N+Pl+Ill:%>lOÖ1i%>hV1	#   ; ! matoloihe
-+N+Pl+Ine:%>lOÖ1i%>z    #   ; ! matoloiz
-+N+Pl+Ela:%>lOÖ1i%>st    #   ; ! matoloist
-+N+Pl+All:%>lOÖ1i%>lle    #   ; ! matoloille
-+N+Pl+Ade:%>lOÖ1i%>l    #   ; ! matoloil
-+N+Pl+Abl:%>lOÖ1i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:%>lOÖ1i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:%>lOÖ1i%>n    #   ; ! matoloin
-+N+Pl+Exe:%>lOÖ1i%>nt    #   ; ! matoloint
-+N+Pl+Instr:%>lOÖ1i%>nkAÄ1    #   ; ! mataloinka
 
 ! käsi (XI)
 LEXICON N-käsi
@@ -380,11 +383,12 @@ LEXICON N-varis
 +N+Sg+Part:s%>tAÄ1	#   ; ! varista
 +N+Sg+Ill:kse%>%^LCnsV1	#   ; ! mattoo
 +N+Sg+Ine:kse%>%^LVwss    #   ; ! variksees
-+N+Sg+Ela:kse%>%^WCnsst    #   ; ! maost
-+N+Sg+All:kse%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:kse%>%^WCns%^LVwsl    #   ; ! maool
-+N+Sg+Abl:kse%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:kse%>%^WCnsks    #   ; ! maoks
++N+Sg+Ine:kse%>s    #   ; ! varikses
++N+Sg+Ela:kse%>%^WCnsst    #   ; ! variksest
++N+Sg+All:kse%>%^WCnslle    #   ; ! varikselle
++N+Sg+Ade:kse%>%^WCns%^LVwsl    #   ; ! varikseel
++N+Sg+Abl:kse%>%^WCnslt    #   ; ! varikselt
++N+Sg+Tra:kse%>%^WCnsks    #   ; ! varikseks
 +N+Sg+Ess:kse%>nnAÄ1    #   ; ! variksenna
 +N+Sg+Exe:kse%>nt			    K	; !variksent
 +N+Sg+Instr:kse%>nkAÄ1    #   ; ! maanka
@@ -409,35 +413,38 @@ LEXICON N-varis
 
 ! kärpäin (XIII)
 LEXICON N-kärpäin
-+N+Sg+Nom:n           K  ;
-+N+Sg+Gen:se%>n      K  ;
-+N+Sg+Acc:se%>n      K  ;
-+N+Sg+Part:s%>tAÄ1	#   ; ! kärpäistä
-+N+Sg+Ill:se%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:se%>%^WCns%^LVwss    #   ; ! maooz
-+N+Sg+Ela:se%>%^WCnsst    #   ; ! maost
-+N+Sg+All:se%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:se%>%^WCns%^LVwsl    #   ; ! maool
-+N+Sg+Abl:se%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:se%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
-+N+Sg+Exe:se%>nt			    K	; !variksent
-+N+Sg+Instr:se%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-kärpäin_01 ;
+
+LEXICON N-kärpäin_01
++Sg+Nom:n           K  ;
++Sg+Gen:se%>n      K  ;
++Sg+Acc:se%>n      K  ;
++Sg+Part:s%>tAÄ1	#   ; ! kärpäistä
++Sg+Ill:se%>%^LCnsV1	#   ; ! mattoo
++Sg+Ine:se%>%^WCns%^LVwss    #   ; ! maooz
++Sg+Ela:se%>%^WCnsst    #   ; ! maost
++Sg+All:se%>%^WCnslle    #   ; ! maolle
++Sg+Ade:se%>%^WCns%^LVwsl    #   ; ! maool
++Sg+Abl:se%>%^WCnslt    #   ; ! maolt
++Sg+Tra:se%>%^WCnsks    #   ; ! maoks
++Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
++Sg+Exe:se%>nt			    K	; !variksent
++Sg+Instr:se%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+N+Pl+Nom:se%>%^WCnst     #   ; ! varikset
-+N+Pl+Gen:si%>i%>n	#   ; ! variksin
-+N+Pl+Acc:se%>%^WCnst     #   ; ! varikset
-+N+Pl+Part:s%>i%>AÄ1	#   ; ! variksia
-+N+Pl+Ill:s%>i%>V1	#   ; ! variksii
-+N+Pl+Ine:s%>i%>%^LVwss    #   ; ! variksiis
-+N+Pl+Ela:s%>i%>st    #   ; ! matoloist
-+N+Pl+All:s%>i%>lle    #   ; ! matoloille
-+N+Pl+Ade:s%>i%>%^LVwsl    #   ; ! variksiil
-+N+Pl+Abl:s%>i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:s%>i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:s%>i%>nnAÄ1    #   ; ! variksinna
-+N+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
-+N+Pl+Instr:s%>i%>nkAÄ1    #   ; ! mataloinka
++Pl+Nom:se%>t     #   ; ! kärpäiset
++Pl+Gen:si%>i%>n	#   ; ! kärpäisiin
++Pl+Acc:se%>%^WCnst     #   ; ! varikset
++Pl+Part:s%>i%>AÄ1	#   ; ! variksia
++Pl+Ill:s%>i%>V1	#   ; ! variksii
++Pl+Ine:s%>i%>%^LVwss    #   ; ! variksiis
++Pl+Ela:s%>i%>st    #   ; ! matoloist
++Pl+All:s%>i%>lle    #   ; ! matoloille
++Pl+Ade:s%>i%>%^LVwsl    #   ; ! variksiil
++Pl+Abl:s%>i%>lt    #   ; ! matoloilt
++Pl+Tra:s%>i%>ks    #   ; ! matoloiks
++Pl+Ess:s%>i%>nnAÄ1    #   ; ! variksinna
++Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
++Pl+Instr:s%>i%>nkAÄ1    #   ; ! mataloinka
 
 ! inmihiin (XIII-b)
 LEXICON N-inmihiin

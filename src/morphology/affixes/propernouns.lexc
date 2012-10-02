@@ -6,11 +6,13 @@
 LEXICON PropTag
 +N+Prop: # ;
 
-! (??)
+! Koskin to kärpäin (XIII)
+LEXICON Prop-koskin
++N+Prop: N-kärpäin_01 ;
+
+! to leikkuu (??)
 LEXICON Prop-laukaa
-+N+Prop+Sg+Nom: K  ;
-+N+Prop+Sg+Gen:%>n K  ;
-+N+Prop+Sg+Ade:%>l K  ;
++N+Prop: N-leikkuu_01 ;
 
 ! (??)
 LEXICON Prop-soikkola

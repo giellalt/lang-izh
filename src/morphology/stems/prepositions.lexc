@@ -2,6 +2,8 @@
 LEXICON prepositions
 
 alatse:alatse PrepTag  "" ;
+keskeel:keskeel PrepTag  "" ;
+ilman:ilman PrepTag  "" ;
 jälkkeen:jälkkeen PrepTag  "" ;
 krome:krome PrepTag  "" ;
 läpi:läpi PrepTag  "" ;
