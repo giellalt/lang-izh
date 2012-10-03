@@ -114,6 +114,28 @@
    </entry>
    <entry>
       <lg>
+         <l>veel</l>
+         <stg>
+            <st Contlex="AdvTemp">veel</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>vielä</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>nyt</l>
          <stg>
             <st Contlex="AdvTemp">nyt</st>

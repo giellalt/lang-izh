@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>joka</l>
+         <stg>
+            <st Contlex="QntUniv-attr">joka</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>each</t>
+            </tg>
+            <tg lang="fin">
+               <t>joka</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>yks</l>
          <stg>
             <st Contlex="Num-yks">y</st>

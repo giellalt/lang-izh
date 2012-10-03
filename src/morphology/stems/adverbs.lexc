@@ -6,6 +6,7 @@ ni:ni AdvTag  "" ;
 sentää:sentää AdvTag  "" ;
 mukkaa:mukkaa AdvSpat  "" ;
 ain:ain AdvTemp  "" ;
+veel:veel AdvTemp  "" ;
 nyt:nyt AdvTemp  "" ;
 jo:jo AdvTemp  "" ;
 silloin:silloin AdvTemp  "" ;
