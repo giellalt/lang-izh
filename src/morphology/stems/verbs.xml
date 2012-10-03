@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>hävitä</l>
+         <stg>
+            <st Contlex="V-hävitä">hävi</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jäävvä</l>
          <stg>
             <st Contlex="V-jäävvä">jää</st>
@@ -160,7 +182,7 @@
       <lg>
          <l>näyttää</l>
          <stg>
-            <st Contlex="V-pittää">näytt</st>
+            <st Contlex="V-näyttää">näytt</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -337,6 +359,28 @@
          <l>kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>loppua</l>
+         <stg>
+            <st Contlex="V-kutsua">loppu</st>
          </stg>
       </lg>
       <pos>V</pos>

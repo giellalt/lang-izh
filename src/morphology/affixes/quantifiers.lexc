@@ -22,20 +22,20 @@ LEXICON Num-yks
 +Num+Card+Sg+Ade:hte%>%^WCnsl    #   ; ! yhel
 +Num+Card+Sg+Abl:hte%>%^WCnslt    #   ; ! maolt
 +Num+Card+Sg+Tra:hte%>%^WCnsks    #   ; ! maoks
-+Num+Card+Sg+Ess:hte%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Num+Card+Sg+Ess:hte%>%^LCnsnnAÄ1    #   ; ! mattoon
 +Num+Card+Sg+Exe:hte%>%^LCnsnt    #   ; ! mattoont
 +Num+Card+Sg+Instr:hte%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
 +Num+Card+Pl+Nom:hte%>%^WCnst     #   ; ! maot
-+Num+Card+Pl+Gen:ksi%>%^LCnsi%>n	#   ; ! matoloin
-+Num+Card+Pl+Acc:hte%>%^WCnst     #   ; ! maot
-+Num+Card+Pl+Part:ksi%>%^LCns%>AÄ1	#   ; ! matoloja
-+Num+Card+Pl+Ill:ksi%>%^LCns%>hV1	#   ; ! matoloihe
-+Num+Card+Pl+Ine:ks%>i%>s    #   ; ! matoloiz
-+Num+Card+Pl+Ela:ks%>i%>st    #   ; ! matoloist
-+Num+Card+Pl+All:ks%>i%>lle    #   ; ! matoloille
-+Num+Card+Pl+Ade:ks%>i%>l    #   ; ! matoloil
-+Num+Card+Pl+Abl:ks%>i%>lt    #   ; ! matoloilt
++Num+Card+Pl+Gen:ksi%>%^LCnsi%>n	#   ; ! yksiin
++Num+Card+Pl+Acc:hte%>%^WCnst     #   ; ! yhet
++Num+Card+Pl+Part:ksi%>%^LCns%>AÄ1	#   ; ! yksiä
++Num+Card+Pl+Ill:ksi%>%^LCns%>hV1	#   ; ! yksii
++Num+Card+Pl+Ine:ks%>i%>s    #   ; ! yksiis
++Num+Card+Pl+Ela:ks%>i%>st    #   ; ! yksist
++Num+Card+Pl+All:ks%>i%>lle    #   ; ! yksiille
++Num+Card+Pl+Ade:ks%>i%>l    #   ; ! yksiil
++Num+Card+Pl+Abl:ks%>i%>lt    #   ; ! yksilt
 +Num+Card+Pl+Tra:ks%>i%>ks    #   ; ! orsiks
 +Num+Card+Pl+Ess:ksi%>%^LCns%>innAÄ1    #   ; ! matoloin
 +Num+Card+Pl+Exe:ksi%>%^LCns%>nt    #   ; ! matoloint
@@ -83,14 +83,14 @@ LEXICON NumOrd
 +Num+Ord+Sg+Gen:nte%>%^WCnsn	#   ; ! kolmen
 +Num+Ord+Sg+Acc:nte%>%^WCnsn	#   ; ! yhen
 +Num+Ord+Sg+Part:t%>tAÄ1	#   ; ! yhtä
-+Num+Ord+Sg+Ill:nte%>%^LCnsV1	#   ; ! ortee
-+Num+Ord+Sg+Ine:nte%>%^WCnss    #   ; ! orrees
++Num+Ord+Sg+Ill:nte%>%^LCns%^LVws	#   ; ! ortee
++Num+Ord+Sg+Ine:nte%>%^WCns%^LVws    #   ; ! orrees
 +Num+Ord+Sg+Ela:nte%>%^WCnsst    #   ; ! yhest
 +Num+Ord+Sg+All:nte%>%^WCnslle    #   ; ! maolle
-+Num+Ord+Sg+Ade:nte%>%^WCnsl    #   ; ! yhel
++Num+Ord+Sg+Ade:nte%>%^WCns%^LVwl    #   ; ! yhel
 +Num+Ord+Sg+Abl:nte%>%^WCnslt    #   ; ! maolt
 +Num+Ord+Sg+Tra:nte%>%^WCnsks    #   ; ! maoks
-+Num+Ord+Sg+Ess:nte%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Num+Ord+Sg+Ess:nte%>%^LCnsnnAÄ1    #   ; ! mattoon
 +Num+Ord+Sg+Exe:nte%>%^LCnsnt    #   ; ! mattoont
 +Num+Ord+Sg+Instr:nte%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
@@ -98,17 +98,21 @@ LEXICON NumOrd
 +Num+Ord+Pl+Gen:nsi%>%^LCnsi%>n	#   ; ! matoloin
 +Num+Ord+Pl+Acc:nte%>%^WCnst     #   ; ! maot
 +Num+Ord+Pl+Part:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
-+Num+Ord+Pl+Ill:nsi%>%^LCns%>hV1	#   ; ! matoloihe
-+Num+Ord+Pl+Ine:ns%>i%>s    #   ; ! matoloiz
++Num+Ord+Pl+Ill:nsi%>%^LCns%>i	#   ; ! matoloihe
++Num+Ord+Pl+Ine:ns%>i%>%^LVws    #   ; ! matoloiz
 +Num+Ord+Pl+Ela:ns%>i%>st    #   ; ! matoloist
 +Num+Ord+Pl+All:ns%>i%>lle    #   ; ! matoloille
-+Num+Ord+Pl+Ade:ns%>i%>l    #   ; ! matoloil
++Num+Ord+Pl+Ade:ns%>i%>%^LVwl    #   ; ! matoloil
 +Num+Ord+Pl+Abl:ns%>i%>lt    #   ; ! matoloilt
 +Num+Ord+Pl+Tra:ns%>i%>ks    #   ; ! orsiks
 +Num+Ord+Pl+Ess:nsi%>%^LCns%>innAÄ1    #   ; ! matoloin
 +Num+Ord+Pl+Exe:nsi%>%^LCns%>nt    #   ; ! matoloint
 +Num+Ord+Pl+Exe:nsi%>%>nt    #   ; ! matoloint
 +Num+Ord+Pl+Instr:nsi%>nkAÄ1    #   ; ! mataloinka
+
+! joka
+LEXICON QntUniv-attr
++Qnt+Univ+Attr: # ;
 
 ! vim: set ft=xfst-lexc:
 

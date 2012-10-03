@@ -2,6 +2,10 @@
 LEXICON postpositions
 
 al:al PoTag  "" ;
+ees:ees PoTag  "" ;
+peräst:peräst PoTag  "" ;
+välis:välis PoTag  "" ;
+mukkaa:mukkaa PoTag  "" ;
 jälkkiä:jälkkiä PoTag  "" ;
 kera:kera PoTag  "" ;
 vart:vart PoTag  "" ;

@@ -64,7 +64,7 @@ LEXICON PersPl1
 
 ! töö : t
 LEXICON PersPl2
-+Pron+Pers+Pl2+Nom:0     K   ;
++Pron+Pers+Pl2+Nom:öö     K   ;
 +Pron+Pers+PL2+Gen:eijen  K   ;
 +Pron+Pers+PL2+Acc:eijet  K   ;
 +Pron+Pers+PL2+Part:eitä  K   ;
@@ -168,11 +168,11 @@ LEXICON Pron-kumpa
 +Pron+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
 +Pron+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
-+Pron+Pl+Nom:%>%^WCnst     #   ; ! maot
-+Pron+Pl+Gen:i%>i%>n	#   ; ! matoloin
++Pron+Pl+Nom:%>%^WCnst     #   ; ! kummat
++Pron+Pl+Gen:%>i%>in	#   ; ! kumpiin
 +Pron+Pl+Part:%>i%>AÄ1	#   ; ! kumpia
-+Pron+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
-+Pron+Pl+Ine:%>i%>s    #   ; ! matoloiz
++Pron+Pl+Ill:%>i%>i	#   ; ! kalattommii
++Pron+Pl+Ine:%>i%>%^WCnsis    #   ; ! kummiis
 +Pron+Pl+Ela:%>i%>st    #   ; ! matoloist
 +Pron+Pl+All:%>i%>lle    #   ; ! matoloille
 +Pron+Pl+Ade:%>i%>l    #   ; ! matoloil
