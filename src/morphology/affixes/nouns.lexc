@@ -166,33 +166,60 @@ LEXICON N-emoi
 ! the stem-final "a" is added here
 ! jalka (IV)
 LEXICON N-jalka
-+N+Sg+Nom:a     #   ; ! jalka
-+N+Sg+Gen:a%>%^WCnsn	#   ; ! jalan
-+N+Sg+Part:a%>%^LCnsAÄ1	#   ; ! jalkaa
-+N+Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
-+N+Sg+Ine:a%>%^WCns%^LVwss    #   ; ! jalaas
-+N+Sg+Ela:a%>%^WCnsst    #   ; ! jalast
-+N+Sg+All:a%>%^WCnslle    #   ; ! jalalle
-+N+Sg+Ade:a%>%^WCns%^LVwsl    #   ; ! jalaal
-+N+Sg+Abl:a%>%^WCnslt    #   ; ! jalalt
-+N+Sg+Tra:a%>%^WCnsks    #   ; ! jalaks
-+N+Sg+Ess:a%>%^LCns%^LVwsn    #   ; ! jalkaan
-+N+Sg+Exe:a%>%^LCns%^LVwsnt    #   ; ! jalkaan
-+N+Sg+Instr:a%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-jalka_01 ;
+
+LEXICON N-jalka_01
++Sg+Nom:a     #   ; ! jalka
++Sg+Gen:a%>%^WCnsn	#   ; ! jalan
++Sg+Part:a%>%^LCnsAÄ1	#   ; ! jalkaa
++Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
++Sg+Ine:a%>%^WCns%^LVwss    #   ; ! jalaas
++Sg+Ela:a%>%^WCnsst    #   ; ! jalast
++Sg+All:a%>%^WCnslle    #   ; ! jalalle
++Sg+Ade:a%>%^WCns%^LVwsl    #   ; ! jalaal
++Sg+Abl:a%>%^WCnslt    #   ; ! jalalt
++Sg+Tra:a%>%^WCnsks    #   ; ! jalaks
++Sg+Ess:a%>%^LCns%^LVwsn    #   ; ! jalkaan
++Sg+Exe:a%>%^LCns%^LVwsnt    #   ; ! jalkaan
++Sg+Instr:a%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+N+Pl+Nom:a%>%^WCnst     #   ; ! jalat
-+N+Pl+Gen:o%>i%>n	#   ; ! jalkoin
-+N+Pl+Part:o%>i%>AÄ1	#   ; ! jalkoja
-+N+Pl+Ill:o%>i%>hV1	#   ; ! jalkoihe
-+N+Pl+Ine:o%>i%>%^WCnss    #   ; ! jalois
-+N+Pl+Ela:o%>i%>%^WCnsst    #   ; ! jaloist
-+N+Pl+All:o%>i%>%^WCnslle    #   ; ! jaloille
-+N+Pl+Ade:o%>i%>%^WCnsl    #   ; ! jaloil
-+N+Pl+Abl:o%>i%>%^WCnslt    #   ; ! jaloilt
-+N+Pl+Tra:o%>i%>%^WCnsks    #   ; ! jaloiks
-+N+Pl+Ess:o%>i%>nnAÄ1    #   ; ! jalkoin
-+N+Pl+Exe:o%>i%>nt    #   ; ! jalkoin
-+N+Pl+Instr:o%>i%>nkAÄ1    #   ; ! maanka
++Pl+Nom:a%>%^WCnst     #   ; ! jalat
++Pl+Gen:o%>%^LCnsi%>n	#   ; ! jalkoin
++Pl+Part:o%>i%>AÄ1	#   ; ! jalkoja
++Pl+Ill:o%>i%>hV1	#   ; ! jalkoihe
++Pl+Ine:o%>i%>%^WCnss    #   ; ! jalois
++Pl+Ela:o%>i%>%^WCnsst    #   ; ! jaloist
++Pl+All:o%>i%>%^WCnslle    #   ; ! jaloille
++Pl+Ade:o%>i%>%^WCnsl    #   ; ! jaloil
++Pl+Abl:o%>i%>%^WCnslt    #   ; ! jaloilt
++Pl+Tra:o%>i%>%^WCnsks    #   ; ! jaloiks
++Pl+Ess:o%>i%>nnAÄ1    #   ; ! jalkoin
++Pl+Exe:o%>i%>nt    #   ; ! jalkoin
++Pl+Instr:o%>i%>nkAÄ1    #   ; ! maanka
+
+!!! Three-syllable words
+! from mato (II-e)
+LEXICON N-slovari
++N+Sg+Nom:0     #   ; ! slovari
++N+Sg+Gen:%>n	#   ; ! slovarin
++N+Sg+Acc:%>n	#   ; ! maon
++N+Sg+Part:%>AÄ1	#   ; ! mattooa
++N+Sg+Ill:%>%^LVws	#   ; ! mattoo
++N+Sg+Ine:%>%^LVwss    #   ; ! maooz
++N+Sg+Ela:%>st    #   ; ! maost
++N+Sg+All:%>lle    #   ; ! maolle
++N+Sg+Ade:%>%^LVwsl    #   ; ! maool
++N+Sg+Abl:%>lt    #   ; ! maolt
++N+Sg+Tra:%>ks    #   ; ! maoks
++N+Sg+Ess:%>%^LVwsn    #   ; ! mattoon
++N+Sg+Exe:%>%^LVwsnt    #   ; ! mattoont
++N+Sg+Instr:%>nkAÄ1    #   ; ! maanka
+! Plural
++N+Pl: lOi-Pl ;
++N+Pl+Nom:%>t     #   ; ! maot
++N+Pl+Acc:%>t     #   ; ! maot
+
+
 
 ! the stem-final "a" is added here
 ! vokala (IV-b)
@@ -243,6 +270,7 @@ LEXICON N-ommeena
 ! Plural
 +N+Pl:  lOi-Pl ;
 +N+Pl+Nom:%>%^WCnst     #   ; ! maot
+
 
 ! leikkuu, kiukkaa, lämmää (VI)
 LEXICON N-leikkuu
@@ -427,7 +455,7 @@ LEXICON N-kärpäin_01
 +Sg+Ade:se%>%^WCns%^LVwsl    #   ; ! maool
 +Sg+Abl:se%>%^WCnslt    #   ; ! maolt
 +Sg+Tra:se%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
++Sg+Ess:se%>nnAÄ1    #   ; ! variksenna
 +Sg+Exe:se%>nt			    K	; !variksent
 +Sg+Instr:se%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural

@@ -26,6 +26,94 @@
    </entry>
    <entry>
       <lg>
+         <l>ees</l>
+         <stg>
+            <st Contlex="PoTag">ees</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>peräst</l>
+         <stg>
+            <st Contlex="PoTag">peräst</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>välis</l>
+         <stg>
+            <st Contlex="PoTag">välis</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mukkaa</l>
+         <stg>
+            <st Contlex="PoTag">mukkaa</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jälkkiä</l>
          <stg>
             <st Contlex="PoTag">jälkkiä</st>

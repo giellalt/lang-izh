@@ -666,6 +666,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kulttuura</l>
+         <stg>
+            <st Contlex="N-vokala">kulttuur</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>takavokala</l>
          <stg>
             <st Contlex="N-vokala">takavokal</st>
@@ -1524,6 +1546,28 @@
    </entry>
    <entry>
       <lg>
+         <l>siha</l>
+         <stg>
+            <st Contlex="N-jalka">sih</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>lehmä</l>
          <stg>
             <st Contlex="N-tähkä">lehmä</st>
@@ -1571,6 +1615,50 @@
          <l>esimerkki</l>
          <stg>
             <st Contlex="N-mato">esimerkki</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>steeppeni</l>
+         <stg>
+            <st Contlex="N-slovari">steeppeni</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>slovari</l>
+         <stg>
+            <st Contlex="N-slovari">slovari</st>
          </stg>
       </lg>
       <pos>N</pos>

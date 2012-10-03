@@ -97,21 +97,21 @@ LEXICON A-lyhyt
 +A+Pl+Exe:%>i%>nt    #   ; ! matoloint
 
 
-! glavnoi (??)
+! glavnoi 2 syllables (??)
 LEXICON A-glavnoi
 +A+Comp:%>mp MP ;
-+A+Sg+Nom:     #   ; ! oma
-+A+Sg+Gen:%>%^WCnsn	#   ; ! oman
++A+Sg+Nom:     #   ; ! glavnoi
++A+Sg+Gen:%>%^WCnsn	#   ; ! glavnoin
 +A+Sg+Part:%>AÄ1	#   ; ! ommaa
-+A+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+A+Sg+Ine:%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
-+A+Sg+Ela:%>%^WCnsst    #   ; ! maost
-+A+Sg+All:%>%^WCnslle    #   ; ! maolle
-+A+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
-+A+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+A+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+A+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
-+A+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
++A+Sg+Ill:%>he	#   ; ! glavnoihe
++A+Sg+Ine:%>s    #   ; ! mAÄ1ooz
++A+Sg+Ela:%>st    #   ; ! maost
++A+Sg+All:%>lle    #   ; ! maolle
++A+Sg+Ade:%>l    #   ; ! maool
++A+Sg+Abl:%>lt    #   ; ! maolt
++A+Sg+Tra:%>ks    #   ; ! maoks
++A+Sg+Ess:%>nnAÄ1    #   ; ! mattoon
++A+Sg+Exe:%>nt    #   ; ! mattoont
 ! Plural
 +A+Pl+Nom:%>%^WCnst     #   ; ! maot
 +A+Pl+Gen:%>i%>n	#   ; ! matoloin
@@ -156,7 +156,13 @@ LEXICON A-kalatoin
 
 ! kärpäin (XIII)
 LEXICON A-erilaajain
++A:semp MP ;
 +A:  N-kärpäin_01 ;
+
+! vahva:vahv ()
+LEXICON A-vahva
++A:emp MP ;
++A:  N-jalka_01 ;
 
 
 LEXICON MP

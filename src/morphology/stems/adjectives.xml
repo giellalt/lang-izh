@@ -246,6 +246,28 @@
    </entry>
    <entry>
       <lg>
+         <l>slaaboi</l>
+         <stg>
+            <st Contlex="A-glavnoi">slaaboi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>prostoi</l>
          <stg>
             <st Contlex="A-glavnoi">prostoi</st>
@@ -400,9 +422,31 @@
    </entry>
    <entry>
       <lg>
-         <l>vaaƶnoi</l>
+         <l>vahva</l>
          <stg>
-            <st Contlex="A-glavnoi">vaaƶnoi</st>
+            <st Contlex="A-vahva">vahv</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rankka</l>
+         <stg>
+            <st Contlex="A-vahva">rankk</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -438,6 +482,28 @@
             </tg>
             <tg lang="fin">
                <t>erilainen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>samanlaajain</l>
+         <stg>
+            <st Contlex="A-erilaajain">samanlaajai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>samanlainen</t>
             </tg>
          </mg>
       </e>
