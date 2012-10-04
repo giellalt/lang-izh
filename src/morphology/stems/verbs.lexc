@@ -18,6 +18,7 @@ kirjuttaa:kirjutt V-kirjuttaa  "" ;
 ƶaalivoittaa:ƶaalivoitt V-kirjuttaa  "" ;
 mukkoittaa:mukkoitt V-kirjuttaa  "" ;
 kutsua:kutsu V-kutsua  "" ;
+muuttua:muuttu V-kutsua  "" ;
 puuttua:puuttu V-kutsua  "" ;
 loppua:loppu V-kutsua  "" ;
 katsoa:katso V-kutsua  "" ;
