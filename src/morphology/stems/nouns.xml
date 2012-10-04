@@ -555,6 +555,28 @@
    </entry>
    <entry>
       <lg>
+         <l>monikko</l>
+         <stg>
+            <st Contlex="N-monikko">monikko</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jalka</l>
          <stg>
             <st Contlex="N-jalka">jalk</st>
@@ -647,6 +669,50 @@
          <l>vokala</l>
          <stg>
             <st Contlex="N-vokala">vokal</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>otnoşenja</l>
+         <stg>
+            <st Contlex="N-vokala">otnoşenj</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>predmetta</l>
+         <stg>
+            <st Contlex="N-vokala">predmett</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -2099,6 +2165,28 @@
          <l>merkki</l>
          <stg>
             <st Contlex="N-mato">merkki</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tuntomerkki</l>
+         <stg>
+            <st Contlex="N-mato">tuntomerkki</st>
          </stg>
       </lg>
       <pos>N</pos>

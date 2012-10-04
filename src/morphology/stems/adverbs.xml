@@ -48,6 +48,50 @@
    </entry>
    <entry>
       <lg>
+         <l>ikkee</l>
+         <stg>
+            <st Contlex="AdvTag">ikkee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kera</l>
+         <stg>
+            <st Contlex="AdvTag">kera</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>sentää</l>
          <stg>
             <st Contlex="AdvTag">sentää</st>
@@ -73,6 +117,28 @@
          <l>mukkaa</l>
          <stg>
             <st Contlex="AdvSpat">mukkaa</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>pois</l>
+         <stg>
+            <st Contlex="AdvSpat">pois</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>

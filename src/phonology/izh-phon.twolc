@@ -31,6 +31,16 @@ V1:y
 V1:ä
 V1:ö
 
+! These appear with the inessive and adessive
+V2:a
+V2:e
+V2:i
+V2:o
+V2:u
+V2:y
+V2:ä
+V2:ö
+
 
 %- !Hyphen in  constructions 
 %>:0
@@ -75,9 +85,15 @@ BT =  [ [ :VwsBack | VwsBack:0 ] [ :Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 
 ! Short vowel
 SV = [ [ #: | Cns+ ] :Vws ] ;
 
-! Inessive lengthening
-IL = [ Vws : Cns: ] ; ! If a vowel is preceeded by this, is can be long
+ ! If a vowel is preceeded by this, is can be long
 !  in both the inessive and the adessive
+! Inessive lengthening of vowel
+IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
+
+! oma:ommaa, 
+! Subsequent Long Vowel
+! preceeded by "Cns _"
+SLV = [ :Vws [ ( %>:0 %^LCns:0 %^LVws:0 | %>:0 %^LCns:0 | %>:0 i %>:0 | %>:0 ) [ V1:Vws | AÄ1: ] |  0:Vws %>:0 ( %^LCns: | %^WCns: ) %^LVws: | %>:0 %^LCns:0 [ i %>:0 n | i: %>:0 AÄ1: ] ] ] ;
 
 Rules
 
@@ -149,19 +165,27 @@ Rules
 
 ! Vws %>:0 %^LCns: V1:
 ! Vowel agreement in illative 
-"V1:aeouüäo"
- V1:Vx <=> Vx %>:0 [ h | ( %^LCns: ) ] _ ;
-        where Vx in (a o u ä ö ü) ;
+"V1:aeouüäö"
+ V1:Vx <=> :Vx %>:0 [ h | ( %^LCns: ) ] _ ;
+        where Vx in (a o u ä ö ü y) ;
 
 ! Vowel agreement in illative e
 "V1:e"
  V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
 
+!  _mato:maool_ not allowed
+! Vowel lengthening for the inesive and adessive with V2
+"V2:aeiouüäö"
+ V2:Vx <=> [ IL ] Vx %>:0  ( %^WCns: )  _ [ s | l ] ;
+        where Vx in (a o u ä ö ü e i y) ;
+
+"V2:Zero"
+ V2:0 <=> [ #: Cns* Vws Cns: ] Vws %>:0  ( %^WCns: ) _ [ s | l ] ;
 
 ! ! Vowel Lengthening
-! mato : mattoon, mato : maool
+! mato : mattoon,
  "Zero:Vx"
- 0:Vx <=> IL Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
+ 0:Vx <=> ( Vws+ Cns+ ) Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
          [ #: ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | [ #: ] ] ;
        where Vx in (a o u ä ö y e) ; 
 
@@ -170,8 +194,9 @@ Rules
 ! mato : mattoo, näytettävä : näytettävvää
 !"even-syllable" This should be secondary
 "consonant lengthening"
- 0:Cx <=> [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
-
+ 0:Cx <=> 
+! [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
+          Vws Cx _ ( ( Vws:0 ) %>:0 ) SLV ;
            where Cx in (m t s n r l k g h) ;
 
 ! oja: oija
@@ -198,7 +223,7 @@ Rules
                     Cy in (v v) matched ;
 
 "0:v Lengthening with Ut:vv weakening"
- 0:v <=> [ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+ 0:v <=> [ #: ] Cns* Vws [ u: | y: ] [ t:v | k:v ]  _ :Vws ( 0: ) %>:0 %^WCns:0 ;
          [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ :Vws ] v _ :Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] ;
 
 ! viis: viijes
@@ -230,7 +255,7 @@ k:g <=> [ #: ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 ! aika: ajan
 "kToZero"
-k:0 <=> [ #: ] Cns* Vws ( k | t | h | l | r | s ) _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
+k:0 <=> [ [ #: ] Cns* Vws ( k | t | h | l | r | s ) | Vws Cns+ :Vws+ k] _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
         [ #: ] Cns* VwsBack i: _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
 ! liika:liijan, reikä:reijän
@@ -240,7 +265,7 @@ k:0 <=> [ #: ] Cns* Vws ( k | t | h | l | r | s ) _ Vws: ( 0: | %>:0 i: ) %>:0 %
 ! mato : maot, mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: ] [ Cns* Vws ( t ) | Cns* Vws+ Cns+ Vws+ Cns+ Vws+ ( n ) t ] _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> [ #: Cns* Vws ( h | t ) | Cns* Vws+ Cns+ Vws+ ( n ) t ] _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 
 ! lupa : luvan
