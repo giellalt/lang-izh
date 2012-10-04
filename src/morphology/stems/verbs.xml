@@ -160,7 +160,7 @@
       <lg>
          <l>pittää</l>
          <stg>
-            <st Contlex="V-pittää">pitt</st>
+            <st Contlex="V-pittää">pit</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -359,6 +359,50 @@
          <l>kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>muuttua</l>
+         <stg>
+            <st Contlex="V-kutsua">muuttu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>puuttua</l>
+         <stg>
+            <st Contlex="V-kutsua">puuttu</st>
          </stg>
       </lg>
       <pos>V</pos>
