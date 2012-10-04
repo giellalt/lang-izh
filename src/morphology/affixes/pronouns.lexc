@@ -8,7 +8,7 @@ LEXICON PersSg1
 +Pron+Pers+Sg1+Gen:un  K   ;
 +Pron+Pers+Sg1+Part:nnua  K   ;
 +Pron+Pers+Sg1+Ill:uhe  K   ;
-+Pron+Pers+Sg1+Ine:uz  K   ;
++Pron+Pers+Sg1+Ine:us  K   ;
 +Pron+Pers+Sg1+Ela:ust  K   ;
 +Pron+Pers+Sg1+All:ulle  K   ;
 +Pron+Pers+Sg1+Ade:ul  K   ;
@@ -18,11 +18,11 @@ LEXICON PersSg1
 
 ! siä : si
 LEXICON PersSg2
-+Pron+Pers+Sg2+Nom:0     K   ;
++Pron+Pers+Sg2+Nom:ä     K   ;
 +Pron+Pers+Sg2+Gen:un  K   ;
 +Pron+Pers+Sg2+Part:nnua  K   ;
 +Pron+Pers+Sg2+Ill:uhe  K   ;
-+Pron+Pers+Sg2+Ine:uz  K   ;
++Pron+Pers+Sg2+Ine:us  K   ;
 +Pron+Pers+Sg2+Ela:ust  K   ;
 +Pron+Pers+Sg2+All:ulle  K   ;
 +Pron+Pers+Sg2+Ade:ul  K   ;
@@ -37,7 +37,7 @@ LEXICON PersSg3
 +Pron+Pers+Sg3+Gen:nen  K   ;
 +Pron+Pers+Sg3+Part:nt  K   ;
 +Pron+Pers+Sg3+Ill:nnee  K   ;
-+Pron+Pers+Sg3+Ine:neez  K   ;
++Pron+Pers+Sg3+Ine:nees  K   ;
 +Pron+Pers+Sg3+Ela:nest  K   ;
 +Pron+Pers+Sg3+All:neulle  K   ;
 +Pron+Pers+Sg3+Ade:neel  K   ;
@@ -53,7 +53,7 @@ LEXICON PersPl1
 +Pron+Pers+Pl1+Acc:eijet  K   ;
 +Pron+Pers+Pl1+Part:eitä  K   ;
 +Pron+Pers+Pl1+Ill:eihe  K   ;
-+Pron+Pers+Pl1+Ine:eiz  K   ;
++Pron+Pers+Pl1+Ine:eis  K   ;
 +Pron+Pers+Pl1+Ela:eist  K   ;
 +Pron+Pers+Pl1+All:eille  K   ;
 +Pron+Pers+Pl1+Ade:eil  K   ;
@@ -69,7 +69,7 @@ LEXICON PersPl2
 +Pron+Pers+PL2+Acc:eijet  K   ;
 +Pron+Pers+PL2+Part:eitä  K   ;
 +Pron+Pers+PL2+Ill:eihe  K   ;
-+Pron+Pers+PL2+Ine:eiz  K   ;
++Pron+Pers+PL2+Ine:eis  K   ;
 +Pron+Pers+PL2+Ela:eist  K   ;
 +Pron+Pers+PL2+All:eille  K   ;
 +Pron+Pers+PL2+Ade:eil  K   ;
@@ -85,7 +85,7 @@ LEXICON PersPl3
 +Pron+Pers+Pl3+Acc:eijet  K   ;
 +Pron+Pers+Pl3+Part:eitä  K   ;
 +Pron+Pers+Pl3+Ill:eihe  K   ;
-+Pron+Pers+Pl3+Ine:eiz  K   ;
++Pron+Pers+Pl3+Ine:eis  K   ;
 +Pron+Pers+Pl3+Ela:eist  K   ;
 +Pron+Pers+Pl3+All:eille  K   ;
 +Pron+Pers+Pl3+Ade:eil  K   ;
@@ -151,7 +151,30 @@ LEXICON Dem-nämä
 +Pron+Dem+Pl+Tra:iks  K   ;
 +Pron+Dem+Pl+Ess:in  K   ;
 
+! mikä : mi
+LEXICON PronInterr-mikä
++Pron+Interr+Sg+Nom:kä     K   ;
++Pron+Interr+Pl+Nom:t     K   ;
++Pron+Interr+Gen:n  K   ;
++Pron+Interr+Gen:nen  K   ;
++Pron+Interr+Part:tä  K   ;
++Pron+Interr+Ill:he  K   ;
++Pron+Interr+Ine:s  K   ;
++Pron+Interr+Ela:st  K   ;
++Pron+Interr+All:lle  K   ;
++Pron+Interr+Ade:l  K   ;
++Pron+Interr+Abl:lt  K   ;
++Pron+Interr+Tra:ks  K   ;
++Pron+Interr+Ess:nennä  K   ;
++Pron+Interr+Ess:nneen  K   ;
++Pron+Interr+Exe:nent  K   ;
++Pron+Interr+Exe:nnent  K   ;
 
+! kus:ku
+LEXICON PronInterr-kus
++Pron+Interr+Ine:s  K   ;
++Pron+Interr+Ill:hu  K   ;
++Pron+Interr+Ela:st  K   ;
 
 
 LEXICON Pron-kumpa
@@ -159,10 +182,10 @@ LEXICON Pron-kumpa
 +Pron+Sg+Gen:%>%^WCnsn	#   ; ! oman
 +Pron+Sg+Part:%>AÄ1	#   ; ! ommaa
 +Pron+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Pron+Sg+Ine:%>%^WCns%^LVwss    #   ; ! kummaas
++Pron+Sg+Ine:%>%^WCnsV2s    #   ; ! kummaas
 +Pron+Sg+Ela:%>%^WCnsst    #   ; ! kummast
 +Pron+Sg+All:%>%^WCnslle    #   ; ! maolle
-+Pron+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
++Pron+Sg+Ade:%>%^WCnsV2l    #   ; ! maool
 +Pron+Sg+Abl:%>%^WCnslt    #   ; ! maolt
 +Pron+Sg+Tra:%>%^WCnsks    #   ; ! maoks
 +Pron+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
