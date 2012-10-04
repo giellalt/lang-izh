@@ -161,8 +161,13 @@ LEXICON A-erilaajain
 
 ! vahva:vahv ()
 LEXICON A-vahva
-+A:emp MP ;
++A:emp MP ; ! 2-syllables
 +A:  N-jalka_01 ;
+
+! matala: matal ()
+LEXICON A-matala
++A:amp MP ; ! 3-syllables
++A: N-vokala_01 ;
 
 
 LEXICON MP

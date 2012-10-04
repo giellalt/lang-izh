@@ -70,7 +70,7 @@ Multichar_Symbols
 
 !! Question and Focus particles:
  +Qst +Foc
-
+ +Foc/kii
 
 !! Semantics are classified with
  +Mal +Fem +Sur 
@@ -103,7 +103,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
- %> V1 AÄ1 OÖ1 UY1 
+ %> V1 V2 AÄ1 OÖ1 UY1 
 
 !! And following triggers to control variation
  {front} {back}

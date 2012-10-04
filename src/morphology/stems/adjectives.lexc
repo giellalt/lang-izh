@@ -21,6 +21,7 @@ kirjatoin:kirjat A-kalatoin  "" ;
 natsionaljnoi:natsionaljnoi A-glavnoi  "" ;
 vaaƶnoi:vaaƶnoi A-glavnoi  "" ;
 vahva:vahv A-vahva  "" ;
+matala:matal A-matala  "" ;
 rankka:rankk A-vahva  "" ;
 erilaajain:erilaajai A-erilaajain  "" ;
 samanlaajain:samanlaajai A-erilaajain  "" ;
