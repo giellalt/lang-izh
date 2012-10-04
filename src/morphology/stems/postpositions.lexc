@@ -3,6 +3,11 @@ LEXICON postpositions
 
 al:al PoTag  "" ;
 ees:ees PoTag  "" ;
+sises:sises PoTag  "" ;
+sissee:sissee PoTag  "" ;
+sisest:sisest PoTag  "" ;
+välil:välil PoTag  "" ;
+kautta:kautta PoTag  "" ;
 peräst:peräst PoTag  "" ;
 välis:välis PoTag  "" ;
 mukkaa:mukkaa PoTag  "" ;

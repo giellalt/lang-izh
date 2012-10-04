@@ -244,4 +244,48 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>mikä</l>
+         <stg>
+            <st Contlex="PronInterr-mikä">mi</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kus</l>
+         <stg>
+            <st Contlex="PronInterr-kus">ku</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

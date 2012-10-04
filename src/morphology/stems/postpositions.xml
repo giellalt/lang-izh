@@ -48,6 +48,116 @@
    </entry>
    <entry>
       <lg>
+         <l>sises</l>
+         <stg>
+            <st Contlex="PoTag">sises</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>sissee</l>
+         <stg>
+            <st Contlex="PoTag">sissee</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>sisest</l>
+         <stg>
+            <st Contlex="PoTag">sisest</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>välil</l>
+         <stg>
+            <st Contlex="PoTag">välil</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kautta</l>
+         <stg>
+            <st Contlex="PoTag">kautta</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>peräst</l>
          <stg>
             <st Contlex="PoTag">peräst</st>

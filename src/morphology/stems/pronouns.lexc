@@ -12,3 +12,5 @@ neet:n Dem-neet  "" ;
 nämä:nä Dem-nämä  "" ;
 tämä:tä Dem-tämä  "" ;
 kumpa:kumpa Pron-kumpa  "" ;
+mikä:mi PronInterr-mikä  "" ;
+kus:ku PronInterr-kus  "" ;
