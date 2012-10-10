@@ -180,6 +180,50 @@
    </entry>
    <entry>
       <lg>
+         <l>pittuus</l>
+         <stg>
+            <st Contlex="N-oikehus">pittuu</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>oikeus</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vanhus</l>
+         <stg>
+            <st Contlex="N-oikehus">vanhu</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>vanhuus</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>yhtehys</l>
          <stg>
             <st Contlex="N-oikehus">yhtehy</st>
@@ -776,6 +820,248 @@
    </entry>
    <entry>
       <lg>
+         <l>nominativa</l>
+         <stg>
+            <st Contlex="N-vokala">nominativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>genetiva</l>
+         <stg>
+            <st Contlex="N-vokala">genetiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ablativa</l>
+         <stg>
+            <st Contlex="N-vokala">ablativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>allativa</l>
+         <stg>
+            <st Contlex="N-vokala">allativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>elativa</l>
+         <stg>
+            <st Contlex="N-vokala">elativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>translativa</l>
+         <stg>
+            <st Contlex="N-vokala">translativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>prolativa</l>
+         <stg>
+            <st Contlex="N-vokala">prolativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>substantiva</l>
+         <stg>
+            <st Contlex="N-vokala">substantiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>illativa</l>
+         <stg>
+            <st Contlex="N-vokala">illativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>akkusativa</l>
+         <stg>
+            <st Contlex="N-vokala">akkusativ</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>partitiva</l>
+         <stg>
+            <st Contlex="N-vokala">partitiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kulttuura</l>
          <stg>
             <st Contlex="N-vokala">kulttuur</st>
@@ -1174,7 +1460,7 @@
       <lg>
          <l>laajasana</l>
          <stg>
-            <st Contlex="N-jalka">laajasan</st>
+            <st Contlex="N-kana">laajasan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -1231,7 +1517,29 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>aika</t>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vadja</l>
+         <stg>
+            <st Contlex="N-jalka">vadj</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>
@@ -1297,7 +1605,7 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>kana</t>
+               <t>harakka</t>
             </tg>
          </mg>
       </e>
@@ -1306,7 +1614,29 @@
       <lg>
          <l>kana</l>
          <stg>
-            <st Contlex="N-jalka">kan</st>
+            <st Contlex="N-kana">kan</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>kana</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>sauna</l>
+         <stg>
+            <st Contlex="N-kana">saun</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -1372,7 +1702,7 @@
       <lg>
          <l>cislasana</l>
          <stg>
-            <st Contlex="N-jalka">cislasan</st>
+            <st Contlex="N-kana">cislasan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -1504,7 +1834,7 @@
       <lg>
          <l>sana</l>
          <stg>
-            <st Contlex="N-jalka">san</st>
+            <st Contlex="N-kana">san</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -1548,7 +1878,7 @@
       <lg>
          <l>nimisana</l>
          <stg>
-            <st Contlex="N-jalka">nimisan</st>
+            <st Contlex="N-kana">nimisan</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -1746,7 +2076,7 @@
       <lg>
          <l>esimerkki</l>
          <stg>
-            <st Contlex="N-mato">esimerkki</st>
+            <st Contlex="N-mato">esi#merkki</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -2274,7 +2604,7 @@
       <lg>
          <l>tuntomerkki</l>
          <stg>
-            <st Contlex="N-mato">tuntomerkki</st>
+            <st Contlex="N-mato">tunto#merkki</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -3199,6 +3529,28 @@
          <l>varis</l>
          <stg>
             <st Contlex="N-varis">vari</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>painutos</l>
+         <stg>
+            <st Contlex="N-varis">painuto</st>
          </stg>
       </lg>
       <pos>N</pos>

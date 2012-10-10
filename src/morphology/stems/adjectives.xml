@@ -444,6 +444,28 @@
    </entry>
    <entry>
       <lg>
+         <l>vanha</l>
+         <stg>
+            <st Contlex="A-vahva">vanh</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>matala</l>
          <stg>
             <st Contlex="A-matala">matal</st>
