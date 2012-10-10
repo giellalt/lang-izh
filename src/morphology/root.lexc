@@ -50,6 +50,7 @@ Multichar_Symbols
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
+ +Univ ! universal quantifier
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
