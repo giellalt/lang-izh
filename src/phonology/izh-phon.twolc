@@ -44,7 +44,7 @@ V2:ö
 
 %- !Hyphen in  constructions 
 %>:0
-#   ! Word boundary for both lexicalised and dynamic compounds
+#:0   ! Word boundary for both lexicalised and dynamic compounds
 
 Cx
 Cy
@@ -77,10 +77,12 @@ Letters = Vws Cns ;
 Definitions
 
 ! Front Trigger
-FT = [ #: [ :Cns | VwsNeutral ]+ | :VwsFront [ :Cns | VwsNeutral ]*  | VwsFront:0 [ :Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
+FT =  #: Cns* [ VwsFront: | :VwsFront | VwsNeutral ] \[ #: | VwsBack: | :VwsBack ]*  ;
+! [ #: [ :Cns | VwsNeutral ]+ | :VwsFront [ :Cns | VwsNeutral ]*  | VwsFront:0 [ :Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
 
 ! Back Trigger 
-BT =  [ [ :VwsBack | VwsBack:0 ] [ :Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
+BT =  #: Cns* [ VwsBack: | :VwsBack ] \[ #: | VwsFront: | :VwsFront ]* ;
+![ [ :VwsBack | VwsBack:0 ] [ :Cns | VwsNeutral ]* ] ( %>:0 ) ( ( %^AtoO:0 ) i: ) ;
 
 ! Short vowel
 SV = [ [ #: | Cns+ ] :Vws ] ;
@@ -93,7 +95,7 @@ IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 ! oma:ommaa, 
 ! Subsequent Long Vowel
 ! preceeded by "Cns _"
-SLV = [ :Vws [ ( %>:0 %^LCns:0 %^LVws:0 | %>:0 %^LCns:0 | %>:0 i %>:0 | %>:0 ) [ V1:Vws | AÄ1: ] |  0:Vws %>:0 ( %^LCns: | %^WCns: ) %^LVws: | %>:0 %^LCns:0 [ i %>:0 n | i: %>:0 AÄ1: ] ] ] ;
+SLV = [ :Vws [ ( %>:0 %^LCns:0 %^LVws:0 | %>:0 %^LCns:0 | %>:0 i %>:0 | %>:0 ) [ V1:Vws | AÄ1: ] |  0:Vws %>:0 ( %^LCns: | %^WCns: ) %^LVws: | %>:0 %^LCns:0 [ i %>:0 [ n | i #: ] | i: %>:0 AÄ1: ] ] ] ;
 
 Rules
 
@@ -138,30 +140,30 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=>  FT %>:0 ( %^LCns: | %^LCns: %^LVws: | %^WCns: ) ( v :v | t | n n | m p: | n k | m m | t t | m | t | j )  _ ;!
+ AÄ1:ä <=> FT _ ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=>  BT %>:0 (  %^LCns: | %^LCns: %^LVws: | %^WCns:) ( v :v | t | n n | m p: | n k | m m | t t | m | t | j )  _ ;!
+ AÄ1:a <=> BT _ ;
 
 !
 ! Vowel harmony suffixes Front
 "OÖ1:ö"
- OÖ1:ö <=>  FT [ %>:0 [ l | ( %^LCns: ) | t ] ] _ ;!
+ OÖ1:ö <=>  FT _ ;
 
 ! Vowel harmony suffixes Back
 "OÖ1:o"
- OÖ1:o <=>  BT [ %>:0 [ l | ( %^LCns: ) | t ] ] _ ;!
+ OÖ1:o <=>  BT _ ;
 
 !
 ! Vowel harmony suffixes Front
 "UY1:y"
- UY1:y <=>  FT %>:0 ( t ) t:  _ ;!
+ UY1:y <=>  FT _ ;
 
 ! Vowel harmony suffixes Back
-"UY1:o"
- UY1:o <=>  BT %>:0 ( t ) t:  _ ;!
+"UY1:u"
+ UY1:u <=>  BT _ ;
 
 ! Vws %>:0 %^LCns: V1:
 ! Vowel agreement in illative 
@@ -196,7 +198,7 @@ Rules
 "consonant lengthening"
  0:Cx <=> 
 ! [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
-          Vws Cx _ ( ( Vws:0 ) %>:0 ) SLV ;
+        [ #: Cns* | #: Cns* Vws+ Cns+] \[ #: ]*  Vws Cx _ ( ( Vws:0 ) %>:0 ) SLV ;
            where Cx in (m t s n r l k g h) ;
 
 ! oja: oija
@@ -255,22 +257,25 @@ k:g <=> [ #: ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 ! aika: ajan
 "kToZero"
-k:0 <=> [ [ #: ] Cns* Vws ( k | t | h | l | r | s ) | Vws Cns+ :Vws+ k] _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
+k:0 <=> [ [ #: ] Cns* Vws (( r ) k | t | h | l | r | s ) | Vws Cns+ :Vws+ k ] _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
         [ #: ] Cns* VwsBack i: _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
 ! liika:liijan, reikä:reijän
 "kToj"
  k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
-! mato : maot, mato : maool
+! mato : maot, ! mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: Cns* Vws ( h | t ) | Cns* Vws+ Cns+ Vws+ ( n ) t ] _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws Vws t | Cns* Vws+ Cns+ Vws+ ( n ) t ] _  [ :Vws | ( %>:0 ) AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
 
 
 ! lupa : luvan
 "p:v"
 p:v <=> [ #: ] Cns* Vws ( r | l ) _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+
+"double pp to p"
+p:0 <=> [ #: Cns* Vws p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _  [ :Vws | AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
 
 
 
