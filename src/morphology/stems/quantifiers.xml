@@ -48,6 +48,72 @@
    </entry>
    <entry>
       <lg>
+         <l>kaik</l>
+         <stg>
+            <st Contlex="Qnt-kaik">kaik</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>all</t>
+            </tg>
+            <tg lang="fin">
+               <t>kaikki</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>enemmän</l>
+         <stg>
+            <st Contlex="QntTag">enemmän</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>more</t>
+            </tg>
+            <tg lang="fin">
+               <t>enemmän</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>paljo</l>
+         <stg>
+            <st Contlex="Qnt-paljo">paljo</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>all</t>
+            </tg>
+            <tg lang="fin">
+               <t>kaikki</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>joka</l>
          <stg>
             <st Contlex="QntUniv-attr">joka</st>

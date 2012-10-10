@@ -202,6 +202,28 @@
    </entry>
    <entry>
       <lg>
+         <l>ottaa</l>
+         <stg>
+            <st Contlex="V-näyttää">ott</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>löytää</l>
          <stg>
             <st Contlex="V-pittää">löyt</st>
@@ -249,6 +271,50 @@
          <l>kasvaa</l>
          <stg>
             <st Contlex="V-antaa">kasv</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>nähä</l>
+         <stg>
+            <st Contlex="V-nähä">nä</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>painuttassa</l>
+         <stg>
+            <st Contlex="V-painuttassa">painutta</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -359,6 +425,50 @@
          <l>kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kuulua</l>
+         <stg>
+            <st Contlex="V-kutsua">kuulu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>liittyä</l>
+         <stg>
+            <st Contlex="V-kutsua">liitty</st>
          </stg>
       </lg>
       <pos>V</pos>

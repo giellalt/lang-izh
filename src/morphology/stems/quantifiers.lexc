@@ -1,8 +1,12 @@
 
+
 LEXICON quantifiers
 
 ensimäin:ensimäi Ord-toin  "first" ;
 toin:toi Ord-toin  "second" ;
+kaik:kaik Qnt-kaik  "all" ;
+enemmän:enemmän QntTag  "more" ;
+paljo:paljo Qnt-paljo  "all" ;
 joka:joka QntUniv-attr  "each" ;
 yks:y Num-yks  "one" ;
 kaks:ka Num-yks  "two" ;

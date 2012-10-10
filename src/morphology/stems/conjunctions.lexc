@@ -1,11 +1,16 @@
 
+
 LEXICON conjunctions
 
 ja:ja CcTag  "" ;
+i:i CcTag  "" ;
+a:a CcTag  "" ;
 vaa:vaa CcTag  "" ;
 tali:tali CcTag  "" ;
 jos:jos CsTag  "" ;
 jot:jot CsTag  "" ;
+kons:kons CsTag  "" ;
+vaik:vaik CsTag  "" ;
 kuin:kuin CsTag  "" ;
 niku:niku CsTag  "" ;
 ku:ku CsTag  "" ;

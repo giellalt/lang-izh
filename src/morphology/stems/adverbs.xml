@@ -180,6 +180,28 @@
    </entry>
    <entry>
       <lg>
+         <l>taas</l>
+         <stg>
+            <st Contlex="AdvTemp">taas</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>taas</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>veel</l>
          <stg>
             <st Contlex="AdvTemp">veel</st>

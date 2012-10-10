@@ -1,4 +1,5 @@
 
+
 LEXICON verbs
 
 ahavoija:ahavoi V-voija  "" ;
@@ -10,14 +11,19 @@ antaa:ant V-antaa  "" ;
 sannoa:sa V-sannoa  "" ;
 pittää:pit V-pittää  "" ;
 näyttää:näytt V-näyttää  "" ;
+ottaa:ott V-näyttää  "" ;
 löytää:löyt V-pittää  "" ;
 merkitä:merki V-merkitä  "" ;
 kasvaa:kasv V-antaa  "" ;
+nähä:nä V-nähä  "" ;
+painuttassa:painutta V-painuttassa  "" ;
 kirjuttaa:kirjutt V-kirjuttaa  "" ;
 ƶaarittaa:ƶaaritt V-kirjuttaa  "" ;
 ƶaalivoittaa:ƶaalivoitt V-kirjuttaa  "" ;
 mukkoittaa:mukkoitt V-kirjuttaa  "" ;
 kutsua:kutsu V-kutsua  "" ;
+kuulua:kuulu V-kutsua  "" ;
+liittyä:liitty V-kutsua  "" ;
 muuttua:muuttu V-kutsua  "" ;
 puuttua:puuttu V-kutsua  "" ;
 loppua:loppu V-kutsua  "" ;

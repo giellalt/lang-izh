@@ -1,4 +1,5 @@
 
+
 LEXICON adverbs
 
 aattoon:aattoon AdvTemp-Ess  "" ;
@@ -9,6 +10,7 @@ sentää:sentää AdvTag  "" ;
 mukkaa:mukkaa AdvSpat  "" ;
 pois:pois AdvSpat  "" ;
 ain:ain AdvTemp  "" ;
+taas:taas AdvTemp  "" ;
 veel:veel AdvTemp  "" ;
 nyt:nyt AdvTemp  "" ;
 jo:jo AdvTemp  "" ;

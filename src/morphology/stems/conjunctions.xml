@@ -26,6 +26,50 @@
    </entry>
    <entry>
       <lg>
+         <l>i</l>
+         <stg>
+            <st Contlex="CcTag">i</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>ja</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>a</l>
+         <stg>
+            <st Contlex="CcTag">a</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>ja</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>vaa</l>
          <stg>
             <st Contlex="CcTag">vaa</st>
@@ -95,6 +139,50 @@
          <l>jot</l>
          <stg>
             <st Contlex="CsTag">jot</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kons</l>
+         <stg>
+            <st Contlex="CsTag">kons</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vaik</l>
+         <stg>
+            <st Contlex="CsTag">vaik</st>
          </stg>
       </lg>
       <pos>CS</pos>
