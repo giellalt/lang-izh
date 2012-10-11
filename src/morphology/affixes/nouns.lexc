@@ -438,17 +438,45 @@ LEXICON N-vokala_01
 +Pl+Exe:o%>i%>nt    #   ; ! jalkoin
 +Pl+Com:o%>i%>nkAÄ1    #   ; ! maanka
 
-! ommeena:omena
+
+
+! ommeena:omen
 ! ommeena (V)
 LEXICON N-ommeena
 +N: N-ommeena_01 ;
 
 LEXICON N-ommeena_01
++Sg+Nom:AÄ1%^StretchSyll2     #   ; ! mato
++Sg+Gen:AÄ1%^StretchSyll2n	#   ; ! maon
++Sg+Par:AÄ1AÄ1	#   ; ! mattooa
++Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! mattoo
++Sg+Ine:AÄ1%^StretchSyll2AÄ1s    #   ; ! maoos
++Sg+Ine:AÄ1%^StretchSyll2s    #   ; ! maoos
++Sg+Ela:AÄ1%^StretchSyll2st    #   ; ! maost
++Sg+All:AÄ1%^StretchSyll2lle    #   ; ! maolle
++Sg+Ade:AÄ1%^StretchSyll2l    #   ; ! maool
++Sg+Ade:AÄ1%^StretchSyll2AÄ1l    #   ; ! maool
++Sg+Abl:AÄ1%^StretchSyll2lt    #   ; ! maolt
++Sg+Tra:AÄ1%^StretchSyll2ks    #   ; ! maoks
++Sg+Ess:AÄ1%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoon
++Sg+Com:AÄ1%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
+!+Pl:  lOi-Pl ;
++Pl+Nom:AÄ1%^StretchSyll2t     #   ; ! maot
+
+! putteeli:puteli
+! 
+LEXICON N-putteeli
++N: N-putteeli_01 ;
+
+LEXICON N-putteeli_01
 +Sg+Nom:%^StretchSyll2     #   ; ! mato
 +Sg+Gen:%^StretchSyll2n	#   ; ! maon
-+Sg+Par:%>%^LCnsAÄ1	#   ; ! mattooa
-+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
-+Sg+Ine:%>%^WCnsV2s    #   ; ! maoos
++Sg+Par:AÄ1	#   ; ! mattooa
++Sg+Ill:i	#   ; ! mattoo
++Sg+Ine:%^StretchSyll2is    #   ; ! maoos
++Sg+Ine:%^StretchSyll2s    #   ; ! maoos
 +Sg+Ela:%^StretchSyll2st    #   ; ! maost
 +Sg+All:%^StretchSyll2lle    #   ; ! maolle
 +Sg+Ade:%^StretchSyll2l    #   ; ! maool
