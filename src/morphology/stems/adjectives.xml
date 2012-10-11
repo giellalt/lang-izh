@@ -26,6 +26,116 @@
    </entry>
    <entry>
       <lg>
+         <l>lihhaava</l>
+         <stg>
+            <st Contlex="A-lihhaava">lihav</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vetteelä</l>
+         <stg>
+            <st Contlex="A-lihhaava">vetel</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ikkäävä</l>
+         <stg>
+            <st Contlex="A-lihhaava">ikäv</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mattaala</l>
+         <stg>
+            <st Contlex="A-lihhaava">matal</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>hämmäärä</l>
+         <stg>
+            <st Contlex="A-lihhaava">hämär</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kalatoin</l>
          <stg>
             <st Contlex="A-kalatoin">kalat</st>
@@ -336,7 +446,7 @@
       <lg>
          <l>liitsamääräämätöin</l>
          <stg>
-            <st Contlex="A-kalatoin">liitsamääräämät</st>
+            <st Contlex="A-kalatoin">liitsa#määräämät</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -754,7 +864,7 @@
       <lg>
          <l>erilaajain</l>
          <stg>
-            <st Contlex="A-erilaajain">erilaajai</st>
+            <st Contlex="A-erilaajain">eri#laajai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -798,7 +908,7 @@
       <lg>
          <l>samanloppuin</l>
          <stg>
-            <st Contlex="A-erilaajain">samanloppui</st>
+            <st Contlex="A-erilaajain">saman#loppui</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -820,7 +930,7 @@
       <lg>
          <l>samantiippain</l>
          <stg>
-            <st Contlex="A-erilaajain">samantiippai</st>
+            <st Contlex="A-erilaajain">saman#tiippai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -842,7 +952,7 @@
       <lg>
          <l>monislogain</l>
          <stg>
-            <st Contlex="A-erilaajain">monislogai</st>
+            <st Contlex="A-erilaajain">moni#slogai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -864,7 +974,7 @@
       <lg>
          <l>samanlaajain</l>
          <stg>
-            <st Contlex="A-erilaajain">samanlaajai</st>
+            <st Contlex="A-erilaajain">saman#laajai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -886,7 +996,7 @@
       <lg>
          <l>monislogain</l>
          <stg>
-            <st Contlex="A-erilaajain">monislogai</st>
+            <st Contlex="A-erilaajain">moni#slogai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -930,7 +1040,7 @@
       <lg>
          <l>kakskertain</l>
          <stg>
-            <st Contlex="A-erilaajain">kakskertai</st>
+            <st Contlex="A-erilaajain">kaks#kertai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1172,7 +1282,7 @@
       <lg>
          <l>pääpainollin</l>
          <stg>
-            <st Contlex="A-erilaajain">pääpainolli</st>
+            <st Contlex="A-erilaajain">pää#painolli</st>
          </stg>
       </lg>
       <pos>A</pos>

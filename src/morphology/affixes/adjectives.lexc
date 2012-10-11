@@ -12,6 +12,12 @@ LEXICON A-avvaaro
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A: # ;
 
+!
+LEXICON A-lihhaava
++A+Der/st:AÄ1%>%^StretchSyll2st AdvManner ; !
++A+Comp:AÄ1%>%^StretchSyll2mp MP ; !
++A: N-ommeena_01 ;
+
 ! (XI) N-käsi
 ! uusi:uu
 LEXICON A-uusi
@@ -36,7 +42,7 @@ LEXICON A-kalakas_01
 +Sg+Nom:%>%^WCnss      K                ;
 :%>V2	       SG-GEN           ;
 :h%>V2	       SG-GEN           ;
-:%>%^WCnss	       SG-PART_tA 	;
+:%>%^WCnss	       SG-PAR_tA 	;
 :%>V2      SG-ILL_sse		;
 :h%>V2      SG-ILL_sse		;
 :%>V2      SG-INE		;
@@ -59,8 +65,8 @@ LEXICON A-kalakas_01
 :h%>V2      PL-NOM		;
 :      PL-GEN		;
 :hhi      PL-GEN		;
-:      PL-PART_tA		;
-:hh      PL-PART_A		;
+:      PL-PAR_tA		;
+:hh      PL-PAR_A		;
 :      PL-ILL_sse		;
 :h      PL-ILL_sse		;
 :      PL-INE		;
