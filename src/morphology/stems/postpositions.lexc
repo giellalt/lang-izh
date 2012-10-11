@@ -3,6 +3,7 @@
 LEXICON postpositions
 
 al:al PoTag  "" ;
+poolest:poolest PoTag  "" ;
 ees:ees PoTag  "" ;
 sises:sises PoTag  "" ;
 sissee:sissee PoTag  "" ;

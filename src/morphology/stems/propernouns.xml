@@ -26,6 +26,270 @@
    </entry>
    <entry>
       <lg>
+         <l>a</l>
+         <stg>
+            <st Contlex="letterName">a</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>h</l>
+         <stg>
+            <st Contlex="letterName">h</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>i</l>
+         <stg>
+            <st Contlex="letterName">i</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>k</l>
+         <stg>
+            <st Contlex="letterName">k</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>s</l>
+         <stg>
+            <st Contlex="letterName">s</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ä</l>
+         <stg>
+            <st Contlex="letterName">ä</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>t</l>
+         <stg>
+            <st Contlex="letterName">t</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>j</l>
+         <stg>
+            <st Contlex="letterName">j</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>h</l>
+         <stg>
+            <st Contlex="letterName">h</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>y</l>
+         <stg>
+            <st Contlex="letterName">y</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>u</l>
+         <stg>
+            <st Contlex="letterName">u</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>v</l>
+         <stg>
+            <st Contlex="letterName">v</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Laukaa</l>
          <stg>
             <st Contlex="Prop-laukaa">Laukaa</st>

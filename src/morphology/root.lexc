@@ -40,7 +40,7 @@ Multichar_Symbols
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Part
+ +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par
  +Exe +Instr +Com
 
 !! The possession is marked as such:
@@ -115,6 +115,8 @@ Multichar_Symbols
  %^WCns %^StrCns
  %^AtoO
  %^ÄtoÖ
+ %^OddSyll ! arvata, arvant but arvanneet
+ %^StretchSyll2 ! creates ommeena from omena
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
