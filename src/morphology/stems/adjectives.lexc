@@ -4,6 +4,16 @@ LEXICON adjectives
 
 avvaaro:avvaaro A-avvaaro  "" ;
 kalatoin:kalat A-kalatoin  "" ;
+paremp:paremp A-paremp  "" ;
+kalakas:kalakka A-kitsas  "" ;
+leiväkäs:leiväkkä A-kitsas  "" ;
+rahakas:rahakka A-kitsas  "" ;
+liivakas:liivakka A-kitsas  "" ;
+savekas:savekka A-kitsas  "" ;
+haarikas:haarikka A-kitsas  "" ;
+ahas:ahta A-kitsas  "" ;
+kivekäs:kivekkä A-kitsas  "" ;
+iäkäs:iäkkä A-kitsas  "" ;
 kengätöin:kengät A-kalatoin  "" ;
 painotoin:painot A-kalatoin  "" ;
 slogatoin:slogat A-kalatoin  "" ;

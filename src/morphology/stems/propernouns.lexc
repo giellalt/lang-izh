@@ -3,6 +3,18 @@
 LEXICON propernouns
 
 Hevaa:Hevaa Prop-laukaa  "" ;
+a:a letterName  "" ;
+h:h letterName  "" ;
+i:i letterName  "" ;
+k:k letterName  "" ;
+s:s letterName  "" ;
+ä:ä letterName  "" ;
+t:t letterName  "" ;
+j:j letterName  "" ;
+h:h letterName  "" ;
+y:y letterName  "" ;
+u:u letterName  "" ;
+v:v letterName  "" ;
 Laukaa:Laukaa Prop-laukaa  "" ;
 Ala-Laukaa:Ala-Laukaa Prop-laukaa  "" ;
 Bubrih:Bubrih Prop-bubrih  "" ;
