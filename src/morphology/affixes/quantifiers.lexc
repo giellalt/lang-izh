@@ -11,6 +11,9 @@ LEXICON Ord-toin
 LEXICON Qnt-paljo
 +Qnt: N-mato_01 ;
 
+LEXICON Qnt-vähä
++Qnt: N-osa_01 ;
+
 ! enemmän
 LEXICON QntTag
 +Qnt: K ;
