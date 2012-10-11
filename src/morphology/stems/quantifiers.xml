@@ -92,6 +92,28 @@
    </entry>
    <entry>
       <lg>
+         <l>vähemmän</l>
+         <stg>
+            <st Contlex="QntTag">vähemmän</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>paljo</l>
          <stg>
             <st Contlex="Qnt-paljo">paljo</st>
@@ -104,10 +126,32 @@
                <head/>
             </m>
             <tg lang="eng">
-               <t>all</t>
+               <t/>
             </tg>
             <tg lang="fin">
-               <t>kaikki</t>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vähä</l>
+         <stg>
+            <st Contlex="Qnt-vähä">vähä</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>

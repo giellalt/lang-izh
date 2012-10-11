@@ -96,7 +96,9 @@ Multichar_Symbols
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A
- +Der/xxx
+ +Der/st ! for derivation of manner adverbs
+ +Der/min ! Deverbal nouns
+ +Der/miin ! Deverbal nouns
 
 
 !! Morphophonology
