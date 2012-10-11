@@ -6,8 +6,9 @@
 LEXICON PersSg1
 +Pron+Pers+Sg1+Nom:ä     K   ;
 +Pron+Pers+Sg1+Gen:un  K   ;
-+Pron+Pers+Sg1+Part:nnua  K   ;
++Pron+Pers+Sg1+Par:nnua  K   ;
 +Pron+Pers+Sg1+Ill:uhe  K   ;
++Pron+Pers+Sg1+Ill:uhu  K   ;
 +Pron+Pers+Sg1+Ine:us  K   ;
 +Pron+Pers+Sg1+Ela:ust  K   ;
 +Pron+Pers+Sg1+All:ulle  K   ;
@@ -20,7 +21,7 @@ LEXICON PersSg1
 LEXICON PersSg2
 +Pron+Pers+Sg2+Nom:ä     K   ;
 +Pron+Pers+Sg2+Gen:un  K   ;
-+Pron+Pers+Sg2+Part:nnua  K   ;
++Pron+Pers+Sg2+Par:nnua  K   ;
 +Pron+Pers+Sg2+Ill:uhe  K   ;
 +Pron+Pers+Sg2+Ine:us  K   ;
 +Pron+Pers+Sg2+Ela:ust  K   ;
@@ -35,12 +36,13 @@ LEXICON PersSg2
 LEXICON PersSg3
 +Pron+Pers+Sg3+Nom:ä     K   ;
 +Pron+Pers+Sg3+Gen:nen  K   ;
-+Pron+Pers+Sg3+Part:nt  K   ;
++Pron+Pers+Sg3+Par:nt  K   ;
 +Pron+Pers+Sg3+Ill:nnee  K   ;
 +Pron+Pers+Sg3+Ine:nees  K   ;
 +Pron+Pers+Sg3+Ela:nest  K   ;
 +Pron+Pers+Sg3+All:neulle  K   ;
 +Pron+Pers+Sg3+Ade:neel  K   ;
++Pron+Pers+Sg3+Ade:nel  K   ;
 +Pron+Pers+Sg3+Abl:nelt  K   ;
 +Pron+Pers+Sg3+Tra:neks  K   ;
 +Pron+Pers+Sg3+Ess:nneen  K   ;
@@ -51,7 +53,7 @@ LEXICON PersPl1
 +Pron+Pers+Pl1+Nom:öö     K   ;
 +Pron+Pers+Pl1+Gen:eijen  K   ;
 +Pron+Pers+Pl1+Acc:eijet  K   ;
-+Pron+Pers+Pl1+Part:eitä  K   ;
++Pron+Pers+Pl1+Par:eitä  K   ;
 +Pron+Pers+Pl1+Ill:eihe  K   ;
 +Pron+Pers+Pl1+Ine:eis  K   ;
 +Pron+Pers+Pl1+Ela:eist  K   ;
@@ -67,7 +69,7 @@ LEXICON PersPl2
 +Pron+Pers+Pl2+Nom:öö     K   ;
 +Pron+Pers+PL2+Gen:eijen  K   ;
 +Pron+Pers+PL2+Acc:eijet  K   ;
-+Pron+Pers+PL2+Part:eitä  K   ;
++Pron+Pers+PL2+Par:eitä  K   ;
 +Pron+Pers+PL2+Ill:eihe  K   ;
 +Pron+Pers+PL2+Ine:eis  K   ;
 +Pron+Pers+PL2+Ela:eist  K   ;
@@ -83,7 +85,7 @@ LEXICON PersPl3
 +Pron+Pers+Pl3+Nom:öö     K   ;
 +Pron+Pers+Pl3+Gen:eijen  K   ;
 +Pron+Pers+Pl3+Acc:eijet  K   ;
-+Pron+Pers+Pl3+Part:eitä  K   ;
++Pron+Pers+Pl3+Par:eitä  K   ;
 +Pron+Pers+Pl3+Ill:eihe  K   ;
 +Pron+Pers+Pl3+Ine:eis  K   ;
 +Pron+Pers+Pl3+Ela:eist  K   ;
@@ -98,7 +100,7 @@ LEXICON Dem-se
 +Pron+Dem+Sg+Nom:e  K   ;
 +Pron+Dem+Sg+Gen:enen  K   ;
 +Pron+Dem+Sg+Gen:en  K   ;
-+Pron+Dem+Sg+Part:itä  K   ;
++Pron+Dem+Sg+Par:itä  K   ;
 +Pron+Dem+Sg+Ill:iihe  K   ;
 +Pron+Dem+Sg+Ine:iin  K   ;
 +Pron+Dem+Sg+Ela:iint  K   ;
@@ -113,7 +115,7 @@ LEXICON Dem-se
 LEXICON Dem-tämä
 +Pron+Dem+Sg+Nom:mä  K   ;
 +Pron+Dem+Sg+Gen:män  K   ;
-+Pron+Dem+Sg+Part:tä  K   ;
++Pron+Dem+Sg+Par:tä  K   ;
 +Pron+Dem+Sg+Ill:%>hV1  K   ;
 +Pron+Dem+Sg+Ine:s  K   ;
 +Pron+Dem+Sg+Ela:st  K   ;
@@ -127,7 +129,7 @@ LEXICON Dem-tämä
 LEXICON Dem-neet
 +Pron+Dem+Pl+Nom:eet  K   ;
 +Pron+Dem+Pl+Gen:iijen  K   ;
-+Pron+Dem+Pl+Part:iitä  K   ;
++Pron+Dem+Pl+Par:iitä  K   ;
 +Pron+Dem+Pl+Ill:iihe  K   ;
 +Pron+Dem+Pl+Ine:iis  K   ;
 +Pron+Dem+Pl+Ela:iist  K   ;
@@ -141,7 +143,7 @@ LEXICON Dem-neet
 LEXICON Dem-nämä
 +Pron+Dem+Pl+Nom:mä  K   ;
 +Pron+Dem+Pl+Gen:ijen  K   ;
-+Pron+Dem+Pl+Part:itä  K   ;
++Pron+Dem+Pl+Par:itä  K   ;
 +Pron+Dem+Pl+Ill:ihe  K   ;
 +Pron+Dem+Pl+Ine:is  K   ;
 +Pron+Dem+Pl+Ela:ist  K   ;
@@ -157,7 +159,7 @@ LEXICON PronInterr-mikä
 +Pron+Interr+Pl+Nom:t     K   ;
 +Pron+Interr+Gen:n  K   ;
 +Pron+Interr+Gen:nen  K   ;
-+Pron+Interr+Part:tä  K   ;
++Pron+Interr+Par:tä  K   ;
 +Pron+Interr+Ill:he  K   ;
 +Pron+Interr+Ine:s  K   ;
 +Pron+Interr+Ela:st  K   ;
@@ -170,39 +172,76 @@ LEXICON PronInterr-mikä
 +Pron+Interr+Exe:nent  K   ;
 +Pron+Interr+Exe:nnent  K   ;
 
+! ken: ke
+LEXICON PronInterr-ken
++Pron+Interr+Sg+Nom:n     K   ;
+!+Pron+Interr+Pl+Nom:t     K   ;
++Pron+Interr+Gen:nen  K   ;
++Pron+Interr+Par:tä  K   ;
+!+Pron+Interr+Ill:he  K   ;
+!+Pron+Interr+Ine:s  K   ;
++Pron+Interr+Ela:st  K   ;
++Pron+Interr+All:lle  K   ;
++Pron+Interr+Ade:l  K   ;
++Pron+Interr+Abl:lt  K   ;
++Pron+Interr+Tra:ks  K   ;
++Pron+Interr+Ess:nennä  K   ;
++Pron+Interr+Ess:nneen  K   ;
++Pron+Interr+Exe:nent  K   ;
++Pron+Interr+Exe:nnent  K   ;
+
+
 ! kus:ku
 LEXICON PronInterr-kus
 +Pron+Interr+Ine:s  K   ;
 +Pron+Interr+Ill:hu  K   ;
 +Pron+Interr+Ela:st  K   ;
 
+LEXICON Pron-mokoma
++Pron: Pron-mokoma_01 ;
++Pron: N-ommeena_01 ;
+
+LEXICON Pron-mokoma_01
++Sg+Nom:AÄ1  K    ;
+:AÄ1  SG-GEN      ;
+:AÄ1  SG-ESS_nnA  ;
+:AÄ1  PL-NOM   ;
+:p%>i      PL-GEN      ; ! mokompiin
+:p  PL-PAR_A ;
+  PL-PAR_A ;
+  PL-TRA    ;
 
 LEXICON Pron-kumpa
-+Pron+Sg+Nom:     #   ; ! kumpa
-+Pron+Sg+Gen:%>%^WCnsn	#   ; ! oman
-+Pron+Sg+Part:%>AÄ1	#   ; ! ommaa
-+Pron+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Pron+Sg+Ine:%>%^WCnsV2s    #   ; ! kummaas
-+Pron+Sg+Ela:%>%^WCnsst    #   ; ! kummast
-+Pron+Sg+All:%>%^WCnslle    #   ; ! maolle
-+Pron+Sg+Ade:%>%^WCnsV2l    #   ; ! maool
-+Pron+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+Pron+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+Pron+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
-+Pron+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
++Pron: Pron-kumpa_01 ;
+
+LEXICON Pron-kumpa_01
++Sg+Nom:     #   ; ! kumpa
++Sg+Gen:%>%^WCnsn	#   ; ! oman
++Sg+Par:%>AÄ1	#   ; ! ommaa
++Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
++Sg+Ine:%>%^WCnsV2s    #   ; ! kummaas
++Sg+Ela:%>%^WCnsst    #   ; ! kummast
++Sg+All:%>%^WCnslle    #   ; ! maolle
++Sg+Ade:%>%^WCnsV2l    #   ; ! maool
++Sg+Abl:%>%^WCnslt    #   ; ! maolt
++Sg+Tra:%>%^WCnsks    #   ; ! maoks
++Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
++Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
-+Pron+Pl+Nom:%>%^WCnst     #   ; ! kummat
-+Pron+Pl+Gen:%>i%>in	#   ; ! kumpiin
-+Pron+Pl+Part:%>i%>AÄ1	#   ; ! kumpia
-+Pron+Pl+Ill:%>i%>i	#   ; ! kalattommii
-+Pron+Pl+Ine:%>i%>%^WCnsis    #   ; ! kummiis
-+Pron+Pl+Ela:%>i%>st    #   ; ! matoloist
-+Pron+Pl+All:%>i%>lle    #   ; ! matoloille
-+Pron+Pl+Ade:%>i%>l    #   ; ! matoloil
-+Pron+Pl+Abl:%>i%>lt    #   ; ! matoloilt
-+Pron+Pl+Tra:%>i%>ks    #   ; ! matoloiks
-+Pron+Pl+Ess:%>i%>n    #   ; ! matoloinna
-+Pron+Pl+Exe:%>i%>nt    #   ; ! matoloint
+:%>%^WCns PL-NOM      ; ! kummat
+:%>i 	  PL-GEN      ; ! kumpiin
+     	  PL-PAR_A   ; ! kumpia
++Pl+Ill:%>i%>i	#   ; ! kalattommii
++Pl+Ine:%>i%>%^WCnsis    #   ; ! kummiis
++Pl+Ela:%>i%>st    #   ; ! matoloist
+:%>%^WCns PL-ALL   ; ! kummille
+:%>%^WCns PL-ADE   ; ! kummil
+:%>%^WCns%>i PL-ADE   ; ! kummiil
+:%>%^WCns PL-ABL   ; ! kummilt
++Pl+Abl:%>i%>lt    #   ; ! matoloilt
++Pl+Tra:%>i%>ks    #   ; ! matoloiks
++Pl+Ess:%>i%>n    #   ; ! matoloinna
++Pl+Exe:%>i%>nt    #   ; ! matoloint
 
 
 

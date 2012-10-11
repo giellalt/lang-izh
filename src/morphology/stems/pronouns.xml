@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>mokoma</l>
+         <stg>
+            <st Contlex="Pron-mokoma">mokom</st>
+         </stg>
+      </lg>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>siä</l>
          <stg>
             <st Contlex="PersSg2">si</st>
@@ -249,6 +271,28 @@
          <l>mikä</l>
          <stg>
             <st Contlex="PronInterr-mikä">mi</st>
+         </stg>
+      </lg>
+      <pos>Q_PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ken</l>
+         <stg>
+            <st Contlex="PronInterr-ken">ke</st>
          </stg>
       </lg>
       <pos>Q_PRON</pos>

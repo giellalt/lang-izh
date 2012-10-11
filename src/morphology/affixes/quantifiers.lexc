@@ -14,6 +14,10 @@ LEXICON Qnt-paljo
 LEXICON Qnt-vähä
 +Qnt: N-osa_01 ;
 
+LEXICON Qnt-monikas
++Qnt: N-patsas_01 ;
+
+
 ! enemmän
 LEXICON QntTag
 +Qnt: K ;
@@ -23,7 +27,7 @@ LEXICON Qnt-kaik
 +Qnt+Univ+Sg+Nom:     #   ; ! kaik
 !+Qnt+Univ+Sg+Gen:hte%>%^WCnsn	#   ; ! yhen
 !+Qnt+Univ+Sg+Acc:hte%>%^WCnsn	#   ; ! yhen
-!+Qnt+Univ+Sg+Part:h%>tAÄ1	#   ; ! yhtä
+!+Qnt+Univ+Sg+Par:h%>tAÄ1	#   ; ! yhtä
 !+Qnt+Univ+Sg+Ill:hte%>%^LCnsV1	#   ; ! ortee
 +Qnt+Univ+Sg+Ine:ees    #   ; ! kaikees
 !+Qnt+Univ+Sg+Ela:hte%>%^WCnsst    #   ; ! yhest
@@ -38,7 +42,7 @@ LEXICON Qnt-kaik
 !+Qnt+Univ+Pl+Nom:hte%>%^WCnst     #   ; ! maot
 +Qnt+Univ+Pl+Gen:kiin	#   ; ! kaikkiin
 !+Qnt+Univ+Pl+Acc:hte%>%^WCnst     #   ; ! yhet
-+Qnt+Univ+Pl+Part:ki%>AÄ1	#   ; ! kaikkia
++Qnt+Univ+Pl+Par:ki%>AÄ1	#   ; ! kaikkia
 !+Qnt+Univ+Pl+Ill:ki%>%^LCns%>hV1	#   ; ! yksii
 +Qnt+Univ+Pl+Ine:%>iis    #   ; ! kaikiis
 +Qnt+Univ+Pl+Ine:k%>iis    #   ; ! kaikkiis
@@ -59,7 +63,7 @@ LEXICON Num-yks
 +Num+Card+Sg+Nom:ks     #   ; ! yksi
 +Num+Card+Sg+Gen:hte%>%^WCnsn	#   ; ! yhen
 +Num+Card+Sg+Acc:hte%>%^WCnsn	#   ; ! yhen
-+Num+Card+Sg+Part:h%>tAÄ1	#   ; ! yhtä
++Num+Card+Sg+Par:h%>tAÄ1	#   ; ! yhtä
 +Num+Card+Sg+Ill:hte%>%^LCnsV1	#   ; ! ortee
 +Num+Card+Sg+Ine:hte%>%^WCnss    #   ; ! orrees
 +Num+Card+Sg+Ela:hte%>%^WCnsst    #   ; ! yhest
@@ -74,7 +78,7 @@ LEXICON Num-yks
 +Num+Card+Pl+Nom:hte%>%^WCnst     #   ; ! maot
 +Num+Card+Pl+Gen:ksi%>%^LCnsi%>n	#   ; ! yksiin
 +Num+Card+Pl+Acc:hte%>%^WCnst     #   ; ! yhet
-+Num+Card+Pl+Part:ksi%>%^LCns%>AÄ1	#   ; ! yksiä
++Num+Card+Pl+Par:ksi%>%^LCns%>AÄ1	#   ; ! yksiä
 +Num+Card+Pl+Ill:ksi%>%^LCns%>hV1	#   ; ! yksii
 +Num+Card+Pl+Ine:ks%>i%>s    #   ; ! yksiis
 +Num+Card+Pl+Ela:ks%>i%>st    #   ; ! yksist
@@ -94,7 +98,7 @@ LEXICON Num-kolt
 +Num+Card+Sg+Nom:t     #   ; ! kolt
 +Num+Card+Sg+Gen:me%>%^WCnsn	#   ; ! kolmen
 +Num+Card+Sg+Acc:me%>%^WCnsn	#   ; ! yhen
-+Num+Card+Sg+Part:me%>tAÄ1	#   ; ! yhtä
++Num+Card+Sg+Par:me%>tAÄ1	#   ; ! yhtä
 +Num+Card+Sg+Ill:me%>%^LCnsV1	#   ; ! ortee
 +Num+Card+Sg+Ine:me%>%^WCnss    #   ; ! orrees
 +Num+Card+Sg+Ela:me%>%^WCnsst    #   ; ! yhest
@@ -109,7 +113,7 @@ LEXICON Num-kolt
 +Num+Card+Pl+Nom:me%>%^WCnst     #   ; ! maot
 +Num+Card+Pl+Gen:mi%>%^LCnsi%>n	#   ; ! matoloin
 +Num+Card+Pl+Acc:me%>%^WCnst     #   ; ! maot
-+Num+Card+Pl+Part:mi%>%^LCns%>AÄ1	#   ; ! matoloja
++Num+Card+Pl+Par:mi%>%^LCns%>AÄ1	#   ; ! matoloja
 +Num+Card+Pl+Ill:mi%>%^LCns%>hV1	#   ; ! matoloihe
 +Num+Card+Pl+Ine:m%>i%>s    #   ; ! matoloiz
 +Num+Card+Pl+Ela:%>i%>st    #   ; ! matoloist
@@ -127,7 +131,7 @@ LEXICON NumOrd
 +Num+Ord+Sg+Nom:s     #   ; ! kolmas
 +Num+Ord+Sg+Gen:nte%>%^WCnsn	#   ; ! kolmen
 +Num+Ord+Sg+Acc:nte%>%^WCnsn	#   ; ! yhen
-+Num+Ord+Sg+Part:t%>tAÄ1	#   ; ! yhtä
++Num+Ord+Sg+Par:t%>tAÄ1	#   ; ! yhtä
 +Num+Ord+Sg+Ill:nte%>%^LCns%^LVws	#   ; ! ortee
 +Num+Ord+Sg+Ine:nte%>%^WCns%^LVws    #   ; ! orrees
 +Num+Ord+Sg+Ela:nte%>%^WCnsst    #   ; ! yhest
@@ -142,7 +146,7 @@ LEXICON NumOrd
 +Num+Ord+Pl+Nom:nte%>%^WCnst     #   ; ! maot
 +Num+Ord+Pl+Gen:nsi%>%^LCnsi%>n	#   ; ! matoloin
 +Num+Ord+Pl+Acc:nte%>%^WCnst     #   ; ! maot
-+Num+Ord+Pl+Part:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
++Num+Ord+Pl+Par:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
 +Num+Ord+Pl+Ill:nsi%>%^LCns%>i	#   ; ! matoloihe
 +Num+Ord+Pl+Ine:ns%>i%>%^LVws    #   ; ! matoloiz
 +Num+Ord+Pl+Ela:ns%>i%>st    #   ; ! matoloist

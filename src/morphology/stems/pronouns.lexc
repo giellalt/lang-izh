@@ -3,6 +3,7 @@
 LEXICON pronouns
 
 miä:mi PersSg1  "" ;
+mokoma:mokom Pron-mokoma  "" ;
 siä:si PersSg2  "" ;
 hää:hä PersSg3  "" ;
 möö:m PersPl1  "" ;
@@ -14,4 +15,5 @@ nämä:nä Dem-nämä  "" ;
 tämä:tä Dem-tämä  "" ;
 kumpa:kumpa Pron-kumpa  "" ;
 mikä:mi PronInterr-mikä  "" ;
+ken:ke PronInterr-ken  "" ;
 kus:ku PronInterr-kus  "" ;

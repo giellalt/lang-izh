@@ -18,18 +18,76 @@ LEXICON A-uusi
 +A+Der/st:te%>%^WCnsst AdvManner ; !
 +A: N-käsi_01 ;
 
+LEXICON A-kitsas
++A: N-patsas_01 ;
+
+
+LEXICON A-kalakas
++A: A-kalakas_01 ;
+
+
 ! oma (??)
 LEXICON A-oma
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
+! 3 syllables
+LEXICON A-kalakas_01
++Sg+Nom:%>%^WCnss      K                ;
+:%>V2	       SG-GEN           ;
+:h%>V2	       SG-GEN           ;
+:%>%^WCnss	       SG-PART_tA 	;
+:%>V2      SG-ILL_sse		;
+:h%>V2      SG-ILL_sse		;
+:%>V2      SG-INE		;
+:h%>V2V2      SG-INE		;
+:%>V2      SG-ELA		;
+:h%>V2      SG-ELA		;
+:%>V2      SG-ALL		;
+:h%>V2      SG-ALL		;
+:%>V2      SG-ADE		;
+:h%>V2V2      SG-ADE		;
+:%>V2      SG-ABL		;
+:h%>V2      SG-ABL		;
+:%>V2      SG-TRA		;
+:h%>V2      SG-TRA		;
+:hh%>V2V2      SG-ESS_Vn		;
+:%>V2      SG-ESS_nnA		;
+:%>V2      SG-EXE		;
+:h%>V2      SG-EXE		;
+:%>V2      PL-NOM		;
+:h%>V2      PL-NOM		;
+:      PL-GEN		;
+:hhi      PL-GEN		;
+:      PL-PART_tA		;
+:hh      PL-PART_A		;
+:      PL-ILL_sse		;
+:h      PL-ILL_sse		;
+:      PL-INE		;
+:hi      PL-INE		;
+:      PL-ELA		;
+:h      PL-ELA		;
+:      PL-ALL		;
+:h      PL-ALL		;
+:      PL-ADE		;
+:hi      PL-ADE		;
+:      PL-ABL		;
+:h      PL-ABL		;
+:      PL-TRA		;
+:h      PL-TRA		;
+:      PL-ESS_Vn		;
+:hhi      PL-ESS_Vn		;
+:      PL-ESS_nnA		;
+:hh      PL-EXE		;
+
 
 ! kerkiä (??)
 LEXICON A-kerkiä
 +A+Der/st:%>%^WCnsst AdvManner ; !
++A+Comp:mp MP ; !
 +A+Sg+Nom:     #   ; ! oma
 +A+Sg+Gen:%>n	#   ; ! oman
-+A+Sg+Part:%>AÄ1	#   ; ! ommaa
++A+Sg+Par:%>AÄ1	#   ; ! ommaa
 +A+Sg+Ill:%>V1	#   ; ! kalattommAÄ1a
 +A+Sg+Ine:%>s    #   ; ! mAÄ1ooz
 +A+Sg+Ela:%>st    #   ; ! maost
@@ -42,7 +100,7 @@ LEXICON A-kerkiä
 ! Plural
 +A+Pl+Nom:%>%^WCnst     #   ; ! maot
 +A+Pl+Gen:%>i%>n	#   ; ! matoloin
-+A+Pl+Part:%>i%>AÄ1	#   ; ! matoloja
++A+Pl+Par:%>i%>AÄ1	#   ; ! matoloja
 +A+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
 +A+Pl+Ine:%>i%>s    #   ; ! matoloiz
 +A+Pl+Ela:%>i%>st    #   ; ! matoloist
@@ -59,7 +117,7 @@ LEXICON A-lyhyt
 +A+Comp:emp MP ;
 +A+Sg+Nom:t     #   ; ! oma
 +A+Sg+Gen:e%>%^LCnsn	#   ; ! oman
-+A+Sg+Part:t%>tAÄ1	#   ; ! ommaa
++A+Sg+Par:t%>tAÄ1	#   ; ! ommaa
 +A+Sg+Ill:e%>%^LCnsV1	#   ; ! kalattommAÄ1a
 +A+Sg+Ine:e%>%^WCns%^LVwss    #   ; ! mAÄ1ooz
 +A+Sg+Ela:e%>%^WCnsst    #   ; ! maost
@@ -72,7 +130,7 @@ LEXICON A-lyhyt
 ! Plural
 +A+Pl+Nom:e%>%^WCnst     #   ; ! maot
 +A+Pl+Gen:%>i%>n	#   ; ! matoloin
-+A+Pl+Part:%>i%>AÄ1	#   ; ! matoloja
++A+Pl+Par:%>i%>AÄ1	#   ; ! matoloja
 +A+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
 +A+Pl+Ine:%>i%>s    #   ; ! matoloiz
 +A+Pl+Ela:%>i%>st    #   ; ! matoloist
@@ -90,7 +148,7 @@ LEXICON A-glavnoi
 +A+Comp:mp MP ;
 +A+Sg+Nom:     #   ; ! glavnoi
 +A+Sg+Gen:%>%^WCnsn	#   ; ! glavnoin
-+A+Sg+Part:%>AÄ1	#   ; ! ommaa
++A+Sg+Par:%>AÄ1	#   ; ! ommaa
 +A+Sg+Ill:%>he	#   ; ! glavnoihe
 +A+Sg+Ine:%>s    #   ; ! mAÄ1ooz
 +A+Sg+Ela:%>st    #   ; ! maost
@@ -103,7 +161,7 @@ LEXICON A-glavnoi
 ! Plural
 +A+Pl+Nom:%>%^WCnst     #   ; ! maot
 +A+Pl+Gen:%>i%>n	#   ; ! matoloin
-+A+Pl+Part:%>i%>AÄ1	#   ; ! matoloja
++A+Pl+Par:%>i%>AÄ1	#   ; ! matoloja
 +A+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
 +A+Pl+Ine:%>i%>z    #   ; ! matoloiz
 +A+Pl+Ela:%>i%>st    #   ; ! matoloist
@@ -119,7 +177,7 @@ LEXICON A-kalatoin
 +A+Der/st:tOÖ1mAÄ1%>%^WCnsst AdvManner ; !
 +A+Sg+Nom:%>OÖ1in     #   ; ! kalatoin
 +A+Sg+Gen:tOÖ1%>mAÄ1%>%^WCnsn	#   ; ! kalattomAÄ1n
-+A+Sg+Part:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
++A+Sg+Par:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
 +A+Sg+Ill:tOÖ1%>mAÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
 +A+Sg+Ine:tOÖ1%>mAÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
 +A+Sg+Ela:tOÖ1%>mAÄ1%>%^WCnsst    #   ; ! maost
@@ -132,7 +190,7 @@ LEXICON A-kalatoin
 ! Plural
 +A+Pl+Nom:%>tOÖ1%>mAÄ1%>%^WCnst     #   ; ! maot
 +A+Pl+Gen:%>tOÖ1mi%>i%>n	#   ; ! matoloin
-+A+Pl+Part:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
++A+Pl+Par:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
 +A+Pl+Ill:%>tOÖ1m%>i%>hV1	#   ; ! kalattommii
 +A+Pl+Ine:%>tOÖ1m%>i%>s    #   ; ! matoloiz
 +A+Pl+Ela:%>tOÖ1m%>i%>st    #   ; ! matoloist
@@ -161,12 +219,15 @@ LEXICON A-matala
 +A:amp MP ; ! 3-syllables
 +A: N-vokala_01 ;
 
+!paremp
+LEXICON A-paremp
++A+Comp: MP ;
 
 LEXICON MP
-+A+Der/st:AÄ1%>%^WCnsst AdvManner ; !
++Der/st:AÄ1%>%^WCnsst AdvManner ; !
 +Sg+Nom:     #   ; ! oma
 +Sg+Gen:AÄ1%>%^WCnsn	#   ; ! oman
-+Sg+Part:AÄ1%>AÄ1	#   ; ! ommaa
++Sg+Par:AÄ1%>AÄ1	#   ; ! ommaa
 +Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
 +Sg+Ine:AÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
 +Sg+Ela:AÄ1%>%^WCnsst    #   ; ! maost
@@ -180,7 +241,7 @@ LEXICON MP
 ! Plural
 +Pl+Nom:AÄ1%>%^WCnst     #   ; ! maot
 +Pl+Gen:i%>n	#   ; ! matoloin
-+Pl+Part:i%>AÄ1	#   ; ! matoloja
++Pl+Par:i%>AÄ1	#   ; ! matoloja
 +Pl+Ill:i%>hV1	#   ; ! kalattommii
 +Pl+Ine:i%>s    #   ; ! matoloiz
 +Pl+Ela:i%>st    #   ; ! matoloist

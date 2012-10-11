@@ -56,7 +56,8 @@ Y
 %^WCns:0
 %^AtoO:0
 %^ÄtoÖ:0
-
+%^OddSyll:0
+%^StretchSyll2:0
 
 ;
 
@@ -95,32 +96,32 @@ IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 ! oma:ommaa, 
 ! Subsequent Long Vowel
 ! preceeded by "Cns _"
-SLV =  [ :Vws [ ( %>:0 %^LCns:0 %^LVws:0 | %>:0 %^LCns:0 | %>:0 i %>:0 | %>:0 ) [ V1:Vws | AÄ1: ] |  0:Vws %>:0 ( %^LCns: | %^WCns: ) %^LVws: | %>:0 %^LCns:0  ] ] ;
+! 2012-10-11 SLV =  [ :Vws [ ( %>:0 %^LCns:0 %^LVws:0 | %>:0 %^LCns:0 | %>:0 i %>:0 | %>:0 ) [ V1:Vws | AÄ1: ] |  0:Vws %>:0 ( %^LCns:0 | %^WCns: ) %^LVws: | %>:0 %^LCns:0  ] ] ;
 
 Rules
 
 
 ! Stem vowel loss before plural "i"
 "StemVowLoss"
- X:Y <=> Vws _  %>:0 [ i | i:j ] %>:0 ;
+ X:Y <=> Vws _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
           where X in (e o ö)
                 Y in (0 0 0) matched ;
 
 ! A loss
 "StemALoss"
- X:Y <=> [ Vws | :Cns ] _  %>:0 [ i | i:j ] %>:0 ;
+ X:Y <=> [ Vws | :Cns ] _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
           where X in (a ä)
                 Y in (0 0) matched ;
-
+!%>%^LCnsi%>V1
 
 
 ! U loss [u:0 | y:0]
 "StemULoss"
- X:Y <=> Vws _  %>:0 [ i | i:j ] %>:0 ;
+ X:Y <=> Vws _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
          [ ä | a | o | ö ] _  [ t: | k: ] 0:v ;
           where X in (u y ü)
                 Y in (0 0 0) matched ;
-
+!Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 
 
 !€ maa%>i%>n
 !€ ma00i0n
@@ -177,8 +178,10 @@ Rules
 
 !  _mato:maool_ not allowed
 ! Vowel lengthening for the inesive and adessive with V2
+! Used with patsas type nominals
 "V2:aeiouüäö"
- V2:Vx <=> [ IL ] Vx %>:0  ( %^WCns: )  _ [ s | l ] ;
+ V2:Vx <=> [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: )  _  ;
+           [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: ) V2: _  ;
         where Vx in (a o u ä ö ü e i y) ;
 
 "V2:Zero"
@@ -188,7 +191,8 @@ Rules
 ! mato : mattoon,
  "Zero:Vx"
  0:Vx <=> ( Vws+ :Cns+ ) Vx _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
- ! 
+          #: Cns* Vws Cns 0: Vx _ Cns Vws %^StretchSyll2:0 ; ! ommeena<omena
+! 
          [ #: ] Cns* Vws Cns 0: Vx _ Cns :0 Vws [ Cns | [ #: ] ] ;
        where Vx in (a o u ä ö y e) ; 
 
@@ -198,14 +202,15 @@ Rules
 !"even-syllable" This should be secondary
 "consonant lengthening"
  0:Cx <=> 
-! [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ Vws ] Cx _ :0* [ Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] | %>: %^LCns: ] ;
-         #: Cns* ( Vws+ Cns+ Vws+ Cns+ ) Vws Cx _ ( ( [ Vws: | :Vws ] ( :Vws ) ) %>:0 ) %^LCns:0 ; !SLV ;
+         [ #: Cns* Vws+ Cns+ Vws+ Cns+ Vws | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( ( [ Vws: | :Vws ] ( :Vws ) ) %>:0 ) %^LCns:0 ; !
+         #: Cns* Vws Cx _ Vws 0: Cns Vws %^StretchSyll2:0 ; ! ommeena<omena
            where Cx in (m t s n r l k g h) ;
 
 ! oja: oija
 "j lengthening"
 0:i <=> [ #: ] Cns* Vws _ j Vws ( 0: ) %>:0 %^LCns:0  ;
           [ [ :Cns | :Cns Vws:0 ] ( %>:0 ) | Cns: ] i _ %>:0 ( %^LCns: | %^WCns: ) %^LVws: ;
+         #: Cns* Vws Cx _ Vws :Vws Cns Vws %^StretchSyll2:0 ;
          [ #: ] Cns* Vws Cns 0: i _ Cns :0 Vws [ Cns | [ #: ] ] ;
 !!!!!!!!!!!!!!!!!!!!!!!!!
 !! Consonant weakening !!
@@ -248,7 +253,7 @@ t:n <=> [ #: ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 !! p
 
 "mp:mm weakening"
-p:m <=> [ #: ] Cns* ( Vws+ Cns+ Vws* ) Vws m _ [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 ] ;
+p:m <=> [ #: ] Cns* ( Vws+ Cns+ Vws* ) Vws m _ [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
 
 !! k
 

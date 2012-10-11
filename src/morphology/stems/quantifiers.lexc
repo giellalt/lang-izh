@@ -4,6 +4,7 @@ LEXICON quantifiers
 
 ensimäin:ensimäi Ord-toin  "first" ;
 toin:toi Ord-toin  "second" ;
+monikas:monikka Qnt-monikas  "second" ;
 kaik:kaik Qnt-kaik  "all" ;
 enemmän:enemmän QntTag  "more" ;
 vähemmän:vähemmän QntTag  "" ;

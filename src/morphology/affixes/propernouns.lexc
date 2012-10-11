@@ -6,6 +6,26 @@
 LEXICON PropTag
 +N+Prop: # ;
 
+LEXICON letterName
++N+Prop:%- letterName_01 ;
+
+LEXICON letterName_01
++Sg+Gen:n    #  ; ! a-n
++Sg+Par:ta  #  ; ! a-ta
++Sg+Ill:aa   #  ; !
++Sg+Ine:s    #  ; ! kärpäisees
++Sg+Ela:st   #  ; ! toisest
++Sg+All:lle  #  ; !
++Sg+Ade:l    #  ; ! maool
++Sg+Abl:lt   #  ; ! maolt
++Sg+Tra:ks   #  ; ! toiseks
+!    SG-ESS_Vn  ; ! variksenna
+!    SG-ESS_nnA  ; ! variksenna
+!    SG-EXE  ; !variksent
+!    SG-COM  ; ! kärpäisenkä
+!    SG-ABE  ; ! kärpäisetä
+
+
 ! Koskin to kärpäin (XIII)
 LEXICON Prop-koskin
 +N+Prop: N-kärpäin_01 ;
@@ -18,7 +38,7 @@ LEXICON Prop-laukaa
 LEXICON Prop-soikkola
 +N+Prop+Sg+Nom: K  ;
 +N+Prop+Sg+Gen:%>n K  ;
-+N+Prop+Sg+Part:%>AÄ1 K  ;
++N+Prop+Sg+Par:%>AÄ1 K  ;
 +N+Prop+Sg+Ine:%>V2s K  ;
 +N+Prop+Sg+Ela:%>st K  ;
 
@@ -26,7 +46,7 @@ LEXICON Prop-soikkola
 LEXICON Prop-iljina
 +N+Prop+Sg+Nom:a     #   ; ! jalka
 +N+Prop+Sg+Gen:a%>%^WCnsn	#   ; ! jalan
-+N+Prop+Sg+Part:a%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
++N+Prop+Sg+Par:a%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
 +N+Prop+Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
 +N+Prop+Sg+Ine:a%>%^WCnsV2s    #   ; ! jalaas
 +N+Prop+Sg+Ela:a%>%^WCnsst    #   ; ! jalast
@@ -42,7 +62,7 @@ LEXICON Prop-iljina
 LEXICON Prop-bubrih
 +N+Prop+Sg+Nom:     #   ; ! jalka
 +N+Prop+Sg+Gen:a%>%^WCnsn	#   ; ! jalan
-+N+Prop+Sg+Part:a%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
++N+Prop+Sg+Par:a%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
 +N+Prop+Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
 +N+Prop+Sg+Ine:a%>%^WCnsV2s    #   ; ! jalaas
 +N+Prop+Sg+Ela:a%>%^WCnsst    #   ; ! jalast

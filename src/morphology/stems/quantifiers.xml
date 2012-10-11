@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>monikas</l>
+         <stg>
+            <st Contlex="Qnt-monikas">monikka</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>second</t>
+            </tg>
+            <tg lang="fin">
+               <t>toinen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kaik</l>
          <stg>
             <st Contlex="Qnt-kaik">kaik</st>

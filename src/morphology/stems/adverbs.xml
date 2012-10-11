@@ -70,6 +70,116 @@
    </entry>
    <entry>
       <lg>
+         <l>erittee</l>
+         <stg>
+            <st Contlex="AdvTag">erittee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vähiee</l>
+         <stg>
+            <st Contlex="AdvTag">vähittee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>eriksee</l>
+         <stg>
+            <st Contlex="AdvTag">eriksee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>melkeen</l>
+         <stg>
+            <st Contlex="AdvTag">melkeen</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>osittee</l>
+         <stg>
+            <st Contlex="AdvTag">osittee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kera</l>
          <stg>
             <st Contlex="AdvTag">kera</st>
@@ -136,9 +246,53 @@
    </entry>
    <entry>
       <lg>
+         <l>seel</l>
+         <stg>
+            <st Contlex="AdvSpat">seel</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>pois</l>
          <stg>
             <st Contlex="AdvSpat">pois</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ylempään</l>
+         <stg>
+            <st Contlex="AdvSpat">ylempään</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
@@ -205,6 +359,28 @@
          <l>veel</l>
          <stg>
             <st Contlex="AdvTemp">veel</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>vielä</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ennen</l>
+         <stg>
+            <st Contlex="AdvTemp">ennen</st>
          </stg>
       </lg>
       <pos>ADV-TEMP</pos>
