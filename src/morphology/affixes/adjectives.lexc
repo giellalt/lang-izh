@@ -119,33 +119,11 @@ LEXICON A-kerkiä
 
 ! lyhyt:lyhy (??)
 LEXICON A-lyhyt
-+A+Der/st:e%>%^LCnsst AdvManner ; !
++A+Der/st:%^SyllBre%^StretchSyll2st AdvManner ; !
++A+Comp:%^SyllBre%^StretchSyll2mp MP ;
 +A+Comp:emp MP ;
-+A+Sg+Nom:t     #   ; ! oma
-+A+Sg+Gen:e%>%^LCnsn	#   ; ! oman
-+A+Sg+Par:t%>tAÄ1	#   ; ! ommaa
-+A+Sg+Ill:e%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+A+Sg+Ine:e%>%^WCns%^LVwss    #   ; ! mAÄ1ooz
-+A+Sg+Ela:e%>%^WCnsst    #   ; ! maost
-+A+Sg+All:e%>%^WCnslle    #   ; ! maolle
-+A+Sg+Ade:e%>%^WCns%^LVwsl    #   ; ! maool
-+A+Sg+Abl:e%>%^WCnslt    #   ; ! maolt
-+A+Sg+Tra:e%>%^WCnsks    #   ; ! maoks
-+A+Sg+Ess:e%>%^LCns%^LVwsn    #   ; ! mattoon
-+A+Sg+Exe:e%>%^LCns%^LVwsnt    #   ; ! mattoont
-! Plural
-+A+Pl+Nom:e%>%^WCnst     #   ; ! maot
-+A+Pl+Gen:%>i%>n	#   ; ! matoloin
-+A+Pl+Par:%>i%>AÄ1	#   ; ! matoloja
-+A+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
-+A+Pl+Ine:%>i%>s    #   ; ! matoloiz
-+A+Pl+Ela:%>i%>st    #   ; ! matoloist
-+A+Pl+All:%>i%>lle    #   ; ! matoloille
-+A+Pl+Ade:%>i%>l    #   ; ! matoloil
-+A+Pl+Abl:%>i%>lt    #   ; ! matoloilt
-+A+Pl+Tra:%>i%>ks    #   ; ! matoloiks
-+A+Pl+Ess:%>i%>n    #   ; ! matoloinna
-+A+Pl+Exe:%>i%>nt    #   ; ! matoloint
++A: N-venät_01-Sg ;
++A:is Oblique-Plural ;
 
 
 ! glavnoi 2 syllables (??)

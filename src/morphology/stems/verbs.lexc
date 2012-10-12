@@ -4,6 +4,7 @@ LEXICON verbs
 
 ahavoija:ahavoi V-voija  "" ;
 hävitä:hävi V-hävitä  "" ;
+kehittyä:kehitty V-kutsua  "" ;
 jäävvä:jää V-jäävvä  "" ;
 saavva:saa V-jäävvä  "" ;
 voija:voi V-voija  "" ;
@@ -12,6 +13,7 @@ jakkaa:jak V-antaa  "" ;
 sannoa:sa V-sannoa  "" ;
 pittää:pit V-näyttää  "" ;
 näyttää:näytt V-näyttää  "" ;
+muuttaa:muutt V-näyttää  "" ;
 täyttää:täytt V-näyttää  "" ;
 käyttää:käytt V-näyttää  "" ;
 ottaa:ott V-näyttää  "" ;
@@ -32,6 +34,7 @@ toimittaa:toimitt V-kirjuttaa  "" ;
 ƶaalivoittaa:ƶaalivoitt V-kirjuttaa  "" ;
 mukkoittaa:mukkoitt V-kirjuttaa  "" ;
 kutsua:kutsu V-kutsua  "" ;
+yhistyä:yhisty V-kutsua  "" ;
 vaihtua:vaihtu V-kutsua  "" ;
 rippua:rippu V-kutsua  "" ;
 tapahtua:tapahtu V-kutsua  "" ;
