@@ -4,7 +4,7 @@
 
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki
-+Clt/kA:%>kAÄ1	#    ; ! miulleka, heillekä
++Clt/kAA:%>kAÄ1AÄ1	#    ; ! miulleka, heillekä
 		#    ; !
 
 ! vim: set ft=xfst-lexc:

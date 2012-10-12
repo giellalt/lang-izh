@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kehittyä</l>
+         <stg>
+            <st Contlex="V-kutsua">kehitty</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>jäävvä</l>
          <stg>
             <st Contlex="V-jäävvä">jää</st>
@@ -205,6 +227,28 @@
          <l>näyttää</l>
          <stg>
             <st Contlex="V-näyttää">näytt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>muuttaa</l>
+         <stg>
+            <st Contlex="V-näyttää">muutt</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -645,6 +689,28 @@
          <l>kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>yhistyä</l>
+         <stg>
+            <st Contlex="V-kutsua">yhisty</st>
          </stg>
       </lg>
       <pos>V</pos>

@@ -598,6 +598,28 @@
    </entry>
    <entry>
       <lg>
+         <l>Oredeƶa</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Oredeƶa</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Vennääjä</l>
          <stg>
             <st Contlex="Prop-vennääjä">Vennääjä</st>

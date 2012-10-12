@@ -64,16 +64,17 @@ LEXICON V-olla
 
 +V+Prc:oleva	A-oma   ;
 +V+Prc:olt			       #   ;
-+V+Prc:oltava			       #   ;
-+V+Prc:oltu			       #   ;
++V+Prc:oltava   A-oma   ;
++V+PrtPrc:oltu	A-oma   ; ! Check this
 
 +V+Inf:olla             #   ;
 +V+Inf+Ill:olemaa       #   ;
 +V+Inf+Ine:olemaas      #   ;
 +V+Inf+Ela:olemast      #   ;
 +V+Inf+Abe:olemata      #   ;
-+V+Ger:ollees		#   ;
-+V+Der/miin:a%>mi N-inmihiin ;
++V+Ger:ollee		SG-INE   ;
++V+Ger:olle		SG-INE   ;
++V+Der/miin:olemi N-inmihiin ;
 
 
 
@@ -372,7 +373,9 @@ LEXICON V-kutsua
 ! +V+Inf+Ine:olemaas      #   ;
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
++V+Ger:e SG-INE   ;
++V+Ger:je SG-INE   ;
++V+Ger:ee SG-INE   ;
 +V+Der/miin:%>mi N-inmihiin ;
 
 LEXICON V-kirjuttaa
@@ -765,7 +768,7 @@ LEXICON V-arvata
 
 ! +V+Cond+Sg1:olisin      #   ; ! oon
 ! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
++V+Cond+Sg3:%>%^LCnsis      #   ;
 ! +V+Cond+Pl1:olisimma    #   ;
 ! +V+Cond+Pl2:olisitta    #   ;
 ! +V+Cond+Pl3:olisivat     #   ;
@@ -783,15 +786,16 @@ LEXICON V-arvata
 ! +V+Prc:oleva			       #   ;
 +V:%^OddSyll V-PrtPrc ; !arvant arvanneet
 +V+Prc:%>%^WCnsttAÄ1vAÄ1	A-oma   ;
-+V+Prc:%>%^WCnsttUY1			       #   ;
++V+PrtPrc:%>%^WCnsttUY1		A-oma   ;
 ! 
 +V+Inf:%>%^WCnstAÄ1             #   ; ! läätää
-+V+Inf+Ill:%^OddSyllmAÄ1%>V1       #   ; ! antamaa
++V+Inf+Ill:%>%^LCnsAÄ1mAÄ1%>V1       #   ; ! arvaamaa
++V+Inf+Der/tOin:%>%^LCnsAÄ1mAÄ1t A-kalatoin ; ! arvaamaton
 ! +V+Inf+Ine:olemaas      #   ;
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 +V+Ger:%>%^WCnstees		#   ;
-+V+Der/miin:%^OddSyllmi N-inmihiin ;
++V+Der/miin:%>%^LCnsAÄ1mi N-inmihiin ;
 
 ! hävitä:hävi (??)
 LEXICON V-hävitä
