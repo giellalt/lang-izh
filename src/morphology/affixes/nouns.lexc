@@ -2,6 +2,7 @@
 !! ---------------
 !! The UNDEFINED language nouns inflect in cases.
 
+
 ! maa (I)
 LEXICON N-maa
 +N+Sg+Nom:0     K   ; ! maa
@@ -80,6 +81,7 @@ LEXICON N-osa_01
 +Sg+Abl:%>%^WCnslt    #   ; ! osalt
 +Sg+Tra:%>%^WCnsks    #   ; ! osaks
 +Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
+ SG-ESS_nnA ;
 +Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 +Sg+Com:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
@@ -126,46 +128,27 @@ LEXICON N-joki_01
 
 ! lumi (II-d)
 LEXICON N-lumi
-+N+Sg+Nom:mi     #   ; ! lumi
-+N+Sg+Gen:me%>%^WCnsn	#   ; ! maon
-+N+Sg+Acc:me%>%^WCnsn	#   ; ! maon
-+N+Sg+Par:n%>%^LCns%^LVwstAÄ1	#   ; ! lunta
-+N+Sg+Ill:me%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:me%>%^WCnsV2s    #   ; ! maooz
-+N+Sg+Ela:me%>%^WCnsst    #   ; ! maost
-+N+Sg+All:me%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:me%>%^WCnsV2l    #   ; ! maool
-+N+Sg+Abl:me%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:me%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:me%>%^LCns%^LVwsn    #   ; ! mattoon
-+N+Sg+Exe:me%>%^LCns%^LVwsnt    #   ; ! mattoont
-+N+Sg+Com:me%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-lumi_01 ;
+
+LEXICON N-lumi_01
++Sg+Nom:mi     #   ; ! lumi
++Sg+Gen:me%>%^WCnsn	#   ; ! maon
++Sg+Acc:me%>%^WCnsn	#   ; ! maon
+:n SG-PAR_tA  ; ! lunta
++Sg+Ill:me%>%^LCnsV1	#   ; ! mattoo
++Sg+Ine:me%>%^WCnsV2s    #   ; ! maooz
++Sg+Ela:me%>%^WCnsst    #   ; ! maost
++Sg+All:me%>%^WCnslle    #   ; ! maolle
++Sg+Ade:me%>%^WCnsV2l    #   ; ! maool
++Sg+Abl:me%>%^WCnslt    #   ; ! maolt
++Sg+Tra:me%>%^WCnsks    #   ; ! maoks
++Sg+Ess:me%>%^LCns%^LVwsn    #   ; ! mattoon
++Sg+Exe:me%>%^LCns%^LVwsnt    #   ; ! mattoont
++Sg+Com:me%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+N+Pl:mi lOi-Pl ;
-+N+Pl+Nom:me%>%^WCnst     #   ; ! lumet
-+N+Pl+Acc:me%>%^WCnst     #   ; ! lumet
-
-! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
-LEXICON lOi-Pl
-:%>lOÖ1 lOi-Pl_01 ;
-
-LEXICON lOi-Pl_01
-:      PL-GEN		;
-:      PL-PAR_tA		;
-:      PL-PAR_A		;
-:      PL-ILL_hV		;
-:      PL-INE		;
-:      PL-ELA		;
-:      PL-ALL		;
-:      PL-ADE		;
-:      PL-ABL		;
-:      PL-TRA		;
-:      PL-ESS_Vn		;
-:      PL-ESS_nnA		;
-:      PL-EXE		;
-:      PL-COM		;
-:      PL-INSTR-PxSG3	;
-:      PL-PRL		;
++Pl:mi lOi-Pl ;
++Pl+Nom:me%>%^WCnst     #   ; ! lumet
++Pl+Acc:me%>%^WCnst     #   ; ! lumet
 
 ! emoi (III)
 LEXICON N-emoi
@@ -351,29 +334,14 @@ LEXICON N-lähe_01
 :h%>%^LCns%>V2      SG-EXE		;
 :%>V2      PL-NOM		;
 :h%>V2      PL-NOM		;
-:      PL-GEN		;
+:e Oblique-Plural_sse ;
+:h Oblique-Plural_sse ;
+!! Check 2012-10-12
 :h%>%^LCnsi      PL-GEN		;
 :      PL-PAR_tA		;
 :h%>%^LCns      PL-PAR_A		;
-:      PL-ILL_sse		;
-:h      PL-ILL_sse		;
-
-:      PL-INE		;
-:hi      PL-INE		;
-:      PL-ELA		;
-:h      PL-ELA		;
-:      PL-ALL		;
-:h      PL-ALL		;
-:      PL-ADE		;
-:hi      PL-ADE		;
-:      PL-ABL		;
-:h      PL-ABL		;
-:      PL-TRA		;
-:h      PL-TRA		;
-:      PL-ESS_Vn		;
 :h%>%^LCnsi      PL-ESS_Vn		;
-:      PL-ESS_nnA		;
-:h%>%^LCns      PL-EXE		;
+
 
 
 
@@ -438,10 +406,31 @@ LEXICON N-vokala_01
 +Pl+Exe:o%>i%>nt    #   ; ! jalkoin
 +Pl+Com:o%>i%>nkAÄ1    #   ; ! maanka
 
+! harakka:harakk
+! This should operate using principles of ommeena
+LEXICON N-harakka
++N: N-harakka_01 ;
 
+LEXICON N-harakka_01
++Sg+Nom:AÄ1     #   ; ! harakka
++Sg+Gen:AÄ1%^StretchSyll2%>%^WCnsn	#   ; ! harraakan
++Sg+Par:AÄ1AÄ1	#   ; ! mattooa
++Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! mattoo
++Sg+Ine:AÄ1%>%^WCnsAÄ1s    #   ; ! maoos
++Sg+Ine:AÄ1%>%^WCnss    #   ; ! maoos
++Sg+Ela:AÄ1%>%^WCnsst    #   ; ! maost
++Sg+All:AÄ1%>%^WCnslle    #   ; ! maolle
++Sg+Ade:AÄ1%>%^WCnsl    #   ; ! maool
++Sg+Ade:AÄ1%>%^WCnsAÄ1l    #   ; ! maool
++Sg+Abl:AÄ1%>%^WCnslt    #   ; ! maolt
++Sg+Tra:AÄ1%>%^WCnsks    #   ; ! maoks
++Sg+Ess:AÄ1%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
++Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoon
++Sg+Com:AÄ1%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
+:OÖ1  Oblique-Plural_hV ;
++Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
-! ommeena:omen
-! ommeena (V)
 LEXICON N-ommeena
 +N: N-ommeena_01 ;
 
@@ -450,20 +439,20 @@ LEXICON N-ommeena_01
 +Sg+Gen:AÄ1%^StretchSyll2n	#   ; ! maon
 +Sg+Par:AÄ1AÄ1	#   ; ! mattooa
 +Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! mattoo
-+Sg+Ine:AÄ1%^StretchSyll2AÄ1s    #   ; ! maoos
-+Sg+Ine:AÄ1%^StretchSyll2s    #   ; ! maoos
-+Sg+Ela:AÄ1%^StretchSyll2st    #   ; ! maost
-+Sg+All:AÄ1%^StretchSyll2lle    #   ; ! maolle
-+Sg+Ade:AÄ1%^StretchSyll2l    #   ; ! maool
-+Sg+Ade:AÄ1%^StretchSyll2AÄ1l    #   ; ! maool
-+Sg+Abl:AÄ1%^StretchSyll2lt    #   ; ! maolt
-+Sg+Tra:AÄ1%^StretchSyll2ks    #   ; ! maoks
++Sg+Ine:AÄ1%>%^WCnsAÄ1s    #   ; ! maoos
++Sg+Ine:AÄ1%>%^WCnss    #   ; ! maoos
++Sg+Ela:AÄ1%>%^WCnsst    #   ; ! maost
++Sg+All:AÄ1%>%^WCnslle    #   ; ! maolle
++Sg+Ade:AÄ1%>%^WCnsl    #   ; ! maool
++Sg+Ade:AÄ1%>%^WCnsAÄ1l    #   ; ! maool
++Sg+Abl:AÄ1%>%^WCnslt    #   ; ! maolt
++Sg+Tra:AÄ1%>%^WCnsks    #   ; ! maoks
 +Sg+Ess:AÄ1%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
 +Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoon
 +Sg+Com:AÄ1%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-!+Pl:  lOi-Pl ;
-+Pl+Nom:AÄ1%^StretchSyll2t     #   ; ! maot
++Pl:OÖ1 Oblique-Plural_hV ;
+:AÄ1%^StretchSyll2 PL-NOM   ; ! maot
 
 ! putteeli:puteli
 ! 
@@ -486,7 +475,7 @@ LEXICON N-putteeli_01
 +Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
 +Sg+Com:%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-!+Pl:  lOi-Pl ;
+:%^StretchSyll2  lOi-Pl ; ! putteeliloin
 +Pl+Nom:%^StretchSyll2t     #   ; ! maot
 
 
@@ -512,24 +501,32 @@ LEXICON N-leikkuu_01
  lOi-Pl ;
 +Pl+Nom:%>t     #   ; ! maot
 
-! assia (VII)
+! assia:assi (VII)
 LEXICON N-assia
-+N+Sg+Nom:0     #   ; ! assia
-+N+Sg+Gen:%>%^WCnsn	#   ; ! maon
-+N+Sg+Par:%>%^LCns%^LVwsAÄ1	#   ; ! mattooa
-+N+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:%>%^WCnsV2s    #   ; ! maoos
-+N+Sg+Ela:%>%^WCnsst    #   ; ! maost
-+N+Sg+All:%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:%>%^WCnsV2l    #   ; ! maool
-+N+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
-+N+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoon
-+N+Sg+Com:%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-assia_01 ;
+
+LEXICON N-assia_01
+:AÄ1 N-assia_01-Sg ;
+:OÖ1  Oblique-Plural ;
+
+LEXICON N-assia_01-Sg
+ SG-NOM	    ; ! assia
+ SG-GEN     ; ! maon
+ SG-PAR_A   ; ! assiaa
+ SG-ILL_V   ; ! assiaa
+ SG-INE     ; ! assias
+:AÄ1 SG-INE ; ! assiaas
+ SG-ELA     ; ! assiast
+ SG-ALL     ; ! assialle
+:AÄ1 SG-ADE ; ! assiaal
+ SG-ADE     ; ! assial
+ SG-ABL     ; ! assialt
+ SG-TRA	    ; ! assiaks
+ SG-ESS_nnA ; ! assianna
+ SG-EXE	    ; ! assiant
+ SG-COM     ; ! assianka
 ! Plural
-+N+Pl:  lOi-Pl ;
-+N+Pl+Nom:%>%^WCnst     #   ; ! maot
+:%>%^WCns PL-NOM  ; ! assiat
 
 ! tähkä (VIII)
 LEXICON N-tähkä
@@ -708,35 +705,28 @@ LEXICON N-kärpäin_01
 
 ! inmihiin (XIII-b)
 LEXICON N-inmihiin
-+N+Sg+Nom:in           K  ;
-+N+Sg+Gen:se%>n      K  ;
-+N+Sg+Acc:se%>n      K  ;
-+N+Sg+Par:s%>tAÄ1	#   ; ! kärpäistä
-+N+Sg+Ill:se%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:se%>%^WCnsV2s    #   ; ! maooz
-+N+Sg+Ela:se%>%^WCnsst    #   ; ! maost
-+N+Sg+All:se%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:se%>%^WCnsV2l    #   ; ! maool
-+N+Sg+Abl:se%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:se%>%^WCnsks    #   ; ! maoks
-+N+Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
-+N+Sg+Exe:se%>nt			    K	; !variksent
-+N+Sg+Com:se%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-inmihiin_01 ;
+
+LEXICON N-inmihiin_01
++Sg+Nom:in           K  ;
++Sg+Gen:se%>n      K  ;
++Sg+Acc:se%>n      K  ;
++Sg+Par:s%>tAÄ1	#   ; ! kärpäistä
++Sg+Ill:se%>%^LCnsV1	#   ; ! mattoo
+:se SG-INE   ; ! inmihises
+:see SG-INE   ; ! inmihises
++Sg+Ela:se%>%^WCnsst    #   ; ! maost
++Sg+All:se%>%^WCnslle    #   ; ! maolle
++Sg+Ade:se%>%^WCnsV2l    #   ; ! maool
++Sg+Abl:se%>%^WCnslt    #   ; ! maolt
++Sg+Tra:se%>%^WCnsks    #   ; ! maoks
++Sg+Ess:se%>%^LCns%^LVwsnnAÄ1    #   ; ! variksenna
++Sg+Exe:se%>nt			    K	; !variksent
++Sg+Com:se%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+N+Pl+Nom:se%>%^WCnst     #   ; ! varikset
-+N+Pl+Gen:si%>i%>n	#   ; ! variksin
-+N+Pl+Acc:se%>%^WCnst     #   ; ! varikset
-+N+Pl+Par:s%>i%>AÄ1	#   ; ! variksia
-+N+Pl+Ill:s%>i%>V1	#   ; ! variksii
-+N+Pl+Ine:s%>i%>V2s    #   ; ! variksiis
-+N+Pl+Ela:s%>i%>st    #   ; ! matoloist
-+N+Pl+All:s%>i%>lle    #   ; ! matoloille
-+N+Pl+Ade:s%>i%>V2l    #   ; ! variksiil
-+N+Pl+Abl:s%>i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:s%>i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:s%>i%>nnAÄ1    #   ; ! variksinna
-+N+Pl+Exe:s%>i%>nt    #   ; ! kärpäisint
-+N+Pl+Com:s%>i%>nkAÄ1    #   ; ! mataloinka
++Pl+Nom:se%>%^WCnst     #   ; ! inmihiset
+ Oblique-Plural_V ;
+
 
 
 ! keeli (IX-b)
@@ -795,35 +785,61 @@ LEXICON N-XIX
 
 ! (XX) oikehus
 LEXICON N-oikehus
-+N+Sg+Nom:s           K  ;
-+N+Sg+Gen:e%>n      K  ;
-+N+Sg+Acc:e%>n      K  ;
-+N+Sg+Par:t%>tAÄ1	#   ; ! kärpäistä
-+N+Sg+Ill:e%>%^LCnsV1	#   ; ! mattoo
-+N+Sg+Ine:e%>%^WCnss    #   ; ! maooz
-+N+Sg+Ela:e%>%^WCnsst    #   ; ! maost
-+N+Sg+All:e%>%^WCnslle    #   ; ! maolle
-+N+Sg+Ade:e%>%^WCnsl    #   ; ! maool
-+N+Sg+Abl:e%>%^WCnslt    #   ; ! maolt
-+N+Sg+Tra:e%>%^WCnsks    #   ; ! oikehueks
-+N+Sg+Ess:e%>nnAÄ1    #   ; ! oikehuenna
-+N+Sg+Exe:e%>nt			    K	; ! oikehuent
-+N+Sg+Com:e%>%^WCnsnkAÄ1    #   ; ! maanka
++N: N-oikehus_01 ;
+
+LEXICON N-oikehus_01
++Sg+Nom:s           K  ;
++Sg+Gen:e%>n      K  ;
++Sg+Acc:e%>n      K  ;
++Sg+Par:t%>tAÄ1	#   ; ! kärpäistä
+:e SG-ILL_sse   ; ! oikehuesse
++Sg+Ine:e%>%^WCnss    #   ; ! maooz
++Sg+Ela:e%>%^WCnsst    #   ; ! maost
++Sg+All:e%>%^WCnslle    #   ; ! maolle
++Sg+Ade:e%>%^WCnsl    #   ; ! maool
++Sg+Abl:e%>%^WCnslt    #   ; ! maolt
++Sg+Tra:e%>%^WCnsks    #   ; ! oikehueks
++Sg+Ess:e%>nnAÄ1    #   ; ! oikehuenna
++Sg+Exe:e%>nt			    K	; ! oikehuent
++Sg+Com:e%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+N+Pl+Nom:e%>%^WCnst     #   ; ! varikset
-+N+Pl+Gen:ksi%>i%>n	#   ; ! variksin
-+N+Pl+Acc:e%>%^WCnst     #   ; ! varikset
-+N+Pl+Par:ks%>i%>AÄ1	#   ; ! variksia
-+N+Pl+Ill:ks%>i%>i	#   ; ! variksii
-+N+Pl+Ine:ks%>i%>s    #   ; ! oikehuksis
-+N+Pl+Ela:ks%>i%>st    #   ; ! matoloist
-+N+Pl+All:ks%>i%>lle    #   ; ! matoloille
-+N+Pl+Ade:ks%>i%>l    #   ; ! oikehuksil
-+N+Pl+Abl:ks%>i%>lt    #   ; ! matoloilt
-+N+Pl+Tra:ks%>i%>ks    #   ; ! matoloiks
-+N+Pl+Ess:ks%>i%>nnAÄ1    #   ; ! variksinna
-+N+Pl+Exe:ks%>i%>nt    #   ; ! kärpäisint
-+N+Pl+Com:ks%>i%>nkAÄ1    #   ; ! mataloinka
+:e PL-NOM  ; ! oikehuet
+ Oblique-Plural_V ;
+
+
+! kevät (XX-a)
+! venät:venä
+LEXICON N-venät
++N: N-venät_01 ;
+
+LEXICON N-venät_01
+ N-venät_01-Sg ;
+:%^SyllBr Oblique-Plural ;
+
+LEXICON N-venät_01-Sg
+:%^SyllBre%^StretchSyll2 SG-GEN ;
+:%^SyllBre%^StretchSyll2 PL-NOM ;
+:t SG-NOM ;
+:t SG-PAR_tA ;
+:e SG-ILL_sse ;
+:e SG-INE ;
+:ee SG-INE ;
+:e SG-ELA ;
+:e SG-ALL ;
+:e SG-ADE ;
+:ee SG-ADE ;
+:e SG-ABL ;
+:e SG-TRA ;
+:e SG-ESS_nnA ;
+:e SG-EXE ;
+
+! päivyt:päivy
+LEXICON N-päivyt
++N: N-päivyt_01 ;
+
+LEXICON N-päivyt_01
+ N-venät_01-Sg ;
+:e Oblique-Plural_sse ;
 
 
 ! (XXI)
@@ -840,6 +856,48 @@ LEXICON Cases
 +N+Sg+Abl:%>%^WCnslt    #   ; ! katto : katolt
 +N+Sg+Tra:%>%^WCnsks    #   ; ! musta : musaks
 +N+Sg+Ess:%>n%^ShVws    #   ; ! sotilaz : sotilahhaan, 
+
+!!!!
+! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
+LEXICON lOi-Pl
+:%>lOÖ1 Oblique-Plural_hV ;
+
+LEXICON Oblique-Plural_blank
+ PL-ILL_blank ;
+ Oblique-Plural ;
+
+LEXICON Oblique-Plural_sse
+ PL-ILL_sse ;
+ Oblique-Plural ;
+
+LEXICON Oblique-Plural_V
+ PL-ILL_V ;
+ Oblique-Plural ;
+
+LEXICON Oblique-Plural_hV
+ PL-ILL_hV ;
+ Oblique-Plural ;
+
+LEXICON Oblique-Plural
+:      PL-GEN		;
+:      PL-PAR_tA		;
+:      PL-PAR_A		;
+:      PL-INE		;
+:      PL-ELA		;
+:      PL-ALL		;
+:      PL-ADE		;
+:      PL-ABL		;
+:      PL-TRA		;
+:      PL-ESS_Vn		;
+:      PL-ESS_nnA		;
+:      PL-EXE		;
+:      PL-COM		;
+:      PL-INSTR-PxSG3	;
+:      PL-PRL		;
+
+!!!!!!!!!!!!!!!!!
+!! PLURAL TAGS !!
+!!!!!!!!!!!!!!!!!
 
 LEXICON PL-ABE
 +Pl+Abe:%>i%>tAÄ1    K  ;
@@ -879,7 +937,7 @@ LEXICON PL-ILL_blank
 +Pl+Ill:%>i    K   ;
 
 LEXICON PL-ILL_sse
-+Pl+Ill:%>isse    K   ;
++Pl+Ill:%>i%>sse    K   ;
 
 LEXICON PL-ILL_V
 +Pl+Ill:%>i%>i    K   ;
@@ -960,6 +1018,9 @@ LEXICON SG-ILL_hV
 LEXICON SG-INE
 +Sg+Ine:s    K  ;
 +Sg+Ine+PxSg3:ssAÄ1AÄ1    K  ;
+
+LEXICON SG-NOM
++Sg+Nom:    K ;
 
 LEXICON SG-PAR_A
 +Sg+Par:AÄ1      K  ;
