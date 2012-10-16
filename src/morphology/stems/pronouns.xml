@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>miltain</l>
+         <stg>
+            <st Contlex="Pron-miltain">miltai</st>
+         </stg>
+      </lg>
+      <pos>PRON-PERS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>siä</l>
          <stg>
             <st Contlex="PersSg2">si</st>
@@ -161,6 +183,28 @@
          <l>se</l>
          <stg>
             <st Contlex="Dem-se">s</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mittää</l>
+         <stg>
+            <st Contlex="Pron-Neg">mittää</st>
          </stg>
       </lg>
       <pos>PRON-DEM</pos>

@@ -13,6 +13,7 @@ A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö
 ! Vowel harmony with "(t)a/ä"
 AÄ1:a
 AÄ1:ä
+AÄ1:0
 
 ! Vowel harmony with "loi/löi" also kalatOÖ1in
 OÖ1:o
@@ -25,6 +26,7 @@ UY1:y
 ! this appears in the illative
 V1:a
 V1:e
+V1:i
 V1:o
 V1:u
 V1:y
@@ -41,6 +43,16 @@ V2:y
 V2:ä
 V2:ö
 
+! These reduplicate the preceding vowel if it in turn is preceded by a consonant
+V3:a
+V3:e
+V3:i
+V3:o
+V3:u
+V3:y
+V3:ä
+V3:ö
+V3:0
 
 %- !Hyphen in  constructions 
 %>:0
@@ -111,8 +123,8 @@ Rules
 ! A loss
 "StemALoss"
  X:Y <=> [ X | :Cns ] _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
-          where X in (a ä)
-                Y in (0 0) matched ;
+          where X in (a ä AÄ1)
+                Y in (0 0 0) matched ;
 !%>%^LCnsi%>V1
 
 
@@ -142,12 +154,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=> FT _ ;
+ AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=> BT _ ;
+ AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
 
 !
 ! Vowel harmony suffixes Front
@@ -170,23 +182,59 @@ Rules
 ! Vws %>:0 %^LCns: V1:
 ! Vowel agreement in illative 
 "V1:aeouüäö"
- V1:Vx <=> :Vx %>:0 [ h | ( %^LCns: ) ] _ ;
+ V1:Vx <=> :Vx %>:0 [ h | ( %^LCns: %>:0 ) ] _ ;
         where Vx in (a o u ä ö ü y) ;
 
 ! Vowel agreement in illative e
 "V1:e"
- V1:e <=> [ e | i ] %>:0 [ h | ( %^LCns: ) ] _ ;
+ V1:e <=> [ e | i ] %>:0  h  _ ;
+          e ( %>:0 %^LCns: ) %>:0  _ ;
+
+! Illative i with no intermittent _h_
+"V1:i"
+ V1:i <=> i ( %>:0 %^LCns: ) %>:0 _ ;
 
 !  _mato:maool_ not allowed
 ! Vowel lengthening for the inesive and adessive with V2
 ! Used with patsas type nominals
 "V2:aeiouüäö"
- V2:Vx <=> [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: )  _  ;
-           [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: ) V2: _  ;
+ V2:Vx <=> [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: )  _ [ V2: | ( %>:0 )  Cns ] ;
+           [ IL ] Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns: ) V2: _ [ ( %>:0 )  Cns ]  ;
         where Vx in (a o u ä ö ü e i y) ;
+
+!! This deals with secondary or perhaps pertary vowel lengthening
+! e.g. gen plural, ine, ade
+"V3:a"
+ V3:a <=> :Cns :0* :a :0* _ ;
+
+"V3:e"
+ V3:e <=> :Cns :0* :e :0* _ ;
+
+"V3:i"
+ V3:i <=> :Cns :0* :i :0* _ ;
+
+"V3:o"
+ V3:o <=> :Cns :0* :o :0* _ ;
+
+"V3:u"
+ V3:u <=> :Cns :0* :u :0* _ ;
+
+"V3:ä"
+ V3:ä <=> :Cns :0* :ä :0* _ ;
+
+"V3:ö"
+ V3:ö <=> :Cns :0* :ö :0* _ ;
+
+"V3:y"
+ V3:y <=> :Cns :0* :y :0* _ ;
+
 
 "V2:Zero"
  V2:0 <=> [ #: Cns* Vws Cns: ] Vws %>:0  ( %^WCns: ) _ [ s | l ] ;
+          Vws %>:0 _ %> i: %> ;
+
+"V3:Zero"
+ V3:0 <=> :Vws :0* :Vws :0* _ ;
 
 ! ! Vowel Lengthening
 ! mato : mattoon,
@@ -240,21 +288,22 @@ Rules
  t:j <=> i i _ e %>: %^WCns: ;
 
 "st:st weakening"
-t:s <=> [ #: ] Cns* Vws s _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:s <=> Vws+ s _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 "rt:rr weakening"
-t:r <=> [ #: ] Cns* Vws r _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:r <=>  Vws r _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 "lt:ll weakening"
-t:l <=> [ #: ] Cns* Vws l _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:l <=>  Vws l _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 "nt:nn weakening"
-t:n <=> [ #: ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
+t:n <=>  Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 !! p
 
 "mp:mm weakening"
-p:m <=> [ #: ] Cns* [ Vws | Vws+ :Cns+ Vws* Vws | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
+p:m <=> [ Vws | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ :0* [ :Vws | Vws: ] :0* %^WCns:0  ;
+! [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
 
 !! k
 
@@ -264,7 +313,7 @@ k:g <=> [ #: ] Cns* Vws n _ :Vws ( 0: ) %>:0 %^WCns:0 ;
 
 ! aika: ajan
 "kToZero"
-k:0 <=> [ [ #: ] Cns* Vws (( r ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws ] ( 0: | %>:0 i: | %^StretchSyll2:0 ) %>:0 %^WCns:0 ;
+k:0 <=> [ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws ] ( 0: | %>:0 i: | %^StretchSyll2:0 ) %>:0 %^WCns:0 ;
         [ #: ] Cns* VwsBack i: _ Vws: ( 0: | %>:0 i: ) %>:0 %^WCns:0 ;
 
 ! liika:liijan, reikä:reijän
@@ -274,7 +323,7 @@ k:0 <=> [ [ #: ] Cns* Vws (( r ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _
 ! mato : maot, ! mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws Vws t | Cns* Vws+ Cns+ Vws+ ( n ) t ] _  [ :Vws | ( %>:0 ) AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws [ Vws - [ i | u | y ] ] | #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t ] _  [ :Vws | ( %>:0 ) AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
 
 
 ! lupa : luvan
@@ -290,3 +339,5 @@ p:0 <=> [ #: Cns* Vws p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _  [ :Vws 
 !"Disallow WLoss after non-v"
 !WLoss:0 /<= [[ :* Letters ] - [ :* [ в л | в О1: л ] ] ] %>:0 _ ;
 
+!"Disallow V3 after two consecutive realized vowels"
+! V3: /<= :Vws :0* :Vws :0* _ ;

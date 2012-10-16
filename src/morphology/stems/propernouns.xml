@@ -356,6 +356,28 @@
    </entry>
    <entry>
       <lg>
+         <l>Leningrad</l>
+         <stg>
+            <st Contlex="Prop-bubrih">Leningrad</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Kьzьl</l>
          <stg>
             <st Contlex="Prop-bubrih">Kьzьl</st>
@@ -512,7 +534,29 @@
       <lg>
          <l>Soikkola</l>
          <stg>
-            <st Contlex="Prop-soikkola">Soikkola</st>
+            <st Contlex="Prop-soikkola">Soikkol</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Puna-armia</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Puna-armi</st>
          </stg>
       </lg>
       <pos>PROP</pos>
@@ -578,7 +622,7 @@
       <lg>
          <l>Keski-Soikkola</l>
          <stg>
-            <st Contlex="Prop-soikkola">Keski-Soikkola</st>
+            <st Contlex="Prop-soikkola">Keski-Soikkol</st>
          </stg>
       </lg>
       <pos>PROP</pos>
@@ -600,7 +644,7 @@
       <lg>
          <l>Oredeƶa</l>
          <stg>
-            <st Contlex="Prop-soikkola">Oredeƶa</st>
+            <st Contlex="Prop-soikkola">Oredeƶ</st>
          </stg>
       </lg>
       <pos>PROP</pos>
