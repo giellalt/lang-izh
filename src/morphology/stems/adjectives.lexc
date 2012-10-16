@@ -4,6 +4,7 @@ LEXICON adjectives
 
 avvaaro:avvaaro A-avvaaro  "" ;
 lihhaava:lihav A-lihhaava  "" ;
+terräävä:teräv A-lihhaava  "" ;
 vetteelä:vetel A-lihhaava  "" ;
 ikkäävä:ikäv A-lihhaava  "" ;
 mattaala:matal A-lihhaava  "" ;
@@ -85,3 +86,4 @@ yhtein:yhtei A-erilaajain  "" ;
 fonettin:fonetti A-erilaajain  "" ;
 uusi:uu A-uusi  "" ;
 eri:eri Attr-eri  "" ;
+koko:koko Attr-eri  "" ;

@@ -64,9 +64,9 @@ LEXICON V-olla
 +V+Imprt+4:oltakoo      #   ;
 !+V+Imprt+ConNeg:oo                #   ;
 
-+V+Prc:oleva	A-oma   ;
-+V+Prc:olt			       #   ;
-+V+Prc:oltava   A-oma   ;
++V+ActPrsPrc:oleva	A-oma   ;
++V+ActPrtPrc:olt			       #   ;
++V+PrsPrc:oltava   A-oma   ;
 +V+PrtPrc:oltu	A-oma   ; ! Check this
 
 +V+Inf:olla             #   ;
@@ -125,8 +125,8 @@ LEXICON V-jäävvä
 ! +V+Imprt+4:oltakoo      #   ;
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
- V-PrtPrc ;
+! +V+ActPrsPrc:oleva			       #   ;
+ V-ActPrtPrc ;
 ! +V+Prc:oltava			       #   ;
 ! +V+Prc:oltu			       #   ;
 ! 
@@ -185,7 +185,7 @@ LEXICON V-voija
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V:	V-PrtPrc   ; !jäänt
++V:	V-ActPrtPrc   ; !jäänt
 ! +V+Prc:oltava			       #   ;
 ! +V+Prc:oltu			       #   ;
 ! 
@@ -243,7 +243,7 @@ LEXICON V-antaa
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V:a	V-PrtPrc   ;
++V:a	V-ActPrtPrc   ;
 +V+Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
 +V+PrtPrc:e%>%^WCnsttUY1	 	A-oma   ;
 ! 
@@ -304,7 +304,7 @@ LEXICON V-tiitää_01
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-!+Prc:AÄ1  V-PrtPrc ;
+!+Prc:AÄ1  V-ActPrtPrc ;
 !+Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
 !+Prc:e%>ttUY1			       #   ;
 ! 
@@ -364,7 +364,7 @@ LEXICON V-näyttää
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V+Prc:AÄ1  V-PrtPrc ;
++V+Prc:AÄ1  V-ActPrtPrc ;
 +V+Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
 +V+Prc:e%>ttUY1			       #   ;
 ! 
@@ -431,7 +431,7 @@ LEXICON V-kutsua_01
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-: V-PrtPrc ;
+: V-ActPrtPrc ;
 +V+Prc:%>%^WCnsttAÄ1vAÄ1    A-oma   ;
 +PrtPrc:%>%^WCnsttUY1 	A-oma   ;
 ! 
@@ -494,7 +494,7 @@ LEXICON V-kirjuttaa
 +V+Imprt+ConNeg+4:%>AÄ1%>kOÖ1                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V: V-PrtPrc ; !kirjuttant
++V: V-ActPrtPrc ; !kirjuttant
 ! +V+Prc:oltava			       #   ;
 +V+PrtPrc:e%>%^WCnsttUY1	A-oma   ;
 ! 
@@ -632,12 +632,12 @@ LEXICON V-panna
 +V: V-panna_01 ;
 
 LEXICON V-panna_01
-!+Ind+Prs+Sg1:o%>%^WCnsn	#   ; ! oon
-!+Ind+Prs+Sg2:o%>%^WCnst	#   ;
-!+Ind+Prs+Sg3:no%>%^LVws	#   ;
-+Ind+Prs+Pl1:ammAÄ1	K   ;
-+Ind+Prs+Pl2:attAÄ1	#   ;
-!+Ind+Prs+Pl3:no%>%^LVwst	#   ;
++Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! oon
+!+Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
++Ind+Prs+Sg3:nOÖ1%>%^LVws	#   ;
++Ind+Prs+Pl1:AÄ1mmAÄ1	K   ;
++Ind+Prs+Pl2:AÄ1ttAÄ1	#   ;
++Ind+Prs+Pl3:nOÖ1%>%^LVwst	#   ;
 +Ind+Prs+4:nt%>%^WCnsAÄ1AÄ1	K   ;
 !+Ind+Prs+ConNeg:o%>%^WCns	#   ;
 
@@ -677,17 +677,17 @@ LEXICON V-panna_01
 !! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
- V-PrtPrc ; !pant
+ V-ActPrtPrc ; !pant
 +Prc:ntAÄ1vAÄ1		A-oma   ;
 +PrtPrc:n%>tUY1		A-oma   ;
 ! 
-+Inf:nt%>%^WCnsAÄ1             #   ; ! panna
-+Inf+Ill:no%>mAÄ1%>V1       #   ; ! sanomaa
++Inf:ntAÄ1%>%^WCns             #   ; ! panna
++Inf+Ill:nOÖ1%>mAÄ1%>V1       #   ; ! sanomaa
 ! +V+Inf+Ine:olemaas      #   ;
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 +Ger:nnees		#   ;
-+Der/miin:no%>mi N-inmihiin ;
++Der/miin:nOÖ1%>mi N-inmihiin ;
 
 
 LEXICON V-sannoa
@@ -736,7 +736,7 @@ LEXICON V-sannoa
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V:no V-PrtPrc ; !sanont
++V:no V-ActPrtPrc ; !sanont
 ! +V+Prc:oltava			       #   ;
 +V+Prc:o%>ttUY1			       #   ;
 ! 
@@ -795,7 +795,7 @@ LEXICON V-painuttassa
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V: V-PrtPrc ; !painuttant
++V: V-ActPrtPrc ; !painuttant
 +V+Prc:e%>ttAÄ1%>vAÄ1	A-oma   ;
 ! +V+Prc:oltu			       #   ;
 ! 
@@ -854,7 +854,7 @@ LEXICON V-piittiissä
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-!+V: V-PrtPrc ; !painuttant
+!+V: V-ActPrtPrc ; !painuttant
 !+V+Prc:e%>ttAÄ1%>vAÄ1	A-oma   ;
 ! +V+Prc:oltu			       #   ;
 ! 
@@ -913,7 +913,7 @@ LEXICON V-laatihussa
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V: V-PrtPrc ; ! laatihunt
++V: V-ActPrtPrc ; ! laatihunt
 !+V+Prc:e%>ttAÄ1%>vAÄ1	A-oma   ;
 ! +V+Prc:oltu			       #   ;
 ! 
@@ -975,7 +975,7 @@ LEXICON V-arvata
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V:%^OddSyll V-PrtPrc ; !arvant arvanneet
++V:%^OddSyll V-ActPrtPrc ; !arvant arvanneet
 +V+Prc:%>%^WCnsttAÄ1vAÄ1	A-oma   ;
 +V+PrtPrc:%>%^WCnsttUY1		A-oma   ;
 ! 
@@ -1037,7 +1037,7 @@ LEXICON V-hävitä
 ! !+V+Imprt+ConNeg:oo                #   ;
 ! 
 ! +V+Prc:oleva			       #   ;
-+V:         V-PrtPrc	   ; !hävint
++V:         V-ActPrtPrc	   ; !hävint
 +V+Prc:ttAÄ1%>vAÄ1		A-oma   ;
 +V+PrtPrc:%>ttUY1		A-oma   ;
 ! 
@@ -1051,74 +1051,77 @@ LEXICON V-hävitä
 
 ! (??)
 LEXICON V-merkitä
-+V+Ind+Prs+Sg1:tsen	#   ; ! oon
-+V+Ind+Prs+Sg2:tset	#   ;
-+V+Ind+Prs+Sg3:tsö%>%^LVws	#   ;
-+V+Ind+Prs+Pl1:tse%>mmAÄ1	#   ;
-+V+Ind+Prs+Pl2:tse%>ttAÄ1	#   ;
-+V+Ind+Prs+Pl3:tsö%>%^LVwst	#   ;
-+V+Ind+Prs+4:tAÄ1AÄ1	#   ;
-+V+Ind+Prs+ConNeg:tse 	#   ;
++V: V-merkitä_01 ;
 
-+V+Ind+Prt+Sg1:tsin       #   ; ! oon
-+V+Ind+Prt+Sg2:tsit       #   ;
-+V+Ind+Prt+Sg3:tsi        #   ;
-+V+Ind+Prt+Pl1:t%>simmAÄ1     #   ;
-+V+Ind+Prt+Pl2:t%>sittAÄ1     #   ;
-!+V+Ind+Prt+Pl3:t%>sivAÄ1t     #   ;
-+V+Ind+Prt+Pl3:ttii     #   ;
-!+V+Ind+ConNeg+Prt:%>%^WCnsttUY1         #   ;
+LEXICON V-merkitä_01
++Ind+Prs+Sg1:tsen	#   ; ! oon
++Ind+Prs+Sg2:tset	#   ;
++Ind+Prs+Sg3:tsö%>%^LVws	#   ;
++Ind+Prs+Pl1:tse%>mmAÄ1	#   ;
++Ind+Prs+Pl2:tse%>ttAÄ1	#   ;
++Ind+Prs+Pl3:tsö%>%^LVwst	#   ;
++Ind+Prs+4:tAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:tse 	#   ;
 
-+V+Pot+Sg1:n%>nen      #   ; ! oon
-+V+Pot+Sg2:n%>net      #   ;
-+V+Pot+Sg3:n%>nOÖ1%>OÖ1      #   ;
-+V+Pot+Pl1:n%>ne%>mmAÄ1    #   ;
-+V+Pot+Pl2:n%>ne%>ttAÄ1    #   ;
-+V+Pot+Pl3:n%>nOÖ1%>OÖ1t     #   ;
-!+V+Pot+4:%>ttAÄ1%>nOÖ1%>OÖ1      #   ;
-!+V+Pot+ConNeg:oo                #   ;
++Ind+Prt+Sg1:tsin       #   ; ! oon
++Ind+Prt+Sg2:tsit       #   ;
++Ind+Prt+Sg3:tsi        #   ;
++Ind+Prt+Pl1:t%>simmAÄ1     #   ;
++Ind+Prt+Pl2:t%>sittAÄ1     #   ;
+!+Ind+Prt+Pl3:t%>sivAÄ1t     #   ;
++Ind+Prt+Pl3:ttii     #   ;
+!+Ind+ConNeg+Prt:%>%^WCnsttUY1         #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-+V+Cond+4:%>ttAÄ1is      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
++Pot+Sg1:n%>nen      #   ; ! oon
++Pot+Sg2:n%>net      #   ;
++Pot+Sg3:n%>nOÖ1%>OÖ1      #   ;
++Pot+Pl1:n%>ne%>mmAÄ1    #   ;
++Pot+Pl2:n%>ne%>ttAÄ1    #   ;
++Pot+Pl3:n%>nOÖ1%>OÖ1t     #   ;
+!+Pot+4:%>ttAÄ1%>nOÖ1%>OÖ1      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
++Cond+4:%>ttAÄ1is      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-+V+Prc:tse%>vAÄ1 A-oma ;
-+V+PrtPrc:	V-PrtPrc   ;
-+V+Prc:ttAÄ1vAÄ1 A-oma  ;
-+V+Prc:%>ttUY1  A-oma   ;
++ActPrsPrc:tse%>vAÄ1 A-oma ;
+	V-ActPrtPrc   ;
++PrsPrc:%>%^WCnsttAÄ1vAÄ1 A-oma  ;
++PrtPrc:ttUY1  A-oma   ;
 ! 
-+V+Inf:%>tAÄ1             #   ; ! antaa
-+V+Inf+Ill:%>mAÄ1%>V1       #   ; ! antamaa
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:tse%>mi N-inmihiin ;
++Inf:%>tAÄ1             #   ; ! merkitä
++Inf+Ill:tse%>mAÄ1%>V1       #   ; ! antamaa
++Inf:tse%>mAÄ1 SG-INE   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:tse%>mi N-inmihiin ;
 
 ! (V)
 LEXICON V-ahavojja
 #;
 
-LEXICON V-PrtPrc
+LEXICON V-ActPrtPrc
 +Ind+Prt+ConNeg:nt K ;
-PrtPrc+Sg+Nom:nt    K    ;
-PrtPrc:nUY1t SG-PAR_tA ;
-PrtPrc:ne V-PrtPrc_01 ;
++ActPrtPrc:nt    SG-NOM    ;
++ActPrtPrc:nUY1t SG-PAR_tA ;
++ActPrtPrc:ne V-ActPrtPrc_01 ;
 
-LEXICON V-PrtPrc_01
+LEXICON V-ActPrtPrc_01
 :e%>%^LCnsmp MP	   ;
 :e%>%^LCns SG-GEN	   ;
 :e%>%^LCns SG-ILL_sse ;

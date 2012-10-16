@@ -68,15 +68,14 @@ LEXICON N-osa
 +N: N-osa_01 ;
 
 LEXICON N-osa_01
-+Sg+Nom:0     #   ; ! osa
-+Sg+Gen:%>%^WCnsn	#   ; ! osan
-+Sg+Acc:%>%^WCnsn	#   ; ! osan
+ SG-NOM   ; ! osa
+:%>%^WCns SG-GEN   ; ! osan
 +Sg+Par:%>%^LCnsAÄ1	#   ; ! ossaa
 +Sg+Ill:%>%^LCnsV1	#   ; ! ossaa
-+Sg+Ine:%>%^WCnsV2s    #   ; ! osas
-+Sg+Ela:%>%^WCnsst    #   ; ! osast
-+Sg+All:%>%^WCnslle    #   ; ! osalle
-+Sg+Ade:%>%^WCnsV2l    #   ; ! osal
+:%>%^WCns SG-INE   ; ! osas
+:%>%^WCns SG-ELA   ; ! osast
+:%>%^WCns SG-ALL   ; ! osalle
+:%>%^WCns SG-ADE   ; ! osal
 +Sg+Abl:%>%^WCnslt    #   ; ! osalt
 +Sg+Tra:%>%^WCnsks    #   ; ! osaks
 +Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
@@ -608,14 +607,14 @@ LEXICON N-orsi
 
 ! käsi (XI)
 LEXICON N-käsi
-N: N-käsi_01 ; 
++N: N-käsi_01 ; 
 
 LEXICON N-käsi_01
 +Sg+Nom:si     #   ; ! orsi
 +Sg+Gen:te%>%^WCnsn	#   ; ! orren
 +Sg+Acc:te%>%^WCnsn	#   ; ! orren
 +Sg+Par:t%>tAÄ1	#   ; ! ortta
-+Sg+Ill:te%>%^LCnsV1	#   ; ! ortee
+:te%>%^LCns SG-ILL_V  ; ! ortee
 +Sg+Ine:te%>%^WCnss    #   ; ! orrees
 +Sg+Ela:te%>%^WCnsst    #   ; ! maost
 +Sg+All:te%>%^WCnslle    #   ; ! maolle
@@ -991,6 +990,7 @@ LEXICON PL-PRL
 
 LEXICON PL-TRA
 +Pl+Tra:%>i%>ks   K  ;
++Pl+Tra+PxSg2:%>i%>ksees   K  ;
 +Pl+Tra+PxSg3:%>i%>ksee   K  ;
 
 LEXICON SG-ABE
@@ -1056,6 +1056,7 @@ LEXICON SG-PAR_tA
 
 LEXICON SG-TRA
 +Sg+Tra:ks   K  ;
++Sg+Tra+PxSg2:ksees   K  ;
 +Sg+Tra+PxSg3:ksee   K  ;
 
 ! vim: set ft=xfst-lexc:

@@ -202,6 +202,28 @@
    </entry>
    <entry>
       <lg>
+         <l>palaa</l>
+         <stg>
+            <st Contlex="V-antaa">pal</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>tappaa</l>
          <stg>
             <st Contlex="V-antaa">tapp</st>
@@ -689,6 +711,28 @@
          <l>kirjuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">kirjutt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>lopettaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">lopett</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -1458,6 +1502,28 @@
       <lg>
          <l>männä</l>
          <stg>
+            <st Contlex="V-panna">mä</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>männä</l>
+         <stg>
             <st Contlex="V-tulla">män</st>
          </stg>
       </lg>
@@ -1481,6 +1547,28 @@
          <l>arvata</l>
          <stg>
             <st Contlex="V-arvata">arva</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>virrata</l>
+         <stg>
+            <st Contlex="V-arvata">virta</st>
          </stg>
       </lg>
       <pos>V</pos>
