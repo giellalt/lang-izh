@@ -22,6 +22,8 @@ LEXICON A-lihhaava
 ! uusi:uu
 LEXICON A-uusi
 +A+Der/st:te%>%^WCnsst AdvManner ; !
++A+Comp:te%>%^WCnsmp MP ; !
++A+Sg+Nom:s K ;
 +A: N-käsi_01 ;
 
 LEXICON A-kitsas
@@ -31,6 +33,15 @@ LEXICON A-kitsas
 LEXICON A-kalakas
 +A: A-kalakas_01 ;
 
+LEXICON A-suur
++A+Der/st:e%>%^WCnsst AdvManner ; !
++A+Comp:e%>%^WCnsmp MP ; !
++A+Sg+Nom: K ;
++A: N-keeli_01 ;
+
+LEXICON A-hyvä
++A: N-osa_01 ;
++A+Der/st:%>%^WCnsst AdvManner ; !
 
 ! oma (??)
 LEXICON A-oma
@@ -213,7 +224,7 @@ LEXICON MP
 +Sg+Gen:AÄ1%>%^WCnsn	#   ; ! oman
 +Sg+Par:AÄ1%>AÄ1	#   ; ! ommaa
 +Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Sg+Ine:AÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
+:AÄ1%>%^WCns SG-INE   ; ! mAÄ1ooz
 +Sg+Ela:AÄ1%>%^WCnsst    #   ; ! maost
 +Sg+All:AÄ1%>%^WCnslle    #   ; ! maolle
 +Sg+Ade:AÄ1%>%^WCns%^LVwsl    #   ; ! maool

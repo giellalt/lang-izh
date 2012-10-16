@@ -4,12 +4,14 @@ LEXICON pronouns
 
 miä:mi PersSg1  "" ;
 mokoma:mokom Pron-mokoma  "" ;
+miltain:miltai Pron-miltain  "" ;
 siä:si PersSg2  "" ;
 hää:hä PersSg3  "" ;
 möö:m PersPl1  "" ;
 töö:t PersPl2  "" ;
 höö:h PersPl3  "" ;
 se:s Dem-se  "" ;
+mittää:mittää Pron-Neg  "" ;
 neet:n Dem-neet  "" ;
 nämä:nä Dem-nämä  "" ;
 tämä:tä Dem-tämä  "" ;

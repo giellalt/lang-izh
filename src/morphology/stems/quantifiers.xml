@@ -60,10 +60,32 @@
                <head/>
             </m>
             <tg lang="eng">
-               <t>second</t>
+               <t/>
             </tg>
             <tg lang="fin">
-               <t>toinen</t>
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>moni</l>
+         <stg>
+            <st Contlex="Qnt-moni">mon</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>
