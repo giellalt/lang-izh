@@ -11,6 +11,9 @@ LEXICON AdvManner
 LEXICON AdvSpat
 +Adv+Spat:0      K   ;
 
+LEXICON AdvSpat-Prl
++Adv+Spat+Prl:0      K   ;
+
 LEXICON AdvTemp
 +Adv+Temp:0        K   ;
 
