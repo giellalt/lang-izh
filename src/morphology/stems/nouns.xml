@@ -555,6 +555,28 @@
    </entry>
    <entry>
       <lg>
+         <l>saari</l>
+         <stg>
+            <st Contlex="N-keeli">saar</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>lohi</l>
          <stg>
             <st Contlex="N-keeli">loh</st>
@@ -3352,6 +3374,72 @@
    </entry>
    <entry>
       <lg>
+         <l>adessiva</l>
+         <stg>
+            <st Contlex="N-vokala">adessiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>essiva</l>
+         <stg>
+            <st Contlex="N-vokala">essiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>inessiva</l>
+         <stg>
+            <st Contlex="N-vokala">inessiv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>ablativa</l>
          <stg>
             <st Contlex="N-vokala">ablativ</st>
@@ -5728,6 +5816,50 @@
    </entry>
    <entry>
       <lg>
+         <l>mäki</l>
+         <stg>
+            <st Contlex="N-joki">mäk</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>talvi</l>
+         <stg>
+            <st Contlex="N-joki">talv</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>väki</l>
          <stg>
             <st Contlex="N-joki">väk</st>
@@ -5863,6 +5995,28 @@
          <l>mato</l>
          <stg>
             <st Contlex="N-mato">mato</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>luku</l>
+         <stg>
+            <st Contlex="N-mato">luku</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -7557,6 +7711,28 @@
          <l>käsi</l>
          <stg>
             <st Contlex="N-käsi">kä</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>länsi</l>
+         <stg>
+            <st Contlex="N-käsi">län</st>
          </stg>
       </lg>
       <pos>N</pos>

@@ -1850,4 +1850,26 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>koko</l>
+         <stg>
+            <st Contlex="Attr-eri">koko</st>
+         </stg>
+      </lg>
+      <pos>ATTR</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>eri</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

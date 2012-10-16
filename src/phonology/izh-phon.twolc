@@ -123,9 +123,12 @@ Rules
 ! A loss
 "StemALoss"
  X:Y <=> [ X | :Cns ] _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
-          where X in (a ä AÄ1)
-                Y in (0 0 0) matched ;
+          where X in (a ä)
+                Y in (0 0) matched ;
 !%>%^LCnsi%>V1
+! AÄ1 loss
+"StemAÄLoss"
+ AÄ1:0 <=> [ AÄ1: | :Cns ] _  ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
 
 
 ! U loss [u:0 | y:0]
@@ -323,7 +326,7 @@ k:0 <=> [ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k
 ! mato : maot, ! mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws [ Vws - [ i | u | y ] ] | #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t ] _  [ :Vws | ( %>:0 ) AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
+t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws [ Vws - [ i | u | y ] ] | #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws :0* t ] _  [ :Vws | ( %>:0 ) AÄ1: ] ( 0: ) %>:0 %^WCns:0 ;
 
 
 ! lupa : luvan
