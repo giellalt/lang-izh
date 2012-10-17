@@ -220,29 +220,27 @@ LEXICON Pron-kumpa_01
 +Sg+Gen:%>%^WCnsn	#   ; ! oman
 +Sg+Par:%>AÄ1	#   ; ! ommaa
 +Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Sg+Ine:%>%^WCnsV2s    #   ; ! kummaas
-+Sg+Ela:%>%^WCnsst    #   ; ! kummast
-+Sg+All:%>%^WCnslle    #   ; ! maolle
-+Sg+Ade:%>%^WCnsV2l    #   ; ! maool
-+Sg+Abl:%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
+ SG-INE   ; ! kummaas
+ SG-ELA   ; ! kummast
+ SG-ALL   ; ! maolle
+ SG-ADE   ; ! maool
+ SG-ABL   ; ! maolt
+ SG-TRA   ; ! maoks
+ SG-ESS_Vn   ; ! mattoon
 +Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
 :%>%^WCns PL-NOM      ; ! kummat
 :%>i 	  PL-GEN      ; ! kumpiin
      	  PL-PAR_A   ; ! kumpia
 +Pl+Ill:%>i%>i	#   ; ! kalattommii
-:%>%^WCns PL-INE   ; ! kummiis
-:%>%^WCns PL-ELA   ; ! matoloist
-:%>%^WCns PL-ALL   ; ! kummille
-:%>%^WCns PL-ADE   ; ! kummil
-:%>%^WCns%>i PL-ADE   ; ! kummiil
-:%>%^WCns PL-ABL   ; ! kummilt
-+Pl+Abl:%>i%>lt    #   ; ! matoloilt
-+Pl+Tra:%>i%>ks    #   ; ! matoloiks
+ PL-INE   ; ! kummiis
+ PL-ELA   ; ! matoloist
+ PL-ALL   ; ! kummille
+ PL-ADE   ; ! kummil, kummiil
+ PL-ABL   ; ! kummilt
+ PL-TRA   ; ! matoloiks
 +Pl+Ess:%>i%>n    #   ; ! matoloinna
-+Pl+Exe:%>i%>nt    #   ; ! matoloint
+ PL-EXE   ; ! matoloint
 
 LEXICON Pron-miltain
 +Pron+Interr: N-kärpäin_01 ;

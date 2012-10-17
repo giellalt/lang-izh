@@ -122,6 +122,7 @@ Multichar_Symbols
  %^OddSyll ! arvata, arvant but arvanneet
  %^StretchSyll2 ! creates ommeena from omena
  %^SyllBr ! syllable break for venät and lyhyt
+
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
@@ -133,6 +134,7 @@ LEXICON Root
 0   adverbs  ;
 0   conjunctions   ;
 0   nouns   ;
+0   particles    ;
 0   postpositions    ;
 0   prepositions    ;
 0   pronouns    ;

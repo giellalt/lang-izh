@@ -1,0 +1,11 @@
+!! Particles inflection
+!! --------------------
+!! Ingrian particles ...
+
+LEXICON PcleTag
++Pcle:0      K   ;
+
+
+
+! vim: set ft=xfst-lexc:
+

@@ -29,6 +29,7 @@ GT_LEXC_SRCS=\
 			 affixes/adverbs.lexc \
 			 affixes/clitics.lexc \
 			 affixes/nouns.lexc \
+			 affixes/particles.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
 			 affixes/quantifiers.lexc \
@@ -40,6 +41,7 @@ GENERATED_LEXC_SRCS=\
 			 stems/adverbs.lexc \
 			 stems/conjunctions.lexc \
 			 stems/nouns.lexc \
+			 stems/particles.lexc \
 			 stems/postpositions.lexc \
 			 stems/prepositions.lexc \
 			 stems/pronouns.lexc \
@@ -53,6 +55,7 @@ GT_XML_SRCS=\
 			 stems/adverbs.xml \
 			 stems/conjunctions.xml \
 			 stems/nouns.xml \
+			 stems/particles.xml \
 			 stems/postpositions.xml \
 			 stems/prepositions.xml \
 			 stems/pronouns.xml \
