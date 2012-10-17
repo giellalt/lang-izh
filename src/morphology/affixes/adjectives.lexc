@@ -37,7 +37,7 @@ LEXICON A-suur
 +A+Der/st:e%>%^WCnsst AdvManner ; !
 +A+Comp:e%>%^WCnsmp MP ; !
 +A+Sg+Nom: K ;
-+A: N-keeli_01 ;
++A: N-sammal_01 ;
 
 LEXICON A-hyvä
 +A: N-osa_01 ;
@@ -205,7 +205,7 @@ LEXICON A-erilaajain
 ! vahva:vahv ()
 LEXICON A-vahva
 +A+Der/st:a%>%^WCnsst AdvManner ; !
-+A:emp MP ; ! 2-syllables
++A:e%>%^WCnsmp MP ; ! 2-syllables
 +A:  N-jalka_01 ;
 
 ! matala: matal ()
@@ -221,15 +221,15 @@ LEXICON A-paremp
 LEXICON MP
 +Der/st:AÄ1%>%^WCnsst AdvManner ; !
 +Sg+Nom:     #   ; ! oma
-+Sg+Gen:AÄ1%>%^WCnsn	#   ; ! oman
+:AÄ1 SG-GEN  ; ! oman
 +Sg+Par:AÄ1%>AÄ1	#   ; ! ommaa
 +Sg+Ill:AÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
-:AÄ1%>%^WCns SG-INE   ; ! mAÄ1ooz
-+Sg+Ela:AÄ1%>%^WCnsst    #   ; ! maost
-+Sg+All:AÄ1%>%^WCnslle    #   ; ! maolle
-+Sg+Ade:AÄ1%>%^WCns%^LVwsl    #   ; ! maool
-+Sg+Abl:AÄ1%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:AÄ1%>%^WCnsks    #   ; ! maoks
+:AÄ1 SG-INE   ; ! mAÄ1ooz
+:AÄ1 SG-ELA   ; ! maost
+:AÄ1 SG-ALL   ; ! maolle
+:AÄ1 SG-ADE   ; ! maool
+:AÄ1 SG-ABL   ; ! maolt
+:AÄ1 SG-TRA   ; ! maoks
 +Sg+Ess:AÄ1%>%^LCns%^LVwsn    #   ; ! mattoon
 +Sg+Ess:AÄ1%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoonna
 +Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoont

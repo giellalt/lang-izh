@@ -81,29 +81,32 @@ LEXICON V-olla
 
 
 LEXICON V-jäävvä
-+V+Ind+Prs+Sg1:n	#   ; ! oon
-+V+Ind+Prs+Sg2:t 	#   ;
-+V+Ind+Prs+Sg3:p	#   ;
-+V+Ind+Prs+Pl1:%>mmAÄ1	#   ;
-+V+Ind+Prs+Pl2:%>ttAÄ1	#   ;
-+V+Ind+Prs+Pl3:%>vAÄ1t	#   ;
-+V+Ind+Prs+4:%>vvAÄ1%>AÄ1	#   ;
-+V+Ind+Prs+ConNeg:0		#   ;
++V: V-jäävvä_01 ;
 
-+V+Ind+Prt+Sg1:in       #   ; ! oon
-+V+Ind+Prt+Sg2:it       #   ;
-+V+Ind+Prt+Sg3:i        #   ;
-+V+Ind+Prt+Pl1:immAÄ1AÄ1     #   ;
-+V+Ind+Prt+Pl2:ittAÄ1AÄ1     #   ;
-!+V+Ind+Prt+Pl3:olivat     #   ;
-+V+Ind+Prt+Pl3:tii     #   ;
+LEXICON V-jäävvä_01
++Ind+Prs+Sg1:n	#   ; ! oon
++Ind+Prs+Sg2:t 	#   ;
++Ind+Prs+Sg3:p	#   ;
++Ind+Prs+Pl1:%>mmAÄ1	#   ;
++Ind+Prs+Pl2:%>ttAÄ1	#   ;
++Ind+Prs+Pl3:%>vAÄ1t	#   ;
++Ind+Prs+4:%>vvAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:0		#   ;
+
++Ind+Prt+Sg1:%>i%>n       #   ; ! oon
++Ind+Prt+Sg2:%>i%>t       #   ;
++Ind+Prt+Sg3:%>i%>        #   ;
++Ind+Prt+Pl1:%>i%>mmAÄ1     #   ;
++Ind+Prt+Pl2:%>i%>ttAÄ1     #   ;
++Ind+Prt+Pl3:%>i%>vAÄ1t     #   ;
++Ind+Prt+Pl3:tii     #   ;
 !+V+Ind+ConNeg+Prt:tUY1         #   ;
 
-+V+Pot+Sg1:nen      #   ; ! oon
-+V+Pot+Sg2:net      #   ;
-+V+Pot+Sg3:nOÖ1OÖ1      #   ;
-+V+Pot+Pl1:nemmAÄ1    #   ;
-+V+Pot+Pl2:nettAÄ1    #   ;
++Pot+Sg1:nen      #   ; ! oon
++Pot+Sg2:net      #   ;
++Pot+Sg3:nOÖ1OÖ1      #   ;
++Pot+Pl1:nemmAÄ1    #   ;
++Pot+Pl2:nettAÄ1    #   ;
 !+V+Pot+Pl3:nööt     #   ;
 !+V+Pot+4:      #   ;
 !+V+Pot+ConNeg:oo                #   ;
@@ -130,13 +133,13 @@ LEXICON V-jäävvä
 ! +V+Prc:oltava			       #   ;
 ! +V+Prc:oltu			       #   ;
 ! 
-+V+Inf:%>vvAÄ1             #   ;
-+V+Inf+Ill:%>mAÄ1%>AÄ1       #   ;
++Inf:%>vvAÄ1             #   ;
++Inf+Ill:%>mAÄ1%>AÄ1       #   ;
 ! +V+Inf+Ine:olemaas      #   ;
 ! +V+Inf+Ela:olemast      #   ;
-+V+Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
++Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
 ! +V+Ger:ollees		#   ;
-+V+Der/miin:a%>mi N-inmihiin ;
++Der/miin:a%>mi N-inmihiin ;
 
 
 LEXICON V-voija
@@ -198,62 +201,127 @@ LEXICON V-voija
 !+V+Der/miin:a%>mi N-inmihiin ;
 
 LEXICON V-antaa
-+V+Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
-+V+Ind+Prs+Sg2:a%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:a%>%^LCnsAÄ1	#   ;
-+V+Ind+Prs+Pl1:a%>%^WCnsmmAÄ1	#   ;
-+V+Ind+Prs+Pl2:a%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:a%>%^LCnsAÄ1t	#   ;
-+V+Ind+Prs+4:e%>%^WCnstaa	#   ;
-+V+Ind+Prs+ConNeg:a%>%^WCns	#   ;
++V: V-antaa_01 ;
 
-+V+Ind+Prt+Sg1:o%>%^WCnsin       #   ; ! oon
-+V+Ind+Prt+Sg2:o%>%^WCnsit       #   ;
-+V+Ind+Prt+Sg3:oi        #   ;
-+V+Ind+Prt+Pl1:o%>%^WCnsimma     #   ;
-+V+Ind+Prt+Pl2:o%>%^WCnsitta     #   ;
-!+V+Ind+Prt+Pl3:oivat     #   ;
-+V+Ind+Prt+Pl3:e%>tii     #   ;
-+V+Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
+LEXICON V-antaa_01
++Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:a%>%^WCnst	#   ;
++Ind+Prs+Sg3:a%>%^LCnsAÄ1	#   ;
++Ind+Prs+Pl1:a%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:a%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:a%>%^LCnsAÄ1t	#   ;
++Ind+Prs+4:e%>%^WCnstaa	#   ;
++Ind+Prs+ConNeg:a%>%^WCns	#   ;
 
-+V+Pot+Sg1:a%>nen      #   ; ! oon
-+V+Pot+Sg2:a%>net      #   ;
-+V+Pot+Sg3:a%>noo      #   ;
-+V+Pot+Pl1:a%>nemmAÄ1    #   ;
-+V+Pot+Pl2:a%>nettAÄ1    #   ;
-+V+Pot+Pl3:a%>noot     #   ;
-!+V+Pot+4:ollaa      #   ;
-!+V+Pot+ConNeg:oo                #   ;
++Ind+Prt+Sg1:o%>%^WCnsin       #   ; ! oon
++Ind+Prt+Sg2:o%>%^WCnsit       #   ;
++Ind+Prt+Sg3:oi        #   ;
++Ind+Prt+Pl1:o%>%^WCnsimma     #   ;
++Ind+Prt+Pl2:o%>%^WCnsitta     #   ;
+!+Ind+Prt+Pl3:oivat     #   ;
++Ind+Prt+Pl3:e%>tii     #   ;
++Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-! +V+Cond+4:oltais      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
++Pot+Sg1:a%>nen      #   ; ! oon
++Pot+Sg2:a%>net      #   ;
++Pot+Sg3:a%>noo      #   ;
++Pot+Pl1:a%>nemmAÄ1    #   ;
++Pot+Pl2:a%>nettAÄ1    #   ;
++Pot+Pl3:a%>noot     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-+V:a	V-ActPrtPrc   ;
-+V+Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
-+V+PrtPrc:e%>%^WCnsttUY1	 	A-oma   ;
+! +Prc:oleva			       #   ;
+:a	V-ActPrtPrc   ;
++Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
++PrtPrc:e%>%^WCnsttUY1	 	A-oma   ;
 ! 
-+V+Inf:a%>%^LCnsAÄ1             #   ; ! antaa
-+V+Inf+Ill:a%>mAÄ1%>V1       #   ; ! antamaa
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:a%>mi N-inmihiin ;
++Inf:a%>%^LCnsAÄ1             #   ; ! antaa
++Inf+Ill:a%>mAÄ1%>V1       #   ; ! antamaa
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:a%>mi N-inmihiin ;
+
+! lukkia:luk
+LEXICON V-lukkia
++V: V-lukkia_01 ;
+
+LEXICON V-lukkia_01
++Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:e%>%^WCnst	#   ;
++Ind+Prs+Sg3:OÖ1%>%^LCnsV3	#   ;
++Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:OÖ1%>%^LCnsV3t	#   ;
++Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:e%>%^WCns	#   ;
+
++Ind+Prt+Sg1:i%>%^WCnsn       #   ; ! oon
++Ind+Prt+Sg2:i%>%^WCnst       #   ;
++Ind+Prt+Sg3:i        #   ;
++Ind+Prt+Pl1:i%>%^WCnsmmAÄ1     #   ;
++Ind+Prt+Pl2:i%>%^WCnsttAÄ1     #   ;
+!+Ind+Prt+Pl3:ivat     #   ;
++Ind+Prt+Pl3:e%>%^WCnstii     #   ;
++Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
+
++Pot+Sg1:e%>nen      #   ; ! oon
++Pot+Sg2:e%>net      #   ;
++Pot+Sg3:e%>noo      #   ;
++Pot+Pl1:e%>nemmAÄ1    #   ;
++Pot+Pl2:e%>nettAÄ1    #   ;
++Pot+Pl3:e%>noot     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
+! 
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
+! 
+! +Prc:oleva			       #   ;
+:e	V-ActPrtPrc   ;
++Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
++PrtPrc:e%>%^WCnsttUY1	 	A-oma   ;
+! 
++Inf:i%>%^LCnsAÄ1             #   ; ! antaa
++Inf+Ill:OÖ1%>mAÄ1%>V1       #   ; ! antamaa
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:OÖ1%>mi N-inmihiin ;
 
 ! tiitää:tiit
 LEXICON V-tiitää
@@ -264,7 +332,7 @@ LEXICON V-tiitää_01
 !+Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
 !+Ind+Prs+Sg3:AÄ1%>%^LCnsAÄ1		K   ;
 +Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
-!+Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
 !+Ind+Prs+Pl3:AÄ1%>%^LCnsAÄ1t	#   ;
 +Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
 !+Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
@@ -319,62 +387,65 @@ LEXICON V-tiitää_01
 
 
 LEXICON V-näyttää
-+V+Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! oon
-+V+Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:AÄ1%>%^LCnsAÄ1		K   ;
-+V+Ind+Prs+Pl1:AÄ1%>%^WCnsmmAÄ1	#   ;
-+V+Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:AÄ1%>%^LCnsAÄ1t	#   ;
-+V+Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
-+V+Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
++V: V-näyttää_01 ;
 
-+V+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
-+V+Ind+Prt+Sg2:%>%^WCnsit       #   ;
-+V+Ind+Prt+Sg3:i        #   ;
-+V+Ind+Prt+Pl1:%>%^WCnsi%>mmAÄ1     #   ;
-+V+Ind+Prt+Pl2:%>%^WCnsi%>ttAÄ1     #   ;
-+V+Ind+Prt+Pl3:i%>vAÄ1t     #   ;
-+V+Ind+Prt+4:e%>%^WCnsttii     #   ;
-+V+Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
+LEXICON V-näyttää_01
++Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
++Ind+Prs+Sg3:AÄ1%>%^LCnsAÄ1		K   ;
++Ind+Prs+Pl1:AÄ1%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:AÄ1%>%^LCnsAÄ1t	#   ;
++Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
+
++Ind+Prt+Sg1:%>%^WCns%>i%>n       #   ; ! oon
++Ind+Prt+Sg2:%>%^WCns%>i%>t       #   ;
++Ind+Prt+Sg3:%>i%>        #   ;
++Ind+Prt+Pl1:%>%^WCns%>i%>mmAÄ1     #   ;
++Ind+Prt+Pl2:%>%^WCns%>i%>ttAÄ1     #   ;
++Ind+Prt+Pl3:%>i%>vAÄ1t     #   ;
++Ind+Prt+4:e%>%^WCnsttii     #   ;
++Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
 ! Fix 2012-10-04
-+V+Pot+Sg1:AÄ1%>nen      #   ; ! oon
-+V+Pot+Sg2:AÄ1%>net      #   ;
-+V+Pot+Sg3:AÄ1%>nOÖ1OÖ1      #   ;
-+V+Pot+Pl1:AÄ1%>nemmAÄ1    #   ;
-+V+Pot+Pl2:AÄ1%>nettAÄ1    #   ;
-+V+Pot+Pl3:AÄ1%>nOÖ1OÖ1t     #   ;
-!+V+Pot+4:ollaa      #   ;
-!+V+Pot+ConNeg:oo                #   ;
++Pot+Sg1:AÄ1%>nen      #   ; ! oon
++Pot+Sg2:AÄ1%>net      #   ;
++Pot+Sg3:AÄ1%>nOÖ1OÖ1      #   ;
++Pot+Pl1:AÄ1%>nemmAÄ1    #   ;
++Pot+Pl2:AÄ1%>nettAÄ1    #   ;
++Pot+Pl3:AÄ1%>nOÖ1OÖ1t     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-! +V+Cond+4:oltais      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-+V+Prc:AÄ1  V-ActPrtPrc ;
-+V+Prc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
-+V+Prc:e%>ttUY1			       #   ;
++ActPrsPrc:AÄ1vAÄ1		A-oma   ;
+:AÄ1  V-ActPrtPrc ;
++PrsPrc:e%>%^WCnsttAÄ1vAÄ1	A-oma   ;
++PrtPrc:e%>%^WCnsttUY1		A-oma   ;
 ! 
-+V+Inf:%>%^LCnsAÄ1%>AÄ1             #   ; ! pittää
-+V+Inf+Ill:AÄ1%>%^LCnsmAÄ1%>V1       #   ; ! pittämää
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:AÄ1%>mi N-inmihiin ;
++Inf:%>%^LCnsAÄ1%>AÄ1             #   ; ! näyttää
++Inf+Ill:AÄ1%>%^LCnsmAÄ1%>V1       #   ; ! näyttämää
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:AÄ1%>mi N-inmihiin ;
 
 !
 LEXICON V-laatia
@@ -446,186 +517,195 @@ LEXICON V-kutsua_01
 +Der/miin:%>mi N-inmihiin ;
 
 LEXICON V-kirjuttaa
-+V+Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! kirjutan
-+V+Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:AÄ1%>V3	#   ;
-+V+Ind+Prs+Pl1:AÄ1%>%^WCnsmmAÄ1	#   ;
-+V+Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:AÄ1%>V3t	#   ;
-+V+Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
-+V+Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
++V: V-kirjuttaa_01 ;
 
-+V+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! kirjutin
-+V+Ind+Prt+Sg2:%>%^WCnsit       #   ;
-+V+Ind+Prt+Sg3:i        #   ;
-+V+Ind+Prt+Pl1:%>%^WCnsimma     #   ;
-+V+Ind+Prt+Pl2:%>%^WCnsitta     #   ;
-!+V+Ind+Prt+Pl3:ivat     #   ;
-+V+Ind+Prt+Pl3:e%>tii     #   ;
-!+V+Ind+ConNeg+Prt:e%>%^WCnsttu         #   ;
+LEXICON V-kirjuttaa_01
++Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! kirjutan
++Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
++Ind+Prs+Sg3:AÄ1%>V3	#   ;
++Ind+Prs+Pl1:AÄ1%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:AÄ1%>V3t	#   ;
++Ind+Prs+4:e%>%^WCnsttAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 
-+V+Pot+Sg1:a%>nen      #   ; ! oon
-+V+Pot+Sg2:a%>net      #   ;
-+V+Pot+Sg3:a%>noo      #   ;
-+V+Pot+Pl1:a%>nemmAÄ1    #   ;
-+V+Pot+Pl2:a%>nettAÄ1    #   ;
-+V+Pot+Pl3:a%>noot     #   ;
-!+V+Pot+4:ollaa      #   ;
-+V+Pot+ConNeg:%>AÄ1%>ne                #   ;
++Ind+Prt+Sg1:%>%^WCnsin       #   ; ! kirjutin
++Ind+Prt+Sg2:%>%^WCnsit       #   ;
++Ind+Prt+Sg3:i        #   ;
++Ind+Prt+Pl1:%>%^WCnsimma     #   ;
++Ind+Prt+Pl2:%>%^WCnsitta     #   ;
+!+Ind+Prt+Pl3:ivat     #   ;
++Ind+Prt+Pl3:e%>tii     #   ;
+!+Ind+ConNeg+Prt:e%>%^WCnsttu         #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-! +V+Cond+4:oltais      #   ;
-! !+V+Cond+ConNeg:oo        #   ;
-+V+Cond+ConNeg+4:e%>%^WCnsttAÄ1is        #   ;
++Pot+Sg1:a%>nen      #   ; ! oon
++Pot+Sg2:a%>net      #   ;
++Pot+Sg3:a%>noo      #   ;
++Pot+Pl1:a%>nemmAÄ1    #   ;
++Pot+Pl2:a%>nettAÄ1    #   ;
++Pot+Pl3:a%>noot     #   ;
+!+Pot+4:ollaa      #   ;
++Pot+ConNeg:%>AÄ1%>ne                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo        #   ;
++Cond+ConNeg+4:e%>%^WCnsttAÄ1is        #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-+V+Imprt+ConNeg+Pl:%>kOÖ1                #   ;
-+V+Imprt+ConNeg+Sg2:%>%^WCns                #   ;
-+V+Imprt+ConNeg+4:%>AÄ1%>kOÖ1                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
++Imprt+ConNeg+Pl:%>kOÖ1                #   ;
++Imprt+ConNeg+Sg2:%>%^WCns                #   ;
++Imprt+ConNeg+4:%>AÄ1%>kOÖ1                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-+V: V-ActPrtPrc ; !kirjuttant
-! +V+Prc:oltava			       #   ;
-+V+PrtPrc:e%>%^WCnsttUY1	A-oma   ;
+! +Prc:oleva			       #   ;
+ V-ActPrtPrc ; !kirjuttant
++PrsPrc:e%>%^WCnsttAÄ1vAÄ1 A-oma   ;
++PrtPrc:e%>%^WCnsttUY1	A-oma   ;
 ! 
-+V+Inf:AÄ1AÄ1             #   ; ! kirjuttaa
-+V+Inf+Ill:a%>mAÄ1%>%^LCnsAÄ1       #   ; ! kirjuttammaa
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-+V+Ger:aes		#   ;
-+V+Ger:ajes		#   ;
-+V+Der/miin:AÄ1mi%>%^LCns N-inmihiin ; !kirjuttammiin
++Inf:AÄ1AÄ1             #   ; ! kirjuttaa
++Inf+Ill:a%>mAÄ1%>%^LCnsAÄ1       #   ; ! kirjuttammaa
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
++Ger:aes		#   ;
++Ger:ajes		#   ;
++Der/miin:AÄ1mi%>%^LCns N-inmihiin ; !kirjuttammiin
 
 !tulla:tul
 LEXICON V-tulla
-+V+Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
-+V+Ind+Prs+Sg2:e%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:%>%^LCnsOÖ1OÖ1 # ; !%>%^LCns%^LVws	#   ; !tulloo
-+V+Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
-+V+Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:%>OÖ1%>V3t	#   ;
-+V+Ind+Prs+4:t%>%^WCnsAÄ1AÄ1	#   ;
-+V+Ind+Prs+ConNeg:e	#   ;
++V: V-tulla_01 ;
 
-+V+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
-+V+Ind+Prt+Sg2:%>%^WCnsit       #   ;
-+V+Ind+Prt+Sg3:i        #   ;
-+V+Ind+Prt+Pl1:%>%^WCnsimma     #   ;
-+V+Ind+Prt+Pl2:%>%^WCnsitta     #   ;
-!+V+Ind+Prt+Pl3:i%>vAÄ1t     #   ;
-+V+Ind+Prt+4:%>tii     #   ;
-+V+Ind+Prt+ConNeg:t         #   ;
-+V+Ind+Prt+ConNeg+4:%>%^WCnstUY1         #   ;
+LEXICON V-tulla_01
++Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:e%>%^WCnst	#   ;
++Ind+Prs+Sg3:%>%^LCnsOÖ1OÖ1 # ; !%>%^LCns%^LVws	#   ; !tulloo
++Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:%>OÖ1%>V3t	#   ;
++Ind+Prs+4:t%>%^WCnsAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:e	#   ;
 
-+V+Pot+Sg1:e%>nen      #   ; ! oon
-+V+Pot+Sg2:e%>net      #   ;
-+V+Pot+Sg3:e%>noo      #   ;
-+V+Pot+Pl1:e%>nemmAÄ1    #   ;
-+V+Pot+Pl2:e%>nettAÄ1    #   ;
-+V+Pot+Pl3:e%>noot     #   ;
-!+V+Pot+4:ollaa      #   ;
-!+V+Pot+ConNeg:oo                #   ;
++Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
++Ind+Prt+Sg2:%>%^WCnsit       #   ;
++Ind+Prt+Sg3:i        #   ;
++Ind+Prt+Pl1:%>%^WCnsimma     #   ;
++Ind+Prt+Pl2:%>%^WCnsitta     #   ;
++Ind+Prt+Pl3:i%>vAÄ1t     #   ; ! tulivat
++Ind+Prt+4:%>tii     #   ;
++Ind+Prt+ConNeg:t         #   ;
++Ind+Prt+ConNeg+4:%>%^WCnstUY1         #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-! +V+Cond+4:oltais      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
++Pot+Sg1:e%>nen      #   ; ! oon
++Pot+Sg2:e%>net      #   ;
++Pot+Sg3:e%>noo      #   ;
++Pot+Pl1:e%>nemmAÄ1    #   ;
++Pot+Pl2:e%>nettAÄ1    #   ;
++Pot+Pl3:e%>noot     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-! +V+Prc:olt			       #   ;
-! +V+Prc:oltava			       #   ;
-! +V+Prc:oltu			       #   ;
+! +Prc:oleva			       #   ;
+! +Prc:olt			       #   ;
+! +Prc:oltava			       #   ;
+! +Prc:oltu			       #   ;
 ! 
-+V+Inf:tAÄ1%>%^WCns              #   ; ! kirjuttaa
-+V+Inf+Ill:e%>mAÄ1%>V1       #   ; ! kirjuttamaa
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:e%>mi N-inmihiin ; 
++Inf:tAÄ1%>%^WCns              #   ; ! kirjuttaa
++Inf+Ill:e%>mAÄ1%>V1       #   ; ! kirjuttamaa
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:OÖ1%>mi N-inmihiin ; 
 
 ! nähä:nä
 LEXICON V-nähä
-+V+Ind+Prs+Sg1:ä%>%^WCnsn	#   ; ! oon
-+V+Ind+Prs+Sg2:ä%>%^WCnst	#   ;
-+V+Ind+Prs+Sg3:k%>%^LCnsOÖ1%>V1	#   ;
-+V+Ind+Prs+Pl1:ä%>%^WCnsmmAÄ1	#   ; !näämmä
-+V+Ind+Prs+Pl2:ä%>%^WCnsttAÄ1	#   ;
-+V+Ind+Prs+Pl3:k%>%^LCnsOÖ1%>V1t	#   ;
-!+V+Ind+Prs+4:t%>%^WCnsAÄ1AÄ1	#   ;
-!+V+Ind+Prs+ConNeg:e	#   ;
++V: V-nähä_01 ;
 
-+V+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
-+V+Ind+Prt+Sg2:%>%^WCnsit       #   ;
-+V+Ind+Prt+Sg3:ki        #   ;
-+V+Ind+Prt+Pl1:%>%^WCnsimmAÄ1     #   ;
-+V+Ind+Prt+Pl2:%>%^WCnsittAÄ1     #   ;
-!+V+Ind+Prt+Pl3:ki%>vAÄ1t     #   ;
-+V+Ind+Prt+4:%>htii     #   ;
-!+V+Ind+Prt+ConNeg:t         #   ;
-+V+Ind+Prt+ConNeg+4:h%>%^WCnstUY1         #   ;
+LEXICON V-nähä_01
++Ind+Prs+Sg1:ä%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:ä%>%^WCnst	#   ;
++Ind+Prs+Sg3:k%>%^LCnsOÖ1%>V1	#   ;
++Ind+Prs+Pl1:ä%>%^WCnsmmAÄ1	#   ; !näämmä
++Ind+Prs+Pl2:ä%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:k%>%^LCnsOÖ1%>V1t	#   ;
++Ind+Prs+4:h%>%^LCnsAÄ1AÄ1	#   ;
+!+Ind+Prs+ConNeg:e	#   ;
 
-+V+Pot+Sg1:e%>nen      #   ; ! oon
-+V+Pot+Sg2:e%>net      #   ;
-+V+Pot+Sg3:e%>noo      #   ;
-+V+Pot+Pl1:e%>nemmAÄ1    #   ;
-+V+Pot+Pl2:e%>nettAÄ1    #   ;
-+V+Pot+Pl3:e%>noot     #   ;
-!+V+Pot+4:ollaa      #   ;
-!+V+Pot+ConNeg:oo                #   ;
++Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
++Ind+Prt+Sg2:%>%^WCnsit       #   ;
++Ind+Prt+Sg3:ki        #   ;
++Ind+Prt+Pl1:%>%^WCnsimmAÄ1     #   ;
++Ind+Prt+Pl2:%>%^WCnsittAÄ1     #   ;
+!+Ind+Prt+Pl3:ki%>vAÄ1t     #   ;
++Ind+Prt+4:%>htii     #   ;
+!+Ind+Prt+ConNeg:t         #   ;
++Ind+Prt+ConNeg+4:h%>%^WCnstUY1         #   ;
 
-! +V+Cond+Sg1:olisin      #   ; ! oon
-! +V+Cond+Sg2:olisit      #   ;
-! +V+Cond+Sg3:olis      #   ;
-! +V+Cond+Pl1:olisimma    #   ;
-! +V+Cond+Pl2:olisitta    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-! +V+Cond+4:oltais      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
++Pot+Sg1:h%>nen      #   ; ! oon
++Pot+Sg2:h%>net      #   ;
++Pot+Sg3:h%>nOÖ1OÖ1      #   ;
++Pot+Pl1:h%>nemmAÄ1    #   ;
++Pot+Pl2:h%>nettAÄ1    #   ;
++Pot+Pl3:h%>nOÖ1OÖ1t     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+! +Cond+Sg1:olisin      #   ; ! oon
+! +Cond+Sg2:olisit      #   ;
+! +Cond+Sg3:olis      #   ;
+! +Cond+Pl1:olisimma    #   ;
+! +Cond+Pl2:olisitta    #   ;
+! +Cond+Pl3:olisivat     #   ;
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-! +V+Prc:olt			       #   ;
-! +V+Prc:oltava			       #   ;
-! +V+Prc:oltu			       #   ;
+! +Prc:oleva			       #   ;
+! +Prc:olt			       #   ;
++PrsPrc:htAÄ1vAÄ1	A-oma   ;
+! +Prc:oltu			       #   ;
 ! 
-+V+Inf:h%>%^WCnsAÄ1             #   ; ! nähä
-+V+Inf+Ill:e%>mAÄ1%>V1       #   ; ! kirjuttamaa
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:e%>mi N-inmihiin ; 
++Inf:h%>%^WCnsAÄ1             #   ; ! nähä
++Inf+Ill:kö%>mAÄ1%>V1       #   ; ! kirjuttamaa
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:kö%>mi N-inmihiin ; 
 
 ! panna:pa
 LEXICON V-panna
@@ -633,13 +713,13 @@ LEXICON V-panna
 
 LEXICON V-panna_01
 +Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! oon
-!+Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
++Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
 +Ind+Prs+Sg3:nOÖ1%>%^LVws	#   ;
 +Ind+Prs+Pl1:AÄ1mmAÄ1	K   ;
 +Ind+Prs+Pl2:AÄ1ttAÄ1	#   ;
 +Ind+Prs+Pl3:nOÖ1%>%^LVwst	#   ;
 +Ind+Prs+4:nt%>%^WCnsAÄ1AÄ1	K   ;
-!+Ind+Prs+ConNeg:o%>%^WCns	#   ;
++Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 
 !+Ind+Prt+Sg1:no%>%^WCnsin       #   ; ! oon
 !+Ind+Prt+Sg2:no%>%^WCnsit       #   ;
@@ -807,64 +887,67 @@ LEXICON V-painuttassa
 ! +V+Ger:ollees		#   ;
 +V+Der/miin:ä%>mi N-inmihiin ; !
 
-! piittiissä:piittii
-LEXICON V-piittiissä
-!+V+Ind+Prs+Sg1:%>AÄ1%>n	#   ; ! oon
-!+V+Ind+Prs+Sg2:%>AÄ1%>t	#   ;
-+V+Ind+Prs+Sg3:jAÄ1AÄ1	#   ;
-!+V+Ind+Prs+Pl1:%>AÄ1%>mmAÄ1	#   ;
-!+V+Ind+Prs+Pl2:%>AÄ1%>ttAÄ1	#   ;
-+V+Ind+Prs+Pl3:jAÄ1AÄ1t	#   ;
-+V+Ind+Prs+4:%>ssAÄ1AÄ1	#   ;
-!+V+Ind+Prs+ConNeg:%>AÄ1	#   ;
+! pittiissä:pittii
+LEXICON V-pittiissä
++V: V-pittiissä_01 ;
+
+LEXICON V-pittiissä_01
+!+Ind+Prs+Sg1:%>AÄ1%>n	#   ; ! oon
+!+Ind+Prs+Sg2:%>AÄ1%>t	#   ;
++Ind+Prs+Sg3:jAÄ1AÄ1	#   ;
+!+Ind+Prs+Pl1:%>AÄ1%>mmAÄ1	#   ;
+!+Ind+Prs+Pl2:%>AÄ1%>ttAÄ1	#   ;
++Ind+Prs+Pl3:jAÄ1AÄ1t	#   ;
++Ind+Prs+4:%>ssAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:	#   ;
 !
-!+V+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
-!+V+Ind+Prt+Sg2:%>%^WCnsit       #   ;
-!+V+Ind+Prt+Sg3:i        #   ;
-!+V+Ind+Prt+Pl1:%>%^WCnsi%>mmAÄ1     #   ;
-!+V+Ind+Prt+Pl2:%>%^WCnsi%>ttAÄ1     #   ;
-!+V+Ind+Prt+Pl3:i%>vAÄ1t     #   ;
-!+V+Ind+Prt+Pl3:%>stii     #   ;
-!+V+Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
+!+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! oon
+!+Ind+Prt+Sg2:%>%^WCnsit       #   ;
++Ind+Prt+Sg3:s        #   ;
+!+Ind+Prt+Pl1:%>%^WCnsi%>mmAÄ1     #   ;
+!+Ind+Prt+Pl2:%>%^WCnsi%>ttAÄ1     #   ;
+!+Ind+Prt+Pl3:i%>vAÄ1t     #   ;
+!+Ind+Prt+Pl3:%>stii     #   ;
+!+Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
 ! Fix 2012-10-04
-!+V+Pot+Sg1:ä%>nen      #   ; ! oon
-!+V+Pot+Sg2:ä%>net      #   ;
-!+V+Pot+Sg3:ä%>nöö      #   ;
-!+V+Pot+Pl1:ä%>nemmAÄ1    #   ;
-!+V+Pot+Pl2:ä%>nettAÄ1    #   ;
-!+V+Pot+Pl3:ä%>noot     #   ;
-!+V+Pot+4:ollaa      #   ;
-!+V+Pot+ConNeg:oo                #   ;
+!+Pot+Sg1:ä%>nen      #   ; ! oon
+!+Pot+Sg2:ä%>net      #   ;
+!+Pot+Sg3:ä%>nöö      #   ;
+!+Pot+Pl1:ä%>nemmAÄ1    #   ;
+!+Pot+Pl2:ä%>nettAÄ1    #   ;
+!+Pot+Pl3:ä%>noot     #   ;
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
 !
-!+V+Cond+Sg1:%>jAÄ1isin      #   ; ! oon
-!+V+Cond+Sg2:%>jAÄ1isit      #   ;
-!+V+Cond+Sg3:%>jAÄ1is      #   ;
-!+V+Cond+Pl1:%>jAÄ1isimmAÄ1    #   ;
-!+V+Cond+Pl2:%>jAÄ1isittAÄ1    #   ;
-! +V+Cond+Pl3:olisivat     #   ;
-!+V+Cond+4:%>stAÄ1is      #   ;
-! !+V+Cond+ConNeg:oo                #   ;
+!+Cond+Sg1:%>jAÄ1isin      #   ; ! oon
+!+Cond+Sg2:%>jAÄ1isit      #   ;
+!+Cond+Sg3:%>jAÄ1is      #   ;
+!+Cond+Pl1:%>jAÄ1isimmAÄ1    #   ;
+!+Cond+Pl2:%>jAÄ1isittAÄ1    #   ;
+! +Cond+Pl3:olisivat     #   ;
+!+Cond+4:%>stAÄ1is      #   ;
+! !+Cond+ConNeg:oo                #   ;
 ! 
-! +V+Imprt+Sg2:oo      #   ;
-! +V+Imprt+Sg3:olkoo      #   ;
-! +V+Imprt+Pl1:olkaa    #   ;
-! +V+Imprt+Pl2:olkoot    #   ;
-! !+V+Imprt+Pl3:olisivat     #   ; ! laa ovat
-! +V+Imprt+4:oltakoo      #   ;
-! !+V+Imprt+ConNeg:oo                #   ;
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+Sg3:olkoo      #   ;
+! +Imprt+Pl1:olkaa    #   ;
+! +Imprt+Pl2:olkoot    #   ;
+! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
 ! 
-! +V+Prc:oleva			       #   ;
-!+V: V-ActPrtPrc ; !painuttant
-!+V+Prc:e%>ttAÄ1%>vAÄ1	A-oma   ;
-! +V+Prc:oltu			       #   ;
+! +Prc:oleva			       #   ;
+!: V-ActPrtPrc ; !painuttant
+!+Prc:e%>ttAÄ1%>vAÄ1	A-oma   ;
+! +Prc:oltu			       #   ;
 ! 
-!+V+Inf:ä%>AÄ1             #   ; ! pittää
-!+V+Inf+Ill:ä%>mAÄ1%>V1       #   ; ! pittämää
-! +V+Inf+Ine:olemaas      #   ;
-! +V+Inf+Ela:olemast      #   ;
-! +V+Inf+Abe:olemata      #   ;
-! +V+Ger:ollees		#   ;
-+V+Der/miin:%>mi N-inmihiin ; ! piittiimiin
++Inf:ssAÄ1             #   ; ! pittiissä
+!+Inf+Ill:ä%>mAÄ1%>V1       #   ; ! pittämää
+! +Inf+Ine:olemaas      #   ;
+! +Inf+Ela:olemast      #   ;
+! +Inf+Abe:olemata      #   ;
+! +Ger:ollees		#   ;
++Der/miin:%>mi N-inmihiin ; ! piittiimiin
 
 ! :laatihu
 LEXICON V-laatihussa

@@ -246,6 +246,28 @@
    </entry>
    <entry>
       <lg>
+         <l>rinnatikkoo</l>
+         <stg>
+            <st Contlex="AdvTag">rinnatikkoo</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>osittee</l>
          <stg>
             <st Contlex="AdvTag">osittee</st>
@@ -601,6 +623,50 @@
          <l>tihtii</l>
          <stg>
             <st Contlex="AdvTemp">tihtii</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>taas</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tihimpää</l>
+         <stg>
+            <st Contlex="AdvTemp">tihimpää</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>taas</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tänäpään</l>
+         <stg>
+            <st Contlex="AdvTemp">tänäpään</st>
          </stg>
       </lg>
       <pos>ADV-TEMP</pos>
