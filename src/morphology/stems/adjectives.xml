@@ -268,6 +268,28 @@
    </entry>
    <entry>
       <lg>
+         <l>painokas</l>
+         <stg>
+            <st Contlex="A-kitsas">painokka</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>leiväkäs</l>
          <stg>
             <st Contlex="A-kitsas">leiväkkä</st>
@@ -579,6 +601,28 @@
          <l>oma</l>
          <stg>
             <st Contlex="A-oma">oma</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>syvä</l>
+         <stg>
+            <st Contlex="A-oma">syvä</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -994,6 +1038,28 @@
    </entry>
    <entry>
       <lg>
+         <l>tarkka</l>
+         <stg>
+            <st Contlex="A-vahva">tarkk</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>laaja</l>
          <stg>
             <st Contlex="A-vahva">laaj</st>
@@ -1126,6 +1192,28 @@
    </entry>
    <entry>
       <lg>
+         <l>takavokalin</l>
+         <stg>
+            <st Contlex="A-erilaajain">taka#vokali</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>erilainen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>merkitöksellin</l>
          <stg>
             <st Contlex="A-erilaajain">merkitökselli</st>
@@ -1217,6 +1305,28 @@
          <l>allain</l>
          <stg>
             <st Contlex="A-erilaajain">allai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>paikallin</l>
+         <stg>
+            <st Contlex="A-erilaajain">paikalli</st>
          </stg>
       </lg>
       <pos>A</pos>
