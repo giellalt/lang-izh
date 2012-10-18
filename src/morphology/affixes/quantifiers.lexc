@@ -20,6 +20,29 @@ LEXICON Qnt-monikas
 LEXICON Qnt-moni
 +Qnt: N-keeli_01 ;
 
+! 
+LEXICON Qnt-muu
++Qnt: N-maa_01 ;
+
+!
+LEXICON Qnt-molemmat
++Qnt: Qnt-molemmat_01 ;
+
+LEXICON Qnt-molemmat_01
+:AÄ1 PL-NOM ;
+ PL-GEN ;
+ PL-PAR_A ;
+ PL-ILL_V ;
+ PL-INE ;
+ PL-ELA ;
+ PL-ALL ;
+ PL-ADE ;
+ PL-ABL ;
+ PL-TRA ;
+ PL-ESS_Vn ;
+ PL-ESS_nnA ;
+ PL-EXE ;
+ PL-COM ;
 
 ! enemmän
 LEXICON QntTag
@@ -62,6 +85,7 @@ LEXICON Qnt-kaik
 
 ! yksi, kaksi
 ! from käsi (XI)
+!yks:y
 LEXICON Num-yks
 +Num+Card: Num-yks_01 ;
 

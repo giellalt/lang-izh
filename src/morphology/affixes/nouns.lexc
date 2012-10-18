@@ -9,9 +9,8 @@ LEXICON N-maa
 
 LEXICON N-maa_01
 +Sg+Nom:0     K   ; ! maa
-+Sg+Gen:%>n	#   ; ! maan
-+Sg+Acc:%>n	#   ; ! maan
-+Sg+Par:%>tAÄ1	#   ; ! maata
+ SG-GEN   ; ! maan
+ SG-PAR_tA   ; ! maata
 +Sg+Ill:%>hV1	#   ; ! maaha
 +Sg+Ine:%>s    #   ; ! maaz
 +Sg+Ela:%>st    #   ; ! maast
@@ -43,16 +42,16 @@ LEXICON N-mato
 
 LEXICON N-mato_01
      SG-NOM   ; ! mato
-:%>%^WCns SG-GEN   ; ! maon
-:%>%^LCns%^LVws SG-PAR_A   ; ! mattooa !Is this right
-:%>%^LCns SG-PAR_A   ; ! mattoa
-:%>%^LCns SG-ILL_V   ; ! mattoo
-:%>%^WCns SG-INE ; ! lopus, lopuus
-:%>%^WCns SG-ELA   ; ! maost
-:%>%^WCns SG-ALL   ; ! maolle
-:%>%^WCns SG-ADE   ; ! maool
-:%>%^WCns SG-ABL   ; ! maolt
-:%>%^WCns SG-TRA   ; ! maoks
+ SG-GEN   ; ! maon
+!:%>%^LCns%^LVws SG-PAR_A   ; ! mattooa !Is this right
+ SG-PAR_A-LCns   ; ! mattoa
+ SG-ILL_V   ; ! mattoo
+ SG-INE ; ! lopus, lopuus
+ SG-ELA   ; ! maost
+ SG-ALL   ; ! maolle
+ SG-ADE   ; ! maool
+ SG-ABL   ; ! maolt
+ SG-TRA   ; ! maoks
 +Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
 +Sg+Ess:%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoonna
 +Sg+Ess:%>%^LCnsnnAÄ1    #   ; ! mattonna
@@ -62,6 +61,10 @@ LEXICON N-mato_01
  lOi-Pl ;
 :%>%^WCns PL-NOM   ; ! maot
 
+LEXICON N-koivu
++N: N-mato_01 ;
++N: Oblique-Plural_hV ;
++N: PL-PAR_A ;
 
 ! forma osa (II-b)
 LEXICON N-osa
@@ -70,8 +73,8 @@ LEXICON N-osa
 LEXICON N-osa_01
  SG-NOM   ; ! osa
 :%>%^WCns SG-GEN   ; ! osan
-+Sg+Par:%>%^LCnsAÄ1	#   ; ! ossaa
-+Sg+Ill:%>%^LCnsV1	#   ; ! ossaa
+ SG-PAR_A-LCns   ; ! ossaa
+ SG-ILL_V	#   ; ! ossaa
  SG-INE   ; ! osas
  SG-ELA   ; ! osast
  SG-ALL   ; ! osalle
@@ -232,7 +235,10 @@ LEXICON N-kana_01
 :a   PL-NOM   ; ! kanat
 :o PL-GEN  ; ! kannoin
 :o	     PL-PAR_A  ; ! kanoja
-:o  PL-PAR_A-LCns   ; ! kannoja
+! The next one is causing problems
+! I can't get the i:j
+!:o  PL-PAR_A-LCns   ; ! kannoja
++Pl+Par:o%>%^LCnsjAÄ1 K ; ! 2012-10-18
 :o%>%^LCns   PL-ILL_blank   ; ! kannoi
 :o   PL-INE   ; ! kanois
 :o   PL-ELA   ; ! kanoist
@@ -433,6 +439,7 @@ LEXICON N-harakka_01
 +Sg+Com:AÄ1%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
 :OÖ1  Oblique-Plural_hV ;
+:OÖ1 PL-PAR_A ;
 +Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
 LEXICON N-ommeena
@@ -455,7 +462,9 @@ LEXICON N-ommeena_01
 +Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoon
 +Sg+Com:AÄ1%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+Pl:OÖ1 Oblique-Plural_hV ;
+:OÖ1 Oblique-Plural_hV ;
+:OÖ1 PL-PAR_A ;
+:OÖ1 PL-PAR_tA ;
 :AÄ1%^StretchSyll2 PL-NOM   ; ! maot
 
 ! putteeli:puteli
@@ -512,6 +521,7 @@ LEXICON N-assia
 LEXICON N-assia_01
 :AÄ1 N-assia_01-Sg ;
 :OÖ1  Oblique-Plural ;
+:OÖ1 PL-PAR_A ;
 
 LEXICON N-assia_01-Sg
  SG-NOM	    ; ! assia
@@ -540,7 +550,7 @@ LEXICON N-tähkä_01
  SG-NOM   ; ! mato
 :%>%^WCns SG-GEN   ; ! maon
 +Sg+Par:%>%^LCnsAÄ1	#   ; ! mattooa
-+Sg+Ill:%>%^LCnsV1	#   ; ! mattoo
+ SG-ILL_V   ; ! mattoo
  SG-INE   ; ! tähääs
 +Sg+Ela:%>%^WCnsst    #   ; ! maost
 +Sg+All:%>%^WCnslle    #   ; ! maolle
@@ -565,7 +575,7 @@ LEXICON N-tähkä_01
  PL-ESS_Vn   ; ! matoloinna
  PL-EXE  ; ! matoloint
  PL-COM  ; ! maanka
-
+ PL-INS  ; ! lehminee
 
 ! tähti (IX)
 LEXICON N-tähti
@@ -600,7 +610,7 @@ LEXICON N-käsi_01
 :si     SG-NOM   ; ! orsi
 :te SG-GEN   ; ! orren
 :t SG-PAR_tA  ; ! ortta
-:te%>%^LCns SG-ILL_V  ; ! ortee
+:te SG-ILL_V  ; ! ortee
 :te SG-INE   ; ! orrees
 :te SG-ELA   ; ! maost
 :te SG-ALL   ; ! maolle
@@ -759,6 +769,7 @@ LEXICON N-inmihiin_01
 ! Plural
 +Pl+Nom:se%>%^WCnst     #   ; ! inmihiset
 :s Oblique-Plural_V ;
+:s PL-PAR_A-LCns ;
 
 LEXICON N-meri
  N-keeli ;
@@ -771,8 +782,8 @@ LEXICON N-keeli_01
 :i     SG-NOM   ; ! keeli
 :e SG-GEN   ; ! maon
  SG-PAR_tA  ; ! keeltä
-:e%>%^LCns SG-ILL_V   ; ! mattoo
-:e SG-INE   ; ! maooz
+:e SG-ILL_V   ; ! keelee
+:e SG-INE   ; ! keelees
 :e SG-ELA   ; ! maost
 :e SG-ALL   ; ! maolle
 :e SG-ADE   ; ! maool
@@ -873,7 +884,8 @@ LEXICON N-oikehus_01
 +Sg+Com:e%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
 :e PL-NOM  ; ! oikehuet
- Oblique-Plural_V ;
+:ks Oblique-Plural_V ;
+:ks PL-PAR_A ;
 
 
 ! kevät (XX-a)
@@ -884,6 +896,7 @@ LEXICON N-venät
 LEXICON N-venät_01
  N-venät_01-Sg ;
 :%^SyllBr Oblique-Plural ;
+:%^SyllBr PL-PAR_tA ;
 
 LEXICON N-venät_01-Sg
 :%^SyllBre%^StretchSyll2 SG-GEN ;
@@ -909,6 +922,7 @@ LEXICON N-päivyt
 LEXICON N-päivyt_01
  N-venät_01-Sg ;
 :e Oblique-Plural_sse ;
+:e PL-PAR_tA ;
 
 
 ! (XXI)
@@ -930,6 +944,8 @@ LEXICON Cases
 ! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
 LEXICON lOi-Pl
 :%>lOÖ1 Oblique-Plural_hV ;
+:lOÖ1 PL-PAR_A ;
+:lOÖ1 PL-PAR_tA ;
 
 LEXICON Oblique-Plural_blank
  PL-ILL_blank ;
@@ -949,8 +965,6 @@ LEXICON Oblique-Plural_hV
 
 LEXICON Oblique-Plural
       PL-GEN		;
-      PL-PAR_tA		;
-      PL-PAR_A		;
       PL-INE		;
       PL-ELA		;
       PL-ALL		;
@@ -1090,10 +1104,10 @@ LEXICON SG-ILL_sse
 +Sg+Ill:sse    K   ;
 
 LEXICON SG-ILL_V
-+Sg+Ill:%>V1    K   ;
++Sg+Ill:%>%^LCns%>V1    K   ;
 
 LEXICON SG-ILL_hV
-+Sg+Ill:hV1    K   ;
++Sg+Ill:%>hV1    K   ;
 
 LEXICON SG-INE
 +Sg+Ine:%>%^WCnsV3s    K  ;

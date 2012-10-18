@@ -4,6 +4,8 @@ LEXICON quantifiers
 
 ensimäin:ensimäi Ord-toin  "first" ;
 toin:toi Ord-toin  "second" ;
+muu:muu Qnt-muu  "" ;
+molemmat:molemp Qnt-molemmat  "" ;
 monikas:monikka Qnt-monikas  "" ;
 moni:mon Qnt-moni  "" ;
 kaik:kaik Qnt-kaik  "all" ;

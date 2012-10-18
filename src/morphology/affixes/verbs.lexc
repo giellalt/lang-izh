@@ -451,6 +451,11 @@ LEXICON V-näyttää_01
 LEXICON V-laatia
  V-kutsua ;
 
+! ilmahtua:ilmahtu
+! 3-syllable
+LEXICON V-ilmahtua
++V: V-kutsua_01 ;
+
 ! kutsua:kutsu
 LEXICON V-kutsua
 +V: V-kutsua_01 ;
@@ -529,13 +534,13 @@ LEXICON V-kirjuttaa_01
 +Ind+Prs+4:e%>%^WCnsttAÄ1AÄ1	#   ;
 +Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 
-+Ind+Prt+Sg1:%>%^WCnsin       #   ; ! kirjutin
-+Ind+Prt+Sg2:%>%^WCnsit       #   ;
++Ind+Prt+Sg1:i%>%^WCnsn       #   ; ! kirjutin
++Ind+Prt+Sg2:i%>%^WCnst       #   ;
 +Ind+Prt+Sg3:i        #   ;
-+Ind+Prt+Pl1:%>%^WCnsimma     #   ;
-+Ind+Prt+Pl2:%>%^WCnsitta     #   ;
-!+Ind+Prt+Pl3:ivat     #   ;
-+Ind+Prt+Pl3:e%>tii     #   ;
++Ind+Prt+Pl1:i%>%^WCnsmmAÄ1     #   ;
++Ind+Prt+Pl2:i%>%^WCnsttAÄ1     #   ;
++Ind+Prt+Pl3:%>i%>vAÄ1t     #   ;
++Ind+Prt+Pl3:e%>%^WCnsttii     #   ;
 !+Ind+ConNeg+Prt:e%>%^WCnsttu         #   ;
 
 +Pot+Sg1:a%>nen      #   ; ! oon
@@ -721,13 +726,13 @@ LEXICON V-panna_01
 +Ind+Prs+4:nt%>%^WCnsAÄ1AÄ1	K   ;
 +Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 
-!+Ind+Prt+Sg1:no%>%^WCnsin       #   ; ! oon
-!+Ind+Prt+Sg2:no%>%^WCnsit       #   ;
-!+Ind+Prt+Sg3:noi        #   ;
-!+Ind+Prt+Pl1:no%>%^WCnsimma     #   ;
-!+Ind+Prt+Pl2:no%>%^WCnsitta     #   ;
-!!+V+Ind+Prt+Pl3:noivat     #   ;
-!+Ind+Prt+Pl3:o%>tii     #   ;
++Ind+Prt+Sg1:n%>%^WCnsin       #   ; ! oon
++Ind+Prt+Sg2:n%>%^WCnsit       #   ;
++Ind+Prt+Sg3:ni        #   ;
++Ind+Prt+Pl1:n%>%^WCnsimmAÄ1     #   ;
++Ind+Prt+Pl2:n%>%^WCnsittAÄ1     #   ;
++Ind+Prt+Pl3:nivAÄ1t     #   ;
++Ind+Prt+4:n%>tii     #   ;
 !+Ind+ConNeg+Prt:o%>%^WCnsttUY1         #   ;
 !
 !+Pot+Sg1:no%>nen      #   ; ! oon

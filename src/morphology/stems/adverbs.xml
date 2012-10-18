@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>oikiistaa</l>
+         <stg>
+            <st Contlex="AdvTag">oikiistaa</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>auki</l>
          <stg>
             <st Contlex="AdvTag">auki</st>
@@ -315,6 +337,72 @@
          <l>kera</l>
          <stg>
             <st Contlex="AdvTag">kera</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>aintakkii</l>
+         <stg>
+            <st Contlex="AdvTag">aintakkii</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ensikää</l>
+         <stg>
+            <st Contlex="AdvTag">ensikää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kovin</l>
+         <stg>
+            <st Contlex="AdvTag">kovin</st>
          </stg>
       </lg>
       <pos>ADV</pos>

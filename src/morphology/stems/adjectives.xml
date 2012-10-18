@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>mukkaava</l>
+         <stg>
+            <st Contlex="A-lihhaava">mukav</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>terräävä</l>
          <stg>
             <st Contlex="A-lihhaava">teräv</st>
@@ -755,6 +777,28 @@
          <l>pimmiä</l>
          <stg>
             <st Contlex="A-kerkiä">pimmiä</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>levviä</l>
+         <stg>
+            <st Contlex="A-kerkiä">levviä</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1723,6 +1767,7 @@
          <l>entin</l>
          <stg>
             <st Contlex="A-erilaajain">enti</st>
+            <st Contlex="A-entiin">enti</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1780,6 +1825,28 @@
             </tg>
             <tg lang="fin">
                <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>painollin</l>
+         <stg>
+            <st Contlex="A-erilaajain">painolli</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>erilainen</t>
             </tg>
          </mg>
       </e>
