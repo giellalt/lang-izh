@@ -48,6 +48,50 @@
    </entry>
    <entry>
       <lg>
+         <l>muu</l>
+         <stg>
+            <st Contlex="Qnt-muu">muu</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>molemmat</l>
+         <stg>
+            <st Contlex="Qnt-molemmat">molemp</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>monikas</l>
          <stg>
             <st Contlex="Qnt-monikas">monikka</st>

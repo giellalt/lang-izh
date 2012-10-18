@@ -95,6 +95,14 @@ LEXICON PersPl3
 +Pron+Pers+Pl3+Tra:eiks  K   ;
 +Pron+Pers+Pl3+Ess:ein  K   ;
 
+! itse:its
+LEXICON Refl-itse
++Pron+Refl: Refl-itse_01 ;
+
+LEXICON Refl-itse_01
+:e SG-NOM ;
++Sg+Par:iätä K ;
+
 ! se : s
 LEXICON Dem-se
 +Pron+Dem+Sg+Nom:e  K   ;

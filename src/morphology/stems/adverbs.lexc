@@ -4,6 +4,7 @@ LEXICON adverbs
 
 aattoon:aattoon AdvTemp-Ess  "" ;
 ni:ni AdvTag  "" ;
+oikiistaa:oikiistaa AdvTag  "" ;
 auki:auki AdvTag  "" ;
 yksintää:yksintää AdvTag  "" ;
 siis:siis AdvTag  "" ;
@@ -17,6 +18,9 @@ rinnatikkoo:rinnatikkoo AdvTag  "" ;
 osittee:osittee AdvTag  "" ;
 kiin:kiin AdvTag  "" ;
 kera:kera AdvTag  "" ;
+aintakkii:aintakkii AdvTag  "" ;
+ensikää:ensikää AdvTag  "" ;
+kovin:kovin AdvTag  "" ;
 sentää:sentää AdvTag  "" ;
 mukkaa:mukkaa AdvSpat  "" ;
 seel:seel AdvSpat  "" ;
