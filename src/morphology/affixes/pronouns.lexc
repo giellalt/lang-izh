@@ -224,10 +224,10 @@ LEXICON Pron-kumpa
 +Pron: Pron-kumpa_01 ;
 
 LEXICON Pron-kumpa_01
-+Sg+Nom:     #   ; ! kumpa
-+Sg+Gen:%>%^WCnsn	#   ; ! oman
-+Sg+Par:%>AÄ1	#   ; ! ommaa
-+Sg+Ill:%>%^LCnsV1	#   ; ! kalattommAÄ1a
+ SG-NOM   ; ! kumpa
+ SG-GEN   ; ! oman
+ SG-PAR_A   ; ! kumpaa
+ SG-ILL_V   ; ! kumpaa
  SG-INE   ; ! kummaas
  SG-ELA   ; ! kummast
  SG-ALL   ; ! maolle
@@ -240,7 +240,7 @@ LEXICON Pron-kumpa_01
 :%>%^WCns PL-NOM      ; ! kummat
 :%>i 	  PL-GEN      ; ! kumpiin
      	  PL-PAR_A   ; ! kumpia
-+Pl+Ill:%>i%>i	#   ; ! kalattommii
+ PL-ILL_V   ; ! kalattommii
  PL-INE   ; ! kummiis
  PL-ELA   ; ! matoloist
  PL-ALL   ; ! kummille
