@@ -796,6 +796,50 @@
    </entry>
    <entry>
       <lg>
+         <l>avittaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">avitt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rajoittaa</l>
+         <stg>
+            <st Contlex="V-kirjuttaa">rajoitt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>lopettaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">lopett</st>
@@ -1129,6 +1173,50 @@
          <l>kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>istua</l>
+         <stg>
+            <st Contlex="V-kutsua">istu</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ilmahtua</l>
+         <stg>
+            <st Contlex="V-ilmahtua">ilmahtu</st>
          </stg>
       </lg>
       <pos>V</pos>
@@ -1632,6 +1720,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kuulla</l>
+         <stg>
+            <st Contlex="V-tulla">kuul</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>noissa</l>
          <stg>
             <st Contlex="V-tulla">nois</st>
@@ -1723,6 +1833,28 @@
          <l>arvata</l>
          <stg>
             <st Contlex="V-arvata">arva</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kelvata</l>
+         <stg>
+            <st Contlex="V-arvata">kelpa</st>
          </stg>
       </lg>
       <pos>V</pos>

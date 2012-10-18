@@ -7,6 +7,7 @@ LEXICON Comparisons
 +A+cmp:er       Cases   ;
 +A+sup:est      Cases   ;
 
+
 ! (II) N-mato
 LEXICON A-avvaaro
 +A+Der/st:%>%^WCnsst AdvManner ; !
@@ -15,7 +16,8 @@ LEXICON A-avvaaro
 !
 LEXICON A-lihhaava
 +A+Der/st:AÄ1%>%^StretchSyll2st AdvManner ; !
-+A+Comp:AÄ1%>%^StretchSyll2mp MP ; !
+!+A+Comp:AÄ1%>%^StretchSyll2mp MP ; !
++A+Comp:AÄ1mp MP ; !
 +A: N-ommeena_01 ;
 
 ! (XI) N-käsi
@@ -202,6 +204,9 @@ LEXICON A-erilaajain
 +A:semp MP ;
 +A:  N-kärpäin_01 ;
 
+LEXICON A-entiin
++A: N-inmihiin_01 ;
+
 ! vahva:vahv ()
 LEXICON A-vahva
 +A+Der/st:a%>%^WCnsst AdvManner ; !
@@ -213,6 +218,7 @@ LEXICON A-matala
 +A+Der/st:a%>%^WCnsst AdvManner ; !
 +A:amp MP ; ! 3-syllables
 +A: N-vokala_01 ;
+
 
 !paremp
 LEXICON A-paremp

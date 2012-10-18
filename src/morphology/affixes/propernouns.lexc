@@ -26,6 +26,9 @@ LEXICON letterName_01
 !    SG-ABE  ; ! kärpäisetä
 
 
+LEXICON Prop-oktjabri
++N+Prop: N-slovari_01 ;
+
 ! Koskin to kärpäin (XIII)
 LEXICON Prop-koskin
 +N+Prop: N-kärpäin_01 ;

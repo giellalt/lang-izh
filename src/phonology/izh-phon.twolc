@@ -118,7 +118,7 @@ Rules
 
 ! Stem vowel loss before plural "i"
 "StemVowLoss"
- X:Y <=> X _  %>:0 [ i | i:j ] %>:0 ;
+ X:Y <=> X _  %>:0 i  %>:0 ;
 !( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
           where X in (e o ö)
                 Y in (0 0 0) matched ;
@@ -155,7 +155,7 @@ Rules
 
 ! Stem vowel "i" loss before plural "i"
 "i:Zero"
- i:0 <=> i _ %>:0 [ i | i:j ] %>:0 ;
+ i:0 <=> i _ %>:0 i  %>:0 ;
 
 ! iToj between vowels
 "i:j"
@@ -168,12 +168,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
+ AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
+ AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
 
 !
 ! Vowel harmony suffixes Front
@@ -294,7 +294,7 @@ Rules
 
 "0:v Lengthening with Ut:vv weakening"
  0:v <=> [ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ :Vws ( 0: ) %>:0 %^WCns:0 ; ! löytää:lövvän, 
-         [ #: ][ Cns* Vws | Cns* Vws+ Cns+ Vws+ Cns+ :Vws ] v _ :Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
+         [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _ :Vws [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
         #: Cns* Vws Cx _ Vws %^SyllBr:0 e %^StretchSyll2:0 ; ! kevät:kevväen
 ! viis: viijes
 "it:j"
@@ -336,7 +336,7 @@ k:0 <=> [ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k
 ! mato : maot, ! mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: Cns* Vws ( h | t ) | #: Cns* Vws [ Vws - [ i | u | y ] ] | #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws :0* t ] _  [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: ] ( 0: ) %>:0 %^WCns:0  ;
+t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: ]  %>:0 %^WCns:0  ;
 
 
 ! lupa : luvan
@@ -354,3 +354,4 @@ p:0 <=> [ #: Cns* Vws p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _  [ :Vws 
 
 !"Disallow V3 after two consecutive realized vowels"
 ! V3: /<= :Vws :0* :Vws :0* _ ;
+

@@ -4,6 +4,7 @@ LEXICON adjectives
 
 avvaaro:avvaaro A-avvaaro  "" ;
 lihhaava:lihav A-lihhaava  "" ;
+mukkaava:mukav A-lihhaava  "" ;
 terräävä:teräv A-lihhaava  "" ;
 vetteelä:vetel A-lihhaava  "" ;
 ikkäävä:ikäv A-lihhaava  "" ;
@@ -37,6 +38,7 @@ pitkä:pitkä A-oma  "" ;
 poolipitkä:pooli#pitkä A-oma  "" ;
 kerkiä:kerkiä A-kerkiä  "" ;
 pimmiä:pimmiä A-kerkiä  "" ;
+levviä:levviä A-kerkiä  "" ;
 käppiä:käppiä A-kerkiä  "" ;
 glavnoi:glavnoi A-glavnoi  "" ;
 sotsialisticeskoi:sotsialisticeskoi A-glavnoi  "" ;
@@ -81,8 +83,10 @@ yhenlain:yhenlai A-erilaajain  "" ;
 eripainoin:eripainoi A-erilaajain  "" ;
 erityin:erityi A-erilaajain  "" ;
 entin:enti A-erilaajain  "" ;
+entin:enti A-entiin  "" ;
 abstraktin:abstrakti A-erilaajain  "" ;
 abstraktivin:abstraktivi A-erilaajain  "" ;
+painollin:painolli A-erilaajain  "" ;
 pääpainollin:pää#painolli A-erilaajain  "" ;
 loppuin:loppui A-erilaajain  "" ;
 varrain:varrai A-erilaajain  "" ;

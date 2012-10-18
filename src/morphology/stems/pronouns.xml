@@ -31,7 +31,29 @@
             <st Contlex="Pron-mokoma">mokom</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
+      <pos>PRON</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>itse</l>
+         <stg>
+            <st Contlex="Refl-itse">its</st>
+         </stg>
+      </lg>
+      <pos>PRON-REFL</pos>
       <e>
          <mg>
             <m>
