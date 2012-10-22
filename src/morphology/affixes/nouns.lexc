@@ -924,6 +924,7 @@ LEXICON N-venät_01-Sg
 :ee SG-ADE ;
 :e SG-ABL ;
 :e SG-TRA ;
+:%^SyllBre%^StretchSyll2 SG-TRA ;
 :e SG-ESS_nnA ;
 :e SG-EXE ;
 
