@@ -224,7 +224,39 @@ LEXICON Num-kaheksan_01
 ! viis:vii
 LEXICON Num-viis
 +Num+Ord:te NumOrd ;
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ N-käsi_01 ;
++Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-viis_01 ;
+
+LEXICON Num-viis_01
+:s     SG-NOM   ; ! orsi
+:te SG-GEN   ; ! orren
+:t SG-PAR_tA  ; ! ortta
+:te SG-ILL_V  ; ! ortee
+:te SG-INE   ; ! orrees
+:te SG-ELA   ; ! maost
+:te SG-ALL   ; ! maolle
+:te SG-ADE   ; ! maool
+:te SG-ABL   ; ! maolt
+:te SG-TRA   ; ! maoks
++Dial/Lauk:te SG-ESS_nnA   ; ! mattoon
++Dial/Soik:te SG-ESS_Vn   ; ! mattoon
+:te SG-EXE  ; ! mattoont
++Dial/Lauk:te SG-COM   ; ! maanka
+! Plural
+:te PL-NOM   ; ! maot
+:s PL-GEN    ; ! matoloin
+:s PL-PAR_A-LCns  ;
+:s PL-ILL_V   ; ! kässii
+:s PL-INE   ; ! matoloiz
+:s PL-ELA   ; ! matoloist
+:s PL-ALL   ; ! matoloille
+:s PL-ADE   ; ! matoloil
+:s PL-ABL   ; ! matoloilt
+:s PL-TRA  ; ! käsiks
++Dial/Lauk:s PL-ESS_nnA   ; ! matoloin
++Dial/Soik:s PL-ESS_Vn   ; ! matoloin
+:s    PL-EXE   ; ! matoloint
++Dial/Lauk:s PL-COM   ; ! käsinkä
+
 
 
 ! from 3 onward
