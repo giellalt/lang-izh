@@ -134,7 +134,7 @@ vokala:vokal N-vokala  "" ;
 interrogativa:interrogativ N-vokala  "" ;
 imperativa:imperativ N-vokala  "" ;
 indikativa:indikativ N-vokala  "" ;
-konditsionala:vkonditsional N-vokala  "" ;
+konditsionala:konditsional N-vokala  "" ;
 brigada:brigad N-vokala  "" ;
 traktora:traktor N-vokala  "" ;
 tovarişşa:tovarişş N-vokala  "" ;

@@ -20,13 +20,12 @@ LEXICON A-lihhaava
 +A+Comp:AÄ1mp MP ; !
 +A: N-ommeena_01 ;
 
-! (XI) N-käsi
+! (XI) Num-viis
 ! uusi:uu
 LEXICON A-uusi
 +A+Der/st:te%>%^WCnsst AdvManner ; !
 +A+Comp:te%>%^WCnsmp MP ; !
-+A+Sg+Nom:s K ;
-+A: N-käsi_01 ;
++A: Num-viis_01 ;
 
 LEXICON A-kitsas
 +A: N-patsas_01 ;
