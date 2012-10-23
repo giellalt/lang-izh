@@ -2,6 +2,13 @@
 !! ---------------
 !! Ingrian clitics...
 
+LEXICON K_Num
+@R.CARD.TOIST@ K_Num_01 ;
+ K ;
+
+LEXICON K_Num_01
++Der/toist:toist K ;
+
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki
 +Clt/kAA:%>kAÄ1AÄ1	#    ; ! miulleka, heillekä

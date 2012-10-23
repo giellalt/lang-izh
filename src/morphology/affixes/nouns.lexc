@@ -395,7 +395,7 @@ LEXICON N-vokala_01
 :a SG-ABL  ; ! jalalt
 :a SG-TRA   ; ! jalaks
 :a SG-ESS_Vn   ; ! jalkaan
-:a SG-ESS-nnA   ; ! vokalanna
+:a SG-ESS_nnA   ; ! vokalanna
 :a SG-EXE   ; ! jalkaan
 :a SG-COM   ; ! maanka
 ! Plural
@@ -556,7 +556,7 @@ LEXICON N-tähkä_01
  SG-ADE   ; ! maool
  SG-ABL   ; ! maolt
  SG-TRA   ; ! maoks
- SG-ESS-nnA   ; ! mattoon
+ SG-ESS_nnA   ; ! mattoon
  SG-EXE  ; ! mattoon
  SG-COM   ; ! maanka
 ! Plural
@@ -996,56 +996,56 @@ LEXICON Oblique-Plural
 !!!!!!!!!!!!!!!!!
 
 LEXICON PL-ABE
-+Pl+Abe:%>i%>%^WCnstAÄ1    K  ;
++Pl+Abe:%>i%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON PL-ABL
-+Pl+Abl:%>i%>%^WCnslt    K  ;
-+Pl+Abl+PxSg3:%>i%>%^WCnsltAÄ1AÄ1  K  ;
++Pl+Abl:%>i%>%^WCnslt    K_Num  ;
++Pl+Abl+PxSg3:%>i%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ADE
-+Pl+Ade:%>i%>%^WCnsV3l    K  ;
-+Pl+Ade:%>i%>%^WCnsl    K  ;
-+Pl+Ade+PxSg3:%>i%>%^WCnsllAÄ1AÄ1  K  ;
++Pl+Ade:%>i%>%^WCnsV3l    K_Num  ;
++Pl+Ade:%>i%>%^WCnsl    K_Num  ;
++Pl+Ade+PxSg3:%>i%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ALL
-+Pl+All:%>i%>%^WCnslle    K  ; 
-+Pl+All+PxSg3:%>i%>%^WCnsllee  K  ; 
++Pl+All:%>i%>%^WCnslle    K_Num  ; 
++Pl+All+PxSg3:%>i%>%^WCnsllee  K_Num  ; 
 
 LEXICON PL-COM
-+Pl+Com:%>i%>%^WCnsnkAÄ1    K ;
++Pl+Com:%>i%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON PL-ELA
-+Pl+Ela:%>i%>%^WCnsst    K ;
-+Pl+Ela+PxSg3:%>i%>%^WCnsstAÄ1AÄ1    K ;
++Pl+Ela:%>i%>%^WCnsst    K_Num ;
++Pl+Ela+PxSg3:%>i%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON PL-ESS_Vn
-+Pl+Ess:%>i%>n	 K  ;
++Pl+Ess:%>i%>n	 K_Num  ;
 
 LEXICON PL-ESS_nnA
-+Pl+Ess:%>i%>nnAÄ1    K  ;
++Pl+Ess:%>i%>nnAÄ1    K_Num  ;
 
 LEXICON PL-EXE
-+Pl+Exe:%>i%>nt    K  ;
++Pl+Exe:%>i%>nt    K_Num  ;
 
 LEXICON PL-GEN
-+Pl+Gen:%>%^LCns%>i%>V3n    K  ;
++Pl+Gen:%>%^LCns%>i%>V3n    K_Num  ;
 
 LEXICON PL-ILL_blank
-+Pl+Ill:%>i    K   ;
++Pl+Ill:%>i    K_Num   ;
 
 LEXICON PL-ILL_sse
-+Pl+Ill:%>i%>sse    K   ;
++Pl+Ill:%>i%>sse    K_Num   ;
 
 LEXICON PL-ILL_V
-+Pl+Ill:%>i%>V1    K   ;
++Pl+Ill:%>i%>V1    K_Num   ;
 
 LEXICON PL-ILL_hV
-+Pl+Ill:%>i%>he    K   ;
++Pl+Ill:%>i%>he    K_Num   ;
 
 LEXICON PL-INE
-+Pl+Ine:%>i%>%^WCnsV3s    K  ;
-+Pl+Ine:%>i%>%^WCnss    K  ;
-+Pl+Ine+PxSg3:%>i%>%^WCnsssAÄ1AÄ1    K  ;
++Pl+Ine:%>i%>%^WCnsV3s    K_Num  ;
++Pl+Ine:%>i%>%^WCnss    K_Num  ;
++Pl+Ine+PxSg3:%>i%>%^WCnsssAÄ1AÄ1    K_Num  ;
 
 ! instruktiva
 ! only with Px...
@@ -1053,97 +1053,97 @@ LEXICON PL-INS
 +Pl+Instr+PxSg3:%>i%>nee    #   ; ! lehminee
 
 LEXICON PL-NOM
-+Pl+Nom:%>%^WCnst   K  ;
-+Pl+Acc:%>%^WCnst   K  ;
++Pl+Nom:%>%^WCnst   K_Num  ;
++Pl+Acc:%>%^WCnst   K_Num  ;
 
 LEXICON PL-PAR_A
-+Pl+Par:%>i%>AÄ1      K  ;
++Pl+Par:%>i%>AÄ1      K_Num  ;
 
 ! kana:kano
 LEXICON PL-PAR_A-LCns
-+Pl+Par:%>%^LCns%>i%>AÄ1      K  ;
++Pl+Par:%>%^LCns%>i%>AÄ1      K_Num  ;
 
 
 LEXICON PL-PAR_tA
-+Pl+Par:%>i%>tAÄ1      K  ;
-+Pl+Par+PxSg3:%>i%>tAÄ1AÄ1      K  ;
++Pl+Par:%>i%>tAÄ1      K_Num  ;
++Pl+Par+PxSg3:%>i%>tAÄ1AÄ1      K_Num  ;
 
 LEXICON PL-PRL
 +Pl+Prl:%>i%>%^WCnstse    #   ; ! rannoitse
 
 LEXICON PL-TRA
-+Pl+Tra:%>i%>%^WCnsks   K  ;
-+Pl+Tra+PxSg2:%>i%>%^WCnsksees   K  ;
-+Pl+Tra+PxSg3:%>i%>%^WCnsksee   K  ;
++Pl+Tra:%>i%>%^WCnsks   K_Num  ;
++Pl+Tra+PxSg2:%>i%>%^WCnsksees   K_Num  ;
++Pl+Tra+PxSg3:%>i%>%^WCnsksee   K_Num  ;
 
 LEXICON SG-ABE
-+Sg+Abe:%>%^WCnstAÄ1    K  ;
++Sg+Abe:%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON SG-ABL
-+Sg+Abl:%>%^WCnslt    K  ;
-+Sg+Abl+PxSg3:%>%^WCnsltAÄ1AÄ1  K  ;
++Sg+Abl:%>%^WCnslt    K_Num  ;
++Sg+Abl+PxSg3:%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ADE
-+Sg+Ade:%>%^WCnsV3l    K  ;
-+Sg+Ade:%>%^WCnsl    K  ;
-+Sg+Ade+PxSg3:%>%^WCnsllAÄ1AÄ1  K  ;
++Sg+Ade:%>%^WCnsV3l    K_Num  ;
++Sg+Ade:%>%^WCnsl    K_Num  ;
++Sg+Ade+PxSg3:%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ALL
-+Sg+All:%>%^WCnslle    K  ; 
-+Sg+All+PxSg3:%>%^WCnsllee  K  ; 
++Sg+All:%>%^WCnslle    K_Num  ; 
++Sg+All+PxSg3:%>%^WCnsllee  K_Num  ; 
 
 LEXICON SG-COM
-+Sg+Com:%>%^WCnsnkAÄ1    K ;
++Sg+Com:%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON SG-ELA
-+Sg+Ela:%>%^WCnsst    K ;
-+Sg+Ela+PxSg3:%>%^WCnsstAÄ1AÄ1    K ;
++Sg+Ela:%>%^WCnsst    K_Num ;
++Sg+Ela+PxSg3:%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON SG-ESS_Vn
-+Sg+Ess:%>%^LCnsV3n	 K  ;
++Sg+Ess:%>%^LCnsV3n	 K_Num  ;
 
 LEXICON SG-ESS_nnA
-+Sg+Ess:nnAÄ1    K  ;
++Sg+Ess:nnAÄ1    K_Num  ;
 
 LEXICON SG-EXE
-+Sg+Exe:nt    K  ;
++Sg+Exe:nt    K_Num  ;
 
 LEXICON SG-GEN
-+Sg+Gen:%>%^WCnsn      K  ;
-+Sg+Acc:%>%^WCnsn      K  ;
-+Sg+Gen+PxSg3:%^LVwsn      K  ;
++Sg+Gen:%>%^WCnsn      K_Num  ;
++Sg+Acc:%>%^WCnsn      K_Num  ;
++Sg+Gen+PxSg3:%^LVwsn      K_Num  ;
 
 LEXICON SG-ILL_sse
-+Sg+Ill:sse    K   ;
++Sg+Ill:sse    K_Num   ;
 
 LEXICON SG-ILL_V
-+Sg+Ill:%>%^LCns%>V1    K   ;
++Sg+Ill:%>%^LCns%>V1    K_Num   ;
 
 LEXICON SG-ILL_hV
-+Sg+Ill:%>hV1    K   ;
++Sg+Ill:%>hV1    K_Num   ;
 
 LEXICON SG-INE
-+Sg+Ine:%>%^WCnsV3s    K  ;
-+Sg+Ine:%>%^WCnss    K  ;
-+Sg+Ine+PxSg3:%>%^WCnsssAÄ1AÄ1    K  ;
++Sg+Ine:%>%^WCnsV3s    K_Num  ;
++Sg+Ine:%>%^WCnss    K_Num  ;
++Sg+Ine+PxSg3:%>%^WCnsssAÄ1AÄ1    K_Num  ;
 
 LEXICON SG-NOM
-+Sg+Nom:    K ;
++Sg+Nom:    K_Num ;
 
 LEXICON SG-PAR_A
-+Sg+Par:AÄ1      K  ;
++Sg+Par:AÄ1      K_Num  ;
 
 LEXICON SG-PAR_A-LCns
-+Sg+Par:%>%^LCnsAÄ1      K  ;
++Sg+Par:%>%^LCnsAÄ1      K_Num  ;
 
 LEXICON SG-PAR_tA
-+Sg+Par:tAÄ1      K  ;
-+Sg+Par+PxSg3:tAÄ1AÄ1      K  ;
++Sg+Par:tAÄ1      K_Num  ;
++Sg+Par+PxSg3:tAÄ1AÄ1      K_Num  ;
 
 LEXICON SG-TRA
-+Sg+Tra:%>%^WCnsks   K  ;
-+Sg+Tra+PxSg2:%>%^WCnsksees   K  ;
-+Sg+Tra+PxSg3:%>%^WCnsksee   K  ;
++Sg+Tra:%>%^WCnsks   K_Num  ;
++Sg+Tra+PxSg2:%>%^WCnsksees   K_Num  ;
++Sg+Tra+PxSg3:%>%^WCnsksee   K_Num  ;
 
 ! vim: set ft=xfst-lexc:
 

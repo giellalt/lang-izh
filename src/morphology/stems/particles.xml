@@ -4,6 +4,28 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <entry>
       <lg>
+         <l>laa</l>
+         <stg>
+            <st Contlex="PcleTag">laa</st>
+         </stg>
+      </lg>
+      <pos>PCLE</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>vet</l>
          <stg>
             <st Contlex="PcleTag">vet</st>

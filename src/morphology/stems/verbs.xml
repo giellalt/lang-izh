@@ -356,6 +356,28 @@
    </entry>
    <entry>
       <lg>
+         <l>keeltää</l>
+         <stg>
+            <st Contlex="V-näyttää">keelt</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>stroittaa</l>
          <stg>
             <st Contlex="V-näyttää">stroitt</st>

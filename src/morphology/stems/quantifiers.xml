@@ -332,4 +332,158 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>neljä</l>
+         <stg>
+            <st Contlex="Num-neljä">neljä</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mont</l>
+         <stg>
+            <st Contlex="Qnt-mont">mon</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>sata</l>
+         <stg>
+            <st Contlex="Num-sata">sat</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kymmen</l>
+         <stg>
+            <st Contlex="Num-kymmen">kymmen</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>viis</l>
+         <stg>
+            <st Contlex="Num-viis">vii</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>three</t>
+            </tg>
+            <tg lang="fin">
+               <t>kolme</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kuus</l>
+         <stg>
+            <st Contlex="Num-viis">kuu</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>three</t>
+            </tg>
+            <tg lang="fin">
+               <t>kolme</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kymmenäs</l>
+         <stg>
+            <st Contlex="NumOrd">kymmenä</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>
