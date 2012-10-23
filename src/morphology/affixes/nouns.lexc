@@ -72,7 +72,7 @@ LEXICON N-osa
 
 LEXICON N-osa_01
  SG-NOM   ; ! osa
-:%>%^WCns SG-GEN   ; ! osan
+ SG-GEN   ; ! osan
  SG-PAR_A-LCns   ; ! ossaa
  SG-ILL_V   ; ! ossaa
  SG-INE   ; ! osas
@@ -81,16 +81,16 @@ LEXICON N-osa_01
  SG-ADE   ; ! osal
  SG-ABL   ; ! osalt
  SG-TRA   ; ! osaks
-+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
+ SG-ESS_Vn   ; ! mattoon
  SG-ESS_nnA ;
-+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
-+Sg+Com:%>%^WCnsnkAÄ1    #   ; ! maanka
+ SG-EXE   ; ! mattoont
+ SG-COM   ; ! maanka
 ! Plural
  PL-NOM   ; ! osat
  PL-GEN   ; ! ossiin
  PL-PAR_A-LCns   ; ! ossia
-:%>%^LCns	PL-ILL_V   ; ! ossii
-    PL-INE   ; ! formis, ! formiis
+ PL-ILL_V   ; ! ossii
+ PL-INE   ; ! formis, ! formiis
  PL-ELA   ; ! matoloist
  PL-ALL   ; ! matoloille
  PL-ADE   ; ! matoloil
@@ -98,7 +98,7 @@ LEXICON N-osa_01
  PL-TRA   ; ! matoloiks
  PL-ESS_Vn   ; ! matoloinna
  PL-EXE  ; ! matoloint
-:%>%^WCns PL-COM  ; ! osinka
+ PL-COM  ; ! osinka
 
 ! joki:jok
 ! joki (II-c)
