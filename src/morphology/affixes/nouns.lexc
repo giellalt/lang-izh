@@ -616,25 +616,25 @@ LEXICON N-käsi_01
 :te SG-ADE   ; ! maool
 :te SG-ABL   ; ! maolt
 :te SG-TRA   ; ! maoks
-+Sg+Ess:te%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
-+Sg+Exe:te%>%^LCnsnt    #   ; ! mattoont
-:te SG-COM   ; ! maanka
++Dial/Lauk:te SG-ESS_nnA   ; ! mattoon
++Dial/Soik:te SG-ESS_Vn   ; ! mattoon
+:te SG-EXE  ; ! mattoont
++Dial/Lauk:te SG-COM   ; ! maanka
 ! Plural
 :te PL-NOM   ; ! maot
 :s PL-GEN    ; ! matoloin
 :s PL-PAR_A-LCns  ;
-!+Pl+Par:s%>%^LCns%>AÄ1	#   ; ! matoloja
-+Pl+Ill:si%>%^LCns%>V1	#   ; ! kässii
+:s PL-ILL_V   ; ! kässii
 :s PL-INE   ; ! matoloiz
 :s PL-ELA   ; ! matoloist
 :s PL-ALL   ; ! matoloille
 :s PL-ADE   ; ! matoloil
 :s PL-ABL   ; ! matoloilt
 :s PL-TRA  ; ! käsiks
-+Pl+Ess:si%>%^LCns%>innAÄ1    #   ; ! matoloin
-+Pl+Exe:si%>%^LCns%>nt    #   ; ! matoloint
-+Pl+Exe:si%>%>nt    #   ; ! matoloint
-:s PL-COM   ; ! käsinkä
++Dial/Lauk:s PL-ESS_nnA   ; ! matoloin
++Dial/Soik:s PL-ESS_Vn   ; ! matoloin
+:s    PL-EXE   ; ! matoloint
++Dial/Lauk:s PL-COM   ; ! käsinkä
 
 ! varis (XII)
 LEXICON N-varis

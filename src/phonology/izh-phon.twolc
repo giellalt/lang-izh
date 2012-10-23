@@ -169,12 +169,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
+ AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i ]  ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 ]  ;
+ AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i ]  ;
 
 !
 ! Vowel harmony suffixes Front
