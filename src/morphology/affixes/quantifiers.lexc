@@ -177,6 +177,48 @@ LEXICON Num-neljä
 +Num+Ord: NumOrd ;
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ N-tähkä_01 ;
 
+! seitsen:seitse
+LEXICON Num-seitsen
++Num+Ord:mä NumOrd ;
++Num+Card@U.CARD.TOIST@:mä@U.CARD.TOIST@ Num-kaheksan_01 ;
++Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NUM ;
+
+
+!kaheksan:kaheksa
+LEXICON Num-kaheksan
++Num+Ord: NumOrd ;
++Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kaheksan_01 ;
++Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NOM ;
+
+LEXICON Num-kaheksan_01
+ SG-GEN   ; ! kaheksan
+ SG-PAR_A-LCns   ; ! kaheksaa
+ SG-ILL_V   ; ! kaheksaa
+ SG-INE   ; ! kaheksas
+ SG-ELA   ; ! kaheksast
+ SG-ALL   ; ! kaheksalle
+ SG-ADE   ; ! kaheksal
+ SG-ABL   ; ! kaheksalt
+ SG-TRA   ; ! kaheksaks
+ SG-ESS_Vn   ; ! mattoon
+ SG-ESS_nnA ;
+ SG-EXE   ; ! mattoont
+ SG-COM   ; ! maanka
+! Plural
+ PL-NOM   ; ! kaheksat
+ PL-GEN   ; ! kaheksiin
+ PL-PAR_A-LCns   ; ! kaheksia
+ PL-ILL_V   ; ! kaheksii
+ PL-INE   ; ! kaheksiis
+ PL-ELA   ; ! matoloist
+ PL-ALL   ; ! matoloille
+ PL-ADE   ; ! matoloil
+ PL-ABL   ; ! matoloilt
+ PL-TRA   ; ! matoloiks
+ PL-ESS_Vn   ; ! kaheksinna
+ PL-EXE  ; ! kaheksint
+ PL-COM  ; ! ? kaheksinka
+
 
 ! viis:vii
 LEXICON Num-viis
@@ -200,9 +242,8 @@ LEXICON NumOrd
 +Sg+Exe:nte%>%^LCnsnt    #   ; ! mattoont
 +Sg+Instr:nte%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-+Pl+Nom:nte%>%^WCnst     #   ; ! maot
+:nte PL-NOM   ; ! kolmannet
 +Pl+Gen:nsi%>%^LCnsi%>n	#   ; ! matoloin
-+Pl+Acc:nte%>%^WCnst     #   ; ! maot
 +Pl+Par:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
 +Pl+Ill:nsi%>%^LCns%>i	#   ; ! matoloihe
 +Pl+Ine:ns%>i%>%^LVws    #   ; ! matoloiz

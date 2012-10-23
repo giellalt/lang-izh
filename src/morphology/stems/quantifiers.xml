@@ -356,6 +356,72 @@
    </entry>
    <entry>
       <lg>
+         <l>kaheksan</l>
+         <stg>
+            <st Contlex="Num-kaheksan">kaheksa</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>yheksän</l>
+         <stg>
+            <st Contlex="Num-kaheksan">yheksä</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>seitsen</l>
+         <stg>
+            <st Contlex="Num-seitsen">seitse</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>mont</l>
          <stg>
             <st Contlex="Qnt-mont">mon</st>
