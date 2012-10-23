@@ -104,6 +104,7 @@ Multichar_Symbols
  +Der/min ! Deverbal nouns
  +Der/miin ! Deverbal nouns
  +Der/tOin ! Deverbal _arvaamaton_ and Denominal adjectives 
+ +Der/toist ! ykstoist (11), kakstoist (12)
 
 !! Morphophonology
 !! ---------------
@@ -126,6 +127,11 @@ Multichar_Symbols
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
+
+! This is to facilitate the 'teens' in "-toist"
+@U.CARD.TOIST@
+@R.CARD.TOIST@
+@C.CARD@
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
