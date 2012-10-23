@@ -538,33 +538,27 @@ LEXICON V-kirjuttaa_01
 +Ind+Prt+Sg3:i        #   ;
 +Ind+Prt+Pl1:i%>%^WCnsmmAÄ1     #   ;
 +Ind+Prt+Pl2:i%>%^WCnsttAÄ1     #   ;
++Ind+Prt+Pl3:%>i%>it     #   ;
 +Ind+Prt+Pl3:%>i%>vAÄ1t     #   ;
 +Ind+Prt+Pl3:e%>%^WCnsttii     #   ;
++Ind+Prt+4:e%>%^WCnsttii     #   ;
 !+Ind+ConNeg+Prt:e%>%^WCnsttu         #   ;
-
-+Pot+Sg1:a%>nen      #   ; ! oon
-+Pot+Sg2:a%>net      #   ;
-+Pot+Sg3:a%>noo      #   ;
-+Pot+Pl1:a%>nemmAÄ1    #   ;
-+Pot+Pl2:a%>nettAÄ1    #   ;
-+Pot+Pl3:a%>noot     #   ;
+:AÄ1n  PotPers ; !kirjuttanen
 !+Pot+4:ollaa      #   ;
 +Pot+ConNeg:%>AÄ1%>ne                #   ;
 
-! +Cond+Sg1:olisin      #   ; ! oon
-! +Cond+Sg2:olisit      #   ;
-! +Cond+Sg3:olis      #   ;
-! +Cond+Pl1:olisimma    #   ;
-! +Cond+Pl2:olisitta    #   ;
-! +Cond+Pl3:olisivat     #   ;
-! +Cond+4:oltais      #   ;
+:AÄ1 CondPers ; ! kirjuttaisin
++Cond+Pl3:e%^WCnsttAÄ1is      K   ;
++Cond+4:e%^WCnsttAÄ1is      K   ;
 ! !+Cond+ConNeg:oo        #   ;
 +Cond+ConNeg+4:e%>%^WCnsttAÄ1is        #   ;
 ! 
-! +Imprt+Sg2:oo      #   ;
-! +Imprt+Sg3:olkoo      #   ;
-! +Imprt+Pl1:olkaa    #   ;
-! +Imprt+Pl2:olkoot    #   ;
++Imprt+Sg2:AÄ1%^WCns      #   ;
++Imprt+Sg3:AÄ1kkOÖ1OÖ1      K   ;
++Dial/Soik+Imprt+Sg3:AÄ1kkAÄ1AÄ1      K   ;
++Imprt+Pl2:AÄ1kkAÄ1AÄ1    #   ;
++Imprt+Pl3:AÄ1kkOÖ1OÖ1t    K   ;
++Dial/Soik+Imprt+Pl3:AÄ1kkAÄ1AÄ1t    K   ;
 ! !+Imprt+Pl3:olisivat     #   ; ! laa ovat
 ! +Imprt+4:oltakoo      #   ;
 +Imprt+ConNeg+Pl:%>kOÖ1                #   ;
@@ -1201,6 +1195,40 @@ LEXICON V-merkitä_01
 ! (V)
 LEXICON V-ahavojja
 #;
+
+!!!!!!!!!!!!!!!!!
+!! CONDITIONAL !!
+!!!!!!!!!!!!!!!!!
+LEXICON CondPers
++Cond+Sg1:isin K ;
++Cond+Sg2:isit K ;
++Dial/Soik+Cond+Sg2:ist K ;
++Cond+Sg3:is K ;
++Cond+Pl1:isimmAÄ1 K ;
++Cond+Pl2:isittAÄ1 K ;
++Cond+Pl3:isiit K ;
++Cond+Pl3:isivatt K ;
+
+!!!!!!!!!!!!!!!
+!! POTENTIAL !!
+!!!!!!!!!!!!!!!
+! :n, :s, :l, :r, :n
+LEXICON PotPers
++Pot+Sg1:en K_PotPers ;
++Pot+Sg2:et K_PotPers ;
++Pot+Sg3:OÖ1%>%^LCnsOÖ1 K_PotPers ;
++Pot+Pl1:emmAÄ1 K_PotPers ;
++Pot+Pl2:ettAÄ1 K_PotPers ;
++Pot+Pl3:OÖ1%>%^LCnsOÖ1t K_PotPers ;
+
+LEXICON K_PotPers
+      K ;
++Qst:k # ;
++Qst+Foc:kse # ;
+
+!!!!!!!!!!!!!!!!!
+!! PARTICIPLES !!
+!!!!!!!!!!!!!!!!!
 
 LEXICON V-ActPrtPrc_nt
 +Ind+Prt+ConNeg:nt K ;
