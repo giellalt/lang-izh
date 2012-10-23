@@ -161,7 +161,8 @@ LEXICON Num-kolt_01
 LEXICON Num-kymmen
 +Num+Ord:ä NumOrd ;
 +Num+Card+Sg+Part:t K ; ! form used in compounds
-+Num+Card: N-sammal_01 ;
++Num+Card+Sg+Nom: K ;
++Num+Card:ä Num-kaheksa_01 ;
 
 ! mont:mon
 LEXICON Qnt-mont
@@ -229,33 +230,55 @@ LEXICON Num-viis
 ! from 3 onward
 LEXICON NumOrd
 :%>%^WCnss     SG-NOM   ; ! kolmas
-:nte%>%^WCns SG-GEN  ; ! kolmannen
-:t%> SG-PAR_tA   ; ! kolmatt
-+Sg+Ill:nte%>%^LCns%^LVws	#   ; ! ortee
-:nte%>%^WCns SG-INE   ; ! kolmannees
-+Sg+Ela:nte%>%^WCnsst    #   ; ! yhest
-+Sg+All:nte%>%^WCnslle    #   ; ! maolle
-:nte%>%^WCns SG-ADE   ; ! kolmanneel
-+Sg+Abl:nte%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:nte%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:nte%>%^LCnsnnAÄ1    #   ; ! mattoon
-+Sg+Exe:nte%>%^LCnsnt    #   ; ! mattoont
+:nte SG-GEN  ; ! kolmannen
++Dial/Soik:nnehe SG-GEN  ; ! kolmannen
+:t SG-PAR_tA   ; ! kolmatt
+:nte   SG-ILL_V   ; ! kolmantee
++Dial/Soik:nnehe   SG-ILL_V   ; ! kolmantee
+:nte SG-INE   ; ! kolmannees
++Dial/Soik:nnehe SG-INE   ; ! kolmannehes
+:nte		   SG-ELA   ; ! yhest
++Dial/Soik:nnehe   SG-ELA   ; ! yhest
+:nte               SG-ALL   ; ! kolmannelle
++Dial/Soik:nnehe               SG-ALL   ; ! kolmannehelle
+:nte SG-ADE   ; ! kolmanneel
++Dial/Soik:nnehe SG-ADE   ; ! kolmannehel
+:nte SG-ABL   ; ! maolt
++Dial/Soik:nnehe SG-ABL   ; ! maolt
+:nte SG-TRA   ; ! maoks
++Dial/Soik:nnehe SG-TRA   ; ! maoks
+:nte SG-ESS_nnA   ; ! kolmantenna
++Dial/Soik:ntehe SG-ESS_Vn   ; ! kolmantehheen
+:nte    	 SG-EXE   ; ! mattoont
++Dial/Soik:ntehe SG-EXE   ; ! mattoont
 +Sg+Instr:nte%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
 :nte PL-NOM   ; ! kolmannet
-+Pl+Gen:nsi%>%^LCnsi%>n	#   ; ! matoloin
-+Pl+Par:nsi%>%^LCns%>AÄ1	#   ; ! matoloja
-+Pl+Ill:nsi%>%^LCns%>i	#   ; ! matoloihe
-+Pl+Ine:ns%>i%>%^LVws    #   ; ! matoloiz
-+Pl+Ela:ns%>i%>st    #   ; ! matoloist
-+Pl+All:ns%>i%>lle    #   ; ! matoloille
-+Pl+Ade:ns%>i%>%^LVwl    #   ; ! matoloil
-+Pl+Abl:ns%>i%>lt    #   ; ! matoloilt
-+Pl+Tra:ns%>i%>ks    #   ; ! orsiks
-+Pl+Ess:nsi%>%^LCns%>innAÄ1    #   ; ! matoloin
-+Pl+Exe:nsi%>%^LCns%>nt    #   ; ! matoloint
-+Pl+Exe:nsi%>%>nt    #   ; ! matoloint
-+Pl+Instr:nsi%>nkAÄ1    #   ; ! mataloinka
+:ns                PL-GEN  ; ! kolmansiin
++Dial/Soik:nneh    PL-GEN  ; ! kolmannehhiin
+:ns 		   PL-PAR_A  ; ! kolmansia
++Dial/Soik:nneh    PL-PAR_A  ; ! kolmannehhia
+:ns 		   PL-ILL_V  ; ! kolmansii
++Dial/Soik:nneh    PL-ILL_V  ; ! kolmannehhii
+:ns                PL-INE  ; ! kolmansis
++Dial/Soik:nneh    PL-INE  ; ! kolmannehis
+:ns                PL-ELA  ; ! kolmansist
++Dial/Soik:nneh    PL-ELA  ; ! kolmannehist
+:ns                PL-ALL  ; ! kolmansille
++Dial/Soik:nneh    PL-ALL  ; ! kolmannehille
+:ns                PL-ADE  ; ! kolmansil
++Dial/Soik:nneh    PL-ADE  ; ! kolmannehil
+:ns                PL-ABL  ; ! kolmansilt
++Dial/Soik:nneh    PL-ABL  ; ! kolmannehilt
+:ns                PL-TRA  ; ! kolmansiks
++Dial/Soik:nneh    PL-TRA  ; ! kolmannehiks
+:ns                PL-ESS_nnA  ; ! kolmansinna
++Dial/Soik:nneh    PL-ESS_Vn  ; ! kolmannehhiin
+:ns                PL-EXE  ; ! kolmansint
++Dial/Soik:nneh    PL-EXE  ; ! kolmannehint
++Dial/Lauk:ns      PL-INS  ; ! kolmansiinka
++Dial/Soik:nneh    PL-ALL  ; ! kolmannehille
+
 
 ! joka
 LEXICON QntUniv-attr
