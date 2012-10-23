@@ -18,6 +18,7 @@ jakkaa:jak V-antaa  "" ;
 sannoa:sa V-sannoa  "" ;
 pittää:pit V-näyttää  "" ;
 näyttää:näytt V-näyttää  "" ;
+keeltää:keelt V-näyttää  "" ;
 stroittaa:stroitt V-näyttää  "" ;
 soittaa:soitt V-näyttää  "" ;
 kyntää:kynt V-näyttää  "" ;
