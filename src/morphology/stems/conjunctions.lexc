@@ -3,6 +3,7 @@
 LEXICON conjunctions
 
 ja:ja CcTag  "" ;
+vai:vai CcTag  "" ;
 i:i CcTag  "" ;
 a:a CcTag  "" ;
 vaa:vaa CcTag  "" ;

@@ -3,6 +3,18 @@
 LEXICON postpositions
 
 al:al PoTag  "" ;
+yli:yli PoTag  "" ;
+loon:loon PoTag  "" ;
+loitse:loitse PoTag  "" ;
+seas:seas PoTag  "" ;
+ympäär:ympäär PoTag  "" ;
+pitkin:pitkin PoTag  "" ;
+ennen:ennen PoTag  "" ;
+saa:saa PoTag  "" ;
+vastaa:vastaa PoTag  "" ;
+pääs:pääs PoTag  "" ;
+möötää:möötää PoTag  "" ;
+jälest:jälest PoTag  "" ;
 mööt:mööt PoTag  "" ;
 poolest:poolest PoTag  "" ;
 ees:ees PoTag  "" ;

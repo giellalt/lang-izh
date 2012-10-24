@@ -49,19 +49,8 @@ LEXICON Prop-iljina
 
 ! (??)
 LEXICON Prop-bubrih
-+N+Prop+Sg+Nom:     #   ; ! jalka
-+N+Prop+Sg+Gen:a%>%^WCnsn	#   ; ! jalan
-+N+Prop+Sg+Par:a%>%^LCns%^LVwsAÄ1	#   ; ! jalkaa
-+N+Prop+Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
-+N+Prop+Sg+Ine:a%>%^WCnsV2s    #   ; ! jalaas
-+N+Prop+Sg+Ela:a%>%^WCnsst    #   ; ! jalast
-+N+Prop+Sg+All:a%>%^WCnslle    #   ; ! jalalle
-+N+Prop+Sg+Ade:a%>%^WCnsV2l    #   ; ! jalaal
-+N+Prop+Sg+Abl:a%>%^WCnslt    #   ; ! jalalt
-+N+Prop+Sg+Tra:a%>%^WCnsks    #   ; ! jalaks
-+N+Prop+Sg+Ess:a%>%^LCns%^LVwsn    #   ; ! jalkaan
-+N+Prop+Sg+Exe:a%>%^LCns%^LVwsnt    #   ; ! jalkaan
-+N+Prop+Sg+Instr:a%>%^WCnsnkAÄ1    #   ; ! maanka
++N+Prop: N-preesens_01 ;
+
 
 ! (VIII)
 LEXICON Prop-vennääjä

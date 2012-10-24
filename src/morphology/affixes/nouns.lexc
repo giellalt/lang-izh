@@ -2,25 +2,45 @@
 !! ---------------
 !! The UNDEFINED language nouns inflect in cases.
 
+! yö:yö
+LEXICON N-yö-Sg
++Dial/Lauk+N: N-yö-Sg_01 ;
+
+LEXICON N-yö-Sg_01
+ SG-NOM   ; ! yö
+ SG-GEN   ; ! yön
+ SG-PAR_tA   ; ! yötä
+ SG-ILL_hV  ; ! yöhä
+ SG-INE   ; ! yös
+ SG-ELA   ; ! yöst
+ SG-ALL   ; ! yölle
+ SG-ADE   ; ! yöl
+ SG-ABL   ; ! yölt
+ SG-TRA   ; ! yöks
+ SG-ESS_nnA   ; ! yönnä
+ SG-EXE   ; ! yönt
+ SG-COM   ; ! yönkä
+
 
 ! maa (I)
 LEXICON N-maa
++N+Der/tOin:t A-kalatoin ; ! maatoin
 +N: N-maa_01 ;
 
 LEXICON N-maa_01
-+Sg+Nom:0     K   ; ! maa
+ SG-NOM   ; ! maa
  SG-GEN   ; ! maan
  SG-PAR_tA   ; ! maata
-+Sg+Ill:%>hV1	#   ; ! maaha
-+Sg+Ine:%>s    #   ; ! maaz
-+Sg+Ela:%>st    #   ; ! maast
-+Sg+All:%>lle    #   ; ! maalle
-+Sg+Ade:%>l    #   ; ! maal
-+Sg+Abl:%>lt    #   ; ! maalt
-+Sg+Tra:%>ks    #   ; ! maaks
-+Sg+Ess:%>nnAÄ1    #   ; ! maanna
-+Sg+Exe:%>nt    #   ; ! maant
-+Sg+Com:%>nkAÄ1    #   ; ! maanka
+ SG-ILL_hV  ; ! maaha
+ SG-INE   ; ! maaz
+ SG-ELA   ; ! maast
+ SG-ALL   ; ! maalle
+ SG-ADE   ; ! maal
+ SG-ABL   ; ! maalt
+ SG-TRA   ; ! maaks
+ SG-ESS_nnA   ; ! maanna
+ SG-EXE   ; ! maant
+ SG-COM   ; ! maanka
 
  PL-NOM   ; ! maat
 +Pl+Gen:%>i%>jen	#   ; ! maijen
@@ -32,12 +52,47 @@ LEXICON N-maa_01
  PL-ADE   ; ! mail
  PL-ABL   ; ! mailt
  PL-TRA   ; ! maiks
-+Pl+Ess:%>i%>nnAÄ1    #   ; ! mainna
-+Pl+Exe:%>i%>nt    #   ; ! maint
-+Pl+Com:%>i%>nkAÄ1    #   ; ! maanka
+ PL-ESS_nnA   ; ! mainna
+ PL-EXE   ; ! maint
+ PL-COM   ; ! maanka
+
+! preesens:preesens
+LEXICON N-preesens
++N: N-preesens_01 ;
+
+LEXICON N-preesens_01
+ SG-NOM   ; ! preesens
+:a SG-GEN	  ;   !	
+:a SG-PAR_A  ; ! maita
+:a SG-ILL_V   ; ! maihe
+:a SG-INE   ; ! mais
+:a SG-ELA   ; ! maist
+:a SG-ALL   ; ! maille
+:a SG-ADE   ; ! mail
+:a SG-ABL   ; ! mailt
+:a SG-TRA   ; ! maiks
+:a SG-ESS_nnA   ; ! mainna
+:a SG-EXE   ; ! maint
+:a SG-COM   ; ! maanka
+:a PL-NOM   ; ! maat
+:o PL-GEN ; ! maijen
+:o PL-PAR_tA  ; ! maita
+:o PL-ILL_hV   ; ! maihe
+:o PL-INE   ; ! mais
+:o PL-ELA   ; ! maist
+:o PL-ALL   ; ! maille
+:o PL-ADE   ; ! mail
+:o PL-ABL   ; ! mailt
+:o PL-TRA   ; ! maiks
+:o PL-ESS_nnA   ; ! mainna
+:o PL-EXE   ; ! maint
+:o PL-COM   ; ! maanka
+
+
 
 ! mato (II)
 LEXICON N-mato
++N+Der/tOin:%>%^WCnst A-kalatoin ; ! maotoin
 +N: N-mato_01 ;
 
 LEXICON N-mato_01
@@ -62,12 +117,14 @@ LEXICON N-mato_01
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N-koivu
++N+Der/tOin:%>%^WCnst A-kalatoin ; ! koivutoin
 +N: N-mato_01 ;
 +N: Oblique-Plural_hV ;
 +N: PL-PAR_A ;
 
 ! forma osa (II-b)
 LEXICON N-osa
++N+Der/tOin:%>%^WCnst A-kalatoin ; !
 +N: N-osa_01 ;
 
 LEXICON N-osa_01
@@ -103,6 +160,7 @@ LEXICON N-osa_01
 ! joki:jok
 ! joki (II-c)
 LEXICON N-joki
++N+Der/tOin:e%>%^WCnst A-kalatoin ; ! joetoin
 +N: N-joki_01 ;
 
 LEXICON N-joki_01
@@ -128,6 +186,7 @@ LEXICON N-joki_01
 
 ! lumi (II-d)
 LEXICON N-lumi
++N+Der/tOin:me%>%^WCnst A-kalatoin ; !
 +N: N-lumi_01 ;
 
 LEXICON N-lumi_01
@@ -152,6 +211,7 @@ LEXICON N-lumi_01
 
 ! emoi (III)
 LEXICON N-emoi
++N+Der/tOin:%>%^WCnst A-kalatoin ; !emotoin
 +N: N-emoi_01 ;
 
 LEXICON N-emoi_01
@@ -175,6 +235,7 @@ LEXICON N-emoi_01
 ! the stem-final "a" is added here
 ! jalka (IV)
 LEXICON N-jalka
++N+Der/tOin:a%>%^WCnst A-kalatoin ; !
 +N: N-jalka_01 ;
 
 LEXICON N-jalka_01
@@ -211,6 +272,7 @@ LEXICON N-jalka_01
 ! copied from N-jalka
 ! jalka (IV-a)
 LEXICON N-kana
++N+Der/tOin:a%>%^WCnst A-kalatoin ; !
 +N: N-kana_01 ;
 
 LEXICON N-kana_01
@@ -218,25 +280,26 @@ LEXICON N-kana_01
 :a SG-GEN   ; ! kanan
 :a SG-PAR_A-LCns ;
 !+Sg+Par:a%>%^LCnsAÄ1	#   ; ! jalkaa
-+Sg+Ill:a%>%^LCnsV1	#   ; ! jalkaa
+:a SG-ILL_V  ; ! jalkaa
 :a SG-INE   ; ! jalaas
-+Sg+Ela:a%>%^WCnsst    #   ; ! jalast
-+Sg+All:a%>%^WCnslle    #   ; ! jalalle
+:a SG-ELA   ; ! jalast
+:a SG-ALL  ; ! jalalle
 :a SG-ADE   ; ! jalaal
-+Sg+Abl:a%>%^WCnslt    #   ; ! jalalt
-+Sg+Tra:a%>%^WCnsks    #   ; ! jalaks
-+Sg+Ess:a%>%^LCns%^LVwsn    #   ; ! jalkaan
-+Sg+Ess:a%>nnAÄ1    #   ; ! jalkanna
-+Sg+Exe:a%>%^LCns%^LVwsnt    #   ; ! jalkaan
-+Sg+Com:a%>%^WCnsnkAÄ1    #   ; ! maanka
+:a SG-ABL   ; ! jalalt
+:a SG-TRA   ; ! jalaks
+:a SG-ESS_Vn   ; ! jalkaan
+:a SG-ESS_nnA   ; ! jalkanna
+:a SG-EXE   ; ! jalkaan
+:a SG-COM   ; ! maanka
+:a SG-ABE ; ! rahata
 ! Plural
 :a   PL-NOM   ; ! kanat
 :o PL-GEN  ; ! kannoin
 :o	     PL-PAR_A  ; ! kanoja
 ! The next one is causing problems
 ! I can't get the i:j
-!:o  PL-PAR_A-LCns   ; ! kannoja
-+Pl+Par:o%>%^LCnsjAÄ1 K ; ! 2012-10-18
+:o  PL-PAR_A-LCns   ; ! kannoja
+!+Pl+Par:o%>%^LCnsjAÄ1 K ; ! 2012-10-18
 :o%>%^LCns   PL-ILL_blank   ; ! kannoi
 :o   PL-INE   ; ! kanois
 :o   PL-ELA   ; ! kanoist
@@ -257,6 +320,7 @@ LEXICON N-monikko
 
 ! patsas:patsa
 LEXICON N-patsas
++N+Der/tOin:%>V2%>%^WCnst A-kalatoin ; !
 +N: N-patsas_01 ;
 
 LEXICON N-patsas_01
@@ -313,6 +377,7 @@ LEXICON N-patsas_01
 
 ! lähe:lähte
 LEXICON N-lähe
++N+Der/tOin:t A-kalatoin ; !
 +N: N-lähe_01 ;
 
 LEXICON N-lähe_01
@@ -354,6 +419,7 @@ LEXICON N-lähe_01
 
 ! from mato (II-e)
 LEXICON N-slovari
++N+Der/tOin:%>%^WCnst A-kalatoin ; ! slovaritoin
 +N: N-slovari_01 ;
 
 LEXICON N-slovari_01
@@ -381,6 +447,7 @@ LEXICON N-slovari_01
 ! the stem-final "a" is added here
 ! vokala (IV-b)
 LEXICON N-vokala
++N+Der/tOin:a%>%^WCnst A-kalatoin ; ! vokalatoin
 +N: N-vokala_01 ;
 
 LEXICON N-vokala_01
@@ -418,6 +485,7 @@ LEXICON N-vokala_01
 ! harakka:harakk
 ! This should operate using principles of ommeena
 LEXICON N-harakka
++N+Der/tOin:%>%^WCnst A-kalatoin ; !harakatoin
 +N: N-harakka_01 ;
 
 LEXICON N-harakka_01
@@ -442,6 +510,7 @@ LEXICON N-harakka_01
 +Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
 LEXICON N-ommeena
++N+Der/tOin:AÄ1%>%^WCnst A-kalatoin ; !omenatoin
 +N: N-ommeena_01 ;
 
 LEXICON N-ommeena_01
@@ -469,6 +538,7 @@ LEXICON N-ommeena_01
 ! putteeli:puteli
 ! 
 LEXICON N-putteeli
++N+Der/tOin:%>%^WCnst A-kalatoin ; !putelitoin
 +N: N-putteeli_01 ;
 
 LEXICON N-putteeli_01
@@ -493,6 +563,7 @@ LEXICON N-putteeli_01
 
 ! leikkuu, kiukkaa, lämmää (VI)
 LEXICON N-leikkuu
++N+Der/tOin:%>%^WCnst A-kalatoin ; ! leikkuutoin
 +N: N-leikkuu_01 ;
 
 LEXICON N-leikkuu_01
@@ -515,6 +586,7 @@ LEXICON N-leikkuu_01
 
 ! assia:assi (VII)
 LEXICON N-assia
++N+Der/tOin:AÄ1%>%^WCnst A-kalatoin ; !
 +N: N-assia_01 ;
 
 LEXICON N-assia_01
@@ -543,6 +615,7 @@ LEXICON N-assia_01-Sg
 
 ! tähkä (VIII)
 LEXICON N-tähkä
++N+Der/tOin:%>%^WCnst A-kalatoin ; !tähätöin
 +N: N-tähkä_01 ;
 
 LEXICON N-tähkä_01
@@ -578,6 +651,7 @@ LEXICON N-tähkä_01
 
 ! tähti (IX)
 LEXICON N-tähti
++N+Der/tOin:e%>%^WCnst A-kalatoin ; !
 +N: N-tähti_01 ;
 
 LEXICON N-tähti_01
@@ -601,8 +675,14 @@ LEXICON N-tähti_01
 LEXICON N-orsi
  N-käsi ;
 
+! voosi:voo
+LEXICON N-voosi
++N+Sg+Ess:nnAÄ1 K ; ! voonna 
++N: N-käsi_01 ;
+
 ! käsi (XI)
 LEXICON N-käsi
++N+Der/tOin:te%>%^WCnst A-kalatoin ; !
 +N: N-käsi_01 ; 
 
 LEXICON N-käsi_01
@@ -636,8 +716,45 @@ LEXICON N-käsi_01
 :s    PL-EXE   ; ! matoloint
 +Dial/Lauk:s PL-COM   ; ! käsinkä
 
+! mees:mee (??)
+LEXICON N-mees
++N+Der/tOin:he%>%^WCnst A-kalatoin ; !meehetöin
++N: N-mees_01 ; 
+
+LEXICON N-mees_01
+:s     SG-NOM   ; ! orsi
+:he SG-GEN   ; ! orren
+:s SG-PAR_tA  ; ! ortta
+:he SG-ILL_V  ; ! ortee
+:he SG-INE   ; ! orrees
+:he SG-ELA   ; ! maost
+:he SG-ALL   ; ! maolle
+:he SG-ADE   ; ! maool
+:he SG-ABL   ; ! maolt
+:he SG-TRA   ; ! maoks
++Dial/Lauk:he SG-ESS_nnA   ; ! mattoon
++Dial/Soik:he SG-ESS_Vn   ; ! mattoon
+:he SG-EXE  ; ! mattoont
++Dial/Lauk:he SG-COM   ; ! maanka
+! Plural
+:he PL-NOM   ; ! meehet
+:s PL-GEN    ; ! matoloin
+:s PL-PAR_A-LCns  ;
+:s PL-ILL_V   ; ! kässii
+:s PL-INE   ; ! matoloiz
+:s PL-ELA   ; ! matoloist
+:s PL-ALL   ; ! matoloille
+:s PL-ADE   ; ! matoloil
+:s PL-ABL   ; ! matoloilt
+:s PL-TRA  ; ! käsiks
++Dial/Lauk:s PL-ESS_nnA   ; ! matoloin
++Dial/Soik:s PL-ESS_Vn   ; ! matoloin
+:s    PL-EXE   ; ! matoloint
++Dial/Lauk:s PL-COM   ; ! käsinkä
+
 ! varis (XII)
 LEXICON N-varis
++N+Der/tOin:kse%>%^WCnst A-kalatoin ; !variksetoin
 +N: N-varis_01 ;
 
 LEXICON N-varis_01
@@ -674,6 +791,7 @@ LEXICON N-varis_01
 
 ! kärpäin (XIII)
 LEXICON N-kärpäin
++N+Der/tOin:se%>%^WCnst A-kalatoin ; !kärpäsetöin
 +N: N-kärpäin_01 ;
 
 LEXICON N-kärpäin_01
@@ -711,6 +829,7 @@ LEXICON N-kärpäin_01
 
 
 LEXICON N-veitsi
++N+Der/tOin:tse%>%^WCnst A-kalatoin ; !
 +N: N-veitsi_01 ;
 
 LEXICON N-veitsi_01
@@ -748,6 +867,7 @@ LEXICON N-veitsi_01
 
 ! inmihiin (XIII-b)
 LEXICON N-inmihiin
++N+Der/tOin:se%>%^WCnst A-kalatoin ; !
 +N: N-inmihiin_01 ;
 
 LEXICON N-inmihiin_01
@@ -770,7 +890,7 @@ LEXICON N-inmihiin_01
 ! Plural
 :se     PL-NOM   ; ! kärpäiset
 :s	PL-GEN   ; ! kärpäisiin
-:s      PL-PAR_A   ; ! variksia
+:s      PL-PAR_A-LCns   ; ! variksia
 :s      PL-ILL_V   ; ! kärpäisii
 :s      PL-INE   ; ! kärpäisiis
 :s      PL-ELA   ; ! matoloist
@@ -788,6 +908,7 @@ LEXICON N-meri
 
 ! keeli (IX-b)
 LEXICON N-keeli
++N+Der/tOin:e%>%^WCnst A-kalatoin ; !
 +N: N-keeli_01 ;
 
 LEXICON N-keeli_01
@@ -820,6 +941,7 @@ LEXICON N-keeli_01
  PL-COM   ; ! mataloinka
 
 LEXICON N-sammal
++N+Der/tOin:e%>%^WCnst A-kalatoin ; !
 +N: N-sammal_01 ;
 
 LEXICON N-sammal_01
@@ -877,6 +999,7 @@ LEXICON N-XIX
 
 ! (XX) oikehus
 LEXICON N-oikehus
++N+Der/tOin:te%>%^WCnst A-kalatoin ; !
 +N: N-oikehus_01 ;
 
 LEXICON N-oikehus_01
@@ -1012,17 +1135,17 @@ LEXICON PL-ALL
 +Pl+All+PxSg3:%>i%>%^WCnsllee  K_Num  ; 
 
 LEXICON PL-COM
-+Pl+Com:%>i%>%^WCnsnkAÄ1    K_Num ;
++Dial/Lauk+Pl+Com:%>i%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON PL-ELA
 +Pl+Ela:%>i%>%^WCnsst    K_Num ;
 +Pl+Ela+PxSg3:%>i%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON PL-ESS_Vn
-+Pl+Ess:%>i%>n	 K_Num  ;
++Dial/Soik+Pl+Ess:%>%^LCns%>i%>V3n	 K_Num  ;
 
 LEXICON PL-ESS_nnA
-+Pl+Ess:%>i%>nnAÄ1    K_Num  ;
++Dial/Lauk+Pl+Ess:%>i%>nnAÄ1    K_Num  ;
 
 LEXICON PL-EXE
 +Pl+Exe:%>i%>nt    K_Num  ;
@@ -1031,13 +1154,13 @@ LEXICON PL-GEN
 +Pl+Gen:%>%^LCns%>i%>V3n    K_Num  ;
 
 LEXICON PL-ILL_blank
-+Pl+Ill:%>i    K_Num   ;
++Pl+Ill:%>%^LCns%>i%>    K_Num   ;
 
 LEXICON PL-ILL_sse
 +Pl+Ill:%>i%>sse    K_Num   ;
 
 LEXICON PL-ILL_V
-+Pl+Ill:%>i%>V1    K_Num   ;
++Pl+Ill:%>%^LCns%>i%>V1    K_Num   ;
 
 LEXICON PL-ILL_hV
 +Pl+Ill:%>i%>he    K_Num   ;
@@ -1093,7 +1216,7 @@ LEXICON SG-ALL
 +Sg+All+PxSg3:%>%^WCnsllee  K_Num  ; 
 
 LEXICON SG-COM
-+Sg+Com:%>%^WCnsnkAÄ1    K_Num ;
++Dial/Lauk+Sg+Com:%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON SG-ELA
 +Sg+Ela:%>%^WCnsst    K_Num ;

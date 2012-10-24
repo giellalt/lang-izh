@@ -40,7 +40,7 @@ LEXICON PersSg3
 +Pron+Pers+Sg3+Ill:nnee  K   ;
 +Pron+Pers+Sg3+Ine:nees  K   ;
 +Pron+Pers+Sg3+Ela:nest  K   ;
-+Pron+Pers+Sg3+All:neulle  K   ;
++Pron+Pers+Sg3+All:nelle  K   ;
 +Pron+Pers+Sg3+Ade:neel  K   ;
 +Pron+Pers+Sg3+Ade:nel  K   ;
 +Pron+Pers+Sg3+Abl:nelt  K   ;
@@ -102,6 +102,7 @@ LEXICON Refl-itse
 LEXICON Refl-itse_01
 :e SG-NOM ;
 +Sg+Par:iätä K ;
++Sg+Tra+PxSg3:eksee K ;
 
 ! se : s
 LEXICON Dem-se
@@ -149,7 +150,7 @@ LEXICON Dem-neet
 
 ! nämä : nä
 LEXICON Dem-nämä
-+Pron+Dem+Pl+Nom:mä  K   ;
++Pron+Dem+Pl+Nom:mät  K   ;
 +Pron+Dem+Pl+Gen:ijen  K   ;
 +Pron+Dem+Pl+Par:itä  K   ;
 +Pron+Dem+Pl+Ill:ihe  K   ;
@@ -235,16 +236,18 @@ LEXICON Pron-kumpa_01
  SG-ABL   ; ! maolt
  SG-TRA   ; ! maoks
  SG-ESS_Vn   ; ! mattoon
-+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
+ SG-EXE    ; ! mattoont
 ! Plural
 :%>%^WCns PL-NOM      ; ! kummat
-:%>i 	  PL-GEN      ; ! kumpiin
+ 	  PL-GEN      ; ! kumpiin
      	  PL-PAR_A   ; ! kumpia
  PL-ILL_V   ; ! kalattommii
  PL-INE   ; ! kummiis
++Pl+Ine:%>i%>V3s K ; ! kumpiis 
  PL-ELA   ; ! matoloist
  PL-ALL   ; ! kummille
  PL-ADE   ; ! kummil, kummiil
++Pl+Ade:%>i%>V3l K ; ! kumpiil second half of Junus
  PL-ABL   ; ! kummilt
  PL-TRA   ; ! matoloiks
 +Pl+Ess:%>i%>n    #   ; ! matoloinna
