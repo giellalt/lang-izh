@@ -102,7 +102,7 @@ LEXICON Num-yks_01
 :hte	SG-TRA   ; ! maoks
 :hte	SG-ESS_nnA   ; ! mattoon
 :hte 	SG-EXE   ; ! mattoont
-:hte	SG-INS   ; ! maanka
+:hte	SG-COM   ; ! maanka
 ! Plural
 :hte  PL-NOM   ; ! yhet
 :ks   PL-GEN   ; ! yksiin
@@ -116,7 +116,7 @@ LEXICON Num-yks_01
 :ks   PL-TRA   ; ! orsiks
 :ks   PL-ESS_nnA   ; ! matoloinna
 :ks   PL-EXE   ; ! matoloint
-:ks   PL-INS   ; ! yksinkä
+:ks   PL-COM   ; ! yksinkä
 
 
 !! kolt
@@ -126,20 +126,19 @@ LEXICON Num-kolt
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kolt_01 ;
 
 LEXICON Num-kolt_01
-+Sg+Nom:t     #   ; ! kolt
-+Sg+Gen:me%>%^WCnsn	#   ; ! kolmen
-+Sg+Acc:me%>%^WCnsn	#   ; ! yhen
-+Sg+Par:me%>tAÄ1	#   ; ! yhtä
-+Sg+Ill:me%>%^LCnsV1	#   ; ! ortee
-+Sg+Ine:me%>%^WCnss    #   ; ! orrees
-+Sg+Ela:me%>%^WCnsst    #   ; ! yhest
-+Sg+All:me%>%^WCnslle    #   ; ! maolle
-+Sg+Ade:me%>%^WCnsl    #   ; ! yhel
-+Sg+Abl:me%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:me%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:me%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoon
-+Sg+Exe:me%>%^LCnsnt    #   ; ! mattoont
-+Sg+Instr:me%>%^WCnsnkAÄ1    #   ; ! maanka
+:t     SG-NOM   ; ! kolt
+:me    SG-GEN   ; ! kolmen
+:me    SG-PAR_A   ; ! kolmea
+:me    SG-ILL_V   ; ! ortee
+:me    SG-INE   ; ! orrees
+:me    SG-ELA   ; ! yhest
+:me    SG-ALL   ; ! maolle
+:me    SG-ADE   ; ! yhel
+:me    SG-ABL   ; ! maolt
+:me    SG-TRA   ; ! maoks
+:me    SG-ESS_nnA   ; ! mattoon
+:me    SG-EXE   ; ! mattoont
+:me    SG-COM   ; ! maanka
 ! Plural
 +Pl+Nom:me%>%^WCnst     #   ; ! maot
 +Pl+Gen:mi%>%^LCnsi%>n	#   ; ! matoloin
@@ -157,12 +156,24 @@ LEXICON Num-kolt_01
 +Pl+Exe:mi%>%>nt    #   ; ! matoloint
 +Pl+Instr:mi%>nkAÄ1    #   ; ! mataloinka
 
+! No nominative for second segment
+! kakskymment:kakskymmen
+LEXICON Num-kakskymment
++Num+Card+Sg+Part:t K ; ! form used in compounds
++Num+Card:ä Num-kaheksan_01 ;
+
+! kaheskymmenäs:kaheskymmen
+LEXICON Num-kaheskymmenäs
++Num+Ord:ä NumOrd ; ! Is this right 2012-10-23
+
+
+
 ! kymmen:kymmen
 LEXICON Num-kymmen
 +Num+Ord:ä NumOrd ;
 +Num+Card+Sg+Part:t K ; ! form used in compounds
 +Num+Card+Sg+Nom: K ;
-+Num+Card:ä Num-kaheksa_01 ;
++Num+Card:ä Num-kaheksan_01 ;
 
 ! mont:mon
 LEXICON Qnt-mont
@@ -182,7 +193,7 @@ LEXICON Num-neljä
 LEXICON Num-seitsen
 +Num+Ord:mä NumOrd ;
 +Num+Card@U.CARD.TOIST@:mä@U.CARD.TOIST@ Num-kaheksan_01 ;
-+Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NUM ;
++Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NOM ;
 
 
 !kaheksan:kaheksa
@@ -227,7 +238,7 @@ LEXICON Num-viis
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-viis_01 ;
 
 LEXICON Num-viis_01
-:s     SG-NOM   ; ! orsi
+:s     SG-NOM   ; ! viis
 :te SG-GEN   ; ! orren
 :t SG-PAR_tA  ; ! ortta
 :te SG-ILL_V  ; ! ortee
@@ -308,7 +319,7 @@ LEXICON NumOrd
 +Dial/Soik:nneh    PL-ESS_Vn  ; ! kolmannehhiin
 :ns                PL-EXE  ; ! kolmansint
 +Dial/Soik:nneh    PL-EXE  ; ! kolmannehint
-+Dial/Lauk:ns      PL-INS  ; ! kolmansiinka
++Dial/Lauk:ns      PL-COM  ; ! kolmansiinka
 +Dial/Soik:nneh    PL-ALL  ; ! kolmannehille
 
 

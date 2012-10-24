@@ -554,6 +554,28 @@
    </entry>
    <entry>
       <lg>
+         <l>Loukkula</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Loukkul</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>Puna-armia</l>
          <stg>
             <st Contlex="Prop-soikkola">Puna-armi</st>

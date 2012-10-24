@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>vai</l>
+         <stg>
+            <st Contlex="CcTag">vai</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>ja</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>i</l>
          <stg>
             <st Contlex="CcTag">i</st>
