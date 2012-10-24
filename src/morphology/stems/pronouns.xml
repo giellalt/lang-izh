@@ -75,7 +75,29 @@
             <st Contlex="Pron-miltain">miltai</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
+      <pos>PRON-INTERR</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>kumpain</l>
+         <stg>
+            <st Contlex="Pron-miltain">kumpai</st>
+         </stg>
+      </lg>
+      <pos>PRON-INTERR</pos>
       <e>
          <mg>
             <m>
