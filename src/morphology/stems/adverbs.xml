@@ -708,6 +708,28 @@
    </entry>
    <entry>
       <lg>
+         <l>koolla</l>
+         <stg>
+            <st Contlex="AdvSpat">koolla</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>päin</l>
          <stg>
             <st Contlex="AdvSpat">päin</st>
@@ -877,7 +899,29 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>eilen</t>
+               <t>tänään</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>nykyaikaa</l>
+         <stg>
+            <st Contlex="AdvTemp">nykyaikaa</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>
