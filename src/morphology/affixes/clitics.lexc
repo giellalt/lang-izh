@@ -8,6 +8,10 @@ LEXICON K_Num
 
 LEXICON K_Num_01
 +Der/toist:toist K ;
+kymmen+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@:kymment@U.DECL-NX.SG@@U.DECL-CX.NOM@ Num-kaheksan_01 ;
+kymmen+Num+Card:#kymmenä Num-kaheksan_01 ;
+sata+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@:sattaa@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
+sata+Num+Card:#sat N-kana_01 ;
 
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki

@@ -45,7 +45,7 @@ Multichar_Symbols
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
  +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par
- +Exe +Instr +Com
+ +Exe +Instr +Com +Ins
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -134,9 +134,40 @@ Multichar_Symbols
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
 ! This is to facilitate the 'teens' in "-toist"
+! This can also be used as a condition for further combinations
+! e.g. tens and hundreds
 @U.CARD.TOIST@
 @R.CARD.TOIST@
 @C.CARD@
+
+!!! FLAGS USED WITH COLLECTIVE NOUNS
+! number
+@U.DECL-NX.SG@
+@U.DECL-NX.PL@
+@R.DECL-NX.PL@
+! case
+@U.DECL-CX.ABE@
+@U.DECL-CX.ABL@
+@U.DECL-CX.ACC@
+@U.DECL-CX.ADE@
+@U.DECL-CX.ALL@
+@U.DECL-CX.COM@
+@U.DECL-CX.ELA@
+@U.DECL-CX.ESS@
+@U.DECL-CX.EXE@
+@U.DECL-CX.GEN@
+@U.DECL-CX.ILL@
+@U.DECL-CX.INE@
+@U.DECL-CX.INS@
+@U.DECL-CX.NOM@
+@U.DECL-CX.PAR@
+@U.DECL-CX.PRL@
+@U.DECL-CX.TRA@
+
+@C.DECL-CX@
+@C.DECL-NX@
+
+
 
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
@@ -156,7 +187,9 @@ LEXICON Root
 Abbreviation	 ;
 Acronym		 ;
 Punctuation	 ;
-wordToNumeral    ;
+!wordToNumeral    ;
+
+
 
 !! POS with minimal morphological variation
 
