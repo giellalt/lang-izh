@@ -327,5 +327,8 @@ LEXICON NumOrd
 LEXICON QntUniv-attr
 +Qnt+Univ+Attr: # ;
 
+! Numerals
+
+
 ! vim: set ft=xfst-lexc:
 

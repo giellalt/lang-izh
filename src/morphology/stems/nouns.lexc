@@ -81,6 +81,7 @@ mehiläin:mehiläi N-kärpäin  "" ;
 läns-fenniläin:läns-fenniläi N-kärpäin  "" ;
 venäläin:venäläi N-kärpäin  "" ;
 nimensihalliin:nimen#sihalli N-inmihiin  "" ;
+nimensihalliin:nimen#sihalli N-kärpäin  "" ;
 hepoin:hepoi N-kärpäin  "" ;
 vokalamuuttumin:vokala#muuttumi N-kärpäin  "" ;
 laukaalain:laukaalai N-kärpäin  "" ;

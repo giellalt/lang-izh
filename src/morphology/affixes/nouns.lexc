@@ -1119,154 +1119,154 @@ LEXICON Oblique-Plural
 !!!!!!!!!!!!!!!!!
 
 LEXICON PL-ABE
-+Pl+Abe:%>i%>%^WCnstAÄ1    K_Num  ;
++Pl+Abe@U.DECL-NX.PL@@U.DECL-CX.ABE@:%>i%>%^WCnstAÄ1@U.DECL-NX.PL@@U.DECL-CX.ABE@    K_Num  ;
 
 LEXICON PL-ABL
-+Pl+Abl:%>i%>%^WCnslt    K_Num  ;
-+Pl+Abl+PxSg3:%>i%>%^WCnsltAÄ1AÄ1  K_Num  ;
++Pl+Abl@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnslt@U.DECL-NX.PL@@U.DECL-CX.ABL@    K_Num  ;
++Pl+Abl+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnsltAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ABL@  K_Num  ;
 
 LEXICON PL-ADE
-+Pl+Ade:%>i%>%^WCnsV3l    K_Num  ;
-+Pl+Ade:%>i%>%^WCnsl    K_Num  ;
-+Pl+Ade+PxSg3:%>i%>%^WCnsllAÄ1AÄ1  K_Num  ;
++Pl+Ade@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsV3l@U.DECL-NX.PL@@U.DECL-CX.ADE@    K_Num  ;
++Pl+Ade@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsl@U.DECL-NX.PL@@U.DECL-CX.ADE@    K_Num  ;
++Pl+Ade+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsllAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ADE@  K_Num  ;
 
 LEXICON PL-ALL
-+Pl+All:%>i%>%^WCnslle    K_Num  ; 
-+Pl+All+PxSg3:%>i%>%^WCnsllee  K_Num  ; 
++Pl+All@U.DECL-NX.PL@@U.DECL-CX.ALL@:%>i%>%^WCnslle@U.DECL-NX.PL@@U.DECL-CX.ALL@    K_Num  ; 
++Pl+All+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ALL@:%>i%>%^WCnsllee@U.DECL-NX.PL@@U.DECL-CX.ALL@  K_Num  ; 
 
 LEXICON PL-COM
-+Dial/Lauk+Pl+Com:%>i%>%^WCnsnkAÄ1    K_Num ;
++Dial/Lauk+Pl+Com@U.DECL-NX.PL@@U.DECL-CX.COM@:%>i%>%^WCnsnkAÄ1@U.DECL-NX.PL@@U.DECL-CX.COM@    K_Num ;
 
 LEXICON PL-ELA
-+Pl+Ela:%>i%>%^WCnsst    K_Num ;
-+Pl+Ela+PxSg3:%>i%>%^WCnsstAÄ1AÄ1    K_Num ;
++Pl+Ela@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsst@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
++Pl+Ela+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsstAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
 
 LEXICON PL-ESS_Vn
-+Dial/Soik+Pl+Ess:%>%^LCns%>i%>V3n	 K_Num  ;
++Dial/Soik+Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.ESS@	 K_Num  ;
 
 LEXICON PL-ESS_nnA
-+Dial/Lauk+Pl+Ess:%>i%>nnAÄ1    K_Num  ;
++Dial/Lauk+Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>nnAÄ1@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
 
 LEXICON PL-EXE
-+Pl+Exe:%>i%>nt    K_Num  ;
++Pl+Exe@U.DECL-NX.PL@@U.DECL-CX.EXE@:%>i%>nt@U.DECL-NX.PL@@U.DECL-CX.EXE@    K_Num  ;
 
 LEXICON PL-GEN
-+Pl+Gen:%>%^LCns%>i%>V3n    K_Num  ;
++Pl+Gen@U.DECL-NX.PL@@U.DECL-CX.GEN@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.GEN@    K_Num  ;
 
 LEXICON PL-ILL_blank
-+Pl+Ill:%>%^LCns%>i%>    K_Num   ;
++Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>%^LCns%>i%>@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON PL-ILL_sse
-+Pl+Ill:%>i%>sse    K_Num   ;
++Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>i%>sse@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON PL-ILL_V
-+Pl+Ill:%>%^LCns%>i%>V1    K_Num   ;
++Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>%^LCns%>i%>V1@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON PL-ILL_hV
-+Pl+Ill:%>i%>he    K_Num   ;
++Pl+Ill@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>i%>he@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON PL-INE
-+Pl+Ine:%>i%>%^WCnsV3s    K_Num  ;
-+Pl+Ine:%>i%>%^WCnss    K_Num  ;
-+Pl+Ine+PxSg3:%>i%>%^WCnsssAÄ1AÄ1    K_Num  ;
++Pl+Ine@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnsV3s@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
++Pl+Ine@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnss@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
++Pl+Ine+PxSg3@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnsssAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
 
 ! instruktiva
 ! only with Px...
 LEXICON PL-INS
-+Pl+Instr+PxSg3:%>i%>nee    #   ; ! lehminee
++Pl+Instr+PxSg3@U.DECL-NX.PL@@U.DECL-CX.INS@:%>i%>nee@U.DECL-NX.PL@@U.DECL-CX.INS@    #   ; ! lehminee
 
 LEXICON PL-NOM
-+Pl+Nom:%>%^WCnst   K_Num  ;
-+Pl+Acc:%>%^WCnst   K_Num  ;
++Pl+Nom@U.DECL-NX.PL@@U.DECL-CX.NOM@:%>%^WCnst@U.DECL-NX.PL@@U.DECL-CX.NOM@   K_Num  ;
++Pl+Acc@U.DECL-NX.PL@@U.DECL-CX.ACC@:%>%^WCnst@U.DECL-NX.PL@@U.DECL-CX.ACC@   K_Num  ;
 
 LEXICON PL-PAR_A
-+Pl+Par:%>i%>AÄ1      K_Num  ;
++Pl+Par@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
 
 ! kana:kano
 LEXICON PL-PAR_A-LCns
-+Pl+Par:%>%^LCns%>i%>AÄ1      K_Num  ;
++Pl+Par@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>%^LCns%>i%>AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
 
 
 LEXICON PL-PAR_tA
-+Pl+Par:%>i%>tAÄ1      K_Num  ;
-+Pl+Par+PxSg3:%>i%>tAÄ1AÄ1      K_Num  ;
++Pl+Par@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>tAÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
++Pl+Par+PxSg3@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>tAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
 
 LEXICON PL-PRL
-+Pl+Prl:%>i%>%^WCnstse    #   ; ! rannoitse
++Pl+Prl@U.DECL-NX.PL@@U.DECL-CX.PRL@:%>i%>%^WCnstse@U.DECL-NX.PL@@U.DECL-CX.PRL@    #   ; ! rannoitse
 
 LEXICON PL-TRA
-+Pl+Tra:%>i%>%^WCnsks   K_Num  ;
-+Pl+Tra+PxSg2:%>i%>%^WCnsksees   K_Num  ;
-+Pl+Tra+PxSg3:%>i%>%^WCnsksee   K_Num  ;
++Pl+Tra@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsks@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
++Pl+Tra+PxSg2@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsksees@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
++Pl+Tra+PxSg3@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsksee@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
 
 LEXICON SG-ABE
-+Sg+Abe:%>%^WCnstAÄ1    K_Num  ;
++Sg+Abe@U.DECL-NX.SG@@U.DECL-CX.ABE@:%>%^WCnstAÄ1@U.DECL-NX.SG@@U.DECL-CX.ABE@    K_Num  ;
 
 LEXICON SG-ABL
-+Sg+Abl:%>%^WCnslt    K_Num  ;
-+Sg+Abl+PxSg3:%>%^WCnsltAÄ1AÄ1  K_Num  ;
++Sg+Abl@U.DECL-NX.SG@@U.DECL-CX.ABL@:%>%^WCnslt@U.DECL-NX.SG@@U.DECL-CX.ABL@    K_Num  ;
++Sg+Abl+PxSg3@U.DECL-NX.SG@@U.DECL-CX.ABL@:%>%^WCnsltAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ABL@  K_Num  ;
 
 LEXICON SG-ADE
-+Sg+Ade:%>%^WCnsV3l    K_Num  ;
-+Sg+Ade:%>%^WCnsl    K_Num  ;
-+Sg+Ade+PxSg3:%>%^WCnsllAÄ1AÄ1  K_Num  ;
++Sg+Ade@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsV3l@U.DECL-NX.SG@@U.DECL-CX.ADE@    K_Num  ;
++Sg+Ade@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsl@U.DECL-NX.SG@@U.DECL-CX.ADE@    K_Num  ;
++Sg+Ade+PxSg3@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsllAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ADE@  K_Num  ;
 
 LEXICON SG-ALL
-+Sg+All:%>%^WCnslle    K_Num  ; 
-+Sg+All+PxSg3:%>%^WCnsllee  K_Num  ; 
++Sg+All@U.DECL-NX.SG@@U.DECL-CX.ALL@:%>%^WCnslle@U.DECL-NX.SG@@U.DECL-CX.ALL@    K_Num  ; 
++Sg+All+PxSg3@U.DECL-NX.SG@@U.DECL-CX.ALL@:%>%^WCnsllee@U.DECL-NX.SG@@U.DECL-CX.ALL@  K_Num  ; 
 
 LEXICON SG-COM
-+Dial/Lauk+Sg+Com:%>%^WCnsnkAÄ1    K_Num ;
++Dial/Lauk+Sg+Com@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^WCnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
 
 LEXICON SG-ELA
-+Sg+Ela:%>%^WCnsst    K_Num ;
-+Sg+Ela+PxSg3:%>%^WCnsstAÄ1AÄ1    K_Num ;
++Sg+Ela@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsst@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;
++Sg+Ela+PxSg3@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsstAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;
 
 LEXICON SG-ESS_Vn
-+Sg+Ess:%>%^LCnsV3n	 K_Num  ;
++Sg+Ess@U.DECL-NX.SG@@U.DECL-CX.ESS@:%>%^LCnsV3n@U.DECL-NX.SG@@U.DECL-CX.ESS@	 K_Num  ;
 
 LEXICON SG-ESS_nnA
-+Sg+Ess:nnAÄ1    K_Num  ;
++Sg+Ess@U.DECL-NX.SG@@U.DECL-CX.ESS@:nnAÄ1@U.DECL-NX.SG@@U.DECL-CX.ESS@    K_Num  ;
 
 LEXICON SG-EXE
-+Sg+Exe:nt    K_Num  ;
++Sg+Exe@U.DECL-NX.SG@@U.DECL-CX.EXE@:nt@U.DECL-NX.SG@@U.DECL-CX.EXE@    K_Num  ;
 
 LEXICON SG-GEN
-+Sg+Gen:%>%^WCnsn      K_Num  ;
-+Sg+Acc:%>%^WCnsn      K_Num  ;
-+Sg+Gen+PxSg3:%^LVwsn      K_Num  ;
++Sg+Gen@U.DECL-NX.SG@@U.DECL-CX.GEN@:%>%^WCnsn@U.DECL-NX.SG@@U.DECL-CX.GEN@      K_Num  ;
++Sg+Acc@U.DECL-NX.SG@@U.DECL-CX.ACC@:%>%^WCnsn@U.DECL-NX.SG@@U.DECL-CX.ACC@      K_Num  ;
++Sg+Gen+PxSg3@U.DECL-NX.SG@@U.DECL-CX.GEN@:%^LVwsn@U.DECL-NX.SG@@U.DECL-CX.GEN@      K_Num  ;
 
 LEXICON SG-ILL_sse
-+Sg+Ill:sse    K_Num   ;
++Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:sse@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON SG-ILL_V
-+Sg+Ill:%>%^LCns%>V1    K_Num   ;
++Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>%^LCns%>V1@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON SG-ILL_hV
-+Sg+Ill:%>hV1    K_Num   ;
++Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>hV1@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON SG-INE
-+Sg+Ine:%>%^WCnsV3s    K_Num  ;
-+Sg+Ine:%>%^WCnss    K_Num  ;
-+Sg+Ine+PxSg3:%>%^WCnsssAÄ1AÄ1    K_Num  ;
++Sg+Ine@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnsV3s@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
++Sg+Ine@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnss@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
++Sg+Ine+PxSg3@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnsssAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
 
 LEXICON SG-NOM
-+Sg+Nom:    K_Num ;
++Sg+Nom@U.DECL-NX.SG@@U.DECL-CX.NOM@:@U.DECL-NX.SG@@U.DECL-CX.NOM@    K_Num ;
 
 LEXICON SG-PAR_A
-+Sg+Par:AÄ1      K_Num  ;
++Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@:AÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
 
 LEXICON SG-PAR_A-LCns
-+Sg+Par:%>%^LCnsAÄ1      K_Num  ;
++Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@:%>%^LCnsAÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
 
 LEXICON SG-PAR_tA
-+Sg+Par:tAÄ1      K_Num  ;
-+Sg+Par+PxSg3:tAÄ1AÄ1      K_Num  ;
++Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@:tAÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
++Sg+Par+PxSg3@U.DECL-NX.SG@@U.DECL-CX.PAR@:tAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
 
 LEXICON SG-TRA
-+Sg+Tra:%>%^WCnsks   K_Num  ;
-+Sg+Tra+PxSg2:%>%^WCnsksees   K_Num  ;
-+Sg+Tra+PxSg3:%>%^WCnsksee   K_Num  ;
++Sg+Tra@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsks@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
++Sg+Tra+PxSg2@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsksees@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
++Sg+Tra+PxSg3@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsksee@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
 
 ! vim: set ft=xfst-lexc:
 
