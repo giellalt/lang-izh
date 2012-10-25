@@ -2296,9 +2296,31 @@
    </entry>
    <entry>
       <lg>
+         <l>cisla</l>
+         <stg>
+            <st Contlex="N-jalka">cisl</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kilometra</l>
          <stg>
-            <st Contlex="N-jalka">kilo#metra</st>
+            <st Contlex="N-jalka">kilo#metr</st>
          </stg>
       </lg>
       <pos>N</pos>
@@ -8549,6 +8571,28 @@
          <l>pohja</l>
          <stg>
             <st Contlex="N-osa">pohja</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>konsonanttapohja</l>
+         <stg>
+            <st Contlex="N-osa">konsonantta#pohja</st>
          </stg>
       </lg>
       <pos>N</pos>

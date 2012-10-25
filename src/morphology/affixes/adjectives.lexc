@@ -197,31 +197,34 @@ LEXICON A-glavnoi_01
 ! kalatoin (??)
 LEXICON A-kalatoin
 +A+Der/st:tOÖ1mAÄ1%>%^WCnsst AdvManner ; !
-+A+Sg+Nom:%>OÖ1in     #   ; ! kalatoin
-+A+Sg+Gen:tOÖ1%>mAÄ1%>%^WCnsn	#   ; ! kalattomAÄ1n
-+A+Sg+Par:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
-+A+Sg+Ill:tOÖ1%>mAÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+A+Sg+Ine:tOÖ1%>mAÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
-+A+Sg+Ela:tOÖ1%>mAÄ1%>%^WCnsst    #   ; ! maost
-+A+Sg+All:tOÖ1%>mAÄ1%>%^WCnslle    #   ; ! maolle
-+A+Sg+Ade:tOÖ1%>mAÄ1%>%^WCns%^LVwsl    #   ; ! maool
-+A+Sg+Abl:tOÖ1%>mAÄ1%>%^WCnslt    #   ; ! maolt
-+A+Sg+Tra:tOÖ1%>mAÄ1%>%^WCnsks    #   ; ! maoks
-+A+Sg+Ess:tOÖ1%>mAÄ1%>%^LCns%^LVwsn    #   ; ! mattoon
-+A+Sg+Exe:tOÖ1%>mAÄ1%>%^LCns%^LVwsnt    #   ; ! mattoont
++A: A-kalatoin_01 ;
+
+LEXICON A-kalatoin_01 
++Sg+Nom:OÖ1in     #   ; ! kalatoin
++Sg+Gen:tOÖ1mAÄ1%>%^WCnsn	#   ; ! kalattomAÄ1n
++Sg+Par:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
++Sg+Ill:tOÖ1mAÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
++Sg+Ine:tOÖ1mAÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
++Sg+Ela:tOÖ1mAÄ1%>%^WCnsst    #   ; ! maost
++Sg+All:tOÖ1mAÄ1%>%^WCnslle    #   ; ! maolle
++Sg+Ade:tOÖ1mAÄ1%>%^WCns%^LVwsl    #   ; ! maool
++Sg+Abl:tOÖ1mAÄ1%>%^WCnslt    #   ; ! maolt
++Sg+Tra:tOÖ1mAÄ1%>%^WCnsks    #   ; ! maoks
++Sg+Ess:tOÖ1mAÄ1%>%^LCns%^LVwsn    #   ; ! mattoon
++Sg+Exe:tOÖ1mAÄ1%>%^LCns%^LVwsnt    #   ; ! mattoont
 ! Plural
-+A+Pl+Nom:%>tOÖ1%>mAÄ1%>%^WCnst     #   ; ! maot
-+A+Pl+Gen:%>tOÖ1mi%>i%>n	#   ; ! matoloin
-+A+Pl+Par:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
-+A+Pl+Ill:%>tOÖ1m%>i%>hV1	#   ; ! kalattommii
-+A+Pl+Ine:%>tOÖ1m%>i%>s    #   ; ! matoloiz
-+A+Pl+Ela:%>tOÖ1m%>i%>st    #   ; ! matoloist
-+A+Pl+All:%>tOÖ1m%>i%>lle    #   ; ! matoloille
-+A+Pl+Ade:%>tOÖ1m%>i%>l    #   ; ! matoloil
-+A+Pl+Abl:%>tOÖ1m%>i%>lt    #   ; ! matoloilt
-+A+Pl+Tra:%>tOÖ1m%>i%>ks    #   ; ! matoloiks
-+A+Pl+Ess:%>tOÖ1m%>i%>n    #   ; ! matoloinna
-+A+Pl+Exe:%>tOÖ1m%>i%>nt    #   ; ! matoloint
++Pl+Nom:%>tOÖ1mAÄ1%>%^WCnst     #   ; ! maot
+:tOÖ1m PL-GEN  ; ! matoloin
++Pl+Par:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
++Pl+Ill:%>tOÖ1m%>i%>hV1	#   ; ! kalattommii
++Pl+Ine:%>tOÖ1m%>i%>s    #   ; ! matoloiz
++Pl+Ela:%>tOÖ1m%>i%>st    #   ; ! matoloist
++Pl+All:%>tOÖ1m%>i%>lle    #   ; ! matoloille
++Pl+Ade:%>tOÖ1m%>i%>l    #   ; ! matoloil
++Pl+Abl:%>tOÖ1m%>i%>lt    #   ; ! matoloilt
++Pl+Tra:%>tOÖ1m%>i%>ks    #   ; ! matoloiks
++Pl+Ess:%>tOÖ1m%>i%>n    #   ; ! matoloinna
++Pl+Exe:%>tOÖ1m%>i%>nt    #   ; ! matoloint
 
 ! kärpäin (XIII)
 LEXICON A-erilaajain

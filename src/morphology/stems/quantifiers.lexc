@@ -14,6 +14,7 @@ vähemmän:vähemmän QntTag  "" ;
 kaikkinee:kaikkinee QntTag  "" ;
 paljo:paljo Qnt-paljo  "" ;
 vähä:vähä Qnt-vähä  "" ;
+enä:enä Qnt-vähä  "" ;
 joka:joka QntUniv-attr  "each" ;
 yks:y Num-yks  "one" ;
 kaks:ka Num-yks  "two" ;
