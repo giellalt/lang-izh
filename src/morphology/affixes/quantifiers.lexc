@@ -11,7 +11,9 @@ LEXICON Ord-toin
 LEXICON Qnt-paljo
 +Qnt: N-mato_01 ;
 
+! vähä:vähä
 LEXICON Qnt-vähä
++Qnt+Comp:%>%^WCns%^E1mp MP ; !
 +Qnt: N-osa_01 ;
 
 LEXICON Qnt-monikas

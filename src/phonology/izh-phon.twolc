@@ -176,6 +176,11 @@ Rules
 "a:e"
  a:e <=> _ %>:0 %^WCns:0 %^E1:0 ;
 
+! ä to e in comparatives
+"ä:e"
+ ä:e <=> _ %>:0 %^WCns:0 %^E1:0 ;
+
+
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
@@ -361,7 +366,7 @@ t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] ] _  GRC ;
 
 ! lupa : luvan
 "p:v"
-p:v <=> [ #: ] Cns* Vws ( r | l ) _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
+p:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 "double pp to p"
 p:0 <=> [ #: Cns* Vws p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;

@@ -3,6 +3,8 @@
 LEXICON postpositions
 
 al:al PoTag  "" ;
+avul:avul PoTag  "" ;
+eest:eest PoTag  "" ;
 yli:yli PoTag  "" ;
 loon:loon PoTag  "" ;
 loitse:loitse PoTag  "" ;

@@ -185,7 +185,7 @@ LEXICON PronInterr-mikä
 ! ken: ke
 LEXICON PronInterr-ken
 +Pron+Interr+Sg+Nom:n     K   ;
-!+Pron+Interr+Pl+Nom:t     K   ;
++Pron+Interr+Pl+Nom:t     K   ;
 +Pron+Interr+Gen:nen  K   ;
 +Pron+Interr+Par:tä  K   ;
 !+Pron+Interr+Ill:he  K   ;

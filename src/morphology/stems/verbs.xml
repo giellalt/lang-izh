@@ -510,6 +510,28 @@
    </entry>
    <entry>
       <lg>
+         <l>kylvää</l>
+         <stg>
+            <st Contlex="V-näyttää">kylv</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kyntää</l>
          <stg>
             <st Contlex="V-näyttää">kynt</st>
@@ -953,6 +975,28 @@
          <l>painuttaissa</l>
          <stg>
             <st Contlex="V-painuttaissa">painuttai</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>erittäissä</l>
+         <stg>
+            <st Contlex="V-painuttaissa">erittäi</st>
          </stg>
       </lg>
       <pos>V</pos>

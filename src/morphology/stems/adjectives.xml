@@ -841,6 +841,28 @@
    </entry>
    <entry>
       <lg>
+         <l>korria</l>
+         <stg>
+            <st Contlex="A-kerkiä">korria</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>korkia</l>
          <stg>
             <st Contlex="A-kerkiä">korkia</st>
@@ -910,6 +932,28 @@
          <l>peeni</l>
          <stg>
             <st Contlex="A-peeni">peen</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>noori</l>
+         <stg>
+            <st Contlex="A-peeni">noor</st>
          </stg>
       </lg>
       <pos>A</pos>
