@@ -3,15 +3,15 @@
 !! Ingrian clitics...
 
 LEXICON K_Num
-@R.CARD.TOIST@ K_Num_01 ;
+@R.CARD.TOIST@@D.COMPLETE.YES@ K_Num_01 ;
  K ;
 
 LEXICON K_Num_01
 +Der/toist:toist K ;
-kymmen+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@:kymment@U.DECL-NX.SG@@U.DECL-CX.NOM@ Num-kaheksan_01 ;
-kymmen+Num+Card:#kymmenä Num-kaheksan_01 ;
-sata+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@:sattaa@U.DECL-NX.SG@@U.DECL-CX.NOM@ K ;
-sata+Num+Card:#sat N-kana_01 ;
+kymmen+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@:kymment@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@ Num-kaheksan_01 ;
+kymmen+Num+Card@U.COMPLETE.YES@:#kymmenä@U.COMPLETE.YES@ Num-kaheksan_01 ;
+sata+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@:sattaa@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@ K ;
+sata+Num+Card@U.COMPLETE.YES@:#sat@U.COMPLETE.YES@ N-kana_01 ;
 
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki
