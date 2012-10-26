@@ -1191,7 +1191,8 @@ LEXICON V-ActPrtPrc_st
 +ActPrtPrc:se V-ActPrtPrc_01 ;
 
 LEXICON V-ActPrtPrc_01
-:e%>%^LCnsmp MP	   ;
++Comp:e%>%^LCnsmp MP	   ;
+ N-lähe_01 ;
 :e%>%^LCns SG-GEN	   ;
 :e%>%^LCns SG-ILL_sse ;
 :e%>%^LCns SG-INE ;

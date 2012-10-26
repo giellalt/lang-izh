@@ -379,9 +379,9 @@ LEXICON N-patsas_01
 LEXICON N-lähe
 +N+Der/tOin:t A-kalatoin ; !
 +N: N-lähe_01 ;
++N+Sg+Nom:%>%^WCns      K                ;
 
 LEXICON N-lähe_01
-+Sg+Nom:%>%^WCns      K                ;
 :%>%^LCnsV2	       SG-GEN           ;
 :h%>V2	       SG-GEN           ;
 :%>%^WCnst       SG-PAR_tA 	;

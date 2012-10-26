@@ -165,8 +165,12 @@ Multichar_Symbols
 @U.DECL-CX.PRL@
 @U.DECL-CX.TRA@
 
+@U.COMPLETE.YES@
+@D.COMPLETE.YES@
+
 @C.DECL-CX@
 @C.DECL-NX@
+@C.COMPLETE@
 
 
 
