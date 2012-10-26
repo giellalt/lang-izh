@@ -183,7 +183,7 @@ LEXICON Qnt-mont
 
 ! sata:sat
 LEXICON Num-sata
-+Num+Ord: NumOrd ;
++Num+Ord: Ord-sattais ;
 +Num+Card: N-kana_01 ;
 
 ! neljä:neljä
@@ -270,7 +270,9 @@ LEXICON Num-viis_01
 :s    PL-EXE   ; ! matoloint
 +Dial/Lauk:s PL-COM   ; ! käsinkä
 
-
+! sata:sat
+LEXICON Ord-sattais
+:a%>%^LCnsis SG-NOM ; ! sattais
 
 ! from 3 onward
 LEXICON NumOrd

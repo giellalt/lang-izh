@@ -46,6 +46,28 @@
          </mg>
       </e>
    </entry>
+   <entry exclude="fst">
+      <lg>
+         <l>sattais</l>
+         <stg>
+            <st Contlex="Ord-sattais">sat</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>hundredth</t>
+            </tg>
+            <tg lang="fin">
+               <t>sadas</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
    <entry>
       <lg>
          <l>muu</l>

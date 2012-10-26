@@ -114,6 +114,28 @@
    </entry>
    <entry>
       <lg>
+         <l>veevvä</l>
+         <stg>
+            <st Contlex="V-jäävvä">vee</st>
+         </stg>
+      </lg>
+      <pos>V</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>viedä</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>toovva</l>
          <stg>
             <st Contlex="V-jäävvä">too</st>

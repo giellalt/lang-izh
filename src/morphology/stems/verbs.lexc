@@ -7,6 +7,7 @@ hävitä:hävi V-hävitä  "" ;
 mainita:maini V-merkitä  "" ;
 kehittyä:kehitty V-kutsua  "" ;
 jäävvä:jää V-jäävvä  "" ;
+veevvä:vee V-jäävvä  "" ;
 toovva:too V-jäävvä  "" ;
 saavva:saa V-jäävvä  "" ;
 voija:voi V-voija  "" ;
