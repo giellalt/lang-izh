@@ -7,6 +7,40 @@ LEXICON Comparisons
 +A+cmp:er       Cases   ;
 +A+sup:est      Cases   ;
 
+LEXICON A-harmaa
++A: A-harmaa_01 ;
+
+LEXICON A-harmaa_01
+ SG-NOM   ; ! harmaa
+ SG-GEN   ; ! harmaan
+ SG-PAR_tA   ; ! harmaata
+ SG-ILL_sse  ; ! harmaasse
+ SG-INE   ; ! harmaaz
+ SG-ELA   ; ! harmaast
+ SG-ALL   ; ! harmaalle
+ SG-ADE   ; ! harmaal
+ SG-ABL   ; ! harmaalt
+ SG-TRA   ; ! harmaaks
+ SG-ESS_nnA   ; ! harmaanna
+ SG-EXE   ; ! harmaant
+ SG-COM   ; ! harmaanka
+ SG-ABE   ; ! harmaanka
+
+ PL-NOM   ; ! harmaat
++Pl+Gen:%>i%>jen	#   ; ! harmaijen
+ PL-PAR_tA  ; ! harmaita
+ PL-ILL_sse   ; ! harmaisse
+ PL-INE   ; ! harmais
+ PL-ELA   ; ! harmaist
+ PL-ALL   ; ! harmaille
+ PL-ADE   ; ! harmail
+ PL-ABL   ; ! harmailt
+ PL-TRA   ; ! harmaiks
+ PL-ESS_nnA   ; ! harmainna
+ PL-EXE   ; ! harmaint
+ PL-COM   ; ! harmainka
+ PL-ABE   ; ! harmaita
+
 
 ! (II) N-mato
 LEXICON A-avvaaro
@@ -27,6 +61,15 @@ LEXICON A-uusi
 +A+Comp:te%>%^WCnsmp MP ; !
 +A: Num-viis_01 ;
 
+!check this 2012-10-29
+! vesselä:vesselä
+LEXICON A-vesselä
++A+Der/st:%>%^WCnsst AdvManner ; !
++A+Comp:%>%^WCnsmp MP ; !
++A: N-oma_01 ;
+
+
+
 LEXICON A-kitsas
 +A: N-patsas_01 ;
 
@@ -34,6 +77,9 @@ LEXICON A-kitsas
 
 LEXICON A-kalakas
 +A: A-kalakas_01 ;
+
+LEXICON A-hoono
++A: N-mato_01 ;
 
 LEXICON A-suur
 +A+Der/st:e%>%^WCnsst AdvManner ; !
@@ -56,7 +102,7 @@ LEXICON A-oma
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
-! kova:kov (??)
+! kova:kova (??)
 LEXICON A-kova
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCns%^E1mp MP ; !

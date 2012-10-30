@@ -136,6 +136,28 @@
    </entry>
    <entry>
       <lg>
+         <l>monikkain</l>
+         <stg>
+            <st Contlex="Qnt-monikkain">monikkai</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>moni</l>
          <stg>
             <st Contlex="Qnt-moni">mon</st>

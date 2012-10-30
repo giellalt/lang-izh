@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>tai</l>
+         <stg>
+            <st Contlex="CcTag">tai</st>
+         </stg>
+      </lg>
+      <pos>CC</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>ja</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>i</l>
          <stg>
             <st Contlex="CcTag">i</st>
