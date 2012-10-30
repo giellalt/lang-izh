@@ -88,7 +88,8 @@ LEXICON N-preesens_01
 :o PL-EXE   ; ! maint
 :o PL-COM   ; ! maanka
 
-
+LEXICON N-glasnoi
++N: A-glavnoi_01 ;
 
 ! mato (II)
 LEXICON N-mato
@@ -463,7 +464,7 @@ LEXICON N-vokala_01
 :a SG-TRA   ; ! jalaks
 :a SG-ESS_Vn   ; ! jalkaan
 :a SG-ESS_nnA   ; ! vokalanna
-:a SG-EXE   ; ! jalkaan
+:a SG-EXE   ; ! inƶenerant
 :a SG-COM   ; ! maanka
 ! Plural
 :a PL-NOM   ; ! vokalat
@@ -672,8 +673,9 @@ LEXICON N-tähti_01
 +Pl:  lOi-Pl ;
 +Pl+Nom:e%>%^WCnst     #   ; ! maot
 
-LEXICON N-orsi
+LEXICON N-varsi
  N-käsi ;
++N:s     SG-NOM   ; ! vars
 
 ! voosi:voo
 LEXICON N-voosi
@@ -1217,6 +1219,7 @@ LEXICON SG-ALL
 
 LEXICON SG-COM
 +Dial/Lauk+Sg+Com@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^WCnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
++Dial/Lauk+Sg+Com+PxSg3@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^LVnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
 
 LEXICON SG-ELA
 +Sg+Ela@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsst@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;

@@ -105,6 +105,7 @@ Multichar_Symbols
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A
+ +Der/Adj ! for derivation of adjectives without specification
  +Der/st ! for derivation of manner adverbs
  +Der/min ! Deverbal nouns
  +Der/miin ! Deverbal nouns
@@ -180,6 +181,7 @@ LEXICON Root
 0   adjectives  ;
 0   adverbs  ;
 0   conjunctions   ;
+0   interjections   ;
 0   nouns   ;
 0   particles    ;
 0   postpositions    ;
@@ -203,5 +205,11 @@ LEXICON CcTag
 
 LEXICON CsTag
 +Cs:   #   ;
+
+LEXICON AbbrDot
++ABBR:%. # ;
+
+LEXICON InterjTag
++Interj: # ;
 
 ! vim: set ft=xfst-lexc:

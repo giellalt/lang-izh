@@ -19,6 +19,9 @@ LEXICON Qnt-vähä
 LEXICON Qnt-monikas
 +Qnt: N-patsas_01 ;
 
+LEXICON Qnt-monikkain
++Qnt: N-kärpäin_01 ;
+
 LEXICON Qnt-moni
 +Qnt: N-keeli_01 ;
 
@@ -277,54 +280,54 @@ LEXICON Ord-sattais
 ! from 3 onward
 LEXICON NumOrd
 :%>%^WCnss     SG-NOM   ; ! kolmas
-:nte SG-GEN  ; ! kolmannen
-+Dial/Soik:nnehe SG-GEN  ; ! kolmannen
-:t SG-PAR_tA   ; ! kolmatt
-:nte   SG-ILL_V   ; ! kolmantee
-+Dial/Soik:nnehe   SG-ILL_V   ; ! kolmantee
-:nte SG-INE   ; ! kolmannees
-+Dial/Soik:nnehe SG-INE   ; ! kolmannehes
-:nte		   SG-ELA   ; ! yhest
-+Dial/Soik:nnehe   SG-ELA   ; ! yhest
-:nte               SG-ALL   ; ! kolmannelle
-+Dial/Soik:nnehe               SG-ALL   ; ! kolmannehelle
-:nte SG-ADE   ; ! kolmanneel
-+Dial/Soik:nnehe SG-ADE   ; ! kolmannehel
-:nte SG-ABL   ; ! maolt
-+Dial/Soik:nnehe SG-ABL   ; ! maolt
-:nte SG-TRA   ; ! maoks
-+Dial/Soik:nnehe SG-TRA   ; ! maoks
-:nte SG-ESS_nnA   ; ! kolmantenna
-+Dial/Soik:ntehe SG-ESS_Vn   ; ! kolmantehheen
-:nte    	 SG-EXE   ; ! mattoont
-+Dial/Soik:ntehe SG-EXE   ; ! mattoont
-+Sg+Instr:nte%>%^WCnsnkAÄ1    #   ; ! maanka
+:%>%^WCnsnte SG-GEN  ; ! kolmannen
++Dial/Soik:%>%^WCnsnnehe SG-GEN  ; ! kolmannehen
+:%>%^WCnst SG-PAR_tA   ; ! kolmatt
+:%>%^WCnsnte   SG-ILL_V   ; ! kolmantee
++Dial/Soik:%>%^WCnsnnehe   SG-ILL_V   ; ! kolmantee
+:%>%^WCnsnte SG-INE   ; ! kolmannees
++Dial/Soik:%>%^WCnsnnehe SG-INE   ; ! kolmannehes
+:%>%^WCnsnte		   SG-ELA   ; ! yhest
++Dial/Soik:%>%^WCnsnnehe   SG-ELA   ; ! yhest
+:%>%^WCnsnte               SG-ALL   ; ! kolmannelle
++Dial/Soik:%>%^WCnsnnehe               SG-ALL   ; ! kolmannehelle
+:%>%^WCnsnte SG-ADE   ; ! kolmanneel
++Dial/Soik:%>%^WCnsnnehe SG-ADE   ; ! kolmannehel
+:%>%^WCnsnte SG-ABL   ; ! maolt
++Dial/Soik:%>%^WCnsnnehe SG-ABL   ; ! maolt
+:%>%^WCnsnte SG-TRA   ; ! maoks
++Dial/Soik:%>%^WCnsnnehe SG-TRA   ; ! maoks
+:%>%^WCnsnte SG-ESS_nnA   ; ! kolmantenna
++Dial/Soik:%>%^WCnsntehe SG-ESS_Vn   ; ! kolmantehheen
+:%>%^WCnsnte    	 SG-EXE   ; ! mattoont
++Dial/Soik:%>%^WCnsntehe SG-EXE   ; ! mattoont
++Sg+Instr:%>%^WCnsnte%>%^WCnsnkAÄ1    #   ; ! maanka
 ! Plural
-:nte PL-NOM   ; ! kolmannet
-:ns                PL-GEN  ; ! kolmansiin
-+Dial/Soik:nneh    PL-GEN  ; ! kolmannehhiin
-:ns 		   PL-PAR_A  ; ! kolmansia
-+Dial/Soik:nneh    PL-PAR_A  ; ! kolmannehhia
-:ns 		   PL-ILL_V  ; ! kolmansii
-+Dial/Soik:nneh    PL-ILL_V  ; ! kolmannehhii
-:ns                PL-INE  ; ! kolmansis
-+Dial/Soik:nneh    PL-INE  ; ! kolmannehis
-:ns                PL-ELA  ; ! kolmansist
-+Dial/Soik:nneh    PL-ELA  ; ! kolmannehist
-:ns                PL-ALL  ; ! kolmansille
-+Dial/Soik:nneh    PL-ALL  ; ! kolmannehille
-:ns                PL-ADE  ; ! kolmansil
-+Dial/Soik:nneh    PL-ADE  ; ! kolmannehil
-:ns                PL-ABL  ; ! kolmansilt
-+Dial/Soik:nneh    PL-ABL  ; ! kolmannehilt
-:ns                PL-TRA  ; ! kolmansiks
-+Dial/Soik:nneh    PL-TRA  ; ! kolmannehiks
-:ns                PL-ESS_nnA  ; ! kolmansinna
-+Dial/Soik:nneh    PL-ESS_Vn  ; ! kolmannehhiin
-:ns                PL-EXE  ; ! kolmansint
-+Dial/Soik:nneh    PL-EXE  ; ! kolmannehint
-+Dial/Lauk:ns      PL-COM  ; ! kolmansiinka
-+Dial/Soik:nneh    PL-ALL  ; ! kolmannehille
+:%>%^WCnsnte PL-NOM   ; ! kolmannet
+:%>%^WCnsns                PL-GEN  ; ! kolmansiin
++Dial/Soik:%>%^WCnsnneh    PL-GEN  ; ! kolmannehhiin
+:%>%^WCnsns 		   PL-PAR_A  ; ! kolmansia
++Dial/Soik:%>%^WCnsnneh    PL-PAR_A  ; ! kolmannehhia
+:%>%^WCnsns 		   PL-ILL_V  ; ! kolmansii
++Dial/Soik:%>%^WCnsnneh    PL-ILL_V  ; ! kolmannehhii
+:%>%^WCnsns                PL-INE  ; ! kolmansis
++Dial/Soik:%>%^WCnsnneh    PL-INE  ; ! kolmannehis
+:%>%^WCnsns                PL-ELA  ; ! kolmansist
++Dial/Soik:%>%^WCnsnneh    PL-ELA  ; ! kolmannehist
+:%>%^WCnsns                PL-ALL  ; ! kolmansille
++Dial/Soik:%>%^WCnsnneh    PL-ALL  ; ! kolmannehille
+:%>%^WCnsns                PL-ADE  ; ! kolmansil
++Dial/Soik:%>%^WCnsnneh    PL-ADE  ; ! kolmannehil
+:%>%^WCnsns                PL-ABL  ; ! kolmansilt
++Dial/Soik:%>%^WCnsnneh    PL-ABL  ; ! kolmannehilt
+:%>%^WCnsns                PL-TRA  ; ! kolmansiks
++Dial/Soik:%>%^WCnsnneh    PL-TRA  ; ! kolmannehiks
++Dial/Lauk:%>%^WCnsns                PL-ESS_nnA  ; ! kolmansinna
++Dial/Soik:%>%^WCnsnneh    PL-ESS_Vn  ; ! kolmannehhiin
+:%>%^WCnsns                PL-EXE  ; ! kolmansint
++Dial/Soik:%>%^WCnsnneh    PL-EXE  ; ! kolmannehint
++Dial/Lauk:%>%^WCnsns      PL-COM  ; ! kolmansiinka
+
 
 
 ! joka

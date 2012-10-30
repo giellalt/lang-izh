@@ -8,6 +8,9 @@ LEXICON PropTag
 
 LEXICON letterName
 +N+Prop:%- letterName_01 ;
++N+Prop+Der/Adj:%-loppui A-erilaajain ;
++N+Prop:%-bukv N-jalka ;
++N+Prop:%-ään N-keeli ;
 
 LEXICON letterName_01
 +Sg+Gen:n    #  ; ! a-n

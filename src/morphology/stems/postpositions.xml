@@ -26,6 +26,28 @@
    </entry>
    <entry>
       <lg>
+         <l>alle</l>
+         <stg>
+            <st Contlex="PoTag">alle</st>
+         </stg>
+      </lg>
+      <pos>POSTP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>avul</l>
          <stg>
             <st Contlex="PoTag">avul</st>
