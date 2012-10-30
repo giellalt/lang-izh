@@ -56,6 +56,9 @@ V3:ä
 V3:ö
 V3:0
 
+! this k is not effected by gradation
+K1:k
+
 ! The ti => si
 %^TS:0
 
@@ -116,8 +119,7 @@ SV = [ [ #: | Cns+ ] :Vws ] ;
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: ]  ( %>:0 i ) |  %>:0 i ] %>:0 %^WCns:0  ;
-
+GRC =  [ [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: ]  ( %>:0 i ) |  %>:0  i ] %>:0 %^WCns:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
@@ -136,7 +138,7 @@ Rules
 
 ! A loss
 "StemALoss"
- X:Y <=>  _   ( %>:0 %^LCns:0 ) %>:0 i %>:0 ;
+ X:Y <=>  _   ( %>:0 %^LCns:0 ) %>:0 i: %>:0 ;
           where X in (a ä)
                 Y in (0 0) matched ;
 
@@ -323,7 +325,7 @@ Rules
  t:j <=> i i _ e %>: %^WCns:0 ;
 
 "st:ss weakening"
-t:s <=> Vws+ s _ GRC ;
+t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
 ! last-minute verbs
 ! "ti:si in verbs"
    [ n | l | r | Vws Vws ] _ %^TS:0 ; !  pittää: piti 
@@ -341,9 +343,9 @@ t:n <=>  Vws ( %>:0 %^WCns:0 ) n _ GRC ;
 !! p
 
 "mp:mm weakening"
-p:m <=> [ Vws ( %>:0 %^WCns:0 )| Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
+p:m <=> [ Vws ( %>:0 %^WCns:0 )| [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 ! [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
-
+!%> %^WCns %^E1 mp
 !! k
 
 "nk:ng weakening"

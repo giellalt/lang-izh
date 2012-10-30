@@ -576,6 +576,72 @@
    </entry>
    <entry>
       <lg>
+         <l>niinikkee</l>
+         <stg>
+            <st Contlex="AdvTag">niinikkee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tihtimpää</l>
+         <stg>
+            <st Contlex="AdvTag">tihtimpää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ohto</l>
+         <stg>
+            <st Contlex="AdvTag">ohto</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>peräjälkee</l>
          <stg>
             <st Contlex="AdvTag">peräjälkee</st>
@@ -667,6 +733,28 @@
          <l>etteepäin</l>
          <stg>
             <st Contlex="AdvSpat">etteepäin</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>seelt</l>
+         <stg>
+            <st Contlex="AdvSpat">seelt</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
@@ -1493,7 +1581,7 @@
                <t/>
             </tg>
             <tg lang="fin">
-               <t>aina</t>
+               <t/>
             </tg>
          </mg>
       </e>
