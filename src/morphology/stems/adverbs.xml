@@ -48,6 +48,116 @@
    </entry>
    <entry>
       <lg>
+         <l>hyvin</l>
+         <stg>
+            <st Contlex="AdvTag">hyvin</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>viimäks</l>
+         <stg>
+            <st Contlex="AdvTag">viimäks</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>voorollaa</l>
+         <stg>
+            <st Contlex="AdvTag">voorollaa</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>välimitee</l>
+         <stg>
+            <st Contlex="AdvTag">välimitee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>aintakii</l>
+         <stg>
+            <st Contlex="AdvTag">aintakii</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>oikiistaa</l>
          <stg>
             <st Contlex="AdvTag">oikiistaa</st>
@@ -422,6 +532,50 @@
    </entry>
    <entry>
       <lg>
+         <l>vast</l>
+         <stg>
+            <st Contlex="AdvTag">vast</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>valepäähä</l>
+         <stg>
+            <st Contlex="AdvTag">valepäähä</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>peräjälkee</l>
          <stg>
             <st Contlex="AdvTag">peräjälkee</st>
@@ -510,6 +664,72 @@
    </entry>
    <entry>
       <lg>
+         <l>etteepäin</l>
+         <stg>
+            <st Contlex="AdvSpat">etteepäin</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ettääl</l>
+         <stg>
+            <st Contlex="AdvSpat">ettääl</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>alempaan</l>
+         <stg>
+            <st Contlex="AdvSpat">alempaan</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>seel</l>
          <stg>
             <st Contlex="AdvSpat">seel</st>
@@ -535,6 +755,50 @@
          <l>pois</l>
          <stg>
             <st Contlex="AdvSpat">pois</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>yllääl</l>
+         <stg>
+            <st Contlex="AdvSpat">yllääl</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>yllää</l>
+         <stg>
+            <st Contlex="AdvSpat">yllää</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
