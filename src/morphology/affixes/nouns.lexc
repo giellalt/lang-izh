@@ -319,6 +319,38 @@ LEXICON N-kana_01
 LEXICON N-monikko
  N-mato ;
 
+! tytär:tyttä
+LEXICON N-tytär
++N:%>%^WCnsr    SG-NOM        ;
++N:%>%^WCnsr    SG-PAR_tA        ;
++N:r N-tytär_01 ;
+
+LEXICON N-tytär_01
+:e     SG-GEN           ;
+:e     SG-ILL_V		;
+:e     SG-INE		;
+:e     SG-ELA		;
+:e     SG-ALL		;
+:e     SG-ADE		;
+:e     SG-ABL		;
+:e     SG-TRA		;
+:e     SG-ESS_nnA		;
+:e     SG-EXE		;
+:e     SG-COM		;
+:e     PL-NOM		;
+     PL-GEN		;
+     PL-PAR_A		;
+     PL-ILL_V		;
+     PL-INE		;
+     PL-ELA		;
+     PL-ALL		;
+     PL-ADE		;
+     PL-ABL		;
+     PL-TRA		;
+     PL-ESS_Vn		;
+     PL-ESS_nnA		;
+     PL-EXE		;
+
 ! patsas:patsa
 LEXICON N-patsas
 +N+Der/tOin:%>V2%>%^WCnst A-kalatoin ; !
@@ -360,7 +392,7 @@ LEXICON N-patsas_01
 :%>V2      PL-INE		;
 :hi      PL-INE		;
 :%>V2      PL-ELA		;
-:%>V2h      PL-ELA		;
+:%>hi      PL-ELA		;
 :%>V2      PL-ALL		;
 :h      PL-ALL		;
 :%>V2      PL-ADE		;
@@ -407,7 +439,7 @@ LEXICON N-lähe_01
 :h%>%^LCns%>V2      SG-EXE		;
 :%>%^LCnsV2      PL-NOM		;
 :h%>V2      PL-NOM		;
-:e%>%^LCns Oblique-Plural_sse ;
+:%>%^LCns Oblique-Plural_sse ;
 :h Oblique-Plural_sse ;
 !! Check 2012-10-12
 :      PL-PAR_tA		;
@@ -760,20 +792,22 @@ LEXICON N-varis
 +N: N-varis_01 ;
 
 LEXICON N-varis_01
-+Sg+Nom:s           K  ;
+:s   SG-NOM  ;
 :kse SG-GEN ;
-+Sg+Par:s%>tAÄ1	#   ; ! varista
++Sg+Par:s%>t	#   ; ! varist
+:s SG-PAR_tA  ;
 :kse SG-ILL_V ;
 !+Sg+Ill:kse%>%^LCnsV1	#   ; ! mattoo
 :kse SG-INE ; ! variksees
-+Sg+Ela:kse%>st    #   ; ! variksest
-+Sg+All:kse%>lle    #   ; ! varikselle
+:kse SG-ELA   ; ! variksest
+:kse SG-ALL   ; ! varikselle
 :kse SG-ADE   ; ! varikseel
-+Sg+Abl:kse%>%^WCnslt    #   ; ! varikselt
-+Sg+Tra:kse%>%^WCnsks    #   ; ! varikseks
-+Sg+Ess:kse%>nnAÄ1    #   ; ! variksenna
-+Sg+Exe:kse%>nt			    K	; !variksent
-+Sg+Com:kse%>nkAÄ1    #   ; ! maanka
+:kse SG-ABL  ; ! varikselt
+:kse SG-TRA   ; ! varikseks
+:kse SG-ESS_nnA   ; ! variksenna
+:kse SG-ESS_Vn ;
+:kse SG-EXE	; !variksent
+:kse SG-COM  ; ! maanka
 ! Plural
 +Pl+Nom:kse%>%^WCnst     #   ; ! varikset
 +Pl+Gen:ks%>i%>n	#   ; ! variksin
@@ -791,7 +825,7 @@ LEXICON N-varis_01
 +Pl+Exe:ks%>i%>nt    #   ; ! variksinna
 +Pl+Com:ks%>i%>nkAÄ1    #   ; ! mataloinka
 
-! kärpäin (XIII)
+! kärpäin:kärpäi (XIII)
 LEXICON N-kärpäin
 +N+Der/tOin:se%>%^WCnst A-kalatoin ; !kärpäsetöin
 +N: N-kärpäin_01 ;
@@ -1219,7 +1253,7 @@ LEXICON SG-ALL
 
 LEXICON SG-COM
 +Dial/Lauk+Sg+Com@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^WCnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
-+Dial/Lauk+Sg+Com+PxSg3@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^LVnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
++Dial/Lauk+Sg+Com+PxSg3@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^LVwsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
 
 LEXICON SG-ELA
 +Sg+Ela@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsst@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;

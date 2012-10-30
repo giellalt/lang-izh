@@ -26,6 +26,7 @@ yheksän:yheksä Num-kaheksan  "" ;
 seitsen:seitse Num-seitsen  "" ;
 mont:mon Qnt-mont  "" ;
 sata:sat Num-sata  "" ;
+tuhat:tuha Num-tuhat  "" ;
 kakssattaa:kaks#sat Num-sata  "" ;
 koltsattaa:kolt#sat Num-sata  "" ;
 neljäsattaa:neljä#sat Num-sata  "" ;

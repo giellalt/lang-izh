@@ -277,6 +277,68 @@ LEXICON Num-viis_01
 LEXICON Ord-sattais
 :a%>%^LCnsis SG-NOM ; ! sattais
 
+! tuhattais:tuha
+LEXICON Num-tuhattais
++Num+Ord:ttais SG-NOM ;
+
+!tuhat:tuha
+LEXICON Num-tuhat
+ Num-tuhattais ;
++Num+Card:t SG-NOM ;
++Num+Card:t SG-PAR_tA ; !tuhatta
++Num+Card: Num-tuhat_01 ;
+
+LEXICON Num-tuhat_01
+:%>%^WCnsnte SG-GEN  ; ! tuhannen
++Dial/Soik:%>%^WCnsnnehe SG-GEN  ; ! tuhannehen
+:%>%^WCnst SG-PAR_tA   ; ! tuhatt
+:%>%^WCnsnte   SG-ILL_V   ; ! tuhantee
++Dial/Soik:%>%^WCnsnnehe   SG-ILL_V   ; ! tuhantee
+:%>%^WCnsnte SG-INE   ; ! tuhannees
++Dial/Soik:%>%^WCnsnnehe SG-INE   ; ! tuhannehes
+:%>%^WCnsnte		   SG-ELA   ; ! yhest
++Dial/Soik:%>%^WCnsnnehe   SG-ELA   ; ! yhest
+:%>%^WCnsnte               SG-ALL   ; ! tuhannelle
++Dial/Soik:%>%^WCnsnnehe               SG-ALL   ; ! tuhannehelle
+:%>%^WCnsnte SG-ADE   ; ! tuhanneel
++Dial/Soik:%>%^WCnsnnehe SG-ADE   ; ! tuhannehel
+:%>%^WCnsnte SG-ABL   ; ! maolt
++Dial/Soik:%>%^WCnsnnehe SG-ABL   ; ! maolt
+:%>%^WCnsnte SG-TRA   ; ! maoks
++Dial/Soik:%>%^WCnsnnehe SG-TRA   ; ! maoks
+:%>%^WCnsnte SG-ESS_nnA   ; ! tuhantenna
++Dial/Soik:%>%^WCnsntehe SG-ESS_Vn   ; ! tuhantehheen
+:%>%^WCnsnte    	 SG-EXE   ; ! mattoont
++Dial/Soik:%>%^WCnsntehe SG-EXE   ; ! mattoont
++Sg+Instr:%>%^WCnsnte%>%^WCnsnkAÄ1    #   ; ! maanka
+! Plural
+:%>%^WCnsnte PL-NOM   ; ! tuhannet
+:%>%^WCnsns                PL-GEN  ; ! tuhansiin
++Dial/Soik:%>%^WCnsnneh    PL-GEN  ; ! tuhannehhiin
+:%>%^WCnsns 		   PL-PAR_A  ; ! tuhansia
++Dial/Soik:%>%^WCnsnneh    PL-PAR_A  ; ! tuhannehhia
+:%>%^WCnsns 		   PL-ILL_V  ; ! tuhansii
++Dial/Soik:%>%^WCnsnneh    PL-ILL_V  ; ! tuhannehhii
+:%>%^WCnsns                PL-INE  ; ! tuhansis
++Dial/Soik:%>%^WCnsnneh    PL-INE  ; ! tuhannehis
+:%>%^WCnsns                PL-ELA  ; ! tuhansist
++Dial/Soik:%>%^WCnsnneh    PL-ELA  ; ! tuhannehist
+:%>%^WCnsns                PL-ALL  ; ! tuhansille
++Dial/Soik:%>%^WCnsnneh    PL-ALL  ; ! tuhannehille
+:%>%^WCnsns                PL-ADE  ; ! tuhansil
++Dial/Soik:%>%^WCnsnneh    PL-ADE  ; ! tuhannehil
+:%>%^WCnsns                PL-ABL  ; ! tuhansilt
++Dial/Soik:%>%^WCnsnneh    PL-ABL  ; ! tuhannehilt
+:%>%^WCnsns                PL-TRA  ; ! tuhansiks
++Dial/Soik:%>%^WCnsnneh    PL-TRA  ; ! tuhannehiks
++Dial/Lauk:%>%^WCnsns                PL-ESS_nnA  ; ! tuhansinna
++Dial/Soik:%>%^WCnsnneh    PL-ESS_Vn  ; ! tuhannehhiin
+:%>%^WCnsns                PL-EXE  ; ! tuhansint
++Dial/Soik:%>%^WCnsnneh    PL-EXE  ; ! tuhannehint
++Dial/Lauk:%>%^WCnsns      PL-COM  ; ! tuhansiinka
+
+
+
 ! from 3 onward
 LEXICON NumOrd
 :%>%^WCnss     SG-NOM   ; ! kolmas
