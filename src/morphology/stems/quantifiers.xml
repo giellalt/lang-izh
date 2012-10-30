@@ -554,6 +554,28 @@
    </entry>
    <entry>
       <lg>
+         <l>tuhat</l>
+         <stg>
+            <st Contlex="Num-tuhat">tuha</st>
+         </stg>
+      </lg>
+      <pos>NUM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kakssattaa</l>
          <stg>
             <st Contlex="Num-sata">kaks#sat</st>

@@ -59,6 +59,7 @@ LEXICON A-lihhaava
 LEXICON A-uusi
 +A+Der/st:te%>%^WCnsst AdvManner ; !
 +A+Comp:te%>%^WCnsmp MP ; !
++A:si SG-NOM ;
 +A: Num-viis_01 ;
 
 !check this 2012-10-29
@@ -66,7 +67,7 @@ LEXICON A-uusi
 LEXICON A-vesselä
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCnsmp MP ; !
-+A: N-oma_01 ;
++A: N-osa_01 ;
 
 
 
@@ -275,7 +276,7 @@ LEXICON A-kalatoin_01
 ! kärpäin (XIII)
 LEXICON A-erilaajain
 +A+Der/st:se%>%^WCnsst AdvManner ; !
-+A:semp MP ;
++A+Comp:semp MP ;
 +A:  N-kärpäin_01 ;
 
 LEXICON A-entiin

@@ -105,6 +105,7 @@ Multichar_Symbols
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A
+ +Der/jA ! actor name !!2012-10-30 
  +Der/Adj ! for derivation of adjectives without specification
  +Der/st ! for derivation of manner adverbs
  +Der/min ! Deverbal nouns
@@ -119,6 +120,7 @@ Multichar_Symbols
  {aä} {oö} {uü}
  %> V1 V2 V3 AÄ1 OÖ1 UY1 
  %^E1 %^TS
+ K1
 
 !! And following triggers to control variation
  {front} {back}
