@@ -80,15 +80,21 @@ LEXICON A-kitsas
 
 
 LEXICON A-kalakas
++A+Der/st:ast AdvManner ; !
++A+Comp:amp MP ; !
++A+Superl:imp MP ; !
 +A: A-kalakas_01 ;
 
 LEXICON A-hoono
++A+Comp:mp MP ; !
++A+Superl:imp MP-Oblique ; !
 +A: N-mato_01 ;
 
 LEXICON A-suur
 +A+Der/st:e%>%^WCnsst AdvManner ; !
 +A+Comp:e%>%^WCnsmp MP ; !
 +A+Sg+Nom: K ;
++A+Sg+Nom:i K ;
 +A: N-sammal_01 ;
 
 ! peeni:peen
@@ -228,30 +234,14 @@ LEXICON A-kalatoin
 
 LEXICON A-kalatoin_01 
 +Sg+Nom:OÖ1in     #   ; ! kalatoin
-+Sg+Gen:tOÖ1mAÄ1%>%^WCnsn	#   ; ! kalattomAÄ1n
 +Sg+Par:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
 +Sg+Ill:tOÖ1mAÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
-+Sg+Ine:tOÖ1mAÄ1%>%^WCns%^LVwsz    #   ; ! mAÄ1ooz
-+Sg+Ela:tOÖ1mAÄ1%>%^WCnsst    #   ; ! maost
-+Sg+All:tOÖ1mAÄ1%>%^WCnslle    #   ; ! maolle
-+Sg+Ade:tOÖ1mAÄ1%>%^WCns%^LVwsl    #   ; ! maool
-+Sg+Abl:tOÖ1mAÄ1%>%^WCnslt    #   ; ! maolt
-+Sg+Tra:tOÖ1mAÄ1%>%^WCnsks    #   ; ! maoks
-+Sg+Ess:tOÖ1mAÄ1%>%^LCns%^LVwsn    #   ; ! mattoon
-+Sg+Exe:tOÖ1mAÄ1%>%^LCns%^LVwsnt    #   ; ! mattoont
+:tOÖ1mAÄ1 Oblique-Singular ;
 ! Plural
 +Pl+Nom:%>tOÖ1mAÄ1%>%^WCnst     #   ; ! maot
-:tOÖ1m PL-GEN  ; ! matoloin
 +Pl+Par:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
 +Pl+Ill:%>tOÖ1m%>i%>hV1	#   ; ! kalattommii
-+Pl+Ine:%>tOÖ1m%>i%>s    #   ; ! matoloiz
-+Pl+Ela:%>tOÖ1m%>i%>st    #   ; ! matoloist
-+Pl+All:%>tOÖ1m%>i%>lle    #   ; ! matoloille
-+Pl+Ade:%>tOÖ1m%>i%>l    #   ; ! matoloil
-+Pl+Abl:%>tOÖ1m%>i%>lt    #   ; ! matoloilt
-+Pl+Tra:%>tOÖ1m%>i%>ks    #   ; ! matoloiks
-+Pl+Ess:%>tOÖ1m%>i%>n    #   ; ! matoloinna
-+Pl+Exe:%>tOÖ1m%>i%>nt    #   ; ! matoloint
+:tOÖ1m Oblique-Plural ;
 
 ! kärpäin (XIII)
 ! formerly A-erilaajain
@@ -298,32 +288,17 @@ LEXICON A-paremp
 LEXICON MP
 +Der/st:AÄ1%>%^WCnsst AdvManner ; !
 +Sg+Nom:     #   ; ! oma
-:AÄ1 SG-GEN  ; ! oman
 :AÄ1 SG-PAR_A  ; ! ommaa
 :AÄ1 SG-ILL_V   ; ! harvempaa
-:AÄ1 SG-INE   ; ! mAÄ1ooz
-:AÄ1 SG-ELA   ; ! maost
-:AÄ1 SG-ALL   ; ! maolle
-:AÄ1 SG-ADE   ; ! maool
-:AÄ1 SG-ABL   ; ! maolt
-:AÄ1 SG-TRA   ; ! maoks
-+Sg+Ess:AÄ1%>%^LCns%^LVwsn    #   ; ! mattoon
-+Sg+Ess:AÄ1%>%^LCns%^LVwsnnAÄ1    #   ; ! mattoonna
-+Sg+Exe:AÄ1%>%^LCns%^LVwsnt    #   ; ! mattoont
+:ÄA1 MP-Oblique ;
+
+LEXICON MP-Oblique
+ Oblique-Singular ;
 ! Plural
-+Pl+Nom:AÄ1%>%^WCnst     #   ; ! maot
-+Pl+Gen:i%>n	#   ; ! matoloin
-+Pl+Par:i%>AÄ1	#   ; ! matoloja
-+Pl+Ill:i%>hV1	#   ; ! kalattommii
-+Pl+Ine:i%>s    #   ; ! matoloiz
-+Pl+Ela:i%>st    #   ; ! matoloist
-+Pl+All:i%>lle    #   ; ! matoloille
-+Pl+Ade:i%>l    #   ; ! matoloil
-+Pl+Abl:i%>lt    #   ; ! matoloilt
-+Pl+Tra:i%>ks    #   ; ! matoloiks
-+Pl+Ess:i%>n    #   ; ! matoloin
-+Pl+Ess:i%>nnAÄ1    #   ; ! matoloinna
-+Pl+Exe:i%>nt    #   ; ! matoloint
+ PL-NOM ;
+ PL-PAR_A   ; ! matoloja
+ PL-ILL_V   ; ! kalattommii
+ Oblique-Plural ;
 
 
 LEXICON Attr-eri

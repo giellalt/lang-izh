@@ -61,6 +61,7 @@ LEXICON N-mato_01
  Oblique-Singular ;
 ! Plural
  lOi-Pl ;
+ Oblique-Plural ; ! PL-PAR and PL-ILL needed 2012-10-31
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N-koivu
@@ -554,7 +555,7 @@ LEXICON N-mehiläin_01
 :se  Oblique-Singular ;
 ! Plural
 :se     PL-NOM   ; ! mehiläiset
-:s      PL-PAR_A   ; ! variksia
+:s      PL-PAR_A-LCns   ; ! mehiläissiä
 :s      PL-ILL_V   ; ! mehiläisii
 :s    Oblique-Plural ;
 

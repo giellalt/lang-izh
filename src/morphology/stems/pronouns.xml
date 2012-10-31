@@ -290,6 +290,72 @@
    </entry>
    <entry>
       <lg>
+         <l>sikäläin</l>
+         <stg>
+            <st Contlex="Dem-sikäläin">sikäläi</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>täkäläin</l>
+         <stg>
+            <st Contlex="Dem-sikäläin">täkäläi</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>meikäläin</l>
+         <stg>
+            <st Contlex="Dem-sikäläin">meikäläi</st>
+         </stg>
+      </lg>
+      <pos>PRON-DEM</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>nämä</l>
          <stg>
             <st Contlex="Dem-nämä">nä</st>

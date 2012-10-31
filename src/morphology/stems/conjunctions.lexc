@@ -12,6 +12,8 @@ vaa:vaa CcTag  "" ;
 tali:tali CcTag  "" ;
 jos:jos CsTag  "" ;
 jot:jot CsTag  "" ;
+no:no CsTag  "" ;
+ko:ko CsTag  "" ;
 kons:kons CsTag  "" ;
 vaik:vaik CsTag  "" ;
 kuin:kuin CsTag  "" ;
