@@ -69,6 +69,9 @@ LEXICON A-vesselä
 +A+Comp:%>%^WCnsmp MP ; !
 +A: N-osa_01 ;
 
+! valmis:valmi
+LEXICON A-valmis
++A: N-patsas_01 ;
 
 
 LEXICON A-kitsas
@@ -166,35 +169,12 @@ LEXICON A-kalakas_01
 :hh      PL-EXE		;
 
 
-! kerkiä (??)
+! kerkiä:kerki (??)
 LEXICON A-kerkiä
-+A+Der/st:%>%^WCnsst AdvManner ; !
-+A+Comp:mp MP ; !
-+A+Sg+Nom:     #   ; ! oma
-+A+Sg+Gen:%>n	#   ; ! oman
-+A+Sg+Par:%>AÄ1	#   ; ! ommaa
-+A+Sg+Ill:%>V1	#   ; ! kalattommAÄ1a
-+A+Sg+Ine:%>s    #   ; ! mAÄ1ooz
-+A+Sg+Ela:%>st    #   ; ! maost
-+A+Sg+All:%>lle    #   ; ! maolle
-+A+Sg+Ade:%>%^WCns%^LVwsl    #   ; ! maool
-+A+Sg+Abl:%>lt    #   ; ! maolt
-+A+Sg+Tra:%>ks    #   ; ! maoks
-+A+Sg+Ess:%>%^LCns%^LVwsn    #   ; ! mattoon
-+A+Sg+Exe:%>%^LCns%^LVwsnt    #   ; ! mattoont
-! Plural
-+A+Pl+Nom:%>%^WCnst     #   ; ! maot
-+A+Pl+Gen:%>i%>n	#   ; ! matoloin
-+A+Pl+Par:%>i%>AÄ1	#   ; ! matoloja
-+A+Pl+Ill:%>i%>hV1	#   ; ! kalattommii
-+A+Pl+Ine:%>i%>s    #   ; ! matoloiz
-+A+Pl+Ela:%>i%>st    #   ; ! matoloist
-+A+Pl+All:%>i%>lle    #   ; ! matoloille
-+A+Pl+Ade:%>i%>l    #   ; ! matoloil
-+A+Pl+Abl:%>i%>lt    #   ; ! matoloilt
-+A+Pl+Tra:%>i%>ks    #   ; ! matoloiks
-+A+Pl+Ess:%>i%>n    #   ; ! matoloinna
-+A+Pl+Exe:%>i%>nt    #   ; ! matoloint
++A+Der/st:AÄ1%>%^WCnsst AdvManner ; !
++A+Comp:AÄ1mp MP ; !
++A: N-assia_01 ;
+
 
 ! lyhyt:lyhy (??)
 LEXICON A-lyhyt
@@ -274,13 +254,29 @@ LEXICON A-kalatoin_01
 +Pl+Exe:%>tOÖ1m%>i%>nt    #   ; ! matoloint
 
 ! kärpäin (XIII)
-LEXICON A-erilaajain
+! formerly A-erilaajain
+! punain:punai 
+!   2      3
+LEXICON A-punain
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A:  N-kärpäin_01 ;
 
+! entiin:enti
+!   2     3
 LEXICON A-entiin
++A+Der/st:se%>%^WCnsst AdvManner ; !
++A+Comp:semp MP ;
 +A: N-inmihiin_01 ;
+
+! pohjallin:pohjalli
+!    3        4
+LEXICON A-pohjallin
++A+Der/st:se%>%^WCnsst AdvManner ; !
++A+Comp:semp MP ;
++A: N-mehiläin_01 ;
+
+
 
 ! vahva:vahv ()
 LEXICON A-vahva

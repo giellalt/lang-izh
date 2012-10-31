@@ -365,7 +365,7 @@ k:0 <=> [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :C
 ! mato : maot, ! mato : maool
 ! tToZero in weak
 "Double stop:weakens tToZero"
-t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] ] _  GRC ;
+t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
         [ #: Cns*  Vws+ [ h | t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 

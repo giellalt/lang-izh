@@ -2,6 +2,14 @@
 !! ---------------
 !! Ingrian clitics...
 
+LEXICON K_V
+K_PotPers ;
+
+LEXICON K_PotPers
+      K ;
++Qst:k # ;
++Qst+Foc:kse # ;
+
 LEXICON K_Num
 @R.CARD.TOIST@@D.COMPLETE.YES@ K_Num_01 ;
  K ;
