@@ -818,6 +818,28 @@
    </entry>
    <entry>
       <lg>
+         <l>senperäst</l>
+         <stg>
+            <st Contlex="AdvTag">senperäst</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>peräjälkee</l>
          <stg>
             <st Contlex="AdvTag">peräjälkee</st>
@@ -1065,6 +1087,8 @@
          <stg>
             <st Contlex="AdvSpat">yllält</st>
             <st Contlex="AdvSpat">yllähält</st>
+            <st Contlex="AdvSpat">ylähält</st>
+            <st Contlex="AdvSpat">ylähäält</st>
             <st Contlex="AdvSpat">yllähäält</st>
          </stg>
       </lg>
@@ -1396,6 +1420,28 @@
          <l>ylempään</l>
          <stg>
             <st Contlex="AdvSpat">ylempään</st>
+         </stg>
+      </lg>
+      <pos>ADV-SPAT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>täält</l>
+         <stg>
+            <st Contlex="AdvSpat">täält</st>
          </stg>
       </lg>
       <pos>ADV-SPAT</pos>
@@ -1871,6 +1917,28 @@
             </tg>
             <tg lang="fin">
                <t>tavalla</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>yhelviisii</l>
+         <stg>
+            <st Contlex="AdvManner">yhelviisii</st>
+         </stg>
+      </lg>
+      <pos>ADV-MANNER</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>

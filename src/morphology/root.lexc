@@ -132,6 +132,7 @@ Multichar_Symbols
  %^OddSyll ! arvata, arvant but arvanneet
  %^StretchSyll2 ! creates ommeena from omena
  %^SyllBr ! syllable break for venät and lyhyt
+ %^RVws
 
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics:

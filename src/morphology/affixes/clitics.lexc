@@ -23,7 +23,7 @@ sata+Num+Card@U.COMPLETE.YES@:#sat@U.COMPLETE.YES@ N-kana_01 ;
 
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki
-+Clt/kAA:%>kAÄ1AÄ1	#    ; ! miulleka, heillekä
++Clt/kAA:%>kAÄ1AÄ1	#    ; ! miullekaa, heillekää
 		#    ; !
 
 ! vim: set ft=xfst-lexc:
