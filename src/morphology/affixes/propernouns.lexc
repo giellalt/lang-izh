@@ -33,8 +33,17 @@ LEXICON Prop-oktjabri
 +N+Prop: N-slovari_01 ;
 
 ! Koskin to kärpäin (XIII)
+! Koskin:Koski
+!   2      3
 LEXICON Prop-koskin
 +N+Prop: N-kärpäin_01 ;
+
+! Someroin:Someroi
+!   3        4
+LEXICON Prop-someroin
++N+Prop: N-mehiläin_01 ;
+
+
 
 ! to leikkuu (??)
 LEXICON Prop-laukaa

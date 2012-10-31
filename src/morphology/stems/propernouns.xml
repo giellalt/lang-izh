@@ -776,7 +776,7 @@
       <lg>
          <l>Someroin</l>
          <stg>
-            <st Contlex="Prop-koskin">Someroi</st>
+            <st Contlex="Prop-someroin">Someroi</st>
          </stg>
       </lg>
       <pos>PROP</pos>
@@ -843,6 +843,28 @@
          <l>oktjabri</l>
          <stg>
             <st Contlex="Prop-oktjabri">oktjabri</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Çimmervaldi</l>
+         <stg>
+            <st Contlex="Prop-oktjabri">Çimmervaldi</st>
          </stg>
       </lg>
       <pos>PROP</pos>
