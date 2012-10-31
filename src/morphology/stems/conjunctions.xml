@@ -224,6 +224,50 @@
    </entry>
    <entry>
       <lg>
+         <l>no</l>
+         <stg>
+            <st Contlex="CsTag">no</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ko</l>
+         <stg>
+            <st Contlex="CsTag">ko</st>
+         </stg>
+      </lg>
+      <pos>CS</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kons</l>
          <stg>
             <st Contlex="CsTag">kons</st>
