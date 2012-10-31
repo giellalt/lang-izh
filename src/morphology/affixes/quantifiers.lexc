@@ -5,7 +5,7 @@
 
 ! N-kärpäin (XIII)
 LEXICON Ord-toin
-+Num+Ord: N-kärpäin_01 ;
++Num+Ord: N-nain_01 ;
 
 ! N-mato (II)
 LEXICON Qnt-paljo
@@ -390,6 +390,9 @@ LEXICON NumOrd
 +Dial/Soik:%>%^WCnsnneh    PL-EXE  ; ! kolmannehint
 +Dial/Lauk:%>%^WCnsns      PL-COM  ; ! kolmansiinka
 
+! jokahiin:jokahi
+LEXICON QntUniv-attr
++Qnt+Univ: N-inmihiin_01 ;
 
 
 ! joka
