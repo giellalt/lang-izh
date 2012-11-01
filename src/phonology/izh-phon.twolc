@@ -60,6 +60,9 @@ V3:0
 K1:k
 %^NoGrad:0 ! This will be placed after a stem to break Gradation
 
+! this weakens the stem _ompel_ to _ommel_
+%^WGStem:0
+
 ! The ti => si
 %^TS:0
 
@@ -351,6 +354,7 @@ t:n <=>  Vws ( %>:0 %^WCns:0 ) n _ GRC ;
 
 "mp:mm weakening"
 p:m <=> [ :Vws ( %>:0 %^WCns:0 ) | [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | AÄ1: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | AÄ1: %>:0 %^WCns:0 ( V3: ) Cns | %^TS:0 i %>:0 %^WCns:0 ] ;
+        m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
 ! [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
 !%> %^WCns %^E1 mp
 !!
@@ -374,7 +378,7 @@ k:0 <=> [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :C
 "Double stop:weakens tToZero"
 t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
         [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
-
+        t _ Vws l %^WGStem:0 ; ! ottel- to otel-
 
 ! lupa : luvan
 "p:v"
