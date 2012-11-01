@@ -6,7 +6,7 @@
       <lg>
          <l>ensimäin</l>
          <stg>
-            <st Contlex="Ord-toin">ensimäi</st>
+            <st Contlex="Ord-ensimäin">ensimäi</st>
          </stg>
       </lg>
       <pos>QNT</pos>
@@ -20,6 +20,50 @@
             </tg>
             <tg lang="fin">
                <t>ensimmäinen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>ylempäin</l>
+         <stg>
+            <st Contlex="Ord-ensimäin">ylempäi</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>jälkimäin</l>
+         <stg>
+            <st Contlex="Ord-ensimäin">jälkimäi</st>
+         </stg>
+      </lg>
+      <pos>QNT</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
             </tg>
          </mg>
       </e>

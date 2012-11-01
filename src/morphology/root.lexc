@@ -26,18 +26,23 @@ Multichar_Symbols
 
 !! The parts-of-speech are:
  +N +A +Adv +V
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num 
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+!!! Types of nouns include
+ +Prop
+!!! Types of pronouns include
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
-!! Types of adverbs include
+!!! Types of adverbs include
  +Manner +Spat +Temp
 
 !! The Usage extents are marked using following tags:
  +Use/Sub   
  +Use/-Spell 
 
+!! Overgeneration of case formatives, such as, exessive with personal pronouns
+ +Err/OverG 
 !! Dialects
  +Dial/Soik ! Peculiar to Soikkola
  +Dial/Lauk ! Peculiar to Laukaa
@@ -51,7 +56,7 @@ Multichar_Symbols
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
-!! Numerals are classified under:
+!! Numerals and other quantifiers are classified under:
  +Attr +Card
  +Ord 
  +Univ ! universal quantifier
@@ -120,7 +125,7 @@ Multichar_Symbols
  {aä} {oö} {uü}
  %> V1 V2 V3 AÄ1 OÖ1 UY1 
  %^E1 %^TS
- K1
+ K1 %^NoGrad
 
 !! And following triggers to control variation
  {front} {back}
@@ -144,6 +149,10 @@ Multichar_Symbols
 @U.CARD.TOIST@
 @R.CARD.TOIST@
 @C.CARD@
+!! Part of speech
+@U.POS.N@
+@R.POS.N@
+@C.POS@
 
 !!! FLAGS USED WITH COLLECTIVE NOUNS
 ! number
@@ -185,7 +194,7 @@ LEXICON Root
 0   adverbs  ;
 0   conjunctions   ;
 0   interjections   ;
-0   nouns   ;
+@U.POS.N@   nouns   ;
 0   particles    ;
 0   postpositions    ;
 0   prepositions    ;
