@@ -7,6 +7,11 @@
 LEXICON Ord-toin
 +Num+Ord: N-nain_01 ;
 
+! N-kärpäin (XIII)
+LEXICON Ord-ensimäin
++Num+Ord: N-mehiläin_01 ;
+
+
 ! N-mato (II)
 LEXICON Qnt-paljo
 +Qnt: N-mato_01 ;
@@ -95,7 +100,8 @@ LEXICON Num-yks
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-yks_01 ;
 
 LEXICON Num-yks_01
-:ks     SG-NOM   ; ! yksi
+:ks     SG-NOM   ; ! yks
+:ksi     SG-NOM   ; ! yksi
 :hte	SG-GEN   ; ! yhen
 :h 	SG-PAR_tA  ; ! yhtä
 :hte    SG-ILL_V   ; ! ortee
@@ -244,34 +250,14 @@ LEXICON Num-viis
 
 LEXICON Num-viis_01
 :s     SG-NOM   ; ! viis
-:te SG-GEN   ; ! orren
 :t SG-PAR_tA  ; ! ortta
 :te SG-ILL_V  ; ! ortee
-:te SG-INE   ; ! orrees
-:te SG-ELA   ; ! maost
-:te SG-ALL   ; ! maolle
-:te SG-ADE   ; ! maool
-:te SG-ABL   ; ! maolt
-:te SG-TRA   ; ! maoks
-+Dial/Lauk:te SG-ESS_nnA   ; ! mattoon
-+Dial/Soik:te SG-ESS_Vn   ; ! mattoon
-:te SG-EXE  ; ! mattoont
-+Dial/Lauk:te SG-COM   ; ! maanka
+:te Oblique-Singular ;
 ! Plural
 :te PL-NOM   ; ! maot
-:s PL-GEN    ; ! matoloin
 :s PL-PAR_A-LCns  ;
 :s PL-ILL_V   ; ! kässii
-:s PL-INE   ; ! matoloiz
-:s PL-ELA   ; ! matoloist
-:s PL-ALL   ; ! matoloille
-:s PL-ADE   ; ! matoloil
-:s PL-ABL   ; ! matoloilt
-:s PL-TRA  ; ! käsiks
-+Dial/Lauk:s PL-ESS_nnA   ; ! matoloin
-+Dial/Soik:s PL-ESS_Vn   ; ! matoloin
-:s    PL-EXE   ; ! matoloint
-+Dial/Lauk:s PL-COM   ; ! käsinkä
+:s Oblique-Plural ;
 
 ! sata:sat
 LEXICON Ord-sattais
@@ -289,109 +275,41 @@ LEXICON Num-tuhat
 +Num+Card: Num-tuhat_01 ;
 
 LEXICON Num-tuhat_01
-:%>%^WCnsnte SG-GEN  ; ! tuhannen
-+Dial/Soik:%>%^WCnsnnehe SG-GEN  ; ! tuhannehen
 :%>%^WCnst SG-PAR_tA   ; ! tuhatt
 :%>%^WCnsnte   SG-ILL_V   ; ! tuhantee
 +Dial/Soik:%>%^WCnsnnehe   SG-ILL_V   ; ! tuhantee
-:%>%^WCnsnte SG-INE   ; ! tuhannees
-+Dial/Soik:%>%^WCnsnnehe SG-INE   ; ! tuhannehes
-:%>%^WCnsnte		   SG-ELA   ; ! yhest
-+Dial/Soik:%>%^WCnsnnehe   SG-ELA   ; ! yhest
-:%>%^WCnsnte               SG-ALL   ; ! tuhannelle
-+Dial/Soik:%>%^WCnsnnehe               SG-ALL   ; ! tuhannehelle
-:%>%^WCnsnte SG-ADE   ; ! tuhanneel
-+Dial/Soik:%>%^WCnsnnehe SG-ADE   ; ! tuhannehel
-:%>%^WCnsnte SG-ABL   ; ! maolt
-+Dial/Soik:%>%^WCnsnnehe SG-ABL   ; ! maolt
-:%>%^WCnsnte SG-TRA   ; ! maoks
-+Dial/Soik:%>%^WCnsnnehe SG-TRA   ; ! maoks
-:%>%^WCnsnte SG-ESS_nnA   ; ! tuhantenna
-+Dial/Soik:%>%^WCnsntehe SG-ESS_Vn   ; ! tuhantehheen
-:%>%^WCnsnte    	 SG-EXE   ; ! mattoont
-+Dial/Soik:%>%^WCnsntehe SG-EXE   ; ! mattoont
-+Sg+Instr:%>%^WCnsnte%>%^WCnsnkAÄ1    #   ; ! maanka
+:%>%^WCnsnte Oblique-Singular ;
++Dial/Soik:%>%^WCnsnnehe Oblique-Singular ;
 ! Plural
 :%>%^WCnsnte PL-NOM   ; ! tuhannet
-:%>%^WCnsns                PL-GEN  ; ! tuhansiin
-+Dial/Soik:%>%^WCnsnneh    PL-GEN  ; ! tuhannehhiin
 :%>%^WCnsns 		   PL-PAR_A  ; ! tuhansia
 +Dial/Soik:%>%^WCnsnneh    PL-PAR_A  ; ! tuhannehhia
 :%>%^WCnsns 		   PL-ILL_V  ; ! tuhansii
 +Dial/Soik:%>%^WCnsnneh    PL-ILL_V  ; ! tuhannehhii
-:%>%^WCnsns                PL-INE  ; ! tuhansis
-+Dial/Soik:%>%^WCnsnneh    PL-INE  ; ! tuhannehis
-:%>%^WCnsns                PL-ELA  ; ! tuhansist
-+Dial/Soik:%>%^WCnsnneh    PL-ELA  ; ! tuhannehist
-:%>%^WCnsns                PL-ALL  ; ! tuhansille
-+Dial/Soik:%>%^WCnsnneh    PL-ALL  ; ! tuhannehille
-:%>%^WCnsns                PL-ADE  ; ! tuhansil
-+Dial/Soik:%>%^WCnsnneh    PL-ADE  ; ! tuhannehil
-:%>%^WCnsns                PL-ABL  ; ! tuhansilt
-+Dial/Soik:%>%^WCnsnneh    PL-ABL  ; ! tuhannehilt
-:%>%^WCnsns                PL-TRA  ; ! tuhansiks
-+Dial/Soik:%>%^WCnsnneh    PL-TRA  ; ! tuhannehiks
-+Dial/Lauk:%>%^WCnsns                PL-ESS_nnA  ; ! tuhansinna
-+Dial/Soik:%>%^WCnsnneh    PL-ESS_Vn  ; ! tuhannehhiin
-:%>%^WCnsns                PL-EXE  ; ! tuhansint
-+Dial/Soik:%>%^WCnsnneh    PL-EXE  ; ! tuhannehint
-+Dial/Lauk:%>%^WCnsns      PL-COM  ; ! tuhansiinka
-
+:%>%^WCnsns  Oblique-Plural ;
++Dial/Soik:%>%^WCnsnneh Oblique-Plural ;
 
 
 ! from 3 onward
 LEXICON NumOrd
 :%>%^WCnss     SG-NOM   ; ! kolmas
-:%>%^WCnsnte SG-GEN  ; ! kolmannen
-+Dial/Soik:%>%^WCnsnnehe SG-GEN  ; ! kolmannehen
 :%>%^WCnst SG-PAR_tA   ; ! kolmatt
 :%>%^WCnsnte   SG-ILL_V   ; ! kolmantee
 +Dial/Soik:%>%^WCnsnnehe   SG-ILL_V   ; ! kolmantee
-:%>%^WCnsnte SG-INE   ; ! kolmannees
-+Dial/Soik:%>%^WCnsnnehe SG-INE   ; ! kolmannehes
-:%>%^WCnsnte		   SG-ELA   ; ! yhest
-+Dial/Soik:%>%^WCnsnnehe   SG-ELA   ; ! yhest
-:%>%^WCnsnte               SG-ALL   ; ! kolmannelle
-+Dial/Soik:%>%^WCnsnnehe               SG-ALL   ; ! kolmannehelle
-:%>%^WCnsnte SG-ADE   ; ! kolmanneel
-+Dial/Soik:%>%^WCnsnnehe SG-ADE   ; ! kolmannehel
-:%>%^WCnsnte SG-ABL   ; ! maolt
-+Dial/Soik:%>%^WCnsnnehe SG-ABL   ; ! maolt
-:%>%^WCnsnte SG-TRA   ; ! maoks
-+Dial/Soik:%>%^WCnsnnehe SG-TRA   ; ! maoks
-:%>%^WCnsnte SG-ESS_nnA   ; ! kolmantenna
-+Dial/Soik:%>%^WCnsntehe SG-ESS_Vn   ; ! kolmantehheen
-:%>%^WCnsnte    	 SG-EXE   ; ! mattoont
-+Dial/Soik:%>%^WCnsntehe SG-EXE   ; ! mattoont
-+Sg+Instr:%>%^WCnsnte%>%^WCnsnkAÄ1    #   ; ! maanka
+:%>%^WCnsnte Oblique-Singular ;
++Dial/Soik:%>%^WCnsnnehe Oblique-Singular ;
 ! Plural
 :%>%^WCnsnte PL-NOM   ; ! kolmannet
-:%>%^WCnsns                PL-GEN  ; ! kolmansiin
-+Dial/Soik:%>%^WCnsnneh    PL-GEN  ; ! kolmannehhiin
 :%>%^WCnsns 		   PL-PAR_A  ; ! kolmansia
 +Dial/Soik:%>%^WCnsnneh    PL-PAR_A  ; ! kolmannehhia
 :%>%^WCnsns 		   PL-ILL_V  ; ! kolmansii
 +Dial/Soik:%>%^WCnsnneh    PL-ILL_V  ; ! kolmannehhii
-:%>%^WCnsns                PL-INE  ; ! kolmansis
-+Dial/Soik:%>%^WCnsnneh    PL-INE  ; ! kolmannehis
-:%>%^WCnsns                PL-ELA  ; ! kolmansist
-+Dial/Soik:%>%^WCnsnneh    PL-ELA  ; ! kolmannehist
-:%>%^WCnsns                PL-ALL  ; ! kolmansille
-+Dial/Soik:%>%^WCnsnneh    PL-ALL  ; ! kolmannehille
-:%>%^WCnsns                PL-ADE  ; ! kolmansil
-+Dial/Soik:%>%^WCnsnneh    PL-ADE  ; ! kolmannehil
-:%>%^WCnsns                PL-ABL  ; ! kolmansilt
-+Dial/Soik:%>%^WCnsnneh    PL-ABL  ; ! kolmannehilt
-:%>%^WCnsns                PL-TRA  ; ! kolmansiks
-+Dial/Soik:%>%^WCnsnneh    PL-TRA  ; ! kolmannehiks
-+Dial/Lauk:%>%^WCnsns                PL-ESS_nnA  ; ! kolmansinna
-+Dial/Soik:%>%^WCnsnneh    PL-ESS_Vn  ; ! kolmannehhiin
-:%>%^WCnsns                PL-EXE  ; ! kolmansint
-+Dial/Soik:%>%^WCnsnneh    PL-EXE  ; ! kolmannehint
-+Dial/Lauk:%>%^WCnsns      PL-COM  ; ! kolmansiinka
+:%>%^WCnsns Oblique-Plural ;
++Dial/Soik:%>%^WCnsnneh Oblique-Plural ;
+
 
 ! jokahiin:jokahi
-LEXICON QntUniv-attr
+LEXICON QntUniv-jokahiin
 +Qnt+Univ: N-inmihiin_01 ;
 
 

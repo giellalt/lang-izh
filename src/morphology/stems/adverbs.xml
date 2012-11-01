@@ -48,6 +48,28 @@
    </entry>
    <entry>
       <lg>
+         <l>keskenää</l>
+         <stg>
+            <st Contlex="AdvTag">keskenää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>hyvin</l>
          <stg>
             <st Contlex="AdvTag">hyvin</st>
@@ -862,6 +884,94 @@
    </entry>
    <entry>
       <lg>
+         <l>perätystää</l>
+         <stg>
+            <st Contlex="AdvTag">perätystää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>perätykkee</l>
+         <stg>
+            <st Contlex="AdvTag">perätykkee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>perätikko</l>
+         <stg>
+            <st Contlex="AdvTag">perätikko</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>perrääpäin</l>
+         <stg>
+            <st Contlex="AdvTag">perrääpäin</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>sentää</l>
          <stg>
             <st Contlex="AdvTag">sentää</st>
@@ -1574,6 +1684,28 @@
          <l>varraa</l>
          <stg>
             <st Contlex="AdvTemp">varraa</st>
+         </stg>
+      </lg>
+      <pos>ADV-TEMP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>eilen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>koht</l>
+         <stg>
+            <st Contlex="AdvTemp">koht</st>
          </stg>
       </lg>
       <pos>ADV-TEMP</pos>

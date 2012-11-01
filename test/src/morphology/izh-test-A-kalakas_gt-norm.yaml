@@ -15,32 +15,32 @@ Tests:
 
 
   Adjective - kalakas: # Adjective 'with plenty of fish'
-     kalakas+N+Sg+Nom: kalakas
-     kalakas+N+Sg+Gen: kalakkaan
-     kalakas+N+Sg+Acc: kalakkaan
-     kalakas+N+Sg+Par: kalakasta
-     kalakas+N+Sg+Ill: kalakkaasse
-     kalakas+N+Sg+Ine: kalakkaas
-     kalakas+N+Sg+Ela: kalakkaast
-     kalakas+N+Sg+All: kalakkaalle
-     kalakas+N+Sg+Ade: kalakkaal
-     kalakas+N+Sg+Abl: kalakkaalt
-     kalakas+N+Sg+Tra: kalakkaaks
-     kalakas+N+Sg+Ess: kalakkaanna
-     kalakas+N+Sg+Exe: kalakkaant
+     kalakas+A+Sg+Nom: kalakas
+     kalakas+A+Sg+Gen: kalakkaan
+     kalakas+A+Sg+Acc: kalakkaan
+     kalakas+A+Sg+Par: kalakasta
+     kalakas+A+Sg+Ill: kalakkaasse
+     kalakas+A+Sg+Ine: kalakkaas
+     kalakas+A+Sg+Ela: kalakkaast
+     kalakas+A+Sg+All: kalakkaalle
+     kalakas+A+Sg+Ade: kalakkaal
+     kalakas+A+Sg+Abl: kalakkaalt
+     kalakas+A+Sg+Tra: kalakkaaks
+     kalakas+A+Sg+Ess: kalakkaanna
+     kalakas+A+Sg+Exe: kalakkaant
 
-     kalakas+N+Pl+Nom: kalakkaat
-     kalakas+N+Pl+Gen: kalakkain
-     kalakas+N+Pl+Acc: kalakkaat
-     kalakas+N+Pl+Par: kalakkaita
-     kalakas+N+Pl+Ill: kalakkaisse
-     kalakas+N+Pl+Ine: kalakkais
-     kalakas+N+Pl+Ela: kalakkaist
-     kalakas+N+Pl+All: kalakkaille
-     kalakas+N+Pl+Ade: kalakkail
-     kalakas+N+Pl+Abl: kalakkailt
-     kalakas+N+Pl+Tra: kalakkaiks
-     kalakas+N+Pl+Ess: kalakkainna
-     kalakas+N+Pl+Exe: kalakkaint
+     kalakas+A+Pl+Nom: kalakkaat
+     kalakas+A+Pl+Gen: kalakkain
+     kalakas+A+Pl+Acc: kalakkaat
+     kalakas+A+Pl+Par: kalakkaita
+     kalakas+A+Pl+Ill: kalakkaisse
+     kalakas+A+Pl+Ine: kalakkais
+     kalakas+A+Pl+Ela: kalakkaist
+     kalakas+A+Pl+All: kalakkaille
+     kalakas+A+Pl+Ade: kalakkail
+     kalakas+A+Pl+Abl: kalakkailt
+     kalakas+A+Pl+Tra: kalakkaiks
+     kalakas+A+Pl+Ess: kalakkainna
+     kalakas+A+Pl+Exe: kalakkaint
 
 

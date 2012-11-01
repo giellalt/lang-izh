@@ -123,7 +123,63 @@ LEXICON V-jäävvä_01
 ! +V+Inf+Ela:olemast      #   ;
 +Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
 ! +V+Ger:ollees		#   ;
-+Der/miin:a%>mi N-inmihiin ;
++Der/miin:mi N-inmihiin ; ! jäämiin
+
+! käyvvä:kä
+LEXICON V-käyvvä
++V: V-käyvvä_01 ;
+
+LEXICON V-käyvvä_01
++Ind+Prs+Sg1:yn	#   ; ! oon
++Ind+Prs+Sg2:yt 	#   ;
++Ind+Prs+Sg3:yp	K_V   ;
++Ind+Prs+Pl1:ymmAÄ1	#   ;
++Ind+Prs+Pl2:yttAÄ1	#   ;
++Ind+Prs+Pl3:yvAÄ1t	K_V   ;
++Ind+Prs+4:yvvAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:y		#   ;
+
+:vi IndPrt ;
+!
+!+Ind+Prt+Pl3:%>i%>vAÄ1t     K_V   ;
++Ind+Prt+Pl3:ytii     #   ;
+!+V+Ind+ConNeg+Prt:tUY1         #   ;
+
+:yn PotPers ; ! jäänöö
+
+!+V+Pot+4:      #   ;
+!+V+Pot+ConNeg:oo                #   ;
+
+:v CondPers ;
+!+Cond+Sg1:%>i%>sin      #   ; ! oon
+!+Cond+Sg2:%>i%>sit      #   ;
+!+Cond+Sg3:%>i%>s      #   ;
+!+Cond+Pl1:%>i%>simmAÄ1    #   ;
+!+Cond+Pl2:%>i%>sittAÄ1    #   ;
+!+Cond+Pl3:%>i%>sivAÄ1t     #   ;
++Cond+4:ytAÄ1is      #   ;
+! !+V+Cond+ConNeg:oo                #   ;
++V:y ImprtPers_k ;
+! 
+! +V+Imprt+Sg2:oo      #   ;
+! +V+Imprt+4:oltakoo      #   ;
+! !+V+Imprt+ConNeg:oo                #   ;
+! 
+:vi V-actor_jA ;
+:y V-ActPrsPrc ; ! jäävä
+:y V-ActPrtPrc_nt ; ! jäänt
+! +V+Prc:oltava			       #   ;
++V+PrtPrc:ytUY1		A-kova   ;
++V+Inf+Der/tOin:ymAÄ1t A-kalatoin ; ! jäämätöin
+! 
++Inf:yvvAÄ1             #   ;
++Inf:ymAÄ1  SG-ILL_V  ;
+! +V+Inf+Ine:olemaas      #   ;
+! +V+Inf+Ela:olemast      #   ;
++Inf:ymAÄ1 SG-ABE ; ! käymätä
+! +V+Ger:ollees		#   ;
++Der/miin:ymi N-inmihiin ; !käymiin
+
 
 !tuuvva:too
 LEXICON V-tuuvva
@@ -139,7 +195,7 @@ LEXICON V-tuuvva_01
 +Ind+Prs+4:vvAÄ1%^RVwsAÄ1	#   ;
 +Ind+Prs+ConNeg:		#   ;
 
-:oi IndPrt ;
+:%>i%> IndPrt ;
 !
 !+Ind+Prt+Pl3:%>i%>vAÄ1t     K_V   ;
 +Ind+Prt+Pl3:tii     #   ;
@@ -147,7 +203,7 @@ LEXICON V-tuuvva_01
 
 :n PotPers ; ! jäänöö
 
-!+V+Pot+4:      #   ;
++Pot+4:tAÄ1nOÖ1OÖ1      K_V   ;
 !+V+Pot+ConNeg:                #   ;
 
 +Cond+Sg1:%>i%>sin      #   ; ! oon
@@ -248,7 +304,8 @@ LEXICON V-antaa_01
 +Ind+Prs+4:e%>%^WCnstaa	#   ;
 +Ind+Prs+ConNeg:a%>%^WCns	#   ;
 
-:oi IndPrt ;
+:o%>%^WCnsi IndPrt_1-2 ;
+:oi IndPrt_3 ;
 !+Ind+Prt+Sg1:o%>%^WCnsin       #   ; ! oon
 !+Ind+Prt+Sg2:o%>%^WCnsit       #   ;
 !+Ind+Prt+Sg3:oi        #   ;
@@ -273,8 +330,8 @@ LEXICON V-antaa_01
 
 ! 
 +V:a ImprtPers_k ;
-! +Imprt+Sg2:oo      #   ;
-! +Imprt+4:oltakoo      #   ;
++Imprt+Sg2:a%>%^WCns      #   ;
++Imprt+4:e%>%^WCnsttAÄ1kkOÖ1OÖ1     #   ;
 ! !+Imprt+ConNeg:oo                #   ;
 ! 
 :a V-actor_jA ; !
@@ -496,11 +553,11 @@ LEXICON V-kutsua_01
 !+Ind+Prt+Pl2:%>%^WCnsitta     #   ;
 +Dial/Lauk+Ind+Prt+Pl3:ivat     K_V   ;
 +Dial/Soik+Ind+Prt+Pl3:it     K_V   ;
-+Ind+Prt+Pl3:%>%^WCnsttii     #   ;
++Ind+Prt+Pl3:%>%^WCnsttii     K_V   ;
 !+V+Ind+ConNeg+Prt:%>%^WCnsttu         #   ;
 
 :n PotPers ; !
-!+V+Pot+4:ollaa      #   ;
++Pot+4:%>%^WCnsttAÄ1nOÖ1OÖ1 K_V   ;
 !+V+Pot+ConNeg:oo                #   ;
 
  CondPers ; ! kutsuisin
@@ -544,7 +601,7 @@ LEXICON V-kirjuttaa_01
 +Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 +Ind+Prs+4+ConNeg:e%>%^WCnstAÄ1	#   ;
 
-:i IndPrt ;
+:%^TSi IndPrt ;
 !+Ind+Prt+Sg1:%^TSi%>%^WCnsn       #   ; ! kirjutin
 !+Ind+Prt+Sg2:%^TSi%>%^WCnst       #   ;
 !+Ind+Prt+Sg3:%^TSi        K_V   ;
@@ -585,13 +642,15 @@ LEXICON V-kirjuttaa_01
 
 ! 
 +Inf:AÄ1AÄ1             #   ; ! kirjuttaa
-+Inf:amAÄ1  SG-ILL_V   ; ! kirjuttammaa
-! +Inf+Ine:olemaas      #   ;
-! +Inf+Ela:olemast      #   ;
-+Inf+Abe:AÄ1mAÄ1tAÄ1      #   ; !kirjuttamata
-+Ger:aes		#   ;
-+Ger:ajes		#   ;
++Use/Sub+Inf+Ill:AÄ1mAÄ1AÄ1 K ; !kirjuttamaa
++Inf:AÄ1mAÄ1  SG-ILL_V   ; ! kirjuttammaa
++Inf:AÄ1mAÄ1 SG-INE ;
++Inf:AÄ1mAÄ1 SG-ELA ;
++Inf:AÄ1mAÄ1 SG-ABE   ; !kirjuttamata
++Ger:AÄ1es		#   ;
++Ger:AÄ1jes		#   ;
 +Der/miin:AÄ1mi%>%^LCns N-inmihiin ; !kirjuttammiin
++Der/miin:AÄ1mi N-inmihiin ; !kirjuttammiin
 
 !tulla:tul
 LEXICON V-tulla
@@ -1012,7 +1071,7 @@ LEXICON V-laatihussa
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
-+V+Der/miin:ä%>mi N-inmihiin ;
++V+Der/miin:mi%>%^LCns N-inmihiin ;
 
 LEXICON V-määrätä
    V-arvata  ;
@@ -1053,7 +1112,7 @@ LEXICON V-arvata
 ! 
 +V:%>%^LCnsAÄ1 V-actor_jA ; !2012-10-30
 +V:%>%^LCnsAÄ1 V-ActPrsPrc ; ! arvaava
-+V:%^OddSyll V-ActPrtPrc_nt ; !arvant arvanneet
++V:%>%^WCns%^OddSyll V-ActPrtPrc_nt ; !arvant arvanneet
 +V+Prc:%>%^WCnsttAÄ1vAÄ1	A-tulova   ;
 +V+PrtPrc:%>%^WCnsttUY1		A-kova   ;
 ! 

@@ -15,7 +15,7 @@ LEXICON N-yö-Sg_01
 
 ! maa (I)
 LEXICON N-maa
-+N+Der/tOin:t A-kalatoin ; ! maatoin
++N+Der/tOin@C.POS@:t@C.POS@ A-kalatoin ; ! maatoin
 +N: N-maa_01 ;
 
 LEXICON N-maa_01
@@ -50,7 +50,7 @@ LEXICON N-glasnoi
 
 ! mato (II)
 LEXICON N-mato
-+N+Der/tOin:%>%^WCnst A-kalatoin ; ! maotoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! maotoin
 +N: N-mato_01 ;
 
 LEXICON N-mato_01
@@ -65,14 +65,14 @@ LEXICON N-mato_01
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N-koivu
-+N+Der/tOin:%>%^WCnst A-kalatoin ; ! koivutoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! koivutoin
 +N: N-mato_01 ;
 +N: Oblique-Plural_hV ;
 +N: PL-PAR_A ;
 
 ! forma osa (II-b)
 LEXICON N-osa
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-osa_01 ;
 
 LEXICON N-osa_01
@@ -82,6 +82,7 @@ LEXICON N-osa_01
  Oblique-Singular ;
 ! Plural
  PL-NOM   ; ! osat
+Use/Sub:%>i%> PL-PAR_A   ; ! ossia
  PL-PAR_A-LCns   ; ! ossia
  PL-ILL_V   ; ! ossii
  Oblique-Plural ;
@@ -89,7 +90,7 @@ LEXICON N-osa_01
 ! joki:jok
 ! joki (II-c)
 LEXICON N-joki
-+N+Der/tOin:e%>%^WCnst A-kalatoin ; ! joetoin
++N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; ! joetoin
 +N: N-joki_01 ;
 
 LEXICON N-joki_01
@@ -99,13 +100,13 @@ LEXICON N-joki_01
 :e  Oblique-Singular ;
 ! Plural
 :e       PL-NOM    ; ! joet
-:%>%^LCns       PL-PAR_A   ; ! kumpia
+   PL-PAR_A-LCns   ; ! kumpia
 :i       PL-PAR_A   ; ! kumpia
  Oblique-Plural_V ;
 
 ! lumi (II-d)
 LEXICON N-lumi
-+N+Der/tOin:me%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:me%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-lumi_01 ;
 
 LEXICON N-lumi_01
@@ -120,11 +121,12 @@ LEXICON N-lumi_01
 
 ! emoi (III)
 LEXICON N-emoi
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !emotoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !emotoin
 +N: N-emoi_01 ;
 
 LEXICON N-emoi_01
-+Sg+Nom:i     #   ; ! emoi
++Dial/Soik+Sg+Nom:i     #   ; ! emoi
++Dial/Lauk+Sg+Nom:i     #   ; ! emoi
 +Sg+Par:i%>%^LCns%^LVwsAÄ1	#   ; ! emmooja
 +Sg+Ill:i%>%^LCnsV1	#   ; ! emoihe
 :i Oblique-Singular ;
@@ -153,7 +155,7 @@ LEXICON N-jalka_01
 ! copied from N-jalka
 ! jalka (IV-a)
 LEXICON N-kana
-+N+Der/tOin:a%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:a%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-kana_01 ;
 
 LEXICON N-kana_01
@@ -195,7 +197,7 @@ LEXICON N-tytär_01
 
 ! patsas:patsa
 LEXICON N-patsas
-+N+Der/tOin:%>V2%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:%>V2%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-patsas_01 ;
 
 LEXICON N-patsas_01
@@ -220,9 +222,10 @@ LEXICON N-patsas_01
 
 ! lähe:lähte
 LEXICON N-lähe
-+N+Der/tOin:t A-kalatoin ; !
++N+Der/tOin@C.POS@:t@C.POS@ A-kalatoin ; !
 +N: N-lähe_01 ;
 +N+Sg+Nom:%>%^WCns      K                ;
++Use/Sub+N+Sg+Nom:%>%^WCnsh      K                ;
 
 LEXICON N-lähe_01
 :%>%^WCnst       SG-PAR_tA 	;
@@ -246,7 +249,7 @@ LEXICON N-lähe_01
 
 ! from mato (II-e)
 LEXICON N-slovari
-+N+Der/tOin:%>%^WCnst A-kalatoin ; ! slovaritoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! slovaritoin
 +N: N-slovari_01 ;
 
 LEXICON N-slovari_01
@@ -264,7 +267,7 @@ LEXICON N-slovari_01
 ! the stem-final "a" is added here
 ! vokala (IV-b)
 LEXICON N-vokala
-+N+Der/tOin:a%>%^WCnst A-kalatoin ; ! vokalatoin
++N+Der/tOin@C.POS@:a%>%^WCnst@C.POS@ A-kalatoin ; ! vokalatoin
 +N: N-vokala_01 ;
 
 LEXICON N-vokala_01
@@ -283,7 +286,7 @@ LEXICON N-vokala_01
 ! harakka:harakk
 ! This should operate using principles of ommeena
 LEXICON N-harakka
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !harakatoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !harakatoin
 +N: N-harakka_01 ;
 
 LEXICON N-harakka_01
@@ -308,7 +311,7 @@ LEXICON N-harakka_01
 +Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
 LEXICON N-ommeena
-+N+Der/tOin:AÄ1%>%^WCnst A-kalatoin ; !omenatoin
++N+Der/tOin@C.POS@:AÄ1%>%^WCnst@C.POS@ A-kalatoin ; !omenatoin
 +N: N-ommeena_01 ;
 
 LEXICON N-ommeena_01
@@ -336,7 +339,7 @@ LEXICON N-ommeena_01
 ! putteeli:puteli
 ! 
 LEXICON N-putteeli
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !putelitoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !putelitoin
 +N: N-putteeli_01 ;
 
 LEXICON N-putteeli_01
@@ -361,7 +364,7 @@ LEXICON N-putteeli_01
 
 ! leikkuu, kiukkaa, lämmää (VI)
 LEXICON N-leikkuu
-+N+Der/tOin:%>%^WCnst A-kalatoin ; ! leikkuutoin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! leikkuutoin
 +N: N-leikkuu_01 ;
 
 LEXICON N-leikkuu_01
@@ -375,7 +378,7 @@ LEXICON N-leikkuu_01
 
 ! assia:assi (VII)
 LEXICON N-assia
-+N+Der/tOin:AÄ1%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:AÄ1%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-assia_01 ;
 
 LEXICON N-assia_01
@@ -395,7 +398,7 @@ LEXICON N-assia_01-Sg
 ! VCV
 ! pesä:pesä
 LEXICON N-pesä
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !pesätöin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !pesätöin
 +N: N-pesä_01 ;
 
 LEXICON N-pesä_01
@@ -412,7 +415,7 @@ LEXICON N-pesä_01
 ! VCCV
 ! tähkä (VIII)
 LEXICON N-tähkä
-+N+Der/tOin:%>%^WCnst A-kalatoin ; !tähätöin
++N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !tähätöin
 +N: N-tähkä_01 ;
 
 LEXICON N-tähkä_01
@@ -428,7 +431,7 @@ LEXICON N-tähkä_01
 
 ! tähti (IX)
 LEXICON N-tähti
-+N+Der/tOin:e%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-tähti_01 ;
 
 LEXICON N-tähti_01
@@ -454,23 +457,27 @@ LEXICON N-voosi
 
 ! käsi (XI)
 LEXICON N-käsi
-+N+Der/tOin:te%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:te%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-käsi_01 ; 
 
 LEXICON N-käsi_01
 :si     SG-NOM   ; ! orsi
 :t SG-PAR_tA  ; ! ortta
 :te SG-ILL_V  ; ! ortee
-:te  Oblique-Singular ;
+:te%>%^LCns SG-ESS_nnA ;
+:te%>%^LCns SG-EXE ;
+:te  Oblique-Singular_less-EssExe ;
 ! Plural
 :te PL-NOM   ; ! maot
 :s PL-PAR_A-LCns  ;
 :s PL-ILL_V   ; ! kässii
-:s Oblique-Plural ;
+:si%>%^LCns PL-ESS_nnA ;
+:s%>%^LCns PL-EXE ;
+:s Oblique-Plural_less-EssExe ;
 
 ! mees:mee (??)
 LEXICON N-mees
-+N+Der/tOin:he%>%^WCnst A-kalatoin ; !meehetöin
++N+Der/tOin@C.POS@:he%>%^WCnst@C.POS@ A-kalatoin ; !meehetöin
 +N: N-mees_01 ; 
 
 LEXICON N-mees_01
@@ -486,7 +493,7 @@ LEXICON N-mees_01
 
 ! varis (XII)
 LEXICON N-varis
-+N+Der/tOin:kse%>%^WCnst A-kalatoin ; !variksetoin
++N+Der/tOin@C.POS@:kse%>%^WCnst@C.POS@ A-kalatoin ; !variksetoin
 +N: N-varis_01 ;
 
 LEXICON N-varis_01
@@ -506,7 +513,7 @@ LEXICON N-varis_01
 ! nain:nai
 ! 1     2
 LEXICON N-nain
-+N+Der/tOin:se%>%^WCnst A-kalatoin ; !kärpäsetöin
++N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
 +N: N-nain_01 ;
 
 LEXICON N-nain_01
@@ -525,7 +532,7 @@ LEXICON N-nain_01
 ! kärpäin:kärpäi (XIII)
 !   2       3
 LEXICON N-kärpäin
-+N+Der/tOin:se%>%^WCnst A-kalatoin ; !kärpäsetöin
++N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
 +N: N-kärpäin_01 ;
 
 LEXICON N-kärpäin_01
@@ -540,11 +547,29 @@ LEXICON N-kärpäin_01
 :s      PL-ILL_V   ; ! kärpäisii
 :s Oblique-Plural ;
 
+! hoomiin:hoomi (XIII)
+!   2       3
+LEXICON N-hoomiin
++N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
++N: N-hoomiin_01 ;
+
+LEXICON N-hoomiin_01
+:in            SG-NOM  ;
+:s     	      SG-PAR_tA ; ! hoomista
++Sg+Par:s%>t  K   ; ! hoomist
+:se    	      SG-ILL_V   ; !
+:se Oblique-Singular ;
+! Plural
+:se     PL-NOM   ; ! hoomiset
+:s      PL-PAR_A   ; ! hoomisia
+:s      PL-ILL_V   ; ! hoomisii
+:s Oblique-Plural ;
+
 ! (XIII:kärpäin)<
 ! mehiläin:mehiläi
 !    3        4
 LEXICON N-mehiläin
-+N+Der/tOin:se%>%^WCnst A-kalatoin ; !mehiläisetöin
++N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !mehiläisetöin
 +N: N-mehiläin_01 ;
 
 LEXICON N-mehiläin_01
@@ -561,10 +586,11 @@ LEXICON N-mehiläin_01
 
 ! lapsi:la
 LEXICON N-lapsi
-+N+Der/tOin:pse%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:pse%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-lapsi_01 ;
 
 LEXICON N-lapsi_01
+:ps SG-NOM ; ! laps
 :psi SG-NOM ; ! lapsi
 :s 		    SG-PAR_tA ; ! veistä
 :pse		    SG-ILL_V   ; !
@@ -577,7 +603,7 @@ LEXICON N-lapsi_01
 
 ! veitsi:vei
 LEXICON N-veitsi
-+N+Der/tOin:tse%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:tse%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-veitsi_01 ;
 
 LEXICON N-veitsi_01
@@ -594,7 +620,7 @@ LEXICON N-veitsi_01
 
 ! inmihiin (XIII-b)
 LEXICON N-inmihiin
-+N+Der/tOin:se%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-inmihiin_01 ;
 
 LEXICON N-inmihiin_01
@@ -615,11 +641,12 @@ LEXICON N-meri
 
 ! keeli (IX-b)
 LEXICON N-keeli
-+N+Der/tOin:e%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-keeli_01 ;
 
 LEXICON N-keeli_01
 :i     SG-NOM   ; ! keeli
++Use/Sub+Sg+Par:t ;
  SG-PAR_tA  ; ! keeltä
 :e SG-ILL_V   ; ! keelee
 :e Oblique-Singular ;
@@ -631,7 +658,7 @@ LEXICON N-keeli_01
 
 
 LEXICON N-sammal
-+N+Der/tOin:e%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-sammal_01 ;
 
 LEXICON N-sammal_01
@@ -672,7 +699,7 @@ LEXICON N-XIX
 
 ! (XX) oikehus
 LEXICON N-oikehus
-+N+Der/tOin:te%>%^WCnst A-kalatoin ; !
++N+Der/tOin@C.POS@:te%>%^WCnst@C.POS@ A-kalatoin ; !
 +N: N-oikehus_01 ;
 
 LEXICON N-oikehus_01
@@ -764,6 +791,13 @@ LEXICON Oblique-Plural_hV
  Oblique-Plural ;
 
 LEXICON Oblique-Plural
+Oblique-Plural_less-EssExe ;
+      PL-ESS_Vn		;
+      PL-ESS_nnA	;
+      PL-EXE		;
+
+
+LEXICON Oblique-Plural_less-EssExe
       PL-GEN		;
       PL-INE		;
       PL-ELA		;
@@ -771,15 +805,18 @@ LEXICON Oblique-Plural
       PL-ADE		;
       PL-ABL		;
       PL-TRA		;
-      PL-ESS_Vn		;
-      PL-ESS_nnA		;
-      PL-EXE		;
       PL-COM		;
       PL-INS	;
       PL-PRL		;
       PL-ABE		;
 
 LEXICON Oblique-Singular
+ Oblique-Singular_less-EssExe ;
+      SG-ESS_Vn		;
+      SG-ESS_nnA	;
+      SG-EXE		;
+
+LEXICON Oblique-Singular_less-EssExe
       SG-GEN		;
       SG-INE		;
       SG-ELA		;
@@ -787,11 +824,7 @@ LEXICON Oblique-Singular
       SG-ADE		;
       SG-ABL		;
       SG-TRA		;
-      SG-ESS_Vn		;
-      SG-ESS_nnA		;
-      SG-EXE		;
       SG-COM		;
-      SG-INS	;
       SG-ABE		;
 
 !!!!!!!!!!!!!!!!!
@@ -803,6 +836,9 @@ LEXICON PL-ABE
 
 LEXICON PL-ABL
 +Pl+Abl@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnslt@U.DECL-NX.PL@@U.DECL-CX.ABL@    K_Num  ;
+@R.POS.N@ PL-ABL_Px ;
+
+LEXICON PL-ABL_Px
 +Pl+Abl+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnsltAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ABL@  K_Num  ;
 
 LEXICON PL-ADE
@@ -815,17 +851,20 @@ LEXICON PL-ALL
 +Pl+All+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ALL@:%>i%>%^WCnsllee@U.DECL-NX.PL@@U.DECL-CX.ALL@  K_Num  ; 
 
 LEXICON PL-COM
-+Dial/Lauk+Pl+Com@U.DECL-NX.PL@@U.DECL-CX.COM@:%>i%>%^WCnsnkAÄ1@U.DECL-NX.PL@@U.DECL-CX.COM@    K_Num ;
+!+Dial/Lauk
++Pl+Com@U.DECL-NX.PL@@U.DECL-CX.COM@:%>i%>%^WCnsnkAÄ1@U.DECL-NX.PL@@U.DECL-CX.COM@    K_Num ;
 
 LEXICON PL-ELA
 +Pl+Ela@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsst@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
 +Pl+Ela+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsstAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
 
 LEXICON PL-ESS_Vn
-+Dial/Soik+Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.ESS@	 K_Num  ;
+!+Dial/Soik
++Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.ESS@	 K_Num  ;
 
 LEXICON PL-ESS_nnA
-+Dial/Lauk+Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>nnAÄ1@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
+!+Dial/Lauk
++Pl+Ess@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>nnAÄ1@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
 
 LEXICON PL-EXE
 +Pl+Exe@U.DECL-NX.PL@@U.DECL-CX.EXE@:%>i%>nt@U.DECL-NX.PL@@U.DECL-CX.EXE@    K_Num  ;

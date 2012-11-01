@@ -2,6 +2,12 @@
 
 LEXICON propernouns
 
+Pedoi:Pedo Prop-pedoi  "" ;
+Odoi:Odo Prop-pedoi  "" ;
+Mikoi:Miko Prop-pedoi  "" ;
+Paavoi:Paavo Prop-pedoi  "" ;
+Maattoi:Maatto Prop-pedoi  "" ;
+Ivoi:Ivo Prop-pedoi  "" ;
 Hevaa:Hevaa Prop-laukaa  "" ;
 a:a letterName  "" ;
 h:h letterName  "" ;
@@ -21,6 +27,7 @@ Bubrih:Bubrih Prop-bubrih  "" ;
 Leningrad:Leningrad Prop-bubrih  "" ;
 Kьzьl:Kьzьl Prop-bubrih  "" ;
 Sьktьvkar:Sьktьvkar Prop-bubrih  "" ;
+Lenin:Lenin Prop-bubrih  "" ;
 Stalin:Stalin Prop-bubrih  "" ;
 Iljina:Iljin Prop-iljina  "" ;
 Katja:Katj Prop-iljina  "" ;
@@ -41,5 +48,6 @@ Someroin:Someroi Prop-someroin  "" ;
 Keski-Soikkola:Keski-Soikkol Prop-soikkola  "" ;
 Oredeƶa:Oredeƶ Prop-soikkola  "" ;
 oktjabri:oktjabri Prop-oktjabri  "" ;
+Värski:Värski Prop-oktjabri  "" ;
 Çimmervaldi:Çimmervaldi Prop-oktjabri  "" ;
 Vennääjä:Vennääjä Prop-vennääjä  "" ;

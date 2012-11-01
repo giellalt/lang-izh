@@ -2,7 +2,9 @@
 
 LEXICON quantifiers
 
-ensimäin:ensimäi Ord-toin  "first" ;
+ensimäin:ensimäi Ord-ensimäin  "first" ;
+ylempäin:ylempäi Ord-ensimäin  "" ;
+jälkimäin:jälkimäi Ord-ensimäin  "" ;
 toin:toi Ord-toin  "second" ;
 muu:muu Qnt-muu  "" ;
 molemmat:molemp Qnt-molemmat  "" ;

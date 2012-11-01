@@ -12,34 +12,15 @@ LEXICON A-harmaa
 
 LEXICON A-harmaa_01
  SG-NOM   ; ! harmaa
- SG-GEN   ; ! harmaan
  SG-PAR_tA   ; ! harmaata
  SG-ILL_sse  ; ! harmaasse
- SG-INE   ; ! harmaaz
- SG-ELA   ; ! harmaast
- SG-ALL   ; ! harmaalle
- SG-ADE   ; ! harmaal
- SG-ABL   ; ! harmaalt
- SG-TRA   ; ! harmaaks
- SG-ESS_nnA   ; ! harmaanna
- SG-EXE   ; ! harmaant
- SG-COM   ; ! harmaanka
- SG-ABE   ; ! harmaanka
+ Oblique-Singular ;
 
  PL-NOM   ; ! harmaat
 +Pl+Gen:%>i%>jen	#   ; ! harmaijen
  PL-PAR_tA  ; ! harmaita
  PL-ILL_sse   ; ! harmaisse
- PL-INE   ; ! harmais
- PL-ELA   ; ! harmaist
- PL-ALL   ; ! harmaille
- PL-ADE   ; ! harmail
- PL-ABL   ; ! harmailt
- PL-TRA   ; ! harmaiks
- PL-ESS_nnA   ; ! harmainna
- PL-EXE   ; ! harmaint
- PL-COM   ; ! harmainka
- PL-ABE   ; ! harmaita
+ Oblique-Plural ;
 
 
 ! (II) N-mato
@@ -73,17 +54,14 @@ LEXICON A-vesselä
 LEXICON A-valmis
 +A: N-patsas_01 ;
 
-
+! kalakas:kalakka
+!LEXICON A-kalakas
 LEXICON A-kitsas
 +A: N-patsas_01 ;
-
-
-
-LEXICON A-kalakas
 +A+Der/st:ast AdvManner ; !
 +A+Comp:amp MP ; !
 +A+Superl:imp MP ; !
-+A: A-kalakas_01 ;
+!+A: A-kalakas_01 ;
 
 LEXICON A-hoono
 +A+Comp:mp MP ; !
@@ -128,51 +106,20 @@ LEXICON A-tulova
 ! 3 syllables
 LEXICON A-kalakas_01
 +Sg+Nom:%>%^WCnss      K                ;
-:%>V2	       SG-GEN           ;
-:h%>V2	       SG-GEN           ;
 :%>%^WCnss	       SG-PAR_tA 	;
 :%>V2      SG-ILL_sse		;
 :h%>V2      SG-ILL_sse		;
-:%>V2      SG-INE		;
-:h%>V2V2      SG-INE		;
-:%>V2      SG-ELA		;
-:h%>V2      SG-ELA		;
-:%>V2      SG-ALL		;
-:h%>V2      SG-ALL		;
-:%>V2      SG-ADE		;
-:h%>V2V2      SG-ADE		;
-:%>V2      SG-ABL		;
-:h%>V2      SG-ABL		;
-:%>V2      SG-TRA		;
-:h%>V2      SG-TRA		;
-:hh%>V2V2      SG-ESS_Vn		;
-:%>V2      SG-ESS_nnA		;
-:%>V2      SG-EXE		;
-:h%>V2      SG-EXE		;
+:%>V2      Oblique-Singular ;
+:h%>V2V2   Oblique-Singular ;
+! Plural
 :%>V2      PL-NOM		;
 :h%>V2      PL-NOM		;
-:      PL-GEN		;
-:hhi      PL-GEN		;
 :      PL-PAR_tA		;
 :hh      PL-PAR_A		;
 :      PL-ILL_sse		;
 :h      PL-ILL_sse		;
-:      PL-INE		;
-:hi      PL-INE		;
-:      PL-ELA		;
-:h      PL-ELA		;
-:      PL-ALL		;
-:h      PL-ALL		;
-:      PL-ADE		;
-:hi      PL-ADE		;
-:      PL-ABL		;
-:h      PL-ABL		;
-:      PL-TRA		;
-:h      PL-TRA		;
-:      PL-ESS_Vn		;
-:hhi      PL-ESS_Vn		;
-:      PL-ESS_nnA		;
-:hh      PL-EXE		;
+ Oblique-Plural ;
+:hi     Oblique-Plural ;
 
 
 ! kerkiä:kerki (??)
@@ -234,13 +181,14 @@ LEXICON A-kalatoin
 
 LEXICON A-kalatoin_01 
 +Sg+Nom:OÖ1in     #   ; ! kalatoin
-+Sg+Par:%>OÖ1in%>tAÄ1	#   ; ! kalatointa
-+Sg+Ill:tOÖ1mAÄ1%>%^LCnsV1	#   ; ! kalattommAÄ1a
++Use/Sub+Sg+Par:%>OÖ1in%>t # ;
+:OÖ1in SG-PAR_tA   ; ! kalatointa
+:tOÖ1mAÄ1 SG-ILL_V   ; ! kalattommAÄ1a
 :tOÖ1mAÄ1 Oblique-Singular ;
 ! Plural
-+Pl+Nom:%>tOÖ1mAÄ1%>%^WCnst     #   ; ! maot
-+Pl+Par:%>tOÖ1m%>i%>AÄ1	#   ; ! matoloja
-+Pl+Ill:%>tOÖ1m%>i%>hV1	#   ; ! kalattommii
+:%>tOÖ1mAÄ1 PL-NOM   ; ! maot
+:tOÖ1m PL-PAR_A-LCns   ; ! matoloja
+:tOÖ1m PL-ILL_V   ; ! kalattommii
 :tOÖ1m Oblique-Plural ;
 
 ! kärpäin (XIII)
@@ -252,12 +200,13 @@ LEXICON A-punain
 +A+Comp:semp MP ;
 +A:  N-kärpäin_01 ;
 
+! This needs a two-syllable
 ! entiin:enti
-!   2     3
+!   2     3 
 LEXICON A-entiin
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
-+A: N-inmihiin_01 ;
++A: N-hoomiin_01 ;
 
 ! pohjallin:pohjalli
 !    3        4
@@ -265,6 +214,13 @@ LEXICON A-pohjallin
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A: N-mehiläin_01 ;
+
+! kelvolliin:kelvolli
+!    3        4
+LEXICON A-kelvolliin
++A+Der/st:se%>%^WCnsst AdvManner ; !
++A+Comp:semp MP ;
++A: N-inmihiin_01 ;
 
 
 
@@ -290,14 +246,14 @@ LEXICON MP
 +Sg+Nom:     #   ; ! oma
 :AÄ1 SG-PAR_A  ; ! ommaa
 :AÄ1 SG-ILL_V   ; ! harvempaa
-:ÄA1 MP-Oblique ;
+:AÄ1 MP-Oblique ;
 
 LEXICON MP-Oblique
- Oblique-Singular ;
+: Oblique-Singular ;
 ! Plural
  PL-NOM ;
  PL-PAR_A   ; ! matoloja
- PL-ILL_V   ; ! kalattommii
+ PL-ILL_V   ; ! kovempii
  Oblique-Plural ;
 
 

@@ -58,6 +58,7 @@ V3:0
 
 ! this k is not effected by gradation
 K1:k
+%^NoGrad:0 ! This will be placed after a stem to break Gradation
 
 ! The ti => si
 %^TS:0
@@ -104,11 +105,11 @@ Letters = Vws Cns ;
 Definitions
 
 ! Front Trigger
-FT =  #: Cns* [ VwsFront | VwsNeutral | i: ] \[ #: | VwsBack: | :VwsBack ]*  ;
+FT =  [ #: Cns* [ VwsFront | VwsNeutral | i: ] | :VwsFront ] \[ #: | VwsBack: | :VwsBack ]*  ;
 
 
 ! Back Trigger 
-BT =  #: Cns* ( [ VwsNeutral | i: ] \[ #: | VwsFront: | :VwsFront ]* ) [ VwsBack: | :VwsBack ]  \[ #: | VwsFront: | :VwsFront ]* ;
+BT =   ( #: Cns* ( [ VwsNeutral | i: ] \[ #: | VwsFront: | :VwsFront ]* ) ) [ VwsBack: | :VwsBack ]  \[ #: | VwsFront: | :VwsFront ]* ;
 
 ! Gradation strong to weak
 !GS2W = [ p:v | m p:m | t:0 | l t:l | r t:r | n t:n | s t:s | k:0 | l k:0 | r k:0 | n k:g | s k:0 ] ;
@@ -122,7 +123,7 @@ SV = [ [ #: | Cns+ ] :Vws ] ;
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
 
 !! Right context for gradation
-GRC =  [ [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: ]  ( %>:0 i ) |  %>:0  i ] %>:0 %^WCns:0  ;
+GRC =  [ [ ( %>:0 ) AÄ1: | OÖ1: | UY1: | Vws: | :Vws ]  ( %>:0 i ) |  %>:0  i ] %>:0 %^WCns:0  ;
 
 ! oma:ommaa, 
 ! Subsequent Long Vowel
@@ -190,12 +191,12 @@ Rules
 !
 ! Vowel harmony suffixes Front
 "AÄ1:ä"
- AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i ]  ;
+ AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | %>:0 %^WCns:0 [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i | %>:0 ( %^WCns:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
 "AÄ1:a"
- AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | V1: | V3: | %>:0 %^WCns:0 [ Cns | V1: | V3: ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i ]  ;
+ AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | %>:0 %^WCns:0 [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i | %>:0 ( %^WCns:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 !
 ! Vowel harmony suffixes Front
@@ -233,7 +234,7 @@ Rules
 !  _mato:maool_ not allowed
 ! Used with patsas type nominals
 "V2:aeiouüäö"
- V2:Vx <=>  Vx ( h ( :h ) ) %>:0  ( %^LCns:0 )  _ [ V2: | ( %>:0 ( %^WCns:0 ) )  Cns ] ;
+ V2:Vx <=>  Vx ( h ( :h ) ) %>:0  ( %^LCns:0 )  _ [ V2: | ( %>:0 ([ %^WCns:0 | %^LCns:0 ] ( V3: ) ) )  Cns ] ;
             Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns:0 ) V2: _ [ ( %>:0 )  Cns ]  ;
         where Vx in (a o u ä ö ü e i y) ;
 
@@ -288,10 +289,10 @@ Rules
 !"even-syllable" This should be secondary
 "consonant lengthening"
  0:Cx <=> 
-         [ #: Cns* Vws+ Cns+ Vws+ Cns+ :Vws ( %>:0 %^LCns:0 ) | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %>:0 %^LCns:0 ; !
+         [ #: Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ( %>:0 %^LCns:0 ) | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %>:0 %^LCns:0 ; !
          #: Cns* Vws Cx _ [ Vws 0: Cns ( Cns:0 ) :Vws | Vws %^SyllBr:0 e ] %^StretchSyll2:0 ; ! ommeena<omena ; venät:vennäen
            where Cx in (m p t s n r l k g h) ;
-
+!
 ! oja: oija
 "j lengthening"
 0:i <=> [ #: ] Cns* Vws _ j Vws ( 0: ) %>:0 %^LCns:0  ;
@@ -328,7 +329,7 @@ Rules
 
 ! viis: viijes
 "it:j"
- t:j <=> i i _ e %>: %^WCns:0 ;
+ t:j <=> [ i | o ] i _ [ e | o ] %>: %^WCns:0 ;
 
 "st:ss weakening"
 t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
@@ -349,10 +350,10 @@ t:n <=>  Vws ( %>:0 %^WCns:0 ) n _ GRC ;
 !! p
 
 "mp:mm weakening"
-p:m <=> [ Vws ( %>:0 %^WCns:0 )| [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | AÄ1: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
+p:m <=> [ :Vws ( %>:0 %^WCns:0 ) | [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | AÄ1: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | AÄ1: %>:0 %^WCns:0 ( V3: ) Cns | %^TS:0 i %>:0 %^WCns:0 ] ;
 ! [ ( %>:0 ) :Vws ( 0: ) %>:0 %^WCns:0 | Vws:0 %>:0 i: %>:0 %^WCns:0 | Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 ] ;
 !%> %^WCns %^E1 mp
-!! k
+!!
 
 "nk:ng weakening"
 k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;

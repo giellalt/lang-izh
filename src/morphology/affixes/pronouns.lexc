@@ -166,48 +166,48 @@ LEXICON Dem-nämä
 
 ! mikä : mi
 LEXICON PronInterr-mikä
-+Pron+Interr+Sg+Nom:kä     K   ;
-+Pron+Interr+Pl+Nom:t     K   ;
-+Pron+Interr+Gen:n  K   ;
-+Pron+Interr+Gen:nen  K   ;
-+Pron+Interr+Par:tä  K   ;
-+Pron+Interr+Ill:he  K   ;
-+Pron+Interr+Ine:s  K   ;
-+Pron+Interr+Ela:st  K   ;
-+Pron+Interr+All:lle  K   ;
-+Pron+Interr+Ade:l  K   ;
-+Pron+Interr+Abl:lt  K   ;
-+Pron+Interr+Tra:ks  K   ;
-+Pron+Interr+Ess:nennä  K   ;
-+Pron+Interr+Ess:nneen  K   ;
-+Pron+Interr+Exe:nent  K   ;
-+Pron+Interr+Exe:nnent  K   ;
-+Pron+Interr+Com:nenkä  K   ;
++Pron+Interr+Sg+Nom:kä     K_indef   ;
++Pron+Interr+Pl+Nom:t     K_indef   ;
++Pron+Interr+Gen:n  K_indef   ;
++Pron+Interr+Gen:nen  K_indef   ;
++Pron+Interr+Par:tä  K_indef   ;
++Pron+Interr+Ill:he  K_indef   ;
++Pron+Interr+Ine:s  K_indef   ;
++Pron+Interr+Ela:st  K_indef   ;
++Pron+Interr+All:lle  K_indef   ;
++Pron+Interr+Ade:l  K_indef   ;
++Pron+Interr+Abl:lt  K_indef   ;
++Pron+Interr+Tra:ks  K_indef   ;
++Pron+Interr+Ess:nennä  K_indef   ;
++Pron+Interr+Ess:nneen  K_indef   ;
++Pron+Interr+Exe:nent  K_indef   ;
++Pron+Interr+Exe:nnent  K_indef   ;
++Pron+Interr+Com:nenkä  K_indef   ;
 
 ! ken: ke
 LEXICON PronInterr-ken
-+Pron+Interr+Sg+Nom:n     K   ;
-+Pron+Interr+Pl+Nom:t     K   ;
-+Pron+Interr+Gen:nen  K   ;
-+Pron+Interr+Par:tä  K   ;
-!+Pron+Interr+Ill:he  K   ;
-!+Pron+Interr+Ine:s  K   ;
-+Pron+Interr+Ela:st  K   ;
-+Pron+Interr+All:lle  K   ;
-+Pron+Interr+Ade:l  K   ;
-+Pron+Interr+Abl:lt  K   ;
-+Pron+Interr+Tra:ks  K   ;
-+Pron+Interr+Ess:nennä  K   ;
-+Pron+Interr+Ess:nneen  K   ;
-+Pron+Interr+Exe:nent  K   ;
-+Pron+Interr+Exe:nnent  K   ;
++Pron+Interr+Sg+Nom:n     K_indef   ;
++Pron+Interr+Pl+Nom:t     K_indef   ;
++Pron+Interr+Gen:nen  K_indef   ;
++Pron+Interr+Par:tä  K_indef   ;
+!+Pron+Interr+Ill:he  K_indef   ;
+!+Pron+Interr+Ine:s  K_indef   ;
++Pron+Interr+Ela:st  K_indef   ;
++Pron+Interr+All:lle  K_indef   ;
++Pron+Interr+Ade:l  K_indef   ;
++Pron+Interr+Abl:lt  K_indef   ;
++Pron+Interr+Tra:ks  K_indef   ;
++Pron+Interr+Ess:nennä  K_indef   ;
++Pron+Interr+Ess:nneen  K_indef   ;
++Pron+Interr+Exe:nent  K_indef   ;
++Pron+Interr+Exe:nnent  K_indef   ;
 
 
 ! kus:ku
 LEXICON PronInterr-kus
-+Pron+Interr+Ine:s  K   ;
-+Pron+Interr+Ill:hu  K   ;
-+Pron+Interr+Ela:st  K   ;
++Pron+Interr+Ine:s  K_indef   ;
++Pron+Interr+Ill:hu  K_indef   ;
++Pron+Interr+Ela:st  K_indef   ;
 
 LEXICON Pron-mokoma
 +Pron: Pron-mokoma_01 ;
@@ -228,44 +228,33 @@ LEXICON Pron-kumpa
 
 LEXICON Pron-kumpa_01
  SG-NOM   ; ! kumpa
- SG-GEN   ; ! oman
  SG-PAR_A   ; ! kumpaa
  SG-ILL_V   ; ! kumpaa
- SG-INE   ; ! kummaas
- SG-ELA   ; ! kummast
- SG-ALL   ; ! maolle
- SG-ADE   ; ! maool
- SG-ABL   ; ! maolt
- SG-TRA   ; ! maoks
- SG-ESS_Vn   ; ! mattoon
- SG-EXE    ; ! mattoont
+ Oblique-Singular ;
+
 ! Plural
 :%>%^WCns PL-NOM      ; ! kummat
- 	  PL-GEN      ; ! kumpiin
      	  PL-PAR_A   ; ! kumpia
  PL-ILL_V   ; ! kalattommii
- PL-INE   ; ! kummiis
 +Pl+Ine:%>i%>V3s K ; ! kumpiis 
- PL-ELA   ; ! matoloist
- PL-ALL   ; ! kummille
- PL-ADE   ; ! kummil, kummiil
 +Pl+Ade:%>i%>V3l K ; ! kumpiil second half of Junus
- PL-ABL   ; ! kummilt
- PL-TRA   ; ! matoloiks
-+Pl+Ess:%>i%>n    #   ; ! matoloinna
- PL-EXE   ; ! matoloint
+ Oblique-Plural ;
+
 
 LEXICON Pron-miltain
 +Pron+Interr: N-kärpäin_01 ;
 
-LEXICON Pron-sikäläin
+LEXICON Dem-sikäläin
 +Pron+Dem: N-mehiläin_01 ;
-
 
 
 LEXICON Pron-Neg
 +Pron+Neg: # ;
 
+LEXICON K_indef
++Indef:lee K ;
++Indef:ikkee K ;
+	   K ;
 
 ! vim: set ft=xfst-lexc:
 
