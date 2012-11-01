@@ -15,7 +15,7 @@ LEXICON N-yö-Sg_01
 
 ! maa (I)
 LEXICON N-maa
-+N+Der/tOin@C.POS@:t@C.POS@ A-kalatoin ; ! maatoin
++N: DER-tOin ; ! maatoin
 +N: N-maa_01 ;
 
 LEXICON N-maa_01
@@ -50,7 +50,7 @@ LEXICON N-glasnoi
 
 ! mato (II)
 LEXICON N-mato
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! maotoin
++N: DER-tOin ; ! maotoin
 +N: N-mato_01 ;
 
 LEXICON N-mato_01
@@ -65,14 +65,14 @@ LEXICON N-mato_01
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N-koivu
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! koivutoin
++N: DER-tOin ; ! koivutoin
 +N: N-mato_01 ;
 +N: Oblique-Plural_hV ;
 +N: PL-PAR_A ;
 
 ! forma osa (II-b)
 LEXICON N-osa
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !
++N: DER-tOin ; !
 +N: N-osa_01 ;
 
 LEXICON N-osa_01
@@ -90,7 +90,7 @@ Use/Sub:%>i%> PL-PAR_A   ; ! ossia
 ! joki:jok
 ! joki (II-c)
 LEXICON N-joki
-+N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; ! joetoin
++N:e DER-tOin ; ! joetoin
 +N: N-joki_01 ;
 
 LEXICON N-joki_01
@@ -106,7 +106,7 @@ LEXICON N-joki_01
 
 ! lumi (II-d)
 LEXICON N-lumi
-+N+Der/tOin@C.POS@:me%>%^WCnst@C.POS@ A-kalatoin ; !
++N:me DER-tOin ; !
 +N: N-lumi_01 ;
 
 LEXICON N-lumi_01
@@ -121,7 +121,7 @@ LEXICON N-lumi_01
 
 ! emoi (III)
 LEXICON N-emoi
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !emotoin
++N: DER-tOin ; !emotoin
 +N: N-emoi_01 ;
 
 LEXICON N-emoi_01
@@ -155,7 +155,7 @@ LEXICON N-jalka_01
 ! copied from N-jalka
 ! jalka (IV-a)
 LEXICON N-kana
-+N+Der/tOin@C.POS@:a%>%^WCnst@C.POS@ A-kalatoin ; !
++N:a DER-tOin ; !
 +N: N-kana_01 ;
 
 LEXICON N-kana_01
@@ -197,7 +197,7 @@ LEXICON N-tytär_01
 
 ! patsas:patsa
 LEXICON N-patsas
-+N+Der/tOin@C.POS@:%>V2%>%^WCnst@C.POS@ A-kalatoin ; !
++N:%>V2 DER-tOin ; !
 +N: N-patsas_01 ;
 
 LEXICON N-patsas_01
@@ -222,7 +222,7 @@ LEXICON N-patsas_01
 
 ! lähe:lähte
 LEXICON N-lähe
-+N+Der/tOin@C.POS@:t@C.POS@ A-kalatoin ; !
++N: DER-tOin ; !
 +N: N-lähe_01 ;
 +N+Sg+Nom:%>%^WCns      K                ;
 +Use/Sub+N+Sg+Nom:%>%^WCnsh      K                ;
@@ -249,7 +249,7 @@ LEXICON N-lähe_01
 
 ! from mato (II-e)
 LEXICON N-slovari
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! slovaritoin
++N: DER-tOin ; ! slovaritoin
 +N: N-slovari_01 ;
 
 LEXICON N-slovari_01
@@ -267,7 +267,7 @@ LEXICON N-slovari_01
 ! the stem-final "a" is added here
 ! vokala (IV-b)
 LEXICON N-vokala
-+N+Der/tOin@C.POS@:a%>%^WCnst@C.POS@ A-kalatoin ; ! vokalatoin
++N:a DER-tOin ; ! vokalatoin
 +N: N-vokala_01 ;
 
 LEXICON N-vokala_01
@@ -286,7 +286,7 @@ LEXICON N-vokala_01
 ! harakka:harakk
 ! This should operate using principles of ommeena
 LEXICON N-harakka
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !harakatoin
++N: DER-tOin ; !harakatoin
 +N: N-harakka_01 ;
 
 LEXICON N-harakka_01
@@ -311,7 +311,7 @@ LEXICON N-harakka_01
 +Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
 LEXICON N-ommeena
-+N+Der/tOin@C.POS@:AÄ1%>%^WCnst@C.POS@ A-kalatoin ; !omenatoin
++N:AÄ1 DER-tOin ; !omenatoin
 +N: N-ommeena_01 ;
 
 LEXICON N-ommeena_01
@@ -339,7 +339,7 @@ LEXICON N-ommeena_01
 ! putteeli:puteli
 ! 
 LEXICON N-putteeli
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !putelitoin
++N: DER-tOin ; !putelitoin
 +N: N-putteeli_01 ;
 
 LEXICON N-putteeli_01
@@ -364,7 +364,7 @@ LEXICON N-putteeli_01
 
 ! leikkuu, kiukkaa, lämmää (VI)
 LEXICON N-leikkuu
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; ! leikkuutoin
++N: DER-tOin ; ! leikkuutoin
 +N: N-leikkuu_01 ;
 
 LEXICON N-leikkuu_01
@@ -378,7 +378,7 @@ LEXICON N-leikkuu_01
 
 ! assia:assi (VII)
 LEXICON N-assia
-+N+Der/tOin@C.POS@:AÄ1%>%^WCnst@C.POS@ A-kalatoin ; !
++N:AÄ1 DER-tOin ; !
 +N: N-assia_01 ;
 
 LEXICON N-assia_01
@@ -398,7 +398,7 @@ LEXICON N-assia_01-Sg
 ! VCV
 ! pesä:pesä
 LEXICON N-pesä
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !pesätöin
++N: DER-tOin ; !pesätöin
 +N: N-pesä_01 ;
 
 LEXICON N-pesä_01
@@ -415,7 +415,7 @@ LEXICON N-pesä_01
 ! VCCV
 ! tähkä (VIII)
 LEXICON N-tähkä
-+N+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ; !tähätöin
++N: DER-tOin ; !tähätöin
 +N: N-tähkä_01 ;
 
 LEXICON N-tähkä_01
@@ -431,7 +431,7 @@ LEXICON N-tähkä_01
 
 ! tähti (IX)
 LEXICON N-tähti
-+N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
++N:e DER-tOin ; !
 +N: N-tähti_01 ;
 
 LEXICON N-tähti_01
@@ -457,7 +457,7 @@ LEXICON N-voosi
 
 ! käsi (XI)
 LEXICON N-käsi
-+N+Der/tOin@C.POS@:te%>%^WCnst@C.POS@ A-kalatoin ; !
++N:te DER-tOin ; !
 +N: N-käsi_01 ; 
 
 LEXICON N-käsi_01
@@ -477,7 +477,7 @@ LEXICON N-käsi_01
 
 ! mees:mee (??)
 LEXICON N-mees
-+N+Der/tOin@C.POS@:he%>%^WCnst@C.POS@ A-kalatoin ; !meehetöin
++N:he DER-tOin ; !meehetöin
 +N: N-mees_01 ; 
 
 LEXICON N-mees_01
@@ -493,7 +493,7 @@ LEXICON N-mees_01
 
 ! varis (XII)
 LEXICON N-varis
-+N+Der/tOin@C.POS@:kse%>%^WCnst@C.POS@ A-kalatoin ; !variksetoin
++N:kse DER-tOin ; !variksetoin
 +N: N-varis_01 ;
 
 LEXICON N-varis_01
@@ -513,7 +513,7 @@ LEXICON N-varis_01
 ! nain:nai
 ! 1     2
 LEXICON N-nain
-+N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
++N:se DER-tOin ; !kärpäsetöin
 +N: N-nain_01 ;
 
 LEXICON N-nain_01
@@ -532,7 +532,7 @@ LEXICON N-nain_01
 ! kärpäin:kärpäi (XIII)
 !   2       3
 LEXICON N-kärpäin
-+N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
++N:se DER-tOin ; !kärpäsetöin
 +N: N-kärpäin_01 ;
 
 LEXICON N-kärpäin_01
@@ -550,7 +550,7 @@ LEXICON N-kärpäin_01
 ! hoomiin:hoomi (XIII)
 !   2       3
 LEXICON N-hoomiin
-+N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !kärpäsetöin
++N:se DER-tOin ; !kärpäsetöin
 +N: N-hoomiin_01 ;
 
 LEXICON N-hoomiin_01
@@ -569,7 +569,7 @@ LEXICON N-hoomiin_01
 ! mehiläin:mehiläi
 !    3        4
 LEXICON N-mehiläin
-+N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !mehiläisetöin
++N:se DER-tOin ; !mehiläisetöin
 +N: N-mehiläin_01 ;
 
 LEXICON N-mehiläin_01
@@ -586,7 +586,7 @@ LEXICON N-mehiläin_01
 
 ! lapsi:la
 LEXICON N-lapsi
-+N+Der/tOin@C.POS@:pse%>%^WCnst@C.POS@ A-kalatoin ; !
++N:pse DER-tOin ; !
 +N: N-lapsi_01 ;
 
 LEXICON N-lapsi_01
@@ -603,7 +603,7 @@ LEXICON N-lapsi_01
 
 ! veitsi:vei
 LEXICON N-veitsi
-+N+Der/tOin@C.POS@:tse%>%^WCnst@C.POS@ A-kalatoin ; !
++N:tse DER-tOin ; !
 +N: N-veitsi_01 ;
 
 LEXICON N-veitsi_01
@@ -620,7 +620,7 @@ LEXICON N-veitsi_01
 
 ! inmihiin (XIII-b)
 LEXICON N-inmihiin
-+N+Der/tOin@C.POS@:se%>%^WCnst@C.POS@ A-kalatoin ; !
++N:se DER-tOin ; !
 +N: N-inmihiin_01 ;
 
 LEXICON N-inmihiin_01
@@ -641,7 +641,7 @@ LEXICON N-meri
 
 ! keeli (IX-b)
 LEXICON N-keeli
-+N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
++N:e DER-tOin ; !
 +N: N-keeli_01 ;
 
 LEXICON N-keeli_01
@@ -658,7 +658,7 @@ LEXICON N-keeli_01
 
 
 LEXICON N-sammal
-+N+Der/tOin@C.POS@:e%>%^WCnst@C.POS@ A-kalatoin ; !
++N:e DER-tOin ; !
 +N: N-sammal_01 ;
 
 LEXICON N-sammal_01
@@ -699,7 +699,7 @@ LEXICON N-XIX
 
 ! (XX) oikehus
 LEXICON N-oikehus
-+N+Der/tOin@C.POS@:te%>%^WCnst@C.POS@ A-kalatoin ; !
++N:e DER-tOin ; !
 +N: N-oikehus_01 ;
 
 LEXICON N-oikehus_01
@@ -755,6 +755,17 @@ LEXICON N-päivyt_01
 ! (XXI)
 LEXICON N-XXI
 #;
+
+!!!!!!!!!!!!!!!!
+!! DERIVATION !!
+!!!!!!!!!!!!!!!!
+
+LEXICON DER-tOin
++Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ;
+
+!!!!!!!!!!!!!!!!
+!! DECLENSION !!
+!!!!!!!!!!!!!!!!
 
 LEXICON Cases
 !+N+Sg+Nom:0     #   ;
