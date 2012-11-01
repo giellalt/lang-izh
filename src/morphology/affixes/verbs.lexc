@@ -708,7 +708,60 @@ LEXICON V-tulla_01
 +Inf:emAÄ1 SG-ABE   ;
 ! +Ger:ollees		#   ;
 +Der/miin:OÖ1mi N-inmihiin ; ! tulomiin
-+Der/miin:emi N-inmihiin ; ! tulomiin
++Der/miin:emi N-inmihiin ; ! tulomiin !!
+
+!ommella:ompel
+LEXICON V-ommella
++V: V-ommella_01 ;
+
+LEXICON V-ommella_01
++Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:e%>%^WCnst	#   ;
++Ind+Prs+Sg3:%>%^LCnsOÖ1OÖ1 K_V ; !%>%^LCns%^LVws	#   ; !tulloo
++Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:%>%^LCnsOÖ1%>V3t	K_V   ;
++Ind+Prs+4:t%>%^WCnsAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:e	#   ;
+
+:i IndPrt ;
++Ind+Prt+4:%^WGStemtii     #   ;
++Ind+Prt+ConNeg:t         #   ;
++Ind+Prt+ConNeg+4:%^WGStemtUY1         #   ;
+
+:en PotPers ; !
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+ CondPers ; ! tulisin
++Cond+4:%^WGStemtAÄ1is      #   ;
+! !+Cond+ConNeg:oo                #   ;
+! 
+:%^WGStem ImprtPers_k ;
+! +Imprt+Sg2:oo      #   ;
++Imprt+4:%^WGStemtAÄ1kOÖ1OÖ1      #   ;
+! !+Imprt+ConNeg:oo                #   ;
+! 
+:i V-actor_jA ; !
+:OÖ1 V-ActPrsPrc ; ! tulova
+:e V-ActPrsPrc ; ! tulova
+:%^WGStem V-ActPrtPrc_lt    ; ! tult
++PrsPrc:%^WGStemtAÄ1vAÄ1    A-tulova   ; ! tultava
++PrtPrc:%^WGStemtUY1 	    A-kova   ; !tultu
++V+Inf+Der/tOin:OÖ1mAÄ1t A-kalatoin ; ! tulomatoin
+! 
++Inf:%^WGStemlAÄ1%>%^WCns              #   ; ! ommella only _ll_
++Inf:emAÄ1  SG-ILL_V  ; ! tulomaa
++Inf:OÖ1mAÄ1 SG-INE   ;
++Inf:emAÄ1 SG-INE   ;
++Inf:OÖ1mAÄ1 SG-ELA   ;
++Inf:emAÄ1 SG-ELA   ;
++Inf:OÖ1mAÄ1 SG-ABE   ;
++Inf:emAÄ1 SG-ABE   ;
++Ger:%^WGStemlees		#   ;
++Der/miin:OÖ1mi N-inmihiin ; ! ompelemiin
++Der/miin:emi N-inmihiin ; ! ompelemmiin
+
 
 ! nähä:nä
 LEXICON V-nähä
