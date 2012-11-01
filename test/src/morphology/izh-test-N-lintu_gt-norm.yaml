@@ -18,7 +18,7 @@ Tests:
      lintu+N+Sg+Nom: lintu
      lintu+N+Sg+Gen: linnun
      lintu+N+Sg+Acc: linnun
-     lintu+N+Sg+Part: lintuua
+     lintu+N+Sg+Par: lintuua
      lintu+N+Sg+Ill: lintuu
      lintu+N+Sg+Ine: linnuus
      lintu+N+Sg+Ela: linnust
@@ -32,7 +32,7 @@ Tests:
      lintu+N+Pl+Nom: linnut
      lintu+N+Pl+Gen: lintuloin
      lintu+N+Pl+Acc: linnut
-     lintu+N+Pl+Part: lintuloja
+     lintu+N+Pl+Par: lintuloja
      lintu+N+Pl+Ill: lintuloihe
      lintu+N+Pl+Ine: lintulois
      lintu+N+Pl+Ela: lintuloist

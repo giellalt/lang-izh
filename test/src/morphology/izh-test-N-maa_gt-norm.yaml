@@ -18,7 +18,7 @@ Tests:
      maa+N+Sg+Nom: maa
      maa+N+Sg+Gen: maan
      maa+N+Sg+Acc: maan
-     maa+N+Sg+Part: maata
+     maa+N+Sg+Par: maata
      maa+N+Sg+Ill: maaha
      maa+N+Sg+Ine: maas
      maa+N+Sg+Ela: maast
@@ -33,7 +33,7 @@ Tests:
      maa+N+Pl+Nom: maat
      maa+N+Pl+Gen: maijen
      maa+N+Pl+Acc: maat
-     maa+N+Pl+Part: maita
+     maa+N+Pl+Par: maita
      maa+N+Pl+Ill: maihe
      maa+N+Pl+Ine: mais
      maa+N+Pl+Ela: maist

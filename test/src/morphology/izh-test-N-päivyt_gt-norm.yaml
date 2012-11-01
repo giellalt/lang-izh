@@ -18,7 +18,7 @@ Tests:
      päivyt+N+Sg+Nom: päivyt
      päivyt+N+Sg+Gen: päivyen
      päivyt+N+Sg+Acc: päivyen
-     päivyt+N+Sg+Part: päivyttä
+     päivyt+N+Sg+Par: päivyttä
      päivyt+N+Sg+Ill: päivyesse
      päivyt+N+Sg+Ine: päivyees
      päivyt+N+Sg+Ela: päivyest
@@ -32,7 +32,7 @@ Tests:
      päivyt+N+Pl+Nom: päivyet
      päivyt+N+Pl+Gen: päivyein
      päivyt+N+Pl+Acc: päivyet
-     päivyt+N+Pl+Part: päivyeitä
+     päivyt+N+Pl+Par: päivyeitä
      päivyt+N+Pl+Ill: päivyeisse
      päivyt+N+Pl+Ine: päivyeis
      päivyt+N+Pl+Ela: päivyeist

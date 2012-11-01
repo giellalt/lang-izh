@@ -18,7 +18,7 @@ Tests:
      vesi+N+Sg+Nom: vesi
      vesi+N+Sg+Gen: veen
      vesi+N+Sg+Acc: veen
-     vesi+N+Sg+Part: vettä
+     vesi+N+Sg+Par: vettä
      vesi+N+Sg+Ill: vettee
      vesi+N+Sg+Ine: vees
      vesi+N+Sg+Ela: veest
@@ -32,7 +32,7 @@ Tests:
      vesi+N+Pl+Nom: veet
      vesi+N+Pl+Gen: vessiin
      vesi+N+Pl+Acc: veet
-     vesi+N+Pl+Part: vessiä
+     vesi+N+Pl+Par: vessiä
      vesi+N+Pl+Ill: vessii
      vesi+N+Pl+Ine: vesis
      vesi+N+Pl+Ela: vesist
