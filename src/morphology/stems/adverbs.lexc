@@ -4,6 +4,7 @@ LEXICON adverbs
 
 aattoon:aattoon AdvTemp-Ess  "" ;
 ni:ni AdvTag  "" ;
+keskenää:keskenää AdvTag  "" ;
 hyvin:hyvin AdvTag  "" ;
 viimäks:viimäks AdvTag  "" ;
 voorollaa:voorollaa AdvTag  "" ;
@@ -41,6 +42,10 @@ tihtimpää:tihtimpää AdvTag  "" ;
 ohto:ohto AdvTag  "" ;
 senperäst:senperäst AdvTag  "" ;
 peräjälkee:peräjälkee AdvTag  "" ;
+perätystää:perätystää AdvTag  "" ;
+perätykkee:perätykkee AdvTag  "" ;
+perätikko:perätikko AdvTag  "" ;
+perrääpäin:perrääpäin AdvTag  "" ;
 sentää:sentää AdvTag  "" ;
 kerallee:kerallee AdvTag  "" ;
 mukkaa:mukkaa AdvSpat  "" ;
@@ -79,6 +84,7 @@ tänäpään:tänäpään AdvTemp  "" ;
 nykyaikaa:nykyaikaa AdvTemp  "" ;
 tänävoonna:tänävoonna AdvTemp  "" ;
 varraa:varraa AdvTemp  "" ;
+koht:koht AdvTemp  "" ;
 taas:taas AdvTemp  "" ;
 tihtii:tihtii AdvTemp  "" ;
 konsikkee:konsikkee AdvTemp  "" ;
