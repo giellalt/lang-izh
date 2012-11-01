@@ -18,7 +18,7 @@ Tests:
      oikehus+N+Sg+Nom: oikehus
      oikehus+N+Sg+Gen: oikehuen
      oikehus+N+Sg+Acc: oikehuen
-     oikehus+N+Sg+Part: oikehutta
+     oikehus+N+Sg+Par: oikehutta
      oikehus+N+Sg+Ill: oikehuee
      oikehus+N+Sg+Ine: oikehues
      oikehus+N+Sg+Ela: oikehuest
@@ -32,7 +32,7 @@ Tests:
      oikehus+N+Pl+Nom: oikehuet
      oikehus+N+Pl+Gen: oikehuksiin
      oikehus+N+Pl+Acc: oikehuet
-     oikehus+N+Pl+Part: oikehuksia
+     oikehus+N+Pl+Par: oikehuksia
      oikehus+N+Pl+Ill: oikehuksii
      oikehus+N+Pl+Ine: oikehuksis
      oikehus+N+Pl+Ela: oikehuksist

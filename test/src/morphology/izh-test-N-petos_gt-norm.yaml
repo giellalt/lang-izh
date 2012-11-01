@@ -18,7 +18,7 @@ Tests:
      petos+N+Sg+Nom: petos
      petos+N+Sg+Gen: petoksen
      petos+N+Sg+Acc: petoksen
-     petos+N+Sg+Part: petosta
+     petos+N+Sg+Par: petosta
      petos+N+Sg+Ill: petoksee
      petos+N+Sg+Ine: petoksees
      petos+N+Sg+Ela: petoksest
@@ -32,7 +32,7 @@ Tests:
      petos+N+Pl+Nom: petokset
      petos+N+Pl+Gen: petoksin
      petos+N+Pl+Acc: petokset
-     petos+N+Pl+Part: petoksia
+     petos+N+Pl+Par: petoksia
      petos+N+Pl+Ill: petoksii
      petos+N+Pl+Ine: petoksiis
      petos+N+Pl+Ela: petoksist

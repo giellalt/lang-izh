@@ -18,7 +18,7 @@ Tests:
      patsas+N+Sg+Nom: patsas
      patsas+N+Sg+Gen: patsaan
      patsas+N+Sg+Acc: patsaan
-     patsas+N+Sg+Part: patsasta
+     patsas+N+Sg+Par: patsasta
      patsas+N+Sg+Ill: patsaasse
      patsas+N+Sg+Ine: patsaas
      patsas+N+Sg+Ela: patsaast
@@ -32,7 +32,7 @@ Tests:
      patsas+N+Pl+Nom: patsaat
      patsas+N+Pl+Gen: patsain
      patsas+N+Pl+Acc: patsaat
-     patsas+N+Pl+Part: patsaita
+     patsas+N+Pl+Par: patsaita
      patsas+N+Pl+Ill: patsaisse
      patsas+N+Pl+Ine: patsais
      patsas+N+Pl+Ela: patsaist

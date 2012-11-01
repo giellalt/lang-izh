@@ -18,7 +18,7 @@ Tests:
      kalakas+N+Sg+Nom: kalakas
      kalakas+N+Sg+Gen: kalakkaan
      kalakas+N+Sg+Acc: kalakkaan
-     kalakas+N+Sg+Part: kalakasta
+     kalakas+N+Sg+Par: kalakasta
      kalakas+N+Sg+Ill: kalakkaasse
      kalakas+N+Sg+Ine: kalakkaas
      kalakas+N+Sg+Ela: kalakkaast
@@ -32,7 +32,7 @@ Tests:
      kalakas+N+Pl+Nom: kalakkaat
      kalakas+N+Pl+Gen: kalakkain
      kalakas+N+Pl+Acc: kalakkaat
-     kalakas+N+Pl+Part: kalakkaita
+     kalakas+N+Pl+Par: kalakkaita
      kalakas+N+Pl+Ill: kalakkaisse
      kalakas+N+Pl+Ine: kalakkais
      kalakas+N+Pl+Ela: kalakkaist
