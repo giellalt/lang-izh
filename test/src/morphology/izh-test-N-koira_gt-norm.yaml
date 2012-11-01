@@ -18,7 +18,7 @@ Tests:
      koira+N+Sg+Nom: koira
      koira+N+Sg+Gen: koiran
      koira+N+Sg+Acc: koiran
-     koira+N+Sg+Part: koiraa
+     koira+N+Sg+Par: koiraa
      koira+N+Sg+Ill: koiraa
      koira+N+Sg+Ine: koiraas
      koira+N+Sg+Ela: koirast
@@ -32,7 +32,7 @@ Tests:
      koira+N+Pl+Nom: koirat
      koira+N+Pl+Gen: koiriin
      koira+N+Pl+Acc: koirat
-     koira+N+Pl+Part: koiria
+     koira+N+Pl+Par: koiria
      koira+N+Pl+Ill: koirii
      koira+N+Pl+Ine: koiriis
      koira+N+Pl+Ela: koirist

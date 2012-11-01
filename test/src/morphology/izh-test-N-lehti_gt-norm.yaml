@@ -18,7 +18,7 @@ Tests:
      lehti+N+Sg+Nom: lehti
      lehti+N+Sg+Gen: lehen
      lehti+N+Sg+Acc: lehen
-     lehti+N+Sg+Part: lehteä
+     lehti+N+Sg+Par: lehteä
      lehti+N+Sg+Ill: lehtee
      lehti+N+Sg+Ine: lehes
      lehti+N+Sg+Ela: lehest
@@ -32,7 +32,7 @@ Tests:
      lehti+N+Pl+Nom: lehet
      lehti+N+Pl+Gen: lehtilöin
      lehti+N+Pl+Acc: lehet
-     lehti+N+Pl+Part: lehtilöjä
+     lehti+N+Pl+Par: lehtilöjä
      lehti+N+Pl+Ill: lehtilöihe
      lehti+N+Pl+Ine: lehtilöis
      lehti+N+Pl+Ela: lehtilöist

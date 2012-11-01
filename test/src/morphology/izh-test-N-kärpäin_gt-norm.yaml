@@ -18,7 +18,7 @@ Tests:
      kärpäin+N+Sg+Nom: kärpäin
      kärpäin+N+Sg+Gen: kärpäisen
      kärpäin+N+Sg+Acc: kärpäisen
-     kärpäin+N+Sg+Part: kärpäistä
+     kärpäin+N+Sg+Par: kärpäistä
      kärpäin+N+Sg+Ill: kärpäisee
      kärpäin+N+Sg+Ine: kärpäisees
      kärpäin+N+Sg+Ela: kärpäisest
@@ -32,7 +32,7 @@ Tests:
      kärpäin+N+Pl+Nom: kärpäiset
      kärpäin+N+Pl+Gen: kärpäisiin
      kärpäin+N+Pl+Acc: kärpäiset
-     kärpäin+N+Pl+Part: kärpäisiä
+     kärpäin+N+Pl+Par: kärpäisiä
      kärpäin+N+Pl+Ill: kärpäisii
      kärpäin+N+Pl+Ine: kärpäisiis
      kärpäin+N+Pl+Ela: kärpäisist

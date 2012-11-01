@@ -5,3 +5,7 @@ make check
 
 ! For manual testing of yaml
 python3.2 ../../../../../gtcore/scripts/morph-test.py -ci -i -S xerox izh.tests.yaml
+
+
+! 2012-11-01
+! pushd /Users/jackrueter/Languages/gtsvn/langs/izh/test/src/morphology; /opt/local/bin/python3.2 /Users/jackrueter/Languages/gtsvn/gtcore/scripts/morph-test.py -c -i -S xerox --app /Users/jackrueter/bin/lookup --gen ./../../../src/generator-gt-norm.xfst --morph ./../../../src/analyser-gt-norm.xfst ./izh-test-N-päivyt_gt-norm.yaml; popd
