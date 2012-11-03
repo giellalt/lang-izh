@@ -102,32 +102,14 @@ LEXICON Num-yks
 LEXICON Num-yks_01
 :ks     SG-NOM   ; ! yks
 :ksi     SG-NOM   ; ! yksi
-:hte	SG-GEN   ; ! yhen
 :h 	SG-PAR_tA  ; ! yhtä
 :hte    SG-ILL_V   ; ! ortee
-:hte 	SG-INE   ; ! orrees
-:hte	SG-ELA   ; ! yhest
-:hte	SG-ALL   ; ! maolle
-:hte 	SG-ADE  ; ! yhel
-:hte	SG-ABL   ; ! maolt
-:hte	SG-TRA   ; ! maoks
-:hte	SG-ESS_nnA   ; ! mattoon
-:hte 	SG-EXE   ; ! mattoont
-:hte	SG-COM   ; ! maanka
+:hte 	Oblique-Singular ;
 ! Plural
 :hte  PL-NOM   ; ! yhet
-:ks   PL-GEN   ; ! yksiin
 :ks   PL-PAR_A  ; ! yksiä
 :ks   PL-ILL_V   ; ! yksii
-:ks   PL-INE   ; ! yksiis
-:ks   PL-ELA   ; ! yksist
-:ks   PL-ALL   ; ! yksiille
-:ks   PL-ADE   ; ! yksiil
-:ks   PL-ABL   ; ! yksilt
-:ks   PL-TRA   ; ! orsiks
-:ks   PL-ESS_nnA   ; ! matoloinna
-:ks   PL-EXE   ; ! matoloint
-:ks   PL-COM   ; ! yksinkä
+:ks   Oblique-Plural ;
 
 
 !! kolt

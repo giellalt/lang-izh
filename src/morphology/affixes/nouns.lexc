@@ -61,14 +61,25 @@ LEXICON N-mato_01
  Oblique-Singular ;
 ! Plural
  lOi-Pl ;
- Oblique-Plural ; ! PL-PAR and PL-ILL needed 2012-10-31
+:%^NoGrad Oblique-Plural ; ! PL-PAR and PL-ILL needed 2012-10-31
 :%>%^WCns PL-NOM   ; ! maot
 
+! koivu
 LEXICON N-koivu
 +N: DER-tOin ; ! koivutoin
-+N: N-mato_01 ;
-+N: Oblique-Plural_hV ;
++N: N-koivu_01 ;
++N:%^NoGrad Oblique-Plural_hV ;
 +N: PL-PAR_A ;
+
+LEXICON N-koivu_01
+   SG-NOM   ; ! koivu
+ SG-PAR_A-LCns   ; ! koivua
+ SG-ILL_V   ; ! koivuu
+ Oblique-Singular ;
+! Plural
+ lOi-Pl ;
+:%^NoGrad Oblique-Plural ; ! 
+ PL-NOM   ; ! koivut
 
 ! forma osa (II-b)
 LEXICON N-osa
@@ -847,7 +858,7 @@ LEXICON PL-ABE
 
 LEXICON PL-ABL
 +Pl+Abl@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnslt@U.DECL-NX.PL@@U.DECL-CX.ABL@    K_Num  ;
-@R.POS.N@ PL-ABL_Px ;
+!2012-11-03!@R.POS.N@ PL-ABL_Px ;
 
 LEXICON PL-ABL_Px
 +Pl+Abl+PxSg3@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnsltAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ABL@  K_Num  ;

@@ -153,6 +153,8 @@ Multichar_Symbols
 !! Part of speech
 @U.POS.N@
 @R.POS.N@
+@U.POS.NUM@
+@R.POS.NUM@
 @C.POS@
 
 !!! FLAGS USED WITH COLLECTIVE NOUNS
@@ -191,18 +193,18 @@ Multichar_Symbols
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   adjectives  ;
-0   adverbs  ;
-0   conjunctions   ;
-0   interjections   ;
+   adjectives  ;
+   adverbs  ;
+   conjunctions   ;
+   interjections   ;
 @U.POS.N@   nouns   ;
-0   particles    ;
-0   postpositions    ;
-0   prepositions    ;
-0   pronouns    ;
-0   propernouns    ;
-0   quantifiers   ;
-0   verbs   ;
+   particles    ;
+   postpositions    ;
+   prepositions    ;
+   pronouns    ;
+   propernouns    ;
+   quantifiers   ;
+   verbs   ;
 
 Abbreviation	 ;
 Acronym		 ;
