@@ -240,7 +240,7 @@ LEXICON V-voija
 +V+Ind+Prs+Sg1:n	#   ; ! oon
 +V+Ind+Prs+Sg2:t 	#   ;
 +V+Ind+Prs+Sg3:p	K_V   ;
-+V+Ind+Prs+Sg3+Qst+Foc:pikse	#   ;
++V+Ind+Prs+Sg3:pi	K_V   ;
 +V+Ind+Prs+Pl1:mmAÄ1	#   ;
 +V+Ind+Prs+Pl2:ttAÄ1	#   ;
 !+V+Ind+Prs+Pl3:ovat	K_V   ;
@@ -261,12 +261,13 @@ LEXICON V-voija
 !+V+Pot+4:      #   ;
 !+V+Pot+ConNeg:oo                #   ;
 
-+V+Cond+Sg1:sin      #   ; ! oon
-+V+Cond+Sg2:sit      #   ;
-+V+Cond+Sg3:s      #   ;
-+V+Cond+Pl1:simmAÄ1    #   ;
-+V+Cond+Pl2:sittAÄ1    #   ;
-+V+Cond+Pl3:sivAÄ1t     #   ;
++V+Cond+Sg1:sin      K_V   ; ! oon
++V+Cond+Sg2:sit      K_V   ;
++V+Cond+Sg3:s      K_V   ;
++V+Cond+Sg3:si      K_V   ;
++V+Cond+Pl1:simmAÄ1    K_V   ;
++V+Cond+Pl2:sittAÄ1    K_V   ;
++V+Cond+Pl3:sivAÄ1t     K_V   ;
 +V+Cond+4:tais      #   ;
 ! !+V+Cond+ConNeg:oo                #   ;
 
@@ -473,6 +474,7 @@ LEXICON V-näyttää_01
 +Ind+Prs+Pl2:AÄ1%>%^WCnsttAÄ1	K_V   ;
 +Ind+Prs+Pl3:AÄ1%>%^LCnsAÄ1t	K_V   ;
 +Ind+Prs+4:e%>%^WCnsttAÄ1AÄ1	K_V   ;
++Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	K_V   ; !keitetää
 +Ind+Prs+4+ConNeg:e%>%^WCnstAÄ1	#   ;
 +Ind+Prs+ConNeg:AÄ1%>%^WCns	#   ;
 
@@ -519,6 +521,16 @@ LEXICON V-näyttää_01
 LEXICON V-laatia
  V-kutsua ;
  IndPrt ; ! laati
+
+! kiirehtiä:kiireh
+! 3-syllable
+LEXICON V-kiirehtiä
++V:ti V-kutsua_01 ;
++V+Ind+Prs+ConNeg:hi K ;
++V+Ind+Prs+Sg1:hin	K_V   ; ! kutsun
++V+Ind+Prs+Sg2:hit	K_V   ;
++V+Ind+Prs+Pl1:himmAÄ1	K_V   ;
++V+Ind+Prs+Pl2:hittAÄ1	K_V   ;
 
 ! ilmahtua:ilmah
 ! 3-syllable
@@ -585,6 +597,7 @@ LEXICON V-kutsua_01
 +Ger:je SG-INE   ;
 +Ger:ee SG-INE   ;
 +Der/miin:mi N-inmihiin ; !kutsumiin
++Der/min:mi N-mehiläin ; !kutsumin
 
 ! kirjuttaa:
 LEXICON V-kirjuttaa
@@ -678,7 +691,8 @@ LEXICON V-tulla_01
 +Ind+Prt+ConNeg+4:%>%^WCnstUY1         #   ;
 
 :en PotPers ; !
-!+Pot+4:ollaa      #   ;
++Pot+4:tAÄ1nOÖ1OÖ1      #   ;
++Pot+4+ConNeg:tAÄ1ne      #   ;
 !+Pot+ConNeg:oo                #   ;
 
  CondPers ; ! tulisin
@@ -792,6 +806,7 @@ LEXICON V-nähä_01
 !+Pot+4:ollaa      #   ;
 !+Pot+ConNeg:oo                #   ;
 
+:k CondPers ;
 ! +Cond+Sg1:olisin      #   ; ! oon
 ! +Cond+Sg2:olisit      #   ;
 ! +Cond+Sg3:olis      #   ;
@@ -812,15 +827,20 @@ LEXICON V-nähä_01
 +PrsPrc:htAÄ1vAÄ1	A-tulova   ;
 ! +Prc:oltu			       #   ;
 +V+Inf+Der/tOin:kömAÄ1t A-kalatoin ; ! näkömätöin
++V+Inf+Der/tOin:kemAÄ1t A-kalatoin ; ! näkömätöin
 ! 
 +Inf:h%>%^WCnsAÄ1             #   ; ! nähä
 +Inf:kömAÄ1  SG-ILL_V  ; ! kirjuttamaa
 +Inf:kemAÄ1  SG-ILL_V  ; ! kirjuttamaa
 +Inf:kömAÄ1  SG-INE   ;
++Inf:kemAÄ1  SG-INE   ;
 +Inf:kömAÄ1  SG-ELA   ;
++Inf:kemAÄ1  SG-ELA   ;
 +Inf:kömAÄ1  SG-ABE   ;
++Inf:kemAÄ1  SG-ABE   ;
 +Ger+Ine:hhees		#   ;
-+Der/miin:kö%>mi N-inmihiin ; 
++Der/miin:kömi N-inmihiin ; 
++Der/miin:kemi N-inmihiin ; 
 
 ! panna:pa
 LEXICON V-panna
@@ -1056,13 +1076,62 @@ LEXICON V-pittiissä_01
 ! +Ger:ollees		#   ;
 +Der/miin:mi N-inmihiin ; ! piittiimiin
 
-!joosta:joo
-LEXICON V-joosta
-!+V:ks V-joosta_01 ;
+!joossa:joo
+LEXICON V-joossa
+!+V:ks V-joossa_01 ;
 +V:ksi IndPrt ;
 +V:ksi V-actor_jA ; !
 
-!LEXICON V-joosta_01
+!LEXICON V-joossa_01
+
+! vuhissa:vuhis
+LEXICON V-vuhissa
++V: V-vuhissa_01 ;
+
+LEXICON V-vuhissa_01
++Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
++Ind+Prs+Sg2:e%>%^WCnst	#   ;
++Ind+Prs+Sg3:OÖ1%>%^LCnsV3	K_V   ;
++Ind+Prs+Pl1:e%>%^WCnsmmAÄ1	#   ;
++Ind+Prs+Pl2:e%>%^WCnsttAÄ1	#   ;
++Ind+Prs+Pl3:OÖ1%>%^LCnsV3t	K_V   ;
++Ind+Prs+4:e%>%^WCnstAÄ1AÄ1	#   ;
++Ind+Prs+ConNeg:e%>%^WCns	#   ;
+
+:%^TSi IndPrt ;
++Ind+Prt+Pl3:%^TSivAÄ1t     K_V   ;
++Ind+Prt+Pl3:e%>%^WCnstii     #   ;
++Ind+ConNeg+Prt:e%>%^WCnsttUY1         #   ;
+
+:n PotPers ; ! vuhisnoo
+!+Pot+4:ollaa      #   ;
+!+Pot+ConNeg:oo                #   ;
+
+ CondPers ; ! vuhisisin
+! +Cond+4:oltais      #   ;
+! !+Cond+ConNeg:oo                #   ;
+! 
+: ImprtPers_k ; !vuhiskaa
+! +Imprt+Sg2:oo      #   ;
+! +Imprt+4:oltakoo      #   ;
+! !+Imprt+ConNeg:oo                #   ;
+! 
+:i V-actor_jA ; !
+:e V-ActPrsPrc ; ! vuhiseva
+:	V-ActPrtPrc_st   ; ! lukent
++Prc:e%>%^WCnsttAÄ1vAÄ1	A-tulova   ;
++PrtPrc:e%>%^WCnsttUY1	 	A-kova   ;
++V+Inf+Der/tOin:emAÄ1t A-kalatoin ; ! lukematoin
+! 
++Inf:tAÄ1%>%^WCns             #   ; ! vuhissa
++Inf:OÖ1mAÄ1  SG-ILL_V   ; ! vuhisemmaa
++Inf:emAÄ1  SG-ILL_V   ; ! antamaa
++Inf:emAÄ1 SG-INE   ;
++Inf:emAÄ1 SG-ELA   ;
++Inf:emAÄ1 SG-ABE   ;
+! +Ger:ollees		#   ;
++Der/miin:OÖ1%>mi N-inmihiin ;
+
 
 
 ! :laatihu
@@ -1296,7 +1365,21 @@ LEXICON V-ahavojja
 
 ! Actor in jA
 LEXICON V-actor_jA
-+Der/jA:jAÄ1 N-osa ;
++Der/jA+N:jAÄ1 DER-tOin ; !
++Der/jA+N@U.POS.N@:j@U.POS.N@ V-actor_01 ;
+
+LEXICON V-actor_01
+:AÄ1 SG-NOM   ; ! osa
+:AÄ1 SG-PAR_A-LCns   ; ! ossaa
+:AÄ1 SG-ILL_V   ; ! ossaa
+:AÄ1 Oblique-Singular ;
+! Plural
+:AÄ1 PL-NOM   ; ! osat
+Use/Sub:OÖ1 PL-PAR_tA   ; ! tekijöitä
+! PL-PAR_A-LCns   ; ! ossia
+ PL-ILL_hV   ; ! ossii
+:OÖ1 Oblique-Plural ;
+
 
 !!!!!!!!!!!!!!!!!
 !! PARTICIPLES !!
