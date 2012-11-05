@@ -657,7 +657,7 @@ LEXICON N-keeli
 
 LEXICON N-keeli_01
 :i     SG-NOM   ; ! keeli
-+Use/Sub+Sg+Par:t ;
++Use/Sub+Sg+Par:t K ;
  SG-PAR_tA  ; ! keeltä
 :e SG-ILL_V   ; ! keelee
 :e Oblique-Singular ;
