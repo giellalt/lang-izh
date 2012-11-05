@@ -48,6 +48,25 @@ LEXICON N-preesens_01
 LEXICON N-glasnoi
 +N@U.POS.N@:@U.POS.N@ A-glavnoi_01 ;
 
+! risti (II)
+LEXICON N-risti
++N: DER-tOin ; ! ristitöin
++N@U.POS.N@:@U.POS.N@ N-risti_01 ;
+
+LEXICON N-risti_01
+     SG-NOM   ; ! risti
+!:%>%^LCns%^LVws SG-PAR_A   ; ! mattooa !Is this right
+ SG-PAR_A-LCns   ; ! mattoa
+ SG-ILL_V   ; ! mattoo
+ Oblique-Singular ;
+! Plural
+ lOi-Pl ;
+: PL-PAR_A ; ! matoja
+:i PL-PAR_A ; ! matoja
+: PL-ILL_hV ; ! matoja
+:%^NoGrad Oblique-Plural ; ! PL-PAR and PL-ILL needed 2012-10-31
+:%>%^WCns PL-NOM   ; ! maot
+
 ! mato (II)
 LEXICON N-mato
 +N: DER-tOin ; ! maotoin
@@ -61,6 +80,7 @@ LEXICON N-mato_01
  Oblique-Singular ;
 ! Plural
  lOi-Pl ;
+: PL-PAR_A ; ! matoja
 :%^NoGrad Oblique-Plural ; ! PL-PAR and PL-ILL needed 2012-10-31
 :%>%^WCns PL-NOM   ; ! maot
 
@@ -113,6 +133,7 @@ LEXICON N-joki_01
 :e       PL-NOM    ; ! joet
    PL-PAR_A-LCns   ; ! kumpia
 :i       PL-PAR_A   ; ! kumpia
+:       PL-PAR_A   ; ! kumpia
  Oblique-Plural_V ;
 
 ! lumi (II-d)
@@ -137,7 +158,7 @@ LEXICON N-emoi
 
 LEXICON N-emoi_01
 +Dial/Soik+Sg+Nom:i     #   ; ! emoi
-+Dial/Lauk+Sg+Nom:i     #   ; ! emoi
++Dial/Lauk+Sg+Nom:     #   ; ! emoi
 +Sg+Par:i%>%^LCns%^LVwsAÄ1	#   ; ! emmooja
 +Sg+Ill:i%>%^LCnsV1	#   ; ! emoihe
 :i Oblique-Singular ;
@@ -270,9 +291,28 @@ LEXICON N-slovari_01
  Oblique-Singular ;
 ! Plural
 : lOi-Pl ;
-+Pl+Nom:%>t     #   ; ! maot
-+Pl+Acc:%>t     #   ; ! maot
+ PL-NOM   ; ! maot
+:%^NoGrad Oblique-plural ;
+ PL-PAR_tA ;
+ PL-ILL_hV ;
 
+
+! numero:numero
+LEXICON N-numero
++N: DER-tOin ; ! numerotoin
++N@U.POS.N@:@U.POS.N@ N-numero_01 ;
+
+LEXICON N-numero_01
+ SG-NOM   ; ! numero
+ SG-PAR_A   ; ! mattooa
+ SG-ILL_V   ; ! mattoo
+ Oblique-Singular ;
+! Plural
+: lOi-Pl ;
+ PL-NOM   ; ! maot
+:%^NoGrad Oblique-plural ;
+ PL-PAR_tA ;
+ PL-ILL_hV ;
 
 
 ! the stem-final "a" is added here
@@ -297,7 +337,7 @@ LEXICON N-vokala_01
 ! harakka:harakk
 ! This should operate using principles of ommeena
 LEXICON N-harakka
-+N: DER-tOin ; !harakatoin
++N:AÄ1 DER-tOin ; !harakatoin
 +N@U.POS.N@:@U.POS.N@ N-harakka_01 ;
 
 LEXICON N-harakka_01
@@ -447,8 +487,8 @@ LEXICON N-tähti
 
 LEXICON N-tähti_01
 :i     SG-NOM   ; ! tähti
-:e SG-PAR_A   ; ! mattooa
-:e SG-ILL_V   ; ! mattoo
+:e SG-PAR_A   ; ! tähteä
+:e SG-ILL_V   ; ! tähtee
 :e  Oblique-Singular ;
 ! Plural
 +Pl:i  lOi-Pl ;
@@ -592,6 +632,7 @@ LEXICON N-mehiläin_01
 ! Plural
 :se     PL-NOM   ; ! mehiläiset
 :s      PL-PAR_A-LCns   ; ! mehiläissiä
+:s      PL-PAR_A   ; ! mehiläisiä
 :s      PL-ILL_V   ; ! mehiläisii
 :s    Oblique-Plural ;
 
@@ -988,6 +1029,7 @@ LEXICON SG-ILL_V
 
 LEXICON SG-ILL_hV
 +Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>hV1@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
++PxSg3+Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>hV1%>V3@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
 
 LEXICON SG-INE
 +Sg+Ine@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnsV3s@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;

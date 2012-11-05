@@ -48,6 +48,117 @@
    </entry>
    <entry>
       <lg>
+         <l>poikkee</l>
+         <stg>
+            <st Contlex="AdvTag">poikkee</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>möötä</l>
+         <stg>
+            <st Contlex="AdvTag">möötä</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mööhää</l>
+         <stg>
+            <st Contlex="AdvTag">mööhää</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>plys</l>
+         <stg>
+            <st Contlex="AdvTag">plys</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>viimeks</l>
+         <stg>
+            <st Contlex="AdvTag">viimeks</st>
+            <st Contlex="AdvTag">viimeeks</st>
+         </stg>
+      </lg>
+      <pos>ADV</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>keskenää</l>
          <stg>
             <st Contlex="AdvTag">keskenää</st>
