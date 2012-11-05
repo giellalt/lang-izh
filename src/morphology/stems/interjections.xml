@@ -46,4 +46,114 @@
          </mg>
       </e>
    </entry>
+   <entry>
+      <lg>
+         <l>ähä</l>
+         <stg>
+            <st Contlex="InterjTag">ähä</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>voi-voi</l>
+         <stg>
+            <st Contlex="InterjTag">voi-voi</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>oi-oi</l>
+         <stg>
+            <st Contlex="InterjTag">oi-oi</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tprr</l>
+         <stg>
+            <st Contlex="InterjTag">tprr</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vohma</l>
+         <stg>
+            <st Contlex="InterjTag">vohma</st>
+         </stg>
+      </lg>
+      <pos>INTERJ</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
 </r>

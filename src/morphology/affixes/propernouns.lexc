@@ -31,6 +31,17 @@ LEXICON letterName_01
 LEXICON Prop-pedoi
 +N+Prop: N-emoi_01 ;
 
+LEXICON Prop-baku
++N+Prop:%^NoGrad N-mato ;
+
+LEXICON Prop-nenove
++N+Prop: N-nenove_01 ;
+
+LEXICON N-nenove_01
+ SG-NOM ;
+ SG-PAR_A ; !??
+ SG-ILL_sse ; !??
+ Oblique-Singular
 
 LEXICON Prop-oktjabri
 +N+Prop: N-slovari_01 ;

@@ -379,6 +379,29 @@
    </entry>
    <entry>
       <lg>
+         <l>polzikas</l>
+         <stg>
+            <st Contlex="A-kitsas">polzikka</st>
+            <st Contlex="A-kitsas">polsikka</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>voimakas</l>
          <stg>
             <st Contlex="A-kitsas">voimakka</st>
@@ -599,6 +622,28 @@
    </entry>
    <entry>
       <lg>
+         <l>raskas</l>
+         <stg>
+            <st Contlex="A-kitsas">raska</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>ahas</l>
          <stg>
             <st Contlex="A-kitsas">ahta</st>
@@ -643,6 +688,28 @@
    </entry>
    <entry>
       <lg>
+         <l>terve</l>
+         <stg>
+            <st Contlex="A-terve">terve</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kivekäs</l>
          <stg>
             <st Contlex="A-kitsas">kivekkä</st>
@@ -668,6 +735,50 @@
          <l>iäkäs</l>
          <stg>
             <st Contlex="A-kitsas">iäkkä</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>sookas</l>
+         <stg>
+            <st Contlex="A-kitsas">sookka</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>veekäs</l>
+         <stg>
+            <st Contlex="A-kitsas">veekkä</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -734,6 +845,8 @@
          <l>peen</l>
          <stg>
             <st Contlex="A-suur">peen</st>
+            <st Contlex="A-suur">pien</st>
+            <st Contlex="A-suur">piin</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -995,9 +1108,119 @@
    </entry>
    <entry>
       <lg>
+         <l>makkia</l>
+         <stg>
+            <st Contlex="A-kerkiä">makki</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>karkia</l>
+         <stg>
+            <st Contlex="A-kerkiä">karki</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>hoppia</l>
+         <stg>
+            <st Contlex="A-kerkiä">hoppi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>helliä</l>
+         <stg>
+            <st Contlex="A-kerkiä">helli</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>pimmiä</l>
          <stg>
             <st Contlex="A-kerkiä">pimmi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>oikia</l>
+         <stg>
+            <st Contlex="A-kerkiä">oiki</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1042,6 +1265,28 @@
          <l>sirkiä</l>
          <stg>
             <st Contlex="A-kerkiä">sirki</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rappia</l>
+         <stg>
+            <st Contlex="A-kerkiä">rappi</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1259,9 +1504,53 @@
    </entry>
    <entry>
       <lg>
+         <l>musta</l>
+         <stg>
+            <st Contlex="A-kova">musta</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>kylmä</l>
          <stg>
             <st Contlex="A-kova">kylmä</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>märkä</l>
+         <stg>
+            <st Contlex="A-kova">märkä</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -1576,6 +1865,160 @@
          <l>glavnoi</l>
          <stg>
             <st Contlex="A-glavnoi">glavnoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>neitraljnoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">neitraljnoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>politiceskoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">politiceskoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>revolytsionnoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">revolytsionnoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rimskoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">rimskoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tekniceskoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">tekniceskoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>tocnoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">tocnoi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>uslovnoi</l>
+         <stg>
+            <st Contlex="A-glavnoi">uslovnoi</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -2080,6 +2523,50 @@
    </entry>
    <entry>
       <lg>
+         <l>poolivahva</l>
+         <stg>
+            <st Contlex="A-vahva">pooli#vahv</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rankka</l>
+         <stg>
+            <st Contlex="A-vahva">rankk</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>laiska</l>
          <stg>
             <st Contlex="A-vahva">laisk</st>
@@ -2259,6 +2746,28 @@
          <l>pohjallin</l>
          <stg>
             <st Contlex="A-pohjallin">pohjalli</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mussikkain</l>
+         <stg>
+            <st Contlex="A-pohjallin">mussikkai</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -2766,6 +3275,28 @@
          <l>erilaajain</l>
          <stg>
             <st Contlex="A-punain">eri#laajai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t>erilainen</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>männävootiin</l>
+         <stg>
+            <st Contlex="A-entiin">männä#vooti</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -3469,6 +4000,30 @@
    </entry>
    <entry>
       <lg>
+         <l>keero</l>
+         <stg>
+            <st Contlex="A-hoono">kiero</st>
+            <st Contlex="A-hoono">kiiro</st>
+            <st Contlex="A-hoono">huuno</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>liitsallin</l>
          <stg>
             <st Contlex="A-pohjallin">liitsalli</st>
@@ -3561,6 +4116,50 @@
          <l>punain</l>
          <stg>
             <st Contlex="A-punain">punai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>mööhäin</l>
+         <stg>
+            <st Contlex="A-punain">mööhäi</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>poolein</l>
+         <stg>
+            <st Contlex="A-punain">poolei</st>
          </stg>
       </lg>
       <pos>A</pos>
@@ -3803,6 +4402,72 @@
          <l>tiippain</l>
          <stg>
             <st Contlex="A-punain">tiippai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>petos-tiippain</l>
+         <stg>
+            <st Contlex="A-punain">petos-tiippai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>vesi-tiippain</l>
+         <stg>
+            <st Contlex="A-punain">vesi-tiippai</st>
+         </stg>
+      </lg>
+      <pos>A</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>oikehus-tiippain</l>
+         <stg>
+            <st Contlex="A-punain">oikehus-tiippai</st>
          </stg>
       </lg>
       <pos>A</pos>

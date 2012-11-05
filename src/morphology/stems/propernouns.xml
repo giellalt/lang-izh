@@ -994,9 +994,53 @@
    </entry>
    <entry>
       <lg>
+         <l>Läns-Europpa</l>
+         <stg>
+            <st Contlex="Prop-soikkola">Läns-Europp</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
          <l>oktjabri</l>
          <stg>
             <st Contlex="Prop-oktjabri">oktjabri</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Siberi</l>
+         <stg>
+            <st Contlex="Prop-oktjabri">Siberi</st>
          </stg>
       </lg>
       <pos>PROP</pos>
@@ -1063,6 +1107,72 @@
          <l>Vennääjä</l>
          <stg>
             <st Contlex="Prop-vennääjä">Vennääjä</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Nenove</l>
+         <stg>
+            <st Contlex="Prop-nenove">Nenove</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>rantove</l>
+         <stg>
+            <st Contlex="Prop-nenove">rantove</st>
+         </stg>
+      </lg>
+      <pos>PROP</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t/>
+            </tg>
+            <tg lang="fin">
+               <t/>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+   <entry>
+      <lg>
+         <l>Baku</l>
+         <stg>
+            <st Contlex="Prop-baku">Baku</st>
          </stg>
       </lg>
       <pos>PROP</pos>
