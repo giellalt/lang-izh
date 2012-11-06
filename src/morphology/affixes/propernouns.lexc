@@ -41,7 +41,7 @@ LEXICON N-nenove_01
  SG-NOM ;
  SG-PAR_A ; !??
  SG-ILL_sse ; !??
- Oblique-Singular
+ Oblique-Singular ;
 
 LEXICON Prop-oktjabri
 +N+Prop: N-slovari_01 ;
