@@ -292,7 +292,7 @@ LEXICON N-slovari_01
 ! Plural
 : lOi-Pl ;
  PL-NOM   ; ! maot
-:%^NoGrad Oblique-plural ;
+:%^NoGrad Oblique-Plural ;
  PL-PAR_tA ;
  PL-ILL_hV ;
 
@@ -310,7 +310,7 @@ LEXICON N-numero_01
 ! Plural
 : lOi-Pl ;
  PL-NOM   ; ! maot
-:%^NoGrad Oblique-plural ;
+:%^NoGrad Oblique-Plural ;
  PL-PAR_tA ;
  PL-ILL_hV ;
 
