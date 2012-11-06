@@ -4,6 +4,12 @@ LEXICON adverbs
 
 aattoon:aattoon AdvTemp-Ess  "" ;
 ni:ni AdvTag  "" ;
+poikkee:poikkee AdvTag  "" ;
+möötä:möötä AdvTag  "" ;
+mööhää:mööhää AdvTag  "" ;
+plys:plys AdvTag  "" ;
+viimeks:viimeks AdvTag  "" ;
+viimeks:viimeeks AdvTag  "" ;
 keskenää:keskenää AdvTag  "" ;
 hyvin:hyvin AdvTag  "" ;
 viimäks:viimäks AdvTag  "" ;
