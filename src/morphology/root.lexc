@@ -48,9 +48,9 @@ Multichar_Symbols
  +Dial/Lauk ! Peculiar to Laukaa
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
+ +Sg +Pl
  +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par
- +Exe +Instr +Com +Ins
+ +Exe +Instr +Com +Ins +Prl
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
