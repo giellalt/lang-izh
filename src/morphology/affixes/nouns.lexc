@@ -191,9 +191,8 @@ LEXICON N-kana
 +N@U.POS.N@:@U.POS.N@ N-kana_01 ;
 
 LEXICON N-kana_01
-+Sg+Nom:a     K   ; ! kana
+:a     SG-NOM   ; ! kana
 :a SG-PAR_A-LCns ;
-!+Sg+Par:a%>%^LCnsAÄ1	#   ; ! jalkaa
 :a SG-ILL_V  ; ! jalkaa
 :a  Oblique-Singular ;
 ! Plural
@@ -976,7 +975,7 @@ LEXICON PL-PAR_tA
 +Pl+Par+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>tAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
 
 LEXICON PL-PRL
-+Pl+Prl00000@U.DECL-NX.PL@@U.DECL-CX.PRL@:%>i%>%^WCnstse@U.DECL-NX.PL@@U.DECL-CX.PRL@    #   ; ! rannoitse
++Pl+Prl00000@U.DECL-NX.PL@@U.DECL-CX.PRL@:%>i%>%^WCnstse@U.DECL-NX.PL@@U.DECL-CX.PRL@    K   ; ! rannoitse
 
 LEXICON PL-TRA
 +Pl+Tra0000@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsks@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
