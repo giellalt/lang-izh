@@ -10,19 +10,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>first</t>
-            </tg>
-            <tg lang="fin">
-               <t>ensimmäinen</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>first</t>
+         </tg>
+         <tg lang="fin">
+            <t>ensimmäinen</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -32,19 +30,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -54,19 +50,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -76,19 +70,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>second</t>
-            </tg>
-            <tg lang="fin">
-               <t>toinen</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>second</t>
+         </tg>
+         <tg lang="fin">
+            <t>toinen</t>
+         </tg>
+      </mg>
    </entry>
    <entry exclude="fst">
       <lg>
@@ -98,19 +90,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>hundredth</t>
-            </tg>
-            <tg lang="fin">
-               <t>sadas</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>hundredth</t>
+         </tg>
+         <tg lang="fin">
+            <t>sadas</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -120,19 +110,17 @@
          </stg>
       </lg>
       <pos>A</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -142,19 +130,17 @@
          </stg>
       </lg>
       <pos>A</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -164,19 +150,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -186,19 +170,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -208,19 +190,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -230,19 +210,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>all</t>
-            </tg>
-            <tg lang="fin">
-               <t>kaikki</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>all</t>
+         </tg>
+         <tg lang="fin">
+            <t>kaikki</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -252,19 +230,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>more</t>
-            </tg>
-            <tg lang="fin">
-               <t>enemmän</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>more</t>
+         </tg>
+         <tg lang="fin">
+            <t>enemmän</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -274,19 +250,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -296,19 +270,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t>vain</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t>vain</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -318,19 +290,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -340,19 +310,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -362,19 +330,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -384,19 +350,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -406,19 +370,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>each</t>
-            </tg>
-            <tg lang="fin">
-               <t>joka</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>each</t>
+         </tg>
+         <tg lang="fin">
+            <t>joka</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -428,19 +390,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>each</t>
-            </tg>
-            <tg lang="fin">
-               <t>joka</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>each</t>
+         </tg>
+         <tg lang="fin">
+            <t>joka</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -450,19 +410,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>one</t>
-            </tg>
-            <tg lang="fin">
-               <t>yksi</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>one</t>
+         </tg>
+         <tg lang="fin">
+            <t>yksi</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -472,19 +430,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>two</t>
-            </tg>
-            <tg lang="fin">
-               <t>kaksi</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>two</t>
+         </tg>
+         <tg lang="fin">
+            <t>kaksi</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -494,19 +450,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>three</t>
-            </tg>
-            <tg lang="fin">
-               <t>kolme</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>three</t>
+         </tg>
+         <tg lang="fin">
+            <t>kolme</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -516,19 +470,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -538,19 +490,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -560,19 +510,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -582,19 +530,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -604,19 +550,17 @@
          </stg>
       </lg>
       <pos>QNT</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -626,19 +570,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -648,19 +590,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -670,19 +610,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -692,19 +630,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -714,19 +650,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -736,19 +670,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -758,19 +690,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -780,19 +710,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -802,19 +730,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -824,19 +750,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -846,19 +770,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -868,19 +790,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -890,19 +810,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -912,19 +830,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -934,19 +850,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -956,19 +870,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -978,19 +890,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1000,19 +910,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1022,19 +930,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1044,19 +950,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1066,19 +970,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1088,19 +990,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1110,19 +1010,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1132,19 +1030,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1154,19 +1050,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1176,19 +1070,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1198,19 +1090,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1220,19 +1110,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>three</t>
-            </tg>
-            <tg lang="fin">
-               <t>kolme</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>three</t>
+         </tg>
+         <tg lang="fin">
+            <t>kolme</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1242,19 +1130,17 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t>three</t>
-            </tg>
-            <tg lang="fin">
-               <t>kolme</t>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t>three</t>
+         </tg>
+         <tg lang="fin">
+            <t>kolme</t>
+         </tg>
+      </mg>
    </entry>
    <entry>
       <lg>
@@ -1264,18 +1150,16 @@
          </stg>
       </lg>
       <pos>NUM</pos>
-      <e>
-         <mg>
-            <m>
-               <head/>
-            </m>
-            <tg lang="eng">
-               <t/>
-            </tg>
-            <tg lang="fin">
-               <t/>
-            </tg>
-         </mg>
-      </e>
+      <mg>
+         <m>
+            <head/>
+         </m>
+         <tg lang="eng">
+            <t/>
+         </tg>
+         <tg lang="fin">
+            <t/>
+         </tg>
+      </mg>
    </entry>
 </r>
