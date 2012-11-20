@@ -2,7 +2,7 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+   <e>
       <lg>
          <l>aattoon</l>
          <stg>
@@ -21,8 +21,8 @@
             <t>aattona</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ni</l>
          <stg>
@@ -41,8 +41,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poikkee</l>
          <stg>
@@ -61,8 +61,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>möötä</l>
          <stg>
@@ -81,8 +81,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mööhää</l>
          <stg>
@@ -101,8 +101,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>plys</l>
          <stg>
@@ -121,8 +121,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viimeks</l>
          <stg>
@@ -142,8 +142,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>keskenää</l>
          <stg>
@@ -162,8 +162,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hyvin</l>
          <stg>
@@ -182,8 +182,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viimäks</l>
          <stg>
@@ -202,8 +202,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voorollaa</l>
          <stg>
@@ -222,8 +222,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>välimitee</l>
          <stg>
@@ -242,8 +242,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aintakii</l>
          <stg>
@@ -262,8 +262,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oikiistaa</l>
          <stg>
@@ -282,8 +282,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>auki</l>
          <stg>
@@ -302,8 +302,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yksintää</l>
          <stg>
@@ -322,8 +322,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>siis</l>
          <stg>
@@ -342,8 +342,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>eikä</l>
          <stg>
@@ -362,8 +362,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ikkee</l>
          <stg>
@@ -382,8 +382,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>erittee</l>
          <stg>
@@ -402,8 +402,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vähiee</l>
          <stg>
@@ -422,8 +422,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>eriksee</l>
          <stg>
@@ -442,8 +442,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>melkeen</l>
          <stg>
@@ -462,8 +462,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rinnatikkoo</l>
          <stg>
@@ -482,8 +482,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yksittee</l>
          <stg>
@@ -502,8 +502,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhtperrää</l>
          <stg>
@@ -522,8 +522,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poikittee</l>
          <stg>
@@ -542,8 +542,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pitkittee</l>
          <stg>
@@ -562,8 +562,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partittee</l>
          <stg>
@@ -582,8 +582,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paikoittee</l>
          <stg>
@@ -602,8 +602,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>enemmittee</l>
          <stg>
@@ -622,8 +622,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yksinää</l>
          <stg>
@@ -642,8 +642,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>osittee</l>
          <stg>
@@ -662,8 +662,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiin</l>
          <stg>
@@ -682,8 +682,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kera</l>
          <stg>
@@ -702,8 +702,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aintakkii</l>
          <stg>
@@ -722,8 +722,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ensikää</l>
          <stg>
@@ -742,8 +742,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kovin</l>
          <stg>
@@ -762,8 +762,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vast</l>
          <stg>
@@ -782,8 +782,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>valepäähä</l>
          <stg>
@@ -802,8 +802,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niinikkee</l>
          <stg>
@@ -822,8 +822,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tihtimpää</l>
          <stg>
@@ -842,8 +842,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ohto</l>
          <stg>
@@ -862,8 +862,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>senperäst</l>
          <stg>
@@ -882,8 +882,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>peräjälkee</l>
          <stg>
@@ -902,8 +902,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perätystää</l>
          <stg>
@@ -922,8 +922,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perätykkee</l>
          <stg>
@@ -942,8 +942,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perätikko</l>
          <stg>
@@ -962,8 +962,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perrääpäin</l>
          <stg>
@@ -982,8 +982,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sentää</l>
          <stg>
@@ -1002,8 +1002,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kerallee</l>
          <stg>
@@ -1022,8 +1022,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mukkaa</l>
          <stg>
@@ -1042,8 +1042,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>etteepäin</l>
          <stg>
@@ -1062,8 +1062,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seelt</l>
          <stg>
@@ -1082,8 +1082,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ettääl</l>
          <stg>
@@ -1102,8 +1102,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alempaan</l>
          <stg>
@@ -1122,8 +1122,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seel</l>
          <stg>
@@ -1142,8 +1142,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pois</l>
          <stg>
@@ -1162,8 +1162,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yllääl</l>
          <stg>
@@ -1183,8 +1183,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yllält</l>
          <stg>
@@ -1207,8 +1207,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yllää</l>
          <stg>
@@ -1227,8 +1227,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ranta</l>
          <stg>
@@ -1247,8 +1247,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pelto</l>
          <stg>
@@ -1267,8 +1267,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niitty</l>
          <stg>
@@ -1287,8 +1287,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>allaal</l>
          <stg>
@@ -1307,8 +1307,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>metsä</l>
          <stg>
@@ -1327,8 +1327,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>meri</l>
          <stg>
@@ -1347,8 +1347,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maa</l>
          <stg>
@@ -1367,8 +1367,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ettee</l>
          <stg>
@@ -1387,8 +1387,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koolla</l>
          <stg>
@@ -1407,8 +1407,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>päin</l>
          <stg>
@@ -1427,8 +1427,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tääl</l>
          <stg>
@@ -1447,8 +1447,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sinne</l>
          <stg>
@@ -1467,8 +1467,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tänne</l>
          <stg>
@@ -1487,8 +1487,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ylempään</l>
          <stg>
@@ -1507,8 +1507,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>täält</l>
          <stg>
@@ -1527,8 +1527,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ain</l>
          <stg>
@@ -1547,8 +1547,8 @@
             <t>aina</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>egle</l>
          <stg>
@@ -1567,8 +1567,8 @@
             <t>eilen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tänäpään</l>
          <stg>
@@ -1587,8 +1587,8 @@
             <t>tänään</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nykyaikaa</l>
          <stg>
@@ -1607,8 +1607,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tänävoonna</l>
          <stg>
@@ -1627,8 +1627,8 @@
             <t>eilen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>varraa</l>
          <stg>
@@ -1647,8 +1647,8 @@
             <t>eilen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koht</l>
          <stg>
@@ -1667,8 +1667,8 @@
             <t>eilen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>taas</l>
          <stg>
@@ -1687,8 +1687,8 @@
             <t>taas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tihtii</l>
          <stg>
@@ -1707,8 +1707,8 @@
             <t>taas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konsikkee</l>
          <stg>
@@ -1727,8 +1727,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paraikaa</l>
          <stg>
@@ -1747,8 +1747,8 @@
             <t>taas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tihimpää</l>
          <stg>
@@ -1767,8 +1767,8 @@
             <t>taas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tänäpään</l>
          <stg>
@@ -1787,8 +1787,8 @@
             <t>taas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veel</l>
          <stg>
@@ -1807,8 +1807,8 @@
             <t>vielä</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ennen</l>
          <stg>
@@ -1827,8 +1827,8 @@
             <t>vielä</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nyt</l>
          <stg>
@@ -1847,8 +1847,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aikanaa</l>
          <stg>
@@ -1867,8 +1867,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jo</l>
          <stg>
@@ -1887,8 +1887,8 @@
             <t>jo</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>enstää</l>
          <stg>
@@ -1907,8 +1907,8 @@
             <t>aina</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>silloin</l>
          <stg>
@@ -1927,8 +1927,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ennää</l>
          <stg>
@@ -1947,8 +1947,8 @@
             <t>aina</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viisii</l>
          <stg>
@@ -1967,8 +1967,8 @@
             <t>tavalla</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhelviisii</l>
          <stg>
@@ -1987,8 +1987,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>silviisii</l>
          <stg>
@@ -2007,5 +2007,5 @@
             <t>sillä tavalla</t>
          </tg>
       </mg>
-   </entry>
+   </e>
 </r>
