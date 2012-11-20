@@ -2,7 +2,7 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+   <e>
       <lg>
          <l>Pedoi</l>
          <stg>
@@ -21,8 +21,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Odoi</l>
          <stg>
@@ -41,8 +41,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Mikoi</l>
          <stg>
@@ -61,8 +61,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Paavoi</l>
          <stg>
@@ -81,8 +81,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Maattoi</l>
          <stg>
@@ -101,8 +101,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ivoi</l>
          <stg>
@@ -121,8 +121,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Hevaa</l>
          <stg>
@@ -141,8 +141,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>a</l>
          <stg>
@@ -161,8 +161,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>h</l>
          <stg>
@@ -181,8 +181,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>i</l>
          <stg>
@@ -201,8 +201,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>k</l>
          <stg>
@@ -221,8 +221,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>s</l>
          <stg>
@@ -241,8 +241,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ä</l>
          <stg>
@@ -261,8 +261,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>t</l>
          <stg>
@@ -281,8 +281,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>j</l>
          <stg>
@@ -301,8 +301,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>h</l>
          <stg>
@@ -321,8 +321,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>y</l>
          <stg>
@@ -341,8 +341,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>u</l>
          <stg>
@@ -361,8 +361,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>v</l>
          <stg>
@@ -381,8 +381,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Laukaa</l>
          <stg>
@@ -401,8 +401,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ala-Laukaa</l>
          <stg>
@@ -421,8 +421,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Bubrih</l>
          <stg>
@@ -441,8 +441,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Leningrad</l>
          <stg>
@@ -461,8 +461,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Kьzьl</l>
          <stg>
@@ -481,8 +481,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Sьktьvkar</l>
          <stg>
@@ -501,8 +501,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Lenin</l>
          <stg>
@@ -521,8 +521,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Stalin</l>
          <stg>
@@ -541,8 +541,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Iljina</l>
          <stg>
@@ -561,8 +561,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Katja</l>
          <stg>
@@ -581,8 +581,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Harjavalta</l>
          <stg>
@@ -601,8 +601,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ustj-Luuga</l>
          <stg>
@@ -621,8 +621,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Urala</l>
          <stg>
@@ -641,8 +641,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ukraina</l>
          <stg>
@@ -661,8 +661,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Frantsia</l>
          <stg>
@@ -681,8 +681,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Oranienbauma</l>
          <stg>
@@ -701,8 +701,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Vasakara</l>
          <stg>
@@ -721,8 +721,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ispania</l>
          <stg>
@@ -741,8 +741,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Kolja</l>
          <stg>
@@ -761,8 +761,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Soikkola</l>
          <stg>
@@ -781,8 +781,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Loukkula</l>
          <stg>
@@ -801,8 +801,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Puna-armia</l>
          <stg>
@@ -821,8 +821,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Koskin</l>
          <stg>
@@ -841,8 +841,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Someroin</l>
          <stg>
@@ -861,8 +861,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Keski-Soikkola</l>
          <stg>
@@ -881,8 +881,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Oredeƶa</l>
          <stg>
@@ -901,8 +901,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Läns-Europpa</l>
          <stg>
@@ -921,8 +921,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oktjabri</l>
          <stg>
@@ -941,8 +941,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Siberi</l>
          <stg>
@@ -961,8 +961,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Värski</l>
          <stg>
@@ -981,8 +981,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Çimmervaldi</l>
          <stg>
@@ -1001,8 +1001,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Vennääjä</l>
          <stg>
@@ -1021,8 +1021,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Nenove</l>
          <stg>
@@ -1041,8 +1041,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rantove</l>
          <stg>
@@ -1061,8 +1061,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Baku</l>
          <stg>
@@ -1081,5 +1081,5 @@
             <t/>
          </tg>
       </mg>
-   </entry>
+   </e>
 </r>
