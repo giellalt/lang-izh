@@ -1,31 +1,30 @@
 
-
 LEXICON nouns
 
-tähti:täht N-tähti  "" ;
-pilvi:pilvi N-tähti  "" ;
-poski:posk N-tähti  "" ;
+tähti:täht N-tähti  "star" ;
+pilvi:pilvi N-tähti  "cloud" ;
+poski:posk N-tähti  "cheek" ;
 tedri:tedr N-tähti  "" ;
 umpi:ump N-tähti  "" ;
-kurki:kurk N-tähti  "" ;
-nain:nai N-nain  "" ;
-esim.:esim AbbrDot  "" ;
+kurki:kurk N-tähti  "crane" ;
+nain:nai N-nain  "woman" ;
+esim.:esim AbbrDot  "for example" ;
 st.:st AbbrDot  "" ;
-tov.:tov AbbrDot  "" ;
-Nom.:Nom AbbrDot  "" ;
-Part.:Part AbbrDot  "" ;
-Tr.:Tr AbbrDot  "" ;
-Gen.:Gen AbbrDot  "" ;
-In.:In AbbrDot  "" ;
-Akk.:Akk AbbrDot  "" ;
-Ess.:Ess AbbrDot  "" ;
-All.:All AbbrDot  "" ;
-Ad.:Ad AbbrDot  "" ;
-Abl.:Abl AbbrDot  "" ;
-El.:El AbbrDot  "" ;
-Eks.:Eks AbbrDot  "" ;
-Slaab.:Slaab AbbrDot  "" ;
-Mon.:Mon AbbrDot  "" ;
+tov.:tov AbbrDot  "comrade" ;
+Nom.:Nom AbbrDot  "nominative" ;
+Part.:Part AbbrDot  "partitive" ;
+Tr.:Tr AbbrDot  "translative" ;
+Gen.:Gen AbbrDot  "genitive" ;
+In.:In AbbrDot  "inessive" ;
+Akk.:Akk AbbrDot  "accusative" ;
+Ess.:Ess AbbrDot  "essive" ;
+All.:All AbbrDot  "allative" ;
+Ad.:Ad AbbrDot  "adessive" ;
+Abl.:Abl AbbrDot  "ablative" ;
+El.:El AbbrDot  "elative" ;
+Eks.:Eks AbbrDot  "exessive" ;
+Slaab.:Slaab AbbrDot  "weak" ;
+Mon.:Mon AbbrDot  "plural" ;
 Ill.:Ill AbbrDot  "" ;
 vok.:vok AbbrDot  "" ;
 lähe:lähte N-lähe  "" ;

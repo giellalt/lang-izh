@@ -15,7 +15,7 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>star</t>
          </tg>
          <tg lang="fin">
             <t>tähti</t>
@@ -35,10 +35,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>cloud</t>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t>pilvi</t>
          </tg>
       </mg>
    </entry>
@@ -55,10 +55,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>cheek</t>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t>poski</t>
          </tg>
       </mg>
    </entry>
@@ -78,7 +78,7 @@
             <t/>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t>teeri</t>
          </tg>
       </mg>
    </entry>
@@ -98,7 +98,7 @@
             <t/>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t/>
          </tg>
       </mg>
    </entry>
@@ -115,10 +115,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>crane</t>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t>kurki</t>
          </tg>
       </mg>
    </entry>
@@ -135,10 +135,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>woman</t>
          </tg>
          <tg lang="fin">
-            <t>tähti</t>
+            <t>nainen</t>
          </tg>
       </mg>
    </entry>
@@ -155,10 +155,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>for example</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>esimerkiksi</t>
          </tg>
       </mg>
    </entry>
@@ -195,10 +195,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>comrade</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>toveri</t>
          </tg>
       </mg>
    </entry>
@@ -215,10 +215,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>nominative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>nominatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -235,10 +235,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>partitive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>partitiivi</t>
          </tg>
       </mg>
    </entry>
@@ -255,10 +255,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>translative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>translatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -275,10 +275,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>genitive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>genetiivi</t>
          </tg>
       </mg>
    </entry>
@@ -295,10 +295,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>inessive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>inessiivi</t>
          </tg>
       </mg>
    </entry>
@@ -315,10 +315,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>accusative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>akkusatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -335,10 +335,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>essive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>essiivi</t>
          </tg>
       </mg>
    </entry>
@@ -355,10 +355,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>allative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>allatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -375,10 +375,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>adessive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>adessiivi</t>
          </tg>
       </mg>
    </entry>
@@ -395,10 +395,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>ablative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>ablatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -415,10 +415,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>elative</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>elatiivi</t>
          </tg>
       </mg>
    </entry>
@@ -435,10 +435,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>exessive</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>eksessiivi</t>
          </tg>
       </mg>
    </entry>
@@ -455,10 +455,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>weak</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>heikko</t>
          </tg>
       </mg>
    </entry>
@@ -475,10 +475,10 @@
             <head/>
          </m>
          <tg lang="eng">
-            <t/>
+            <t>plural</t>
          </tg>
          <tg lang="fin">
-            <t/>
+            <t>monikko</t>
          </tg>
       </mg>
    </entry>
