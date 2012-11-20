@@ -2,7 +2,7 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+   <e>
       <lg>
          <l>tähti</l>
          <stg>
@@ -21,8 +21,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pilvi</l>
          <stg>
@@ -41,8 +41,8 @@
             <t>pilvi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poski</l>
          <stg>
@@ -61,8 +61,8 @@
             <t>poski</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tedri</l>
          <stg>
@@ -81,8 +81,8 @@
             <t>teeri</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>umpi</l>
          <stg>
@@ -101,8 +101,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kurki</l>
          <stg>
@@ -121,8 +121,8 @@
             <t>kurki</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nain</l>
          <stg>
@@ -141,8 +141,8 @@
             <t>nainen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>esim.</l>
          <stg>
@@ -161,8 +161,8 @@
             <t>esimerkiksi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>st.</l>
          <stg>
@@ -181,8 +181,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tov.</l>
          <stg>
@@ -201,8 +201,8 @@
             <t>toveri</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Nom.</l>
          <stg>
@@ -221,8 +221,8 @@
             <t>nominatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Part.</l>
          <stg>
@@ -241,8 +241,8 @@
             <t>partitiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Tr.</l>
          <stg>
@@ -261,8 +261,8 @@
             <t>translatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Gen.</l>
          <stg>
@@ -281,8 +281,8 @@
             <t>genetiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>In.</l>
          <stg>
@@ -301,8 +301,8 @@
             <t>inessiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Akk.</l>
          <stg>
@@ -321,8 +321,8 @@
             <t>akkusatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ess.</l>
          <stg>
@@ -341,8 +341,8 @@
             <t>essiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>All.</l>
          <stg>
@@ -361,8 +361,8 @@
             <t>allatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ad.</l>
          <stg>
@@ -381,8 +381,8 @@
             <t>adessiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Abl.</l>
          <stg>
@@ -401,8 +401,8 @@
             <t>ablatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>El.</l>
          <stg>
@@ -421,8 +421,8 @@
             <t>elatiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Eks.</l>
          <stg>
@@ -441,8 +441,8 @@
             <t>eksessiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Slaab.</l>
          <stg>
@@ -461,8 +461,8 @@
             <t>heikko</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Mon.</l>
          <stg>
@@ -481,8 +481,8 @@
             <t>monikko</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>Ill.</l>
          <stg>
@@ -501,8 +501,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vok.</l>
          <stg>
@@ -521,8 +521,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lähe</l>
          <stg>
@@ -541,8 +541,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>päre</l>
          <stg>
@@ -561,8 +561,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kattopäre</l>
          <stg>
@@ -581,8 +581,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laine</l>
          <stg>
@@ -601,8 +601,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sie</l>
          <stg>
@@ -621,8 +621,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>välisie</l>
          <stg>
@@ -641,8 +641,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pere</l>
          <stg>
@@ -661,8 +661,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tae</l>
          <stg>
@@ -681,8 +681,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mae</l>
          <stg>
@@ -701,8 +701,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuve</l>
          <stg>
@@ -721,8 +721,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rae</l>
          <stg>
@@ -741,8 +741,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sae</l>
          <stg>
@@ -761,8 +761,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hoone</l>
          <stg>
@@ -781,8 +781,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hyle</l>
          <stg>
@@ -801,8 +801,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lehti</l>
          <stg>
@@ -821,8 +821,8 @@
             <t>lehti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lapsi</l>
          <stg>
@@ -841,8 +841,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oppilapsi</l>
          <stg>
@@ -861,8 +861,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veitsi</l>
          <stg>
@@ -881,8 +881,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>assia</l>
          <stg>
@@ -901,8 +901,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>polzia</l>
          <stg>
@@ -921,8 +921,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>preemiä</l>
          <stg>
@@ -941,8 +941,8 @@
             <t>tähti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>venät</l>
          <stg>
@@ -961,8 +961,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kevät</l>
          <stg>
@@ -981,8 +981,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>päivyt</l>
          <stg>
@@ -1001,8 +1001,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kätyt</l>
          <stg>
@@ -1021,8 +1021,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kivyt</l>
          <stg>
@@ -1041,8 +1041,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>meryt</l>
          <stg>
@@ -1061,8 +1061,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>patsas</l>
          <stg>
@@ -1081,8 +1081,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mätäs</l>
          <stg>
@@ -1101,8 +1101,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rengas</l>
          <stg>
@@ -1121,8 +1121,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veeras</l>
          <stg>
@@ -1143,8 +1143,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kehitys</l>
          <stg>
@@ -1163,8 +1163,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>harotus</l>
          <stg>
@@ -1183,8 +1183,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ilves</l>
          <stg>
@@ -1203,8 +1203,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hoomus</l>
          <stg>
@@ -1223,8 +1223,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkumerkitös</l>
          <stg>
@@ -1243,8 +1243,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aikamerkitös</l>
          <stg>
@@ -1263,8 +1263,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>eritys</l>
          <stg>
@@ -1283,8 +1283,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>gruppanimitös</l>
          <stg>
@@ -1303,8 +1303,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hoomautus</l>
          <stg>
@@ -1323,8 +1323,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>keelikysymys</l>
          <stg>
@@ -1343,8 +1343,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tapahus</l>
          <stg>
@@ -1364,8 +1364,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>geminattatapahus</l>
          <stg>
@@ -1384,8 +1384,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>geminaattatapahus</l>
          <stg>
@@ -1404,8 +1404,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lammas</l>
          <stg>
@@ -1424,8 +1424,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hammas</l>
          <stg>
@@ -1444,8 +1444,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kerves</l>
          <stg>
@@ -1464,8 +1464,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tanvas</l>
          <stg>
@@ -1484,8 +1484,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seiväs</l>
          <stg>
@@ -1504,8 +1504,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kangas</l>
          <stg>
@@ -1524,8 +1524,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>taivas</l>
          <stg>
@@ -1544,8 +1544,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nagris</l>
          <stg>
@@ -1564,8 +1564,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>keeli</l>
          <stg>
@@ -1584,8 +1584,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuli</l>
          <stg>
@@ -1604,8 +1604,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kulttuurakeeli</l>
          <stg>
@@ -1624,8 +1624,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>riihi</l>
          <stg>
@@ -1644,8 +1644,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seeni</l>
          <stg>
@@ -1666,8 +1666,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toohi</l>
          <stg>
@@ -1688,8 +1688,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>äänikeeli</l>
          <stg>
@@ -1708,8 +1708,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tiitokeeli</l>
          <stg>
@@ -1728,8 +1728,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hiiri</l>
          <stg>
@@ -1748,8 +1748,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>juuri</l>
          <stg>
@@ -1768,8 +1768,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hooli</l>
          <stg>
@@ -1789,8 +1789,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nykykeeli</l>
          <stg>
@@ -1809,8 +1809,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sisäpooli</l>
          <stg>
@@ -1829,8 +1829,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkupooli</l>
          <stg>
@@ -1849,8 +1849,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>saari</l>
          <stg>
@@ -1869,8 +1869,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poolisaari</l>
          <stg>
@@ -1889,8 +1889,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lohi</l>
          <stg>
@@ -1909,8 +1909,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuuli</l>
          <stg>
@@ -1929,8 +1929,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuusi</l>
          <stg>
@@ -1949,8 +1949,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pooli</l>
          <stg>
@@ -1969,8 +1969,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ulkopooli</l>
          <stg>
@@ -1989,8 +1989,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>meeli</l>
          <stg>
@@ -2009,8 +2009,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>meri</l>
          <stg>
@@ -2029,8 +2029,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veri</l>
          <stg>
@@ -2049,8 +2049,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>huuli</l>
          <stg>
@@ -2069,8 +2069,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hiili</l>
          <stg>
@@ -2089,8 +2089,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kivihiili</l>
          <stg>
@@ -2109,8 +2109,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niini</l>
          <stg>
@@ -2129,8 +2129,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ääni</l>
          <stg>
@@ -2149,8 +2149,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loppuääni</l>
          <stg>
@@ -2169,8 +2169,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nenä-ääni</l>
          <stg>
@@ -2189,8 +2189,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lisä-ääni</l>
          <stg>
@@ -2209,8 +2209,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alakeeli</l>
          <stg>
@@ -2229,8 +2229,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naapurikeeli</l>
          <stg>
@@ -2249,8 +2249,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirjakeeli</l>
          <stg>
@@ -2269,8 +2269,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oikehus</l>
          <stg>
@@ -2289,8 +2289,8 @@
             <t>oikeus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paljohus</l>
          <stg>
@@ -2309,8 +2309,8 @@
             <t>oikeus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>levehys</l>
          <stg>
@@ -2329,8 +2329,8 @@
             <t>oikeus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vähhyys</l>
          <stg>
@@ -2349,8 +2349,8 @@
             <t>oikeus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhtehys</l>
          <stg>
@@ -2369,8 +2369,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>talohus</l>
          <stg>
@@ -2389,8 +2389,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>köyhys</l>
          <stg>
@@ -2409,8 +2409,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>noorus</l>
          <stg>
@@ -2429,8 +2429,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pittuus</l>
          <stg>
@@ -2449,8 +2449,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lapsus</l>
          <stg>
@@ -2469,8 +2469,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nooruus</l>
          <stg>
@@ -2489,8 +2489,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poolipittuus</l>
          <stg>
@@ -2509,8 +2509,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>portuus</l>
          <stg>
@@ -2529,8 +2529,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuttahus</l>
          <stg>
@@ -2549,8 +2549,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mees</l>
          <stg>
@@ -2569,8 +2569,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>töömees</l>
          <stg>
@@ -2589,8 +2589,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>töömees</l>
          <stg>
@@ -2609,8 +2609,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jahtimees</l>
          <stg>
@@ -2629,8 +2629,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vahvus</l>
          <stg>
@@ -2649,8 +2649,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voimakkuus</l>
          <stg>
@@ -2669,8 +2669,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jurmus</l>
          <stg>
@@ -2689,8 +2689,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuivus</l>
          <stg>
@@ -2709,8 +2709,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>korkehus</l>
          <stg>
@@ -2729,8 +2729,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hyvvyys</l>
          <stg>
@@ -2749,8 +2749,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lyhhyys</l>
          <stg>
@@ -2769,8 +2769,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rääyys</l>
          <stg>
@@ -2789,8 +2789,8 @@
             <t>pituus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>syvvyys</l>
          <stg>
@@ -2810,8 +2810,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vanhus</l>
          <stg>
@@ -2830,8 +2830,8 @@
             <t>vanhuus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhtehys</l>
          <stg>
@@ -2850,8 +2850,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rankkuus</l>
          <stg>
@@ -2870,8 +2870,8 @@
             <t>oikeus</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>inmihiin</l>
          <stg>
@@ -2892,8 +2892,8 @@
             <t>ihminen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tööntekemiin</l>
          <stg>
@@ -2914,8 +2914,8 @@
             <t>ihminen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kärpäin</l>
          <stg>
@@ -2934,8 +2934,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poikain</l>
          <stg>
@@ -2954,8 +2954,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hoomiin</l>
          <stg>
@@ -2974,8 +2974,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pakkain</l>
          <stg>
@@ -2994,8 +2994,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lautain</l>
          <stg>
@@ -3014,8 +3014,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>muurahain</l>
          <stg>
@@ -3034,8 +3034,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mehiläin</l>
          <stg>
@@ -3054,8 +3054,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tytökkäin</l>
          <stg>
@@ -3074,8 +3074,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>läns-fenniläin</l>
          <stg>
@@ -3094,8 +3094,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>venäläin</l>
          <stg>
@@ -3114,8 +3114,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nimensihalliin</l>
          <stg>
@@ -3135,8 +3135,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hepoin</l>
          <stg>
@@ -3155,8 +3155,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalamuuttumin</l>
          <stg>
@@ -3175,8 +3175,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laukaalain</l>
          <stg>
@@ -3196,8 +3196,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vadjalain</l>
          <stg>
@@ -3216,8 +3216,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>virolain</l>
          <stg>
@@ -3236,8 +3236,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soomalain</l>
          <stg>
@@ -3256,8 +3256,8 @@
             <t>ihminen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>karjalain</l>
          <stg>
@@ -3276,8 +3276,8 @@
             <t>ihminen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>merkitös</l>
          <stg>
@@ -3296,8 +3296,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rinnoitus</l>
          <stg>
@@ -3316,8 +3316,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiitos</l>
          <stg>
@@ -3336,8 +3336,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>petos</l>
          <stg>
@@ -3356,8 +3356,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>muutos</l>
          <stg>
@@ -3376,8 +3376,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kerros</l>
          <stg>
@@ -3396,8 +3396,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käsikirjutos</l>
          <stg>
@@ -3416,8 +3416,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lisämerkitös</l>
          <stg>
@@ -3436,8 +3436,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nimitös</l>
          <stg>
@@ -3456,8 +3456,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>omintus</l>
          <stg>
@@ -3476,8 +3476,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>teräs</l>
          <stg>
@@ -3496,8 +3496,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jänis</l>
          <stg>
@@ -3516,8 +3516,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alus</l>
          <stg>
@@ -3536,8 +3536,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirjutos</l>
          <stg>
@@ -3556,8 +3556,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>henkähös</l>
          <stg>
@@ -3576,8 +3576,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanomus</l>
          <stg>
@@ -3596,8 +3596,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aika-arvo</l>
          <stg>
@@ -3616,8 +3616,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>radio</l>
          <stg>
@@ -3636,8 +3636,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>monikko</l>
          <stg>
@@ -3656,8 +3656,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yksikkö</l>
          <stg>
@@ -3676,8 +3676,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jalka</l>
          <stg>
@@ -3696,8 +3696,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaaska</l>
          <stg>
@@ -3716,8 +3716,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>latva</l>
          <stg>
@@ -3736,8 +3736,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laatka</l>
          <stg>
@@ -3756,8 +3756,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>klaassa</l>
          <stg>
@@ -3776,8 +3776,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şuutka</l>
          <stg>
@@ -3796,8 +3796,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şturvala</l>
          <stg>
@@ -3816,8 +3816,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>çentra</l>
          <stg>
@@ -3836,8 +3836,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zajavlenja</l>
          <stg>
@@ -3856,8 +3856,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zaima</l>
          <stg>
@@ -3876,8 +3876,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vetka</l>
          <stg>
@@ -3896,8 +3896,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vakka</l>
          <stg>
@@ -3916,8 +3916,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vaja</l>
          <stg>
@@ -3936,8 +3936,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>trubba</l>
          <stg>
@@ -3956,8 +3956,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>treska</l>
          <stg>
@@ -3976,8 +3976,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>takka</l>
          <stg>
@@ -3996,8 +3996,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>stroikka</l>
          <stg>
@@ -4016,8 +4016,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>setka</l>
          <stg>
@@ -4036,8 +4036,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sheema</l>
          <stg>
@@ -4056,8 +4056,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>santimetra</l>
          <stg>
@@ -4076,8 +4076,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanatiippa</l>
          <stg>
@@ -4096,8 +4096,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tapa</l>
          <stg>
@@ -4116,8 +4116,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tarha</l>
          <stg>
@@ -4136,8 +4136,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şkoulutarha</l>
          <stg>
@@ -4156,8 +4156,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>talohussfeera</l>
          <stg>
@@ -4176,8 +4176,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>saahka</l>
          <stg>
@@ -4196,8 +4196,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rinkka</l>
          <stg>
@@ -4216,8 +4216,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rauha</l>
          <stg>
@@ -4236,8 +4236,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poslesloga</l>
          <stg>
@@ -4256,8 +4256,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>setka</l>
          <stg>
@@ -4276,8 +4276,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pinta</l>
          <stg>
@@ -4296,8 +4296,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pirta</l>
          <stg>
@@ -4316,8 +4316,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>piika</l>
          <stg>
@@ -4336,8 +4336,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pihka</l>
          <stg>
@@ -4356,8 +4356,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paita</l>
          <stg>
@@ -4376,8 +4376,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painottussiha</l>
          <stg>
@@ -4396,8 +4396,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paarma</l>
          <stg>
@@ -4416,8 +4416,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nahka</l>
          <stg>
@@ -4436,8 +4436,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naagla</l>
          <stg>
@@ -4456,8 +4456,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>liha</l>
          <stg>
@@ -4476,8 +4476,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>leetsa</l>
          <stg>
@@ -4496,8 +4496,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laukka</l>
          <stg>
@@ -4516,8 +4516,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lanka</l>
          <stg>
@@ -4536,8 +4536,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kraaska</l>
          <stg>
@@ -4556,8 +4556,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kluuba</l>
          <stg>
@@ -4576,8 +4576,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiviranta</l>
          <stg>
@@ -4596,8 +4596,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiippa</l>
          <stg>
@@ -4616,8 +4616,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kesäilta</l>
          <stg>
@@ -4636,8 +4636,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>karva</l>
          <stg>
@@ -4656,8 +4656,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kartta</l>
          <stg>
@@ -4676,8 +4676,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>karja</l>
          <stg>
@@ -4696,8 +4696,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>heinäaika</l>
          <stg>
@@ -4716,8 +4716,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>otpuska-aika</l>
          <stg>
@@ -4736,8 +4736,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>clena</l>
          <stg>
@@ -4756,8 +4756,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>liiva</l>
          <stg>
@@ -4776,8 +4776,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>meekka</l>
          <stg>
@@ -4798,8 +4798,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seegla</l>
          <stg>
@@ -4820,8 +4820,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sotalaiva</l>
          <stg>
@@ -4840,8 +4840,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soola</l>
          <stg>
@@ -4862,8 +4862,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>marja</l>
          <stg>
@@ -4882,8 +4882,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rublja</l>
          <stg>
@@ -4902,8 +4902,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>statja</l>
          <stg>
@@ -4922,8 +4922,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuska</l>
          <stg>
@@ -4942,8 +4942,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niska</l>
          <stg>
@@ -4962,8 +4962,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>cisla</l>
          <stg>
@@ -4982,8 +4982,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>metra</l>
          <stg>
@@ -5002,8 +5002,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kilometra</l>
          <stg>
@@ -5022,8 +5022,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>merta</l>
          <stg>
@@ -5042,8 +5042,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>matka</l>
          <stg>
@@ -5062,8 +5062,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sarka</l>
          <stg>
@@ -5082,8 +5082,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kagra</l>
          <stg>
@@ -5102,8 +5102,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tikka</l>
          <stg>
@@ -5122,8 +5122,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>valta</l>
          <stg>
@@ -5142,8 +5142,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sika</l>
          <stg>
@@ -5162,8 +5162,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>velka</l>
          <stg>
@@ -5182,8 +5182,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rulja</l>
          <stg>
@@ -5202,8 +5202,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rucka</l>
          <stg>
@@ -5222,8 +5222,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tiifa</l>
          <stg>
@@ -5242,8 +5242,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kleima</l>
          <stg>
@@ -5262,8 +5262,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sota-aika</l>
          <stg>
@@ -5282,8 +5282,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>torfa</l>
          <stg>
@@ -5302,8 +5302,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>virka</l>
          <stg>
@@ -5322,8 +5322,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>villa</l>
          <stg>
@@ -5342,8 +5342,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vilja</l>
          <stg>
@@ -5362,8 +5362,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lavka</l>
          <stg>
@@ -5382,8 +5382,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>virta</l>
          <stg>
@@ -5402,8 +5402,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ilma</l>
          <stg>
@@ -5422,8 +5422,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>terva</l>
          <stg>
@@ -5442,8 +5442,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>virta</l>
          <stg>
@@ -5462,8 +5462,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>linna</l>
          <stg>
@@ -5482,8 +5482,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>leuka</l>
          <stg>
@@ -5502,8 +5502,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laita</l>
          <stg>
@@ -5522,8 +5522,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutostiippa</l>
          <stg>
@@ -5542,8 +5542,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rauta</l>
          <stg>
@@ -5562,8 +5562,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seegla</l>
          <stg>
@@ -5582,8 +5582,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>neegla</l>
          <stg>
@@ -5602,8 +5602,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kerta</l>
          <stg>
@@ -5622,8 +5622,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ilta</l>
          <stg>
@@ -5642,8 +5642,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lauta</l>
          <stg>
@@ -5662,8 +5662,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>haaa</l>
          <stg>
@@ -5682,8 +5682,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>glava</l>
          <stg>
@@ -5702,8 +5702,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>riista</l>
          <stg>
@@ -5722,8 +5722,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ranta</l>
          <stg>
@@ -5742,8 +5742,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lapja</l>
          <stg>
@@ -5762,8 +5762,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hauta</l>
          <stg>
@@ -5782,8 +5782,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tila</l>
          <stg>
@@ -5802,8 +5802,8 @@
             <t>tila</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niegla</l>
          <stg>
@@ -5823,8 +5823,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sama</l>
          <stg>
@@ -5843,8 +5843,8 @@
             <t>sama</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vihma</l>
          <stg>
@@ -5863,8 +5863,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paikka</l>
          <stg>
@@ -5883,8 +5883,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>elopaikka</l>
          <stg>
@@ -5903,8 +5903,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>boljşevikka</l>
          <stg>
@@ -5923,8 +5923,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokala</l>
          <stg>
@@ -5943,8 +5943,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>porätka</l>
          <stg>
@@ -5963,8 +5963,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>morfologia</l>
          <stg>
@@ -5983,8 +5983,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komparatsia</l>
          <stg>
@@ -6003,8 +6003,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konferentsia</l>
          <stg>
@@ -6023,8 +6023,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>prospositsia</l>
          <stg>
@@ -6043,8 +6043,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pospositsia</l>
          <stg>
@@ -6063,8 +6063,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>abstraktsia</l>
          <stg>
@@ -6083,8 +6083,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>relativapronomina</l>
          <stg>
@@ -6103,8 +6103,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>prepositsia</l>
          <stg>
@@ -6123,8 +6123,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aeroplana</l>
          <stg>
@@ -6143,8 +6143,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zavoda</l>
          <stg>
@@ -6163,8 +6163,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zaliva</l>
          <stg>
@@ -6183,8 +6183,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tarelka</l>
          <stg>
@@ -6203,8 +6203,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>professora</l>
          <stg>
@@ -6223,8 +6223,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predloga</l>
          <stg>
@@ -6243,8 +6243,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>posleloga</l>
          <stg>
@@ -6263,8 +6263,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>porjatka</l>
          <stg>
@@ -6283,8 +6283,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pojezda</l>
          <stg>
@@ -6304,8 +6304,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pluskvamperfekta</l>
          <stg>
@@ -6324,8 +6324,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orkestra</l>
          <stg>
@@ -6344,8 +6344,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>obstojatelstva</l>
          <stg>
@@ -6364,8 +6364,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naklonenja</l>
          <stg>
@@ -6384,8 +6384,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>literatura</l>
          <stg>
@@ -6404,8 +6404,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kvantitetta</l>
          <stg>
@@ -6424,8 +6424,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konjunktsia</l>
          <stg>
@@ -6444,8 +6444,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kominativa</l>
          <stg>
@@ -6464,8 +6464,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komissia</l>
          <stg>
@@ -6484,8 +6484,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kanava</l>
          <stg>
@@ -6504,8 +6504,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>istoria</l>
          <stg>
@@ -6524,8 +6524,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>haraktera</l>
          <stg>
@@ -6544,8 +6544,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>demonstrativa</l>
          <stg>
@@ -6564,8 +6564,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>brigadira</l>
          <stg>
@@ -6584,8 +6584,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alfavitta</l>
          <stg>
@@ -6605,8 +6605,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aikaotnoşenja</l>
          <stg>
@@ -6625,8 +6625,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>praaznikka</l>
          <stg>
@@ -6645,8 +6645,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şuhina</l>
          <stg>
@@ -6665,8 +6665,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ƶiivatta</l>
          <stg>
@@ -6685,8 +6685,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>çementta</l>
          <stg>
@@ -6705,8 +6705,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zapasa</l>
          <stg>
@@ -6725,8 +6725,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zadanja</l>
          <stg>
@@ -6745,8 +6745,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vuhina</l>
          <stg>
@@ -6765,8 +6765,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vpecatlenja</l>
          <stg>
@@ -6785,8 +6785,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalagarmonia</l>
          <stg>
@@ -6805,8 +6805,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vasikka</l>
          <stg>
@@ -6825,8 +6825,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>urokka</l>
          <stg>
@@ -6845,8 +6845,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>udarnikka</l>
          <stg>
@@ -6865,8 +6865,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tööprotsessia</l>
          <stg>
@@ -6885,8 +6885,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tööporjatka</l>
          <stg>
@@ -6905,8 +6905,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>töömetoda</l>
          <stg>
@@ -6926,8 +6926,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuntoorgana</l>
          <stg>
@@ -6946,8 +6946,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>traktorista</l>
          <stg>
@@ -6966,8 +6966,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kommunista</l>
          <stg>
@@ -6986,8 +6986,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tormoza</l>
          <stg>
@@ -7006,8 +7006,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>termina</l>
          <stg>
@@ -7026,8 +7026,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>terminologia</l>
          <stg>
@@ -7046,8 +7046,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>superlativa</l>
          <stg>
@@ -7066,8 +7066,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>struktuura</l>
          <stg>
@@ -7086,8 +7086,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>stranitsa</l>
          <stg>
@@ -7106,8 +7106,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>stolbikka</l>
          <stg>
@@ -7126,8 +7126,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>stihotvorenja</l>
          <stg>
@@ -7146,8 +7146,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>stantsia</l>
          <stg>
@@ -7166,8 +7166,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sredstva</l>
          <stg>
@@ -7186,8 +7186,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soderƶanja</l>
          <stg>
@@ -7206,8 +7206,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sobranja</l>
          <stg>
@@ -7226,8 +7226,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sklonenja</l>
          <stg>
@@ -7246,8 +7246,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sirena</l>
          <stg>
@@ -7266,8 +7266,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>semantikka</l>
          <stg>
@@ -7286,8 +7286,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seemecka</l>
          <stg>
@@ -7306,8 +7306,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanamateriala</l>
          <stg>
@@ -7326,8 +7326,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sovhoza</l>
          <stg>
@@ -7346,8 +7346,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poloƶenja</l>
          <stg>
@@ -7366,8 +7366,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rьbakka</l>
          <stg>
@@ -7386,8 +7386,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rezuljtatta</l>
          <stg>
@@ -7406,8 +7406,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>revolytsia</l>
          <stg>
@@ -7426,8 +7426,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>respublikka</l>
          <stg>
@@ -7446,8 +7446,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rauhanpolitikka</l>
          <stg>
@@ -7466,8 +7466,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>puşnina</l>
          <stg>
@@ -7486,8 +7486,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pulemetta</l>
          <stg>
@@ -7506,8 +7506,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>protokola</l>
          <stg>
@@ -7526,8 +7526,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>prostranstva</l>
          <stg>
@@ -7546,8 +7546,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>professia</l>
          <stg>
@@ -7566,8 +7566,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>produkta</l>
          <stg>
@@ -7586,8 +7586,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>prepositsia</l>
          <stg>
@@ -7606,8 +7606,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predstavlenja</l>
          <stg>
@@ -7626,8 +7626,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predmetta</l>
          <stg>
@@ -7646,8 +7646,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predloƶenja</l>
          <stg>
@@ -7666,8 +7666,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pravlenja</l>
          <stg>
@@ -7686,8 +7686,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>praktikka</l>
          <stg>
@@ -7706,8 +7706,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>potentsiala</l>
          <stg>
@@ -7726,8 +7726,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>positsia</l>
          <stg>
@@ -7746,8 +7746,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>positiva</l>
          <stg>
@@ -7766,8 +7766,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>politikka</l>
          <stg>
@@ -7786,8 +7786,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pihlaja</l>
          <stg>
@@ -7806,8 +7806,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>personapronomina</l>
          <stg>
@@ -7826,8 +7826,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>persona</l>
          <stg>
@@ -7846,8 +7846,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>peenennyssuffiksa</l>
          <stg>
@@ -7866,8 +7866,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>patefona</l>
          <stg>
@@ -7886,8 +7886,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>passaƶira</l>
          <stg>
@@ -7906,8 +7906,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paikkaotnoşenja</l>
          <stg>
@@ -7926,8 +7926,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>osasubjekta</l>
          <stg>
@@ -7946,8 +7946,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orfografia</l>
          <stg>
@@ -7966,8 +7966,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ordena</l>
          <stg>
@@ -7986,8 +7986,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>opьtta</l>
          <stg>
@@ -8006,8 +8006,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naznacenja</l>
          <stg>
@@ -8026,8 +8026,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naapurikolhoza</l>
          <stg>
@@ -8046,8 +8046,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>molotilkka</l>
          <stg>
@@ -8066,8 +8066,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>essiva</l>
          <stg>
@@ -8086,8 +8086,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>elementta</l>
          <stg>
@@ -8106,8 +8106,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>diftongasloga</l>
          <stg>
@@ -8126,8 +8126,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jälkisloga</l>
          <stg>
@@ -8146,8 +8146,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>cuvstva</l>
          <stg>
@@ -8166,8 +8166,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>bibliotekka</l>
          <stg>
@@ -8186,8 +8186,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>benzina</l>
          <stg>
@@ -8206,8 +8206,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>bataljoona</l>
          <stg>
@@ -8226,8 +8226,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>barakka</l>
          <stg>
@@ -8246,8 +8246,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>barabana</l>
          <stg>
@@ -8266,8 +8266,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkukonsonantta</l>
          <stg>
@@ -8286,8 +8286,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>miitinga</l>
          <stg>
@@ -8306,8 +8306,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ottjenka</l>
          <stg>
@@ -8327,8 +8327,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>merkitösottenka</l>
          <stg>
@@ -8347,8 +8347,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maşina</l>
          <stg>
@@ -8367,8 +8367,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lusikka</l>
          <stg>
@@ -8387,8 +8387,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>latina</l>
          <stg>
@@ -8407,8 +8407,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konservazavoda</l>
          <stg>
@@ -8427,8 +8427,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komparativa</l>
          <stg>
@@ -8447,8 +8447,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komitetta</l>
          <stg>
@@ -8467,8 +8467,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kommuna</l>
          <stg>
@@ -8487,8 +8487,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komissia</l>
          <stg>
@@ -8507,8 +8507,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komandirovka</l>
          <stg>
@@ -8527,8 +8527,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kollektiva</l>
          <stg>
@@ -8547,8 +8547,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jaceikka</l>
          <stg>
@@ -8567,8 +8567,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>inƶenera</l>
          <stg>
@@ -8587,8 +8587,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>instruktiva</l>
          <stg>
@@ -8607,8 +8607,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>inmihiskollektiva</l>
          <stg>
@@ -8627,8 +8627,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ikkuna</l>
          <stg>
@@ -8647,8 +8647,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>indefinittapronomina</l>
          <stg>
@@ -8667,8 +8667,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hattula</l>
          <stg>
@@ -8687,8 +8687,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>harmonia</l>
          <stg>
@@ -8707,8 +8707,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>grammatikka</l>
          <stg>
@@ -8727,8 +8727,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>giganttaaeroplana</l>
          <stg>
@@ -8747,8 +8747,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>georgina</l>
          <stg>
@@ -8767,8 +8767,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>forelka</l>
          <stg>
@@ -8787,8 +8787,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>objektagenetiva</l>
          <stg>
@@ -8807,8 +8807,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>motorista</l>
          <stg>
@@ -8827,8 +8827,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>gerundium</l>
          <stg>
@@ -8847,8 +8847,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>futurum</l>
          <stg>
@@ -8867,8 +8867,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>preesens</l>
          <stg>
@@ -8888,8 +8888,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>imperfekta</l>
          <stg>
@@ -8908,8 +8908,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>materiala</l>
          <stg>
@@ -8928,8 +8928,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>interrogativa</l>
          <stg>
@@ -8948,8 +8948,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>imperativa</l>
          <stg>
@@ -8969,8 +8969,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>indikativa</l>
          <stg>
@@ -8989,8 +8989,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perfekta</l>
          <stg>
@@ -9009,8 +9009,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>svoistva</l>
          <stg>
@@ -9029,8 +9029,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konditsionala</l>
          <stg>
@@ -9049,8 +9049,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partisippa</l>
          <stg>
@@ -9069,8 +9069,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>brigada</l>
          <stg>
@@ -9089,8 +9089,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>traktora</l>
          <stg>
@@ -9109,8 +9109,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tovarişşa</l>
          <stg>
@@ -9129,8 +9129,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tehnikka</l>
          <stg>
@@ -9149,8 +9149,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>uslovia</l>
          <stg>
@@ -9169,8 +9169,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>velosipeda</l>
          <stg>
@@ -9189,8 +9189,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kacestva</l>
          <stg>
@@ -9209,8 +9209,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>funktsia</l>
          <stg>
@@ -9229,8 +9229,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oşibka</l>
          <stg>
@@ -9249,8 +9249,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>revolutsia</l>
          <stg>
@@ -9269,8 +9269,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tablitsa</l>
          <stg>
@@ -9289,8 +9289,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutostablitsa</l>
          <stg>
@@ -9309,8 +9309,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>subjekta</l>
          <stg>
@@ -9329,8 +9329,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>turanka</l>
          <stg>
@@ -9349,8 +9349,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>interjektsia</l>
          <stg>
@@ -9369,8 +9369,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sojuza</l>
          <stg>
@@ -9389,8 +9389,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kattila</l>
          <stg>
@@ -9409,8 +9409,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zakkoona</l>
          <stg>
@@ -9430,8 +9430,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>postpositsia</l>
          <stg>
@@ -9450,8 +9450,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>proizvodstva</l>
          <stg>
@@ -9470,8 +9470,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>objekta</l>
          <stg>
@@ -9490,8 +9490,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nomina</l>
          <stg>
@@ -9510,8 +9510,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pronomina</l>
          <stg>
@@ -9530,8 +9530,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>struktura</l>
          <stg>
@@ -9550,8 +9550,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sostava</l>
          <stg>
@@ -9570,8 +9570,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>äänisostava</l>
          <stg>
@@ -9590,8 +9590,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>karjala</l>
          <stg>
@@ -9610,8 +9610,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sisteema</l>
          <stg>
@@ -9631,8 +9631,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutossistema</l>
          <stg>
@@ -9651,8 +9651,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>keelisisteema</l>
          <stg>
@@ -9671,8 +9671,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>padeƶa</l>
          <stg>
@@ -9691,8 +9691,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paikkapadeƶa</l>
          <stg>
@@ -9711,8 +9711,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>olopadeƶa</l>
          <stg>
@@ -9731,8 +9731,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>agronoma</l>
          <stg>
@@ -9751,8 +9751,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adessivapadeƶa</l>
          <stg>
@@ -9771,8 +9771,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>eksessiva</l>
          <stg>
@@ -9791,8 +9791,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>eropadeƶa</l>
          <stg>
@@ -9811,8 +9811,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>objektapadeƶa</l>
          <stg>
@@ -9831,8 +9831,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>olomispadeƶa</l>
          <stg>
@@ -9851,8 +9851,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tulopadeƶa</l>
          <stg>
@@ -9871,8 +9871,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>otnoşenja</l>
          <stg>
@@ -9891,8 +9891,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>iskljucenja</l>
          <stg>
@@ -9911,8 +9911,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predmetta</l>
          <stg>
@@ -9931,8 +9931,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nominativa</l>
          <stg>
@@ -9951,8 +9951,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>infinitiva</l>
          <stg>
@@ -9971,8 +9971,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>genetiva</l>
          <stg>
@@ -9991,8 +9991,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adessiva</l>
          <stg>
@@ -10011,8 +10011,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aikaepoha</l>
          <stg>
@@ -10031,8 +10031,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>essiiva</l>
          <stg>
@@ -10051,8 +10051,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>inessiva</l>
          <stg>
@@ -10071,8 +10071,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ablativa</l>
          <stg>
@@ -10091,8 +10091,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>allativa</l>
          <stg>
@@ -10111,8 +10111,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>elativa</l>
          <stg>
@@ -10131,8 +10131,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>translativa</l>
          <stg>
@@ -10151,8 +10151,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>prolativa</l>
          <stg>
@@ -10171,8 +10171,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ekskursia</l>
          <stg>
@@ -10191,8 +10191,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>substantiva</l>
          <stg>
@@ -10211,8 +10211,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>illativa</l>
          <stg>
@@ -10231,8 +10231,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>akkusativa</l>
          <stg>
@@ -10251,8 +10251,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partitiva</l>
          <stg>
@@ -10271,8 +10271,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kulttuura</l>
          <stg>
@@ -10291,8 +10291,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>takavokala</l>
          <stg>
@@ -10311,8 +10311,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kolhoznikka</l>
          <stg>
@@ -10331,8 +10331,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>iskljucenija</l>
          <stg>
@@ -10351,8 +10351,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>avtora</l>
          <stg>
@@ -10371,8 +10371,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>etuvokala</l>
          <stg>
@@ -10391,8 +10391,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>defekta</l>
          <stg>
@@ -10411,8 +10411,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>raijona</l>
          <stg>
@@ -10431,8 +10431,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>praavila</l>
          <stg>
@@ -10451,8 +10451,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kissa</l>
          <stg>
@@ -10471,8 +10471,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirjutospraavila</l>
          <stg>
@@ -10491,8 +10491,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>iƶora</l>
          <stg>
@@ -10511,8 +10511,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>abessiva</l>
          <stg>
@@ -10531,8 +10531,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adverba</l>
          <stg>
@@ -10551,8 +10551,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adjektiva</l>
          <stg>
@@ -10571,8 +10571,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laiva</l>
          <stg>
@@ -10591,8 +10591,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vaiva</l>
          <stg>
@@ -10611,8 +10611,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirja</l>
          <stg>
@@ -10631,8 +10631,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aika</l>
          <stg>
@@ -10651,8 +10651,8 @@
             <t>aika</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laajasana</l>
          <stg>
@@ -10671,8 +10671,8 @@
             <t>adjektiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jälkisana</l>
          <stg>
@@ -10691,8 +10691,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>esisana</l>
          <stg>
@@ -10711,8 +10711,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>apitekosana</l>
          <stg>
@@ -10731,8 +10731,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>liitsa</l>
          <stg>
@@ -10751,8 +10751,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kolhoza</l>
          <stg>
@@ -10771,8 +10771,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vadja</l>
          <stg>
@@ -10791,8 +10791,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ommeena</l>
          <stg>
@@ -10811,8 +10811,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pittääjä</l>
          <stg>
@@ -10831,8 +10831,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>verrääjä</l>
          <stg>
@@ -10851,8 +10851,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tavvaara</l>
          <stg>
@@ -10871,8 +10871,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sattuula</l>
          <stg>
@@ -10891,8 +10891,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kammeela</l>
          <stg>
@@ -10911,8 +10911,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>porroona</l>
          <stg>
@@ -10931,8 +10931,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vassaara</l>
          <stg>
@@ -10951,8 +10951,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hammaara</l>
          <stg>
@@ -10971,8 +10971,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hummaala</l>
          <stg>
@@ -10991,8 +10991,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pettääja</l>
          <stg>
@@ -11011,8 +11011,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kattaaja</l>
          <stg>
@@ -11031,8 +11031,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jallaava</l>
          <stg>
@@ -11051,8 +11051,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orraava</l>
          <stg>
@@ -11071,8 +11071,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tavvaara</l>
          <stg>
@@ -11091,8 +11091,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pittääjä</l>
          <stg>
@@ -11111,8 +11111,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ahhaava</l>
          <stg>
@@ -11131,8 +11131,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oppoosa</l>
          <stg>
@@ -11151,8 +11151,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>präkkiinä</l>
          <stg>
@@ -11171,8 +11171,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuttooja</l>
          <stg>
@@ -11191,8 +11191,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>verrääjä</l>
          <stg>
@@ -11211,8 +11211,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kammaara</l>
          <stg>
@@ -11231,8 +11231,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>appaaja</l>
          <stg>
@@ -11251,8 +11251,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sissaava</l>
          <stg>
@@ -11271,8 +11271,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaijaava</l>
          <stg>
@@ -11291,8 +11291,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käppäälä</l>
          <stg>
@@ -11311,8 +11311,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tekkiijä</l>
          <stg>
@@ -11331,8 +11331,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>putteeli</l>
          <stg>
@@ -11351,8 +11351,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sinneeli</l>
          <stg>
@@ -11371,8 +11371,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pappeeri</l>
          <stg>
@@ -11391,8 +11391,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>assiapappeeri</l>
          <stg>
@@ -11411,8 +11411,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hämmääri</l>
          <stg>
@@ -11431,8 +11431,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jalka</l>
          <stg>
@@ -11451,8 +11451,8 @@
             <t>jalka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adra</l>
          <stg>
@@ -11471,8 +11471,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>butka</l>
          <stg>
@@ -11491,8 +11491,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tytär</l>
          <stg>
@@ -11511,8 +11511,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aitta</l>
          <stg>
@@ -11531,8 +11531,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>apusana</l>
          <stg>
@@ -11551,8 +11551,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aita</l>
          <stg>
@@ -11571,8 +11571,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lyhe</l>
          <stg>
@@ -11591,8 +11591,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiire</l>
          <stg>
@@ -11611,8 +11611,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vene</l>
          <stg>
@@ -11631,8 +11631,8 @@
             <t>vene</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>parvi</l>
          <stg>
@@ -11651,8 +11651,8 @@
             <t>omena</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>emoi</l>
          <stg>
@@ -11671,8 +11671,8 @@
             <t>äiti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>repoi</l>
          <stg>
@@ -11691,8 +11691,8 @@
             <t>äiti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>glasnoi</l>
          <stg>
@@ -11711,8 +11711,8 @@
             <t>äiti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soglasnoi</l>
          <stg>
@@ -11731,8 +11731,8 @@
             <t>äiti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>çifroi</l>
          <stg>
@@ -11751,8 +11751,8 @@
             <t>äiti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>harakka</l>
          <stg>
@@ -11771,8 +11771,8 @@
             <t>harakka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kana</l>
          <stg>
@@ -11791,8 +11791,8 @@
             <t>kana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>raja</l>
          <stg>
@@ -11811,8 +11811,8 @@
             <t>kana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paja</l>
          <stg>
@@ -11831,8 +11831,8 @@
             <t>kana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sauna</l>
          <stg>
@@ -11851,8 +11851,8 @@
             <t>kana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kala</l>
          <stg>
@@ -11871,8 +11871,8 @@
             <t>kala</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>silta</l>
          <stg>
@@ -11891,8 +11891,8 @@
             <t>kana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>cislasana</l>
          <stg>
@@ -11911,8 +11911,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>geminatta</l>
          <stg>
@@ -11931,8 +11931,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>fakta</l>
          <stg>
@@ -11951,8 +11951,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kansa</l>
          <stg>
@@ -11971,8 +11971,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vasta</l>
          <stg>
@@ -11991,8 +11991,8 @@
             <t>kirjain</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>bukva</l>
          <stg>
@@ -12011,8 +12011,8 @@
             <t>kirjain</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zvoda</l>
          <stg>
@@ -12031,8 +12031,8 @@
             <t>kirjain</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalabukva</l>
          <stg>
@@ -12051,8 +12051,8 @@
             <t>kirjain</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pluuga</l>
          <stg>
@@ -12071,8 +12071,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkuaika</l>
          <stg>
@@ -12091,8 +12091,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sana</l>
          <stg>
@@ -12111,8 +12111,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pääsana</l>
          <stg>
@@ -12131,8 +12131,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ajasana</l>
          <stg>
@@ -12151,8 +12151,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lukusana</l>
          <stg>
@@ -12171,8 +12171,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>apisana</l>
          <stg>
@@ -12191,8 +12191,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>infinittatekosana</l>
          <stg>
@@ -12211,8 +12211,8 @@
             <t>sana</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiljahhussana</l>
          <stg>
@@ -12232,8 +12232,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>saha</l>
          <stg>
@@ -12252,8 +12252,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>raha</l>
          <stg>
@@ -12272,8 +12272,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pata</l>
          <stg>
@@ -12292,8 +12292,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tekosana</l>
          <stg>
@@ -12312,8 +12312,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>javlenja</l>
          <stg>
@@ -12332,8 +12332,8 @@
             <t>ilmiö</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nimisana</l>
          <stg>
@@ -12352,8 +12352,8 @@
             <t>substantiivi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>dialekta</l>
          <stg>
@@ -12372,8 +12372,8 @@
             <t>murre</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konsonantta</l>
          <stg>
@@ -12392,8 +12392,8 @@
             <t>konsonantti</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>diftonga</l>
          <stg>
@@ -12412,8 +12412,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tiippa</l>
          <stg>
@@ -12432,8 +12432,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanantiippa</l>
          <stg>
@@ -12452,8 +12452,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şrifta</l>
          <stg>
@@ -12472,8 +12472,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>siha</l>
          <stg>
@@ -12492,8 +12492,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutossiha</l>
          <stg>
@@ -12512,8 +12512,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partitivasiha</l>
          <stg>
@@ -12532,8 +12532,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutossiha</l>
          <stg>
@@ -12552,8 +12552,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nominativasiha</l>
          <stg>
@@ -12572,8 +12572,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adessivasiha</l>
          <stg>
@@ -12592,8 +12592,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>objektasiha</l>
          <stg>
@@ -12612,8 +12612,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutossiha</l>
          <stg>
@@ -12632,8 +12632,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tähkä</l>
          <stg>
@@ -12652,8 +12652,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>selkä</l>
          <stg>
@@ -12672,8 +12672,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>härkä</l>
          <stg>
@@ -12692,8 +12692,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kesä</l>
          <stg>
@@ -12712,8 +12712,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkukesä</l>
          <stg>
@@ -12732,8 +12732,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pesä</l>
          <stg>
@@ -12752,8 +12752,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naapurikylä</l>
          <stg>
@@ -12772,8 +12772,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alkuperä</l>
          <stg>
@@ -12792,8 +12792,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>heinä</l>
          <stg>
@@ -12812,8 +12812,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>reikä</l>
          <stg>
@@ -12832,8 +12832,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kenkä</l>
          <stg>
@@ -12852,8 +12852,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lisä</l>
          <stg>
@@ -12872,8 +12872,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veljä</l>
          <stg>
@@ -12892,8 +12892,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>päivä</l>
          <stg>
@@ -12912,8 +12912,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>määrä</l>
          <stg>
@@ -12932,8 +12932,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seppä</l>
          <stg>
@@ -12952,8 +12952,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seinä</l>
          <stg>
@@ -12972,8 +12972,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pitkittymä</l>
          <stg>
@@ -12992,8 +12992,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sammal</l>
          <stg>
@@ -13012,8 +13012,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vemmel</l>
          <stg>
@@ -13032,8 +13032,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paimen</l>
          <stg>
@@ -13052,8 +13052,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>perä</l>
          <stg>
@@ -13072,8 +13072,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>terä</l>
          <stg>
@@ -13092,8 +13092,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>äijä</l>
          <stg>
@@ -13112,8 +13112,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kerä</l>
          <stg>
@@ -13132,8 +13132,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>silmä</l>
          <stg>
@@ -13152,8 +13152,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lehmä</l>
          <stg>
@@ -13172,8 +13172,8 @@
             <t>lehmä</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>leipä</l>
          <stg>
@@ -13192,8 +13192,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>leppä</l>
          <stg>
@@ -13212,8 +13212,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kylä</l>
          <stg>
@@ -13232,8 +13232,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rantakylä</l>
          <stg>
@@ -13252,8 +13252,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>metsä</l>
          <stg>
@@ -13272,8 +13272,8 @@
             <t>metsä</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>esimerkki</l>
          <stg>
@@ -13292,8 +13292,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tunnusmerkki</l>
          <stg>
@@ -13312,8 +13312,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>steeppeni</l>
          <stg>
@@ -13332,8 +13332,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pohjasteeppeni</l>
          <stg>
@@ -13352,8 +13352,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pittuussteeppeni</l>
          <stg>
@@ -13372,8 +13372,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voimakkuussteeppeni</l>
          <stg>
@@ -13392,8 +13392,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rinnoitussteeppeni</l>
          <stg>
@@ -13413,8 +13413,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ylisteeppeni</l>
          <stg>
@@ -13433,8 +13433,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rinnoitussteeppeni</l>
          <stg>
@@ -13453,8 +13453,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>slovari</l>
          <stg>
@@ -13473,8 +13473,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>numerali</l>
          <stg>
@@ -13493,8 +13493,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nykymomentti</l>
          <stg>
@@ -13513,8 +13513,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oblasti</l>
          <stg>
@@ -13533,8 +13533,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orlinki</l>
          <stg>
@@ -13553,8 +13553,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predstaviitteli</l>
          <stg>
@@ -13573,8 +13573,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rovotti</l>
          <stg>
@@ -13593,8 +13593,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>artteli</l>
          <stg>
@@ -13613,8 +13613,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>predsedaatteli</l>
          <stg>
@@ -13633,8 +13633,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rettari</l>
          <stg>
@@ -13653,8 +13653,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>numero</l>
          <stg>
@@ -13673,8 +13673,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>peukalo</l>
          <stg>
@@ -13693,8 +13693,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>gazetti</l>
          <stg>
@@ -13713,8 +13713,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ammukki</l>
          <stg>
@@ -13733,8 +13733,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>krandoşşi</l>
          <stg>
@@ -13753,8 +13753,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>doktori</l>
          <stg>
@@ -13773,8 +13773,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>çirkkuli</l>
          <stg>
@@ -13793,8 +13793,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>matrossi</l>
          <stg>
@@ -13813,8 +13813,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sekrettari</l>
          <stg>
@@ -13834,8 +13834,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>fonari</l>
          <stg>
@@ -13854,8 +13854,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>deistviteljnosti</l>
          <stg>
@@ -13874,8 +13874,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vozmoƶnosti</l>
          <stg>
@@ -13894,8 +13894,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oblasti</l>
          <stg>
@@ -13914,8 +13914,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>selsovetti</l>
          <stg>
@@ -13934,8 +13934,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>motori</l>
          <stg>
@@ -13954,8 +13954,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adverbi</l>
          <stg>
@@ -13974,8 +13974,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naapuri</l>
          <stg>
@@ -13994,8 +13994,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lintu</l>
          <stg>
@@ -14014,8 +14014,8 @@
             <t>lintu</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ilo</l>
          <stg>
@@ -14034,8 +14034,8 @@
             <t>lintu</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aho</l>
          <stg>
@@ -14054,8 +14054,8 @@
             <t>aho</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>arvo</l>
          <stg>
@@ -14074,8 +14074,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>asu</l>
          <stg>
@@ -14094,8 +14094,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jahti</l>
          <stg>
@@ -14114,8 +14114,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lumi</l>
          <stg>
@@ -14134,8 +14134,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toimi</l>
          <stg>
@@ -14154,8 +14154,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>leemi</l>
          <stg>
@@ -14174,8 +14174,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>joki</l>
          <stg>
@@ -14194,8 +14194,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>reki</l>
          <stg>
@@ -14214,8 +14214,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jälki</l>
          <stg>
@@ -14234,8 +14234,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hauki</l>
          <stg>
@@ -14254,8 +14254,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hanhi</l>
          <stg>
@@ -14274,8 +14274,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hirvi</l>
          <stg>
@@ -14294,8 +14294,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>järvi</l>
          <stg>
@@ -14314,8 +14314,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>särki</l>
          <stg>
@@ -14334,8 +14334,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mäki</l>
          <stg>
@@ -14354,8 +14354,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>talvi</l>
          <stg>
@@ -14374,8 +14374,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>väki</l>
          <stg>
@@ -14394,8 +14394,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rantaväki</l>
          <stg>
@@ -14414,8 +14414,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suomi</l>
          <stg>
@@ -14434,8 +14434,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ovi</l>
          <stg>
@@ -14454,8 +14454,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kivi</l>
          <stg>
@@ -14474,8 +14474,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>savi</l>
          <stg>
@@ -14494,8 +14494,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rantakivi</l>
          <stg>
@@ -14514,8 +14514,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nimi</l>
          <stg>
@@ -14534,8 +14534,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toomi</l>
          <stg>
@@ -14556,8 +14556,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhteisnimi</l>
          <stg>
@@ -14576,8 +14576,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhteisnimi</l>
          <stg>
@@ -14596,8 +14596,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>erinimi</l>
          <stg>
@@ -14616,8 +14616,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>noki</l>
          <stg>
@@ -14636,8 +14636,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mato</l>
          <stg>
@@ -14656,8 +14656,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lekko</l>
          <stg>
@@ -14676,8 +14676,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loonto</l>
          <stg>
@@ -14696,8 +14696,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>retu</l>
          <stg>
@@ -14716,8 +14716,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rooko</l>
          <stg>
@@ -14738,8 +14738,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ruuti</l>
          <stg>
@@ -14758,8 +14758,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>savvu</l>
          <stg>
@@ -14778,8 +14778,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>krapu</l>
          <stg>
@@ -14798,8 +14798,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maito</l>
          <stg>
@@ -14818,8 +14818,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>trappu</l>
          <stg>
@@ -14838,8 +14838,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>looto</l>
          <stg>
@@ -14858,8 +14858,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>liitsateko</l>
          <stg>
@@ -14878,8 +14878,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>turu</l>
          <stg>
@@ -14898,8 +14898,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vihko</l>
          <stg>
@@ -14918,8 +14918,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pehko</l>
          <stg>
@@ -14938,8 +14938,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>zako</l>
          <stg>
@@ -14958,8 +14958,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hodu</l>
          <stg>
@@ -14978,8 +14978,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ukko</l>
          <stg>
@@ -14998,8 +14998,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viikko</l>
          <stg>
@@ -15018,8 +15018,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käkö</l>
          <stg>
@@ -15038,8 +15038,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pyytö</l>
          <stg>
@@ -15058,8 +15058,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kalanpyytö</l>
          <stg>
@@ -15078,8 +15078,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kyntö</l>
          <stg>
@@ -15098,8 +15098,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>töönteko</l>
          <stg>
@@ -15118,8 +15118,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vaihto</l>
          <stg>
@@ -15138,8 +15138,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tunti</l>
          <stg>
@@ -15158,8 +15158,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tositeko</l>
          <stg>
@@ -15178,8 +15178,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hoito</l>
          <stg>
@@ -15198,8 +15198,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>apu</l>
          <stg>
@@ -15218,8 +15218,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>airo</l>
          <stg>
@@ -15238,8 +15238,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niitty</l>
          <stg>
@@ -15258,8 +15258,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sooniitty</l>
          <stg>
@@ -15278,8 +15278,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jutto</l>
          <stg>
@@ -15298,8 +15298,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tulo</l>
          <stg>
@@ -15318,8 +15318,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kulo</l>
          <stg>
@@ -15338,8 +15338,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>halu</l>
          <stg>
@@ -15358,8 +15358,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>peli</l>
          <stg>
@@ -15378,8 +15378,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tyttö</l>
          <stg>
@@ -15398,8 +15398,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tööasu</l>
          <stg>
@@ -15418,8 +15418,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soitto</l>
          <stg>
@@ -15438,8 +15438,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>trenki</l>
          <stg>
@@ -15459,8 +15459,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tormi</l>
          <stg>
@@ -15479,8 +15479,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>touko</l>
          <stg>
@@ -15499,8 +15499,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>verkko</l>
          <stg>
@@ -15519,8 +15519,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>elo</l>
          <stg>
@@ -15539,8 +15539,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nooristo</l>
          <stg>
@@ -15559,8 +15559,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pero</l>
          <stg>
@@ -15579,8 +15579,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>talo</l>
          <stg>
@@ -15599,8 +15599,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>valo</l>
          <stg>
@@ -15619,8 +15619,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>luku</l>
          <stg>
@@ -15639,8 +15639,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maku</l>
          <stg>
@@ -15659,8 +15659,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suku</l>
          <stg>
@@ -15679,8 +15679,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>väli</l>
          <stg>
@@ -15699,8 +15699,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maşti</l>
          <stg>
@@ -15719,8 +15719,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>klasi</l>
          <stg>
@@ -15739,8 +15739,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tiito</l>
          <stg>
@@ -15759,8 +15759,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tykki</l>
          <stg>
@@ -15779,8 +15779,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>äly</l>
          <stg>
@@ -15799,8 +15799,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>halko</l>
          <stg>
@@ -15819,8 +15819,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ätti</l>
          <stg>
@@ -15839,8 +15839,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>laulu</l>
          <stg>
@@ -15859,8 +15859,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>syksy</l>
          <stg>
@@ -15879,8 +15879,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hattu</l>
          <stg>
@@ -15899,8 +15899,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şkoulu</l>
          <stg>
@@ -15919,8 +15919,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viro</l>
          <stg>
@@ -15939,8 +15939,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pelto</l>
          <stg>
@@ -15959,8 +15959,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>teko</l>
          <stg>
@@ -15979,8 +15979,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ero</l>
          <stg>
@@ -15999,8 +15999,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loppu</l>
          <stg>
@@ -16019,8 +16019,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutosloppu</l>
          <stg>
@@ -16039,8 +16039,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>padeƶaloppu</l>
          <stg>
@@ -16059,8 +16059,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partitivaloppu</l>
          <stg>
@@ -16079,8 +16079,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sihaloppu</l>
          <stg>
@@ -16099,8 +16099,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>steeppenivaihto</l>
          <stg>
@@ -16119,8 +16119,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>steeppenivaihtiimiin</l>
          <stg>
@@ -16139,8 +16139,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>olo</l>
          <stg>
@@ -16159,8 +16159,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koti</l>
          <stg>
@@ -16179,8 +16179,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tratti</l>
          <stg>
@@ -16199,8 +16199,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>palo</l>
          <stg>
@@ -16219,8 +16219,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pyssy</l>
          <stg>
@@ -16239,8 +16239,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mytty</l>
          <stg>
@@ -16259,8 +16259,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poşti</l>
          <stg>
@@ -16279,8 +16279,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>saavi</l>
          <stg>
@@ -16299,8 +16299,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>risti</l>
          <stg>
@@ -16319,8 +16319,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lusti</l>
          <stg>
@@ -16339,8 +16339,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>looti</l>
          <stg>
@@ -16361,8 +16361,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pappi</l>
          <stg>
@@ -16381,8 +16381,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>panki</l>
          <stg>
@@ -16401,8 +16401,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>söökki</l>
          <stg>
@@ -16423,8 +16423,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kraami</l>
          <stg>
@@ -16443,8 +16443,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tekokraami</l>
          <stg>
@@ -16463,8 +16463,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lamppi</l>
          <stg>
@@ -16483,8 +16483,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>keppi</l>
          <stg>
@@ -16503,8 +16503,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maşti</l>
          <stg>
@@ -16523,8 +16523,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>looti</l>
          <stg>
@@ -16543,8 +16543,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lusti</l>
          <stg>
@@ -16563,8 +16563,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şpeili</l>
          <stg>
@@ -16583,8 +16583,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vari</l>
          <stg>
@@ -16603,8 +16603,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şkaappi</l>
          <stg>
@@ -16623,8 +16623,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lootsi</l>
          <stg>
@@ -16645,8 +16645,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pertti</l>
          <stg>
@@ -16665,8 +16665,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lukupertti</l>
          <stg>
@@ -16685,8 +16685,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rahti</l>
          <stg>
@@ -16705,8 +16705,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>verbi</l>
          <stg>
@@ -16725,8 +16725,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paino</l>
          <stg>
@@ -16745,8 +16745,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kello</l>
          <stg>
@@ -16765,8 +16765,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaivo</l>
          <stg>
@@ -16785,8 +16785,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loppu</l>
          <stg>
@@ -16805,8 +16805,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>merkki</l>
          <stg>
@@ -16825,8 +16825,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pehmitösmerkki</l>
          <stg>
@@ -16845,8 +16845,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oppi</l>
          <stg>
@@ -16865,8 +16865,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>äänioppi</l>
          <stg>
@@ -16885,8 +16885,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kurssi</l>
          <stg>
@@ -16905,8 +16905,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuntomerkki</l>
          <stg>
@@ -16925,8 +16925,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>poika</l>
          <stg>
@@ -16945,8 +16945,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>talonpoika</l>
          <stg>
@@ -16965,8 +16965,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pohja</l>
          <stg>
@@ -16985,8 +16985,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sananpohja</l>
          <stg>
@@ -17005,8 +17005,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalpohja</l>
          <stg>
@@ -17025,8 +17025,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konsonantanpohja</l>
          <stg>
@@ -17045,8 +17045,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalanpohja</l>
          <stg>
@@ -17065,8 +17065,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>konsonanttapohja</l>
          <stg>
@@ -17085,8 +17085,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vokalapohja</l>
          <stg>
@@ -17105,8 +17105,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loppuvokala</l>
          <stg>
@@ -17125,8 +17125,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koivu</l>
          <stg>
@@ -17145,8 +17145,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kasvu</l>
          <stg>
@@ -17165,8 +17165,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kanto</l>
          <stg>
@@ -17185,8 +17185,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seili</l>
          <stg>
@@ -17205,8 +17205,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>savu</l>
          <stg>
@@ -17225,8 +17225,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suuto</l>
          <stg>
@@ -17245,8 +17245,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käsky</l>
          <stg>
@@ -17265,8 +17265,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>öljy</l>
          <stg>
@@ -17285,8 +17285,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>karhu</l>
          <stg>
@@ -17305,8 +17305,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kukkoi</l>
          <stg>
@@ -17325,8 +17325,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lastu</l>
          <stg>
@@ -17345,8 +17345,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lasku</l>
          <stg>
@@ -17365,8 +17365,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lanttu</l>
          <stg>
@@ -17385,8 +17385,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lanko</l>
          <stg>
@@ -17405,8 +17405,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lohko</l>
          <stg>
@@ -17425,8 +17425,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kiuru</l>
          <stg>
@@ -17445,8 +17445,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>liitsaloppu</l>
          <stg>
@@ -17465,8 +17465,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veeru</l>
          <stg>
@@ -17487,8 +17487,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>veeno</l>
          <stg>
@@ -17509,8 +17509,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vahti</l>
          <stg>
@@ -17529,8 +17529,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viiru</l>
          <stg>
@@ -17549,8 +17549,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sota</l>
          <stg>
@@ -17569,8 +17569,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>osa</l>
          <stg>
@@ -17589,8 +17589,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>noora</l>
          <stg>
@@ -17611,8 +17611,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>topka</l>
          <stg>
@@ -17631,8 +17631,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kohta</l>
          <stg>
@@ -17651,8 +17651,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orla</l>
          <stg>
@@ -17671,8 +17671,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sulka</l>
          <stg>
@@ -17691,8 +17691,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>summa</l>
          <stg>
@@ -17711,8 +17711,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rokka</l>
          <stg>
@@ -17731,8 +17731,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>routa</l>
          <stg>
@@ -17751,8 +17751,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rooka</l>
          <stg>
@@ -17773,8 +17773,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voota</l>
          <stg>
@@ -17795,8 +17795,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voona</l>
          <stg>
@@ -17817,8 +17817,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kulta</l>
          <stg>
@@ -17837,8 +17837,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>multa</l>
          <stg>
@@ -17857,8 +17857,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oksa</l>
          <stg>
@@ -17877,8 +17877,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pouta</l>
          <stg>
@@ -17897,8 +17897,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kysymysosa</l>
          <stg>
@@ -17917,8 +17917,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sananosa</l>
          <stg>
@@ -17937,8 +17937,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>possessivaosa</l>
          <stg>
@@ -17957,8 +17957,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vahvistusosa</l>
          <stg>
@@ -17977,8 +17977,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vahvikeosa</l>
          <stg>
@@ -17997,8 +17997,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jutonosa</l>
          <stg>
@@ -18017,8 +18017,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>honka</l>
          <stg>
@@ -18037,8 +18037,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ikä</l>
          <stg>
@@ -18057,8 +18057,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>itäpohja</l>
          <stg>
@@ -18077,8 +18077,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sloga</l>
          <stg>
@@ -18097,8 +18097,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>oja</l>
          <stg>
@@ -18117,8 +18117,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suka</l>
          <stg>
@@ -18137,8 +18137,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suima</l>
          <stg>
@@ -18157,8 +18157,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>opettaja</l>
          <stg>
@@ -18177,8 +18177,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sukka</l>
          <stg>
@@ -18197,8 +18197,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuva</l>
          <stg>
@@ -18217,8 +18217,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koira</l>
          <stg>
@@ -18237,8 +18237,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lupa</l>
          <stg>
@@ -18257,8 +18257,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voima</l>
          <stg>
@@ -18277,8 +18277,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>henkähösvoima</l>
          <stg>
@@ -18297,8 +18297,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nootta</l>
          <stg>
@@ -18317,8 +18317,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuura</l>
          <stg>
@@ -18337,8 +18337,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>muna</l>
          <stg>
@@ -18357,8 +18357,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>otsa</l>
          <stg>
@@ -18377,8 +18377,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nenä</l>
          <stg>
@@ -18397,8 +18397,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>nevvo</l>
          <stg>
@@ -18417,8 +18417,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>emä</l>
          <stg>
@@ -18437,8 +18437,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>gruppa</l>
          <stg>
@@ -18457,8 +18457,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutosgruppa</l>
          <stg>
@@ -18477,8 +18477,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sloga</l>
          <stg>
@@ -18497,8 +18497,8 @@
             <t>tavu</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koira</l>
          <stg>
@@ -18517,8 +18517,8 @@
             <t>tavu</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>forma</l>
          <stg>
@@ -18537,8 +18537,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>läkkämysforma</l>
          <stg>
@@ -18557,8 +18557,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partisippaforma</l>
          <stg>
@@ -18577,8 +18577,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kysymysforma</l>
          <stg>
@@ -18597,8 +18597,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>komparativaforma</l>
          <stg>
@@ -18617,8 +18617,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>infinitivaforma</l>
          <stg>
@@ -18637,8 +18637,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>imperativaforma</l>
          <stg>
@@ -18657,8 +18657,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>täysforma</l>
          <stg>
@@ -18677,8 +18677,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tosiforma</l>
          <stg>
@@ -18697,8 +18697,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tekosananforma</l>
          <stg>
@@ -18717,8 +18717,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sihaforma</l>
          <stg>
@@ -18737,8 +18737,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pohjaforma</l>
          <stg>
@@ -18757,8 +18757,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partitivaforma</l>
          <stg>
@@ -18777,8 +18777,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paralleliforma</l>
          <stg>
@@ -18797,8 +18797,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutossihaforma</l>
          <stg>
@@ -18817,8 +18817,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutosforma</l>
          <stg>
@@ -18837,8 +18837,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>naklonenjaforma</l>
          <stg>
@@ -18857,8 +18857,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>läkkäämysforma</l>
          <stg>
@@ -18877,8 +18877,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>läkkäämisforma</l>
          <stg>
@@ -18897,8 +18897,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lukuforma</l>
          <stg>
@@ -18917,8 +18917,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käskyforma</l>
          <stg>
@@ -18937,8 +18937,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>infinitivaforma</l>
          <stg>
@@ -18957,8 +18957,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>adessivaforma</l>
          <stg>
@@ -18977,8 +18977,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>platforma</l>
          <stg>
@@ -18997,8 +18997,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>aikaforma</l>
          <stg>
@@ -19017,8 +19017,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>partativaforma</l>
          <stg>
@@ -19037,8 +19037,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>loppuforma</l>
          <stg>
@@ -19057,8 +19057,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>padeƶaforma</l>
          <stg>
@@ -19077,8 +19077,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>possessivaforma</l>
          <stg>
@@ -19097,8 +19097,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanaforma</l>
          <stg>
@@ -19117,8 +19117,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sanomisforma</l>
          <stg>
@@ -19137,8 +19137,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sekaforma</l>
          <stg>
@@ -19157,8 +19157,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yksikköforma</l>
          <stg>
@@ -19177,8 +19177,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>monikkoforma</l>
          <stg>
@@ -19197,8 +19197,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>norma</l>
          <stg>
@@ -19217,8 +19217,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirjutosnorma</l>
          <stg>
@@ -19237,8 +19237,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kirjutosforma</l>
          <stg>
@@ -19257,8 +19257,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>alku</l>
          <stg>
@@ -19277,8 +19277,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>katto</l>
          <stg>
@@ -19297,8 +19297,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pärekatto</l>
          <stg>
@@ -19317,8 +19317,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>häkki</l>
          <stg>
@@ -19337,8 +19337,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>näkö</l>
          <stg>
@@ -19357,8 +19357,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>maa</l>
          <stg>
@@ -19377,8 +19377,8 @@
             <t>maa</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>syntymämaa</l>
          <stg>
@@ -19397,8 +19397,8 @@
             <t>maa</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koi</l>
          <stg>
@@ -19417,8 +19417,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>soo</l>
          <stg>
@@ -19439,8 +19439,8 @@
             <t>suo</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niittysoo</l>
          <stg>
@@ -19461,8 +19461,8 @@
             <t>suo</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pii</l>
          <stg>
@@ -19481,8 +19481,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>pää</l>
          <stg>
@@ -19501,8 +19501,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>suu</l>
          <stg>
@@ -19521,8 +19521,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>syy</l>
          <stg>
@@ -19541,8 +19541,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>süü</l>
          <stg>
@@ -19561,8 +19561,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kivitee</l>
          <stg>
@@ -19581,8 +19581,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tee</l>
          <stg>
@@ -19603,8 +19603,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>rautatee</l>
          <stg>
@@ -19625,8 +19625,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>töö</l>
          <stg>
@@ -19647,8 +19647,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>şkoulutöö</l>
          <stg>
@@ -19667,8 +19667,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voi</l>
          <stg>
@@ -19687,8 +19687,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vöö</l>
          <stg>
@@ -19709,8 +19709,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vesi</l>
          <stg>
@@ -19729,8 +19729,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>käsi</l>
          <stg>
@@ -19749,8 +19749,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>voosi</l>
          <stg>
@@ -19771,8 +19771,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mesi</l>
          <stg>
@@ -19791,8 +19791,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>länsi</l>
          <stg>
@@ -19811,8 +19811,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>orsi</l>
          <stg>
@@ -19831,8 +19831,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>susi</l>
          <stg>
@@ -19851,8 +19851,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sysi</l>
          <stg>
@@ -19871,8 +19871,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>varsi</l>
          <stg>
@@ -19891,8 +19891,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>parsi</l>
          <stg>
@@ -19911,8 +19911,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>versi</l>
          <stg>
@@ -19931,8 +19931,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>köysi</l>
          <stg>
@@ -19951,8 +19951,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>hersi</l>
          <stg>
@@ -19971,8 +19971,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kansi</l>
          <stg>
@@ -19991,8 +19991,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>varis</l>
          <stg>
@@ -20011,8 +20011,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ohjas</l>
          <stg>
@@ -20031,8 +20031,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toitus</l>
          <stg>
@@ -20051,8 +20051,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toohus</l>
          <stg>
@@ -20073,8 +20073,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tutkimus</l>
          <stg>
@@ -20093,8 +20093,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toimitos</l>
          <stg>
@@ -20113,8 +20113,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>lyhennös</l>
          <stg>
@@ -20133,8 +20133,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>modus</l>
          <stg>
@@ -20153,8 +20153,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>parennos</l>
          <stg>
@@ -20173,8 +20173,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jätös</l>
          <stg>
@@ -20193,8 +20193,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>peenennys</l>
          <stg>
@@ -20213,8 +20213,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yhtehös</l>
          <stg>
@@ -20233,8 +20233,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vaihtiimistapahus</l>
          <stg>
@@ -20253,8 +20253,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kysymys</l>
          <stg>
@@ -20273,8 +20273,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>painutos</l>
          <stg>
@@ -20293,8 +20293,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>luu</l>
          <stg>
@@ -20313,8 +20313,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kulttuuratöö</l>
          <stg>
@@ -20333,8 +20333,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>puu</l>
          <stg>
@@ -20353,8 +20353,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>niinipuu</l>
          <stg>
@@ -20373,8 +20373,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>öö</l>
          <stg>
@@ -20395,8 +20395,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jää</l>
          <stg>
@@ -20415,8 +20415,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sää</l>
          <stg>
@@ -20435,5 +20435,5 @@
             <t/>
          </tg>
       </mg>
-   </entry>
+   </e>
 </r>

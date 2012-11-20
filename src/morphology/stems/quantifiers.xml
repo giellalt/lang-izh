@@ -2,7 +2,7 @@
 <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd"
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-   <entry>
+   <e>
       <lg>
          <l>ensimäin</l>
          <stg>
@@ -21,8 +21,8 @@
             <t>ensimmäinen</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>ylempäin</l>
          <stg>
@@ -41,8 +41,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jälkimäin</l>
          <stg>
@@ -61,8 +61,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>toin</l>
          <stg>
@@ -81,8 +81,8 @@
             <t>toinen</t>
          </tg>
       </mg>
-   </entry>
-   <entry exclude="fst">
+   </e>
+   <e exclude="fst">
       <lg>
          <l>sattais</l>
          <stg>
@@ -101,8 +101,8 @@
             <t>sadas</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>muu</l>
          <stg>
@@ -121,8 +121,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>molemmat</l>
          <stg>
@@ -141,8 +141,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>monikas</l>
          <stg>
@@ -161,8 +161,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>monikkain</l>
          <stg>
@@ -181,8 +181,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>moni</l>
          <stg>
@@ -201,8 +201,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaik</l>
          <stg>
@@ -221,8 +221,8 @@
             <t>kaikki</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>enemmän</l>
          <stg>
@@ -241,8 +241,8 @@
             <t>enemmän</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vähemmän</l>
          <stg>
@@ -261,8 +261,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>onto</l>
          <stg>
@@ -281,8 +281,8 @@
             <t>vain</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaikkinee</l>
          <stg>
@@ -301,8 +301,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>paljo</l>
          <stg>
@@ -321,8 +321,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>vähä</l>
          <stg>
@@ -341,8 +341,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>enä</l>
          <stg>
@@ -361,8 +361,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>joka</l>
          <stg>
@@ -381,8 +381,8 @@
             <t>joka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>jokahiin</l>
          <stg>
@@ -401,8 +401,8 @@
             <t>joka</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yks</l>
          <stg>
@@ -421,8 +421,8 @@
             <t>yksi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaks</l>
          <stg>
@@ -441,8 +441,8 @@
             <t>kaksi</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kolt</l>
          <stg>
@@ -461,8 +461,8 @@
             <t>kolme</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>neljä</l>
          <stg>
@@ -481,8 +481,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaheksan</l>
          <stg>
@@ -501,8 +501,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yheksän</l>
          <stg>
@@ -521,8 +521,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seitsen</l>
          <stg>
@@ -541,8 +541,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>mont</l>
          <stg>
@@ -561,8 +561,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>sata</l>
          <stg>
@@ -581,8 +581,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>tuhat</l>
          <stg>
@@ -601,8 +601,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kakssattaa</l>
          <stg>
@@ -621,8 +621,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koltsattaa</l>
          <stg>
@@ -641,8 +641,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>neljäsattaa</l>
          <stg>
@@ -661,8 +661,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viissattaa</l>
          <stg>
@@ -681,8 +681,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuussattaa</l>
          <stg>
@@ -701,8 +701,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seitsensattaa</l>
          <stg>
@@ -721,8 +721,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaheksansattaa</l>
          <stg>
@@ -741,8 +741,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yheksänsattaa</l>
          <stg>
@@ -761,8 +761,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kymmen</l>
          <stg>
@@ -781,8 +781,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kakskymment</l>
          <stg>
@@ -801,8 +801,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>koltkymment</l>
          <stg>
@@ -821,8 +821,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>neljäkymment</l>
          <stg>
@@ -841,8 +841,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viiskymment</l>
          <stg>
@@ -861,8 +861,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuuskymment</l>
          <stg>
@@ -881,8 +881,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seitsenkymment</l>
          <stg>
@@ -901,8 +901,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaheksankymment</l>
          <stg>
@@ -921,8 +921,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yheksänkymment</l>
          <stg>
@@ -941,8 +941,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaheskymmenäs</l>
          <stg>
@@ -961,8 +961,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kolmaskymmenäs</l>
          <stg>
@@ -981,8 +981,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>neljäskymmenäs</l>
          <stg>
@@ -1001,8 +1001,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viijeskymmenäs</l>
          <stg>
@@ -1021,8 +1021,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuuvveskymmenäs</l>
          <stg>
@@ -1041,8 +1041,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>seitsemäskymmenäs</l>
          <stg>
@@ -1061,8 +1061,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kaheksaskymmenäs</l>
          <stg>
@@ -1081,8 +1081,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>yheksäskymmenäs</l>
          <stg>
@@ -1101,8 +1101,8 @@
             <t/>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>viis</l>
          <stg>
@@ -1121,8 +1121,8 @@
             <t>kolme</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kuus</l>
          <stg>
@@ -1141,8 +1141,8 @@
             <t>kolme</t>
          </tg>
       </mg>
-   </entry>
-   <entry>
+   </e>
+   <e>
       <lg>
          <l>kymmenäs</l>
          <stg>
@@ -1161,5 +1161,5 @@
             <t/>
          </tg>
       </mg>
-   </entry>
+   </e>
 </r>
