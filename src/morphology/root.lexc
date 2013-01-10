@@ -206,9 +206,9 @@ LEXICON Root
    quantifiers   ;
    verbs   ;
 
-Abbreviation	 ;
-Acronym		 ;
-Punctuation	 ;
+!Abbreviation	 ;
+!Acronym		 ;
+!Punctuation	 ;
 !wordToNumeral    ;
 
 
