@@ -30,7 +30,7 @@ Tests:
      lehti+N+Sg+Exe: lehtent
 
      lehti+N+Pl+Nom: lehet
-     lehti+N+Pl+Gen: lehtilöin
+     lehti+N+Pl+Gen: [lehtilöin, lehtiin]
      lehti+N+Pl+Acc: lehet
      lehti+N+Pl+Par: lehtilöjä
      lehti+N+Pl+Ill: lehtilöihe
