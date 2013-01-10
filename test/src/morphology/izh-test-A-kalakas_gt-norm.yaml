@@ -26,7 +26,7 @@ Tests:
      kalakas+A+Sg+Ade: kalakkaal
      kalakas+A+Sg+Abl: kalakkaalt
      kalakas+A+Sg+Tra: kalakkaaks
-     kalakas+A+Sg+Ess: kalakkaanna
+     kalakas+A+Sg+Ess: [kalakkaan, kalakkaanna]
      kalakas+A+Sg+Exe: kalakkaant
 
      kalakas+A+Pl+Nom: kalakkaat
@@ -40,7 +40,7 @@ Tests:
      kalakas+A+Pl+Ade: kalakkail
      kalakas+A+Pl+Abl: kalakkailt
      kalakas+A+Pl+Tra: kalakkaiks
-     kalakas+A+Pl+Ess: kalakkainna
+     kalakas+A+Pl+Ess: [kalakkain, kalakkainna]
      kalakas+A+Pl+Exe: kalakkaint
 
 
