@@ -232,23 +232,22 @@ LEXICON N-patsas
 +N@U.POS.N@:@U.POS.N@ N-patsas_01 ;
 
 LEXICON N-patsas_01
-+Sg+Nom:%>%^WCnss      K                ;
-:%>%^WCnss	       SG-PAR_tA 	;
-:%>V2      SG-ILL_sse		;
-:h%>V2      SG-ILL_sse		;
-:%>V2 Oblique-Singular ;
-:h%>V2 Oblique-Singular ;
++Sg+Nom:%>%^WCnss K                ;
+       :%>%^WCnss SG-PAR_tA        ;
+       :%>V2      SG-ILL_sse       ;
+       :h%>V2     SG-ILL_sse       ;
+       :%>V2      Oblique-Singular ;
+       :h%>V2     Oblique-Singular ;
 ! Plural
-:%>V2      PL-NOM		;
-:h%>V2      PL-NOM		;
-:%>V2      PL-PAR_tA		;
-:h%>%^LCns      PL-PAR_A		;
-:%>V2      PL-ILL_sse		;
-:h      PL-ILL_sse		;
-
-:%>V2 Oblique-Plural ;
-:hi Oblique-Singular ;
-
+       :%>V2      PL-NOM           ;
+       :h%>V2     PL-NOM           ;
+       :%>       PL-GEN           ;
+       :%>V2      PL-PAR_tA        ;
+       :h%>%^LCns PL-PAR_A         ;
+       :%>V2      PL-ILL_sse       ;
+       :h         PL-ILL_sse       ;
+       :%>V2      Oblique-Plural   ;
+       :hi        Oblique-Singular ;
 
 
 ! lähe:lähte
@@ -490,8 +489,9 @@ LEXICON N-tähti_01
 :e SG-ILL_V   ; ! tähtee
 :e  Oblique-Singular ;
 ! Plural
-+Pl:i  lOi-Pl ;
+:i  lOi-Pl ;
 +Pl+Nom:e%>%^WCnst     #   ; ! maot
++Pl+Acc:e%>%^WCnst     #   ; ! maot
  PL-PAR_A ;
  PL-ILL_V ;
  Oblique-Plural ;
@@ -522,6 +522,7 @@ LEXICON N-käsi_01
 :s PL-PAR_A-LCns  ;
 :s PL-ILL_V   ; ! kässii
 :si%>%^LCns PL-ESS_nnA ;
+:si%>%^LCns PL-ESS_n ;
 :s%>%^LCns PL-EXE ;
 :s Oblique-Plural_less-EssExe ;
 
@@ -856,6 +857,7 @@ LEXICON Oblique-Plural
 Oblique-Plural_less-EssExe ;
       PL-ESS_Vn		;
       PL-ESS_nnA	;
+      PL-ESS_n	;
       PL-EXE		;
 
 
@@ -923,6 +925,10 @@ LEXICON PL-ELA
 LEXICON PL-ESS_Vn
 !+Dial/Soik
 +Pl+Ess000@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.ESS@	 K_Num  ;
+
+LEXICON PL-ESS_n
+!+Dial/Soik
++Pl+Ess0000@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>n@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
 
 LEXICON PL-ESS_nnA
 !+Dial/Lauk
