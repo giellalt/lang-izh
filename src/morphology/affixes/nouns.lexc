@@ -1063,7 +1063,3 @@ LEXICON SG-TRA
 
 
 
-LEXICON AbbrDot
-+N+Sg+Nom: # ; ! XXX This should be moved to a separate abbreviations.lexc
-               !     file, and not clogger this file.
-
