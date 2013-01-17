@@ -222,6 +222,8 @@ LEXICON CsTag
 +Cs:   #   ;
 
 LEXICON AbbrDot
+! XXX This should be moved to a separate abbreviations.lexc
+!      file, and not clogger this file. !2013-01-16 Should it?
 +ABBR:%. # ;
 
 LEXICON InterjTag
