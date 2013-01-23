@@ -1,0 +1,21 @@
+
+
+
+
+These pages document our Ingrian parser.
+
+!!! Source files
+* [stems|https://victorio.uit.no/langtech/trunk/langs/izh/src/morphology/stems/]   
+  / [affixes|https://victorio.uit.no/langtech/trunk/langs/izh/src/morphology/affixes/] 
+  / [twolc|https://victorio.uit.no/langtech/trunk/langs/izh/src/phonology/izh-phon.twolc]   
+  / [yaml|https://victorio.uit.no/langtech/trunk/langs/izh/test/src/morphology/]
+  / [paradigm|http://giellatekno.uit.no/cgi/p-izh.fin.html]
+  / [text|http://giellatekno.uit.no/cgi/d-izh.fin.html]
+
+!!! Grammatical issues
+
+* [The tags that are in use|https://victorio.uit.no/langtech/trunk/langs/est/src/morphology/root.lexc]   
+* [A list of morphological tags|../common/MorphologicalTags.html]
+
+
+
