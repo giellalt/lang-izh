@@ -23,8 +23,8 @@ LEXICON A-harmaa_01
  Oblique-Plural ;
 
 
-! (II) N-mato
 LEXICON A-avvaaro
+! (II) N-mato
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A: # ;
 
@@ -35,28 +35,28 @@ LEXICON A-lihhaava
 +A+Comp:AÄ1mp MP ; !
 +A: N-ommeena_01 ;
 
+LEXICON A-uusi
 ! (XI) Num-viis
 ! uusi:uu
-LEXICON A-uusi
 +A+Der/st:te%>%^WCnsst AdvManner ; !
 +A+Comp:te%>%^WCnsmp MP ; !
 +A:si SG-NOM ;
 +A: Num-viis_01 ;
 
+LEXICON A-vesselä
 !check this 2012-10-29
 ! vesselä:vesselä
-LEXICON A-vesselä
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCnsmp MP ; !
 +A: N-osa_01 ;
 
-! valmis:valmi
 LEXICON A-valmis
+! valmis:valmi
 +A: N-patsas_01 ;
 
+LEXICON A-kitsas
 ! kalakas:kalakka
 !LEXICON A-kalakas
-LEXICON A-kitsas
 +A: N-patsas_01 ;
 +A+Der/st:ast AdvManner ; !
 +A+Comp:amp MP ; !
@@ -75,8 +75,8 @@ LEXICON A-suur
 +A+Sg+Nom:i K ;
 +A: N-sammal_01 ;
 
-! peeni:peen
 LEXICON A-peeni
+! peeni:peen
 +A+Der/st:e%>%^WCnsst AdvManner ; !
 +A+Comp:e%>%^WCnsmp MP ; !
 +A: N-keeli_01 ;
@@ -85,19 +85,19 @@ LEXICON A-hyvä
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
-! oma (??)
 LEXICON A-oma
+! oma (??)
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
-! kova:kova (??)
 LEXICON A-kova
+! kova:kova (??)
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCns%^E1mp MP ; !
 +A: N-osa_01 ;
 
-! tulova:tulovAÄ1
 LEXICON A-tulova
+! tulova:tulovAÄ1
 +Dial/Lauk+A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCnsmp MP ; !
 +A: N-osa_01 ;
@@ -122,15 +122,15 @@ LEXICON A-kalakas_01
 :hi     Oblique-Plural ;
 
 
-! kerkiä:kerki (??)
 LEXICON A-kerkiä
+! kerkiä:kerki (??)
 +A+Der/st:AÄ1%>%^WCnsst AdvManner ; !
 +A+Comp:AÄ1mp MP ; !
 +A: N-assia_01 ;
 
 
-! lyhyt:lyhy (??)
 LEXICON A-lyhyt
+! lyhyt:lyhy (??)
 +A+Der/st:%^SyllBre%^StretchSyll2st AdvManner ; !
 +A+Comp:%^SyllBre%^StretchSyll2mp MP ;
 +A+Comp:emp MP ;
@@ -138,8 +138,8 @@ LEXICON A-lyhyt
 +A:is Oblique-Plural ;
 
 
-! glavnoi 2 syllables (??)
 LEXICON A-glavnoi
+! glavnoi 2 syllables (??)
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:mp MP ;
 +A: A-glavnoi_01 ;
@@ -174,12 +174,12 @@ LEXICON A-glavnoi_01
 +Pl+Ess:%>i%>n    #   ; ! matoloinna
 +Pl+Exe:%>i%>nt    #   ; ! matoloint
 
-! terve:terve
 LEXICON A-terve
+! terve:terve
 +A: N-lähe_01 ;
 
-! kalatoin (??)
 LEXICON A-kalatoin
+! kalatoin (??)
 +A+Der/st:tOÖ1mAÄ1%>%^WCnsst AdvManner ; !
 +A: A-kalatoin_01 ;
 
@@ -195,54 +195,54 @@ LEXICON A-kalatoin_01
 :tOÖ1m PL-ILL_V   ; ! kalattommii
 :tOÖ1m Oblique-Plural ;
 
+LEXICON A-punain
 ! kärpäin (XIII)
 ! formerly A-erilaajain
 ! punain:punai 
 !   2      3
-LEXICON A-punain
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A:  N-kärpäin_01 ;
 
+LEXICON A-entiin
 ! This needs a two-syllable
 ! entiin:enti
 !   2     3 
-LEXICON A-entiin
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A: N-hoomiin_01 ;
 
+LEXICON A-pohjallin
 ! pohjallin:pohjalli
 !    3        4
-LEXICON A-pohjallin
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A: N-mehiläin_01 ;
 
+LEXICON A-kelvolliin
 ! kelvolliin:kelvolli
 !    3        4
-LEXICON A-kelvolliin
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A: N-inmihiin_01 ;
 
 
 
-! vahva:vahv ()
 LEXICON A-vahva
+! vahva:vahv ()
 +A+Der/st:a%>%^WCnsst AdvManner ; !
 +A:e%>%^WCnsmp MP ; ! 2-syllables
 +A:  N-jalka_01 ;
 
-! matala: matal ()
 LEXICON A-matala
+! matala: matal ()
 +A+Der/st:a%>%^WCnsst AdvManner ; !
 +A:amp MP ; ! 3-syllables
 +A: N-vokala_01 ;
 
 
-!paremp
 LEXICON A-paremp
+!paremp
 +A+Comp: MP ;
 
 LEXICON MP
