@@ -1,22 +1,21 @@
-!! Quantifier inflection
-!! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
-!! nouns, but with a colon (':') as separator.
+!! !!!Quantifier inflection
 
-! N-kärpäin (XIII)
+!! Still undocumented
+
+!!  N-kärpäin (XIII)
 LEXICON Ord-toin
 +Num+Ord: N-nain_01 ;
 
-! N-kärpäin (XIII)
+!!  N-kärpäin (XIII)
 LEXICON Ord-ensimäin
 +Num+Ord: N-mehiläin_01 ;
 
 
-! N-mato (II)
+!!  N-mato (II)
 LEXICON Qnt-paljo
 +Qnt: N-mato_01 ;
 
-! vähä:vähä
+!!  vähä:vähä
 LEXICON Qnt-vähä
 +Qnt+Comp:%>%^WCns%^E1mp MP ; !
 +Qnt: N-osa_01 ;
@@ -54,11 +53,11 @@ LEXICON Qnt-molemmat_01
  PL-EXE ;
  PL-COM ;
 
-! enemmän
+!!  enemmän
 LEXICON QntTag
 +Qnt: K ;
 
-!kaik:kaik
+!! kaik:kaik
 LEXICON Qnt-kaik
 +Qnt+Univ+Sg+Nom:     #   ; ! kaik
 !+Qnt+Univ+Sg+Gen:hte%>%^WCnsn	#   ; ! yhen
@@ -74,7 +73,7 @@ LEXICON Qnt-kaik
 !+Qnt+Univ+Sg+Ess:hte%>%^LCnsnnAÄ1    #   ; ! mattoon
 !+Qnt+Univ+Sg+Exe:hte%>%^LCnsnt    #   ; ! mattoont
 !+Qnt+Univ+Sg+Instr:hte%>%^WCnsnkAÄ1    #   ; ! maanka
-! Plural
+!!  Plural
 !+Qnt+Univ+Pl+Nom:hte%>%^WCnst     #   ; ! maot
 +Qnt+Univ+Pl+Gen:kiin	#   ; ! kaikkiin
 !+Qnt+Univ+Pl+Acc:hte%>%^WCnst     #   ; ! yhet
@@ -93,9 +92,9 @@ LEXICON Qnt-kaik
 !+Qnt+Univ+Pl+Instr:ksi%>nkAÄ1    #   ; ! mataloinka
 
 
-! yksi, kaksi
-! from käsi (XI)
-!yks:y
+!!  yksi, kaksi
+!!  from käsi (XI)
+!! yks:y
 LEXICON Num-yks
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-yks_01 ;
 
@@ -113,7 +112,7 @@ LEXICON Num-yks_01
 
 
 !! kolt
-! from kolt (??)
+!!  from kolt (??)
 LEXICON Num-kolt
 +Num+Ord:ma NumOrd ;
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kolt_01 ;
