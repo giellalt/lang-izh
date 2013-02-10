@@ -53,7 +53,7 @@ Multichar_Symbols
  +Exe +Instr +Com +Ins +Prl
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals and other quantifiers are classified under:
@@ -63,7 +63,7 @@ Multichar_Symbols
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII 
  +ActPrsPrc +ActPrtPrc
@@ -216,10 +216,10 @@ LEXICON Root
 !! POS with minimal morphological variation
 
 LEXICON CcTag
-+Cc:   #   ;
++CC:   #   ;
 
 LEXICON CsTag
-+Cs:   #   ;
++CS:   #   ;
 
 LEXICON AbbrDot
 ! XXX This should be moved to a separate abbreviations.lexc
