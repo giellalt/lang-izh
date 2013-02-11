@@ -1,6 +1,6 @@
 !!!Free and Open source Ingrian analyser gtsvn-izh
 
-;Authors: Jack Rueter in cooperation with the Divvun and Giellatekno teams
+;Authors: Timo Rantakaulio and Jack Rueter in cooperation with the Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
@@ -12,12 +12,12 @@ This is free and open source Ingrian morphology.
 
 Morphology
 ----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF THE INGRIAN LANGUAGE.
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
 
 
 Analysis symbols
 ----------------
-The morphological analyses of wordforms in the INGRIAN language are presented
+The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -74,7 +74,7 @@ FLAGS USED WITH COLLECTIVE NOUNS
 
 
 
-The word forms in the INGRIAN language start from the lexeme roots of basic
+The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 
