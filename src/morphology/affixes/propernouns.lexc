@@ -1,7 +1,6 @@
-!! Proper noun inflection
-!! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
-!! nouns, but with a colon (':') as separator.
+!! !!!Proper noun inflection
+
+!! We have a partial program in singular.
 
 LEXICON PropTag
 +N+Prop: # ;
