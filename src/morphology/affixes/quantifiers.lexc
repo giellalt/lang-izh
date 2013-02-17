@@ -2,20 +2,21 @@
 
 !! Still undocumented
 
-!!  N-kärpäin (XIII)
+!! N-kärpäin (XIII)
+
 LEXICON Ord-toin
 +Num+Ord: N-nain_01 ;
 
-!!  N-kärpäin (XIII)
+!! N-kärpäin (XIII)
 LEXICON Ord-ensimäin
 +Num+Ord: N-mehiläin_01 ;
 
 
-!!  N-mato (II)
+!! N-mato (II)
 LEXICON Qnt-paljo
 +Qnt: N-mato_01 ;
 
-!!  vähä:vähä
+!! vähä:vähä
 LEXICON Qnt-vähä
 +Qnt+Comp:%>%^WCns%^E1mp MP ; !
 +Qnt: N-osa_01 ;
@@ -29,11 +30,11 @@ LEXICON Qnt-monikkain
 LEXICON Qnt-moni
 +Qnt: N-keeli_01 ;
 
-! 
+
 LEXICON Qnt-muu
 +Qnt: N-maa_01 ;
 
-!
+
 LEXICON Qnt-molemmat
 +Qnt: Qnt-molemmat_01 ;
 
@@ -53,7 +54,7 @@ LEXICON Qnt-molemmat_01
  PL-EXE ;
  PL-COM ;
 
-!!  enemmän
+!! enemmän
 LEXICON QntTag
 +Qnt: K ;
 
@@ -73,7 +74,8 @@ LEXICON Qnt-kaik
 !+Qnt+Univ+Sg+Ess:hte%>%^LCnsnnAÄ1    #   ; ! mattoon
 !+Qnt+Univ+Sg+Exe:hte%>%^LCnsnt    #   ; ! mattoont
 !+Qnt+Univ+Sg+Instr:hte%>%^WCnsnkAÄ1    #   ; ! maanka
-!!  Plural
+
+! Plural
 !+Qnt+Univ+Pl+Nom:hte%>%^WCnst     #   ; ! maot
 +Qnt+Univ+Pl+Gen:kiin	#   ; ! kaikkiin
 !+Qnt+Univ+Pl+Acc:hte%>%^WCnst     #   ; ! yhet
@@ -92,9 +94,10 @@ LEXICON Qnt-kaik
 !+Qnt+Univ+Pl+Instr:ksi%>nkAÄ1    #   ; ! mataloinka
 
 
-!!  yksi, kaksi
-!!  from käsi (XI)
-!! yks:y
+! yksi, kaksi
+! from käsi (XI)
+! yks:y
+
 LEXICON Num-yks
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-yks_01 ;
 
@@ -111,8 +114,9 @@ LEXICON Num-yks_01
 :ks   Oblique-Plural ;
 
 
-!! kolt
-!!  from kolt (??)
+! kolt
+! from kolt (??)
+
 LEXICON Num-kolt
 +Num+Ord:ma NumOrd ;
 +Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kolt_01 ;
@@ -131,6 +135,7 @@ LEXICON Num-kolt_01
 :me    SG-ESS_nnA   ; ! mattoon
 :me    SG-EXE   ; ! mattoont
 :me    SG-COM   ; ! maanka
+
 ! Plural
 +Pl+Nom:me%>%^WCnst     #   ; ! maot
 +Pl+Gen:mi%>%^LCnsi%>n	#   ; ! matoloin
@@ -150,6 +155,7 @@ LEXICON Num-kolt_01
 
 ! No nominative for second segment
 ! kakskymment:kakskymmen
+
 LEXICON Num-kakskymment
 +Num+Card+Sg+Part:t K ; ! form used in compounds
 +Num+Card:ä Num-kaheksan_01 ;
