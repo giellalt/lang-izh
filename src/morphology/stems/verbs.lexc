@@ -1,9 +1,9 @@
 
 LEXICON verbs
 
-ahavoija:ahavoi V-voija  "ahavoida" ;
-haravoija:haravoi V-voija  "ahavoida" ;
-kiirehtiä:kiireh V-kiirehtiä  "ahavoida" ;
+ahavoija:ahavoi V-voija  "" ;
+haravoija:haravoi V-voija  "" ;
+kiirehtiä:kiireh V-kiirehtiä  "" ;
 hävitä:hävi V-hävitä  "" ;
 juuvva:joo V-tuuvva  "" ;
 tuuvva:too V-tuuvva  "" ;
@@ -16,12 +16,12 @@ pölässä:pöläs V-vuhissa  "" ;
 joossa:joo V-joossa  "" ;
 mainita:maini V-merkitä  "" ;
 kehittyä:kehitty V-kutsua  "" ;
-käyvvä:kä V-käyvvä  "jäädä" ;
-jäävvä:jää V-jäävvä  "jäädä" ;
-veevvä:vee V-jäävvä  "viedä" ;
+käyvvä:kä V-käyvvä  "" ;
+jäävvä:jää V-jäävvä  "" ;
+veevvä:vee V-jäävvä  "" ;
 toovva:too V-jäävvä  "" ;
-saavva:saa V-jäävvä  "saada" ;
-voija:voi V-voija  "voida" ;
+saavva:saa V-jäävvä  "" ;
+voija:voi V-voija  "" ;
 antaa:ant V-antaa  "" ;
 nagraa:nagr V-antaa  "" ;
 raataa:raat V-antaa  "" ;
@@ -277,5 +277,5 @@ proovata:proova V-arvata  "" ;
 vastata:vasta V-arvata  "" ;
 läätä:läkä V-arvata  "" ;
 määrätä:määrä V-määrätä  "" ;
-olla:0 V-olla  "olla" ;
-ei:0 V-ei  "ei" ;
+olla:0 V-olla  "" ;
+ei:0 V-ei  "" ;
