@@ -120,7 +120,7 @@ Use/Sub:%>i%> PL-PAR_A   ; ! ossia
  Oblique-Plural ;
 
 LEXICON N-joki
-! joki:jok
+!! joki:jok
 ! joki (II-c)
 +N:e DER-tOin ; ! joetoin
 +N@U.POS.N@:@U.POS.N@ N-joki_01 ;
@@ -131,6 +131,7 @@ LEXICON N-joki_01
 :e SG-ILL_V   ; ! mattoo
 :e  Oblique-Singular ;
 ! Plural
+:i lOi-Pl ;
 :e       PL-NOM    ; ! joet
    PL-PAR_A-LCns   ; ! kumpia
 :i       PL-PAR_A   ; ! kumpia
@@ -248,7 +249,7 @@ LEXICON N-patsas_01
        :%>V2      PL-ILL_sse       ;
        :h         PL-ILL_sse       ;
        :%>V2      Oblique-Plural   ;
-       :hi        Oblique-Singular ;
+       :hi        Oblique-Plural ;
 
 
 LEXICON N-lähe
