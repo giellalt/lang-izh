@@ -210,7 +210,7 @@ LEXICON Root
 !Acronym		 ;
 !Punctuation	 ;
 !wordToNumeral    ;
-
+ EXCEPTIONS	  ;
 
 
 !! POS with minimal morphological variation

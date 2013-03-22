@@ -7,6 +7,7 @@ LEXICON PersSg1
 +Pron+Pers+Sg1+Nom:ä     K   ;
 +Pron+Pers+Sg1+Gen:un  K   ;
 +Pron+Pers+Sg1+Par:nnua  K   ;
++Pron+Pers+Sg1+Par:nnuu  K   ;
 +Pron+Pers+Sg1+Ill:uhe  K   ;
 +Pron+Pers+Sg1+Ill:uhu  K   ;
 +Pron+Pers+Sg1+Ine:us  K   ;
@@ -22,6 +23,7 @@ LEXICON PersSg2
 +Pron+Pers+Sg2+Nom:ä     K   ;
 +Pron+Pers+Sg2+Gen:un  K   ;
 +Pron+Pers+Sg2+Par:nnua  K   ;
++Pron+Pers+Sg2+Par:nnuu  K   ;
 +Pron+Pers+Sg2+Ill:uhe  K   ;
 +Pron+Pers+Sg2+Ine:us  K   ;
 +Pron+Pers+Sg2+Ela:ust  K   ;
@@ -53,8 +55,10 @@ LEXICON PersSg3
 LEXICON PersPl1
 +Pron+Pers+Pl1+Nom:öö     K   ;
 +Pron+Pers+Pl1+Gen:eijen  K   ;
++Pron+Pers+Pl1+Gen:eijän  K   ;
 +Pron+Pers+Pl1+Acc:eijet  K   ;
 +Pron+Pers+Pl1+Par:eitä  K   ;
++Pron+Pers+Pl1+Par:öitä  K   ;
 +Pron+Pers+Pl1+Ill:eihe  K   ;
 +Pron+Pers+Pl1+Ine:eis  K   ;
 +Pron+Pers+Pl1+Ela:eist  K   ;
@@ -69,8 +73,10 @@ LEXICON PersPl1
 LEXICON PersPl2
 +Pron+Pers+Pl2+Nom:öö     K   ;
 +Pron+Pers+PL2+Gen:eijen  K   ;
++Pron+Pers+PL2+Gen:eijän  K   ;
 +Pron+Pers+PL2+Acc:eijet  K   ;
 +Pron+Pers+PL2+Par:eitä  K   ;
++Pron+Pers+PL2+Par:öitä  K   ;
 +Pron+Pers+PL2+Ill:eihe  K   ;
 +Pron+Pers+PL2+Ine:eis  K   ;
 +Pron+Pers+PL2+Ela:eist  K   ;
@@ -85,8 +91,10 @@ LEXICON PersPl2
 LEXICON PersPl3
 +Pron+Pers+Pl3+Nom:öö     K   ;
 +Pron+Pers+Pl3+Gen:eijen  K   ;
++Pron+Pers+Pl3+Gen:eijän  K   ;
 +Pron+Pers+Pl3+Acc:eijet  K   ;
 +Pron+Pers+Pl3+Par:eitä  K   ;
++Pron+Pers+Pl3+Par:öitä  K   ;
 +Pron+Pers+Pl3+Ill:eihe  K   ;
 +Pron+Pers+Pl3+Ine:eis  K   ;
 +Pron+Pers+Pl3+Ela:eist  K   ;
