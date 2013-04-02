@@ -1,0 +1,110 @@
+LEXICON EXCEPTIONS
+
+!
+maikuu N-maa	 ;
+ommenapuu N-maa	 ;
+!!
+aadresti N-risti ;
+faabrikantti N-risti ;
+fruktipuusortti:frukti#puu#sortti  N-risti ;
+haili  N-risti ;
+isku-brigaadi N-risti ;
+iskuri  N-risti ;
+juuri N-risti ;
+kasvi N-risti ;
+kilometri N-risti ;
+klubi  N-risti ;
+kolhoosi N-risti ;
+koti-krami N-risti ;
+kämmäri  N-risti ;
+matrossi N-risti ;
+minuutti  N-risti ;
+moottori  N-risti ;
+oppikoti N-risti ;
+pletti N-risti ;
+pioneeri N-risti ;
+portti  N-risti ;
+postivakkooni:posti#vakkooni N-risti ;
+raami N-risti ;
+rautareltsi:rauta#reltsi N-risti ;
+revolveri N-risti ;
+revolveri:revol#veri N-risti ;
+riikki N-risti ;
+ruuhti  N-risti ;
+sanittaari N-risti ;
+savetti N-risti ;
+sojusi N-risti ;
+sortti  N-risti ;
+sovetti N-risti ;
+sovhoosi  N-risti ;
+touvi N-risti ;
+traktori  N-risti ;
+
+!!
+lippu N-koivu	;
+pytty N-koivu   ;
+rautapuikko:rauta#puikko N-koivu ;
+rappu N-koivu	;
+rääty N-koivu   ;
+
+!!
+tyyväki:tyy#väk N-joki ;
+
+!! lyhyt ensimmäinen tavu
+maaraja:maa#raj N-kana ;
+
+!! pitkä ensimmäinen tavu
+akka:akk N-jalka ;
+hovinherra:hovin#herr N-jalka ;
+linjalaiva:linjalaiv N-jalka ;
+massina:masin N-jalka ;
+massina:massin N-jalka ;
+massina:massiin N-jalka ;
+miinalaiva:miinalaiv N-jalka ;
+sota-laiva:sota-laiv N-jalka ;
+!!
+bolshevikka:bolshevikk N-vokala ;
+faabrikka:faabrikk N-vokala ;
+kalektiiva:kalektiiv N-vokala ;
+kapitalista:kapitalist N-vokala ;
+kolhoosnikka:kolhoosnikk N-vokala ;
+kolonna:kolonn N-vokala ;
+kulakka:kulakk N-vokala ;
+markkina:markkin N-vokala ;
+nagaikka:nagaikk N-vokala ;
+piintara:piintar N-vokala ;
+politsa:polits N-vokala ;
+polnitsa:polnits N-vokala ;
+savotta:savott N-vokala ;
+turakka:turakk N-vokala ;
+urakka:urakk N-vokala ;
+vintovka:vintovk N-vokala ;
+!!
+maamuna:maa#muna N-osa ;
+!!
+moottori N-lähe	;
+seilivene N-lähe ;
+soutuvene N-lähe ;
+
+!!
+rikas:rikka A-kitsas ;
+!
+englantilain:englantilai N-mehiläin ;
+frantsilain:frantsilai N-mehiläin ;
+frantsinmaalain:frantsinmaalai N-mehiläin ;
+kaikellain:kaikellai N-mehiläin ;
+kansalain:kansalai N-mehiläin ;
+lappalain:lappalai N-mehiläin ;
+oppilain:oppilai N-mehiläin ;
+paholain:paholai N-mehiläin ;
+puna-armeijalain:puna-armeijalai N-mehiläin ;
+saamilain:saamilai N-mehiläin ;
+saksalain:saksalai N-mehiläin ;
+sukulain:sukulai N-mehiläin ;
+tuholain:tuholai N-mehiläin ;
+tujulain:tujulai N-mehiläin ;
+tujulain:tuijulai N-mehiläin ;
+turkkilain:turkkilai N-mehiläin ;
+tyyläin:tyyläi N-mehiläin	;
+veenallain:veenallai N-mehiläin ;
+viholain:viholai N-mehiläin	;
