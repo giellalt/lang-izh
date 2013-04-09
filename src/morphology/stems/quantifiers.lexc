@@ -1,28 +1,28 @@
 
 LEXICON quantifiers
 
-ensimäin:ensimäi Ord-ensimäin  "" ;
+ensimäin:ensimäi Ord-ensimäin  "ensimmäinen" ;
 ylempäin:ylempäi Ord-ensimäin  "" ;
 jälkimäin:jälkimäi Ord-ensimäin  "" ;
-toin:toi Ord-toin  "" ;
+toin:toi Ord-toin  "toinen" ;
 muu:muu Qnt-muu  "" ;
 molemmat:molemp Qnt-molemmat  "" ;
 monikas:monikka Qnt-monikas  "" ;
 monikkain:monikkai Qnt-monikkain  "" ;
 moni:mon Qnt-moni  "" ;
-kaik:kaik Qnt-kaik  "" ;
-enemmän:enemmän QntTag  "" ;
+kaik:kaik Qnt-kaik  "kaikki" ;
+enemmän:enemmän QntTag  "enemmän" ;
 vähemmän:vähemmän QntTag  "" ;
-onto:onto QntTag  "" ;
+onto:onto QntTag  "vain" ;
 kaikkinee:kaikkinee QntTag  "" ;
 paljo:paljo Qnt-paljo  "" ;
 vähä:vähä Qnt-vähä  "" ;
 enä:enä Qnt-vähä  "" ;
-joka:joka QntUniv-attr  "" ;
-jokahiin:jokahi QntUniv-jokahiin  "" ;
-yks:y Num-yks  "" ;
-kaks:ka Num-yks  "" ;
-kolt:kol Num-kolt  "" ;
+joka:joka QntUniv-attr  "joka" ;
+jokahiin:jokahi QntUniv-jokahiin  "joka" ;
+yks:y Num-yks  "yksi" ;
+kaks:ka Num-yks  "kaksi" ;
+kolt:kol Num-kolt  "kolme" ;
 neljä:neljä Num-neljä  "" ;
 kaheksan:kaheksa Num-kaheksan  "" ;
 yheksän:yheksä Num-kaheksan  "" ;
@@ -55,6 +55,6 @@ kuuvveskymmenäs:kuuvves#kymmen Num-kaheskymmenäs  "" ;
 seitsemäskymmenäs:seitsemäs#kymmen Num-kaheskymmenäs  "" ;
 kaheksaskymmenäs:kaheksas#kymmen Num-kaheskymmenäs  "" ;
 yheksäskymmenäs:yheksäs#kymmen Num-kaheskymmenäs  "" ;
-viis:vii Num-viis  "" ;
-kuus:kuu Num-viis  "" ;
+viis:vii Num-viis  "kolme" ;
+kuus:kuu Num-viis  "kolme" ;
 kymmenäs:kymmenä NumOrd  "" ;
