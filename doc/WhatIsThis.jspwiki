@@ -1,0 +1,12 @@
+
+This is a grammatical analyser for Ingrian.
+
+It is in an initial phase, and contains some 3400 words, but
+it is still in use in an Ingrian dictionary.
+
+-----
+
+The structure of the source file catalogue is the same for all
+the languages, it is documented [here|../../infra/infraremake/NewinfraCatalogues.html].
+
+
