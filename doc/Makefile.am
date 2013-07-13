@@ -10,17 +10,17 @@
 if CAN_DOCC
 
 JSP_PAGES=root-morphology.jspwiki  \
-		  izh-phon-phonology.jspwiki \
-		 adjectives-affixes.jspwiki       \
-		 adpositions-affixes.jspwiki      \
-		 adverbs-affixes.jspwiki      \
-		 clitics-affixes.jspwiki      \
-		 nouns-affixes.jspwiki            \
-		 particles-affixes.jspwiki      \
-		 pronouns-affixes.jspwiki      \
-		 propernouns-affixes.jspwiki      \
-		 quantifiers-affixes.jspwiki      \
-		 verbs-affixes.jspwiki
+		  adjectives-affixes.jspwiki       \
+		  adpositions-affixes.jspwiki      \
+		  adverbs-affixes.jspwiki      \
+		  clitics-affixes.jspwiki      \
+		  nouns-affixes.jspwiki            \
+		  particles-affixes.jspwiki      \
+		  pronouns-affixes.jspwiki      \
+		  propernouns-affixes.jspwiki      \
+		  quantifiers-affixes.jspwiki      \
+		  verbs-affixes.jspwiki \
+		  izh-phon-phonology.jspwiki 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
