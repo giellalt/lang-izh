@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>aha</l>
+         <l pos="Interj">aha</l>
          <stg>
             <st Contlex="InterjTag">aha</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>ai</l>
+         <l pos="Interj">ai</l>
          <stg>
             <st Contlex="InterjTag">ai</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>ähä</l>
+         <l pos="Interj">ähä</l>
          <stg>
             <st Contlex="InterjTag">ähä</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>voi-voi</l>
+         <l pos="Interj">voi-voi</l>
          <stg>
             <st Contlex="InterjTag">voi-voi</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>oi-oi</l>
+         <l pos="Interj">oi-oi</l>
          <stg>
             <st Contlex="InterjTag">oi-oi</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>tprr</l>
+         <l pos="Interj">tprr</l>
          <stg>
             <st Contlex="InterjTag">tprr</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>vohma</l>
+         <l pos="Interj">vohma</l>
          <stg>
             <st Contlex="InterjTag">vohma</st>
          </stg>
       </lg>
-      <pos>INTERJ</pos>
       <mg>
          <m>
             <head/>
