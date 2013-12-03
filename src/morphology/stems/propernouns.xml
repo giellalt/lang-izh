@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>Pedoi</l>
+         <l pos="Prop">Pedoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Pedo</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>Odoi</l>
+         <l pos="Prop">Odoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Odo</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>Mikoi</l>
+         <l pos="Prop">Mikoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Miko</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>Paavoi</l>
+         <l pos="Prop">Paavoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Paavo</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>Maattoi</l>
+         <l pos="Prop">Maattoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Maatto</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>Ivoi</l>
+         <l pos="Prop">Ivoi</l>
          <stg>
             <st Contlex="Prop-pedoi">Ivo</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>Hevaa</l>
+         <l pos="Prop">Hevaa</l>
          <stg>
             <st Contlex="Prop-laukaa">Hevaa</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>a</l>
+         <l pos="Prop">a</l>
          <stg>
             <st Contlex="letterName">a</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>h</l>
+         <l pos="Prop">h</l>
          <stg>
             <st Contlex="letterName">h</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>i</l>
+         <l pos="Prop">i</l>
          <stg>
             <st Contlex="letterName">i</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>k</l>
+         <l pos="Prop">k</l>
          <stg>
             <st Contlex="letterName">k</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>s</l>
+         <l pos="Prop">s</l>
          <stg>
             <st Contlex="letterName">s</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>ä</l>
+         <l pos="Prop">ä</l>
          <stg>
             <st Contlex="letterName">ä</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>t</l>
+         <l pos="Prop">t</l>
          <stg>
             <st Contlex="letterName">t</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>j</l>
+         <l pos="Prop">j</l>
          <stg>
             <st Contlex="letterName">j</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>h</l>
+         <l pos="Prop">h</l>
          <stg>
             <st Contlex="letterName">h</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>y</l>
+         <l pos="Prop">y</l>
          <stg>
             <st Contlex="letterName">y</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>u</l>
+         <l pos="Prop">u</l>
          <stg>
             <st Contlex="letterName">u</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -364,12 +346,11 @@
    </e>
    <e>
       <lg>
-         <l>v</l>
+         <l pos="Prop">v</l>
          <stg>
             <st Contlex="letterName">v</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -384,12 +365,11 @@
    </e>
    <e>
       <lg>
-         <l>Laukaa</l>
+         <l pos="Prop">Laukaa</l>
          <stg>
             <st Contlex="Prop-laukaa">Laukaa</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -404,12 +384,11 @@
    </e>
    <e>
       <lg>
-         <l>Ala-Laukaa</l>
+         <l pos="Prop">Ala-Laukaa</l>
          <stg>
             <st Contlex="Prop-laukaa">Ala-Laukaa</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -424,12 +403,11 @@
    </e>
    <e>
       <lg>
-         <l>Bubrih</l>
+         <l pos="Prop">Bubrih</l>
          <stg>
             <st Contlex="Prop-bubrih">Bubrih</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -444,12 +422,11 @@
    </e>
    <e>
       <lg>
-         <l>Leningrad</l>
+         <l pos="Prop">Leningrad</l>
          <stg>
             <st Contlex="Prop-bubrih">Leningrad</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -464,12 +441,11 @@
    </e>
    <e>
       <lg>
-         <l>Kьzьl</l>
+         <l pos="Prop">Kьzьl</l>
          <stg>
             <st Contlex="Prop-bubrih">Kьzьl</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -484,12 +460,11 @@
    </e>
    <e>
       <lg>
-         <l>Sьktьvkar</l>
+         <l pos="Prop">Sьktьvkar</l>
          <stg>
             <st Contlex="Prop-bubrih">Sьktьvkar</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -504,12 +479,11 @@
    </e>
    <e>
       <lg>
-         <l>Lenin</l>
+         <l pos="Prop">Lenin</l>
          <stg>
             <st Contlex="Prop-bubrih">Lenin</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -524,12 +498,11 @@
    </e>
    <e>
       <lg>
-         <l>Stalin</l>
+         <l pos="Prop">Stalin</l>
          <stg>
             <st Contlex="Prop-bubrih">Stalin</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -544,12 +517,11 @@
    </e>
    <e>
       <lg>
-         <l>Iljina</l>
+         <l pos="Prop">Iljina</l>
          <stg>
             <st Contlex="Prop-iljina">Iljin</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -564,12 +536,11 @@
    </e>
    <e>
       <lg>
-         <l>Katja</l>
+         <l pos="Prop">Katja</l>
          <stg>
             <st Contlex="Prop-iljina">Katj</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -584,12 +555,11 @@
    </e>
    <e>
       <lg>
-         <l>Harjavalta</l>
+         <l pos="Prop">Harjavalta</l>
          <stg>
             <st Contlex="Prop-iljina">Harjavalt</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -604,12 +574,11 @@
    </e>
    <e>
       <lg>
-         <l>Ustj-Luuga</l>
+         <l pos="Prop">Ustj-Luuga</l>
          <stg>
             <st Contlex="Prop-iljina">Ustj-Luug</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -624,12 +593,11 @@
    </e>
    <e>
       <lg>
-         <l>Urala</l>
+         <l pos="Prop">Urala</l>
          <stg>
             <st Contlex="Prop-iljina">Ural</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -644,12 +612,11 @@
    </e>
    <e>
       <lg>
-         <l>Ukraina</l>
+         <l pos="Prop">Ukraina</l>
          <stg>
             <st Contlex="Prop-iljina">Ukrain</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -664,12 +631,11 @@
    </e>
    <e>
       <lg>
-         <l>Frantsia</l>
+         <l pos="Prop">Frantsia</l>
          <stg>
             <st Contlex="Prop-iljina">Frantsi</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -684,12 +650,11 @@
    </e>
    <e>
       <lg>
-         <l>Oranienbauma</l>
+         <l pos="Prop">Oranienbauma</l>
          <stg>
             <st Contlex="Prop-iljina">Oranienbaum</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -704,12 +669,11 @@
    </e>
    <e>
       <lg>
-         <l>Vasakara</l>
+         <l pos="Prop">Vasakara</l>
          <stg>
             <st Contlex="Prop-iljina">Vasakar</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -724,12 +688,11 @@
    </e>
    <e>
       <lg>
-         <l>Ispania</l>
+         <l pos="Prop">Ispania</l>
          <stg>
             <st Contlex="Prop-iljina">Ispani</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -744,12 +707,11 @@
    </e>
    <e>
       <lg>
-         <l>Kolja</l>
+         <l pos="Prop">Kolja</l>
          <stg>
             <st Contlex="Prop-iljina">Kolj</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -764,12 +726,11 @@
    </e>
    <e>
       <lg>
-         <l>Soikkola</l>
+         <l pos="Prop">Soikkola</l>
          <stg>
             <st Contlex="Prop-soikkola">Soikkol</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -784,12 +745,11 @@
    </e>
    <e>
       <lg>
-         <l>Loukkula</l>
+         <l pos="Prop">Loukkula</l>
          <stg>
             <st Contlex="Prop-soikkola">Loukkul</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -804,12 +764,11 @@
    </e>
    <e>
       <lg>
-         <l>Puna-armia</l>
+         <l pos="Prop">Puna-armia</l>
          <stg>
             <st Contlex="Prop-soikkola">Puna-armi</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -824,12 +783,11 @@
    </e>
    <e>
       <lg>
-         <l>Koskin</l>
+         <l pos="Prop">Koskin</l>
          <stg>
             <st Contlex="Prop-koskin">Koski</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -844,12 +802,11 @@
    </e>
    <e>
       <lg>
-         <l>Someroin</l>
+         <l pos="Prop">Someroin</l>
          <stg>
             <st Contlex="Prop-someroin">Someroi</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -864,12 +821,11 @@
    </e>
    <e>
       <lg>
-         <l>Keski-Soikkola</l>
+         <l pos="Prop">Keski-Soikkola</l>
          <stg>
             <st Contlex="Prop-soikkola">Keski-Soikkol</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -884,12 +840,11 @@
    </e>
    <e>
       <lg>
-         <l>Oredeƶa</l>
+         <l pos="Prop">Oredeƶa</l>
          <stg>
             <st Contlex="Prop-soikkola">Oredeƶ</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -904,12 +859,11 @@
    </e>
    <e>
       <lg>
-         <l>Läns-Europpa</l>
+         <l pos="Prop">Läns-Europpa</l>
          <stg>
             <st Contlex="Prop-soikkola">Läns-Europp</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -924,12 +878,11 @@
    </e>
    <e>
       <lg>
-         <l>oktjabri</l>
+         <l pos="Prop">oktjabri</l>
          <stg>
             <st Contlex="Prop-oktjabri">oktjabri</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -944,12 +897,11 @@
    </e>
    <e>
       <lg>
-         <l>Siberi</l>
+         <l pos="Prop">Siberi</l>
          <stg>
             <st Contlex="Prop-oktjabri">Siberi</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -964,12 +916,11 @@
    </e>
    <e>
       <lg>
-         <l>Värski</l>
+         <l pos="Prop">Värski</l>
          <stg>
             <st Contlex="Prop-oktjabri">Värski</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -984,12 +935,11 @@
    </e>
    <e>
       <lg>
-         <l>Çimmervaldi</l>
+         <l pos="Prop">Çimmervaldi</l>
          <stg>
             <st Contlex="Prop-oktjabri">Çimmervaldi</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -1004,12 +954,11 @@
    </e>
    <e>
       <lg>
-         <l>Vennääjä</l>
+         <l pos="Prop">Vennääjä</l>
          <stg>
             <st Contlex="Prop-vennääjä">Vennääjä</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -1024,12 +973,11 @@
    </e>
    <e>
       <lg>
-         <l>Nenove</l>
+         <l pos="Prop">Nenove</l>
          <stg>
             <st Contlex="Prop-nenove">Nenove</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -1044,12 +992,11 @@
    </e>
    <e>
       <lg>
-         <l>rantove</l>
+         <l pos="Prop">rantove</l>
          <stg>
             <st Contlex="Prop-nenove">rantove</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>
@@ -1064,12 +1011,11 @@
    </e>
    <e>
       <lg>
-         <l>Baku</l>
+         <l pos="Prop">Baku</l>
          <stg>
             <st Contlex="Prop-baku">Baku</st>
          </stg>
       </lg>
-      <pos>PROP</pos>
       <mg>
          <m>
             <head/>

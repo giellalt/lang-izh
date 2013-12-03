@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>ensimäin</l>
+         <l pos="Qnt">ensimäin</l>
          <stg>
             <st Contlex="Ord-ensimäin">ensimäi</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>ylempäin</l>
+         <l pos="Qnt">ylempäin</l>
          <stg>
             <st Contlex="Ord-ensimäin">ylempäi</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>jälkimäin</l>
+         <l pos="Qnt">jälkimäin</l>
          <stg>
             <st Contlex="Ord-ensimäin">jälkimäi</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>toin</l>
+         <l pos="Qnt">toin</l>
          <stg>
             <st Contlex="Ord-toin">toi</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e exclude="fst">
       <lg>
-         <l>sattais</l>
+         <l pos="Qnt">sattais</l>
          <stg>
             <st Contlex="Ord-sattais">sat</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>muu</l>
+         <l pos="Qnt">muu</l>
          <stg>
             <st Contlex="Qnt-muu">muu</st>
          </stg>
       </lg>
-      <pos>A</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>molemmat</l>
+         <l pos="Qnt">molemmat</l>
          <stg>
             <st Contlex="Qnt-molemmat">molemp</st>
          </stg>
       </lg>
-      <pos>A</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>monikas</l>
+         <l pos="Qnt">monikas</l>
          <stg>
             <st Contlex="Qnt-monikas">monikka</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>monikkain</l>
+         <l pos="Qnt">monikkain</l>
          <stg>
             <st Contlex="Qnt-monikkain">monikkai</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>moni</l>
+         <l pos="Qnt">moni</l>
          <stg>
             <st Contlex="Qnt-moni">mon</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>kaik</l>
+         <l pos="Qnt">kaik</l>
          <stg>
             <st Contlex="Qnt-kaik">kaik</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>enemmän</l>
+         <l pos="Qnt">enemmän</l>
          <stg>
             <st Contlex="QntTag">enemmän</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>vähemmän</l>
+         <l pos="Qnt">vähemmän</l>
          <stg>
             <st Contlex="QntTag">vähemmän</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>onto</l>
+         <l pos="Qnt">onto</l>
          <stg>
             <st Contlex="QntTag">onto</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>kaikkinee</l>
+         <l pos="Qnt">kaikkinee</l>
          <stg>
             <st Contlex="QntTag">kaikkinee</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>paljo</l>
+         <l pos="Qnt">paljo</l>
          <stg>
             <st Contlex="Qnt-paljo">paljo</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>vähä</l>
+         <l pos="Qnt">vähä</l>
          <stg>
             <st Contlex="Qnt-vähä">vähä</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>enä</l>
+         <l pos="Qnt">enä</l>
          <stg>
             <st Contlex="Qnt-vähä">enä</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -364,12 +346,11 @@
    </e>
    <e>
       <lg>
-         <l>joka</l>
+         <l pos="Qnt">joka</l>
          <stg>
             <st Contlex="QntUniv-attr">joka</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -384,12 +365,11 @@
    </e>
    <e>
       <lg>
-         <l>jokahiin</l>
+         <l pos="Qnt">jokahiin</l>
          <stg>
             <st Contlex="QntUniv-jokahiin">jokahi</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -404,12 +384,11 @@
    </e>
    <e>
       <lg>
-         <l>yks</l>
+         <l pos="Qnt">yks</l>
          <stg>
             <st Contlex="Num-yks">y</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -424,12 +403,11 @@
    </e>
    <e>
       <lg>
-         <l>kaks</l>
+         <l pos="Qnt">kaks</l>
          <stg>
             <st Contlex="Num-yks">ka</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -444,12 +422,11 @@
    </e>
    <e>
       <lg>
-         <l>kolt</l>
+         <l pos="Qnt">kolt</l>
          <stg>
             <st Contlex="Num-kolt">kol</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -464,12 +441,11 @@
    </e>
    <e>
       <lg>
-         <l>neljä</l>
+         <l pos="Qnt">neljä</l>
          <stg>
             <st Contlex="Num-neljä">neljä</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -484,12 +460,11 @@
    </e>
    <e>
       <lg>
-         <l>kaheksan</l>
+         <l pos="Qnt">kaheksan</l>
          <stg>
             <st Contlex="Num-kaheksan">kaheksa</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -504,12 +479,11 @@
    </e>
    <e>
       <lg>
-         <l>yheksän</l>
+         <l pos="Qnt">yheksän</l>
          <stg>
             <st Contlex="Num-kaheksan">yheksä</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -524,12 +498,11 @@
    </e>
    <e>
       <lg>
-         <l>seitsen</l>
+         <l pos="Qnt">seitsen</l>
          <stg>
             <st Contlex="Num-seitsen">seitse</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -544,12 +517,11 @@
    </e>
    <e>
       <lg>
-         <l>mont</l>
+         <l pos="Qnt">mont</l>
          <stg>
             <st Contlex="Qnt-mont">mon</st>
          </stg>
       </lg>
-      <pos>QNT</pos>
       <mg>
          <m>
             <head/>
@@ -564,12 +536,11 @@
    </e>
    <e>
       <lg>
-         <l>sata</l>
+         <l pos="Qnt">sata</l>
          <stg>
             <st Contlex="Num-sata">sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -584,12 +555,11 @@
    </e>
    <e>
       <lg>
-         <l>tuhat</l>
+         <l pos="Qnt">tuhat</l>
          <stg>
             <st Contlex="Num-tuhat">tuha</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -604,12 +574,11 @@
    </e>
    <e>
       <lg>
-         <l>kakssattaa</l>
+         <l pos="Qnt">kakssattaa</l>
          <stg>
             <st Contlex="Num-sata">kaks#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -624,12 +593,11 @@
    </e>
    <e>
       <lg>
-         <l>koltsattaa</l>
+         <l pos="Qnt">koltsattaa</l>
          <stg>
             <st Contlex="Num-sata">kolt#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -644,12 +612,11 @@
    </e>
    <e>
       <lg>
-         <l>neljäsattaa</l>
+         <l pos="Qnt">neljäsattaa</l>
          <stg>
             <st Contlex="Num-sata">neljä#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -664,12 +631,11 @@
    </e>
    <e>
       <lg>
-         <l>viissattaa</l>
+         <l pos="Qnt">viissattaa</l>
          <stg>
             <st Contlex="Num-sata">viis#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -684,12 +650,11 @@
    </e>
    <e>
       <lg>
-         <l>kuussattaa</l>
+         <l pos="Qnt">kuussattaa</l>
          <stg>
             <st Contlex="Num-sata">kuus#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -704,12 +669,11 @@
    </e>
    <e>
       <lg>
-         <l>seitsensattaa</l>
+         <l pos="Qnt">seitsensattaa</l>
          <stg>
             <st Contlex="Num-sata">seitsen#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -724,12 +688,11 @@
    </e>
    <e>
       <lg>
-         <l>kaheksansattaa</l>
+         <l pos="Qnt">kaheksansattaa</l>
          <stg>
             <st Contlex="Num-sata">kaheksan#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -744,12 +707,11 @@
    </e>
    <e>
       <lg>
-         <l>yheksänsattaa</l>
+         <l pos="Qnt">yheksänsattaa</l>
          <stg>
             <st Contlex="Num-sata">yheksän#sat</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -764,12 +726,11 @@
    </e>
    <e>
       <lg>
-         <l>kymmen</l>
+         <l pos="Qnt">kymmen</l>
          <stg>
             <st Contlex="Num-kymmen">kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -784,12 +745,11 @@
    </e>
    <e>
       <lg>
-         <l>kakskymment</l>
+         <l pos="Qnt">kakskymment</l>
          <stg>
             <st Contlex="Num-kakskymment">kaks#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -804,12 +764,11 @@
    </e>
    <e>
       <lg>
-         <l>koltkymment</l>
+         <l pos="Qnt">koltkymment</l>
          <stg>
             <st Contlex="Num-kakskymment">kolt#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -824,12 +783,11 @@
    </e>
    <e>
       <lg>
-         <l>neljäkymment</l>
+         <l pos="Qnt">neljäkymment</l>
          <stg>
             <st Contlex="Num-kakskymment">neljä#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -844,12 +802,11 @@
    </e>
    <e>
       <lg>
-         <l>viiskymment</l>
+         <l pos="Qnt">viiskymment</l>
          <stg>
             <st Contlex="Num-kakskymment">viis#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -864,12 +821,11 @@
    </e>
    <e>
       <lg>
-         <l>kuuskymment</l>
+         <l pos="Qnt">kuuskymment</l>
          <stg>
             <st Contlex="Num-kakskymment">kuus#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -884,12 +840,11 @@
    </e>
    <e>
       <lg>
-         <l>seitsenkymment</l>
+         <l pos="Qnt">seitsenkymment</l>
          <stg>
             <st Contlex="Num-kakskymment">seitsen#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -904,12 +859,11 @@
    </e>
    <e>
       <lg>
-         <l>kaheksankymment</l>
+         <l pos="Qnt">kaheksankymment</l>
          <stg>
             <st Contlex="Num-kakskymment">kaheksan#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -924,12 +878,11 @@
    </e>
    <e>
       <lg>
-         <l>yheksänkymment</l>
+         <l pos="Qnt">yheksänkymment</l>
          <stg>
             <st Contlex="Num-kakskymment">yheksän#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -944,12 +897,11 @@
    </e>
    <e>
       <lg>
-         <l>kaheskymmenäs</l>
+         <l pos="Qnt">kaheskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">kahes#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -964,12 +916,11 @@
    </e>
    <e>
       <lg>
-         <l>kolmaskymmenäs</l>
+         <l pos="Qnt">kolmaskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">kolmas#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -984,12 +935,11 @@
    </e>
    <e>
       <lg>
-         <l>neljäskymmenäs</l>
+         <l pos="Qnt">neljäskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">neljäs#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1004,12 +954,11 @@
    </e>
    <e>
       <lg>
-         <l>viijeskymmenäs</l>
+         <l pos="Qnt">viijeskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">viijes#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1024,12 +973,11 @@
    </e>
    <e>
       <lg>
-         <l>kuuvveskymmenäs</l>
+         <l pos="Qnt">kuuvveskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">kuuvves#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1044,12 +992,11 @@
    </e>
    <e>
       <lg>
-         <l>seitsemäskymmenäs</l>
+         <l pos="Qnt">seitsemäskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">seitsemäs#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1064,12 +1011,11 @@
    </e>
    <e>
       <lg>
-         <l>kaheksaskymmenäs</l>
+         <l pos="Qnt">kaheksaskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">kaheksas#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1084,12 +1030,11 @@
    </e>
    <e>
       <lg>
-         <l>yheksäskymmenäs</l>
+         <l pos="Qnt">yheksäskymmenäs</l>
          <stg>
             <st Contlex="Num-kaheskymmenäs">yheksäs#kymmen</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1104,12 +1049,11 @@
    </e>
    <e>
       <lg>
-         <l>viis</l>
+         <l pos="Qnt">viis</l>
          <stg>
             <st Contlex="Num-viis">vii</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1124,12 +1068,11 @@
    </e>
    <e>
       <lg>
-         <l>kuus</l>
+         <l pos="Qnt">kuus</l>
          <stg>
             <st Contlex="Num-viis">kuu</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>
@@ -1144,12 +1087,11 @@
    </e>
    <e>
       <lg>
-         <l>kymmenäs</l>
+         <l pos="Qnt">kymmenäs</l>
          <stg>
             <st Contlex="NumOrd">kymmenä</st>
          </stg>
       </lg>
-      <pos>NUM</pos>
       <mg>
          <m>
             <head/>

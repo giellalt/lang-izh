@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>ahavoija</l>
+         <l pos="V">ahavoija</l>
          <stg>
             <st Contlex="V-voija">ahavoi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>haravoija</l>
+         <l pos="V">haravoija</l>
          <stg>
             <st Contlex="V-voija">haravoi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>kiirehtiä</l>
+         <l pos="V">kiirehtiä</l>
          <stg>
             <st Contlex="V-kiirehtiä">kiireh</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>hävitä</l>
+         <l pos="V">hävitä</l>
          <stg>
             <st Contlex="V-hävitä">hävi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>juuvva</l>
+         <l pos="V">juuvva</l>
          <stg>
             <st Contlex="V-tuuvva">joo</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>tuuvva</l>
+         <l pos="V">tuuvva</l>
          <stg>
             <st Contlex="V-tuuvva">too</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>syyvvä</l>
+         <l pos="V">syyvvä</l>
          <stg>
             <st Contlex="V-tuuvva">söö</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>lyyvvä</l>
+         <l pos="V">lyyvvä</l>
          <stg>
             <st Contlex="V-tuuvva">löö</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>myyvvä</l>
+         <l pos="V">myyvvä</l>
          <stg>
             <st Contlex="V-tuuvva">möö</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>luuvva</l>
+         <l pos="V">luuvva</l>
          <stg>
             <st Contlex="V-tuuvva">loo</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>vuhissa</l>
+         <l pos="V">vuhissa</l>
          <stg>
             <st Contlex="V-vuhissa">vuhis</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>pölässä</l>
+         <l pos="V">pölässä</l>
          <stg>
             <st Contlex="V-vuhissa">pöläs</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>joossa</l>
+         <l pos="V">joossa</l>
          <stg>
             <st Contlex="V-joossa">joo</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>mainita</l>
+         <l pos="V">mainita</l>
          <stg>
             <st Contlex="V-merkitä">maini</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>kehittyä</l>
+         <l pos="V">kehittyä</l>
          <stg>
             <st Contlex="V-kutsua">kehitty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>käyvvä</l>
+         <l pos="V">käyvvä</l>
          <stg>
             <st Contlex="V-käyvvä">kä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>jäävvä</l>
+         <l pos="V">jäävvä</l>
          <stg>
             <st Contlex="V-jäävvä">jää</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>veevvä</l>
+         <l pos="V">veevvä</l>
          <stg>
             <st Contlex="V-jäävvä">vee</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -364,12 +346,11 @@
    </e>
    <e>
       <lg>
-         <l>toovva</l>
+         <l pos="V">toovva</l>
          <stg>
             <st Contlex="V-jäävvä">too</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -384,12 +365,11 @@
    </e>
    <e>
       <lg>
-         <l>saavva</l>
+         <l pos="V">saavva</l>
          <stg>
             <st Contlex="V-jäävvä">saa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -404,12 +384,11 @@
    </e>
    <e>
       <lg>
-         <l>voija</l>
+         <l pos="V">voija</l>
          <stg>
             <st Contlex="V-voija">voi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -424,12 +403,11 @@
    </e>
    <e>
       <lg>
-         <l>antaa</l>
+         <l pos="V">antaa</l>
          <stg>
             <st Contlex="V-antaa">ant</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -444,12 +422,11 @@
    </e>
    <e>
       <lg>
-         <l>nagraa</l>
+         <l pos="V">nagraa</l>
          <stg>
             <st Contlex="V-antaa">nagr</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -464,12 +441,11 @@
    </e>
    <e>
       <lg>
-         <l>raataa</l>
+         <l pos="V">raataa</l>
          <stg>
             <st Contlex="V-antaa">raat</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -484,12 +460,11 @@
    </e>
    <e>
       <lg>
-         <l>verkkaa</l>
+         <l pos="V">verkkaa</l>
          <stg>
             <st Contlex="V-antaa">verkk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -504,12 +479,11 @@
    </e>
    <e>
       <lg>
-         <l>kantaa</l>
+         <l pos="V">kantaa</l>
          <stg>
             <st Contlex="V-antaa">kant</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -524,12 +498,11 @@
    </e>
    <e>
       <lg>
-         <l>kaataa</l>
+         <l pos="V">kaataa</l>
          <stg>
             <st Contlex="V-antaa">kaat</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -544,12 +517,11 @@
    </e>
    <e>
       <lg>
-         <l>kattaa</l>
+         <l pos="V">kattaa</l>
          <stg>
             <st Contlex="V-antaa">katt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -564,12 +536,11 @@
    </e>
    <e>
       <lg>
-         <l>alkaa</l>
+         <l pos="V">alkaa</l>
          <stg>
             <st Contlex="V-antaa">alk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -584,12 +555,11 @@
    </e>
    <e>
       <lg>
-         <l>vaihtaa</l>
+         <l pos="V">vaihtaa</l>
          <stg>
             <st Contlex="V-antaa">vaiht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -604,12 +574,11 @@
    </e>
    <e>
       <lg>
-         <l>kaivaa</l>
+         <l pos="V">kaivaa</l>
          <stg>
             <st Contlex="V-antaa">kaiv</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -624,12 +593,11 @@
    </e>
    <e>
       <lg>
-         <l>sataa</l>
+         <l pos="V">sataa</l>
          <stg>
             <st Contlex="V-antaa">sat</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -644,12 +612,11 @@
    </e>
    <e>
       <lg>
-         <l>mahtaa</l>
+         <l pos="V">mahtaa</l>
          <stg>
             <st Contlex="V-antaa">maht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -664,12 +631,11 @@
    </e>
    <e>
       <lg>
-         <l>ajaa</l>
+         <l pos="V">ajaa</l>
          <stg>
             <st Contlex="V-antaa">aj</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -684,12 +650,11 @@
    </e>
    <e>
       <lg>
-         <l>laulaa</l>
+         <l pos="V">laulaa</l>
          <stg>
             <st Contlex="V-antaa">laul</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -704,12 +669,11 @@
    </e>
    <e>
       <lg>
-         <l>maksaa</l>
+         <l pos="V">maksaa</l>
          <stg>
             <st Contlex="V-antaa">maks</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -724,12 +688,11 @@
    </e>
    <e>
       <lg>
-         <l>lukkia</l>
+         <l pos="V">lukkia</l>
          <stg>
             <st Contlex="V-lukkia">luk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -744,12 +707,11 @@
    </e>
    <e>
       <lg>
-         <l>lähtiä</l>
+         <l pos="V">lähtiä</l>
          <stg>
             <st Contlex="V-lukkia">läht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -764,12 +726,11 @@
    </e>
    <e>
       <lg>
-         <l>käskiä</l>
+         <l pos="V">käskiä</l>
          <stg>
             <st Contlex="V-lukkia">käsk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -784,12 +745,11 @@
    </e>
    <e>
       <lg>
-         <l>kulkia</l>
+         <l pos="V">kulkia</l>
          <stg>
             <st Contlex="V-lukkia">kulk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -804,12 +764,11 @@
    </e>
    <e>
       <lg>
-         <l>särkiä</l>
+         <l pos="V">särkiä</l>
          <stg>
             <st Contlex="V-lukkia">särk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -824,12 +783,11 @@
    </e>
    <e>
       <lg>
-         <l>lähtiä</l>
+         <l pos="V">lähtiä</l>
          <stg>
             <st Contlex="V-lukkia">läht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -844,12 +802,11 @@
    </e>
    <e>
       <lg>
-         <l>tuntia</l>
+         <l pos="V">tuntia</l>
          <stg>
             <st Contlex="V-lukkia">tunt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -864,12 +821,11 @@
    </e>
    <e>
       <lg>
-         <l>palaa</l>
+         <l pos="V">palaa</l>
          <stg>
             <st Contlex="V-antaa">pal</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -884,12 +840,11 @@
    </e>
    <e>
       <lg>
-         <l>tappaa</l>
+         <l pos="V">tappaa</l>
          <stg>
             <st Contlex="V-antaa">tapp</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -904,12 +859,11 @@
    </e>
    <e>
       <lg>
-         <l>jakkaa</l>
+         <l pos="V">jakkaa</l>
          <stg>
             <st Contlex="V-antaa">jak</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -924,12 +878,11 @@
    </e>
    <e>
       <lg>
-         <l>sannoa</l>
+         <l pos="V">sannoa</l>
          <stg>
             <st Contlex="V-sannoa">sa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -944,12 +897,11 @@
    </e>
    <e>
       <lg>
-         <l>pittää</l>
+         <l pos="V">pittää</l>
          <stg>
             <st Contlex="V-näyttää">pit</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -964,12 +916,11 @@
    </e>
    <e>
       <lg>
-         <l>näyttää</l>
+         <l pos="V">näyttää</l>
          <stg>
             <st Contlex="V-näyttää">näytt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -984,12 +935,11 @@
    </e>
    <e>
       <lg>
-         <l>niittää</l>
+         <l pos="V">niittää</l>
          <stg>
             <st Contlex="V-näyttää">niitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1004,12 +954,11 @@
    </e>
    <e>
       <lg>
-         <l>peittää</l>
+         <l pos="V">peittää</l>
          <stg>
             <st Contlex="V-näyttää">peitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1024,14 +973,13 @@
    </e>
    <e>
       <lg>
-         <l>peeksää</l>
+         <l pos="V">peeksää</l>
          <stg>
             <st Contlex="V-näyttää">peeks</st>
             <st Contlex="V-näyttää">pieks</st>
             <st Contlex="V-näyttää">piiks</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1046,12 +994,11 @@
    </e>
    <e>
       <lg>
-         <l>piättää</l>
+         <l pos="V">piättää</l>
          <stg>
             <st Contlex="V-näyttää">piätt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1066,12 +1013,11 @@
    </e>
    <e>
       <lg>
-         <l>keittää</l>
+         <l pos="V">keittää</l>
          <stg>
             <st Contlex="V-näyttää">keitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1086,12 +1032,11 @@
    </e>
    <e>
       <lg>
-         <l>soittaa</l>
+         <l pos="V">soittaa</l>
          <stg>
             <st Contlex="V-näyttää">soitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1106,12 +1051,11 @@
    </e>
    <e>
       <lg>
-         <l>suittaa</l>
+         <l pos="V">suittaa</l>
          <stg>
             <st Contlex="V-näyttää">suitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1126,12 +1070,11 @@
    </e>
    <e>
       <lg>
-         <l>keittää</l>
+         <l pos="V">keittää</l>
          <stg>
             <st Contlex="V-näyttää">keitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1146,12 +1089,11 @@
    </e>
    <e>
       <lg>
-         <l>pistää</l>
+         <l pos="V">pistää</l>
          <stg>
             <st Contlex="V-näyttää">pist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1166,12 +1108,11 @@
    </e>
    <e>
       <lg>
-         <l>hoitaa</l>
+         <l pos="V">hoitaa</l>
          <stg>
             <st Contlex="V-näyttää">hoit</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1186,12 +1127,11 @@
    </e>
    <e>
       <lg>
-         <l>jättää</l>
+         <l pos="V">jättää</l>
          <stg>
             <st Contlex="V-näyttää">jätt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1206,12 +1146,11 @@
    </e>
    <e>
       <lg>
-         <l>kylvää</l>
+         <l pos="V">kylvää</l>
          <stg>
             <st Contlex="V-näyttää">kylv</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1226,12 +1165,11 @@
    </e>
    <e>
       <lg>
-         <l>kyntää</l>
+         <l pos="V">kyntää</l>
          <stg>
             <st Contlex="V-näyttää">kynt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1246,12 +1184,11 @@
    </e>
    <e>
       <lg>
-         <l>kääntää</l>
+         <l pos="V">kääntää</l>
          <stg>
             <st Contlex="V-näyttää">käänt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1266,12 +1203,11 @@
    </e>
    <e>
       <lg>
-         <l>lentää</l>
+         <l pos="V">lentää</l>
          <stg>
             <st Contlex="V-näyttää">lent</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1286,14 +1222,13 @@
    </e>
    <e>
       <lg>
-         <l>keeltää</l>
+         <l pos="V">keeltää</l>
          <stg>
             <st Contlex="V-näyttää">keelt</st>
             <st Contlex="V-näyttää">kielt</st>
             <st Contlex="V-näyttää">kiilt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1308,12 +1243,11 @@
    </e>
    <e>
       <lg>
-         <l>stroittaa</l>
+         <l pos="V">stroittaa</l>
          <stg>
             <st Contlex="V-näyttää">stroitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1328,12 +1262,11 @@
    </e>
    <e>
       <lg>
-         <l>soittaa</l>
+         <l pos="V">soittaa</l>
          <stg>
             <st Contlex="V-näyttää">soitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1348,12 +1281,11 @@
    </e>
    <e>
       <lg>
-         <l>kyntää</l>
+         <l pos="V">kyntää</l>
          <stg>
             <st Contlex="V-näyttää">kynt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1368,12 +1300,11 @@
    </e>
    <e>
       <lg>
-         <l>liittää</l>
+         <l pos="V">liittää</l>
          <stg>
             <st Contlex="V-näyttää">liitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1388,12 +1319,11 @@
    </e>
    <e>
       <lg>
-         <l>muuttaa</l>
+         <l pos="V">muuttaa</l>
          <stg>
             <st Contlex="V-näyttää">muutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1408,12 +1338,11 @@
    </e>
    <e>
       <lg>
-         <l>täyttää</l>
+         <l pos="V">täyttää</l>
          <stg>
             <st Contlex="V-näyttää">täytt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1428,12 +1357,11 @@
    </e>
    <e>
       <lg>
-         <l>käyttää</l>
+         <l pos="V">käyttää</l>
          <stg>
             <st Contlex="V-näyttää">käytt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1448,12 +1376,11 @@
    </e>
    <e>
       <lg>
-         <l>toittaa</l>
+         <l pos="V">toittaa</l>
          <stg>
             <st Contlex="V-näyttää">toitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1468,12 +1395,11 @@
    </e>
    <e>
       <lg>
-         <l>ottaa</l>
+         <l pos="V">ottaa</l>
          <stg>
             <st Contlex="V-näyttää">ott</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1488,12 +1414,11 @@
    </e>
    <e>
       <lg>
-         <l>purkaa</l>
+         <l pos="V">purkaa</l>
          <stg>
             <st Contlex="V-näyttää">purk</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1508,12 +1433,11 @@
    </e>
    <e>
       <lg>
-         <l>ostaa</l>
+         <l pos="V">ostaa</l>
          <stg>
             <st Contlex="V-näyttää">ost</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1528,12 +1452,11 @@
    </e>
    <e>
       <lg>
-         <l>kestää</l>
+         <l pos="V">kestää</l>
          <stg>
             <st Contlex="V-näyttää">kest</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1548,12 +1471,11 @@
    </e>
    <e>
       <lg>
-         <l>lypsää</l>
+         <l pos="V">lypsää</l>
          <stg>
             <st Contlex="V-näyttää">lyps</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1568,12 +1490,11 @@
    </e>
    <e>
       <lg>
-         <l>vestää</l>
+         <l pos="V">vestää</l>
          <stg>
             <st Contlex="V-näyttää">vest</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1588,12 +1509,11 @@
    </e>
    <e>
       <lg>
-         <l>muistaa</l>
+         <l pos="V">muistaa</l>
          <stg>
             <st Contlex="V-näyttää">muist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1608,12 +1528,11 @@
    </e>
    <e>
       <lg>
-         <l>nostaa</l>
+         <l pos="V">nostaa</l>
          <stg>
             <st Contlex="V-näyttää">nost</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1628,12 +1547,11 @@
    </e>
    <e>
       <lg>
-         <l>pyytää</l>
+         <l pos="V">pyytää</l>
          <stg>
             <st Contlex="V-näyttää">pyyt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1648,12 +1566,11 @@
    </e>
    <e>
       <lg>
-         <l>soutaa</l>
+         <l pos="V">soutaa</l>
          <stg>
             <st Contlex="V-näyttää">sout</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1668,12 +1585,11 @@
    </e>
    <e>
       <lg>
-         <l>ellää</l>
+         <l pos="V">ellää</l>
          <stg>
             <st Contlex="V-näyttää">el</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1688,12 +1604,11 @@
    </e>
    <e>
       <lg>
-         <l>löytää</l>
+         <l pos="V">löytää</l>
          <stg>
             <st Contlex="V-näyttää">löyt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1708,12 +1623,11 @@
    </e>
    <e>
       <lg>
-         <l>merkitä</l>
+         <l pos="V">merkitä</l>
          <stg>
             <st Contlex="V-merkitä">merki</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1728,12 +1642,11 @@
    </e>
    <e>
       <lg>
-         <l>valita</l>
+         <l pos="V">valita</l>
          <stg>
             <st Contlex="V-merkitä">vali</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1748,12 +1661,11 @@
    </e>
    <e>
       <lg>
-         <l>kasvaa</l>
+         <l pos="V">kasvaa</l>
          <stg>
             <st Contlex="V-antaa">kasv</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1768,12 +1680,11 @@
    </e>
    <e>
       <lg>
-         <l>nähä</l>
+         <l pos="V">nähä</l>
          <stg>
             <st Contlex="V-nähä">nä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1788,12 +1699,11 @@
    </e>
    <e>
       <lg>
-         <l>tehä</l>
+         <l pos="V">tehä</l>
          <stg>
             <st Contlex="V-nähä">te</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1808,12 +1718,11 @@
    </e>
    <e>
       <lg>
-         <l>painuttaissa</l>
+         <l pos="V">painuttaissa</l>
          <stg>
             <st Contlex="V-painuttaissa">painuttai</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1828,12 +1737,11 @@
    </e>
    <e>
       <lg>
-         <l>aloittaissa</l>
+         <l pos="V">aloittaissa</l>
          <stg>
             <st Contlex="V-painuttaissa">aloittai</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1848,12 +1756,11 @@
    </e>
    <e>
       <lg>
-         <l>eroittaissa</l>
+         <l pos="V">eroittaissa</l>
          <stg>
             <st Contlex="V-painuttaissa">eroittai</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1868,12 +1775,11 @@
    </e>
    <e>
       <lg>
-         <l>gruppiruissa</l>
+         <l pos="V">gruppiruissa</l>
          <stg>
             <st Contlex="V-painuttaissa">gruppirui</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1888,12 +1794,11 @@
    </e>
    <e>
       <lg>
-         <l>erittäissä</l>
+         <l pos="V">erittäissä</l>
          <stg>
             <st Contlex="V-painuttaissa">erittäi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1908,12 +1813,11 @@
    </e>
    <e>
       <lg>
-         <l>pittiissä</l>
+         <l pos="V">pittiissä</l>
          <stg>
             <st Contlex="V-pittiissä">pittii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1928,12 +1832,11 @@
    </e>
    <e>
       <lg>
-         <l>muuttiissa</l>
+         <l pos="V">muuttiissa</l>
          <stg>
             <st Contlex="V-pittiissä">muuttii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1948,12 +1851,11 @@
    </e>
    <e>
       <lg>
-         <l>suittiissa</l>
+         <l pos="V">suittiissa</l>
          <stg>
             <st Contlex="V-pittiissä">suittii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1968,12 +1870,11 @@
    </e>
    <e>
       <lg>
-         <l>sööttiissä</l>
+         <l pos="V">sööttiissä</l>
          <stg>
             <st Contlex="V-pittiissä">sööttii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -1988,12 +1889,11 @@
    </e>
    <e>
       <lg>
-         <l>näyttiissä</l>
+         <l pos="V">näyttiissä</l>
          <stg>
             <st Contlex="V-pittiissä">näyttii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2008,12 +1908,11 @@
    </e>
    <e>
       <lg>
-         <l>vaihtiissa</l>
+         <l pos="V">vaihtiissa</l>
          <stg>
             <st Contlex="V-pittiissä">vaihtii</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2028,12 +1927,11 @@
    </e>
    <e>
       <lg>
-         <l>kirjuttaa</l>
+         <l pos="V">kirjuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">kirjutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2048,12 +1946,11 @@
    </e>
    <e>
       <lg>
-         <l>poljzuittaa</l>
+         <l pos="V">poljzuittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">polljzuitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2068,12 +1965,11 @@
    </e>
    <e>
       <lg>
-         <l>pöörittää</l>
+         <l pos="V">pöörittää</l>
          <stg>
             <st Contlex="V-kirjuttaa">pööritt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2088,12 +1984,11 @@
    </e>
    <e>
       <lg>
-         <l>unnohtaa</l>
+         <l pos="V">unnohtaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">unnoht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2108,12 +2003,11 @@
    </e>
    <e>
       <lg>
-         <l>puhastaa</l>
+         <l pos="V">puhastaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">puhast</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2128,12 +2022,11 @@
    </e>
    <e>
       <lg>
-         <l>issuttaa</l>
+         <l pos="V">issuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">issutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2148,12 +2041,11 @@
    </e>
    <e>
       <lg>
-         <l>itettää</l>
+         <l pos="V">itettää</l>
          <stg>
             <st Contlex="V-kirjuttaa">itett</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2168,12 +2060,11 @@
    </e>
    <e>
       <lg>
-         <l>viheltää</l>
+         <l pos="V">viheltää</l>
          <stg>
             <st Contlex="V-kirjuttaa">vihelt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2188,14 +2079,13 @@
    </e>
    <e>
       <lg>
-         <l>veeruittaa</l>
+         <l pos="V">veeruittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">veeruitt</st>
             <st Contlex="V-kirjuttaa">vieruitt</st>
             <st Contlex="V-kirjuttaa">viiruitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2210,12 +2100,11 @@
    </e>
    <e>
       <lg>
-         <l>janottaa</l>
+         <l pos="V">janottaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">janott</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2230,12 +2119,11 @@
    </e>
    <e>
       <lg>
-         <l>kuvattaa</l>
+         <l pos="V">kuvattaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">kuvatt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2250,12 +2138,11 @@
    </e>
    <e>
       <lg>
-         <l>osoittaa</l>
+         <l pos="V">osoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">osoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2270,12 +2157,11 @@
    </e>
    <e>
       <lg>
-         <l>otraƶoittaa</l>
+         <l pos="V">otraƶoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">otraƶoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2290,12 +2176,11 @@
    </e>
    <e>
       <lg>
-         <l>nagrattaa</l>
+         <l pos="V">nagrattaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">nagratt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2310,12 +2195,11 @@
    </e>
    <e>
       <lg>
-         <l>tuiskuttaa</l>
+         <l pos="V">tuiskuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">tuiskutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2330,12 +2214,11 @@
    </e>
    <e>
       <lg>
-         <l>treebuittaa</l>
+         <l pos="V">treebuittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">treebuitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2350,12 +2233,11 @@
    </e>
    <e>
       <lg>
-         <l>sekkoittaa</l>
+         <l pos="V">sekkoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">sekkoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2370,12 +2252,11 @@
    </e>
    <e>
       <lg>
-         <l>uuvvistaa</l>
+         <l pos="V">uuvvistaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">uuvvist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2390,12 +2271,11 @@
    </e>
    <e>
       <lg>
-         <l>parentaa</l>
+         <l pos="V">parentaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">parent</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2410,12 +2290,11 @@
    </e>
    <e>
       <lg>
-         <l>syventää</l>
+         <l pos="V">syventää</l>
          <stg>
             <st Contlex="V-kirjuttaa">syvent</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2430,12 +2309,11 @@
    </e>
    <e>
       <lg>
-         <l>saauttaa</l>
+         <l pos="V">saauttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">saautt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2450,12 +2328,11 @@
    </e>
    <e>
       <lg>
-         <l>syventää</l>
+         <l pos="V">syventää</l>
          <stg>
             <st Contlex="V-kirjuttaa">sevent</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2470,12 +2347,11 @@
    </e>
    <e>
       <lg>
-         <l>aloittaa</l>
+         <l pos="V">aloittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">aloitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2490,14 +2366,13 @@
    </e>
    <e>
       <lg>
-         <l>leekuttaa</l>
+         <l pos="V">leekuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">leekutt</st>
             <st Contlex="V-kirjuttaa">liekutt</st>
             <st Contlex="V-kirjuttaa">liikutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2512,12 +2387,11 @@
    </e>
    <e>
       <lg>
-         <l>opettaa</l>
+         <l pos="V">opettaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">opett</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2532,12 +2406,11 @@
    </e>
    <e>
       <lg>
-         <l>hämärtää</l>
+         <l pos="V">hämärtää</l>
          <stg>
             <st Contlex="V-kirjuttaa">hämärt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2552,12 +2425,11 @@
    </e>
    <e>
       <lg>
-         <l>unnohtaa</l>
+         <l pos="V">unnohtaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">unnoht</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2572,12 +2444,11 @@
    </e>
    <e>
       <lg>
-         <l>mukkoittaa</l>
+         <l pos="V">mukkoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">mukkoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2592,12 +2463,11 @@
    </e>
    <e>
       <lg>
-         <l>pakaistaa</l>
+         <l pos="V">pakaistaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">pakaist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2612,12 +2482,11 @@
    </e>
    <e>
       <lg>
-         <l>meşaittaa</l>
+         <l pos="V">meşaittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">meşaitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2632,12 +2501,11 @@
    </e>
    <e>
       <lg>
-         <l>kalastaa</l>
+         <l pos="V">kalastaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">kalast</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2652,12 +2520,11 @@
    </e>
    <e>
       <lg>
-         <l>tiijustaa</l>
+         <l pos="V">tiijustaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">tiijust</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2672,12 +2539,11 @@
    </e>
    <e>
       <lg>
-         <l>tiijystää</l>
+         <l pos="V">tiijystää</l>
          <stg>
             <st Contlex="V-kirjuttaa">tiijyst</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2692,12 +2558,11 @@
    </e>
    <e>
       <lg>
-         <l>kaivertaa</l>
+         <l pos="V">kaivertaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">kaivert</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2712,12 +2577,11 @@
    </e>
    <e>
       <lg>
-         <l>hävittää</l>
+         <l pos="V">hävittää</l>
          <stg>
             <st Contlex="V-kirjuttaa">hävitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2732,12 +2596,11 @@
    </e>
    <e>
       <lg>
-         <l>hämmentää</l>
+         <l pos="V">hämmentää</l>
          <stg>
             <st Contlex="V-kirjuttaa">hämment</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2752,12 +2615,11 @@
    </e>
    <e>
       <lg>
-         <l>helpoittaa</l>
+         <l pos="V">helpoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">helpoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2772,12 +2634,11 @@
    </e>
    <e>
       <lg>
-         <l>harottaa</l>
+         <l pos="V">harottaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">harott</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2792,12 +2653,11 @@
    </e>
    <e>
       <lg>
-         <l>eroittaa</l>
+         <l pos="V">eroittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">eroitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2812,12 +2672,11 @@
    </e>
    <e>
       <lg>
-         <l>erittää</l>
+         <l pos="V">erittää</l>
          <stg>
             <st Contlex="V-kirjuttaa">eritt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2832,12 +2691,11 @@
    </e>
    <e>
       <lg>
-         <l>alottaa</l>
+         <l pos="V">alottaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">alott</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2852,12 +2710,11 @@
    </e>
    <e>
       <lg>
-         <l>parentaa</l>
+         <l pos="V">parentaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">parent</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2872,12 +2729,11 @@
    </e>
    <e>
       <lg>
-         <l>rinnoittaa</l>
+         <l pos="V">rinnoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">rinnoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2892,12 +2748,11 @@
    </e>
    <e>
       <lg>
-         <l>avittaa</l>
+         <l pos="V">avittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">avitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2912,12 +2767,11 @@
    </e>
    <e>
       <lg>
-         <l>rajoittaa</l>
+         <l pos="V">rajoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">rajoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2932,12 +2786,11 @@
    </e>
    <e>
       <lg>
-         <l>lopettaa</l>
+         <l pos="V">lopettaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">lopett</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2952,12 +2805,11 @@
    </e>
    <e>
       <lg>
-         <l>erroittaa</l>
+         <l pos="V">erroittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">erroitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2972,12 +2824,11 @@
    </e>
    <e>
       <lg>
-         <l>tiitää</l>
+         <l pos="V">tiitää</l>
          <stg>
             <st Contlex="V-tiitää">tiit</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -2992,12 +2843,11 @@
    </e>
    <e>
       <lg>
-         <l>yhistää</l>
+         <l pos="V">yhistää</l>
          <stg>
             <st Contlex="V-kirjuttaa">yhist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3012,12 +2862,11 @@
    </e>
    <e>
       <lg>
-         <l>painuttaa</l>
+         <l pos="V">painuttaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">painutt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3032,12 +2881,11 @@
    </e>
    <e>
       <lg>
-         <l>tarkastaa</l>
+         <l pos="V">tarkastaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">tarkast</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3052,12 +2900,11 @@
    </e>
    <e>
       <lg>
-         <l>veittää</l>
+         <l pos="V">veittää</l>
          <stg>
             <st Contlex="V-näyttää">veitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3072,12 +2919,11 @@
    </e>
    <e>
       <lg>
-         <l>sattaa</l>
+         <l pos="V">sattaa</l>
          <stg>
             <st Contlex="V-näyttää">sat</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3092,12 +2938,11 @@
    </e>
    <e>
       <lg>
-         <l>rinnoittaa</l>
+         <l pos="V">rinnoittaa</l>
          <stg>
             <st Contlex="V-näyttää">rinnoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3112,12 +2957,11 @@
    </e>
    <e>
       <lg>
-         <l>praavittaa</l>
+         <l pos="V">praavittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">praavitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3132,12 +2976,11 @@
    </e>
    <e>
       <lg>
-         <l>vahvistaa</l>
+         <l pos="V">vahvistaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">vahvist</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3152,12 +2995,11 @@
    </e>
    <e>
       <lg>
-         <l>toimittaa</l>
+         <l pos="V">toimittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">toimitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3172,12 +3014,11 @@
    </e>
    <e>
       <lg>
-         <l>ƶaarittaa</l>
+         <l pos="V">ƶaarittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">ƶaaritt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3192,12 +3033,11 @@
    </e>
    <e>
       <lg>
-         <l>ƶaalivoittaa</l>
+         <l pos="V">ƶaalivoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">ƶaalivoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3212,12 +3052,11 @@
    </e>
    <e>
       <lg>
-         <l>mukkoittaa</l>
+         <l pos="V">mukkoittaa</l>
          <stg>
             <st Contlex="V-kirjuttaa">mukkoitt</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3232,12 +3071,11 @@
    </e>
    <e>
       <lg>
-         <l>kutsua</l>
+         <l pos="V">kutsua</l>
          <stg>
             <st Contlex="V-kutsua">kutsu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3252,12 +3090,11 @@
    </e>
    <e>
       <lg>
-         <l>rikkoa</l>
+         <l pos="V">rikkoa</l>
          <stg>
             <st Contlex="V-kutsua">rikko</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3272,12 +3109,11 @@
    </e>
    <e>
       <lg>
-         <l>piättyä</l>
+         <l pos="V">piättyä</l>
          <stg>
             <st Contlex="V-kutsua">piätty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3292,14 +3128,13 @@
    </e>
    <e>
       <lg>
-         <l>keehua</l>
+         <l pos="V">keehua</l>
          <stg>
             <st Contlex="V-kutsua">keehu</st>
             <st Contlex="V-kutsua">kiehu</st>
             <st Contlex="V-kutsua">kiihu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3314,12 +3149,11 @@
    </e>
    <e>
       <lg>
-         <l>kysyä</l>
+         <l pos="V">kysyä</l>
          <stg>
             <st Contlex="V-kutsua">kysy</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3334,12 +3168,11 @@
    </e>
    <e>
       <lg>
-         <l>sammua</l>
+         <l pos="V">sammua</l>
          <stg>
             <st Contlex="V-kutsua">sammu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3354,12 +3187,11 @@
    </e>
    <e>
       <lg>
-         <l>seisoa</l>
+         <l pos="V">seisoa</l>
          <stg>
             <st Contlex="V-kutsua">seiso</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3374,12 +3206,11 @@
    </e>
    <e>
       <lg>
-         <l>yhtyä</l>
+         <l pos="V">yhtyä</l>
          <stg>
             <st Contlex="V-kutsua">yhty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3394,12 +3225,11 @@
    </e>
    <e>
       <lg>
-         <l>tahtoa</l>
+         <l pos="V">tahtoa</l>
          <stg>
             <st Contlex="V-kutsua">tahto</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3414,12 +3244,11 @@
    </e>
    <e>
       <lg>
-         <l>ulvoa</l>
+         <l pos="V">ulvoa</l>
          <stg>
             <st Contlex="V-kutsua">ulvo</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3434,12 +3263,11 @@
    </e>
    <e>
       <lg>
-         <l>tokkua</l>
+         <l pos="V">tokkua</l>
          <stg>
             <st Contlex="V-kutsua">tokku</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3454,12 +3282,11 @@
    </e>
    <e>
       <lg>
-         <l>haukkua</l>
+         <l pos="V">haukkua</l>
          <stg>
             <st Contlex="V-kutsua">haukku</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3474,14 +3301,13 @@
    </e>
    <e>
       <lg>
-         <l>heeroa</l>
+         <l pos="V">heeroa</l>
          <stg>
             <st Contlex="V-kutsua">heero</st>
             <st Contlex="V-kutsua">hiero</st>
             <st Contlex="V-kutsua">hiiro</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3496,12 +3322,11 @@
    </e>
    <e>
       <lg>
-         <l>etsiä</l>
+         <l pos="V">etsiä</l>
          <stg>
             <st Contlex="V-kutsua">etsi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3516,12 +3341,11 @@
    </e>
    <e>
       <lg>
-         <l>ampua</l>
+         <l pos="V">ampua</l>
          <stg>
             <st Contlex="V-kutsua">ampu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3536,12 +3360,11 @@
    </e>
    <e>
       <lg>
-         <l>tahtoa</l>
+         <l pos="V">tahtoa</l>
          <stg>
             <st Contlex="V-kutsua">tahto</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3556,12 +3379,11 @@
    </e>
    <e>
       <lg>
-         <l>painua</l>
+         <l pos="V">painua</l>
          <stg>
             <st Contlex="V-kutsua">painu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3576,12 +3398,11 @@
    </e>
    <e>
       <lg>
-         <l>taittua</l>
+         <l pos="V">taittua</l>
          <stg>
             <st Contlex="V-kutsua">taittu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3596,12 +3417,11 @@
    </e>
    <e>
       <lg>
-         <l>tuntua</l>
+         <l pos="V">tuntua</l>
          <stg>
             <st Contlex="V-kutsua">tuntu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3616,12 +3436,11 @@
    </e>
    <e>
       <lg>
-         <l>löytyä</l>
+         <l pos="V">löytyä</l>
          <stg>
             <st Contlex="V-kutsua">löyty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3636,12 +3455,11 @@
    </e>
    <e>
       <lg>
-         <l>istua</l>
+         <l pos="V">istua</l>
          <stg>
             <st Contlex="V-kutsua">istu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3656,12 +3474,11 @@
    </e>
    <e>
       <lg>
-         <l>ilmahtua</l>
+         <l pos="V">ilmahtua</l>
          <stg>
             <st Contlex="V-ilmahtua">ilmah</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3676,12 +3493,11 @@
    </e>
    <e>
       <lg>
-         <l>unohtua</l>
+         <l pos="V">unohtua</l>
          <stg>
             <st Contlex="V-ilmahtua">unoh</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3696,12 +3512,11 @@
    </e>
    <e>
       <lg>
-         <l>hyväksyä</l>
+         <l pos="V">hyväksyä</l>
          <stg>
             <st Contlex="V-hyväksyä">hyväksy</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3716,12 +3531,11 @@
    </e>
    <e>
       <lg>
-         <l>mööhästyä</l>
+         <l pos="V">mööhästyä</l>
          <stg>
             <st Contlex="V-hyväksyä">mööhästy</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3736,12 +3550,11 @@
    </e>
    <e>
       <lg>
-         <l>parentua</l>
+         <l pos="V">parentua</l>
          <stg>
             <st Contlex="V-hyväksyä">parentu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3756,12 +3569,11 @@
    </e>
    <e>
       <lg>
-         <l>puhastua</l>
+         <l pos="V">puhastua</l>
          <stg>
             <st Contlex="V-hyväksyä">puhastu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3776,12 +3588,11 @@
    </e>
    <e>
       <lg>
-         <l>voimistua</l>
+         <l pos="V">voimistua</l>
          <stg>
             <st Contlex="V-hyväksyä">voimistu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3796,12 +3607,11 @@
    </e>
    <e>
       <lg>
-         <l>vanhettua</l>
+         <l pos="V">vanhettua</l>
          <stg>
             <st Contlex="V-hyväksyä">vanhettu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3816,12 +3626,11 @@
    </e>
    <e>
       <lg>
-         <l>lyhentyä</l>
+         <l pos="V">lyhentyä</l>
          <stg>
             <st Contlex="V-hyväksyä">lyhenty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3836,12 +3645,11 @@
    </e>
    <e>
       <lg>
-         <l>mööhästyä</l>
+         <l pos="V">mööhästyä</l>
          <stg>
             <st Contlex="V-hyväksyä">mööhästy</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3856,12 +3664,11 @@
    </e>
    <e>
       <lg>
-         <l>näkkyä</l>
+         <l pos="V">näkkyä</l>
          <stg>
             <st Contlex="V-kutsua">näky</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3876,12 +3683,11 @@
    </e>
    <e>
       <lg>
-         <l>sittoa</l>
+         <l pos="V">sittoa</l>
          <stg>
             <st Contlex="V-kutsua">sito</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3896,12 +3702,11 @@
    </e>
    <e>
       <lg>
-         <l>kuttoa</l>
+         <l pos="V">kuttoa</l>
          <stg>
             <st Contlex="V-kutsua">kuto</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3916,12 +3721,11 @@
    </e>
    <e>
       <lg>
-         <l>yhistyä</l>
+         <l pos="V">yhistyä</l>
          <stg>
             <st Contlex="V-kutsua">yhisty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3936,12 +3740,11 @@
    </e>
    <e>
       <lg>
-         <l>vaihtua</l>
+         <l pos="V">vaihtua</l>
          <stg>
             <st Contlex="V-kutsua">vaihtu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3956,12 +3759,11 @@
    </e>
    <e>
       <lg>
-         <l>rippua</l>
+         <l pos="V">rippua</l>
          <stg>
             <st Contlex="V-kutsua">rippu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3976,12 +3778,11 @@
    </e>
    <e>
       <lg>
-         <l>tapahtua</l>
+         <l pos="V">tapahtua</l>
          <stg>
             <st Contlex="V-ilmahtua">tapah</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -3996,12 +3797,11 @@
    </e>
    <e>
       <lg>
-         <l>laatia</l>
+         <l pos="V">laatia</l>
          <stg>
             <st Contlex="V-laatia">laati</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4016,12 +3816,11 @@
    </e>
    <e>
       <lg>
-         <l>pöyhkiä</l>
+         <l pos="V">pöyhkiä</l>
          <stg>
             <st Contlex="V-laatia">pöyhki</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4036,12 +3835,11 @@
    </e>
    <e>
       <lg>
-         <l>tutkia</l>
+         <l pos="V">tutkia</l>
          <stg>
             <st Contlex="V-laatia">tutki</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4056,12 +3854,11 @@
    </e>
    <e>
       <lg>
-         <l>loiskia</l>
+         <l pos="V">loiskia</l>
          <stg>
             <st Contlex="V-laatia">loiski</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4076,12 +3873,11 @@
    </e>
    <e>
       <lg>
-         <l>onkia</l>
+         <l pos="V">onkia</l>
          <stg>
             <st Contlex="V-laatia">onki</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4096,12 +3892,11 @@
    </e>
    <e>
       <lg>
-         <l>ehtiä</l>
+         <l pos="V">ehtiä</l>
          <stg>
             <st Contlex="V-laatia">ehti</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4116,12 +3911,11 @@
    </e>
    <e>
       <lg>
-         <l>sluuƶia</l>
+         <l pos="V">sluuƶia</l>
          <stg>
             <st Contlex="V-laatia">sluuƶi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4136,12 +3930,11 @@
    </e>
    <e>
       <lg>
-         <l>laahia</l>
+         <l pos="V">laahia</l>
          <stg>
             <st Contlex="V-laatia">laahi</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4156,12 +3949,11 @@
    </e>
    <e>
       <lg>
-         <l>laatihussa</l>
+         <l pos="V">laatihussa</l>
          <stg>
             <st Contlex="V-laatihussa">laatihu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4176,12 +3968,11 @@
    </e>
    <e>
       <lg>
-         <l>oppihussa</l>
+         <l pos="V">oppihussa</l>
          <stg>
             <st Contlex="V-laatihussa">oppihu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4196,12 +3987,11 @@
    </e>
    <e>
       <lg>
-         <l>tekahussa</l>
+         <l pos="V">tekahussa</l>
          <stg>
             <st Contlex="V-laatihussa">tekahu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4216,12 +4006,11 @@
    </e>
    <e>
       <lg>
-         <l>jakahussa</l>
+         <l pos="V">jakahussa</l>
          <stg>
             <st Contlex="V-laatihussa">jakahu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4236,12 +4025,11 @@
    </e>
    <e>
       <lg>
-         <l>hoitua</l>
+         <l pos="V">hoitua</l>
          <stg>
             <st Contlex="V-kutsua">hoitu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4256,12 +4044,11 @@
    </e>
    <e>
       <lg>
-         <l>joutua</l>
+         <l pos="V">joutua</l>
          <stg>
             <st Contlex="V-kutsua">joutu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4276,12 +4063,11 @@
    </e>
    <e>
       <lg>
-         <l>kuulua</l>
+         <l pos="V">kuulua</l>
          <stg>
             <st Contlex="V-kutsua">kuulu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4296,12 +4082,11 @@
    </e>
    <e>
       <lg>
-         <l>liittyä</l>
+         <l pos="V">liittyä</l>
          <stg>
             <st Contlex="V-kutsua">liitty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4316,12 +4101,11 @@
    </e>
    <e>
       <lg>
-         <l>muuttua</l>
+         <l pos="V">muuttua</l>
          <stg>
             <st Contlex="V-kutsua">muuttu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4336,12 +4120,11 @@
    </e>
    <e>
       <lg>
-         <l>puuttua</l>
+         <l pos="V">puuttua</l>
          <stg>
             <st Contlex="V-kutsua">puuttu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4356,12 +4139,11 @@
    </e>
    <e>
       <lg>
-         <l>syntyä</l>
+         <l pos="V">syntyä</l>
          <stg>
             <st Contlex="V-kutsua">synty</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4376,12 +4158,11 @@
    </e>
    <e>
       <lg>
-         <l>loppua</l>
+         <l pos="V">loppua</l>
          <stg>
             <st Contlex="V-kutsua">loppu</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4396,12 +4177,11 @@
    </e>
    <e>
       <lg>
-         <l>katsoa</l>
+         <l pos="V">katsoa</l>
          <stg>
             <st Contlex="V-kutsua">katso</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4416,12 +4196,11 @@
    </e>
    <e>
       <lg>
-         <l>tulla</l>
+         <l pos="V">tulla</l>
          <stg>
             <st Contlex="V-tulla">tul</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4436,12 +4215,11 @@
    </e>
    <e>
       <lg>
-         <l>ommella</l>
+         <l pos="V">ommella</l>
          <stg>
             <st Contlex="V-ommella">ompel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4456,12 +4234,11 @@
    </e>
    <e>
       <lg>
-         <l>kuunnella</l>
+         <l pos="V">kuunnella</l>
          <stg>
             <st Contlex="V-ommella">kuuntel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4476,12 +4253,11 @@
    </e>
    <e>
       <lg>
-         <l>katsella</l>
+         <l pos="V">katsella</l>
          <stg>
             <st Contlex="V-ommella">katsel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4496,12 +4272,11 @@
    </e>
    <e>
       <lg>
-         <l>ootella</l>
+         <l pos="V">ootella</l>
          <stg>
             <st Contlex="V-ommella">oottel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4516,12 +4291,11 @@
    </e>
    <e>
       <lg>
-         <l>petellä</l>
+         <l pos="V">petellä</l>
          <stg>
             <st Contlex="V-ommella">pettel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4536,12 +4310,11 @@
    </e>
    <e>
       <lg>
-         <l>näytellä</l>
+         <l pos="V">näytellä</l>
          <stg>
             <st Contlex="V-ommella">näytel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4556,12 +4329,11 @@
    </e>
    <e>
       <lg>
-         <l>söötellä</l>
+         <l pos="V">söötellä</l>
          <stg>
             <st Contlex="V-ommella">sööttel</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4576,12 +4348,11 @@
    </e>
    <e>
       <lg>
-         <l>koolla</l>
+         <l pos="V">koolla</l>
          <stg>
             <st Contlex="V-tulla">kool</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4596,12 +4367,11 @@
    </e>
    <e>
       <lg>
-         <l>tuulla</l>
+         <l pos="V">tuulla</l>
          <stg>
             <st Contlex="V-tulla">tuul</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4616,12 +4386,11 @@
    </e>
    <e>
       <lg>
-         <l>kuulla</l>
+         <l pos="V">kuulla</l>
          <stg>
             <st Contlex="V-tulla">kuul</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4636,12 +4405,11 @@
    </e>
    <e>
       <lg>
-         <l>noissa</l>
+         <l pos="V">noissa</l>
          <stg>
             <st Contlex="V-tulla">nois</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4656,12 +4424,11 @@
    </e>
    <e>
       <lg>
-         <l>päässä</l>
+         <l pos="V">päässä</l>
          <stg>
             <st Contlex="V-tulla">pääs</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4676,12 +4443,11 @@
    </e>
    <e>
       <lg>
-         <l>pessä</l>
+         <l pos="V">pessä</l>
          <stg>
             <st Contlex="V-tulla">pes</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4696,12 +4462,11 @@
    </e>
    <e>
       <lg>
-         <l>panna</l>
+         <l pos="V">panna</l>
          <stg>
             <st Contlex="V-panna">pa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4716,12 +4481,11 @@
    </e>
    <e>
       <lg>
-         <l>männä</l>
+         <l pos="V">männä</l>
          <stg>
             <st Contlex="V-panna">mä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4736,12 +4500,11 @@
    </e>
    <e>
       <lg>
-         <l>männä</l>
+         <l pos="V">männä</l>
          <stg>
             <st Contlex="V-tulla">män</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4756,12 +4519,11 @@
    </e>
    <e>
       <lg>
-         <l>arvata</l>
+         <l pos="V">arvata</l>
          <stg>
             <st Contlex="V-arvata">arva</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4776,12 +4538,11 @@
    </e>
    <e>
       <lg>
-         <l>revätä</l>
+         <l pos="V">revätä</l>
          <stg>
             <st Contlex="V-arvata">repä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4796,12 +4557,11 @@
    </e>
    <e>
       <lg>
-         <l>kraasata</l>
+         <l pos="V">kraasata</l>
          <stg>
             <st Contlex="V-arvata">kraasa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4816,12 +4576,11 @@
    </e>
    <e>
       <lg>
-         <l>maata</l>
+         <l pos="V">maata</l>
          <stg>
             <st Contlex="V-arvata">maka</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4836,12 +4595,11 @@
    </e>
    <e>
       <lg>
-         <l>seilata</l>
+         <l pos="V">seilata</l>
          <stg>
             <st Contlex="V-arvata">seila</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4856,12 +4614,11 @@
    </e>
    <e>
       <lg>
-         <l>duumata</l>
+         <l pos="V">duumata</l>
          <stg>
             <st Contlex="V-arvata">duuma</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4876,12 +4633,11 @@
    </e>
    <e>
       <lg>
-         <l>reknata</l>
+         <l pos="V">reknata</l>
          <stg>
             <st Contlex="V-arvata">rekna</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4896,12 +4652,11 @@
    </e>
    <e>
       <lg>
-         <l>mitata</l>
+         <l pos="V">mitata</l>
          <stg>
             <st Contlex="V-arvata">mitta</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4916,12 +4671,11 @@
    </e>
    <e>
       <lg>
-         <l>lakata</l>
+         <l pos="V">lakata</l>
          <stg>
             <st Contlex="V-arvata">lakka</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4936,12 +4690,11 @@
    </e>
    <e>
       <lg>
-         <l>korjata</l>
+         <l pos="V">korjata</l>
          <stg>
             <st Contlex="V-arvata">korja</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4956,12 +4709,11 @@
    </e>
    <e>
       <lg>
-         <l>lisätä</l>
+         <l pos="V">lisätä</l>
          <stg>
             <st Contlex="V-arvata">lisä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4976,12 +4728,11 @@
    </e>
    <e>
       <lg>
-         <l>tervata</l>
+         <l pos="V">tervata</l>
          <stg>
             <st Contlex="V-arvata">terva</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -4996,12 +4747,11 @@
    </e>
    <e>
       <lg>
-         <l>upota</l>
+         <l pos="V">upota</l>
          <stg>
             <st Contlex="V-upota">uppo</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5016,12 +4766,11 @@
    </e>
    <e>
       <lg>
-         <l>erota</l>
+         <l pos="V">erota</l>
          <stg>
             <st Contlex="V-upota">ero</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5036,12 +4785,11 @@
    </e>
    <e>
       <lg>
-         <l>tuumata</l>
+         <l pos="V">tuumata</l>
          <stg>
             <st Contlex="V-arvata">tuuma</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5056,12 +4804,11 @@
    </e>
    <e>
       <lg>
-         <l>leikata</l>
+         <l pos="V">leikata</l>
          <stg>
             <st Contlex="V-arvata">leikka</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5076,12 +4823,11 @@
    </e>
    <e>
       <lg>
-         <l>sahata</l>
+         <l pos="V">sahata</l>
          <stg>
             <st Contlex="V-arvata">saha</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5096,12 +4842,11 @@
    </e>
    <e>
       <lg>
-         <l>salvata</l>
+         <l pos="V">salvata</l>
          <stg>
             <st Contlex="V-arvata">salpa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5116,12 +4861,11 @@
    </e>
    <e>
       <lg>
-         <l>kelvata</l>
+         <l pos="V">kelvata</l>
          <stg>
             <st Contlex="V-arvata">kelpa</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5136,12 +4880,11 @@
    </e>
    <e>
       <lg>
-         <l>kirjata</l>
+         <l pos="V">kirjata</l>
          <stg>
             <st Contlex="V-arvata">kirja</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5156,12 +4899,11 @@
    </e>
    <e>
       <lg>
-         <l>virrata</l>
+         <l pos="V">virrata</l>
          <stg>
             <st Contlex="V-arvata">virta</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5176,12 +4918,11 @@
    </e>
    <e>
       <lg>
-         <l>avata</l>
+         <l pos="V">avata</l>
          <stg>
             <st Contlex="V-arvata">ava</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5196,12 +4937,11 @@
    </e>
    <e>
       <lg>
-         <l>salvata</l>
+         <l pos="V">salvata</l>
          <stg>
             <st Contlex="V-arvata">salva</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5216,12 +4956,11 @@
    </e>
    <e>
       <lg>
-         <l>proovata</l>
+         <l pos="V">proovata</l>
          <stg>
             <st Contlex="V-arvata">proova</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5236,12 +4975,11 @@
    </e>
    <e>
       <lg>
-         <l>vastata</l>
+         <l pos="V">vastata</l>
          <stg>
             <st Contlex="V-arvata">vasta</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5256,12 +4994,11 @@
    </e>
    <e>
       <lg>
-         <l>läätä</l>
+         <l pos="V">läätä</l>
          <stg>
             <st Contlex="V-arvata">läkä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5276,12 +5013,11 @@
    </e>
    <e>
       <lg>
-         <l>määrätä</l>
+         <l pos="V">määrätä</l>
          <stg>
             <st Contlex="V-määrätä">määrä</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5296,12 +5032,11 @@
    </e>
    <e>
       <lg>
-         <l>olla</l>
+         <l pos="V">olla</l>
          <stg>
             <st Contlex="V-olla">0</st>
          </stg>
       </lg>
-      <pos>V</pos>
       <mg>
          <m>
             <head/>
@@ -5316,12 +5051,11 @@
    </e>
    <e>
       <lg>
-         <l>ei</l>
+         <l pos="V">ei</l>
          <stg>
             <st Contlex="V-ei">0</st>
          </stg>
       </lg>
-      <pos>V-Aux</pos>
       <mg>
          <m>
             <head/>

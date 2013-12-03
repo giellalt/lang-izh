@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>ja</l>
+         <l pos="Cc">ja</l>
          <stg>
             <st Contlex="CcTag">ja</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>vai</l>
+         <l pos="Cc">vai</l>
          <stg>
             <st Contlex="CcTag">vai</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>tahi</l>
+         <l pos="Cc">tahi</l>
          <stg>
             <st Contlex="CcTag">tahi</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>tai</l>
+         <l pos="Cc">tai</l>
          <stg>
             <st Contlex="CcTag">tai</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>i</l>
+         <l pos="Cc">i</l>
          <stg>
             <st Contlex="CcTag">i</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>a</l>
+         <l pos="Cc">a</l>
          <stg>
             <st Contlex="CcTag">a</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>vaa</l>
+         <l pos="Cc">vaa</l>
          <stg>
             <st Contlex="CcTag">vaa</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>tali</l>
+         <l pos="Cc">tali</l>
          <stg>
             <st Contlex="CcTag">tali</st>
          </stg>
       </lg>
-      <pos>CC</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>jos</l>
+         <l pos="Cs">jos</l>
          <stg>
             <st Contlex="CsTag">jos</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>jot</l>
+         <l pos="Cs">jot</l>
          <stg>
             <st Contlex="CsTag">jot</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>no</l>
+         <l pos="Cs">no</l>
          <stg>
             <st Contlex="CsTag">no</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>ko</l>
+         <l pos="Cs">ko</l>
          <stg>
             <st Contlex="CsTag">ko</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>kons</l>
+         <l pos="Cs">kons</l>
          <stg>
             <st Contlex="CsTag">kons</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>vaik</l>
+         <l pos="Cs">vaik</l>
          <stg>
             <st Contlex="CsTag">vaik</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>kuin</l>
+         <l pos="Cs">kuin</l>
          <stg>
             <st Contlex="CsTag">kuin</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>niku</l>
+         <l pos="Cs">niku</l>
          <stg>
             <st Contlex="CsTag">niku</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>ku</l>
+         <l pos="Cs">ku</l>
          <stg>
             <st Contlex="CsTag">ku</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>mut</l>
+         <l pos="Cs">mut</l>
          <stg>
             <st Contlex="CsTag">mut</st>
          </stg>
       </lg>
-      <pos>CS</pos>
       <mg>
          <m>
             <head/>

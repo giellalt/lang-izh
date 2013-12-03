@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>aattoon</l>
+         <l pos="Adv">aattoon</l>
          <stg>
             <st Contlex="AdvTemp-Ess">aattoon</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>ni</l>
+         <l pos="Adv">ni</l>
          <stg>
             <st Contlex="AdvTag">ni</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>poikkee</l>
+         <l pos="Adv">poikkee</l>
          <stg>
             <st Contlex="AdvTag">poikkee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>möötä</l>
+         <l pos="Adv">möötä</l>
          <stg>
             <st Contlex="AdvTag">möötä</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>mööhää</l>
+         <l pos="Adv">mööhää</l>
          <stg>
             <st Contlex="AdvTag">mööhää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>plys</l>
+         <l pos="Adv">plys</l>
          <stg>
             <st Contlex="AdvTag">plys</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -124,13 +118,12 @@
    </e>
    <e>
       <lg>
-         <l>viimeks</l>
+         <l pos="Adv">viimeks</l>
          <stg>
             <st Contlex="AdvTag">viimeks</st>
             <st Contlex="AdvTag">viimeeks</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -145,12 +138,11 @@
    </e>
    <e>
       <lg>
-         <l>keskenää</l>
+         <l pos="Adv">keskenää</l>
          <stg>
             <st Contlex="AdvTag">keskenää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -165,12 +157,11 @@
    </e>
    <e>
       <lg>
-         <l>hyvin</l>
+         <l pos="Adv">hyvin</l>
          <stg>
             <st Contlex="AdvTag">hyvin</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -185,12 +176,11 @@
    </e>
    <e>
       <lg>
-         <l>viimäks</l>
+         <l pos="Adv">viimäks</l>
          <stg>
             <st Contlex="AdvTag">viimäks</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -205,12 +195,11 @@
    </e>
    <e>
       <lg>
-         <l>voorollaa</l>
+         <l pos="Adv">voorollaa</l>
          <stg>
             <st Contlex="AdvTag">voorollaa</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -225,12 +214,11 @@
    </e>
    <e>
       <lg>
-         <l>välimitee</l>
+         <l pos="Adv">välimitee</l>
          <stg>
             <st Contlex="AdvTag">välimitee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -245,12 +233,11 @@
    </e>
    <e>
       <lg>
-         <l>aintakii</l>
+         <l pos="Adv">aintakii</l>
          <stg>
             <st Contlex="AdvTag">aintakii</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -265,12 +252,11 @@
    </e>
    <e>
       <lg>
-         <l>oikiistaa</l>
+         <l pos="Adv">oikiistaa</l>
          <stg>
             <st Contlex="AdvTag">oikiistaa</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -285,12 +271,11 @@
    </e>
    <e>
       <lg>
-         <l>auki</l>
+         <l pos="Adv">auki</l>
          <stg>
             <st Contlex="AdvTag">auki</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -305,12 +290,11 @@
    </e>
    <e>
       <lg>
-         <l>yksintää</l>
+         <l pos="Adv">yksintää</l>
          <stg>
             <st Contlex="AdvTag">yksintää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -325,12 +309,11 @@
    </e>
    <e>
       <lg>
-         <l>siis</l>
+         <l pos="Adv">siis</l>
          <stg>
             <st Contlex="AdvTag">siis</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -345,12 +328,11 @@
    </e>
    <e>
       <lg>
-         <l>eikä</l>
+         <l pos="Adv">eikä</l>
          <stg>
             <st Contlex="AdvTag">eikä</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -365,12 +347,11 @@
    </e>
    <e>
       <lg>
-         <l>ikkee</l>
+         <l pos="Adv">ikkee</l>
          <stg>
             <st Contlex="AdvTag">ikkee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -385,12 +366,11 @@
    </e>
    <e>
       <lg>
-         <l>erittee</l>
+         <l pos="Adv">erittee</l>
          <stg>
             <st Contlex="AdvTag">erittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -405,12 +385,11 @@
    </e>
    <e>
       <lg>
-         <l>vähiee</l>
+         <l pos="Adv">vähiee</l>
          <stg>
             <st Contlex="AdvTag">vähittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -425,12 +404,11 @@
    </e>
    <e>
       <lg>
-         <l>eriksee</l>
+         <l pos="Adv">eriksee</l>
          <stg>
             <st Contlex="AdvTag">eriksee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -445,12 +423,11 @@
    </e>
    <e>
       <lg>
-         <l>melkeen</l>
+         <l pos="Adv">melkeen</l>
          <stg>
             <st Contlex="AdvTag">melkeen</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -465,12 +442,11 @@
    </e>
    <e>
       <lg>
-         <l>rinnatikkoo</l>
+         <l pos="Adv">rinnatikkoo</l>
          <stg>
             <st Contlex="AdvTag">rinnatikkoo</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -485,12 +461,11 @@
    </e>
    <e>
       <lg>
-         <l>yksittee</l>
+         <l pos="Adv">yksittee</l>
          <stg>
             <st Contlex="AdvTag">yksittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -505,12 +480,11 @@
    </e>
    <e>
       <lg>
-         <l>yhtperrää</l>
+         <l pos="Adv">yhtperrää</l>
          <stg>
             <st Contlex="AdvTag">yhtperrää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -525,12 +499,11 @@
    </e>
    <e>
       <lg>
-         <l>poikittee</l>
+         <l pos="Adv">poikittee</l>
          <stg>
             <st Contlex="AdvTag">poikittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -545,12 +518,11 @@
    </e>
    <e>
       <lg>
-         <l>pitkittee</l>
+         <l pos="Adv">pitkittee</l>
          <stg>
             <st Contlex="AdvTag">pitkittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -565,12 +537,11 @@
    </e>
    <e>
       <lg>
-         <l>partittee</l>
+         <l pos="Adv">partittee</l>
          <stg>
             <st Contlex="AdvTag">partittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -585,12 +556,11 @@
    </e>
    <e>
       <lg>
-         <l>paikoittee</l>
+         <l pos="Adv">paikoittee</l>
          <stg>
             <st Contlex="AdvTag">paikoittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -605,12 +575,11 @@
    </e>
    <e>
       <lg>
-         <l>enemmittee</l>
+         <l pos="Adv">enemmittee</l>
          <stg>
             <st Contlex="AdvTag">enemmittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -625,12 +594,11 @@
    </e>
    <e>
       <lg>
-         <l>yksinää</l>
+         <l pos="Adv">yksinää</l>
          <stg>
             <st Contlex="AdvTag">yksinää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -645,12 +613,11 @@
    </e>
    <e>
       <lg>
-         <l>osittee</l>
+         <l pos="Adv">osittee</l>
          <stg>
             <st Contlex="AdvTag">osittee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -665,12 +632,11 @@
    </e>
    <e>
       <lg>
-         <l>kiin</l>
+         <l pos="Adv">kiin</l>
          <stg>
             <st Contlex="AdvTag">kiin</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -685,12 +651,11 @@
    </e>
    <e>
       <lg>
-         <l>kera</l>
+         <l pos="Adv">kera</l>
          <stg>
             <st Contlex="AdvTag">kera</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -705,12 +670,11 @@
    </e>
    <e>
       <lg>
-         <l>aintakkii</l>
+         <l pos="Adv">aintakkii</l>
          <stg>
             <st Contlex="AdvTag">aintakkii</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -725,12 +689,11 @@
    </e>
    <e>
       <lg>
-         <l>ensikää</l>
+         <l pos="Adv">ensikää</l>
          <stg>
             <st Contlex="AdvTag">ensikää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -745,12 +708,11 @@
    </e>
    <e>
       <lg>
-         <l>kovin</l>
+         <l pos="Adv">kovin</l>
          <stg>
             <st Contlex="AdvTag">kovin</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -765,12 +727,11 @@
    </e>
    <e>
       <lg>
-         <l>vast</l>
+         <l pos="Adv">vast</l>
          <stg>
             <st Contlex="AdvTag">vast</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -785,12 +746,11 @@
    </e>
    <e>
       <lg>
-         <l>valepäähä</l>
+         <l pos="Adv">valepäähä</l>
          <stg>
             <st Contlex="AdvTag">valepäähä</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -805,12 +765,11 @@
    </e>
    <e>
       <lg>
-         <l>niinikkee</l>
+         <l pos="Adv">niinikkee</l>
          <stg>
             <st Contlex="AdvTag">niinikkee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -825,12 +784,11 @@
    </e>
    <e>
       <lg>
-         <l>tihtimpää</l>
+         <l pos="Adv">tihtimpää</l>
          <stg>
             <st Contlex="AdvTag">tihtimpää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -845,12 +803,11 @@
    </e>
    <e>
       <lg>
-         <l>ohto</l>
+         <l pos="Adv">ohto</l>
          <stg>
             <st Contlex="AdvTag">ohto</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -865,12 +822,11 @@
    </e>
    <e>
       <lg>
-         <l>senperäst</l>
+         <l pos="Adv">senperäst</l>
          <stg>
             <st Contlex="AdvTag">senperäst</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -885,12 +841,11 @@
    </e>
    <e>
       <lg>
-         <l>peräjälkee</l>
+         <l pos="Adv">peräjälkee</l>
          <stg>
             <st Contlex="AdvTag">peräjälkee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -905,12 +860,11 @@
    </e>
    <e>
       <lg>
-         <l>perätystää</l>
+         <l pos="Adv">perätystää</l>
          <stg>
             <st Contlex="AdvTag">perätystää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -925,12 +879,11 @@
    </e>
    <e>
       <lg>
-         <l>perätykkee</l>
+         <l pos="Adv">perätykkee</l>
          <stg>
             <st Contlex="AdvTag">perätykkee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -945,12 +898,11 @@
    </e>
    <e>
       <lg>
-         <l>perätikko</l>
+         <l pos="Adv">perätikko</l>
          <stg>
             <st Contlex="AdvTag">perätikko</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -965,12 +917,11 @@
    </e>
    <e>
       <lg>
-         <l>perrääpäin</l>
+         <l pos="Adv">perrääpäin</l>
          <stg>
             <st Contlex="AdvTag">perrääpäin</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -985,12 +936,11 @@
    </e>
    <e>
       <lg>
-         <l>sentää</l>
+         <l pos="Adv">sentää</l>
          <stg>
             <st Contlex="AdvTag">sentää</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -1005,12 +955,11 @@
    </e>
    <e>
       <lg>
-         <l>kerallee</l>
+         <l pos="Adv">kerallee</l>
          <stg>
             <st Contlex="AdvTag">kerallee</st>
          </stg>
       </lg>
-      <pos>ADV</pos>
       <mg>
          <m>
             <head/>
@@ -1025,12 +974,11 @@
    </e>
    <e>
       <lg>
-         <l>mukkaa</l>
+         <l pos="Adv">mukkaa</l>
          <stg>
             <st Contlex="AdvSpat">mukkaa</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1045,12 +993,11 @@
    </e>
    <e>
       <lg>
-         <l>etteepäin</l>
+         <l pos="Adv">etteepäin</l>
          <stg>
             <st Contlex="AdvSpat">etteepäin</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1065,12 +1012,11 @@
    </e>
    <e>
       <lg>
-         <l>seelt</l>
+         <l pos="Adv">seelt</l>
          <stg>
             <st Contlex="AdvSpat">seelt</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1085,12 +1031,11 @@
    </e>
    <e>
       <lg>
-         <l>ettääl</l>
+         <l pos="Adv">ettääl</l>
          <stg>
             <st Contlex="AdvSpat">ettääl</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1105,12 +1050,11 @@
    </e>
    <e>
       <lg>
-         <l>alempaan</l>
+         <l pos="Adv">alempaan</l>
          <stg>
             <st Contlex="AdvSpat">alempaan</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1125,12 +1069,11 @@
    </e>
    <e>
       <lg>
-         <l>seel</l>
+         <l pos="Adv">seel</l>
          <stg>
             <st Contlex="AdvSpat">seel</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1145,12 +1088,11 @@
    </e>
    <e>
       <lg>
-         <l>pois</l>
+         <l pos="Adv">pois</l>
          <stg>
             <st Contlex="AdvSpat">pois</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1165,13 +1107,12 @@
    </e>
    <e>
       <lg>
-         <l>yllääl</l>
+         <l pos="Adv">yllääl</l>
          <stg>
             <st Contlex="AdvSpat">yllääl</st>
             <st Contlex="AdvSpat">yllähääl</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1186,7 +1127,7 @@
    </e>
    <e>
       <lg>
-         <l>yllält</l>
+         <l pos="Adv">yllält</l>
          <stg>
             <st Contlex="AdvSpat">yllält</st>
             <st Contlex="AdvSpat">yllähält</st>
@@ -1195,7 +1136,6 @@
             <st Contlex="AdvSpat">yllähäält</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1210,12 +1150,11 @@
    </e>
    <e>
       <lg>
-         <l>yllää</l>
+         <l pos="Adv">yllää</l>
          <stg>
             <st Contlex="AdvSpat">yllää</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1230,12 +1169,11 @@
    </e>
    <e>
       <lg>
-         <l>ranta</l>
+         <l pos="Adv">ranta</l>
          <stg>
             <st Contlex="AdvSpat-Prl">rannoitse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1250,12 +1188,11 @@
    </e>
    <e>
       <lg>
-         <l>pelto</l>
+         <l pos="Adv">pelto</l>
          <stg>
             <st Contlex="AdvSpat-Prl">pelloitse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1270,12 +1207,11 @@
    </e>
    <e>
       <lg>
-         <l>niitty</l>
+         <l pos="Adv">niitty</l>
          <stg>
             <st Contlex="AdvSpat-Prl">niityitse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1290,12 +1226,11 @@
    </e>
    <e>
       <lg>
-         <l>allaal</l>
+         <l pos="Adv">allaal</l>
          <stg>
             <st Contlex="AdvSpat">allaal</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1310,12 +1245,11 @@
    </e>
    <e>
       <lg>
-         <l>metsä</l>
+         <l pos="Adv">metsä</l>
          <stg>
             <st Contlex="AdvSpat-Prl">metsitse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1330,12 +1264,11 @@
    </e>
    <e>
       <lg>
-         <l>meri</l>
+         <l pos="Adv">meri</l>
          <stg>
             <st Contlex="AdvSpat-Prl">meritse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1350,12 +1283,11 @@
    </e>
    <e>
       <lg>
-         <l>maa</l>
+         <l pos="Adv">maa</l>
          <stg>
             <st Contlex="AdvSpat-Prl">maitse</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1370,12 +1302,11 @@
    </e>
    <e>
       <lg>
-         <l>ettee</l>
+         <l pos="Adv">ettee</l>
          <stg>
             <st Contlex="AdvSpat">ettee</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1390,12 +1321,11 @@
    </e>
    <e>
       <lg>
-         <l>koolla</l>
+         <l pos="Adv">koolla</l>
          <stg>
             <st Contlex="AdvSpat">koolla</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1410,12 +1340,11 @@
    </e>
    <e>
       <lg>
-         <l>päin</l>
+         <l pos="Adv">päin</l>
          <stg>
             <st Contlex="AdvSpat">päin</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1430,12 +1359,11 @@
    </e>
    <e>
       <lg>
-         <l>tääl</l>
+         <l pos="Adv">tääl</l>
          <stg>
             <st Contlex="AdvSpat">tääl</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1450,12 +1378,11 @@
    </e>
    <e>
       <lg>
-         <l>sinne</l>
+         <l pos="Adv">sinne</l>
          <stg>
             <st Contlex="AdvSpat">sinne</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1470,12 +1397,11 @@
    </e>
    <e>
       <lg>
-         <l>tänne</l>
+         <l pos="Adv">tänne</l>
          <stg>
             <st Contlex="AdvSpat">tänne</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1490,12 +1416,11 @@
    </e>
    <e>
       <lg>
-         <l>ylempään</l>
+         <l pos="Adv">ylempään</l>
          <stg>
             <st Contlex="AdvSpat">ylempään</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1510,12 +1435,11 @@
    </e>
    <e>
       <lg>
-         <l>täält</l>
+         <l pos="Adv">täält</l>
          <stg>
             <st Contlex="AdvSpat">täält</st>
          </stg>
       </lg>
-      <pos>ADV-SPAT</pos>
       <mg>
          <m>
             <head/>
@@ -1530,12 +1454,11 @@
    </e>
    <e>
       <lg>
-         <l>ain</l>
+         <l pos="Adv">ain</l>
          <stg>
             <st Contlex="AdvTemp">ain</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1550,12 +1473,11 @@
    </e>
    <e>
       <lg>
-         <l>egle</l>
+         <l pos="Adv">egle</l>
          <stg>
             <st Contlex="AdvTemp">egle</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1570,12 +1492,11 @@
    </e>
    <e>
       <lg>
-         <l>tänäpään</l>
+         <l pos="Adv">tänäpään</l>
          <stg>
             <st Contlex="AdvTemp">tänäpään</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1590,12 +1511,11 @@
    </e>
    <e>
       <lg>
-         <l>nykyaikaa</l>
+         <l pos="Adv">nykyaikaa</l>
          <stg>
             <st Contlex="AdvTemp">nykyaikaa</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1610,12 +1530,11 @@
    </e>
    <e>
       <lg>
-         <l>tänävoonna</l>
+         <l pos="Adv">tänävoonna</l>
          <stg>
             <st Contlex="AdvTemp">tänävoonna</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1630,12 +1549,11 @@
    </e>
    <e>
       <lg>
-         <l>varraa</l>
+         <l pos="Adv">varraa</l>
          <stg>
             <st Contlex="AdvTemp">varraa</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1650,12 +1568,11 @@
    </e>
    <e>
       <lg>
-         <l>koht</l>
+         <l pos="Adv">koht</l>
          <stg>
             <st Contlex="AdvTemp">koht</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1670,12 +1587,11 @@
    </e>
    <e>
       <lg>
-         <l>taas</l>
+         <l pos="Adv">taas</l>
          <stg>
             <st Contlex="AdvTemp">taas</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1690,12 +1606,11 @@
    </e>
    <e>
       <lg>
-         <l>tihtii</l>
+         <l pos="Adv">tihtii</l>
          <stg>
             <st Contlex="AdvTemp">tihtii</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1710,12 +1625,11 @@
    </e>
    <e>
       <lg>
-         <l>konsikkee</l>
+         <l pos="Adv">konsikkee</l>
          <stg>
             <st Contlex="AdvTemp">konsikkee</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1730,12 +1644,11 @@
    </e>
    <e>
       <lg>
-         <l>paraikaa</l>
+         <l pos="Adv">paraikaa</l>
          <stg>
             <st Contlex="AdvTemp">paraikaa</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1750,12 +1663,11 @@
    </e>
    <e>
       <lg>
-         <l>tihimpää</l>
+         <l pos="Adv">tihimpää</l>
          <stg>
             <st Contlex="AdvTemp">tihimpää</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1770,12 +1682,11 @@
    </e>
    <e>
       <lg>
-         <l>tänäpään</l>
+         <l pos="Adv">tänäpään</l>
          <stg>
             <st Contlex="AdvTemp">tänäpään</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1790,12 +1701,11 @@
    </e>
    <e>
       <lg>
-         <l>veel</l>
+         <l pos="Adv">veel</l>
          <stg>
             <st Contlex="AdvTemp">veel</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1810,12 +1720,11 @@
    </e>
    <e>
       <lg>
-         <l>ennen</l>
+         <l pos="Adv">ennen</l>
          <stg>
             <st Contlex="AdvTemp">ennen</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1830,12 +1739,11 @@
    </e>
    <e>
       <lg>
-         <l>nyt</l>
+         <l pos="Adv">nyt</l>
          <stg>
             <st Contlex="AdvTemp">nyt</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1850,12 +1758,11 @@
    </e>
    <e>
       <lg>
-         <l>aikanaa</l>
+         <l pos="Adv">aikanaa</l>
          <stg>
             <st Contlex="AdvTemp">aikanaa</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1870,12 +1777,11 @@
    </e>
    <e>
       <lg>
-         <l>jo</l>
+         <l pos="Adv">jo</l>
          <stg>
             <st Contlex="AdvTemp">jo</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1890,12 +1796,11 @@
    </e>
    <e>
       <lg>
-         <l>enstää</l>
+         <l pos="Adv">enstää</l>
          <stg>
             <st Contlex="AdvTemp">enstää</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1910,12 +1815,11 @@
    </e>
    <e>
       <lg>
-         <l>silloin</l>
+         <l pos="Adv">silloin</l>
          <stg>
             <st Contlex="AdvTemp">silloin</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1930,12 +1834,11 @@
    </e>
    <e>
       <lg>
-         <l>ennää</l>
+         <l pos="Adv">ennää</l>
          <stg>
             <st Contlex="AdvTemp">ennää</st>
          </stg>
       </lg>
-      <pos>ADV-TEMP</pos>
       <mg>
          <m>
             <head/>
@@ -1950,12 +1853,11 @@
    </e>
    <e>
       <lg>
-         <l>viisii</l>
+         <l pos="Adv">viisii</l>
          <stg>
             <st Contlex="AdvManner">viisii</st>
          </stg>
       </lg>
-      <pos>ADV-MANNER</pos>
       <mg>
          <m>
             <head/>
@@ -1970,12 +1872,11 @@
    </e>
    <e>
       <lg>
-         <l>yhelviisii</l>
+         <l pos="Adv">yhelviisii</l>
          <stg>
             <st Contlex="AdvManner">yhelviisii</st>
          </stg>
       </lg>
-      <pos>ADV-MANNER</pos>
       <mg>
          <m>
             <head/>
@@ -1990,12 +1891,11 @@
    </e>
    <e>
       <lg>
-         <l>silviisii</l>
+         <l pos="Adv">silviisii</l>
          <stg>
             <st Contlex="AdvManner">silviisii</st>
          </stg>
       </lg>
-      <pos>ADV-MANNER</pos>
       <mg>
          <m>
             <head/>

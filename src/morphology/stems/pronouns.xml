@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>miä</l>
+         <l pos="Pron">miä</l>
          <stg>
             <st Contlex="PersSg1">mi</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>mokoma</l>
+         <l pos="Pron">mokoma</l>
          <stg>
             <st Contlex="Pron-mokoma">mokom</st>
          </stg>
       </lg>
-      <pos>PRON</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>itse</l>
+         <l pos="Pron">itse</l>
          <stg>
             <st Contlex="Refl-itse">its</st>
          </stg>
       </lg>
-      <pos>PRON-REFL</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>miltain</l>
+         <l pos="Pron">miltain</l>
          <stg>
             <st Contlex="Pron-miltain">miltai</st>
          </stg>
       </lg>
-      <pos>PRON-INTERR</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>kumpain</l>
+         <l pos="Pron">kumpain</l>
          <stg>
             <st Contlex="Pron-miltain">kumpai</st>
          </stg>
       </lg>
-      <pos>PRON-INTERR</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>siä</l>
+         <l pos="Pron">siä</l>
          <stg>
             <st Contlex="PersSg2">si</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>hää</l>
+         <l pos="Pron">hää</l>
          <stg>
             <st Contlex="PersSg3">hä</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>möö</l>
+         <l pos="Pron">möö</l>
          <stg>
             <st Contlex="PersPl1">m</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>töö</l>
+         <l pos="Pron">töö</l>
          <stg>
             <st Contlex="PersPl2">t</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>höö</l>
+         <l pos="Pron">höö</l>
          <stg>
             <st Contlex="PersPl3">h</st>
          </stg>
       </lg>
-      <pos>PRON-PERS</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>se</l>
+         <l pos="Pron">se</l>
          <stg>
             <st Contlex="Dem-se">s</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>mittää</l>
+         <l pos="Pron">mittää</l>
          <stg>
             <st Contlex="Pron-Neg">mittää</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>neet</l>
+         <l pos="Pron">neet</l>
          <stg>
             <st Contlex="Dem-neet">n</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>sikäläin</l>
+         <l pos="Pron">sikäläin</l>
          <stg>
             <st Contlex="Dem-sikäläin">sikäläi</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>täkäläin</l>
+         <l pos="Pron">täkäläin</l>
          <stg>
             <st Contlex="Dem-sikäläin">täkäläi</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>meikäläin</l>
+         <l pos="Pron">meikäläin</l>
          <stg>
             <st Contlex="Dem-sikäläin">meikäläi</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>nämä</l>
+         <l pos="Pron">nämä</l>
          <stg>
             <st Contlex="Dem-nämä">nä</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>tämä</l>
+         <l pos="Pron">tämä</l>
          <stg>
             <st Contlex="Dem-tämä">tä</st>
          </stg>
       </lg>
-      <pos>PRON-DEM</pos>
       <mg>
          <m>
             <head/>
@@ -364,12 +346,11 @@
    </e>
    <e>
       <lg>
-         <l>kumpa</l>
+         <l pos="Pron">kumpa</l>
          <stg>
             <st Contlex="Pron-kumpa">kumpa</st>
          </stg>
       </lg>
-      <pos>PRON-REL</pos>
       <mg>
          <m>
             <head/>
@@ -384,12 +365,11 @@
    </e>
    <e>
       <lg>
-         <l>mikä</l>
+         <l pos="Pron">mikä</l>
          <stg>
             <st Contlex="PronInterr-mikä">mi</st>
          </stg>
       </lg>
-      <pos>Q_PRON</pos>
       <mg>
          <m>
             <head/>
@@ -404,12 +384,11 @@
    </e>
    <e>
       <lg>
-         <l>ken</l>
+         <l pos="Pron">ken</l>
          <stg>
             <st Contlex="PronInterr-ken">ke</st>
          </stg>
       </lg>
-      <pos>Q_PRON</pos>
       <mg>
          <m>
             <head/>
@@ -424,12 +403,11 @@
    </e>
    <e>
       <lg>
-         <l>kus</l>
+         <l pos="Pron">kus</l>
          <stg>
             <st Contlex="PronInterr-kus">ku</st>
          </stg>
       </lg>
-      <pos>Q_PRON</pos>
       <mg>
          <m>
             <head/>
