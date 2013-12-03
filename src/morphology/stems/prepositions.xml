@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>alatse</l>
+         <l pos="Pr">alatse</l>
          <stg>
             <st Contlex="PrepTag">alatse</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>keskeel</l>
+         <l pos="Pr">keskeel</l>
          <stg>
             <st Contlex="PrepTag">keskeel</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>ilman</l>
+         <l pos="Pr">ilman</l>
          <stg>
             <st Contlex="PrepTag">ilman</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>jälkkeen</l>
+         <l pos="Pr">jälkkeen</l>
          <stg>
             <st Contlex="PrepTag">jälkkeen</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>krome</l>
+         <l pos="Pr">krome</l>
          <stg>
             <st Contlex="PrepTag">krome</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>läpi</l>
+         <l pos="Pr">läpi</l>
          <stg>
             <st Contlex="PrepTag">läpi</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>üli</l>
+         <l pos="Pr">üli</l>
          <stg>
             <st Contlex="PrepTag">üli</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>enne</l>
+         <l pos="Pr">enne</l>
          <stg>
             <st Contlex="PrepTag">enne</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>ilma</l>
+         <l pos="Pr">ilma</l>
          <stg>
             <st Contlex="PrepTag">ilma</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>perään</l>
+         <l pos="Pr">perään</l>
          <stg>
             <st Contlex="PrepTag">perään</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>poikin</l>
+         <l pos="Pr">poikin</l>
          <stg>
             <st Contlex="PrepTag">poikin</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>liki</l>
+         <l pos="Pr">liki</l>
          <stg>
             <st Contlex="PrepTag">liki</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>ümpär</l>
+         <l pos="Pr">ümpär</l>
          <stg>
             <st Contlex="PrepTag">ümpär</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>vassen</l>
+         <l pos="Pr">vassen</l>
          <stg>
             <st Contlex="PrepTag">vassen</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>vassaa</l>
+         <l pos="Pr">vassaa</l>
          <stg>
             <st Contlex="PrepTag">vassaa</st>
          </stg>
       </lg>
-      <pos>PREP</pos>
       <mg>
          <m>
             <head/>

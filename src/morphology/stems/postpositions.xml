@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>al</l>
+         <l pos="Po">al</l>
          <stg>
             <st Contlex="PoTag">al</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>alle</l>
+         <l pos="Po">alle</l>
          <stg>
             <st Contlex="PoTag">alle</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -44,12 +42,11 @@
    </e>
    <e>
       <lg>
-         <l>avul</l>
+         <l pos="Po">avul</l>
          <stg>
             <st Contlex="PoTag">avul</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -64,12 +61,11 @@
    </e>
    <e>
       <lg>
-         <l>eest</l>
+         <l pos="Po">eest</l>
          <stg>
             <st Contlex="PoTag">eest</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -84,12 +80,11 @@
    </e>
    <e>
       <lg>
-         <l>yli</l>
+         <l pos="Po">yli</l>
          <stg>
             <st Contlex="PoTag">yli</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -104,12 +99,11 @@
    </e>
    <e>
       <lg>
-         <l>loon</l>
+         <l pos="Po">loon</l>
          <stg>
             <st Contlex="PoTag">loon</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -124,12 +118,11 @@
    </e>
    <e>
       <lg>
-         <l>loitse</l>
+         <l pos="Po">loitse</l>
          <stg>
             <st Contlex="PoTag">loitse</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -144,12 +137,11 @@
    </e>
    <e>
       <lg>
-         <l>seas</l>
+         <l pos="Po">seas</l>
          <stg>
             <st Contlex="PoTag">seas</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -164,12 +156,11 @@
    </e>
    <e>
       <lg>
-         <l>ympäär</l>
+         <l pos="Po">ympäär</l>
          <stg>
             <st Contlex="PoTag">ympäär</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -184,12 +175,11 @@
    </e>
    <e>
       <lg>
-         <l>pitkin</l>
+         <l pos="Po">pitkin</l>
          <stg>
             <st Contlex="PoTag">pitkin</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -204,12 +194,11 @@
    </e>
    <e>
       <lg>
-         <l>ennen</l>
+         <l pos="Po">ennen</l>
          <stg>
             <st Contlex="PoTag">ennen</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -224,12 +213,11 @@
    </e>
    <e>
       <lg>
-         <l>saa</l>
+         <l pos="Po">saa</l>
          <stg>
             <st Contlex="PoTag">saa</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -244,12 +232,11 @@
    </e>
    <e>
       <lg>
-         <l>vastaa</l>
+         <l pos="Po">vastaa</l>
          <stg>
             <st Contlex="PoTag">vastaa</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -264,12 +251,11 @@
    </e>
    <e>
       <lg>
-         <l>pääs</l>
+         <l pos="Po">pääs</l>
          <stg>
             <st Contlex="PoTag">pääs</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -284,12 +270,11 @@
    </e>
    <e>
       <lg>
-         <l>möötää</l>
+         <l pos="Po">möötää</l>
          <stg>
             <st Contlex="PoTag">möötää</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -304,12 +289,11 @@
    </e>
    <e>
       <lg>
-         <l>jälest</l>
+         <l pos="Po">jälest</l>
          <stg>
             <st Contlex="PoTag">jälest</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -324,12 +308,11 @@
    </e>
    <e>
       <lg>
-         <l>mööt</l>
+         <l pos="Po">mööt</l>
          <stg>
             <st Contlex="PoTag">mööt</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -344,12 +327,11 @@
    </e>
    <e>
       <lg>
-         <l>poolest</l>
+         <l pos="Po">poolest</l>
          <stg>
             <st Contlex="PoTag">poolest</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -364,12 +346,11 @@
    </e>
    <e>
       <lg>
-         <l>ees</l>
+         <l pos="Po">ees</l>
          <stg>
             <st Contlex="PoTag">ees</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -384,12 +365,11 @@
    </e>
    <e>
       <lg>
-         <l>sises</l>
+         <l pos="Po">sises</l>
          <stg>
             <st Contlex="PoTag">sises</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -404,12 +384,11 @@
    </e>
    <e>
       <lg>
-         <l>sissee</l>
+         <l pos="Po">sissee</l>
          <stg>
             <st Contlex="PoTag">sissee</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -424,12 +403,11 @@
    </e>
    <e>
       <lg>
-         <l>sisest</l>
+         <l pos="Po">sisest</l>
          <stg>
             <st Contlex="PoTag">sisest</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -444,12 +422,11 @@
    </e>
    <e>
       <lg>
-         <l>välil</l>
+         <l pos="Po">välil</l>
          <stg>
             <st Contlex="PoTag">välil</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -464,12 +441,11 @@
    </e>
    <e>
       <lg>
-         <l>kautta</l>
+         <l pos="Po">kautta</l>
          <stg>
             <st Contlex="PoTag">kautta</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -484,12 +460,11 @@
    </e>
    <e>
       <lg>
-         <l>peräst</l>
+         <l pos="Po">peräst</l>
          <stg>
             <st Contlex="PoTag">peräst</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -504,12 +479,11 @@
    </e>
    <e>
       <lg>
-         <l>välis</l>
+         <l pos="Po">välis</l>
          <stg>
             <st Contlex="PoTag">välis</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -524,12 +498,11 @@
    </e>
    <e>
       <lg>
-         <l>mukkaa</l>
+         <l pos="Po">mukkaa</l>
          <stg>
             <st Contlex="PoTag">mukkaa</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -544,12 +517,11 @@
    </e>
    <e>
       <lg>
-         <l>jälkkiä</l>
+         <l pos="Po">jälkkiä</l>
          <stg>
             <st Contlex="PoTag">jälkkiä</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -564,12 +536,11 @@
    </e>
    <e>
       <lg>
-         <l>kera</l>
+         <l pos="Po">kera</l>
          <stg>
             <st Contlex="PoTag">kera</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>
@@ -584,12 +555,11 @@
    </e>
    <e>
       <lg>
-         <l>vart</l>
+         <l pos="Po">vart</l>
          <stg>
             <st Contlex="PoTag">vart</st>
          </stg>
       </lg>
-      <pos>POSTP</pos>
       <mg>
          <m>
             <head/>

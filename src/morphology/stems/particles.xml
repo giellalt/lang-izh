@@ -4,12 +4,11 @@
    xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
    <e>
       <lg>
-         <l>laa</l>
+         <l pos="Pcle">laa</l>
          <stg>
             <st Contlex="PcleTag">laa</st>
          </stg>
       </lg>
-      <pos>PCLE</pos>
       <mg>
          <m>
             <head/>
@@ -24,12 +23,11 @@
    </e>
    <e>
       <lg>
-         <l>vet</l>
+         <l pos="Pcle">vet</l>
          <stg>
             <st Contlex="PcleTag">vet</st>
          </stg>
       </lg>
-      <pos>PCLE</pos>
       <mg>
          <m>
             <head/>
