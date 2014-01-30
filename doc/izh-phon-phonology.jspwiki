@@ -5,102 +5,102 @@
 
 !The letters
 
- * a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö 
- * A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö 
- * ş ƶ y											    
- * Ş Ƶ Y											    
+ * __a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö __
+ * __A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö __
+ * __ş ƶ y											    __
+ * __Ş Ƶ Y											    __
 
- * ь  Sьktьvkar
- * Ь 
+ * __ь __ Sьktьvkar
+ * __Ь __
 
 !Vowel harmony with "(t)a/ä"
- * AÄ1:a 
- * AÄ1:ä 
- * AÄ1:0 
+ * __AÄ1:a __
+ * __AÄ1:ä __
+ * __AÄ1:0 __
 
 !Vowel harmony with "loi/löi" also kalatOÖ1in
- * OÖ1:o 
- * OÖ1:ö 
+ * __OÖ1:o __
+ * __OÖ1:ö __
 
 !Vowel harmony with "ttu/tty"
- * UY1:u 
- * UY1:y 
+ * __UY1:u __
+ * __UY1:y __
 
 !this appears in the illative
- * V1:a 
- * V1:e 
- * V1:i 
- * V1:o 
- * V1:u 
- * V1:y 
- * V1:ä 
- * V1:ö 
+ * __V1:a __
+ * __V1:e __
+ * __V1:i __
+ * __V1:o __
+ * __V1:u __
+ * __V1:y __
+ * __V1:ä __
+ * __V1:ö __
 
 !These appear with the inessive and adessive
- * V2:a 
- * V2:e 
- * V2:i 
- * V2:o 
- * V2:u 
- * V2:y 
- * V2:ä 
- * V2:ö  
+ * __V2:a __
+ * __V2:e __
+ * __V2:i __
+ * __V2:o __
+ * __V2:u __
+ * __V2:y __
+ * __V2:ä __
+ * __V2:ö __ 
 
 !These reduplicate the preceding vowel if it in turn is preceded by a consonant
- * V3:a 
- * V3:e 
- * V3:i 
- * V3:o 
- * V3:u 
- * V3:y 
- * V3:ä 
- * V3:ö 
- * V3:0 
+ * __V3:a __
+ * __V3:e __
+ * __V3:i __
+ * __V3:o __
+ * __V3:u __
+ * __V3:y __
+ * __V3:ä __
+ * __V3:ö __
+ * __V3:0 __
 
 !this k is not effected by gradation
- * K1:k 
- * %^NoGrad:0  This will be placed after a stem to break Gradation
+ * __K1:k __
+ * __%^NoGrad:0 __ This will be placed after a stem to break Gradation
 
 !this weakens the stem ''ompel'' to ''ommel''
- * %^WGStem:0 
+ * __%^WGStem:0 __
 
 !The ti => si
- * %^TS:0 
+ * __%^TS:0 __
 
 !Vowel raising
- * %^RVws:0 
+ * __%^RVws:0 __
 
- * %-     Hyphen in  constructions 
- * %>:0  
+ * __%-    __ Hyphen in  constructions 
+ * __%>:0  __
 #:0     * hash is Word boundary for both lexicalised and dynamic compounds
 
- * Cx  these should probably not be declared
- * Cy  these should probably not be declared
- * X   these should probably not be declared
- * Y   these should probably not be declared
+ * __Cx __ these should probably not be declared
+ * __Cy __ these should probably not be declared
+ * __X  __ these should probably not be declared
+ * __Y  __ these should probably not be declared
 
- * %^LVws:0		 
- * %^LCns:0		 
- * %^WCns:0		 
- * %^AtoO:0		 
- * %^ÄtoÖ:0		 
- * %^OddSyll:0		 
- * %^StretchSyll2:0 
- * %^SyllBr:0		 
- * %^E1:0			 
+ * __%^LVws:0		 __
+ * __%^LCns:0		 __
+ * __%^WCns:0		 __
+ * __%^AtoO:0		 __
+ * __%^ÄtoÖ:0		 __
+ * __%^OddSyll:0		 __
+ * __%^StretchSyll2:0 __
+ * __%^SyllBr:0		 __
+ * __%^E1:0			 __
 
 
 
 !!Sets
 
 
- * VwsBack = a o u ;							    
- * VwsFront = ä ö y ü ;						    
- * VwsNeutral = e i ь ; 						    
- * VwsNonHigh = a o ä ö e ;					    
- * Vws = a o u ä ö y ü e i ь ;					    
- * Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; 
- * Letters = Vws Cns ;							    
+ * __VwsBack = a o u ;		__
+ * __VwsFront = ä ö y ü ;		__
+ * __VwsNeutral = e i ь ; 		__
+ * __VwsNonHigh = a o ä ö e ;	__
+ * __Vws = a o u ä ö y ü e i ь ;	__
+ * __Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; __
+ * __Letters = Vws Cns ;		__
 
 
 !!Definitions

@@ -1,11 +1,11 @@
 !!!Verb inflection
 !!Irregular verbs
 
- LEXICON V-ei  lists the negative verb, including imperative forms.
+ * __LEXICON V-ei __ lists the negative verb, including imperative forms.
 
- LEXICON K_V-neg  gives the focus particle for +Neg, and directs to K_V.
+ * __LEXICON K_V-neg __ gives the focus particle for +Neg, and directs to K_V.
 
- LEXICON V-olla  gives the forms of olla, and redirects to K_V
+ * __LEXICON V-olla __ gives the forms of olla, and redirects to K_V
 
 
 oon
@@ -16,9 +16,9 @@ oon
 
 !!Regular verbs
 
- LEXICON V-jäävvä  so far only splits to the next lexicon
+ * __LEXICON V-jäävvä __ so far only splits to the next lexicon
 
- LEXICON V-jäävvä_01 . 
+ * __LEXICON V-jäävvä_01 __. 
 TODO: Document difference between this and previous
 
 
@@ -27,7 +27,7 @@ TODO: Document difference between this and previous
 
 
 
- LEXICON V-käyvvä   käyvvä:kä
+ * __LEXICON V-käyvvä __  käyvvä:kä
 TODO: Dokument difference between this and previous
 
 
@@ -36,7 +36,7 @@ TODO: Dokument difference between this and previous
 
 
 
- LEXICON V-tuuvva  
+ * __LEXICON V-tuuvva __ 
 * tuuvva:too
 
 
@@ -45,22 +45,22 @@ TODO: Dokument difference between this and previous
 
 
 
- LEXICON V-voija   voija:voi
+ * __LEXICON V-voija  __ voija:voi
 
 
 
 
 
 
- LEXICON V-antaa  redirects to next only antaa:ant
+ * __LEXICON V-antaa __ redirects to next only antaa:ant
 
- LEXICON V-antaa_01  
-
-
+ * __LEXICON V-antaa_01 __ 
 
 
 
- LEXICON V-lukkia  
+
+
+ * __LEXICON V-lukkia __ 
 * lukkia:luk
 
 
@@ -68,10 +68,10 @@ TODO: Dokument difference between this and previous
 
 
 
- LEXICON V-tiitää 
+ * __LEXICON V-tiitää __
 * tiitää:tiit
 
- LEXICON V-tiitää_01 
+ * __LEXICON V-tiitää_01 __
 tiije
 
 tiitämätöin
@@ -79,9 +79,9 @@ tiitää
 
 
 
- LEXICON V-näyttää  näyttää:näytt
+ * __LEXICON V-näyttää __ näyttää:näytt
 
- LEXICON V-näyttää_01 
+ * __LEXICON V-näyttää_01 __
 näytetää
 
 näyttännöö
@@ -93,128 +93,128 @@ näyttää
 näyttämää
 
 
- LEXICON V-laatia  !! laatia:laati
+ * __LEXICON V-laatia __ !! laatia:laati
 laatia:laati
 
 !!3-syllable
 kiirehtiä:kiireh
 
 
- LEXICON V-hyväksyä 
+ * __LEXICON V-hyväksyä __
 
- LEXICON V-kutsua 
+ * __LEXICON V-kutsua __
 
- LEXICON V-kutsua_01 
+ * __LEXICON V-kutsua_01 __
 
 
 
 
 
- LEXICON V-kirjuttaa 
+ * __LEXICON V-kirjuttaa __
 
- LEXICON V-kirjuttaa_01 
+ * __LEXICON V-kirjuttaa_01 __
 
 
 
 
- LEXICON V-tulla 
+ * __LEXICON V-tulla __
 
- LEXICON V-tulla_01 
+ * __LEXICON V-tulla_01 __
 
 
 
 
- LEXICON V-ommella 
+ * __LEXICON V-ommella __
 
- LEXICON V-ommella_01 
+ * __LEXICON V-ommella_01 __
 
 
 
 
 
- LEXICON V-nähä 
+ * __LEXICON V-nähä __
 
- LEXICON V-nähä_01 
+ * __LEXICON V-nähä_01 __
 
 
 
 
- LEXICON V-panna 
+ * __LEXICON V-panna __
 
- LEXICON V-panna_01 
+ * __LEXICON V-panna_01 __
 
 
 
 
- LEXICON V-sannoa 
+ * __LEXICON V-sannoa __
 
 
 
 
- LEXICON V-painuttaissa 
+ * __LEXICON V-painuttaissa __
 
 
 
 
- LEXICON V-pittiissä 
+ * __LEXICON V-pittiissä __
 
- LEXICON V-pittiissä_01 
+ * __LEXICON V-pittiissä_01 __
 
 
- !LEXICON V-joossa_01 
+ * __!LEXICON V-joossa_01 __
 
 
- LEXICON V-vuhissa_01 
+ * __LEXICON V-vuhissa_01 __
 
 
 
 
 
 
- LEXICON V-laatihussa 
+ * __LEXICON V-laatihussa __
 
 
 
- LEXICON V-määrätä  goes to V-arvata
+ * __LEXICON V-määrätä __ goes to V-arvata
 
- LEXICON V-upota  goes to V-arvata
+ * __LEXICON V-upota __ goes to V-arvata
 
 
- LEXICON V-arvata 
+ * __LEXICON V-arvata __
 
 
 
 
- LEXICON V-hävitä 
+ * __LEXICON V-hävitä __
 
 
 
 
- LEXICON V-merkitä 
+ * __LEXICON V-merkitä __
 
- LEXICON V-merkitä_01 
+ * __LEXICON V-merkitä_01 __
 
 
 
 
 
- LEXICON V-ahavojja 
+ * __LEXICON V-ahavojja __
 
 
 !!DERIVATION 
 
 * Actor in jA
- LEXICON V-actor_jA 
+ * __LEXICON V-actor_jA __
 
 
 
 !!PARTICIPLES
 
 
- LEXICON V-ActPrsPrc 
- LEXICON V-ActPrtPrc_nt 
+ * __LEXICON V-ActPrsPrc __
+ * __LEXICON V-ActPrtPrc_nt __
 
- LEXICON V-ActPrtPrc_rt 
+ * __LEXICON V-ActPrtPrc_rt __
 
 
 
@@ -223,23 +223,23 @@ kiirehtiä:kiireh
 
 !INDICATIVE PRETERITE
 
- LEXICON IndPrt  split 1-2 vs 3
+ * __LEXICON IndPrt __ split 1-2 vs 3
 
- LEXICON IndPrt_1-2 
+ * __LEXICON IndPrt_1-2 __
 
- LEXICON IndPrt_3 
+ * __LEXICON IndPrt_3 __
 
- LEXICON IND-PRT-SG1 
+ * __LEXICON IND-PRT-SG1 __
 
- LEXICON IND-PRT-SG2 
+ * __LEXICON IND-PRT-SG2 __
 
- LEXICON IND-PRT-SG3 
+ * __LEXICON IND-PRT-SG3 __
 
- LEXICON IND-PRT-PL1 
+ * __LEXICON IND-PRT-PL1 __
 
- LEXICON IND-PRT-PL2 
+ * __LEXICON IND-PRT-PL2 __
 
- LEXICON IND-PRT-PL3 
+ * __LEXICON IND-PRT-PL3 __
 This is not working 2012-10-30
 
 
@@ -247,17 +247,17 @@ This is not working 2012-10-30
 
 !!CONDITIONAL 
 
- LEXICON CondPers 
+ * __LEXICON CondPers __
 
 !!POTENTIAL
 
 :n, :s, :l, :r, :n
- LEXICON PotPers 
+ * __LEXICON PotPers __
 
 
 !!IMPERATIVE !!
 
- LEXICON ImprtPers_k 
+ * __LEXICON ImprtPers_k __
 
 
 
