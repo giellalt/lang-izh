@@ -6,89 +6,89 @@
 !! !The letters
 
 Alphabet
-a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö !!= * @CODE@
-A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö !!= * @CODE@
-ş ƶ y											    !!= * @CODE@
-Ş Ƶ Y											    !!= * @CODE@
+a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö !!= * __@CODE@__
+A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö !!= * __@CODE@__
+ş ƶ y											    !!= * __@CODE@__
+Ş Ƶ Y											    !!= * __@CODE@__
 
-ь !!= * @CODE@ Sьktьvkar
-Ь !!= * @CODE@
+ь !!= * __@CODE@__ Sьktьvkar
+Ь !!= * __@CODE@__
 
 !! !Vowel harmony with "(t)a/ä"
-AÄ1:a !!= * @CODE@
-AÄ1:ä !!= * @CODE@
-AÄ1:0 !!= * @CODE@
+AÄ1:a !!= * __@CODE@__
+AÄ1:ä !!= * __@CODE@__
+AÄ1:0 !!= * __@CODE@__
 
 !! !Vowel harmony with "loi/löi" also kalatOÖ1in
-OÖ1:o !!= * @CODE@
-OÖ1:ö !!= * @CODE@
+OÖ1:o !!= * __@CODE@__
+OÖ1:ö !!= * __@CODE@__
 
 !! !Vowel harmony with "ttu/tty"
-UY1:u !!= * @CODE@
-UY1:y !!= * @CODE@
+UY1:u !!= * __@CODE@__
+UY1:y !!= * __@CODE@__
 
 !! !this appears in the illative
-V1:a !!= * @CODE@
-V1:e !!= * @CODE@
-V1:i !!= * @CODE@
-V1:o !!= * @CODE@
-V1:u !!= * @CODE@
-V1:y !!= * @CODE@
-V1:ä !!= * @CODE@
-V1:ö !!= * @CODE@
+V1:a !!= * __@CODE@__
+V1:e !!= * __@CODE@__
+V1:i !!= * __@CODE@__
+V1:o !!= * __@CODE@__
+V1:u !!= * __@CODE@__
+V1:y !!= * __@CODE@__
+V1:ä !!= * __@CODE@__
+V1:ö !!= * __@CODE@__
 
 !! !These appear with the inessive and adessive
-V2:a !!= * @CODE@
-V2:e !!= * @CODE@
-V2:i !!= * @CODE@
-V2:o !!= * @CODE@
-V2:u !!= * @CODE@
-V2:y !!= * @CODE@
-V2:ä !!= * @CODE@
-V2:ö !!= * @CODE@ 
+V2:a !!= * __@CODE@__
+V2:e !!= * __@CODE@__
+V2:i !!= * __@CODE@__
+V2:o !!= * __@CODE@__
+V2:u !!= * __@CODE@__
+V2:y !!= * __@CODE@__
+V2:ä !!= * __@CODE@__
+V2:ö !!= * __@CODE@__ 
 
 !! !These reduplicate the preceding vowel if it in turn is preceded by a consonant
-V3:a !!= * @CODE@
-V3:e !!= * @CODE@
-V3:i !!= * @CODE@
-V3:o !!= * @CODE@
-V3:u !!= * @CODE@
-V3:y !!= * @CODE@
-V3:ä !!= * @CODE@
-V3:ö !!= * @CODE@
-V3:0 !!= * @CODE@
+V3:a !!= * __@CODE@__
+V3:e !!= * __@CODE@__
+V3:i !!= * __@CODE@__
+V3:o !!= * __@CODE@__
+V3:u !!= * __@CODE@__
+V3:y !!= * __@CODE@__
+V3:ä !!= * __@CODE@__
+V3:ö !!= * __@CODE@__
+V3:0 !!= * __@CODE@__
 
 !! !this k is not effected by gradation
-K1:k !!= * @CODE@
-%^NoGrad:0 !!= * @CODE@ This will be placed after a stem to break Gradation
+K1:k !!= * __@CODE@__
+%^NoGrad:0 !!= * __@CODE@__ This will be placed after a stem to break Gradation
 
 !! !this weakens the stem ''ompel'' to ''ommel''
-%^WGStem:0 !!= * @CODE@
+%^WGStem:0 !!= * __@CODE@__
 
 !! !The ti => si
-%^TS:0 !!= * @CODE@
+%^TS:0 !!= * __@CODE@__
 
 !! !Vowel raising
-%^RVws:0 !!= * @CODE@
+%^RVws:0 !!= * __@CODE@__
 
-%-    !!= * @CODE@ Hyphen in  constructions 
-%>:0  !!= * @CODE@
+%-    !!= * __@CODE@__ Hyphen in  constructions 
+%>:0  !!= * __@CODE@__
 #:0   !!= * hash is Word boundary for both lexicalised and dynamic compounds
 
-Cx !!= * @CODE@ these should probably not be declared
-Cy !!= * @CODE@ these should probably not be declared
-X  !!= * @CODE@ these should probably not be declared
-Y  !!= * @CODE@ these should probably not be declared
+Cx !!= * __@CODE@__ these should probably not be declared
+Cy !!= * __@CODE@__ these should probably not be declared
+X  !!= * __@CODE@__ these should probably not be declared
+Y  !!= * __@CODE@__ these should probably not be declared
 
-%^LVws:0		 !!= * @CODE@
-%^LCns:0		 !!= * @CODE@
-%^WCns:0		 !!= * @CODE@
-%^AtoO:0		 !!= * @CODE@
-%^ÄtoÖ:0		 !!= * @CODE@
-%^OddSyll:0		 !!= * @CODE@
-%^StretchSyll2:0 !!= * @CODE@
-%^SyllBr:0		 !!= * @CODE@
-%^E1:0			 !!= * @CODE@
+%^LVws:0		 !!= * __@CODE@__
+%^LCns:0		 !!= * __@CODE@__
+%^WCns:0		 !!= * __@CODE@__
+%^AtoO:0		 !!= * __@CODE@__
+%^ÄtoÖ:0		 !!= * __@CODE@__
+%^OddSyll:0		 !!= * __@CODE@__
+%^StretchSyll2:0 !!= * __@CODE@__
+%^SyllBr:0		 !!= * __@CODE@__
+%^E1:0			 !!= * __@CODE@__
 
 ;
 
@@ -97,13 +97,13 @@ Y  !!= * @CODE@ these should probably not be declared
 
 Sets
 
-VwsBack = a o u ;							    !!= * @CODE@
-VwsFront = ä ö y ü ;						    !!= * @CODE@
-VwsNeutral = e i ь ; 						    !!= * @CODE@
-VwsNonHigh = a o ä ö e ;					    !!= * @CODE@
-Vws = a o u ä ö y ü e i ь ;					    !!= * @CODE@
-Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; !!= * @CODE@
-Letters = Vws Cns ;							    !!= * @CODE@
+VwsBack = a o u ;		!!= * __@CODE@__
+VwsFront = ä ö y ü ;		!!= * __@CODE@__
+VwsNeutral = e i ь ; 		!!= * __@CODE@__
+VwsNonHigh = a o ä ö e ;	!!= * __@CODE@__
+Vws = a o u ä ö y ü e i ь ;	!!= * __@CODE@__
+Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; !!= * __@CODE@__
+Letters = Vws Cns ;		!!= * __@CODE@__
 
 
 !! !!Definitions

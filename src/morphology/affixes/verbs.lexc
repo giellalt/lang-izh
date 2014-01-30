@@ -2,7 +2,7 @@
 ! ---------------
 !! !!Irregular verbs
 
-LEXICON V-ei !!= @CODE@ lists the negative verb, including imperative forms.
+LEXICON V-ei !!= * __@CODE@__ lists the negative verb, including imperative forms.
 +V+Neg+Sg1:en   K_V-neg   ; ! en
 +V+Neg+Sg2:et   K_V-neg   ;
 +V+Neg+Sg3:ei    K_V-neg   ;
@@ -14,11 +14,11 @@ LEXICON V-ei !!= @CODE@ lists the negative verb, including imperative forms.
 +V+Neg+Imprt+Pl2:elkää   #  ;
 +V+Neg+Imprt+Pl3:elkööt   #  ;
 
-LEXICON K_V-neg !!= @CODE@ gives the focus particle for +Neg, and directs to K_V.
+LEXICON K_V-neg !!= * __@CODE@__ gives the focus particle for +Neg, and directs to K_V.
 +Foc/kä:kä # ;
  K_V   ;
 
-LEXICON V-olla !!= @CODE@ gives the forms of olla, and redirects to K_V
+LEXICON V-olla !!= * __@CODE@__ gives the forms of olla, and redirects to K_V
 +V+Ind+Prs+Sg1:oon	K_V   ; ! oon
 +V+Ind+Prs+Sg2:oot	K_V   ;
 +V+Ind+Prs+Sg3:ono	K_V   ;
@@ -74,10 +74,10 @@ LEXICON V-olla !!= @CODE@ gives the forms of olla, and redirects to K_V
 
 !! !!Regular verbs
 
-LEXICON V-jäävvä !!= @CODE@ so far only splits to the next lexicon
+LEXICON V-jäävvä !!= * __@CODE@__ so far only splits to the next lexicon
 +V: V-jäävvä_01 ;
 
-LEXICON V-jäävvä_01 !!= @CODE@. 
+LEXICON V-jäävvä_01 !!= * __@CODE@__. 
 !! TODO: Document difference between this and previous
 +Ind+Prs+Sg1:n	#   ; ! oon
 +Ind+Prs+Sg2:t 	#   ;
@@ -130,7 +130,7 @@ LEXICON V-jäävvä_01 !!= @CODE@.
 
 
 
-LEXICON V-käyvvä !!= @CODE@  käyvvä:kä
+LEXICON V-käyvvä !!= * __@CODE@__  käyvvä:kä
 !! TODO: Dokument difference between this and previous
 +V: V-käyvvä_01 ;
 
@@ -186,7 +186,7 @@ LEXICON V-käyvvä_01
 +Der/miin:ymi N-inmihiin ; !käymiin
 
 
-LEXICON V-tuuvva !!= @CODE@ 
+LEXICON V-tuuvva !!= * __@CODE@__ 
 !! * tuuvva:too
 +V: V-tuuvva_01 ;
 
@@ -241,7 +241,7 @@ LEXICON V-tuuvva_01
 +Der/miin:mi N-inmihiin ;
 
 
-LEXICON V-voija  !!= @CODE@ voija:voi
+LEXICON V-voija  !!= * __@CODE@__ voija:voi
 +V+Ind+Prs+Sg1:n	#   ; ! voin
 +V+Ind+Prs+Sg2:t 	#   ;
 +V+Ind+Prs+Sg3:p	K_V   ;
@@ -297,10 +297,10 @@ LEXICON V-voija  !!= @CODE@ voija:voi
 ! +V+Ger:ollees		#   ;
 !+V+Der/miin:a%>mi N-inmihiin ;
 
-LEXICON V-antaa !!= @CODE@ redirects to next only antaa:ant
+LEXICON V-antaa !!= * __@CODE@__ redirects to next only antaa:ant
 +V: V-antaa_01 ;
 
-LEXICON V-antaa_01 !!= @CODE@ 
+LEXICON V-antaa_01 !!= * __@CODE@__ 
 +Ind+Prs+Sg1:a%>%^WCnsn	#   ; ! annan
 +Ind+Prs+Sg2:a%>%^WCnst	#   ;
 +Ind+Prs+Sg3:a%>%^LCnsAÄ1	K_V   ;
@@ -355,7 +355,7 @@ LEXICON V-antaa_01 !!= @CODE@
 ! +Ger:ollees		#   ;
 +Der/miin:a%>mi N-inmihiin ;
 
-LEXICON V-lukkia !!= @CODE@ 
+LEXICON V-lukkia !!= * __@CODE@__ 
 !! * lukkia:luk
 +V: V-lukkia_01 ;
 
@@ -404,11 +404,11 @@ LEXICON V-lukkia_01 ! lukkia:luk
 +Der/miin:OÖ1%>mi N-inmihiin ;
 
 
-LEXICON V-tiitää !!= @CODE@
+LEXICON V-tiitää !!= * __@CODE@__
 !! * tiitää:tiit
 +V: V-tiitää_01 ;
 
-LEXICON V-tiitää_01 !!= @CODE@
+LEXICON V-tiitää_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! tiijen
 +Ind+Prs+Sg2:e%>%^WCnst	#   ; ! tiijet
 !+Ind+Prs+Sg3:AÄ1%>%^LCnsAÄ1		K_V   ;
@@ -469,10 +469,10 @@ LEXICON V-tiitää_01 !!= @CODE@
 
 
 
-LEXICON V-näyttää !!= @CODE@ näyttää:näytt
+LEXICON V-näyttää !!= * __@CODE@__ näyttää:näytt
 +V: V-näyttää_01 ;
 
-LEXICON V-näyttää_01 !!= @CODE@
+LEXICON V-näyttää_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:AÄ1%>%^WCnsn	K_V  ; ! oon
 +Ind+Prs+Sg2:AÄ1%>%^WCnst	K_V   ;
 +Ind+Prs+Sg3:AÄ1%>%^LCnsAÄ1		K_V   ;
@@ -524,7 +524,7 @@ LEXICON V-näyttää_01 !!= @CODE@
 +Der/miin:AÄ1mi N-inmihiin ;
 
 
-LEXICON V-laatia !!= @CODE@ !! laatia:laati
+LEXICON V-laatia !!= * __@CODE@__ !! laatia:laati
  V-kutsua ;
  IndPrt ; ! laati
 
@@ -544,14 +544,14 @@ LEXICON V-ilmahtua
 +V+Ind+Prs+ConNeg:hUY1 K ;
 
 ! hyväksyä:hyväksy
-LEXICON V-hyväksyä !!= @CODE@
+LEXICON V-hyväksyä !!= * __@CODE@__
 +V: V-kutsua_01 ;
 
 ! kutsua:kutsu
-LEXICON V-kutsua !!= @CODE@
+LEXICON V-kutsua !!= * __@CODE@__
 +V: V-kutsua_01 ;
 
-LEXICON V-kutsua_01 !!= @CODE@
+LEXICON V-kutsua_01 !!= * __@CODE@__
 
 +Ind+Prs+Sg1:%>%^WCnsn	#   ; ! kutsun
 +Ind+Prs+Sg2:%>%^WCnst	#   ;
@@ -605,10 +605,10 @@ LEXICON V-kutsua_01 !!= @CODE@
 +Der/min:mi N-mehiläin ; !kutsumin
 
 ! kirjuttaa:
-LEXICON V-kirjuttaa !!= @CODE@
+LEXICON V-kirjuttaa !!= * __@CODE@__
 +V: V-kirjuttaa_01 ;
 
-LEXICON V-kirjuttaa_01 !!= @CODE@
+LEXICON V-kirjuttaa_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! kirjutan
 +Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
 +Ind+Prs+Sg3:AÄ1%>V3	K_V   ;
@@ -671,10 +671,10 @@ LEXICON V-kirjuttaa_01 !!= @CODE@
 +Der/miin:AÄ1mi N-inmihiin ; !kirjuttammiin
 
 !tulla:tul
-LEXICON V-tulla !!= @CODE@
+LEXICON V-tulla !!= * __@CODE@__
 +V: V-tulla_01 ;
 
-LEXICON V-tulla_01 !!= @CODE@
+LEXICON V-tulla_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
 +Ind+Prs+Sg2:e%>%^WCnst	#   ;
 +Ind+Prs+Sg3:%>%^LCnsOÖ1OÖ1 K_V ; !%>%^LCns%^LVws	#   ; !tulloo
@@ -730,10 +730,10 @@ LEXICON V-tulla_01 !!= @CODE@
 +Der/miin:emi N-inmihiin ; ! tulomiin !!
 
 !ommella:ompel
-LEXICON V-ommella !!= @CODE@
+LEXICON V-ommella !!= * __@CODE@__
 +V: V-ommella_01 ;
 
-LEXICON V-ommella_01 !!= @CODE@
+LEXICON V-ommella_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
 +Ind+Prs+Sg2:e%>%^WCnst	#   ;
 +Ind+Prs+Sg3:%>%^LCnsOÖ1OÖ1 K_V ; !%>%^LCns%^LVws	#   ; !tulloo
@@ -783,10 +783,10 @@ LEXICON V-ommella_01 !!= @CODE@
 
 
 ! nähä:nä
-LEXICON V-nähä !!= @CODE@
+LEXICON V-nähä !!= * __@CODE@__
 +V: V-nähä_01 ;
 
-LEXICON V-nähä_01 !!= @CODE@
+LEXICON V-nähä_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:ä%>%^WCnsn	#   ; ! oon
 +Ind+Prs+Sg2:ä%>%^WCnst	#   ;
 +Ind+Prs+Sg3:k%>%^LCnsOÖ1%>V1	K_V   ;
@@ -848,10 +848,10 @@ LEXICON V-nähä_01 !!= @CODE@
 +Der/miin:kemi N-inmihiin ; 
 
 ! panna:pa
-LEXICON V-panna !!= @CODE@
+LEXICON V-panna !!= * __@CODE@__
 +V: V-panna_01 ;
 
-LEXICON V-panna_01 !!= @CODE@
+LEXICON V-panna_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:AÄ1%>%^WCnsn	#   ; ! oon
 +Ind+Prs+Sg2:AÄ1%>%^WCnst	#   ;
 +Ind+Prs+Sg3:nOÖ1%>%^LVws	K_V   ;
@@ -905,7 +905,7 @@ LEXICON V-panna_01 !!= @CODE@
 +Der/miin:nOÖ1%>mi N-inmihiin ;
 
 
-LEXICON V-sannoa !!= @CODE@
+LEXICON V-sannoa !!= * __@CODE@__
 +V+Ind+Prs+Sg1:o%>%^WCnsn	#   ; ! oon
 +V+Ind+Prs+Sg2:o%>%^WCnst	#   ;
 +V+Ind+Prs+Sg3:no%>%^LVws	K_V   ;
@@ -961,7 +961,7 @@ LEXICON V-sannoa !!= @CODE@
 
 ! reflexive
 !painuttaissa:painuttai
-LEXICON V-painuttaissa !!= @CODE@
+LEXICON V-painuttaissa !!= * __@CODE@__
 +V+Ind+Prs+Sg1:%>AÄ1%>n	#   ; ! oon
 +V+Ind+Prs+Sg2:%>AÄ1%>t	#   ;
 +V+Ind+Prs+Sg3:jAÄ1AÄ1	K_V   ;
@@ -1018,10 +1018,10 @@ LEXICON V-painuttaissa !!= @CODE@
 +V+Der/miin:mi N-inmihiin ; !
 
 ! pittiissä:pittii
-LEXICON V-pittiissä !!= @CODE@
+LEXICON V-pittiissä !!= * __@CODE@__
 +V: V-pittiissä_01 ;
 
-LEXICON V-pittiissä_01 !!= @CODE@
+LEXICON V-pittiissä_01 !!= * __@CODE@__
 !+Ind+Prs+Sg1:%>AÄ1%>n	#   ; ! oon
 !+Ind+Prs+Sg2:%>AÄ1%>t	#   ;
 +Ind+Prs+Sg3:jAÄ1AÄ1	K_V   ;
@@ -1087,13 +1087,13 @@ LEXICON V-joossa
 +V:ksi IndPrt ;
 +V:ksi V-actor_jA ; !
 
-!LEXICON V-joossa_01 !!= @CODE@
+!LEXICON V-joossa_01 !!= * __@CODE@__
 
 ! vuhissa:vuhis
 LEXICON V-vuhissa
 +V: V-vuhissa_01 ;
 
-LEXICON V-vuhissa_01 !!= @CODE@
+LEXICON V-vuhissa_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:e%>%^WCnsn	#   ; ! oon
 +Ind+Prs+Sg2:e%>%^WCnst	#   ;
 +Ind+Prs+Sg3:OÖ1%>%^LCnsV3	K_V   ;
@@ -1140,7 +1140,7 @@ LEXICON V-vuhissa_01 !!= @CODE@
 
 
 ! :laatihu
-LEXICON V-laatihussa !!= @CODE@
+LEXICON V-laatihussa !!= * __@CODE@__
 !+V+Ind+Prs+Sg1:%>AÄ1%>n	#   ; ! oon
 !+V+Ind+Prs+Sg2:%>AÄ1%>t	#   ;
 +V+Ind+Prs+Sg3:%>V3	K_V   ;
@@ -1200,16 +1200,16 @@ LEXICON V-laatihussa !!= @CODE@
 ! +V+Ger:ollees		#   ;
 +V+Der/miin:mi%>%^LCns N-inmihiin ;
 
-LEXICON V-määrätä !!= @CODE@ goes to V-arvata
+LEXICON V-määrätä !!= * __@CODE@__ goes to V-arvata
    V-arvata  ;
 
-LEXICON V-upota !!= @CODE@ goes to V-arvata
+LEXICON V-upota !!= * __@CODE@__ goes to V-arvata
    V-arvata  ;
 +V+Der/miin:%>%^LCnsOÖ1mi N-inmihiin ;
 
 
 ! (??)
-LEXICON V-arvata !!= @CODE@
+LEXICON V-arvata !!= * __@CODE@__
 +V+Ind+Prs+Sg1:%>%^LCnsAÄ1n	#   ; ! oon
 +V+Ind+Prs+Sg2:%>%^LCnsAÄ1t	#   ;
 +V+Ind+Prs+Sg3:%>jAÄ1AÄ1	K_V   ;
@@ -1253,7 +1253,7 @@ LEXICON V-arvata !!= @CODE@
 +V+Der/miin:%>%^LCnsAÄ1mi N-inmihiin ;
 
 ! hävitä:hävi (??)
-LEXICON V-hävitä !!= @CODE@
+LEXICON V-hävitä !!= * __@CODE@__
 +V+Ind+Prs+Sg1:j%>AÄ1%^WCnsn	#   ; ! oon
 +V+Ind+Prs+Sg2:j%>AÄ1%^WCnst	#   ;
 +V+Ind+Prs+Sg3:j%>AÄ1%>AÄ1	K_V   ;
@@ -1307,10 +1307,10 @@ LEXICON V-hävitä !!= @CODE@
 +V+Der/miin:%>%^LCns%^LVwsmi N-inmihiin ;
 
 ! (??)
-LEXICON V-merkitä !!= @CODE@
+LEXICON V-merkitä !!= * __@CODE@__
 +V: V-merkitä_01 ;
 
-LEXICON V-merkitä_01 !!= @CODE@
+LEXICON V-merkitä_01 !!= * __@CODE@__
 +Ind+Prs+Sg1:tsen	#   ; ! oon
 +Ind+Prs+Sg2:tset	#   ;
 +Ind+Prs+Sg3:tsö%>%^LVws	K_V   ;
@@ -1360,7 +1360,7 @@ LEXICON V-merkitä_01 !!= @CODE@
 +Der/miin:tsOÖ1mi%>%^LCns N-inmihiin ;
 
 ! (V)
-LEXICON V-ahavojja !!= @CODE@
+LEXICON V-ahavojja !!= * __@CODE@__
 #;
 
 
@@ -1368,7 +1368,7 @@ LEXICON V-ahavojja !!= @CODE@
 ! =============
 
 !! * Actor in jA
-LEXICON V-actor_jA !!= @CODE@
+LEXICON V-actor_jA !!= * __@CODE@__
 +Der/jA+N:jAÄ1 DER-tOin ; !
 +Der/jA+N@U.POS.N@:j@U.POS.N@ V-actor_01 ;
 
@@ -1390,16 +1390,16 @@ Use/Sub:OÖ1 PL-PAR_tA   ; ! tekijöitä
 !
 
 
-LEXICON V-ActPrsPrc !!= @CODE@
+LEXICON V-ActPrsPrc !!= * __@CODE@__
 +ActPrsPrc:vAÄ1 A-tulova ;
 !!
-LEXICON V-ActPrtPrc_nt !!= @CODE@
+LEXICON V-ActPrtPrc_nt !!= * __@CODE@__
 +Ind+Prt+ConNeg:nt K ;
 +ActPrtPrc:nt    SG-NOM    ;
 +ActPrtPrc:nUY1t SG-PAR_tA ;
 +ActPrtPrc:ne V-ActPrtPrc_01 ;
 
-LEXICON V-ActPrtPrc_rt !!= @CODE@
+LEXICON V-ActPrtPrc_rt !!= * __@CODE@__
 +Ind+Prt+ConNeg:t K ;
 +ActPrtPrc:t    SG-NOM    ;
 +ActPrtPrc:rrUY1t SG-PAR_tA ;
@@ -1431,36 +1431,36 @@ LEXICON V-ActPrtPrc_01
 
 !! !INDICATIVE PRETERITE
 
-LEXICON IndPrt !!= @CODE@ split 1-2 vs 3
+LEXICON IndPrt !!= * __@CODE@__ split 1-2 vs 3
  IndPrt_1-2 ;
  IndPrt_3   ;
 
-LEXICON IndPrt_1-2 !!= @CODE@
+LEXICON IndPrt_1-2 !!= * __@CODE@__
  IND-PRT-SG1 ;
  IND-PRT-SG2 ;
  IND-PRT-PL1 ;
  IND-PRT-PL2 ;
 
-LEXICON IndPrt_3 !!= @CODE@
+LEXICON IndPrt_3 !!= * __@CODE@__
  IND-PRT-SG3 ;
  IND-PRT-PL3 ;
 
-LEXICON IND-PRT-SG1 !!= @CODE@
+LEXICON IND-PRT-SG1 !!= * __@CODE@__
 +Ind+Prt+Sg1:%>%^WCnsn       K_V   ; ! oon
 
-LEXICON IND-PRT-SG2 !!= @CODE@
+LEXICON IND-PRT-SG2 !!= * __@CODE@__
 +Ind+Prt+Sg2:%>%^WCnst       K_V   ;
 
-LEXICON IND-PRT-SG3 !!= @CODE@
+LEXICON IND-PRT-SG3 !!= * __@CODE@__
 +Ind+Prt+Sg3:        K_V   ;
 
-LEXICON IND-PRT-PL1 !!= @CODE@
+LEXICON IND-PRT-PL1 !!= * __@CODE@__
 +Ind+Prt+Pl1:%>%^WCnsmmAÄ1     K_V   ;
 
-LEXICON IND-PRT-PL2 !!= @CODE@
+LEXICON IND-PRT-PL2 !!= * __@CODE@__
 +Ind+Prt+Pl2:%>%^WCnsttAÄ1     K_V   ;
 
-LEXICON IND-PRT-PL3 !!= @CODE@
+LEXICON IND-PRT-PL3 !!= * __@CODE@__
 !! This is not working 2012-10-30
 +Dial/Lauk+Ind+Prt+Pl3:vAÄ1t   K_V   ;
 +Dial/Soik+Ind+Prt+Pl3:V3t   K_V   ;
@@ -1470,7 +1470,7 @@ LEXICON IND-PRT-PL3 !!= @CODE@
 
 !! !!CONDITIONAL 
 
-LEXICON CondPers !!= @CODE@
+LEXICON CondPers !!= * __@CODE@__
 +Cond+Sg1:isin K ;
 +Cond+Sg2:isit K ;
 +Dial/Soik+Cond+Sg2:ist K ;
@@ -1483,7 +1483,7 @@ LEXICON CondPers !!= @CODE@
 !! !!POTENTIAL
 
 !! :n, :s, :l, :r, :n
-LEXICON PotPers !!= @CODE@
+LEXICON PotPers !!= * __@CODE@__
 +Pot+Sg1:en K_PotPers ;
 +Pot+Sg2:et K_PotPers ;
 +Pot+Sg3:OÖ1%>%^LCnsOÖ1 K_PotPers ;
@@ -1494,7 +1494,7 @@ LEXICON PotPers !!= @CODE@
 
 !! !!IMPERATIVE !!
 
-LEXICON ImprtPers_k !!= @CODE@
+LEXICON ImprtPers_k !!= * __@CODE@__
 +Imprt+Sg3:kOÖ1OÖ1    K_V   ;
 +Dial/Soik+Imprt+Sg3:kAÄ1AÄ1      K_V   ;
 +Imprt+Pl2:kAÄ1AÄ1    K_V   ;
