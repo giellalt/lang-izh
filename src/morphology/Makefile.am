@@ -38,13 +38,12 @@ GT_LEXC_SRCS=\
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/adjectives.lexc \
+			 $(srcdir)/stems/adpositions.lexc \
 			 $(srcdir)/stems/adverbs.lexc \
 			 $(srcdir)/stems/conjunctions.lexc \
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/nouns.lexc \
 			 $(srcdir)/stems/particles.lexc \
-			 $(srcdir)/stems/postpositions.lexc \
-			 $(srcdir)/stems/prepositions.lexc \
 			 $(srcdir)/stems/pronouns.lexc \
 			 $(srcdir)/stems/propernouns.lexc \
 			 $(srcdir)/stems/quantifiers.lexc \
@@ -53,13 +52,12 @@ GENERATED_LEXC_SRCS=\
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
 			 stems/adjectives.xml \
+			 stems/adpositions.xml \
 			 stems/adverbs.xml \
 			 stems/conjunctions.xml \
 			 stems/interjections.xml \
 			 stems/nouns.xml \
 			 stems/particles.xml \
-			 stems/postpositions.xml \
-			 stems/prepositions.xml \
 			 stems/pronouns.xml \
 			 stems/propernouns.xml \
 			 stems/quantifiers.xml \
