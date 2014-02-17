@@ -2,10 +2,10 @@
 !! --------------------
 !! Ingrian adjectives compare.
 
-LEXICON PoTag
+LEXICON POSTP_
 +Po:0	# ;
 
-LEXICON PrepTag
+LEXICON PREP_
 +Prep:0  #   ;
 
 
