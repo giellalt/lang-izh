@@ -8,8 +8,8 @@ LEXICON PropTag
 LEXICON letterName
 +N+Prop:%- letterName_01 ;
 +N+Prop+Der/Adj:%-loppui A-punain ;
-+N+Prop:%-bukv N-jalka ;
-+N+Prop:%-ään N-keeli ;
++N+Prop:%-bukv N_JALKA ;
++N+Prop:%-ään N_KEELI ;
 
 LEXICON letterName_01
 +Sg+Gen:n    #  ; ! a-n
@@ -31,7 +31,7 @@ LEXICON Prop-pedoi
 +N+Prop: N-emoi_01 ;
 
 LEXICON Prop-baku
-+N+Prop:%^NoGrad N-mato ;
++N+Prop:%^NoGrad N_MATO ;
 
 LEXICON Prop-nenove
 +N+Prop: N-nenove_01 ;
@@ -74,7 +74,7 @@ LEXICON Prop-iljina
 
 ! (??)
 LEXICON Prop-bubrih
-+N+Prop: N-preesens_01 ;
++N+Prop: N_PREESENS_01 ;
 
 
 ! (VIII)
