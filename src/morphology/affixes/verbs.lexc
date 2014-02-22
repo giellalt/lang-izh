@@ -69,7 +69,7 @@ LEXICON V-olla !!= * __@CODE@__ gives the forms of olla, and redirects to K_V
 +V+Inf+Ela:olemast      #   ;
 +V+Inf+Abe:olemata      #   ;
 +V+Ger:olle		SG-INE   ;
-+V+Der/miin:olemi N-inmihiin ;
++V+Der/miin:olemi N_INMIHIIN ;
 
 
 !! !!Regular verbs
@@ -126,7 +126,7 @@ LEXICON V-jäävvä_01 !!= * __@CODE@__.
 ! +V+Inf+Ela:olemast      #   ;
 +Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
 ! +V+Ger:ollees		#   ;
-+Der/miin:mi N-inmihiin ; ! jäämiin
++Der/miin:mi N_INMIHIIN ; ! jäämiin
 
 
 
@@ -183,7 +183,7 @@ LEXICON V-käyvvä_01
 ! +V+Inf+Ela:olemast      #   ;
 +Inf:ymAÄ1 SG-ABE ; ! käymätä
 ! +V+Ger:ollees		#   ;
-+Der/miin:ymi N-inmihiin ; !käymiin
++Der/miin:ymi N_INMIHIIN ; !käymiin
 
 
 LEXICON V-tuuvva !!= * __@CODE@__ 
@@ -238,7 +238,7 @@ LEXICON V-tuuvva_01
 +Inf:mAÄ1 SG-ELA   ;
 +Inf:mAÄ1 SG-ABE   ;
 ! +V+Ger:ollees		#   ;
-+Der/miin:mi N-inmihiin ;
++Der/miin:mi N_INMIHIIN ;
 
 
 LEXICON V-voija  !!= * __@CODE@__ voija:voi
@@ -295,7 +295,7 @@ LEXICON V-voija  !!= * __@CODE@__ voija:voi
 ! +V+Inf+Ela:olemast      #   ;
 +V+Inf+Abe:%>mAÄ1%>tAÄ1      #   ;
 ! +V+Ger:ollees		#   ;
-!+V+Der/miin:a%>mi N-inmihiin ;
+!+V+Der/miin:a%>mi N_INMIHIIN ;
 
 LEXICON V-antaa !!= * __@CODE@__ redirects to next only antaa:ant
 +V: V-antaa_01 ;
@@ -353,7 +353,7 @@ LEXICON V-antaa_01 !!= * __@CODE@__
 ! +Inf+Ela:olemast      #   ;
 ! +Inf+Abe:olemata      #   ;
 ! +Ger:ollees		#   ;
-+Der/miin:a%>mi N-inmihiin ;
++Der/miin:a%>mi N_INMIHIIN ;
 
 LEXICON V-lukkia !!= * __@CODE@__ 
 !! * lukkia:luk
@@ -401,7 +401,7 @@ LEXICON V-lukkia_01 ! lukkia:luk
 +Inf:emAÄ1 SG-ELA   ;
 +Inf:emAÄ1 SG-ABE   ;
 ! +Ger:ollees		#   ;
-+Der/miin:OÖ1%>mi N-inmihiin ;
++Der/miin:OÖ1%>mi N_INMIHIIN ;
 
 
 LEXICON V-tiitää !!= * __@CODE@__
@@ -465,7 +465,7 @@ LEXICON V-tiitää_01 !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
-+Der/miin:AÄ1mi N-inmihiin ;
++Der/miin:AÄ1mi N_INMIHIIN ;
 
 
 
@@ -521,7 +521,7 @@ LEXICON V-näyttää_01 !!= * __@CODE@__
 +Inf:AÄ1mAÄ1 SG-ELA   ;
 +Inf:AÄ1mAÄ1 SG-ABE   ;
 +Ger:AÄ1jees K_V   ;
-+Der/miin:AÄ1mi N-inmihiin ;
++Der/miin:AÄ1mi N_INMIHIIN ;
 
 
 LEXICON V-laatia !!= * __@CODE@__ !! laatia:laati
@@ -601,8 +601,8 @@ LEXICON V-kutsua_01 !!= * __@CODE@__
 +Ger:e SG-INE   ;
 +Ger:je SG-INE   ;
 +Ger:ee SG-INE   ;
-+Der/miin:mi N-inmihiin ; !kutsumiin
-+Der/min:mi N-mehiläin ; !kutsumin
++Der/miin:mi N_INMIHIIN ; !kutsumiin
++Der/min:mi N_MEHILÄIN ; !kutsumin
 
 ! kirjuttaa:
 LEXICON V-kirjuttaa !!= * __@CODE@__
@@ -667,8 +667,8 @@ LEXICON V-kirjuttaa_01 !!= * __@CODE@__
 +Inf:AÄ1mAÄ1 SG-ABE   ; !kirjuttamata
 +Ger:AÄ1es		#   ;
 +Ger:AÄ1jes		#   ;
-+Der/miin:AÄ1mi%>%^LCns N-inmihiin ; !kirjuttammiin
-+Der/miin:AÄ1mi N-inmihiin ; !kirjuttammiin
++Der/miin:AÄ1mi%>%^LCns N_INMIHIIN ; !kirjuttammiin
++Der/miin:AÄ1mi N_INMIHIIN ; !kirjuttammiin
 
 !tulla:tul
 LEXICON V-tulla !!= * __@CODE@__
@@ -726,8 +726,8 @@ LEXICON V-tulla_01 !!= * __@CODE@__
 +Inf:OÖ1mAÄ1 SG-ABE   ;
 +Inf:emAÄ1 SG-ABE   ;
 ! +Ger:ollees		#   ;
-+Der/miin:OÖ1mi N-inmihiin ; ! tulomiin
-+Der/miin:emi N-inmihiin ; ! tulomiin !!
++Der/miin:OÖ1mi N_INMIHIIN ; ! tulomiin
++Der/miin:emi N_INMIHIIN ; ! tulomiin !!
 
 !ommella:ompel
 LEXICON V-ommella !!= * __@CODE@__
@@ -778,8 +778,8 @@ LEXICON V-ommella_01 !!= * __@CODE@__
 +Inf:OÖ1mAÄ1 SG-ABE   ;
 +Inf:emAÄ1 SG-ABE   ;
 +Ger:%^WGStemlees		#   ;
-+Der/miin:OÖ1mi N-inmihiin ; ! ompelemiin
-+Der/miin:emi N-inmihiin ; ! ompelemmiin
++Der/miin:OÖ1mi N_INMIHIIN ; ! ompelemiin
++Der/miin:emi N_INMIHIIN ; ! ompelemmiin
 
 
 ! nähä:nä
@@ -844,8 +844,8 @@ LEXICON V-nähä_01 !!= * __@CODE@__
 +Inf:kömAÄ1  SG-ABE   ;
 +Inf:kemAÄ1  SG-ABE   ;
 +Ger+Ine:hhees		#   ;
-+Der/miin:kömi N-inmihiin ; 
-+Der/miin:kemi N-inmihiin ; 
++Der/miin:kömi N_INMIHIIN ; 
++Der/miin:kemi N_INMIHIIN ; 
 
 ! panna:pa
 LEXICON V-panna !!= * __@CODE@__
@@ -902,7 +902,7 @@ LEXICON V-panna_01 !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 +Ger:nnees		#   ;
-+Der/miin:nOÖ1%>mi N-inmihiin ;
++Der/miin:nOÖ1%>mi N_INMIHIIN ;
 
 
 LEXICON V-sannoa !!= * __@CODE@__
@@ -957,7 +957,7 @@ LEXICON V-sannoa !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 +V+Ger:nojees		#   ;
-+V+Der/miin:no%>mi N-inmihiin ;
++V+Der/miin:no%>mi N_INMIHIIN ;
 
 ! reflexive
 !painuttaissa:painuttai
@@ -1015,7 +1015,7 @@ LEXICON V-painuttaissa !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
-+V+Der/miin:mi N-inmihiin ; !
++V+Der/miin:mi N_INMIHIIN ; !
 
 ! pittiissä:pittii
 LEXICON V-pittiissä !!= * __@CODE@__
@@ -1079,7 +1079,7 @@ LEXICON V-pittiissä_01 !!= * __@CODE@__
 ! +Inf+Ela:olemast      #   ;
 ! +Inf+Abe:olemata      #   ;
 ! +Ger:ollees		#   ;
-+Der/miin:mi N-inmihiin ; ! piittiimiin
++Der/miin:mi N_INMIHIIN ; ! piittiimiin
 
 !joossa:joo
 LEXICON V-joossa
@@ -1135,7 +1135,7 @@ LEXICON V-vuhissa_01 !!= * __@CODE@__
 +Inf:emAÄ1 SG-ELA   ;
 +Inf:emAÄ1 SG-ABE   ;
 ! +Ger:ollees		#   ;
-+Der/miin:OÖ1%>mi N-inmihiin ;
++Der/miin:OÖ1%>mi N_INMIHIIN ;
 
 
 
@@ -1198,14 +1198,14 @@ LEXICON V-laatihussa !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
-+V+Der/miin:mi%>%^LCns N-inmihiin ;
++V+Der/miin:mi%>%^LCns N_INMIHIIN ;
 
 LEXICON V-määrätä !!= * __@CODE@__ goes to V-arvata
    V-arvata  ;
 
 LEXICON V-upota !!= * __@CODE@__ goes to V-arvata
    V-arvata  ;
-+V+Der/miin:%>%^LCnsOÖ1mi N-inmihiin ;
++V+Der/miin:%>%^LCnsOÖ1mi N_INMIHIIN ;
 
 
 ! (??)
@@ -1250,7 +1250,7 @@ LEXICON V-arvata !!= * __@CODE@__
 +V+Inf:AÄ1mAÄ1 SG-ELA   ;
 +V+Inf:AÄ1mAÄ1 SG-ABE   ;
 +V+Ger:%>%^WCnsjees		#   ;
-+V+Der/miin:%>%^LCnsAÄ1mi N-inmihiin ;
++V+Der/miin:%>%^LCnsAÄ1mi N_INMIHIIN ;
 
 ! hävitä:hävi (??)
 LEXICON V-hävitä !!= * __@CODE@__
@@ -1304,7 +1304,7 @@ LEXICON V-hävitä !!= * __@CODE@__
 ! +V+Inf+Ela:olemast      #   ;
 ! +V+Inf+Abe:olemata      #   ;
 ! +V+Ger:ollees		#   ;
-+V+Der/miin:%>%^LCns%^LVwsmi N-inmihiin ;
++V+Der/miin:%>%^LCns%^LVwsmi N_INMIHIIN ;
 
 ! (??)
 LEXICON V-merkitä !!= * __@CODE@__
@@ -1356,8 +1356,8 @@ LEXICON V-merkitä_01 !!= * __@CODE@__
 ! +Inf+Ela:olemast      #   ;
 ! +Inf+Abe:olemata      #   ;
 ! +Ger:ollees		#   ;
-+Der/miin:tse%>mi N-inmihiin ;
-+Der/miin:tsOÖ1mi%>%^LCns N-inmihiin ;
++Der/miin:tse%>mi N_INMIHIIN ;
++Der/miin:tsOÖ1mi%>%^LCns N_INMIHIIN ;
 
 ! (V)
 LEXICON V-ahavojja !!= * __@CODE@__
