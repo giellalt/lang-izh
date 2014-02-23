@@ -1,12 +1,10 @@
 
-Morphology
-----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!!!Morphology
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF INGRIAN
 
 
-Analysis symbols
-----------------
-The morphological analyses of wordforms of UNDEFINED language are presented
+!!Analysis symbols
+The morphological analyses of wordforms  are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -32,6 +30,7 @@ Verb moods are:
 Verb personal forms are:
 Other verb forms are
 
+Abbreviated words are classified with:
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
 Special multiword units are analysed with:
@@ -46,7 +45,6 @@ Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
@@ -63,7 +61,7 @@ FLAGS USED WITH COLLECTIVE NOUNS
 
 
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
+The word forms  start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 

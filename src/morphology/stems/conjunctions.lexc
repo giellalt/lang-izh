@@ -2,9 +2,9 @@
 LEXICON conjunctions
 
 ja:ja CcTag  "ja" ;
-vai:vai CcTag  "ja" ;
-tahi:tahi CcTag  "ja" ;
-tai:tai CcTag  "ja" ;
+vai:vai CcTag  "vai" ;
+tahi:tahi CcTag  "tai" ;
+tai:tai CcTag  "tai" ;
 i:i CcTag  "ja" ;
 a:a CcTag  "ja" ;
 vaa:vaa CcTag  "vaan" ;
