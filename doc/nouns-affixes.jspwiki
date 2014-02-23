@@ -1,8 +1,6 @@
 !!!Noun inflection
-----
 
-The UNDEFINED language nouns inflect in cases.
-
+Here are the suffixes for noun inflection.
 
 
 
@@ -19,7 +17,7 @@ The UNDEFINED language nouns inflect in cases.
 
 
 
-joki:jok
+
 
 
 
@@ -40,7 +38,6 @@ Three-syllable words
 
 
 
-Check 2012-10-12
 
 
 
@@ -122,10 +119,11 @@ Check 2012-10-12
 
 
 
-DERIVATION !!
+!!DERIVATION 
+One derivational process only, DER-t0in.
 
 
-DECLENSION !!
+!!DECLENSION 
 
 
 
@@ -138,7 +136,10 @@ DECLENSION !!
 
 
 
-PLURAL TAGS !!
+
+!!PLURAL TAGS 
+Plural tags separated from singular ones.
+
 
 
 
