@@ -12,15 +12,15 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
-!! Morphology
-!! ----------
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+!! !!!Morphology
+! ----------
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF INGRIAN
 
 
 Multichar_Symbols
-!! Analysis symbols
-!! ----------------
-!! The morphological analyses of wordforms of UNDEFINED language are presented
+!! !!Analysis symbols
+! ----------------
+!! The morphological analyses of wordforms  are presented
 !! in this system in terms of following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
@@ -29,12 +29,12 @@ Multichar_Symbols
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt
 
 !! The parts of speech are further split up into:
-!!! Types of nouns include
+!! Types of nouns include
  +Prop
-!!! Types of pronouns include
+!! Types of pronouns include
  +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
-!!! Types of adverbs include
+!! Types of adverbs include
  +Manner +Spat +Temp
 
 !! The Usage extents are marked using following tags:
@@ -70,7 +70,7 @@ Multichar_Symbols
   +Prc +PrtPrc +Sup +VGen +VAbess
 +PrfPrc ! Which one is needed?
 
-! Abbreviated words are classified with:
+!! Abbreviated words are classified with:
  +ABBR +ACR 
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
@@ -119,7 +119,7 @@ Multichar_Symbols
  +Der/toist ! ykstoist (11), kakstoist (12)
 
 !! Morphophonology
-!! ---------------
+! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
@@ -157,7 +157,7 @@ Multichar_Symbols
 @R.POS.NUM@
 @C.POS@
 
-!!! FLAGS USED WITH COLLECTIVE NOUNS
+!! FLAGS USED WITH COLLECTIVE NOUNS
 ! number
 @U.DECL-NX.SG@
 @U.DECL-NX.PL@
@@ -191,7 +191,7 @@ Multichar_Symbols
 
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms  start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    adjectives  ;
    adpositions    ;

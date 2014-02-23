@@ -1,7 +1,7 @@
 !! !!!Noun inflection
-!! ----
+! ----
 
-!! The UNDEFINED language nouns inflect in cases.
+!! Here are the suffixes for noun inflection.
 
 LEXICON N_YÖ-SG
 ! yö:yö
@@ -120,7 +120,7 @@ Use/Sub:%>i%> PL-PAR_A   ; ! ossia
  Oblique-Plural ;
 
 LEXICON N_JOKI
-!! joki:jok
+! joki:jok
 ! joki (II-c)
 +N:e DER-tOin ; ! joetoin
 +N@U.POS.N@:@U.POS.N@ N-joki_01 ;
@@ -207,7 +207,7 @@ LEXICON N-kana_01
 :o%>%^LCns   PL-ILL_blank   ; ! kannoi
 :o Oblique-Plural ;
 
-!!! Three-syllable words
+!! Three-syllable words
 
 ! This is incase there are 3-syllable issues
 LEXICON N_MONIKKO
@@ -270,7 +270,7 @@ LEXICON N-lähe_01
 :h%>V2      PL-NOM		;
 :%>%^LCns Oblique-Plural_sse ;
 :h Oblique-Plural_sse ;
-!! Check 2012-10-12
+! Check 2012-10-12
 :      PL-PAR_tA		;
 :h%>%^LCns      PL-PAR_A		;
 :h%>%^LCnsi      PL-ESS_Vn		;
@@ -811,16 +811,17 @@ LEXICON N-päivyt_01
 LEXICON N-XXI
 #;
 
-!!!!!!!!!!!!!!!!
-!! DERIVATION !!
-!!!!!!!!!!!!!!!!
+!
+!! !!DERIVATION 
+!
+!! One derivational process only, DER-t0in.
 
 LEXICON DER-tOin
 +Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ;
 
-!!!!!!!!!!!!!!!!
-!! DECLENSION !!
-!!!!!!!!!!!!!!!!
+!
+!! !!DECLENSION 
+!
 
 LEXICON Cases
 !+N+Sg+Nom:0     #   ;
@@ -833,7 +834,7 @@ LEXICON Cases
 +N+Sg+Tra:%>%^WCnsks    #   ; ! musta : musaks
 +N+Sg+Ess:%>n%^ShVws    #   ; ! sotilaz : sotilahhaan, 
 
-!!!!
+
 ! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
 LEXICON lOi-Pl
 :%>lOÖ1 Oblique-Plural_hV ;
@@ -894,9 +895,11 @@ LEXICON Oblique-Singular_less-EssExe
       SG-COM		;
       SG-ABE		;
 
-!!!!!!!!!!!!!!!!!
-!! PLURAL TAGS !!
-!!!!!!!!!!!!!!!!!
+!
+!! !!PLURAL TAGS 
+!
+!! Plural tags separated from singular ones.
+
 
 LEXICON PL-ABE
 +Pl+Abe0000@U.DECL-NX.PL@@U.DECL-CX.ABE@:%>i%>%^WCnstAÄ1@U.DECL-NX.PL@@U.DECL-CX.ABE@    K_Num  ;
