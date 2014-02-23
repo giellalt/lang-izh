@@ -55,6 +55,6 @@ kuuvveskymmenäs:kuuvves#kymmen Num-kaheskymmenäs  "" ;
 seitsemäskymmenäs:seitsemäs#kymmen Num-kaheskymmenäs  "" ;
 kaheksaskymmenäs:kaheksas#kymmen Num-kaheskymmenäs  "" ;
 yheksäskymmenäs:yheksäs#kymmen Num-kaheskymmenäs  "" ;
-viis:vii Num-viis  "kolme" ;
-kuus:kuu Num-viis  "kolme" ;
+viis:vii Num-viis  "viisi" ;
+kuus:kuu Num-viis  "kuusi" ;
 kymmenäs:kymmenä NumOrd  "" ;
