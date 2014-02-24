@@ -47,7 +47,7 @@ LEXICON N_PREESENS_01
 :o Oblique-Plural ;
 
 LEXICON N_GLASNOI
-+N@U.POS.N@:@U.POS.N@ A-glavnoi_01 ;
++N@U.POS.N@:@U.POS.N@ NMN_GLASNOI ;
 
 LEXICON N_RISTI
 ! risti (II)
@@ -171,7 +171,7 @@ LEXICON N-emoi_01
 LEXICON N_JALKA
 ! the stem-final "a" is added here
 ! jalka (IV)
-+N+Der/tOin:a%>%^WCnst A-kalatoin ; !
++N+Der/tOin:a%>%^WCnst A_KALATOIN ; !
 +N@U.POS.N@:@U.POS.N@ N-jalka_01 ;
 
 LEXICON N-jalka_01
@@ -817,7 +817,7 @@ LEXICON N-XXI
 !! One derivational process only, DER-t0in.
 
 LEXICON DER-tOin
-+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A-kalatoin ;
++Der/tOin@C.POS@:%>%^WCnst@C.POS@ A_KALATOIN ;
 
 !
 !! !!DECLENSION 
