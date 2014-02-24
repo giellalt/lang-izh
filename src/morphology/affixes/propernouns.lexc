@@ -7,7 +7,7 @@ LEXICON PropTag
 
 LEXICON letterName
 +N+Prop:%- letterName_01 ;
-+N+Prop+Der/Adj:%-loppui A-punain ;
++N+Prop+Der/Adj:%-loppui A_KÄRPÄIN ;
 +N+Prop:%-bukv N_JALKA ;
 +N+Prop:%-ään N_KEELI ;
 

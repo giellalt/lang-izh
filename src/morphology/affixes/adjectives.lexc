@@ -7,10 +7,10 @@ LEXICON Comparisons
 +A+cmp:er       Cases   ;
 +A+sup:est      Cases   ;
 
-LEXICON A-harmaa
-+A: A-harmaa_01 ;
+LEXICON A_HARMAA
++A: A_HARMAA_01 ;
 
-LEXICON A-harmaa_01
+LEXICON A_HARMAA_01
  SG-NOM   ; ! harmaa
  SG-PAR_tA   ; ! harmaata
  SG-ILL_sse  ; ! harmaasse
@@ -23,38 +23,38 @@ LEXICON A-harmaa_01
  Oblique-Plural ;
 
 
-LEXICON A-avvaaro
+LEXICON A_AVVAARO
 ! (II) N-mato
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A: # ;
 
 !
-LEXICON A-lihhaava
+LEXICON A_OMMEENA
 +A+Der/st:AÄ1%>%^StretchSyll2st AdvManner ; !
 !+A+Comp:AÄ1%>%^StretchSyll2mp MP ; !
 +A+Comp:AÄ1mp MP ; !
 +A: N-ommeena_01 ;
 
-LEXICON A-uusi
+LEXICON A_VOOSI
 ! (XI) Num-viis
 ! uusi:uu
 +A+Der/st:te%>%^WCnsst AdvManner ; !
 +A+Comp:te%>%^WCnsmp MP ; !
 +A:si SG-NOM ;
-+A: Num-viis_01 ;
++A: N-käsi_01 ;
 
-LEXICON A-vesselä
+LEXICON A_VESSELÄ
 !check this 2012-10-29
 ! vesselä:vesselä
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCnsmp MP ; !
 +A: N-osa_01 ;
 
-LEXICON A-valmis
+LEXICON A_VALMIS
 ! valmis:valmi
 +A: N-patsas_01 ;
 
-LEXICON A-kitsas
+LEXICON A_PATSAS
 ! kalakas:kalakka
 !LEXICON A-kalakas
 +A: N-patsas_01 ;
@@ -63,40 +63,40 @@ LEXICON A-kitsas
 +A+Superl:imp MP ; !
 !+A: A-kalakas_01 ;
 
-LEXICON A-hoono
+LEXICON A_MATO
 +A+Comp:mp MP ; !
 +A+Superl:imp MP-Oblique ; !
 +A: N-mato_01 ;
 
-LEXICON A-suur
+LEXICON A_SUUR
 +A+Der/st:e%>%^WCnsst AdvManner ; !
 +A+Comp:e%>%^WCnsmp MP ; !
 +A+Sg+Nom: K ;
 +A+Sg+Nom:i K ;
 +A: N-sammal_01 ;
 
-LEXICON A-peeni
+LEXICON A_PEENI
 ! peeni:peen
 +A+Der/st:e%>%^WCnsst AdvManner ; !
 +A+Comp:e%>%^WCnsmp MP ; !
 +A: N-keeli_01 ;
 
-LEXICON A-hyvä
+LEXICON A_HYVÄ
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
-LEXICON A-oma
+LEXICON A_OMA
 ! oma (??)
 +A: N-osa_01 ;
 +A+Der/st:%>%^WCnsst AdvManner ; !
 
-LEXICON A-kova
+LEXICON A_OSA
 ! kova:kova (??)
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCns%^E1mp MP ; !
 +A: N-osa_01 ;
 
-LEXICON A-tulova
+LEXICON A_TULOVA
 ! tulova:tulovAÄ1
 +Dial/Lauk+A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:%>%^WCnsmp MP ; !
@@ -122,14 +122,14 @@ LEXICON A-kalakas_01
 :hi     Oblique-Plural ;
 
 
-LEXICON A-kerkiä
+LEXICON A_KERKIÄ
 ! kerkiä:kerki (??)
 +A+Der/st:AÄ1%>%^WCnsst AdvManner ; !
 +A+Comp:AÄ1mp MP ; !
 +A: N-assia_01 ;
 
 
-LEXICON A-lyhyt
+LEXICON A_VENÄT
 ! lyhyt:lyhy (??)
 +A+Der/st:%^SyllBre%^StretchSyll2st AdvManner ; !
 +A+Comp:%^SyllBre%^StretchSyll2mp MP ;
@@ -138,13 +138,13 @@ LEXICON A-lyhyt
 +A:is Oblique-Plural ;
 
 
-LEXICON A-glavnoi
+LEXICON A_GLASNOI
 ! glavnoi 2 syllables (??)
 +A+Der/st:%>%^WCnsst AdvManner ; !
 +A+Comp:mp MP ;
-+A: A-glavnoi_01 ;
++A: NMN_GLASNOI ;
 
-LEXICON A-glavnoi_01
+LEXICON NMN_GLASNOI
  SG-NOM  ; ! glavnoi
  SG-GEN  ; ! glavnoin
  SG-PAR_tA ; ! prostoita
@@ -174,16 +174,16 @@ LEXICON A-glavnoi_01
 +Pl+Ess:%>i%>n    #   ; ! matoloinna
 +Pl+Exe:%>i%>nt    #   ; ! matoloint
 
-LEXICON A-terve
+LEXICON A_LÄHE
 ! terve:terve
 +A: N-lähe_01 ;
 
-LEXICON A-kalatoin
+LEXICON A_KALATOIN
 ! kalatoin (??)
 +A+Der/st:tOÖ1mAÄ1%>%^WCnsst AdvManner ; !
-+A: A-kalatoin_01 ;
++A: A_KALATOIN_01 ;
 
-LEXICON A-kalatoin_01 
+LEXICON A_KALATOIN_01 
 +Sg+Nom:OÖ1in     #   ; ! kalatoin
 +Use/Sub+Sg+Par:%>OÖ1in%>t # ;
 :OÖ1in SG-PAR_tA   ; ! kalatointa
@@ -195,7 +195,7 @@ LEXICON A-kalatoin_01
 :tOÖ1m PL-ILL_V   ; ! kalattommii
 :tOÖ1m Oblique-Plural ;
 
-LEXICON A-punain
+LEXICON A_KÄRPÄIN
 ! kärpäin (XIII)
 ! formerly A-erilaajain
 ! punain:punai 
@@ -204,7 +204,7 @@ LEXICON A-punain
 +A+Comp:semp MP ;
 +A:  N-kärpäin_01 ;
 
-LEXICON A-entiin
+LEXICON A_ENTIIN
 ! This needs a two-syllable
 ! entiin:enti
 !   2     3 
@@ -212,14 +212,14 @@ LEXICON A-entiin
 +A+Comp:semp MP ;
 +A: N-hoomiin_01 ;
 
-LEXICON A-pohjallin
+LEXICON A_MEHILÄIN
 ! pohjallin:pohjalli
 !    3        4
 +A+Der/st:se%>%^WCnsst AdvManner ; !
 +A+Comp:semp MP ;
 +A: N-mehiläin_01 ;
 
-LEXICON A-kelvolliin
+LEXICON A_INMIHIIN
 ! kelvolliin:kelvolli
 !    3        4
 +A+Der/st:se%>%^WCnsst AdvManner ; !
@@ -228,20 +228,20 @@ LEXICON A-kelvolliin
 
 
 
-LEXICON A-vahva
+LEXICON A_JALKA
 ! vahva:vahv ()
 +A+Der/st:a%>%^WCnsst AdvManner ; !
 +A:e%>%^WCnsmp MP ; ! 2-syllables
 +A:  N-jalka_01 ;
 
-LEXICON A-matala
+LEXICON A_VOKALA
 ! matala: matal ()
 +A+Der/st:a%>%^WCnsst AdvManner ; !
 +A:amp MP ; ! 3-syllables
 +A: N-vokala_01 ;
 
 
-LEXICON A-paremp
+LEXICON A_PAREMP
 !paremp
 +A+Comp: MP ;
 
