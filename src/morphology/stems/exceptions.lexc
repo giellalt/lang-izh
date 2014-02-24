@@ -3,8 +3,8 @@
 LEXICON EXCEPTIONS
 
 !
-maikuu:maikuu N_MAA	 "" ;
-ommenapuu:ommenapuu N_MAA	 "" ;
+maikuu:mai#kuu N_MAA	 "" ;
+ommenapuu:ommena#puu N_MAA	 "" ;
 !!
 aadresti:aadresti N_RISTI "" ;
 faabrikantti:faabrikantti N_RISTI "" ;
@@ -85,21 +85,21 @@ vintovka:vintovk N_VOKALA "" ;
 maamuna:maa#muna N_OSA "" ;
 !!
 moottori:moottori N_SLOVARI	"" ;
-seilivene:seilivene N_LÄHE "" ;
-soutuvene:soutuvene N_LÄHE "" ;
+seilivene:seili#vene N_LÄHE "" ;
+soutuvene:soutu#vene N_LÄHE "" ;
 
 !!
-rikas:rikka A-kitsas "" ;
+rikas:rikka A_PATSAS "" ;
 !
 englantilain:englantilai N_MEHILÄIN "" ;
 frantsilain:frantsilai N_MEHILÄIN "" ;
-frantsinmaalain:frantsinmaalai N_MEHILÄIN "" ;
+frantsinmaalain:frantsin#maalai N_MEHILÄIN "" ;
 kaikellain:kaikellai N_MEHILÄIN "" ;
 kansalain:kansalai N_MEHILÄIN "" ;
 lappalain:lappalai N_MEHILÄIN "" ;
 oppilain:oppilai N_MEHILÄIN "" ;
 paholain:paholai N_MEHILÄIN "" ;
-puna-armeijalain:puna-armeijalai N_MEHILÄIN "" ;
+puna-armeijalain:puna-#armeijalai N_MEHILÄIN "" ;
 saamilain:saamilai N_MEHILÄIN "" ;
 saksalain:saksalai N_MEHILÄIN "" ;
 sukulain:sukulai N_MEHILÄIN "" ;
