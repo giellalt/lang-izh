@@ -157,7 +157,7 @@ LEXICON Num-kolt_01
 ! kakskymment:kakskymmen
 
 LEXICON Num-kakskymment
-+Num+Card+Sg+Part:t K ; ! form used in compounds
++Num+Card+Sg+Par:t K ; ! form used in compounds
 +Num+Card:ä Num-kaheksan_01 ;
 
 ! kaheskymmenäs:kaheskymmen
@@ -169,13 +169,13 @@ LEXICON Num-kaheskymmenäs
 ! kymmen:kymmen
 LEXICON Num-kymmen
 +Num+Ord:ä NumOrd ;
-+Num+Card+Sg+Part:t K ; ! form used in compounds
++Num+Card+Sg+Par:t K ; ! form used in compounds
 +Num+Card+Sg+Nom: K ;
 +Num+Card:ä Num-kaheksan_01 ;
 
 ! mont:mon
 LEXICON Qnt-mont
-+Qnt+Part:t K ;
++Qnt+Par:t K ;
 
 ! sata:sat
 LEXICON Num-sata
