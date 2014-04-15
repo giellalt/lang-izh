@@ -40,7 +40,7 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/adjectives.lexc \
 			 $(srcdir)/stems/adpositions.lexc \
 			 $(srcdir)/stems/adverbs.lexc \
-			 $(srcdir)/stems/conjunctions.lexc \
+			 $(srcdir)/stems/conjunctors.lexc \
 			 $(srcdir)/stems/interjections.lexc \
 			 $(srcdir)/stems/nouns.lexc \
 			 $(srcdir)/stems/particles.lexc \
@@ -54,7 +54,7 @@ GT_XML_SRCS=\
 			 stems/adjectives.xml \
 			 stems/adpositions.xml \
 			 stems/adverbs.xml \
-			 stems/conjunctions.xml \
+			 stems/conjunctors.xml \
 			 stems/interjections.xml \
 			 stems/nouns.xml \
 			 stems/particles.xml \
