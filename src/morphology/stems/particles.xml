@@ -14,16 +14,16 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Pcle"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Pcle">anna</t>
          </tg>
       </mg>
    </e>
    <e>
       <lg>
-         <l pos="Pcle">vet</l>
+         <l pos="Pcle" type="Epist">vet</l>
          <stg>
             <st Contlex="PcleTag">vet</st>
          </stg>
@@ -33,10 +33,11 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Pcle"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Pcle" type="Epist">-han</t>
+            <t pos="Pcle" type="Epist">-hän</t>
          </tg>
       </mg>
    </e>
