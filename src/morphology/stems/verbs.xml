@@ -15,7 +15,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>ahavoida</t>
+            <t pos="V">ahavoida</t>
          </tg>
       </mg>
    </e>
@@ -32,7 +32,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>haravoida</t>
+            <t pos="V">haravoida</t>
          </tg>
       </mg>
    </e>
@@ -49,7 +49,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>kiirehtiä</t>
+            <t pos="V">kiirehtiä</t>
          </tg>
       </mg>
    </e>
@@ -270,7 +270,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>käydä</t>
+            <t pos="V">käydä</t>
          </tg>
       </mg>
    </e>
@@ -287,7 +287,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>jäädä</t>
+            <t pos="V">jäädä</t>
          </tg>
       </mg>
    </e>
@@ -304,7 +304,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>viedä</t>
+            <t pos="V">viedä</t>
          </tg>
       </mg>
    </e>
@@ -338,7 +338,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>saada</t>
+            <t pos="V">saada</t>
          </tg>
       </mg>
    </e>
@@ -355,7 +355,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>voida</t>
+            <t pos="V">voida</t>
          </tg>
       </mg>
    </e>
@@ -4515,7 +4515,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>olla</t>
+            <t pos="V">olla</t>
          </tg>
       </mg>
    </e>
@@ -4532,7 +4532,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t>ei</t>
+            <t pos="V">ei</t>
          </tg>
       </mg>
    </e>

@@ -1,10 +1,10 @@
 
 LEXICON interjections
 
-aha:aha InterjTag  "" ;
-ai:ai InterjTag  "" ;
-ähä:ähä InterjTag  "" ;
-voi-voi:voi-voi InterjTag  "" ;
-oi-oi:oi-oi InterjTag  "" ;
-tprr:tprr InterjTag  "" ;
-vohma:vohma InterjTag  "" ;
+aha:aha INTERJ_  "" ;
+ai:ai INTERJ_  "" ;
+ähä:ähä INTERJ_  "" ;
+voi-voi:voi-voi INTERJ_  "voi voi" ;
+oi-oi:oi-oi INTERJ_  "" ;
+tprr:tprr INTERJ_  "" ;
+vohma:vohma INTERJ_  "" ;

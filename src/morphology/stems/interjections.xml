@@ -6,7 +6,7 @@
       <lg>
          <l pos="Interj">aha</l>
          <stg>
-            <st Contlex="InterjTag">aha</st>
+            <st Contlex="INTERJ_">aha</st>
          </stg>
       </lg>
       <mg>
@@ -14,10 +14,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>
@@ -25,7 +25,7 @@
       <lg>
          <l pos="Interj">ai</l>
          <stg>
-            <st Contlex="InterjTag">ai</st>
+            <st Contlex="INTERJ_">ai</st>
          </stg>
       </lg>
       <mg>
@@ -33,10 +33,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>
@@ -44,7 +44,7 @@
       <lg>
          <l pos="Interj">ähä</l>
          <stg>
-            <st Contlex="InterjTag">ähä</st>
+            <st Contlex="INTERJ_">ähä</st>
          </stg>
       </lg>
       <mg>
@@ -52,10 +52,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>
@@ -63,7 +63,7 @@
       <lg>
          <l pos="Interj">voi-voi</l>
          <stg>
-            <st Contlex="InterjTag">voi-voi</st>
+            <st Contlex="INTERJ_">voi-voi</st>
          </stg>
       </lg>
       <mg>
@@ -71,10 +71,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj">voi voi</t>
          </tg>
       </mg>
    </e>
@@ -82,7 +82,7 @@
       <lg>
          <l pos="Interj">oi-oi</l>
          <stg>
-            <st Contlex="InterjTag">oi-oi</st>
+            <st Contlex="INTERJ_">oi-oi</st>
          </stg>
       </lg>
       <mg>
@@ -90,10 +90,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>
@@ -101,7 +101,7 @@
       <lg>
          <l pos="Interj">tprr</l>
          <stg>
-            <st Contlex="InterjTag">tprr</st>
+            <st Contlex="INTERJ_">tprr</st>
          </stg>
       </lg>
       <mg>
@@ -109,10 +109,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>
@@ -120,7 +120,7 @@
       <lg>
          <l pos="Interj">vohma</l>
          <stg>
-            <st Contlex="InterjTag">vohma</st>
+            <st Contlex="INTERJ_">vohma</st>
          </stg>
       </lg>
       <mg>
@@ -128,10 +128,10 @@
             <head/>
          </m>
          <tg xml:lang="eng">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t pos="Interj"></t>
          </tg>
       </mg>
    </e>

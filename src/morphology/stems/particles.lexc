@@ -1,5 +1,5 @@
 
 LEXICON particles
 
-laa:laa PcleTag  "" ;
-vet:vet PcleTag  "" ;
+laa:laa PcleTag  "anna" ;
+vet:vet PcleTag  "-han" ;

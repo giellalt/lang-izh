@@ -214,10 +214,10 @@ LEXICON Root
 
 !! POS with minimal morphological variation
 
-LEXICON CcTag
+LEXICON CC_
 +CC:   #   ;
 
-LEXICON CsTag
+LEXICON CS_
 +CS:   #   ;
 
 LEXICON AbbrDot
@@ -225,7 +225,7 @@ LEXICON AbbrDot
 !      file, and not clogger this file. !2013-01-16 Should it?
 +ABBR:%. # ;
 
-LEXICON InterjTag
+LEXICON INTERJ_
 +Interj: # ;
 
 ! vim: set ft=xfst-lexc:
