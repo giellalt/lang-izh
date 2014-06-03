@@ -660,7 +660,7 @@ LEXICON V-kirjuttaa_01 !!= * __@CODE@__
 
 ! 
 +Inf:AÄ1AÄ1             #   ; ! kirjuttaa
-+Use/Sub+Inf+Ill:AÄ1mAÄ1AÄ1 K ; !kirjuttamaa
++Err/Sub+Inf+Ill:AÄ1mAÄ1AÄ1 K ; !kirjuttamaa
 +Inf:AÄ1mAÄ1  SG-ILL_V   ; ! kirjuttammaa
 +Inf:AÄ1mAÄ1 SG-INE ;
 +Inf:AÄ1mAÄ1 SG-ELA ;
