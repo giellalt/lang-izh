@@ -185,7 +185,7 @@ LEXICON A_KALATOIN
 
 LEXICON A_KALATOIN_01 
 +Sg+Nom:OÖ1in     #   ; ! kalatoin
-+Use/Sub+Sg+Par:%>OÖ1in%>t # ;
++Err/Sub+Sg+Par:%>OÖ1in%>t # ;
 :OÖ1in SG-PAR_tA   ; ! kalatointa
 :tOÖ1mAÄ1 SG-ILL_V   ; ! kalattommAÄ1a
 :tOÖ1mAÄ1 Oblique-Singular ;
