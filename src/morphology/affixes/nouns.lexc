@@ -114,7 +114,7 @@ LEXICON N-osa_01
  Oblique-Singular ;
 ! Plural
  PL-NOM   ; ! osat
-Use/Sub:%>i%> PL-PAR_A   ; ! ossia
+Err/Sub:%>i%> PL-PAR_A   ; ! ossia
  PL-PAR_A-LCns   ; ! ossia
  PL-ILL_V   ; ! ossii
  Oblique-Plural ;
