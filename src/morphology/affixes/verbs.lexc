@@ -1379,7 +1379,7 @@ LEXICON V-actor_01
 :AÄ1 Oblique-Singular ;
 ! Plural
 :AÄ1 PL-NOM   ; ! osat
-Use/Sub:OÖ1 PL-PAR_tA   ; ! tekijöitä
+Err/Sub:OÖ1 PL-PAR_tA   ; ! tekijöitä
 ! PL-PAR_A-LCns   ; ! ossia
  PL-ILL_hV   ; ! ossii
 :OÖ1 Oblique-Plural ;
