@@ -38,11 +38,11 @@ Multichar_Symbols
  +Manner +Spat +Temp
 
 !! The Usage extents are marked using following tags:
- +Err/Sub   
- +Use/-Spell 
+ +Err/Sub
+ +Use/-Spell
 
 !! Overgeneration of case formatives, such as, exessive with personal pronouns
- +Err/OverG 
+ +Err/OverG
 !! Dialects
  +Dial/Soik ! Peculiar to Soikkola
  +Dial/Lauk ! Peculiar to Laukaa
@@ -58,20 +58,20 @@ Multichar_Symbols
  +Comp +Superl
 !! Numerals and other quantifiers are classified under:
  +Attr +Card
- +Ord 
+ +Ord
  +Univ ! universal quantifier
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII 
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII
  +ActPrsPrc +ActPrtPrc
   +Prc +PrtPrc +Sup +VGen +VAbess
 +PrfPrc ! Which one is needed?
 
 !! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR +ACR
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -88,20 +88,20 @@ Multichar_Symbols
  +Clt/kAA
 
 !! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
+ +Mal +Fem +Sur
+ +Plc
  +Org
  +Obj
  +Ani
  +Hum
  +Plant
  +Group
- +Time 
+ +Time
  +Txt
  +Route
- +Measr 
+ +Measr
  +Wthr
- +Build 
+ +Build
  +Edu
  +Veh
  +Clth
@@ -110,12 +110,12 @@ Multichar_Symbols
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A
- +Der/jA ! actor name !!2012-10-30 
+ +Der/jA ! actor name !!2012-10-30
  +Der/Adj ! for derivation of adjectives without specification
  +Der/st ! for derivation of manner adverbs
  +Der/min ! Deverbal nouns
  +Der/miin ! Deverbal nouns
- +Der/tOin ! Deverbal _arvaamaton_ and Denominal adjectives 
+ +Der/tOin ! Deverbal _arvaamaton_ and Denominal adjectives
  +Der/toist ! ykstoist (11), kakstoist (12)
 
 !! Morphophonology
@@ -123,7 +123,7 @@ Multichar_Symbols
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
- %> V1 V2 V3 AÄ1 OÖ1 UY1 
+ %> V1 V2 V3 AÄ1 OÖ1 UY1
  %^E1 %^TS
  K1 %^NoGrad ! Nogradation
 
@@ -137,7 +137,7 @@ Multichar_Symbols
  %^OddSyll ! arvata, arvant but arvanneet
  %^StretchSyll2 ! creates ommeena from omena
  %^SyllBr ! syllable break for venät and lyhyt
- %^RVws ! 
+ %^RVws !
  %^WGStem ! weak-grade stem for _ompel_ to _ommel_
 
 !! We have manually optimised the structure of our lexicon using following
