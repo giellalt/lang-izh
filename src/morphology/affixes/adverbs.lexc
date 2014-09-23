@@ -4,22 +4,22 @@
 !! Ingrian adjectives compare.
 
 LEXICON AdvTag
-+Adv:0      K   ;
++Adv:      K   ;
 
 LEXICON AdvManner
-+Adv+Manner:0      K   ;
++Adv+Manner:      K   ;
 
 LEXICON AdvSpat
-+Adv+Spat:0      K   ;
++Adv+Spat:      K   ;
 
 LEXICON AdvSpat-Prl
-+Adv+Spat+Prl:0      K   ;
++Adv+Spat+Prl:      K   ;
 
 LEXICON AdvTemp
-+Adv+Temp:0        K   ;
++Adv+Temp:        K   ;
 
 LEXICON AdvTemp-Ess
-+Adv+Temp+Ess:0        K   ;
++Adv+Temp+Ess:        K   ;
 
 
 ! vim: set ft=xfst-lexc:
