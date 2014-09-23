@@ -2,10 +2,10 @@
 ! --------------------
 !! The INGRIAN language adjectives compare.
 
-LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
+!LEXICON Comparisons
+!+A+pos:0        Cases   ;
+!+A+cmp:er       Cases   ;
+!+A+sup:est      Cases   ;
 
 LEXICON A_HARMAA
 +A: A_HARMAA_01 ;
