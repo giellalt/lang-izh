@@ -33,6 +33,10 @@
 ~―
 ~’
 ~€
+~-
+~.
+~ь
+
 
 ## Transition pairs + weight:
 @@
