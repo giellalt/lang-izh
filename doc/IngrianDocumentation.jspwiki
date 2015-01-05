@@ -9,8 +9,8 @@
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/izh/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/izh/src/phonology/izh-phon.twolc]   
   / [yaml|https://victorio.uit.no/langtech/trunk/langs/izh/test/src/gt-norm-yamls/]
-* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-izh.fin.html]
-  / [text|http://giellatekno.uit.no/cgi/d-izh.fin.html]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-izh.fi.html]
+  / [text|http://giellatekno.uit.no/cgi/d-izh.fi.html]
 
 !!! Grammatical issues
 
