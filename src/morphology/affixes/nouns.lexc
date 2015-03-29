@@ -257,7 +257,7 @@ LEXICON N_LÄHE
 +N: DER-tOin ; !
 +N@U.POS.N@:@U.POS.N@ N-lähe_01 ;
 +N@U.POS.N@:%>%^WCns@U.POS.N@     SG-NOM        ;
-+Err/Sub+N@U.POS.N@:%>%^WCnsh@U.POS.N@     SG-NOM               ;
++Err/Orth+N@U.POS.N@:%>%^WCnsh@U.POS.N@     SG-NOM               ;
 
 LEXICON N-lähe_01
 :%>%^WCnst       SG-PAR_tA 	;
@@ -701,7 +701,7 @@ LEXICON N_KEELI
 
 LEXICON N-keeli_01
 :i     SG-NOM   ; ! keeli
-+Err/Sub+Sg+Par:t K ;
++Err/Orth+Sg+Par:t K ;
  SG-PAR_tA  ; ! keeltä
 :e SG-ILL_V   ; ! keelee
 :e Oblique-Singular ;
