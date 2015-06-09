@@ -1,5 +1,5 @@
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
-! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! Copyright © 2000-2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
 ! This program is free software; you can redistribute and/or modify
@@ -10,7 +10,7 @@
 ! also available in the file $GTHOME/LICENSE.txt.
 !
 ! Other licensing options are available upon request, please contact
-! giellatekno@hum.uit.no or feedback@divvun.no
+! giellatekno@uit.no or divvun@hum.uit.no
 
 Multichar_Symbols
 
@@ -19,90 +19,98 @@ Multichar_Symbols
   +NumNum    ! Tag to denote real numbers in one form or another
 
 LEXICON Root
-< %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|æ|ø|å|ä|ö|á|č|đ|ŋ|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Æ|Ø|Å|Ä|Ö|Á|Č|Đ|Ŋ|Š|Ŧ|Ž]* > COMMA ; ! This first line is to allow all letter strings.
- CARD-NUMBERSECTION ;
- ORD-NUMBERSECTION ;
-!+NumNum NUMBERSECTION ;
-!+NumNum COMMASECTION ;
 
-LEXICON CARD-NUMBERSECTION
+!These 4 lines are for TTS, they are commented out.
+!< %+String [a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|q|y|z|â|ê|î|ô|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|Â|Ê|Î|Ô]* > ENDLEX ; ! This first line is to allow all letter strings.
+!+NumNum NUMBERSECTION ;
+!+NumNum ENDLEXSECTION ;
+!LEXICON NUMBERSECTION
+
 HUNDREDSM ;		! 200M
-sata% :1 HUNDREDM ;	! 100M
+1:mitâtahtomitanaw%   HUNDREDM ;	! 100M
+1:mitâtahtomtanaw%   HUNDREDM ;	! 100M
 TENSM ;			! 20-99M
 TEENSM ;		! 10-19M
 ONESM ;			! 1-9M
-HUNDREDST ;		! 200000-999999
-sata% :1 HUNDREDT ;	! 100000-100999
+!HUNDREDST ;		! 200000-999999 NB
+1:mitâtahtomitanaw  HUNDREDT ;	! 100000-100999
+1:mitâtahtomtanaw HUNDREDT ;	! 100000-100999
 TENST ;			! 20000-99999,10000-10999
 TEENST ;		! 11000-19999
 ONEST ;			! 2000-9999
-tuhat:1 THOUSAND ;	! 1000-1999
+1:peyak% kihci% mitâtahtomtanaw THOUSAND ;
+1:peyak% kihci% mitâtahtomitanaw THOUSAND ;
 UNDERTHOUSAND ;		! 100-999
 TENS ;			! 20-99
 TEENS ;			! 10-19
 ONES ;			! 1-9
+NEARLY ;			! 29-99
 
 LEXICON HUNDREDSM
-kaks:2  CUODIM ;
-kolt:3 CUODIM ;
-neljä:4 CUODIM ; ! Google: 459
-viis:5 CUODIM ;
-kuus:6 CUODIM ;
-seitsen:7 CUODIM ;
-kaheksan:8 CUODIM ;
-yheksän:9 CUODIM ;
+2:nîso  CUODIM ;
+3:nisto CUODIM ;
+4:newo CUODIM ; ! Google: 459
+5:nîyânan CUODIM ;
+6:nikotwâsik CUODIM ;
+7:tepakohp CUODIM ;
+8:ayinânew CUODIM ;
+9:kekâmitâtaht CUODIM ;
 
 LEXICON CUODIM
-sattaa% : HUNDREDM ;
+:mitâtahtomitanaw HUNDREDM ;
+:mitâtahtomtanaw HUNDREDM ;
 
 LEXICON HUNDREDM
       TENSM ;
       TEENSM ;
-:%0   ONESM ;
-:%0%0 MILJON ;
+%0:   ONESM ;
+%0%0: MILJON ;
 
 LEXICON TEENSM
-ykstoist:11     LOHKAIM ;
-kakstoist:12   LOHKAIM ;
-kolttoist:13    LOHKAIM ;
-neljätoist:14 LOHKAIM ;
-viisstoist:15   LOHKAIM ;
-kuustoist:16   LOHKAIM ;
-seitsentoist:17 LOHKAIM ;
-kaheksantoist:18 LOHKAIM ;
-yheksäntoist:19   LOHKAIM ;
+1:luhkie TEENM ;
+
+LEXICON TEENM
+1:peyak     LOHKAIM ;
+2:nîso   LOHKAIM ;
+3:nisto    LOHKAIM ;
+4:newo LOHKAIM ;
+5:nîyânan   LOHKAIM ;
+6:nikotwâsik   LOHKAIM ;
+7:tepakohp LOHKAIM ;
+8:ayinânew LOHKAIM ;
+9:kekâmitâtaht   LOHKAIM ;
 
 LEXICON LOHKAIM
 MILJON ;
 
 LEXICON TENSM
-kymmene:1%0 MILJON ;
-kaks:2   LUHKIEM ;
-kolt:3    LUHKIEM ;
-neljä:4 LUHKIEM ;
-viis:5   LUHKIEM ;
-kuus:6   LUHKIEM ;
-seitsen:7 LUHKIEM ;
-kaheksan:8 LUHKIEM ;
-yheksän:9   LUHKIEM ;
+1%0:luhkie MILJON ;
+2:nîso   TENM ;
+3:nisto    TENM ;
+4:newo TENM ;
+5:nîyânan   TENM ;
+6:nikotwâsik   TENM ;
+7:tepakohp TENM ;
+8:ayinânew TENM ;
+9:kekâmitâtaht   TENM ;
 
-LEXICON LUHKIEM
-kymmen:%0 MILJON ;
-kymmen:   ONESM ;
+LEXICON TENM
+%0:luhkie MILJON ;
+:luhkie   ONESM ;
 
 LEXICON ONESM
-yks% miljon% :1 OVERTHOUSANDS ;
-kaks:2         MILJON ;
-kolt:3          MILJON ;
-neljä:4       MILJON ;
-viis:5         MILJON ;
-kuus:6         MILJON ;
-seitsen:7       MILJON ;
-kaheksan:8       MILJON ;
-yheksän:9         MILJON ; 
+1:akte% miljon%  OVERTHOUSANDS ;
+2:nîso         MILJON ;
+3:nisto          MILJON ;
+4:newo       MILJON ;
+5:nîyânan         MILJON ;
+6:nikotwâsik         MILJON ;
+7:tepakohp       MILJON ;
+8:ayinânew       MILJON ;
+9:kekâmitâtaht         MILJON ; 
 
 LEXICON MILJON
-% miljonua% : OVERTHOUSANDS ;
+:% miljona%  OVERTHOUSANDS ;
 
 ! =================
 ! Under the million
@@ -110,86 +118,98 @@ LEXICON MILJON
 
 LEXICON OVERTHOUSANDS
 HUNDREDST ;		! x00.000.000
-sata:1 HUNDREDT ;	! 100.000.000
-:%0 TENST ;		!  20.000.000
-:%0 TEENST ;		!  10.000.000
-:%0%0 ONEST ;		!   2.000.000
-tuhat:%0%01 THOUSAND ;	!   1.000.000
-:%0%0%0 UNDERTHOUSAND ;	
-:%0%0%0%0 TENS ;
-:%0%0%0%0 TEENS ;
-:%0%0%0%0%0 ONES ;
-:%0%0%0%0%0%0 COMMA ;	!  x000000
+1:mitâtahtomitanaw HUNDREDT ;	! 100.000.000
+1:mitâtahtomtanaw HUNDREDT ;	! 100.000.000
+%0: TENST ;		!  20.000.000
+%0: TEENST ;		!  10.000.000
+%0%0: ONEST ;		!   2.000.000
+%0%01:peyak% kihci% mitâtahtomtanaw THOUSAND ;
+%0%01:peyak% kihci% mitâtahtomitanaw THOUSAND ;
+%0%0%0: UNDERTHOUSAND ;	
+%0%0%0%0: TENS ;
+%0%0%0%0: TEENS ;
+%0%0%0%0%0: ONES ;
+%0%0%0%0%0%0: ENDLEX ;	!  x000000
 
 LEXICON HUNDREDST
-kaks:2   CUODIT ;	! 200000-299999
-kolt:3    CUODIT ;	! 300000-399999
-neljä:4 CUODIT ;	! 400000-499999
-viis:5   CUODIT ;	! 500000-599999
-kuus:6   CUODIT ;	! 600000-699999
-seitsen:7 CUODIT ;	! 700000-799999
-kaheksan:8 CUODIT ;	! 800000-899999
-yheksän:9   CUODIT ;	! 900000-999999
+2:nîso   CUODIT ;	! 200000-299999
+3:nisto    CUODIT ;	! 300000-399999
+4:newo CUODIT ;	! 400000-499999
+5:nîyânan   CUODIT ;	! 500000-599999
+6:nikotwâsik   CUODIT ;	! 600000-699999
+7:tepakohp CUODIT ;	! 700000-799999
+8:ayinânew CUODIT ;	! 800000-899999
+9:kekâmitâtaht   CUODIT ;	! 900000-999999
 
 LEXICON CUODIT
-sattaa% : HUNDREDT ;	! 100000-199999
+:mitâtahtomitanaw HUNDREDT ;	! 100000-199999
+:mitâtahtomtanaw HUNDREDT ;	! 100000-199999
 
 LEXICON HUNDREDT	! X = 1-9, Y = 0-9
-TENST ;			! X2XYYY, X10YYY
+:%  TENST ;			! X2XYYY, X10YYY
 TEENST ;		! X1XYYY
-yks:%01 THOUSANDS ;
-:%0 ONEST ;		! XX0YYY
-:%0%0 THOUSANDS ;	! X00YYY
+%01:akte THOUSANDS ;
+%0: ONEST ;		! XX0YYY
+%0%0: THOUSANDS ;	! X00YYY
 
 LEXICON TEENST
-ykstoist:11     LOHKAIT ;
-kakstoist:12   LOHKAIT ;
-kolttoist:13    LOHKAIT ;
-neljätoist:14 LOHKAIT ;
-viistoist:15   LOHKAIT ;
-kuustoist:16   LOHKAIT ;
-seitsentoist:17 LOHKAIT ;
-kaheksantoist:18 LOHKAIT ;
-yheksäntoist:19   LOHKAIT ;
+1:luhkie   TEENT ;
+1%0:luhkie THOUSANDS ;
+
+LEXICON TEENT
+1:peyak     LOHKAIT ;
+2:nîso   LOHKAIT ;
+3:nisto    LOHKAIT ;
+4:newo LOHKAIT ;
+5:nîyânan   LOHKAIT ;
+6:nikotwâsik   LOHKAIT ;
+7:tepakohp LOHKAIT ;
+8:ayinânew LOHKAIT ;
+9:kekâmitâtaht   LOHKAIT ;
 
 LEXICON LOHKAIT
 THOUSANDS ;
 
 LEXICON TENST
-kymmene:1%0 THOUSANDS ;
-kakskymmen:2   LUHKIET ;
-koltkymmen:3    LUHKIET ;
-neljäkymmen:4 LUHKIET ;
-viiskymmen:5   LUHKIET ;
-kuuskymmen:6   LUHKIET ;
-seitsenkymmen:7 LUHKIET ;
-kaheksankymmen:8 LUHKIET ;
-yheksänkymmen:9   LUHKIET ;
+2:nîs   TANAW ;
+3:nistomi    TANAW ;
+4:nemi TANAW ;
+5:nîyânanomi   TANAW ;
+6:nikotwâsomi   TANAW ;
+7:tepakohpimi TANAW ;
+8:ayinânewomi TANAW ;
+9:kekâmitâtahtomi   TANAW ;
+9:kâmitâtahtomi   TANAW ;
 
-LEXICON LUHKIET
-:%0 THOUSANDS ;
-yks:1 THOUSANDS ;
+LEXICON TANAW
+%0:tanaw%  ENDLEX ;
+:tanaw%  ONESTONEXT ;
+
+LEXICON TENT
+%0: THOUSANDS ;
+1:akte THOUSANDS ; ! error sma
 ONEST ;
 
 LEXICON ONEST
-kaks:2 THOUSANDS ;
-kolt:3 THOUSANDS ;
-neljä:4 THOUSANDS ;
-viis:5 THOUSANDS ;
-kuus:6 THOUSANDS ;
-seitsen:7 THOUSANDS ;
-kaheksan:8 THOUSANDS ;
-yheksän:9 THOUSANDS ;
+2:nîso%  THOUSANDS ;
+3:nisto%  THOUSANDS ;
+4:newo%  THOUSANDS ;
+5:nîyânan%  THOUSANDS ;
+6:nikotwâsik%  THOUSANDS ;
+7:tepakohp%  THOUSANDS ;
+8:ayinânew%  THOUSANDS ;
+9:kekâmitâtaht%  THOUSANDS ;
 
 LEXICON THOUSANDS      ! x > 1
-tuhatta: THOUSAND ;
+:kihci% mitâtahtomtanaw THOUSAND ;
+:kihci% mitâtahtomitanaw THOUSAND ;
 
 LEXICON THOUSAND
-% : UNDERTHOUSAND ;	   ! 1100-1999
-% :%0 TENS ;	   ! 1020-1099
-% :%0 TEENS ;	   ! 1010-1019
-% :%0%0 ONES ;	   ! 1001-1009
-:%0%0%0 COMMA ;	   ! 1000
+:% ayiwâk%  UNDERTHOUSAND ;	   ! 1100-1999
+%0:% ayiwâk%  TENS ;	   ! 1020-1099
+%0:% ayiwâk%  TEENS ;	   ! 1010-1019
+%0%0:% ayiwâk%  ONES ;	   ! 1001-1009
+%0%0%0: ENDLEX ;	   ! 1000
 
 !===========================
 !Here starts the 999 numbers
@@ -197,325 +217,139 @@ LEXICON THOUSAND
 
 LEXICON UNDERTHOUSAND
 HUNDREDS ;
-sata:1 HUNDRED ;
-suas:1  CUODAAT ; ! Is this correct?
+1:mitâtahtomitanaw%  HUNDRED ;
+1:mitâtahtomtanaw%  HUNDRED ;
 
 LEXICON HUNDREDS
-kaks:2   CUODI ;
-kolt:3    CUODI ;
-neljä:4 CUODI ;
-viis:5   CUODI ;
-kuus:6   CUODI ;
-seitsen:7 CUODI ;
-kaheksan:8 CUODI ;
-yheksän:9   CUODI ;
+2:nîso%    CUODI ;
+3:nisto%     CUODI ;
+4:newo%  CUODI ;
+5:nîyânano%    CUODI ;  !OBS
+6:nikotwâsiko%    CUODI ;
+7:tepakohpo%  CUODI ;
+8:ayinânewo%  CUODI ;
+9:kekâmitâtahto%    CUODI ;
 
 LEXICON CUODI
-sattaa:   HUNDRED ;
-tjuatede:  CUODAAT ;
+:mitâtahtomitanaw%    HUNDRED ;
+:mitâtahtomtanaw%   HUNDRED ;
 
 LEXICON HUNDRED
-% :      TENS ;
-% :      TEENS ;
-% :%0   ONES ;
-:%0%0 COMMA ;
+:ayiwâk%   TENS ;
+:ayiwâk%   TEENS ;
+%0:ayiwâk%    ONES ;
+%0%0: ENDLEX ;
 
-LEXICON CUODAAT
-:%0%0%.    COMMA ;
-
-LEXICON TEENS
-ykstoist:11 COMMA ;
-kakstoist:12 COMMA ;
-kolttoist:13 COMMA ;
-neljätoist:14 COMMA ;
-viistoist:15 COMMA ;
-kuustoist:16 COMMA ;
-seitsentoist:17 COMMA ;
-kaheksantoist:18 COMMA ;
-yheksäntoist:19 COMMA ;
 
 LEXICON TENS
-kymmene:1%0 COMMA ;
-kymmenäs:1%0%. COMMA ;
-kaks:2 LUHKIE ;
-kolt:3 LUHKIE ;
-neljä:4 LUHKIE ;
-viis:5 LUHKIE ;
-kuus:6 LUHKIE ;
-seitsen:7 LUHKIE ;
-kaheksan:8 LUHKIE ;
-yheksän:9 LUHKIE ;
+1%0:mitâtaht ENDLEX ;
+1%0%.:låhkede ENDLEX ;
+2:nîs TEN ;
+2:nîsi TEN ;
+3:nistomi TEN ;
+4:nemi TEN ;
+5:nîyânanomi TEN ;
+6:nikotwâsomi TEN ;
+7:tepakohpimi TEN ;
+8:ayinânewomi TEN ;
+9:kekâmitâtahtomi TEN ;
 
-LEXICON LUHKIE
-kymment:%0 COMMA ;
-kymmenäs:%0%. COMMA ;
-kymment: ONES ;
+LEXICON TEN 
+%0%.:låhkede ENDLEX ; ! låhkede to be removed or replaced
+:tanaw%  ONESTONEXT ;
+%0:tanaw%  ENDLEX ;
+
+LEXICON NEARLY
+29:kekâc% nistôm NEARLY-TEN ;
+39:kekâc% newôm NEARLY-TEN ;
+49:kekâc% nîyânôm NEARLY-TEN ;
+59:kekâc% nikotwâsom NEARLY-TEN ;
+69:kekâc% tepakohpim NEARLY-TEN ;
+79:kekâc% ayinânewom NEARLY-TEN ;
+89:kekâc% kekâ% mitâtahtom NEARLY-TEN ;
+90:kekâ% mitâtahtom NEARLY-TEN ;
+99:kekâ% mitatahtomtanaw% ayiwâk% kekâ% mitâtaht ENDLEX ;
+29:kekâc-nistomi NEARLY-TEN ;
+39:kekâc-nemi NEARLY-TEN ;
+49:kekâc-nîyânanomi NEARLY-TEN ;
+59:kekâc-nikotwâsomi NEARLY-TEN ;
+69:kekâc-tepakohpimi NEARLY-TEN ;
+79:kekâc-ayinânewomi NEARLY-TEN ;
+79:kekâc-ayenânewomi NEARLY-TEN ;
+89:kekâc-kekâ-mitâtahtomi NEARLY-TEN ;
+90:kekâ-mitatahtomi NEARLY-TEN ;
+99:kekâ-mitatahtomitanaw% kekâ-mitâtaht ENDLEX ;
+
+LEXICON NEARLY-TEN
+:tanaw ENDLEX ;
+
+
+
+LEXICON ONESTONEXT
+1:peyakosâp ENDLEX ;
+2:nîsosâp ENDLEX ;
+3:nistosâp ENDLEX ;
+4:newosâp ENDLEX ;
+5:niyânanosâp ENDLEX ;
+6:nikotwâsosâp ENDLEX ;
+7:tepakohposâp ENDLEX ;
+8:ayinânewosâp ENDLEX ;
+9:kekâmitâtahtosâp ENDLEX ;
+1:peyako-sâp ENDLEX ;
+2:nîso-sâp ENDLEX ;
+3:nisto-sâp ENDLEX ;
+4:newo-sâp ENDLEX ;
+5:niyânano-sâp ENDLEX ;
+6:nikotwâso-sâp ENDLEX ;
+7:tepakohp-sâp ENDLEX ;
+8:ayinânewo-sâp ENDLEX ;
+9:kekâc% nîstanaw ENDLEX ;
+:ayiwâk%  CARDINAL ;
+
+
+LEXICON TEENS
+11:peyakosâp ENDLEX ;
+12:nîsosâp ENDLEX ;
+13:nistosâp ENDLEX ;
+14:newosâp ENDLEX ;
+15:niyânanosâp ENDLEX ;
+16:nikotwâsosâp ENDLEX ;
+17:tepakohposâp ENDLEX ;
+18:ayinânewosâp ENDLEX ;
+19:kekâmitâtahtosâp ENDLEX ;
+19:kekâc% nîstanaw ENDLEX ;
 
 LEXICON ONES
 CARDINAL ;
-!ORDINAL ;
 
 LEXICON CARDINAL
-yks:1 COMMA ;
-kaks:2 COMMA ;
-kolt:3 COMMA ;
-neljä:4 COMMA ;
-viis:5 COMMA ;
-kuus:6 COMMA ;
-seitsen:7 COMMA ;
-kaheksan:8 COMMA ;
-yheksän:9 COMMA ;
+1:peyak ENDLEX ;
+2:nîso ENDLEX ;
+3:nisto ENDLEX ;
+4:newo ENDLEX ;
+5:niyânan ENDLEX ;
+6:nikotwâsik ENDLEX ;
+7:tepakohp ENDLEX ;
+8:ayinânew ENDLEX ;
+8:ayenânew ENDLEX ;
+9:kekâmitâtaht ENDLEX ;
 
-!!
-LEXICON ORD-NUMBERSECTION
-ORD-HUNDREDSM ;		! 200M
-suas% :1 ORD-HUNDREDM ;	! 100M
-ORD-TENSM ;			! 20-99M
-ORD-TEENSM ;		! 10-19M
-ORD-ONESM ;			! 1-9M
-ORD-HUNDREDST ;		! 200000-999999
-suas% :1 ORD-HUNDREDT ;	! 100000-100999
-ORD-TENST ;			! 20000-99999,10000-10999
-ORD-TEENST ;		! 11000-19999
-ORD-ONEST ;			! 2000-9999
-tuhattais:1 ORD-THOUSAND ;	! 1000-1999
-ORD-UNDERTHOUSAND ;		! 100-999
-ORD-TENS ;			! 20-99
-ORD-TEENS ;			! 10-19
-ORD-ONES ;			! 1-9
 
-LEXICON ORD-HUNDREDSM
-kahes:2  ORD-CUODIM ;
-kolmas:3 ORD-CUODIM ;
-neljäs:4 ORD-CUODIM ; ! Google: 459
-viijes:5 ORD-CUODIM ;
-kuuvves:6 ORD-CUODIM ;
-seitsemäs:7 ORD-CUODIM ;
-kaheksas:8 ORD-CUODIM ;
-yheksäs:9 ORD-CUODIM ;
-
-LEXICON ORD-CUODIM
-suas% : ORD-HUNDREDM ;
-
-LEXICON ORD-HUNDREDM
-      ORD-TENSM ;
-      ORD-TEENSM ;
-:%0   ORD-ONESM ;
-:%0%0 ORD-MILJON ;
-
-LEXICON ORD-TEENSM
-yhtestoist:11     ORD-LOHKAIM ;
-kahestoist:12   ORD-LOHKAIM ;
-kolmastoist:13    ORD-LOHKAIM ;
-neljästoist:14 ORD-LOHKAIM ;
-viijestoist:15   ORD-LOHKAIM ;
-kuuvvestoist:16   ORD-LOHKAIM ;
-seitsemästoist:17 ORD-LOHKAIM ;
-kaheksastoist:18 ORD-LOHKAIM ;
-yheksästoist:19   ORD-LOHKAIM ;
-
-LEXICON ORD-LOHKAIM
-ORD-MILJON ;
-
-LEXICON ORD-TENSM
-kymmenäs:1%0 ORD-MILJON ;
-kahes:2   ORD-LUHKIEM ;
-kolmas:3    ORD-LUHKIEM ;
-neljäs:4 ORD-LUHKIEM ;
-viijes:5   ORD-LUHKIEM ;
-kuuvves:6   ORD-LUHKIEM ;
-seitsemäs:7 ORD-LUHKIEM ;
-kaheksas:8 ORD-LUHKIEM ;
-yheksäs:9   ORD-LUHKIEM ;
-
-LEXICON ORD-LUHKIEM
-kymmenäs:%0 ORD-MILJON ;
-kymmenäs:   ORD-ONESM ;
-
-LEXICON ORD-ONESM
-yhtes% miljonas% :1 ORD-OVERTHOUSANDS ;
-kahes:2         ORD-MILJON ;
-kolmas:3          ORD-MILJON ;
-neljäs:4       ORD-MILJON ;
-viijes:5         ORD-MILJON ;
-kuuvves:6         ORD-MILJON ;
-seitsemäs:7       ORD-MILJON ;
-kaheksas:8       ORD-MILJON ;
-yheksäs:9         ORD-MILJON ; 
-
-LEXICON ORD-MILJON
-% miljonas% : ORD-OVERTHOUSANDS ;
-
-! =================
-! Under the million
-! =================
-
-LEXICON ORD-OVERTHOUSANDS
-ORD-HUNDREDST ;		! x00.000.000
-suas:1 ORD-HUNDREDT ;	! 100.000.000
-:%0 ORD-TENST ;		!  20.000.000
-:%0 ORD-TEENST ;		!  10.000.000
-:%0%0 ORD-ONEST ;		!   2.000.000
-tuhattais:%0%01 ORD-THOUSAND ;	!   1.000.000
-:%0%0%0 ORD-UNDERTHOUSAND ;	
-:%0%0%0%0 ORD-TENS ;
-:%0%0%0%0 ORD-TEENS ;
-:%0%0%0%0%0 ORD-ONES ;
-:%0%0%0%0%0%0%. COMMA ;	!  x000000
-
-LEXICON ORD-HUNDREDST
-kahes:2   ORD-CUODIT ;	! 200000-299999
-kolmas:3    ORD-CUODIT ;	! 300000-399999
-neljäs:4 ORD-CUODIT ;	! 400000-499999
-viijes:5   ORD-CUODIT ;	! 500000-599999
-kuuvves:6   ORD-CUODIT ;	! 600000-699999
-seitsemäs:7 ORD-CUODIT ;	! 700000-799999
-kaheksas:8 ORD-CUODIT ;	! 800000-899999
-yheksäs:9   ORD-CUODIT ;	! 900000-999999
-
-LEXICON ORD-CUODIT
-suas% : ORD-HUNDREDT ;	! 100000-199999
-
-LEXICON ORD-HUNDREDT	! X = 1-9, Y = 0-9
-ORD-TENST ;			! X2XYYY, X10YYY
-ORD-TEENST ;		! X1XYYY
-yhtes:%01 ORD-THOUSANDS ;
-:%0 ORD-ONEST ;		! XX0YYY
-:%0%0 ORD-THOUSANDS ;	! X00YYY
-
-LEXICON ORD-TEENST
-yhtestoist:11     ORD-LOHKAIT ;
-kahestoist:12   ORD-LOHKAIT ;
-kolmastoist:13    ORD-LOHKAIT ;
-neljästoist:14 ORD-LOHKAIT ;
-viijestoist:15   ORD-LOHKAIT ;
-kuuvvestoist:16   ORD-LOHKAIT ;
-seitsemästoist:17 ORD-LOHKAIT ;
-kaheksastoist:18 ORD-LOHKAIT ;
-yheksästoist:19   ORD-LOHKAIT ;
-
-LEXICON ORD-LOHKAIT
-ORD-THOUSANDS ;
-
-LEXICON ORD-TENST
-kymmenäs:1%0 ORD-THOUSANDS ;
-kaheskymmenäs:2   ORD-LUHKIET ;
-kolmaskymmenäs:3    ORD-LUHKIET ;
-neljäskymmenäs:4 ORD-LUHKIET ;
-viijeskymmenäs:5   ORD-LUHKIET ;
-kuuvveskymmenäs:6  ORD-LUHKIET ;
-seitsemäskymmenäs:7 ORD-LUHKIET ;
-kaheksaskymmenäs:8 ORD-LUHKIET ;
-yheksäskymmenäs:9   ORD-LUHKIET ;
-
-LEXICON ORD-LUHKIET
-:%0 ORD-THOUSANDS ;
-yhtes:1 ORD-THOUSANDS ;
-ORD-ONEST ;
-
-LEXICON ORD-ONEST
-kahes:2 ORD-THOUSANDS ;
-kolmas:3 ORD-THOUSANDS ;
-neljäs:4 ORD-THOUSANDS ;
-viijes:5 ORD-THOUSANDS ;
-kuuvves:6 ORD-THOUSANDS ;
-seitsemäs:7 ORD-THOUSANDS ;
-kaheksas:8 ORD-THOUSANDS ;
-yheksäs:9 ORD-THOUSANDS ;
-
-LEXICON ORD-THOUSANDS      ! x > 1
-tuhattais: ORD-THOUSAND ;
-
-LEXICON ORD-THOUSAND
-% : ORD-UNDERTHOUSAND ;	   ! 1100-1999
-% :%0 ORD-TENS ;	   ! 1020-1099
-% :%0 ORD-TEENS ;	   ! 1010-1019
-% :%0%0 ORD-ONES ;	   ! 1001-1009
-:%0%0%0%. COMMA ;	   ! 1000
-
-!===========================
-!Here starts the 999 numbers
-!===========================
-
-LEXICON ORD-UNDERTHOUSAND
-ORD-HUNDREDS ;
-suas:1  ORD-CUODAAT ; ! Is this correct?
-
-LEXICON ORD-HUNDREDS
-kahes:2   ORD-CUODI ;
-kolmas:3    ORD-CUODI ;
-neljäs:4 ORD-CUODI ;
-viijes:5   ORD-CUODI ;
-kuuvves:6   ORD-CUODI ;
-seitsemäs:7 ORD-CUODI ;
-kaheksas:8 ORD-CUODI ;
-yheksäs:9   ORD-CUODI ;
-
-LEXICON ORD-CUODI
-suas:  ORD-CUODAAT ;
-
-LEXICON ORD-HUNDRED
-% :      ORD-TENS ;
-% :      ORD-TEENS ;
-% :%0   ORD-ONES ;
-:%0%0%. COMMA ;
-
-LEXICON ORD-CUODAAT
-:  ORD-HUNDRED ;
-:%0%0%.    COMMA ;
-
-LEXICON ORD-TEENS
-yhtestoist:11%. COMMA ;
-kahestoist:12%. COMMA ;
-kolmastoist:13%. COMMA ;
-neljästoist:14%. COMMA ;
-viijestoist:15%. COMMA ;
-kuuvvestoist:16%. COMMA ;
-seitsemästoist:17%. COMMA ;
-kaheksastoist:18%. COMMA ;
-yheksästoist:19%. COMMA ;
-
-LEXICON ORD-TENS
-kymmenäs:1%0%. COMMA ;
-kahes:2 ORD-LUHKIE ;
-kolmas:3 ORD-LUHKIE ;
-neljäs:4 ORD-LUHKIE ;
-viijes:5 ORD-LUHKIE ;
-kuuvves:6 ORD-LUHKIE ;
-seitsemäs:7 ORD-LUHKIE ;
-kaheksas:8 ORD-LUHKIE ;
-yheksäs:9 ORD-LUHKIE ;
-
-LEXICON ORD-LUHKIE
-kymmenäs:%0%. COMMA ;
-kymmenäs: ORD-ONES ;
-!!
-LEXICON ORD-ONES
-ensimäin:1%.     COMMA ;
-toin:2%.   COMMA ;
-kolmas:3%.   COMMA ;
-neljäs:4%. COMMA ;
-viijes:5%.   COMMA ;
-kuuvves:6%.   COMMA ;
-seitsemäs:7%.    COMMA ;
-kaheksas:8%.   COMMA ;
-yheksäs:9%.    COMMA ;
-
-LEXICON COMMA
- ENDLEX ;
- COMMASECTION ;
-
-LEXICON COMMASECTION  ! these are not spellchecked!!!
-                  ENDLEX ;
-! % komma% :,      Root ;
-! % tjuohkkis% :%. Root ;
-! % kolon% :%:     Root ;
-! % sárggis% :%-   Root ; 
- % la% :%=         Root ; 
- % gráda% :%°      Root ; 
- % paragráfa% :§   Root ; 
-! % násti% :%*     Root ; 
- % ja% :&          Root ; 
+!LEXICON ENDLEX
+! ENDLEX ;
+! ENDLEXSECTION ;
+!
+!LEXICON ENDLEXSECTION  ! these are not spellchecked!!!
+!                  ENDLEX ;
+!! % komma% :,      Root ;
+!! % tjuohkkis% :%. Root ;
+!! % kolon% :%:     Root ;
+!! % sárggis% :%-   Root ; 
+! % la% :%=         Root ; 
+! % gráda% :%°      Root ; 
+! % paragráfa% :§   Root ; 
+!! % násti% :%*     Root ; 
+! % ja% :&          Root ; 
 
 LEXICON ENDLEX
  # ;
