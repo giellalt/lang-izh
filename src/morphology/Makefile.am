@@ -20,10 +20,10 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all regular lexc source files:
 GT_LEXC_SRCS_L1_L2=\
-			 stems/abbr.lexc \
-			 stems/acro.lexc \
+			 stems/abbreviations.lexc \
+			 stems/acronyms.lexc \
 			 stems/exceptions.lexc \
-			 stems/punct.lexc \
+			 stems/punctuation.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/adpositions.lexc \
 			 affixes/adverbs.lexc \
