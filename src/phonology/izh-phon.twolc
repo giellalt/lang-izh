@@ -156,8 +156,8 @@ Rules
           where X in (a ä)
                 Y in (0 0) matched ;
 
-!€ osa%>^WCns%>i%>st
-!€ os0000i0st
+!!€ osa%>^WCns%>i%>st
+!!€ os0000i0st
 
 !%>%^LCnsi%>V1
 ! AÄ1 loss
@@ -176,8 +176,8 @@ Rules
                 Y in (0 0 0) matched ;
 !Vws:0 %>:0  %^WCns:0 %>:0 i: %>:0 
 
-!€ maa%>i%>n
-!€ ma00i0n
+!!€ maa%>i%>n
+!!€ ma00i0n
 
 ! Stem vowel "i" loss before plural "i"
 "i:Zero"
@@ -190,8 +190,8 @@ Rules
  i:j <=> :Vws ( %>:0  %^LCns:0 ) %>:0 _ %>:0 :Vws ;
          Vws _ Cns:0 Vws: ;
 !veitte%>%^WCnsttUY1%>%^LCns%>i%>AÄ1
-!€ em0o0i%>%^LCnsAÄ1
-!€ emmooj00a
+!!€ em0o0i%>%^LCnsAÄ1
+!!€ emmooj00a
 
 ! a to e in comparatives
 "a:e"
