@@ -432,17 +432,18 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 LEXICON Root
 !! The word forms  start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   adjectives  ;
-   adpositions    ;
-   adverbs  ;
-   conjunctors   ;
-   interjections   ;
-   nouns   ;
-   particles    ;
-   pronouns    ;
-   propernouns    ;
-   quantifiers   ;
-   verbs   ;
+   A_izh2x  ;
+   Adp_izh2x    ;
+   Adv_izh2x  ;
+   CC_izh2x   ;
+   CS_izh2x   ;
+   Interj_izh2x   ;
+   N_izh2x   ;
+   Pcle_izh2x    ;
+   Pron_izh2x    ;
+   N_Prop_izh2x    ;
+   Num_izh2x   ;
+   V_izh2x   ;
 
 !Abbreviation	 ;
 !Acronym		 ;
