@@ -32,10 +32,10 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/adverbs.lexc \
 			 affixes/clitics.lexc \
 			 affixes/nouns.lexc \
+			 affixes/numerals.lexc \
 			 affixes/particles.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
-			 affixes/quantifiers.lexc \
 			 affixes/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
@@ -55,31 +55,33 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=\
-			 $(srcdir)/stems/adjectives.lexc \
-			 $(srcdir)/stems/adpositions.lexc \
-			 $(srcdir)/stems/adverbs.lexc \
-			 $(srcdir)/stems/conjunctors.lexc \
-			 $(srcdir)/stems/interjections.lexc \
-			 $(srcdir)/stems/nouns.lexc \
-			 $(srcdir)/stems/particles.lexc \
-			 $(srcdir)/stems/pronouns.lexc \
-			 $(srcdir)/stems/propernouns.lexc \
-			 $(srcdir)/stems/quantifiers.lexc \
-			 $(srcdir)/stems/verbs.lexc 
+			 $(srcdir)/stems/A_izh2x.lexc \
+			 $(srcdir)/stems/Adp_izh2x.lexc \
+			 $(srcdir)/stems/Adv_izh2x.lexc \
+			 $(srcdir)/stems/CC_izh2x.lexc \
+			 $(srcdir)/stems/CS_izh2x.lexc \
+			 $(srcdir)/stems/Interj_izh2x.lexc \
+			 $(srcdir)/stems/N_izh2x.lexc \
+			 $(srcdir)/stems/N_Prop_izh2x.lexc \
+			 $(srcdir)/stems/Num_izh2x.lexc \
+			 $(srcdir)/stems/Pcle_izh2x.lexc \
+			 $(srcdir)/stems/Pron_izh2x.lexc \
+			 $(srcdir)/stems/V_izh2x.lexc 
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
-			 stems/adjectives.xml \
-			 stems/adpositions.xml \
-			 stems/adverbs.xml \
-			 stems/conjunctors.xml \
-			 stems/interjections.xml \
-			 stems/nouns.xml \
-			 stems/particles.xml \
-			 stems/pronouns.xml \
-			 stems/propernouns.xml \
-			 stems/quantifiers.xml \
-			 stems/verbs.xml 
+			 stems/A_izh2x.xml \
+			 stems/Adp_izh2x.xml \
+			 stems/Adv_izh2x.xml \
+			 stems/CC_izh2x.xml \
+			 stems/CS_izh2x.xml \
+			 stems/Interj_izh2x.xml \
+			 stems/N_izh2x.xml \
+			 stems/N_Prop_izh2x.xml \
+			 stems/Num_izh2x.xml \
+			 stems/Pcle_izh2x.xml \
+			 stems/Pron_izh2x.xml \
+			 stems/V_izh2x.xml 
 
 # Define any additional lexc sources here (compiled on their own):
 GT_LOCAL_SRCS=

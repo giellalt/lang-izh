@@ -156,9 +156,9 @@
    </e>
    <e>
       <lg>
-         <l pos="CS">jos</l>
+         <l pos="CC">no</l>
          <stg>
-            <st Contlex="CS_">jos</st>
+            <st Contlex="CC_">no</st>
          </stg>
       </lg>
       <mg>
@@ -175,9 +175,9 @@
    </e>
    <e>
       <lg>
-         <l pos="CS">jot</l>
+         <l pos="CC">mut</l>
          <stg>
-            <st Contlex="CS_">jot</st>
+            <st Contlex="CC_">mut</st>
          </stg>
       </lg>
       <mg>
@@ -188,159 +188,7 @@
             <t/>
          </tg>
          <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">no</l>
-         <stg>
-            <st Contlex="CS_">no</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">ko</l>
-         <stg>
-            <st Contlex="CS_">ko</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">kons</l>
-         <stg>
-            <st Contlex="CS_">kons</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">vaik</l>
-         <stg>
-            <st Contlex="CS_">vaik</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">kuin</l>
-         <stg>
-            <st Contlex="CS_">kuin</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">niku</l>
-         <stg>
-            <st Contlex="CS_">niku</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">ku</l>
-         <stg>
-            <st Contlex="CS_">ku</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="CS">kun</t>
-         </tg>
-      </mg>
-   </e>
-   <e>
-      <lg>
-         <l pos="CS">mut</l>
-         <stg>
-            <st Contlex="CS_">mut</st>
-         </stg>
-      </lg>
-      <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t pos="CS">mutta</t>
+            <t pos="CC">mutta</t>
          </tg>
       </mg>
    </e>
