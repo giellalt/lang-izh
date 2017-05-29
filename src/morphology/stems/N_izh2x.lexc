@@ -1,12 +1,12 @@
 
 LEXICON N_izh2x
 
-tähti:täht N_TÄHTI  "tähti" ;
-pilvi:pilv N_TÄHTI  "pilvi" ;
-poski:posk N_TÄHTI  "poski" ;
-tedri:tedr N_TÄHTI  "teeri" ;
-umpi:ump N_TÄHTI  "" ;
-kurki:kurk N_TÄHTI  "kurki" ;
+tähti:täht N_TAEHTI  "tähti" ;
+pilvi:pilv N_TAEHTI  "pilvi" ;
+poski:posk N_TAEHTI  "poski" ;
+tedri:tedr N_TAEHTI  "teeri" ;
+umpi:ump N_TAEHTI  "" ;
+kurki:kurk N_TAEHTI  "kurki" ;
 nain:nai N_NAIN  "nainen" ;
 esim.:esim AbbrDot  "esimerkiksi" ;
 st.:st AbbrDot  "" ;
@@ -41,7 +41,7 @@ rae:rake N_LÄHE  "rae" ;
 sae:sake N_LÄHE  "" ;
 hoone:hoone N_LÄHE  "" ;
 hyle:hylke N_LÄHE  "hylje" ;
-lehti:leht N_TÄHTI  "lehti" ;
+lehti:leht N_TAEHTI  "lehti" ;
 lapsi:la N_LAPSI  "lapsi" ;
 oppilapsi:oppi#la N_LAPSI  "oppilas" ;
 veitsi:vei N_VEITSI  "veitsi" ;
@@ -131,8 +131,8 @@ talohus:talohu N_OIKEHUS  "talous" ;
 köyhys:köyhy N_OIKEHUS  "köyhyys" ;
 noorus:nooru N_OIKEHUS  "nuoruus" ;
 pittuus:pittuu N_OIKEHUS  "pituus" ;
-lapsus:lapsu N_OIKEHUS  "lapsuus" ;
-nooruus:nooruu N_OIKEHUS  "nuoruus" ;
+lapsuus:lapsuu N_OIKEHUS  "lapsuus" ;
+lapsuus:lapsu N_OIKEHUS  "lapsuus" ;
 poolipittuus:pooli#pittuu N_OIKEHUS  "puolipituus" ;
 portuus:portuu N_OIKEHUS  "" ;
 tuttahus:tuttahu N_OIKEHUS  "" ;
