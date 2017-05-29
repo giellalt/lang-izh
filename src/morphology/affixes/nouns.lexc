@@ -481,12 +481,12 @@ LEXICON N-tähkä_01
  PL-ILL_V   ; ! tähkii
  Oblique-Plural ;
 
-LEXICON N_TÄHTI
+LEXICON N_TAEHTI
 ! tähti (IX)
 +N:e DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-tähti_01 ;
++N@U.POS.N@:@U.POS.N@ NMN_TAEHTI_01 ;
 
-LEXICON N-tähti_01
+LEXICON NMN_TAEHTI_01
 :i     SG-NOM   ; ! tähti
 :e SG-PAR_A   ; ! tähteä
 :e SG-ILL_V   ; ! tähtee
