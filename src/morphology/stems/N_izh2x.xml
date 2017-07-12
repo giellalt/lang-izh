@@ -14190,9 +14190,12 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="eng">
+        <t pos="N">farm hand</t>
+      </tg>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">renki</t>
       </tg>
     </mg>
   </e>
@@ -14208,9 +14211,12 @@
 
     <mg>
       <defNative/>
+      <tg xml:lang="eng">
+        <t pos="N">storm</t>
+      </tg>
 
       <tg xml:lang="fin">
-        <t pos="N"/>
+        <t pos="N">myrsky</t>
       </tg>
     </mg>
   </e>
