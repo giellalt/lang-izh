@@ -26,7 +26,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/abbreviations.lexc \
 			 stems/acronyms.lexc \
 			 stems/exceptions.lexc \
-			 stems/punctuation.lexc \
 			 affixes/adjectives.lexc \
 			 affixes/adpositions.lexc \
 			 affixes/adverbs.lexc \
@@ -66,7 +65,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/Num_izh2x.lexc \
 			 $(srcdir)/stems/Pcle_izh2x.lexc \
 			 $(srcdir)/stems/Pron_izh2x.lexc \
-			 $(srcdir)/stems/V_izh2x.lexc 
+			 $(srcdir)/stems/V_izh2x.lexc \
+			 generated_files/punctuation.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
