@@ -1,10 +1,10 @@
 
 LEXICON Interj_izh2x
 
-aha:aha INTERJ_  "" ;
-ai:ai INTERJ_  "" ;
-ähä:ähä INTERJ_  "" ;
-voi-voi:voi-voi INTERJ_  "voi voi" ;
-oi-oi:oi-oi INTERJ_  "" ;
-tprr:tprr INTERJ_  "" ;
-vohma:vohma INTERJ_  "" ;
+aha+Interj:aha INTERJ_  "" ;
+ai+Interj:ai INTERJ_  "" ;
+ähä+Interj:ähä INTERJ_  "" ;
+voi-voi+Interj:voi-voi INTERJ_  "voi voi" ;
+oi-oi+Interj:oi-oi INTERJ_  "" ;
+tprr+Interj:tprr INTERJ_  "" ;
+vohma+Interj:vohma INTERJ_  "" ;

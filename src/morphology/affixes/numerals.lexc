@@ -99,7 +99,7 @@ LEXICON Qnt-kaik
 ! yks:y
 
 LEXICON Num-yks
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-yks_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@ Num-yks_01 ;
 
 LEXICON Num-yks_01
 :ks     SG-NOM   ; ! yks
@@ -119,7 +119,7 @@ LEXICON Num-yks_01
 
 LEXICON Num-kolt
 +Num+Ord:ma NumOrd ;
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kolt_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@ Num-kolt_01 ;
 
 LEXICON Num-kolt_01
 :t     SG-NOM   ; ! kolt
@@ -185,20 +185,20 @@ LEXICON Num-sata
 ! neljä:neljä
 LEXICON Num-neljä
 +Num+Ord: NumOrd ;
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ N-tähkä_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@ N-tähkä_01 ;
 
 ! seitsen:seitse
 LEXICON Num-seitsen
 +Num+Ord:mä NumOrd ;
-+Num+Card@U.CARD.TOIST@:mä@U.CARD.TOIST@ Num-kaheksan_01 ;
-+Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NOM ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@mä Num-kaheksan_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@n SG-NOM ;
 
 
 !kaheksan:kaheksa
 LEXICON Num-kaheksan
 +Num+Ord: NumOrd ;
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-kaheksan_01 ;
-+Num+Card@U.CARD.TOIST@:n@U.CARD.TOIST@ SG-NOM ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@ Num-kaheksan_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@n SG-NOM ;
 
 LEXICON Num-kaheksan_01
  SG-GEN   ; ! kaheksan
@@ -233,7 +233,7 @@ LEXICON Num-kaheksan_01
 ! viis:vii
 LEXICON Num-viis
 +Num+Ord:te NumOrd ;
-+Num+Card@U.CARD.TOIST@:@U.CARD.TOIST@ Num-viis_01 ;
+@U.CARD.TOIST@+Num+Card:@U.CARD.TOIST@ Num-viis_01 ;
 
 LEXICON Num-viis_01
 :s     SG-NOM   ; ! viis

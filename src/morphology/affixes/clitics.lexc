@@ -18,11 +18,11 @@ LEXICON K_Num
 
 LEXICON K_Num_01
 +Der/toist:toist K ;
-kymmen+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@:kymment000@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@ Num-kaheksan_01 ;
-kymmen+Num+Card@U.COMPLETE.YES@:#kymmenä@U.COMPLETE.YES@ Num-kaheksan_01 ;
-sata+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@:sattaa00@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@ K ;
-sata+Num+Card+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@@U.COMPLETE.YES@:sattaa00@U.DECL-NX.SG@@U.DECL-CX.PAR@@U.COMPLETE.YES@ K ;
-sata+Num+Card@U.COMPLETE.YES@:#sat@U.COMPLETE.YES@ Num-sata ;
+@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@kymmen+Num+Card+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@kymment Num-kaheksan_01 ;
+@U.COMPLETE.YES@kymmen+Num+Card:@U.COMPLETE.YES@#kymmenä Num-kaheksan_01 ;
+@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@sata+Num+Card+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.NOM@@U.COMPLETE.YES@sattaa K ;
+@U.DECL-NX.SG@@U.DECL-CX.PAR@@U.COMPLETE.YES@sata+Num+Card+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.PAR@@U.COMPLETE.YES@sattaa K ;
+@U.COMPLETE.YES@sata+Num+Card:@U.COMPLETE.YES@#sat Num-sata ;
 
 LEXICON K
 +Foc/kii:%>kii	#    ; ! hänelleki, meillekki

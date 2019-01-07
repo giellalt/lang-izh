@@ -1,11 +1,11 @@
 
 LEXICON CS_izh2x
 
-jos:jos CS_  "" ;
-jot:jot CS_  "" ;
-ko:ko CS_  "" ;
-kons:kons CS_  "" ;
-vaik:vaik CS_  "" ;
-kuin:kuin CS_  "" ;
-niku:niku CS_  "" ;
-ku:ku CS_  "kun" ;
+jos+CS:jos CS_  "" ;
+jot+CS:jot CS_  "" ;
+ko+CS:ko CS_  "" ;
+kons+CS:kons CS_  "" ;
+vaik+CS:vaik CS_  "" ;
+kuin+CS:kuin CS_  "" ;
+niku+CS:niku CS_  "" ;
+ku+CS:ku CS_  "kun" ;
