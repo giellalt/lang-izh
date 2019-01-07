@@ -1,13 +1,13 @@
 
 LEXICON CC_izh2x
 
-ja:ja CC_  "ja" ;
-vai:vai CC_  "vai" ;
-tahi:tahi CC_  "tai" ;
-tai:tai CC_  "tai" ;
-i:i CC_  "ja" ;
-a:a CC_  "ja" ;
-vaa:vaa CC_  "vaan" ;
-tali:tali CC_  "tai" ;
-no:no CC_  "" ;
-mut:mut CC_  "mutta" ;
+ja+CC:ja CC_  "ja" ;
+vai+CC:vai CC_  "vai" ;
+tahi+CC:tahi CC_  "tai" ;
+tai+CC:tai CC_  "tai" ;
+i+CC:i CC_  "ja" ;
+a+CC:a CC_  "ja" ;
+vaa+CC:vaa CC_  "vaan" ;
+tali+CC:tali CC_  "tai" ;
+no+CC:no CC_  "" ;
+mut+CC:mut CC_  "mutta" ;

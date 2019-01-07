@@ -5,7 +5,7 @@
 
 LEXICON N_YÖ-SG
 ! yö:yö
-+Dial/Lauk+N@U.POS.N@:@U.POS.N@ N_YÖ-SG_01 ;
+@U.POS.N@+Dial/Lauk+N:@U.POS.N@ N_YÖ-SG_01 ;
 
 LEXICON N_YÖ-SG_01
  SG-NOM   ; ! yö
@@ -17,7 +17,7 @@ LEXICON N_YÖ-SG_01
 LEXICON N_MAA
 ! maa (I)
 +N: DER-tOin ; ! maatoin
-+N@U.POS.N@:@U.POS.N@ N_MAA_01 ;
+@U.POS.N@+N:@U.POS.N@ N_MAA_01 ;
 
 LEXICON N_MAA_01
  SG-NOM   ; ! maa
@@ -33,7 +33,7 @@ LEXICON N_MAA_01
 
 LEXICON N_PREESENS
 ! preesens:preesens
-+N@U.POS.N@:@U.POS.N@ N_PREESENS_01 ;
+@U.POS.N@+N:@U.POS.N@ N_PREESENS_01 ;
 
 LEXICON N_PREESENS_01
  SG-NOM   ; ! preesens
@@ -47,12 +47,12 @@ LEXICON N_PREESENS_01
 :o Oblique-Plural ;
 
 LEXICON N_GLASNOI
-+N@U.POS.N@:@U.POS.N@ NMN_GLASNOI ;
+@U.POS.N@+N:@U.POS.N@ NMN_GLASNOI ;
 
 LEXICON N_RISTI
 ! risti (II)
 +N: DER-tOin ; ! ristitöin
-+N@U.POS.N@:@U.POS.N@ N-risti_01 ;
+@U.POS.N@+N:@U.POS.N@ N-risti_01 ;
 
 LEXICON N-risti_01
      SG-NOM   ; ! risti
@@ -71,7 +71,7 @@ LEXICON N-risti_01
 LEXICON N_MATO
 ! mato (II)
 +N: DER-tOin ; ! maotoin
-+N@U.POS.N@:@U.POS.N@ N-mato_01 ;
+@U.POS.N@+N:@U.POS.N@ N-mato_01 ;
 
 LEXICON N-mato_01
      SG-NOM   ; ! mato
@@ -88,9 +88,9 @@ LEXICON N-mato_01
 LEXICON N_KOIVU
 ! koivu
 +N: DER-tOin ; ! koivutoin
-+N@U.POS.N@:@U.POS.N@ N-koivu_01 ;
-+N@U.POS.N@:@U.POS.N@%^NoGrad Oblique-Plural_hV ;
-+N@U.POS.N@:@U.POS.N@ PL-PAR_A ;
+@U.POS.N@+N:@U.POS.N@ N-koivu_01 ;
+@U.POS.N@+N:@U.POS.N@%^NoGrad Oblique-Plural_hV ;
+@U.POS.N@+N:@U.POS.N@ PL-PAR_A ;
 
 LEXICON N-koivu_01
    SG-NOM   ; ! koivu
@@ -105,7 +105,7 @@ LEXICON N-koivu_01
 LEXICON N_OSA
 ! forma osa (II-b)
 +N: DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-osa_01 ;
+@U.POS.N@+N:@U.POS.N@ N-osa_01 ;
 
 LEXICON N-osa_01
  SG-NOM   ; ! osa
@@ -123,7 +123,7 @@ LEXICON N_JOKI
 ! joki:jok
 ! joki (II-c)
 +N:e DER-tOin ; ! joetoin
-+N@U.POS.N@:@U.POS.N@ N-joki_01 ;
+@U.POS.N@+N:@U.POS.N@ N-joki_01 ;
 
 LEXICON N-joki_01
 :i  SG-NOM   ; ! joki
@@ -141,7 +141,7 @@ LEXICON N-joki_01
 LEXICON N_LUMI
 ! lumi (II-d)
 +N:me DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-lumi_01 ;
+@U.POS.N@+N:@U.POS.N@ N-lumi_01 ;
 
 LEXICON N-lumi_01
 +Sg+Nom:mi     #   ; ! lumi
@@ -156,7 +156,7 @@ LEXICON N-lumi_01
 LEXICON N_EMOI
 ! emoi (III)
 +N: DER-tOin ; !emotoin
-+N@U.POS.N@:@U.POS.N@ N-emoi_01 ;
+@U.POS.N@+N:@U.POS.N@ N-emoi_01 ;
 
 LEXICON N-emoi_01
 +Dial/Soik+Sg+Nom:i     #   ; ! emoi
@@ -172,7 +172,7 @@ LEXICON N_JALKA
 ! the stem-final "a" is added here
 ! jalka (IV)
 +N+Der/tOin:a%>%^WCnst A_KALATOIN ; !
-+N@U.POS.N@:@U.POS.N@ N-jalka_01 ;
+@U.POS.N@+N:@U.POS.N@ N-jalka_01 ;
 
 LEXICON N-jalka_01
 :a SG-NOM   ; ! jalka
@@ -190,7 +190,7 @@ LEXICON N_KANA
 ! copied from N-jalka
 ! jalka (IV-a)
 +N:a DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-kana_01 ;
+@U.POS.N@+N:@U.POS.N@ N-kana_01 ;
 
 LEXICON N-kana_01
 :a     SG-NOM   ; ! kana
@@ -215,9 +215,9 @@ LEXICON N_MONIKKO
 
 LEXICON N_TYTÄR
 ! tytär:tyttä
-+N@U.POS.N@:@U.POS.N@%>%^WCnsr    SG-NOM        ;
-+N@U.POS.N@:@U.POS.N@%>%^WCnsr    SG-PAR_tA        ;
-+N@U.POS.N@:@U.POS.N@r N-tytär_01 ;
+@U.POS.N@+N:@U.POS.N@%>%^WCnsr    SG-NOM        ;
+@U.POS.N@+N:@U.POS.N@%>%^WCnsr    SG-PAR_tA        ;
+@U.POS.N@+N:@U.POS.N@r N-tytär_01 ;
 
 LEXICON N-tytär_01
 :e     SG-ILL_V		;
@@ -231,7 +231,7 @@ LEXICON N-tytär_01
 LEXICON N_PATSAS
 ! patsas:patsa
 +N:%>V2 DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-patsas_01 ;
+@U.POS.N@+N:@U.POS.N@ N-patsas_01 ;
 
 LEXICON N-patsas_01
 +Sg+Nom:%>%^WCnss K                ;
@@ -255,9 +255,9 @@ LEXICON N-patsas_01
 LEXICON N_LÄHE
 ! lähe:lähte
 +N: DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-lähe_01 ;
-+N@U.POS.N@:%>%^WCns@U.POS.N@     SG-NOM        ;
-+Err/Orth+N@U.POS.N@:%>%^WCnsh@U.POS.N@     SG-NOM               ;
+@U.POS.N@+N:@U.POS.N@ N-lähe_01 ;
+@U.POS.N@+N:@U.POS.N@%>%^WCns     SG-NOM        ;
+@U.POS.N@+Err/Orth+N:@U.POS.N@%>%^WCnsh     SG-NOM               ;
 
 LEXICON N-lähe_01
 :%>%^WCnst       SG-PAR_tA 	;
@@ -282,7 +282,7 @@ LEXICON N-lähe_01
 LEXICON N_SLOVARI
 ! from mato (II-e)
 +N: DER-tOin ; ! slovaritoin
-+N@U.POS.N@:@U.POS.N@ N-slovari_01 ;
+@U.POS.N@+N:@U.POS.N@ N-slovari_01 ;
 
 LEXICON N-slovari_01
  SG-NOM   ; ! slovari
@@ -300,7 +300,7 @@ LEXICON N-slovari_01
 LEXICON N_NUMERO
 ! numero:numero
 +N: DER-tOin ; ! numerotoin
-+N@U.POS.N@:@U.POS.N@ N-numero_01 ;
+@U.POS.N@+N:@U.POS.N@ N-numero_01 ;
 
 LEXICON N-numero_01
  SG-NOM   ; ! numero
@@ -319,7 +319,7 @@ LEXICON N_VOKALA
 ! the stem-final "a" is added here
 ! vokala (IV-b)
 +N:a DER-tOin ; ! vokalatoin
-+N@U.POS.N@:@U.POS.N@ N-vokala_01 ;
+@U.POS.N@+N:@U.POS.N@ N-vokala_01 ;
 
 LEXICON N-vokala_01
 :a     SG-NOM   ; ! vokala
@@ -338,7 +338,7 @@ LEXICON N_HARAKKA
 ! harakka:harakk
 ! This should operate using principles of ommeena
 +N:AÄ1 DER-tOin ; !harakatoin
-+N@U.POS.N@:@U.POS.N@ N-harakka_01 ;
+@U.POS.N@+N:@U.POS.N@ N-harakka_01 ;
 
 LEXICON N-harakka_01
 +Sg+Nom:AÄ1     #   ; ! harakka
@@ -364,7 +364,7 @@ LEXICON N-harakka_01
 LEXICON N_OMMEENA
 ! ommeena:omena
 +N:AÄ1 DER-tOin ; !omenatoin
-+N@U.POS.N@:@U.POS.N@ N-ommeena_01 ;
+@U.POS.N@+N:@U.POS.N@ N-ommeena_01 ;
 
 LEXICON N-ommeena_01
 +Sg+Nom:AÄ1%^StretchSyll2     #   ; ! mato
@@ -392,7 +392,7 @@ LEXICON N_PUTTEELI
 ! putteeli:puteli
 ! 
 +N: DER-tOin ; !putelitoin
-+N@U.POS.N@:@U.POS.N@ N-putteeli_01 ;
+@U.POS.N@+N:@U.POS.N@ N-putteeli_01 ;
 
 LEXICON N-putteeli_01
 +Sg+Nom:%^StretchSyll2     #   ; ! mato
@@ -417,10 +417,10 @@ LEXICON N-putteeli_01
 LEXICON N_LEIKKUU
 ! leikkuu, kiukkaa, lämmää (VI)
 +N: DER-tOin ; ! leikkuutoin
-+N@U.POS.N@:@U.POS.N@ N-leikkuu_01 ;
+@U.POS.N@+N:@U.POS.N@ N-leikkuu_01 ;
 
 LEXICON N-leikkuu_01
-+Sg+Nom:0     #   ; ! mato
++Sg+Nom:     #   ; ! mato
 +Sg+Par:%>tAÄ1	#   ; ! ?lämmäätä vs 
 +Sg+Ill:%>sse	#   ; ! mattoo
  Oblique-Singular ;
@@ -431,7 +431,7 @@ LEXICON N-leikkuu_01
 LEXICON N_ASSIA
 ! assia:assi (VII)
 +N:AÄ1 DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-assia_01 ;
+@U.POS.N@+N:@U.POS.N@ N-assia_01 ;
 
 LEXICON N-assia_01
 :AÄ1 N-assia_01-Sg ;
@@ -451,7 +451,7 @@ LEXICON N_PESÄ
 ! VCV
 ! pesä:pesä
 +N: DER-tOin ; !pesätöin
-+N@U.POS.N@:@U.POS.N@ N-pesä_01 ;
+@U.POS.N@+N:@U.POS.N@ N-pesä_01 ;
 
 LEXICON N-pesä_01
  SG-NOM   ; ! pesä
@@ -468,7 +468,7 @@ LEXICON N_TÄHKÄ
 ! VCCV
 ! tähkä (VIII)
 +N: DER-tOin ; !tähätöin
-+N@U.POS.N@:@U.POS.N@ N-tähkä_01 ;
+@U.POS.N@+N:@U.POS.N@ N-tähkä_01 ;
 
 LEXICON N-tähkä_01
  SG-NOM   ; ! mato
@@ -484,7 +484,7 @@ LEXICON N-tähkä_01
 LEXICON N_TAEHTI
 ! tähti (IX)
 +N:e DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ NMN_TAEHTI_01 ;
+@U.POS.N@+N:@U.POS.N@ NMN_TAEHTI_01 ;
 
 LEXICON NMN_TAEHTI_01
 :i     SG-NOM   ; ! tähti
@@ -501,17 +501,17 @@ LEXICON NMN_TAEHTI_01
 
 LEXICON N_VARSI
  N_KÄSI ;
-+N@U.POS.N@:s@U.POS.N@     SG-NOM   ; ! vars
+@U.POS.N@+N:@U.POS.N@s     SG-NOM   ; ! vars
 
 LEXICON N_VOOSI
 ! voosi:voo
-+N+Sg+Ess@U.POS.N@:@U.POS.N@nnAÄ1 K ; ! voonna 
-+N@U.POS.N@:@U.POS.N@ N-käsi_01 ;
+@U.POS.N@+N+Sg+Ess:@U.POS.N@nnAÄ1 K ; ! voonna 
+@U.POS.N@+N:@U.POS.N@ N-käsi_01 ;
 
 LEXICON N_KÄSI
 ! käsi (XI)
 +N:te DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-käsi_01 ; 
+@U.POS.N@+N:@U.POS.N@ N-käsi_01 ; 
 
 LEXICON N-käsi_01
 :si     SG-NOM   ; ! orsi
@@ -532,7 +532,7 @@ LEXICON N-käsi_01
 LEXICON N_MEES
 ! mees:mee (??)
 +N:he DER-tOin ; !meehetöin
-+N@U.POS.N@:@U.POS.N@ N-mees_01 ; 
+@U.POS.N@+N:@U.POS.N@ N-mees_01 ; 
 
 LEXICON N-mees_01
 :s     SG-NOM   ; ! mees
@@ -548,7 +548,7 @@ LEXICON N-mees_01
 LEXICON N_VARIS
 ! varis (XII)
 +N:kse DER-tOin ; !variksetoin
-+N@U.POS.N@:@U.POS.N@ N-varis_01 ;
+@U.POS.N@+N:@U.POS.N@ N-varis_01 ;
 
 LEXICON N-varis_01
 :s   SG-NOM  ;
@@ -568,7 +568,7 @@ LEXICON N_NAIN
 ! nain:nai
 ! 1     2
 +N:se DER-tOin ; !kärpäsetöin
-+N@U.POS.N@:@U.POS.N@ N-nain_01 ;
+@U.POS.N@+N:@U.POS.N@ N-nain_01 ;
 
 LEXICON N-nain_01
 :n            SG-NOM  ; ! nain
@@ -587,7 +587,7 @@ LEXICON N_KÄRPÄIN
 ! kärpäin:kärpäi (XIII)
 !   2       3
 +N:se DER-tOin ; !kärpäsetöin
-+N@U.POS.N@:@U.POS.N@ N-kärpäin_01 ;
+@U.POS.N@+N:@U.POS.N@ N-kärpäin_01 ;
 
 LEXICON N-kärpäin_01
 :n            SG-NOM  ;
@@ -605,7 +605,7 @@ LEXICON N_HOOMIIN
 ! hoomiin:hoomi (XIII)
 !   2       3
 +N:se DER-tOin ; !kärpäsetöin
-+N@U.POS.N@:@U.POS.N@ N-hoomiin_01 ;
+@U.POS.N@+N:@U.POS.N@ N-hoomiin_01 ;
 
 LEXICON N-hoomiin_01
 :in            SG-NOM  ;
@@ -624,7 +624,7 @@ LEXICON N_MEHILÄIN
 ! mehiläin:mehiläi
 !    3        4
 +N:se DER-tOin ; !mehiläisetöin
-+N@U.POS.N@:@U.POS.N@ N-mehiläin_01 ;
+@U.POS.N@+N:@U.POS.N@ N-mehiläin_01 ;
 
 LEXICON N-mehiläin_01
 :n            SG-NOM  ;
@@ -642,7 +642,7 @@ LEXICON N-mehiläin_01
 LEXICON N_LAPSI
 ! lapsi:la
 +N:pse DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-lapsi_01 ;
+@U.POS.N@+N:@U.POS.N@ N-lapsi_01 ;
 
 LEXICON N-lapsi_01
 :ps SG-NOM ; ! laps
@@ -659,7 +659,7 @@ LEXICON N-lapsi_01
 LEXICON N_VEITSI
 ! veitsi:vei
 +N:tse DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-veitsi_01 ;
+@U.POS.N@+N:@U.POS.N@ N-veitsi_01 ;
 
 LEXICON N-veitsi_01
 :tsi SG-NOM ; ! veitsi
@@ -676,7 +676,7 @@ LEXICON N-veitsi_01
 LEXICON N_INMIHIIN
 ! inmihiin (XIII-b)
 +N:se DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-inmihiin_01 ;
+@U.POS.N@+N:@U.POS.N@ N-inmihiin_01 ;
 
 LEXICON N-inmihiin_01
 :in            SG-NOM  ; !inmihiin
@@ -697,7 +697,7 @@ LEXICON N_MERI
 LEXICON N_KEELI
 ! keeli (IX-b)
 +N:e DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-keeli_01 ;
+@U.POS.N@+N:@U.POS.N@ N-keeli_01 ;
 
 LEXICON N-keeli_01
 :i     SG-NOM   ; ! keeli
@@ -714,7 +714,7 @@ LEXICON N-keeli_01
 
 LEXICON N_SAMMAL
 +N:e DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-sammal_01 ;
+@U.POS.N@+N:@U.POS.N@ N-sammal_01 ;
 
 LEXICON N-sammal_01
      SG-NOM   ; ! sammal
@@ -755,7 +755,7 @@ LEXICON N-XIX
 LEXICON N_OIKEHUS
 ! (XX) oikehus
 +N:e DER-tOin ; !
-+N@U.POS.N@:@U.POS.N@ N-oikehus_01 ;
+@U.POS.N@+N:@U.POS.N@ N-oikehus_01 ;
 
 LEXICON N-oikehus_01
 +Sg+Nom:s           K  ;
@@ -772,7 +772,7 @@ LEXICON N-oikehus_01
 LEXICON N_VENÄT
 ! kevät (XX-a)
 ! venät:venä
-+N@U.POS.N@:@U.POS.N@ N-venät_01 ;
+@U.POS.N@+N:@U.POS.N@ N-venät_01 ;
 
 LEXICON N-venät_01
  N-venät_01-Sg ;
@@ -799,7 +799,7 @@ LEXICON N-venät_01-Sg
 
 LEXICON N_PÄIVYT
 ! päivyt:päivy
-+N@U.POS.N@:@U.POS.N@ N-päivyt_01 ;
+@U.POS.N@+N:@U.POS.N@ N-päivyt_01 ;
 
 LEXICON N-päivyt_01
  N-venät_01-Sg ;
@@ -817,14 +817,14 @@ LEXICON N-XXI
 !! One derivational process only, DER-t0in.
 
 LEXICON DER-tOin
-+Der/tOin@C.POS@:%>%^WCnst@C.POS@ A_KALATOIN ;
+@C.POS@+Der/tOin:@C.POS@%>%^WCnst A_KALATOIN ;
 
 !
 !! !!DECLENSION 
 !
 
 LEXICON Cases
-!+N+Sg+Nom:0     #   ;
+!+N+Sg+Nom:     #   ;
 !+N+Pl+Nom:i     #   ;
 +N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! opokka : opokaaz
 +N+Sg+Ela:%>%^WCnsst    #   ; ! jalka : jalast
@@ -902,168 +902,168 @@ LEXICON Oblique-Singular_less-EssExe
 
 
 LEXICON PL-ABE
-+Pl+Abe0000@U.DECL-NX.PL@@U.DECL-CX.ABE@:%>i%>%^WCnstAÄ1@U.DECL-NX.PL@@U.DECL-CX.ABE@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ABE@+Pl+Abe0000:@U.DECL-NX.PL@@U.DECL-CX.ABE@%>i%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON PL-ABL
-+Pl+Abl0000@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnslt@U.DECL-NX.PL@@U.DECL-CX.ABL@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ABL@+Pl+Abl0000:@U.DECL-NX.PL@@U.DECL-CX.ABL@%>i%>%^WCnslt    K_Num  ;
 !2012-11-03!@R.POS.N@ PL-ABL_Px ;
 
 LEXICON PL-ABL_Px
-+Pl+Abl+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.ABL@:%>i%>%^WCnsltAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ABL@  K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ABL@+Pl+Abl+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ABL@%>i%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ADE
-+Pl+Ade0000@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsV3l@U.DECL-NX.PL@@U.DECL-CX.ADE@    K_Num  ;
-+Pl+Ade000@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsl@U.DECL-NX.PL@@U.DECL-CX.ADE@    K_Num  ;
-+Pl+Ade+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.ADE@:%>i%>%^WCnsllAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ADE@  K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade0000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsV3l    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsl    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ALL
-+Pl+All00000@U.DECL-NX.PL@@U.DECL-CX.ALL@:%>i%>%^WCnslle@U.DECL-NX.PL@@U.DECL-CX.ALL@    K_Num  ; 
-+Pl+All+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.ALL@:%>i%>%^WCnsllee@U.DECL-NX.PL@@U.DECL-CX.ALL@  K_Num  ; 
+@U.DECL-NX.PL@@U.DECL-CX.ALL@+Pl+All00000:@U.DECL-NX.PL@@U.DECL-CX.ALL@%>i%>%^WCnslle    K_Num  ; 
+@U.DECL-NX.PL@@U.DECL-CX.ALL@+Pl+All+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ALL@%>i%>%^WCnsllee  K_Num  ; 
 
 LEXICON PL-COM
 !+Dial/Lauk
-+Pl+Com00000@U.DECL-NX.PL@@U.DECL-CX.COM@:%>i%>%^WCnsnkAÄ1@U.DECL-NX.PL@@U.DECL-CX.COM@    K_Num ;
+@U.DECL-NX.PL@@U.DECL-CX.COM@+Pl+Com00000:@U.DECL-NX.PL@@U.DECL-CX.COM@%>i%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON PL-ELA
-+Pl+Ela0000@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsst@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
-+Pl+Ela+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.ELA@:%>i%>%^WCnsstAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.ELA@    K_Num ;
+@U.DECL-NX.PL@@U.DECL-CX.ELA@+Pl+Ela0000:@U.DECL-NX.PL@@U.DECL-CX.ELA@%>i%>%^WCnsst    K_Num ;
+@U.DECL-NX.PL@@U.DECL-CX.ELA@+Pl+Ela+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ELA@%>i%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON PL-ESS_Vn
 !+Dial/Soik
-+Pl+Ess000@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.ESS@	 K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>%^LCns%>i%>V3n K_Num  ;
 
 LEXICON PL-ESS_n
 !+Dial/Soik
-+Pl+Ess0000@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>n@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess0000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>i%>n    K_Num  ;
 
 LEXICON PL-ESS_nnA
 !+Dial/Lauk
-+Pl+Ess0000@U.DECL-NX.PL@@U.DECL-CX.ESS@:%>i%>nnAÄ1@U.DECL-NX.PL@@U.DECL-CX.ESS@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess0000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>i%>nnAÄ1    K_Num  ;
 
 LEXICON PL-EXE
-+Pl+Exe000@U.DECL-NX.PL@@U.DECL-CX.EXE@:%>i%>nt@U.DECL-NX.PL@@U.DECL-CX.EXE@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.EXE@+Pl+Exe000:@U.DECL-NX.PL@@U.DECL-CX.EXE@%>i%>nt    K_Num  ;
 
 LEXICON PL-GEN
-+Pl+Gen000@U.DECL-NX.PL@@U.DECL-CX.GEN@:%>%^LCns%>i%>V3n@U.DECL-NX.PL@@U.DECL-CX.GEN@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.GEN@+Pl+Gen000:@U.DECL-NX.PL@@U.DECL-CX.GEN@%>%^LCns%>i%>V3n    K_Num  ;
 
 LEXICON PL-ILL_blank
-+Pl+Ill000@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>%^LCns%>i%>@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>%^LCns%>i%>    K_Num   ;
 
 LEXICON PL-ILL_sse
-+Pl+Ill0000@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>i%>sse@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill0000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>i%>sse    K_Num   ;
 
 LEXICON PL-ILL_V
-+Pl+Ill00@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>%^LCns%>i%>V1@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill00:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>%^LCns%>i%>V1    K_Num   ;
 
 LEXICON PL-ILL_hV
-+Pl+Ill000@U.DECL-NX.PL@@U.DECL-CX.ILL@:%>i%>he@U.DECL-NX.PL@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>i%>he    K_Num   ;
 
 LEXICON PL-INE
-+Pl+Ine0000@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnsV3s@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
-+Pl+Ine000@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnss@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
-+Pl+Ine+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.INE@:%>i%>%^WCnsssAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.INE@    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine0000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnsV3s    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnss    K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnsssAÄ1AÄ1    K_Num  ;
 
 ! instruktiva
 ! only with Px...
 LEXICON PL-INS
-+Pl+Instr+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.INS@:%>i%>nee@U.DECL-NX.PL@@U.DECL-CX.INS@    #   ; ! lehminee
+@U.DECL-NX.PL@@U.DECL-CX.INS@+Pl+Instr+PxSg3000:@U.DECL-NX.PL@@U.DECL-CX.INS@%>i%>nee    #   ; ! lehminee
 
 LEXICON PL-NOM
-+Pl+Nom0@U.DECL-NX.PL@@U.DECL-CX.NOM@:%>%^WCnst@U.DECL-NX.PL@@U.DECL-CX.NOM@   K_Num  ;
-+Pl+Acc0@U.DECL-NX.PL@@U.DECL-CX.ACC@:%>%^WCnst@U.DECL-NX.PL@@U.DECL-CX.ACC@   K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom0:@U.DECL-NX.PL@@U.DECL-CX.NOM@%>%^WCnst   K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.ACC@+Pl+Acc0:@U.DECL-NX.PL@@U.DECL-CX.ACC@%>%^WCnst   K_Num  ;
 
 LEXICON PL-PAR_A
-+Pl+Par00@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
-+Pl+Par+PxSg300@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>AÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par00:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>AÄ1      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg300:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>AÄ1AÄ1      K_Num  ;
 
 ! kana:kano
 LEXICON PL-PAR_A-LCns
-+Pl+Par00@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>%^LCns%>i%>AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
-+Pl+Par+PxSg30000@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>%^LCns%>i%>AÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par00:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>%^LCns%>i%>AÄ1      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg30000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>%^LCns%>i%>AÄ1AÄ1      K_Num  ;
 
 
 LEXICON PL-PAR_tA
-+Pl+Par000@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>tAÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
-+Pl+Par+PxSg3000@U.DECL-NX.PL@@U.DECL-CX.PAR@:%>i%>tAÄ1AÄ1@U.DECL-NX.PL@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>tAÄ1      K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg3000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>tAÄ1AÄ1      K_Num  ;
 
 LEXICON PL-PRL
-+Pl+Prl00000@U.DECL-NX.PL@@U.DECL-CX.PRL@:%>i%>%^WCnstse@U.DECL-NX.PL@@U.DECL-CX.PRL@    K   ; ! rannoitse
+@U.DECL-NX.PL@@U.DECL-CX.PRL@+Pl+Prl00000:@U.DECL-NX.PL@@U.DECL-CX.PRL@%>i%>%^WCnstse    K   ; ! rannoitse
 
 LEXICON PL-TRA
-+Pl+Tra0000@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsks@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
-+Pl+Tra+PxSg2000000@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsksees@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
-+Pl+Tra+PxSg300000@U.DECL-NX.PL@@U.DECL-CX.TRA@:%>i%>%^WCnsksee@U.DECL-NX.PL@@U.DECL-CX.TRA@   K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra0000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsks   K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra+PxSg2000000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsksees   K_Num  ;
+@U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsksee   K_Num  ;
 
 LEXICON SG-ABE
-+Sg+Abe00@U.DECL-NX.SG@@U.DECL-CX.ABE@:%>%^WCnstAÄ1@U.DECL-NX.SG@@U.DECL-CX.ABE@    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ABE@+Sg+Abe00:@U.DECL-NX.SG@@U.DECL-CX.ABE@%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON SG-ABL
-+Sg+Abl00@U.DECL-NX.SG@@U.DECL-CX.ABL@:%>%^WCnslt@U.DECL-NX.SG@@U.DECL-CX.ABL@    K_Num  ;
-+Sg+Abl+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.ABL@:%>%^WCnsltAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ABL@  K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ABL@+Sg+Abl00:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>%^WCnslt    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ABL@+Sg+Abl+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ADE
-+Sg+Ade00@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsV3l@U.DECL-NX.SG@@U.DECL-CX.ADE@    K_Num  ;
-+Sg+Ade0@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsl@U.DECL-NX.SG@@U.DECL-CX.ADE@    K_Num  ;
-+Sg+Ade+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.ADE@:%>%^WCnsllAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ADE@  K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade00:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsV3l    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade0:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsl    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ALL
-+Sg+All000@U.DECL-NX.SG@@U.DECL-CX.ALL@:%>%^WCnslle@U.DECL-NX.SG@@U.DECL-CX.ALL@    K_Num  ; 
-+Sg+All+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.ALL@:%>%^WCnsllee@U.DECL-NX.SG@@U.DECL-CX.ALL@  K_Num  ; 
+@U.DECL-NX.SG@@U.DECL-CX.ALL@+Sg+All000:@U.DECL-NX.SG@@U.DECL-CX.ALL@%>%^WCnslle    K_Num  ; 
+@U.DECL-NX.SG@@U.DECL-CX.ALL@+Sg+All+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ALL@%>%^WCnsllee  K_Num  ; 
 
 LEXICON SG-COM
-+Dial/Lauk+Sg+Com00@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^WCnsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
-+Dial/Lauk+Sg+Com+PxSg30@U.DECL-NX.SG@@U.DECL-CX.COM@:%>%^LVwsnkAÄ1@U.DECL-NX.SG@@U.DECL-CX.COM@    K_Num ;
+@U.DECL-NX.SG@@U.DECL-CX.COM@+Dial/Lauk+Sg+Com00:@U.DECL-NX.SG@@U.DECL-CX.COM@%>%^WCnsnkAÄ1    K_Num ;
+@U.DECL-NX.SG@@U.DECL-CX.COM@+Dial/Lauk+Sg+Com+PxSg30:@U.DECL-NX.SG@@U.DECL-CX.COM@%>%^LVwsnkAÄ1    K_Num ;
 
 LEXICON SG-ELA
-+Sg+Ela00@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsst@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;
-+Sg+Ela+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.ELA@:%>%^WCnsstAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.ELA@    K_Num ;
+@U.DECL-NX.SG@@U.DECL-CX.ELA@+Sg+Ela00:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>%^WCnsst    K_Num ;
+@U.DECL-NX.SG@@U.DECL-CX.ELA@+Sg+Ela+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON SG-ESS_Vn
-+Sg+Ess00@U.DECL-NX.SG@@U.DECL-CX.ESS@:%>%^LCnsV3n@U.DECL-NX.SG@@U.DECL-CX.ESS@	 K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ESS@+Sg+Ess00:@U.DECL-NX.SG@@U.DECL-CX.ESS@%>%^LCnsV3n K_Num  ;
 
 LEXICON SG-ESS_nnA
-+Sg+Ess0@U.DECL-NX.SG@@U.DECL-CX.ESS@:nnAÄ1@U.DECL-NX.SG@@U.DECL-CX.ESS@    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ESS@+Sg+Ess0:@U.DECL-NX.SG@@U.DECL-CX.ESS@nnAÄ1    K_Num  ;
 
 LEXICON SG-EXE
-+Sg+Exe@U.DECL-NX.SG@@U.DECL-CX.EXE@:nt@U.DECL-NX.SG@@U.DECL-CX.EXE@    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.EXE@+Sg+Exe:@U.DECL-NX.SG@@U.DECL-CX.EXE@nt    K_Num  ;
 
 LEXICON SG-GEN
-+Sg+Gen0@U.DECL-NX.SG@@U.DECL-CX.GEN@:%>%^WCnsn@U.DECL-NX.SG@@U.DECL-CX.GEN@      K_Num  ;
-+Sg+Acc0@U.DECL-NX.SG@@U.DECL-CX.ACC@:%>%^WCnsn@U.DECL-NX.SG@@U.DECL-CX.ACC@      K_Num  ;
-+Sg+Gen+PxSg3@U.DECL-NX.SG@@U.DECL-CX.GEN@:%>%^LVwsn@U.DECL-NX.SG@@U.DECL-CX.GEN@      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.GEN@+Sg+Gen0:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>%^WCnsn      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.ACC@+Sg+Acc0:@U.DECL-NX.SG@@U.DECL-CX.ACC@%>%^WCnsn      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.GEN@+Sg+Gen+PxSg3:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>%^LVwsn      K_Num  ;
 
 LEXICON SG-ILL_sse
-+Sg+Ill0@U.DECL-NX.SG@@U.DECL-CX.ILL@:sse@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill0:@U.DECL-NX.SG@@U.DECL-CX.ILL@sse    K_Num   ;
 
 LEXICON SG-ILL_V
-+Sg+Ill@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>%^LCns%>V1@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>%^LCns%>V1    K_Num   ;
 
 LEXICON SG-ILL_hV
-+Sg+Ill0@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>hV1@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
-+Sg+Ill+PxSg300@U.DECL-NX.SG@@U.DECL-CX.ILL@:%>hV1%>V3@U.DECL-NX.SG@@U.DECL-CX.ILL@    K_Num   ;
+@U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill0:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>hV1    K_Num   ;
+@U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill+PxSg300:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>hV1%>V3    K_Num   ;
 
 LEXICON SG-INE
-+Sg+Ine00@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnsV3s@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
-+Sg+Ine0@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnss@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
-+Sg+Ine+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.INE@:%>%^WCnsssAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.INE@    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine00:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnsV3s    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine0:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnss    K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnsssAÄ1AÄ1    K_Num  ;
 
 LEXICON SG-NOM
-+Sg+Nom@U.DECL-NX.SG@@U.DECL-CX.NOM@:00@U.DECL-NX.SG@@U.DECL-CX.NOM@    K_Num ;
+@U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom:@U.DECL-NX.SG@@U.DECL-CX.NOM@    K_Num ;
 
 LEXICON SG-PAR_A
-+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@:AÄ10@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.PAR@AÄ1      K_Num  ;
 
 LEXICON SG-PAR_A-LCns
-+Sg+Par0@U.DECL-NX.SG@@U.DECL-CX.PAR@:%>%^LCnsAÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par0:@U.DECL-NX.SG@@U.DECL-CX.PAR@%>%^LCnsAÄ1      K_Num  ;
 
 LEXICON SG-PAR_tA
-+Sg+Par@U.DECL-NX.SG@@U.DECL-CX.PAR@:tAÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
-+Sg+Par+PxSg3@U.DECL-NX.SG@@U.DECL-CX.PAR@:tAÄ1AÄ1@U.DECL-NX.SG@@U.DECL-CX.PAR@      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.PAR@tAÄ1      K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par+PxSg3:@U.DECL-NX.SG@@U.DECL-CX.PAR@tAÄ1AÄ1      K_Num  ;
 
 LEXICON SG-TRA
-+Sg+Tra00@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsks@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
-+Sg+Tra+PxSg20000@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsksees@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
-+Sg+Tra+PxSg3000@U.DECL-NX.SG@@U.DECL-CX.TRA@:%>%^WCnsksee@U.DECL-NX.SG@@U.DECL-CX.TRA@   K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra00:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsks   K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+PxSg20000:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsksees   K_Num  ;
+@U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsksee   K_Num  ;
 
 ! vim: set ft=xfst-lexc:
 
