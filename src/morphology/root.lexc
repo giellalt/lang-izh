@@ -447,7 +447,8 @@ LEXICON Root
 
 !Abbreviation	 ;
 !Acronym		 ;
-!Punctuation	 ;
+Punctuation	 ;
+Symbols     ;
 !wordToNumeral    ;
  EXCEPTIONS	  ;
 
