@@ -35,6 +35,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/particles.lexc \
 			 affixes/pronouns.lexc \
 			 affixes/propernouns.lexc \
+			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc
 
 # If you are building an error-detecting L2 analyser, specify the lexc files
@@ -66,7 +67,8 @@ GENERATED_LEXC_SRCS=\
 			 $(srcdir)/stems/Pcle_izh2x.lexc \
 			 $(srcdir)/stems/Pron_izh2x.lexc \
 			 $(srcdir)/stems/V_izh2x.lexc \
-			 generated_files/punctuation.lexc
+			 generated_files/punctuation.lexc \
+			 generated_files/symbols.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=\
