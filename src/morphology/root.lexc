@@ -466,7 +466,6 @@ LEXICON AbbrDot
 ! XXX This should be moved to a separate abbreviations.lexc
 !      file, and not clogger this file. !2013-01-16 Should it?
 +ABBR:%. # ;
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 
 LEXICON INTERJ_
 +Interj: # ;
