@@ -1181,11 +1181,11 @@
       <l pos="N">veeras</l>
 
       <stg>
-        <st Contlex="N_PATSAS">veera</st>
+        <st Contlex="N_PATSAS" varid="1">veera</st>
 
-        <st Contlex="N_PATSAS">viera</st>
+        <st Contlex="N_PATSAS" varid="2">viera</st>
 
-        <st Contlex="N_PATSAS">viira</st>
+        <st Contlex="N_PATSAS" varid="3">viira</st>
       </stg>
     </lg>
 
@@ -1398,9 +1398,9 @@
       <l pos="N">tapahus</l>
 
       <stg>
-        <st Contlex="N_VARIS">tapahu</st>
+        <st Contlex="N_VARIS" varid="1">tapahu</st>
 
-        <st Contlex="N_VARIS">tapaho</st>
+        <st Contlex="N_VARIS" varid="2">tapaho</st>
       </stg>
     </lg>
 
@@ -1418,9 +1418,9 @@
       <l pos="N">geminattatapahus</l>
 
       <stg>
-        <st Contlex="N_VARIS">geminatta#tapahu</st>
+        <st Contlex="N_VARIS" varid="1">geminatta#tapahu</st>
 
-        <st Contlex="N_VARIS">geminaatta#tapahu</st>
+        <st Contlex="N_VARIS" varid="2">geminaatta#tapahu</st>
       </stg>
     </lg>
 
@@ -1678,11 +1678,11 @@
       <l pos="N">seeni</l>
 
       <stg>
-        <st Contlex="N_KEELI">seen</st>
+        <st Contlex="N_KEELI" varid="1">seen</st>
 
-        <st Contlex="N_KEELI">sien</st>
+        <st Contlex="N_KEELI" varid="2">sien</st>
 
-        <st Contlex="N_KEELI">siin</st>
+        <st Contlex="N_KEELI" varid="3">siin</st>
       </stg>
     </lg>
 
@@ -1703,11 +1703,11 @@
       <l pos="N">toohi</l>
 
       <stg>
-        <st Contlex="N_KEELI">tooh</st>
+        <st Contlex="N_KEELI" varid="1">tooh</st>
 
-        <st Contlex="N_KEELI">tuoh</st>
+        <st Contlex="N_KEELI" varid="2">tuoh</st>
 
-        <st Contlex="N_KEELI">tuuh</st>
+        <st Contlex="N_KEELI" varid="3">tuuh</st>
       </stg>
     </lg>
 
@@ -1806,9 +1806,9 @@
       <l pos="N">hooli</l>
 
       <stg>
-        <st Contlex="N_KEELI">hool</st>
+        <st Contlex="N_KEELI" varid="1">hool</st>
 
-        <st Contlex="N_KEELI">huol</st>
+        <st Contlex="N_KEELI" varid="2">huol</st>
       </stg>
     </lg>
 
@@ -2494,8 +2494,8 @@
       <l pos="N">lapsuus</l>
 
       <stg>
-        <st Contlex="N_OIKEHUS">lapsuu</st>
-        <st Contlex="N_OIKEHUS">lapsu</st>
+        <st Contlex="N_OIKEHUS" varid="1">lapsuu</st>
+        <st Contlex="N_OIKEHUS" varid="2">lapsu</st>
       </stg>
     </lg>
 
@@ -2768,9 +2768,9 @@
       <l pos="N">syvvyys</l>
 
       <stg>
-        <st Contlex="N_OIKEHUS">syvvyy</st>
+        <st Contlex="N_OIKEHUS" varid="1">syvvyy</st>
 
-        <st Contlex="N_OIKEHUS">syvyy</st>
+        <st Contlex="N_OIKEHUS" varid="2">syvyy</st>
       </stg>
     </lg>
 
@@ -2842,11 +2842,11 @@
       <l pos="N">inmihiin</l>
 
       <stg>
-        <st Contlex="N_INMIHIIN">inmihi</st>
+        <st Contlex="N_INMIHIIN" varid="1">inmihi</st>
 
-        <st Contlex="N_INMIHIIN">ihmihi</st>
+        <st Contlex="N_INMIHIIN" varid="2">ihmihi</st>
 
-        <st Contlex="N_INMIHIIN">inhimi</st>
+        <st Contlex="N_INMIHIIN" varid="3">inhimi</st>
       </stg>
     </lg>
 
@@ -18102,11 +18102,11 @@
       <l pos="N">voosi</l>
 
       <stg>
-        <st Contlex="N_VOOSI">voo</st>
+        <st Contlex="N_VOOSI" varid="1">voo</st>
 
-        <st Contlex="N_VOOSI">vuu</st>
+        <st Contlex="N_VOOSI" varid="2">vuu</st>
 
-        <st Contlex="N_VOOSI">vuo</st>
+        <st Contlex="N_VOOSI" varid="3">vuo</st>
       </stg>
     </lg>
 
@@ -18376,11 +18376,11 @@
       <l pos="N">toohus</l>
 
       <stg>
-        <st Contlex="N_VARIS">toohu</st>
+        <st Contlex="N_VARIS" varid="1">toohu</st>
 
-        <st Contlex="N_VARIS">tuohu</st>
+        <st Contlex="N_VARIS" varid="2">tuohu</st>
 
-        <st Contlex="N_VARIS">tuuhu</st>
+        <st Contlex="N_VARIS" varid="3">tuuhu</st>
       </stg>
     </lg>
 
@@ -18668,11 +18668,11 @@
       <l pos="N">öö</l>
 
       <stg>
-        <st Contlex="N_MAA">öö</st>
+        <st Contlex="N_MAA" varid="1">öö</st>
 
-        <st Contlex="N_MAA">yy</st>
+        <st Contlex="N_MAA" varid="2">yy</st>
 
-        <st Contlex="N_YÖ-SG">yö</st>
+        <st Contlex="N_YÖ-SG" varid="3">yö</st>
       </stg>
     </lg>
 
