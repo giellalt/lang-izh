@@ -18,7 +18,7 @@ JSP_PAGES=root-morphology.jspwiki  \
 		  propernouns-affixes.jspwiki      \
 		  quantifiers-affixes.jspwiki      \
 		  verbs-affixes.jspwiki \
-		  izh-phon-phonology.jspwiki 
+		  phonology-morphology.jspwiki 
 # clitics-morphology.jspwiki       \
 # compounding-morphology.jspwiki   \
 # abbreviations-stems.jspwiki      \
