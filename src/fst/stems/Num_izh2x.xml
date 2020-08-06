@@ -10,9 +10,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">first</t>
          </tg>
@@ -29,15 +26,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -48,15 +36,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -67,9 +46,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">second</t>
          </tg>
@@ -86,9 +62,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">hundredth</t>
          </tg>
@@ -105,15 +78,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -124,15 +88,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -143,15 +98,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -162,15 +108,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -181,15 +118,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -200,9 +128,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Qnt">all</t>
          </tg>
@@ -219,9 +144,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Qnt">more</t>
          </tg>
@@ -238,15 +160,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -257,12 +170,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="Qnt">vain</t>
          </tg>
@@ -276,15 +183,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -295,15 +193,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -314,15 +203,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -333,15 +213,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -352,9 +223,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Qnt">each</t>
          </tg>
@@ -371,9 +239,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Qnt">each</t>
          </tg>
@@ -390,9 +255,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">one</t>
          </tg>
@@ -409,9 +271,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">two</t>
          </tg>
@@ -428,9 +287,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">three</t>
          </tg>
@@ -447,15 +303,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -466,15 +313,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -485,15 +323,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -504,15 +333,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -523,15 +343,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -542,15 +353,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -561,15 +363,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -580,15 +373,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -599,15 +383,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -618,15 +393,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -637,15 +403,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -656,15 +413,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -675,15 +423,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -694,15 +433,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -713,15 +443,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -732,15 +453,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -751,15 +463,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -770,15 +473,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -789,15 +483,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -808,15 +493,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -827,15 +503,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -846,15 +513,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -865,15 +523,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -884,15 +533,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -903,15 +543,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -922,15 +553,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -941,15 +563,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -960,15 +573,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -979,15 +583,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -998,15 +593,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1017,15 +603,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1036,15 +613,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
    <e>
@@ -1055,9 +623,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">five</t>
          </tg>
@@ -1074,9 +639,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
          <tg xml:lang="eng">
             <t pos="Num">six</t>
          </tg>
@@ -1093,15 +655,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
-         <tg xml:lang="fin">
-            <t/>
-         </tg>
       </mg>
    </e>
 </r>

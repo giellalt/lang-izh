@@ -4,7 +4,10 @@
 !! Ingrian adjectives compare.
 
 LEXICON AdvTag
+ADV_ ;
+LEXICON ADV_
 +Adv:      K   ;
+
 
 LEXICON AdvManner
 +Adv+Manner:      K   ;
