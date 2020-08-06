@@ -10,12 +10,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">ja</t>
          </tg>
@@ -29,12 +23,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">vai</t>
          </tg>
@@ -48,12 +36,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">tai</t>
          </tg>
@@ -67,12 +49,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">tai</t>
          </tg>
@@ -86,12 +62,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">ja</t>
          </tg>
@@ -105,12 +75,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">ja</t>
          </tg>
@@ -124,12 +88,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">vaan</t>
          </tg>
@@ -143,12 +101,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">tai</t>
          </tg>
@@ -162,14 +114,8 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
-            <t/>
+            <t>mutta</t>
          </tg>
       </mg>
    </e>
@@ -181,12 +127,6 @@
          </stg>
       </lg>
       <mg>
-         <m>
-            <head/>
-         </m>
-         <tg xml:lang="eng">
-            <t/>
-         </tg>
          <tg xml:lang="fin">
             <t pos="CC">mutta</t>
          </tg>
