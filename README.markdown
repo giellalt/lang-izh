@@ -22,7 +22,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/izhdoc/index.html>
+-   <https://giellalt.uit.no/lang/izh/IngrianDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
