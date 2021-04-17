@@ -1,4 +1,4 @@
-!! !!!Noun inflection
+!! # Noun inflection
 ! ----
 
 !! Here are the suffixes for noun inflection.
@@ -812,7 +812,7 @@ LEXICON N-XXI
 #;
 
 !
-!! !!DERIVATION 
+!! ## DERIVATION 
 !
 !! One derivational process only, DER-t0in.
 
@@ -820,7 +820,7 @@ LEXICON DER-tOin
 @C.POS@+Der/tOin:@C.POS@%>%^WCnst A_KALATOIN ;
 
 !
-!! !!DECLENSION 
+!! ## DECLENSION 
 !
 
 LEXICON Cases
@@ -896,7 +896,7 @@ LEXICON Oblique-Singular_less-EssExe
       SG-ABE		;
 
 !
-!! !!PLURAL TAGS 
+!! ## PLURAL TAGS 
 !
 !! Plural tags separated from singular ones.
 
