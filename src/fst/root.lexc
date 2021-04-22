@@ -24,69 +24,69 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N +A +Adv +V
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt
+!! ### The parts-of-speech tags:
+ +N +A +Adv +V !!≈ **@CODE@** 
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt  !!≈ **@CODE@** 
 
 !! The parts of speech are further split up into:
 !! Types of nouns include
- +Prop
+ +Prop !!≈ **@CODE@** 
 !! Types of pronouns include
- +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ **@CODE@** 
 
 !! Types of adverbs include
- +Manner +Spat +Temp
+ +Manner +Spat +Temp !!≈ **@CODE@** 
 
 !! The Usage extents are marked using following tags:
- +Err/Orth
- +Use/-Spell
+ +Err/Orth !!≈ **@CODE@** 
+ +Use/-Spell !!≈ **@CODE@** 
 
 !! Overgeneration of case formatives, such as, exessive with personal pronouns
- +Err/OverG
+ +Err/OverG !!≈ **@CODE@** 
 !! Dialects
- +Dial/Soik ! Peculiar to Soikkola
- +Dial/Lauk ! Peculiar to Laukaa
+ +Dial/Soik  !!≈ **@CODE@**  Peculiar to Soikkola
+ +Dial/Lauk  !!≈ **@CODE@**  Peculiar to Laukaa
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Pl
- +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par
- +Exe +Instr +Com +Ins +Prl
+ +Sg +Pl !!≈ **@CODE@** 
+ +Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par !!≈ **@CODE@** 
+ +Exe +Instr +Com +Ins +Prl !!≈ **@CODE@** 
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3 !!≈ **@CODE@** 
 !! The comparative forms are:
- +Comp +Superl
+ +Comp +Superl !!≈ **@CODE@** 
 !! Numerals and other quantifiers are classified under:
- +Attr +Card
- +Ord
- +Univ ! universal quantifier
+ +Attr +Card !!≈ **@CODE@** 
+ +Ord !!≈ **@CODE@** 
+ +Univ  !!≈ **@CODE@**  universal quantifier
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ **@CODE@** 
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3 !!≈ **@CODE@** 
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII
- +ActPrsPrc +ActPrtPrc
-  +Prc +PrtPrc +Sup +VGen +VAbess
-+PrfPrc ! Which one is needed?
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII !!≈ **@CODE@** 
+ +ActPrsPrc +ActPrtPrc !!≈ **@CODE@** 
+  +Prc +PrtPrc +Sup +VGen +VAbess !!≈ **@CODE@** 
++PrfPrc  !!≈ **@CODE@**  Which one is needed?
 
 !! Abbreviated words are classified with:
- +ABBR +ACR
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+ +ABBR +ACR !!≈ **@CODE@** 
++Symbol !!≈ **@CODE@** = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
++CLB +PUNCT +LEFT +RIGHT !!≈ **@CODE@** 
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV +IV !!≈ **@CODE@** 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!≈ **@CODE@** 
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!≈ **@CODE@** 
 
 !! Question and Focus particles:
- +Qst +Foc
- +Foc/kä
- +Foc/kii
- +Clt/kAA
+ +Qst +Foc !!≈ **@CODE@** 
+ +Foc/kä !!≈ **@CODE@** 
+ +Foc/kii !!≈ **@CODE@** 
+ +Clt/kAA !!≈ **@CODE@** 
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
@@ -195,130 +195,130 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 
 
-! Multiple Semantic tags:
-+Sem/Act_Group
-+Sem/Act_Plc
-+Sem/Act_Route
-+Sem/Amount_Build
-+Sem/Amount_Semcon
-+Sem/Ani_Body-abstr_Hum
-+Sem/Ani_Build
-+Sem/Ani_Build-part
-+Sem/Ani_Build_Hum_Txt
-+Sem/Ani_Group
-+Sem/Ani_Group_Hum
-+Sem/Ani_Hum
-+Sem/Ani_Hum_Plc
-+Sem/Ani_Hum_Time
-+Sem/Ani_Plc
-+Sem/Ani_Plc_Txt
-+Sem/Ani_Time
-+Sem/Ani_Veh
-+Sem/Aniprod_Hum
-+Sem/Aniprod_Obj-clo
-+Sem/Aniprod_Perc-phys
-+Sem/Aniprod_Plc
-+Sem/Body-abstr_Prod-audio_Semcon
-+Sem/Body_Body-abstr
-+Sem/Body_Clth
-+Sem/Body_Food
-+Sem/Body_Group_Hum
-+Sem/Body_Hum
-+Sem/Body_Mat
-+Sem/Body_Measr
-+Sem/Body_Obj_Tool-catch
-+Sem/Body_Plc
-+Sem/Body_Time
-+Sem/Build-part_Plc
-+Sem/Build_Build-part
-+Sem/Build_Clth-part
-+Sem/Build_Edu_Org
-+Sem/Build_Event_Org
-+Sem/Build_Org
-+Sem/Build_Route
-+Sem/Clth-jewl_Curr
-+Sem/Clth-jewl_Money
-+Sem/Clth-jewl_Plant
-+Sem/Clth_Hum
-+Sem/Ctain-abstr_Org
-+Sem/Ctain-clth_Plant
-+Sem/Ctain-clth_Veh
-+Sem/Ctain_Feat-phys
-+Sem/Ctain_Furn
-+Sem/Ctain_Tool
-+Sem/Ctain_Tool-measr
-+Sem/Curr_Org
-+Sem/Dance_Org
-+Sem/Dance_Prod-audio
-+Sem/Domain_Food-med
-+Sem/Domain_Prod-audio
-+Sem/Edu_Event
-+Sem/Edu_Group_Hum
-+Sem/Edu_Mat
-+Sem/Edu_Org
-+Sem/Event_Food
-+Sem/Event_Hum
-+Sem/Event_Plc
-+Sem/Event_Time
-+Sem/Feat-phys_Tool-write
-+Sem/Feat-phys_Veh
-+Sem/Feat-phys_Wthr
-+Sem/Feat-psych_Hum
-+Sem/Feat_Plant
-+Sem/Food_Perc-phys
-+Sem/Food_Plant
-+Sem/Game_Obj-play
-+Sem/Geom_Obj
-+Sem/Group_Hum
-+Sem/Group_Hum_Org
-+Sem/Group_Hum_Plc
-+Sem/Group_Hum_Prod-vis
-+Sem/Group_Org
-+Sem/Group_Sign
-+Sem/Group_Txt
-+Sem/Hum_Lang
-+Sem/Hum_Lang_Plc
-+Sem/Hum_Lang_Time
-+Sem/Hum_Obj
-+Sem/Hum_Org
-+Sem/Hum_Plant
-+Sem/Hum_Plc
-+Sem/Hum_Tool
-+Sem/Hum_Veh
-+Sem/Hum_Wthr
-+Sem/Lang_Tool
-+Sem/Mat_Plant
-+Sem/Mat_Txt
-+Sem/Measr_Time
-+Sem/Money_Obj
-+Sem/Money_Txt
-+Sem/Obj-play
-+Sem/Obj-play_Sport
-+Sem/Obj_Semcon
-+Sem/Clth-jewl_Org
-+Sem/Org_Rule
-+Sem/Org_Txt
-+Sem/Org_Veh
-+Sem/Part_Prod-cogn
-+Sem/Perc-emo_Wthr
-+Sem/Plant_Plant-part
-+Sem/Plant_Tool
-+Sem/Plant_Tool-measr
-+Sem/Plc-abstr_Rel_State
-+Sem/Plc-abstr_Route
-+Sem/Plc_Pos
-+Sem/Plc_Route
-+Sem/Plc_Substnc
-+Sem/Plc_Substnc_Wthr
-+Sem/Plc_Time
-+Sem/Plc_Tool-catch
-+Sem/Plc_Wthr
-+Sem/Prod-audio_Txt
-+Sem/Prod-cogn_Txt
-+Sem/Semcon_Txt
-+Sem/Obj_State
-+Sem/Substnc_Wthr
-+Sem/Time_Wthr
+!! Multiple Semantic tags:
++Sem/Act_Group					   !!≈ **@CODE@** 
++Sem/Act_Plc					   !!≈ **@CODE@** 
++Sem/Act_Route					   !!≈ **@CODE@** 
++Sem/Amount_Build				   !!≈ **@CODE@** 
++Sem/Amount_Semcon				   !!≈ **@CODE@** 
++Sem/Ani_Body-abstr_Hum			   !!≈ **@CODE@** 
++Sem/Ani_Build					   !!≈ **@CODE@** 
++Sem/Ani_Build-part				   !!≈ **@CODE@** 
++Sem/Ani_Build_Hum_Txt			   !!≈ **@CODE@** 
++Sem/Ani_Group					   !!≈ **@CODE@** 
++Sem/Ani_Group_Hum				   !!≈ **@CODE@** 
++Sem/Ani_Hum					   !!≈ **@CODE@** 
++Sem/Ani_Hum_Plc				   !!≈ **@CODE@** 
++Sem/Ani_Hum_Time				   !!≈ **@CODE@** 
++Sem/Ani_Plc					   !!≈ **@CODE@** 
++Sem/Ani_Plc_Txt				   !!≈ **@CODE@** 
++Sem/Ani_Time					   !!≈ **@CODE@** 
++Sem/Ani_Veh					   !!≈ **@CODE@** 
++Sem/Aniprod_Hum				   !!≈ **@CODE@** 
++Sem/Aniprod_Obj-clo			   !!≈ **@CODE@** 
++Sem/Aniprod_Perc-phys			   !!≈ **@CODE@** 
++Sem/Aniprod_Plc				   !!≈ **@CODE@** 
++Sem/Body-abstr_Prod-audio_Semcon  !!≈ **@CODE@** 
++Sem/Body_Body-abstr			   !!≈ **@CODE@** 
++Sem/Body_Clth					   !!≈ **@CODE@** 
++Sem/Body_Food					   !!≈ **@CODE@** 
++Sem/Body_Group_Hum				   !!≈ **@CODE@** 
++Sem/Body_Hum					   !!≈ **@CODE@** 
++Sem/Body_Mat					   !!≈ **@CODE@** 
++Sem/Body_Measr					   !!≈ **@CODE@** 
++Sem/Body_Obj_Tool-catch		   !!≈ **@CODE@** 
++Sem/Body_Plc					   !!≈ **@CODE@** 
++Sem/Body_Time					   !!≈ **@CODE@** 
++Sem/Build-part_Plc				   !!≈ **@CODE@** 
++Sem/Build_Build-part			   !!≈ **@CODE@** 
++Sem/Build_Clth-part			   !!≈ **@CODE@** 
++Sem/Build_Edu_Org				   !!≈ **@CODE@** 
++Sem/Build_Event_Org			   !!≈ **@CODE@** 
++Sem/Build_Org					   !!≈ **@CODE@** 
++Sem/Build_Route				   !!≈ **@CODE@** 
++Sem/Clth-jewl_Curr				   !!≈ **@CODE@** 
++Sem/Clth-jewl_Money			   !!≈ **@CODE@** 
++Sem/Clth-jewl_Plant			   !!≈ **@CODE@** 
++Sem/Clth_Hum					   !!≈ **@CODE@** 
++Sem/Ctain-abstr_Org			   !!≈ **@CODE@** 
++Sem/Ctain-clth_Plant			   !!≈ **@CODE@** 
++Sem/Ctain-clth_Veh				   !!≈ **@CODE@** 
++Sem/Ctain_Feat-phys			   !!≈ **@CODE@** 
++Sem/Ctain_Furn					   !!≈ **@CODE@** 
++Sem/Ctain_Tool					   !!≈ **@CODE@** 
++Sem/Ctain_Tool-measr			   !!≈ **@CODE@** 
++Sem/Curr_Org					   !!≈ **@CODE@** 
++Sem/Dance_Org					   !!≈ **@CODE@** 
++Sem/Dance_Prod-audio			   !!≈ **@CODE@** 
++Sem/Domain_Food-med			   !!≈ **@CODE@** 
++Sem/Domain_Prod-audio			   !!≈ **@CODE@** 
++Sem/Edu_Event					   !!≈ **@CODE@** 
++Sem/Edu_Group_Hum				   !!≈ **@CODE@** 
++Sem/Edu_Mat					   !!≈ **@CODE@** 
++Sem/Edu_Org					   !!≈ **@CODE@** 
++Sem/Event_Food					   !!≈ **@CODE@** 
++Sem/Event_Hum					   !!≈ **@CODE@** 
++Sem/Event_Plc					   !!≈ **@CODE@** 
++Sem/Event_Time					   !!≈ **@CODE@** 
++Sem/Feat-phys_Tool-write		   !!≈ **@CODE@** 
++Sem/Feat-phys_Veh				   !!≈ **@CODE@** 
++Sem/Feat-phys_Wthr				   !!≈ **@CODE@** 
++Sem/Feat-psych_Hum				   !!≈ **@CODE@** 
++Sem/Feat_Plant					   !!≈ **@CODE@** 
++Sem/Food_Perc-phys				   !!≈ **@CODE@** 
++Sem/Food_Plant					   !!≈ **@CODE@** 
++Sem/Game_Obj-play				   !!≈ **@CODE@** 
++Sem/Geom_Obj					   !!≈ **@CODE@** 
++Sem/Group_Hum					   !!≈ **@CODE@** 
++Sem/Group_Hum_Org				   !!≈ **@CODE@** 
++Sem/Group_Hum_Plc				   !!≈ **@CODE@** 
++Sem/Group_Hum_Prod-vis			   !!≈ **@CODE@** 
++Sem/Group_Org					   !!≈ **@CODE@** 
++Sem/Group_Sign					   !!≈ **@CODE@** 
++Sem/Group_Txt					   !!≈ **@CODE@** 
++Sem/Hum_Lang					   !!≈ **@CODE@** 
++Sem/Hum_Lang_Plc				   !!≈ **@CODE@** 
++Sem/Hum_Lang_Time				   !!≈ **@CODE@** 
++Sem/Hum_Obj					   !!≈ **@CODE@** 
++Sem/Hum_Org					   !!≈ **@CODE@** 
++Sem/Hum_Plant					   !!≈ **@CODE@** 
++Sem/Hum_Plc					   !!≈ **@CODE@** 
++Sem/Hum_Tool					   !!≈ **@CODE@** 
++Sem/Hum_Veh					   !!≈ **@CODE@** 
++Sem/Hum_Wthr					   !!≈ **@CODE@** 
++Sem/Lang_Tool					   !!≈ **@CODE@** 
++Sem/Mat_Plant					   !!≈ **@CODE@** 
++Sem/Mat_Txt					   !!≈ **@CODE@** 
++Sem/Measr_Time					   !!≈ **@CODE@** 
++Sem/Money_Obj					   !!≈ **@CODE@** 
++Sem/Money_Txt					   !!≈ **@CODE@** 
++Sem/Obj-play					   !!≈ **@CODE@** 
++Sem/Obj-play_Sport				   !!≈ **@CODE@** 
++Sem/Obj_Semcon					   !!≈ **@CODE@** 
++Sem/Clth-jewl_Org				   !!≈ **@CODE@** 
++Sem/Org_Rule					   !!≈ **@CODE@** 
++Sem/Org_Txt					   !!≈ **@CODE@** 
++Sem/Org_Veh					   !!≈ **@CODE@** 
++Sem/Part_Prod-cogn				   !!≈ **@CODE@** 
++Sem/Perc-emo_Wthr				   !!≈ **@CODE@** 
++Sem/Plant_Plant-part			   !!≈ **@CODE@** 
++Sem/Plant_Tool					   !!≈ **@CODE@** 
++Sem/Plant_Tool-measr			   !!≈ **@CODE@** 
++Sem/Plc-abstr_Rel_State		   !!≈ **@CODE@** 
++Sem/Plc-abstr_Route			   !!≈ **@CODE@** 
++Sem/Plc_Pos					   !!≈ **@CODE@** 
++Sem/Plc_Route					   !!≈ **@CODE@** 
++Sem/Plc_Substnc				   !!≈ **@CODE@** 
++Sem/Plc_Substnc_Wthr			   !!≈ **@CODE@** 
++Sem/Plc_Time					   !!≈ **@CODE@** 
++Sem/Plc_Tool-catch				   !!≈ **@CODE@** 
++Sem/Plc_Wthr					   !!≈ **@CODE@** 
++Sem/Prod-audio_Txt				   !!≈ **@CODE@** 
++Sem/Prod-cogn_Txt				   !!≈ **@CODE@** 
++Sem/Semcon_Txt					   !!≈ **@CODE@** 
++Sem/Obj_State					   !!≈ **@CODE@** 
++Sem/Substnc_Wthr				   !!≈ **@CODE@** 
++Sem/Time_Wthr					   !!≈ **@CODE@** 
 
 
 !! Semantics are classified with
@@ -335,40 +335,43 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A
- +Der/jA ! actor name !!2012-10-30
- +Der/Adj ! for derivation of adjectives without specification
- +Der/st ! for derivation of manner adverbs
- +Der/min ! Deverbal nouns
- +Der/miin ! Deverbal nouns
- +Der/tOin ! Deverbal _arvaamaton_ and Denominal adjectives
- +Der/toist ! ykstoist (11), kakstoist (12)
+ +Der/jA      !!≈ **@CODE@** = actor name !!2012-10-30
+ +Der/Adj     !!≈ **@CODE@** = for derivation of adjectives without specification
+ +Der/st      !!≈ **@CODE@** = for derivation of manner adverbs
+ +Der/min     !!≈ **@CODE@** = Deverbal nouns
+ +Der/miin    !!≈ **@CODE@** = Deverbal nouns
+ +Der/tOin    !!≈ **@CODE@** = Deverbal _arvaamaton_ and Denominal adjectives
+ +Der/toist   !!≈ **@CODE@** = ykstoist (11), kakstoist (12)
 
-!! Morphophonology
+!! ## Morphophonology
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
- %> V1 V2 V3 AÄ1 OÖ1 UY1
- %^E1 %^TS
- K1 %^NoGrad ! Nogradation
+ {aä} {oö} {uü} !!≈ **@CODE@** 
+ %> V1 V2 V3 AÄ1 OÖ1 UY1 !!≈ **@CODE@** 
+ %^E1 %^TS !!≈ **@CODE@** 
+ K1 %^NoGrad  !!≈ **@CODE@**  Nogradation
 
 !! And following triggers to control variation
- {front} {back}
- %^ShVws %^LVws
- %^ShCns %^LCns
- %^WCns %^StrCns
- %^AtoO
- %^ÄtoÖ
- %^OddSyll ! arvata, arvant but arvanneet
- %^StretchSyll2 ! creates ommeena from omena
- %^SyllBr ! syllable break for venät and lyhyt
- %^RVws !
- %^WGStem ! weak-grade stem for _ompel_ to _ommel_
+ {front} {back} !!≈ **@CODE@** 
+ %^ShVws %^LVws !!≈ **@CODE@** 
+ %^ShCns %^LCns !!≈ **@CODE@** 
+ %^WCns %^StrCns !!≈ **@CODE@** 
+ %^AtoO !!≈ **@CODE@** 
+ %^ÄtoÖ !!≈ **@CODE@** 
+ %^OddSyll  !!≈ **@CODE@**  arvata, arvant but arvanneet
+ %^StretchSyll2  !!≈ **@CODE@**  creates ommeena from omena
+ %^SyllBr  !!≈ **@CODE@**  syllable break for venät and lyhyt
+ %^RVws  !!≈ **@CODE@** 
+ %^WGStem  !!≈ **@CODE@**  weak-grade stem for _ompel_ to _ommel_
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! | Flag | Explanation
+!! | --- | --- 
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
@@ -377,6 +380,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
+
+!! | Flag | Explanation
+!! | --- | --- 
  @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
@@ -390,93 +396,108 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flag | Explanation
+!! | --- | --- 
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
-! This is to facilitate the 'teens' in "-toist"
-! This can also be used as a condition for further combinations
-! e.g. tens and hundreds
-@U.CARD.TOIST@
-@R.CARD.TOIST@
-@C.CARD@
+!! This is to facilitate the 'teens' in "-toist"
+!! This can also be used as a condition for further combinations
+!! e.g. tens and hundreds
+
+
+!! | Flag | Explanation
+!! | --- | --- 
+@U.CARD.TOIST@   !!≈ |  @CODE@ | 
+@R.CARD.TOIST@   !!≈ |  @CODE@ | 
+@C.CARD@	     !!≈ |  @CODE@ | 
+
 !! Part of speech
-@U.POS.N@
-@R.POS.N@
-@U.POS.NUM@
-@R.POS.NUM@
-@C.POS@
+
+!! | Flag | Explanation
+!! | --- | --- 
+@U.POS.N@     !!≈ |  @CODE@ | 
+@R.POS.N@     !!≈ |  @CODE@ | 
+@U.POS.NUM@   !!≈ |  @CODE@ | 
+@R.POS.NUM@   !!≈ |  @CODE@ | 
+@C.POS@	      !!≈ |  @CODE@ | 
 
 !! FLAGS USED WITH COLLECTIVE NOUNS
-! number
-@U.DECL-NX.SG@
-@U.DECL-NX.PL@
-@R.DECL-NX.PL@
-! case
-@U.DECL-CX.ABE@
-@U.DECL-CX.ABL@
-@U.DECL-CX.ACC@
-@U.DECL-CX.ADE@
-@U.DECL-CX.ALL@
-@U.DECL-CX.COM@
-@U.DECL-CX.ELA@
-@U.DECL-CX.ESS@
-@U.DECL-CX.EXE@
-@U.DECL-CX.GEN@
-@U.DECL-CX.ILL@
-@U.DECL-CX.INE@
-@U.DECL-CX.INS@
-@U.DECL-CX.NOM@
-@U.DECL-CX.PAR@
-@U.DECL-CX.PRL@
-@U.DECL-CX.TRA@
 
-@U.COMPLETE.YES@
-@D.COMPLETE.YES@
+!! | Flag | Explanation
+!! | --- | --- 
+@U.DECL-NX.SG@	   !!≈ |  @CODE@ | unify number
+@U.DECL-NX.PL@	   !!≈ |  @CODE@ | unify number
+@R.DECL-NX.PL@	   !!≈ |  @CODE@ | reset number
+@U.DECL-CX.ABE@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ABL@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ACC@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ADE@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ALL@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.COM@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ELA@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ESS@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.EXE@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.GEN@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.ILL@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.INE@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.INS@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.NOM@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.PAR@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.PRL@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.DECL-CX.TRA@	   !!≈ |  @CODE@ | unify case for collective noun
+@U.COMPLETE.YES@   !!≈ |  @CODE@ |
+@D.COMPLETE.YES@   !!≈ |  @CODE@ |
+@C.DECL-CX@		   !!≈ |  @CODE@ | 
+@C.DECL-NX@		   !!≈ |  @CODE@ | 
+@C.COMPLETE@	   !!≈ |  @CODE@ | 
 
-@C.DECL-CX@
-@C.DECL-NX@
-@C.COMPLETE@
 
-
+!! ## Root lexicon
 
 LEXICON Root
+!! @LEXNAME@
 !! The word forms  start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   A_izh2x  ;
-   Adp_izh2x    ;
-   Adv_izh2x  ;
-   CC_izh2x   ;
-   CS_izh2x   ;
-   Interj_izh2x   ;
-   N_izh2x   ;
-   Pcle_izh2x    ;
-   Pron_izh2x    ;
-   N_Prop_izh2x    ;
-   Num_izh2x   ;
-   V_izh2x   ;
-
+   A_izh2x  ;		 !!≈ * **@CODE@**
+   Adp_izh2x    ;	 !!≈ * **@CODE@**
+   Adv_izh2x  ;		 !!≈ * **@CODE@**
+   CC_izh2x   ;		 !!≈ * **@CODE@**
+   CS_izh2x   ;		 !!≈ * **@CODE@**
+   Interj_izh2x   ;	 !!≈ * **@CODE@**
+   N_izh2x   ;		 !!≈ * **@CODE@**
+   Pcle_izh2x    ;	 !!≈ * **@CODE@**
+   Pron_izh2x    ;	 !!≈ * **@CODE@**
+   N_Prop_izh2x    ; !!≈ * **@CODE@**
+   Num_izh2x   ;	 !!≈ * **@CODE@**
+   V_izh2x   ;		 !!≈ * **@CODE@**
+Punctuation	 ; !!≈ * **@CODE@**
+Symbols     ; !!≈ * **@CODE@**
+ EXCEPTIONS	  ; !!≈ * **@CODE@**
+!wordToNumeral    ;
 !Abbreviation	 ;
 !Acronym		 ;
-Punctuation	 ;
-Symbols     ;
-!wordToNumeral    ;
- EXCEPTIONS	  ;
 
 
 !! POS with minimal morphological variation
 
 LEXICON CC_
+!! @LEXNAME@
 +CC:   #   ;
 
 LEXICON CS_
+!! @LEXNAME@
 +CS:   #   ;
 
 LEXICON AbbrDot
+!! @LEXNAME@
 ! XXX This should be moved to a separate abbreviations.lexc
 !      file, and not clogger this file. !2013-01-16 Should it?
 +ABBR:%. # ;
 
 LEXICON INTERJ_
+!! @LEXNAME@
 +Interj: # ;
 
 ! vim: set ft=xfst-lexc:
