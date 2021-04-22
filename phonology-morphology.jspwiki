@@ -1,0 +1,247 @@
+
+!!!The Ingrian morphophonological/twolc rules file 
+
+!!Alphabet
+
+!The letters
+
+ * __a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö __
+ * __A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö __
+ * __ş ƶ y											    __
+ * __Ş Ƶ Y											    __
+
+ * __ь __ Sьktьvkar
+ * __Ь __
+
+!Vowel harmony with "(t)a/ä"
+ * __AÄ1:a __
+ * __AÄ1:ä __
+ * __AÄ1:0 __
+
+!Vowel harmony with "loi/löi" also kalatOÖ1in
+ * __OÖ1:o __
+ * __OÖ1:ö __
+
+!Vowel harmony with "ttu/tty"
+ * __UY1:u __
+ * __UY1:y __
+
+!this appears in the illative
+ * __V1:a __
+ * __V1:e __
+ * __V1:i __
+ * __V1:o __
+ * __V1:u __
+ * __V1:y __
+ * __V1:ä __
+ * __V1:ö __
+
+!These appear with the inessive and adessive
+ * __V2:a __
+ * __V2:e __
+ * __V2:i __
+ * __V2:o __
+ * __V2:u __
+ * __V2:y __
+ * __V2:ä __
+ * __V2:ö __ 
+
+!These reduplicate the preceding vowel if it in turn is preceded by a consonant
+ * __V3:a __
+ * __V3:e __
+ * __V3:i __
+ * __V3:o __
+ * __V3:u __
+ * __V3:y __
+ * __V3:ä __
+ * __V3:ö __
+ * __V3:0 __
+
+!this k is not effected by gradation
+ * __K1:k __
+ * __%^NoGrad:0 __ This will be placed after a stem to break Gradation
+
+!this weakens the stem ''ompel'' to ''ommel''
+ * __%^WGStem:0 __
+
+!The ti => si
+ * __%^TS:0 __
+
+!Vowel raising
+ * __%^RVws:0 __
+
+ * __%-    __ Hyphen in  constructions 
+ * __%>:0  __
+#:0     * hash is Word boundary for both lexicalised and dynamic compounds
+
+ * __Cx __ these should probably not be declared
+ * __Cy __ these should probably not be declared
+ * __X  __ these should probably not be declared
+ * __Y  __ these should probably not be declared
+
+ * __%^LVws:0		 __
+ * __%^LCns:0		 __
+ * __%^WCns:0		 __
+ * __%^AtoO:0		 __
+ * __%^ÄtoÖ:0		 __
+ * __%^OddSyll:0		 __
+ * __%^StretchSyll2:0 __
+ * __%^SyllBr:0		 __
+ * __%^E1:0			 __
+
+
+
+!!Sets
+
+
+ * __VwsBack = a o u ;		__
+ * __VwsFront = ä ö y ü ;		__
+ * __VwsNeutral = e i ь ; 		__
+ * __VwsNonHigh = a o ä ö e ;	__
+ * __Vws = a o u ä ö y ü e i ь ;	__
+ * __Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; __
+ * __Letters = Vws Cns ;		__
+
+
+!!Definitions
+
+* Front Trigger
+
+
+* Back Trigger 
+
+* Gradation strong to weak
+
+* Short vowel
+
+
+Right context for gradation
+
+
+
+!!!Rules
+
+
+
+__StemVowLoss __ 
+
+__StemALoss __ 
+
+* __osa%>^WCns%>i%>st __
+* __os0000i0st __
+
+__StemAÄLoss __ 
+
+
+__StemULoss__ 
+
+* __maa%>i%>n __
+* __ma00i0n __
+
+__i:Zero__ 
+
+__i:j__ 
+* __em0o0i%>%^LCnsAÄ1 __
+* __emmooj00a __
+
+__a:e__ 
+
+__ä:e__ 
+
+
+__AÄ1:ä__ 
+
+__AÄ1:a__ 
+
+__OÖ1:ö__ 
+
+__OÖ1:o__ 
+
+__UY1:y__ 
+
+__UY1:u__ 
+
+__V1:aeouüäö__ 
+
+__V1:e__ 
+
+__V1:i__ 
+
+__V2:aeiouüäö__ 
+
+
+__V2:Zero__ 
+
+
+This deals with secondary or perhaps pertary vowel lengthening
+__V3:a__ 
+
+__V3:e__ 
+
+__V3:i__ 
+
+__V3:o__ 
+
+__V3:u__ 
+
+__V3:ä__ 
+
+__V3:ö__ 
+
+__V3:y__ 
+
+__V3:Zero__ 
+
+__V3:Zero__ 
+
+
+__consonant lengthening__ 
+__j lengthening__ 
+
+
+
+!!Consonant weakening 
+
+
+
+
+__Ut:vv Uk:vv weakening__ 
+
+__0:v Lengthening with Ut:vv weakening__ 
+
+
+
+
+__it:j__ 
+
+__st:ss weakening__ 
+
+
+__rt:rr weakening__ 
+
+__lt:ll weakening__ 
+
+__nt:nn weakening__ 
+
+p
+
+__mp:mm weakening__ 
+
+__nk:ng weakening__ 
+
+
+__kToZero__ 
+
+__kToj__ 
+
+__Double stop:weakens tToZero__ 
+
+__p:v__ 
+
+__double pp to p__ 
+
+Vowel raising
+__o:u ö:y in Inf__ 
+
+
+

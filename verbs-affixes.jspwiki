@@ -1,0 +1,262 @@
+!!!Verb inflection
+!!Irregular verbs
+
+ * __LEXICON V-ei __ lists the negative verb, including imperative forms.
+
+ * __LEXICON K_V-neg __ gives the focus particle for +Neg, and directs to K_V.
+
+ * __LEXICON V-olla __ gives the forms of olla, and redirects to K_V
+
+
+oon
+
+
+
+
+
+!!Regular verbs
+
+ * __LEXICON V-jäävvä __ so far only splits to the next lexicon
+
+ * __LEXICON V-jäävvä_01 __. 
+TODO: Document difference between this and previous
+
+
+
+
+
+
+
+ * __LEXICON V-käyvvä __  käyvvä:kä
+TODO: Dokument difference between this and previous
+
+
+
+
+
+
+
+ * __LEXICON V-tuuvva __ 
+* tuuvva:too
+
+
+
+
+
+
+
+ * __LEXICON V-voija  __ voija:voi
+
+
+
+
+
+
+ * __LEXICON V-antaa __ redirects to next only antaa:ant
+
+ * __LEXICON V-antaa_01 __ 
+
+
+
+
+
+ * __LEXICON V-lukkia __ 
+* lukkia:luk
+
+
+
+
+
+
+ * __LEXICON V-tiitää __
+* tiitää:tiit
+
+ * __LEXICON V-tiitää_01 __
+tiije
+
+tiitämätöin
+tiitää
+
+
+
+ * __LEXICON V-näyttää __ näyttää:näytt
+
+ * __LEXICON V-näyttää_01 __
+näytetää
+
+näyttännöö
+
+näyttävä
+näyttänt
+näyttämätöin
+näyttää
+näyttämää
+
+
+ * __LEXICON V-laatia __ !! laatia:laati
+
+!!3-syllable
+kiirehtiä:kiireh
+
+
+ * __LEXICON V-hyväksyä __
+
+ * __LEXICON V-kutsua __
+
+ * __LEXICON V-kutsua_01 __
+
+
+
+
+
+ * __LEXICON V-kirjuttaa __
+
+ * __LEXICON V-kirjuttaa_01 __
+
+
+
+
+ * __LEXICON V-tulla __
+
+ * __LEXICON V-tulla_01 __
+
+
+
+
+ * __LEXICON V-ommella __
+
+ * __LEXICON V-ommella_01 __
+
+
+
+
+
+ * __LEXICON V-nähä __
+
+ * __LEXICON V-nähä_01 __
+
+
+
+
+ * __LEXICON V-panna __
+
+ * __LEXICON V-panna_01 __
+
+
+
+
+ * __LEXICON V-sannoa __
+
+
+
+
+ * __LEXICON V-painuttaissa __
+
+
+
+
+ * __LEXICON V-pittiissä __
+
+ * __LEXICON V-pittiissä_01 __
+
+
+
+
+ * __LEXICON V-vuhissa_01 __
+
+
+
+
+
+
+ * __LEXICON V-laatihussa __
+
+
+
+ * __LEXICON V-määrätä __ goes to V-arvata
+
+ * __LEXICON V-upota __ goes to V-arvata
+
+
+ * __LEXICON V-arvata __
+
+
+
+
+ * __LEXICON V-hävitä __
+
+
+
+
+ * __LEXICON V-merkitä __
+
+ * __LEXICON V-merkitä_01 __
+
+
+
+
+
+ * __LEXICON V-ahavojja __
+
+
+!!DERIVATION 
+
+* Actor in jA
+ * __LEXICON V-actor_jA __
+
+
+
+!!PARTICIPLES
+
+
+ * __LEXICON V-ActPrsPrc __
+ * __LEXICON V-ActPrtPrc_nt __
+
+ * __LEXICON V-ActPrtPrc_rt __
+
+
+
+
+!!CONJUGATION
+
+!INDICATIVE PRETERITE
+
+ * __LEXICON IndPrt __ split 1-2 vs 3
+
+ * __LEXICON IndPrt_1-2 __
+
+ * __LEXICON IndPrt_3 __
+
+ * __LEXICON IND-PRT-SG1 __
+
+ * __LEXICON IND-PRT-SG2 __
+
+ * __LEXICON IND-PRT-SG3 __
+
+ * __LEXICON IND-PRT-PL1 __
+
+ * __LEXICON IND-PRT-PL2 __
+
+ * __LEXICON IND-PRT-PL3 __
+This is not working 2012-10-30
+
+
+
+
+!!CONDITIONAL 
+
+ * __LEXICON CondPers __
+
+!!POTENTIAL
+
+:n, :s, :l, :r, :n
+ * __LEXICON PotPers __
+
+
+!!IMPERATIVE !!
+
+ * __LEXICON ImprtPers_k __
+
+
+
+
