@@ -1,0 +1,13 @@
+# Adverb inflection
+
+Ingrian adjectives compare.
+
+
+
+
+
+
+
+
+
+
