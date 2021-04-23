@@ -13,42 +13,50 @@ language are presented in this system in terms of the following symbols.
  **+N +A +Adv +V** 
  **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
 
-The parts of speech are further split up into:
-Types of nouns include
+#### The parts of speech subtags
+
+##### Types of nouns
  **+Prop** 
-Types of pronouns include
+
+##### Types of pronouns
  **+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** 
 
-Types of adverbs include
+##### Types of adverbs
  **+Manner +Spat +Temp** 
 
-The Usage extents are marked using following tags:
+##### The Usage extents are marked using following tags:
  **+Err/Orth** 
  **+Use/-Spell** 
 
-Overgeneration of case formatives, such as, exessive with personal pronouns
+##### Overgeneration of case formatives, such as, exessive with personal pronouns
  **+Err/OverG** 
-Dialects
+
+##### Dialects
  **+Dial/Soik**  Peculiar to Soikkola
  **+Dial/Lauk**  Peculiar to Laukaa
 
-The nominals are inflected in the following Case and Number
+##### The nominals are inflected in the following Case and Number
  **+Sg +Pl** 
  **+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
  **+Exe +Instr +Com +Ins +Prl** 
 
-The possession is marked as such:
+##### The possession:
  **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** 
+
 The comparative forms are:
  **+Comp +Superl** 
+
 Numerals and other quantifiers are classified under:
  **+Attr +Card** 
  **+Ord** 
  **+Univ**  universal quantifier
+
 Verb moods are:
  **+Ind +Prs +Prt +Pot +Cond +Imprt** 
+
 Verb personal forms are:
  **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** 
+
 Other verb forms are
  **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
  **+ActPrsPrc +ActPrtPrc** 
@@ -58,12 +66,16 @@ Other verb forms are
 Abbreviated words are classified with:
  **+ABBR +ACR** 
  **+Symbol** = independent symbols in the text stream, like £, €, ©
+
 Special symbols are classified with:
  **+CLB +PUNCT +LEFT +RIGHT** 
+
 The verbs are syntactically split according to transitivity:
  **+TV +IV** 
+
 Special multiword units are analysed with:
  **+Multi** 
+
 Non-dictionary words can be recognised with:
  **+Guess** 
 
@@ -179,129 +191,129 @@ Question and Focus particles:
 
 
 Multiple Semantic tags:
- **+Sem/Act_Group					** 
- **+Sem/Act_Plc					** 
- **+Sem/Act_Route					** 
- **+Sem/Amount_Build				** 
- **+Sem/Amount_Semcon				** 
- **+Sem/Ani_Body-abstr_Hum			** 
- **+Sem/Ani_Build					** 
- **+Sem/Ani_Build-part				** 
- **+Sem/Ani_Build_Hum_Txt			** 
- **+Sem/Ani_Group					** 
- **+Sem/Ani_Group_Hum				** 
- **+Sem/Ani_Hum					** 
- **+Sem/Ani_Hum_Plc				** 
- **+Sem/Ani_Hum_Time				** 
- **+Sem/Ani_Plc					** 
- **+Sem/Ani_Plc_Txt				** 
- **+Sem/Ani_Time					** 
- **+Sem/Ani_Veh					** 
- **+Sem/Aniprod_Hum				** 
- **+Sem/Aniprod_Obj-clo			** 
- **+Sem/Aniprod_Perc-phys			** 
- **+Sem/Aniprod_Plc				** 
- **+Sem/Body-abstr_Prod-audio_Semcon** 
- **+Sem/Body_Body-abstr			** 
- **+Sem/Body_Clth					** 
- **+Sem/Body_Food					** 
- **+Sem/Body_Group_Hum				** 
- **+Sem/Body_Hum					** 
- **+Sem/Body_Mat					** 
- **+Sem/Body_Measr					** 
- **+Sem/Body_Obj_Tool-catch		** 
- **+Sem/Body_Plc					** 
- **+Sem/Body_Time					** 
- **+Sem/Build-part_Plc				** 
- **+Sem/Build_Build-part			** 
- **+Sem/Build_Clth-part			** 
- **+Sem/Build_Edu_Org				** 
- **+Sem/Build_Event_Org			** 
- **+Sem/Build_Org					** 
- **+Sem/Build_Route				** 
- **+Sem/Clth-jewl_Curr				** 
- **+Sem/Clth-jewl_Money			** 
- **+Sem/Clth-jewl_Plant			** 
- **+Sem/Clth_Hum					** 
- **+Sem/Ctain-abstr_Org			** 
- **+Sem/Ctain-clth_Plant			** 
- **+Sem/Ctain-clth_Veh				** 
- **+Sem/Ctain_Feat-phys			** 
- **+Sem/Ctain_Furn					** 
- **+Sem/Ctain_Tool					** 
- **+Sem/Ctain_Tool-measr			** 
- **+Sem/Curr_Org					** 
- **+Sem/Dance_Org					** 
- **+Sem/Dance_Prod-audio			** 
- **+Sem/Domain_Food-med			** 
- **+Sem/Domain_Prod-audio			** 
- **+Sem/Edu_Event					** 
- **+Sem/Edu_Group_Hum				** 
- **+Sem/Edu_Mat					** 
- **+Sem/Edu_Org					** 
- **+Sem/Event_Food					** 
- **+Sem/Event_Hum					** 
- **+Sem/Event_Plc					** 
- **+Sem/Event_Time					** 
- **+Sem/Feat-phys_Tool-write		** 
- **+Sem/Feat-phys_Veh				** 
- **+Sem/Feat-phys_Wthr				** 
- **+Sem/Feat-psych_Hum				** 
- **+Sem/Feat_Plant					** 
- **+Sem/Food_Perc-phys				** 
- **+Sem/Food_Plant					** 
- **+Sem/Game_Obj-play				** 
- **+Sem/Geom_Obj					** 
- **+Sem/Group_Hum					** 
- **+Sem/Group_Hum_Org				** 
- **+Sem/Group_Hum_Plc				** 
- **+Sem/Group_Hum_Prod-vis			** 
- **+Sem/Group_Org					** 
- **+Sem/Group_Sign					** 
- **+Sem/Group_Txt					** 
- **+Sem/Hum_Lang					** 
- **+Sem/Hum_Lang_Plc				** 
- **+Sem/Hum_Lang_Time				** 
- **+Sem/Hum_Obj					** 
- **+Sem/Hum_Org					** 
- **+Sem/Hum_Plant					** 
- **+Sem/Hum_Plc					** 
- **+Sem/Hum_Tool					** 
- **+Sem/Hum_Veh					** 
- **+Sem/Hum_Wthr					** 
- **+Sem/Lang_Tool					** 
- **+Sem/Mat_Plant					** 
- **+Sem/Mat_Txt					** 
- **+Sem/Measr_Time					** 
- **+Sem/Money_Obj					** 
- **+Sem/Money_Txt					** 
- **+Sem/Obj-play					** 
- **+Sem/Obj-play_Sport				** 
- **+Sem/Obj_Semcon					** 
- **+Sem/Clth-jewl_Org				** 
- **+Sem/Org_Rule					** 
- **+Sem/Org_Txt					** 
- **+Sem/Org_Veh					** 
- **+Sem/Part_Prod-cogn				** 
- **+Sem/Perc-emo_Wthr				** 
- **+Sem/Plant_Plant-part			** 
- **+Sem/Plant_Tool					** 
- **+Sem/Plant_Tool-measr			** 
- **+Sem/Plc-abstr_Rel_State		** 
- **+Sem/Plc-abstr_Route			** 
- **+Sem/Plc_Pos					** 
- **+Sem/Plc_Route					** 
- **+Sem/Plc_Substnc				** 
- **+Sem/Plc_Substnc_Wthr			** 
- **+Sem/Plc_Time					** 
- **+Sem/Plc_Tool-catch				** 
- **+Sem/Plc_Wthr					** 
- **+Sem/Prod-audio_Txt				** 
- **+Sem/Prod-cogn_Txt				** 
- **+Sem/Semcon_Txt					** 
- **+Sem/Obj_State					** 
- **+Sem/Substnc_Wthr				** 
- **+Sem/Time_Wthr					** 
+ * **+Sem/Act_Group** 
+ * **+Sem/Act_Plc** 
+ * **+Sem/Act_Route** 
+ * **+Sem/Amount_Build** 
+ * **+Sem/Amount_Semcon** 
+ * **+Sem/Ani_Body-abstr_Hum** 
+ * **+Sem/Ani_Build** 
+ * **+Sem/Ani_Build-part** 
+ * **+Sem/Ani_Build_Hum_Txt** 
+ * **+Sem/Ani_Group** 
+ * **+Sem/Ani_Group_Hum** 
+ * **+Sem/Ani_Hum** 
+ * **+Sem/Ani_Hum_Plc** 
+ * **+Sem/Ani_Hum_Time** 
+ * **+Sem/Ani_Plc** 
+ * **+Sem/Ani_Plc_Txt** 
+ * **+Sem/Ani_Time** 
+ * **+Sem/Ani_Veh** 
+ * **+Sem/Aniprod_Hum** 
+ * **+Sem/Aniprod_Obj-clo** 
+ * **+Sem/Aniprod_Perc-phys** 
+ * **+Sem/Aniprod_Plc** 
+ * **+Sem/Body-abstr_Prod-audio_Semcon** 
+ * **+Sem/Body_Body-abstr** 
+ * **+Sem/Body_Clth** 
+ * **+Sem/Body_Food** 
+ * **+Sem/Body_Group_Hum** 
+ * **+Sem/Body_Hum** 
+ * **+Sem/Body_Mat** 
+ * **+Sem/Body_Measr** 
+ * **+Sem/Body_Obj_Tool-catch** 
+ * **+Sem/Body_Plc** 
+ * **+Sem/Body_Time** 
+ * **+Sem/Build-part_Plc** 
+ * **+Sem/Build_Build-part** 
+ * **+Sem/Build_Clth-part** 
+ * **+Sem/Build_Edu_Org** 
+ * **+Sem/Build_Event_Org** 
+ * **+Sem/Build_Org** 
+ * **+Sem/Build_Route** 
+ * **+Sem/Clth-jewl_Curr** 
+ * **+Sem/Clth-jewl_Money** 
+ * **+Sem/Clth-jewl_Plant** 
+ * **+Sem/Clth_Hum** 
+ * **+Sem/Ctain-abstr_Org** 
+ * **+Sem/Ctain-clth_Plant** 
+ * **+Sem/Ctain-clth_Veh** 
+ * **+Sem/Ctain_Feat-phys** 
+ * **+Sem/Ctain_Furn** 
+ * **+Sem/Ctain_Tool** 
+ * **+Sem/Ctain_Tool-measr** 
+ * **+Sem/Curr_Org** 
+ * **+Sem/Dance_Org** 
+ * **+Sem/Dance_Prod-audio** 
+ * **+Sem/Domain_Food-med** 
+ * **+Sem/Domain_Prod-audio** 
+ * **+Sem/Edu_Event** 
+ * **+Sem/Edu_Group_Hum** 
+ * **+Sem/Edu_Mat** 
+ * **+Sem/Edu_Org** 
+ * **+Sem/Event_Food** 
+ * **+Sem/Event_Hum** 
+ * **+Sem/Event_Plc** 
+ * **+Sem/Event_Time** 
+ * **+Sem/Feat-phys_Tool-write** 
+ * **+Sem/Feat-phys_Veh** 
+ * **+Sem/Feat-phys_Wthr** 
+ * **+Sem/Feat-psych_Hum** 
+ * **+Sem/Feat_Plant** 
+ * **+Sem/Food_Perc-phys** 
+ * **+Sem/Food_Plant** 
+ * **+Sem/Game_Obj-play** 
+ * **+Sem/Geom_Obj** 
+ * **+Sem/Group_Hum** 
+ * **+Sem/Group_Hum_Org** 
+ * **+Sem/Group_Hum_Plc** 
+ * **+Sem/Group_Hum_Prod-vis** 
+ * **+Sem/Group_Org** 
+ * **+Sem/Group_Sign** 
+ * **+Sem/Group_Txt** 
+ * **+Sem/Hum_Lang** 
+ * **+Sem/Hum_Lang_Plc** 
+ * **+Sem/Hum_Lang_Time** 
+ * **+Sem/Hum_Obj** 
+ * **+Sem/Hum_Org** 
+ * **+Sem/Hum_Plant** 
+ * **+Sem/Hum_Plc** 
+ * **+Sem/Hum_Tool** 
+ * **+Sem/Hum_Veh** 
+ * **+Sem/Hum_Wthr** 
+ * **+Sem/Lang_Tool** 
+ * **+Sem/Mat_Plant** 
+ * **+Sem/Mat_Txt** 
+ * **+Sem/Measr_Time** 
+ * **+Sem/Money_Obj** 
+ * **+Sem/Money_Txt** 
+ * **+Sem/Obj-play** 
+ * **+Sem/Obj-play_Sport** 
+ * **+Sem/Obj_Semcon** 
+ * **+Sem/Clth-jewl_Org** 
+ * **+Sem/Org_Rule** 
+ * **+Sem/Org_Txt** 
+ * **+Sem/Org_Veh** 
+ * **+Sem/Part_Prod-cogn** 
+ * **+Sem/Perc-emo_Wthr** 
+ * **+Sem/Plant_Plant-part** 
+ * **+Sem/Plant_Tool** 
+ * **+Sem/Plant_Tool-measr** 
+ * **+Sem/Plc-abstr_Rel_State** 
+ * **+Sem/Plc-abstr_Route** 
+ * **+Sem/Plc_Pos** 
+ * **+Sem/Plc_Route** 
+ * **+Sem/Plc_Substnc** 
+ * **+Sem/Plc_Substnc_Wthr** 
+ * **+Sem/Plc_Time** 
+ * **+Sem/Plc_Tool-catch** 
+ * **+Sem/Plc_Wthr** 
+ * **+Sem/Prod-audio_Txt** 
+ * **+Sem/Prod-cogn_Txt** 
+ * **+Sem/Semcon_Txt** 
+ * **+Sem/Obj_State** 
+ * **+Sem/Substnc_Wthr** 
+ * **+Sem/Time_Wthr** 
 
 
 Semantics are classified with
@@ -309,6 +321,7 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
+
  **+Der/jA** = actor name !!2012-10-30
  **+Der/Adj** = for derivation of adjectives without specification
  **+Der/st** = for derivation of manner adverbs
@@ -384,7 +397,7 @@ e.g. tens and hundreds
 | --- | --- 
  |  @U.CARD.TOIST@ | 
  |  @R.CARD.TOIST@ | 
- |  @C.CARD@	 | 
+ |  @C.CARD@ | 
 
 Part of speech
 
@@ -394,37 +407,37 @@ Part of speech
  |  @R.POS.N@ | 
  |  @U.POS.NUM@ | 
  |  @R.POS.NUM@ | 
- |  @C.POS@	 | 
+ |  @C.POS@ | 
 
 FLAGS USED WITH COLLECTIVE NOUNS
 
 | Flag | Explanation
 | --- | --- 
- |  @U.DECL-NX.SG@	 | unify number
- |  @U.DECL-NX.PL@	 | unify number
- |  @R.DECL-NX.PL@	 | reset number
- |  @U.DECL-CX.ABE@	 | unify case for collective noun
- |  @U.DECL-CX.ABL@	 | unify case for collective noun
- |  @U.DECL-CX.ACC@	 | unify case for collective noun
- |  @U.DECL-CX.ADE@	 | unify case for collective noun
- |  @U.DECL-CX.ALL@	 | unify case for collective noun
- |  @U.DECL-CX.COM@	 | unify case for collective noun
- |  @U.DECL-CX.ELA@	 | unify case for collective noun
- |  @U.DECL-CX.ESS@	 | unify case for collective noun
- |  @U.DECL-CX.EXE@	 | unify case for collective noun
- |  @U.DECL-CX.GEN@	 | unify case for collective noun
- |  @U.DECL-CX.ILL@	 | unify case for collective noun
- |  @U.DECL-CX.INE@	 | unify case for collective noun
- |  @U.DECL-CX.INS@	 | unify case for collective noun
- |  @U.DECL-CX.NOM@	 | unify case for collective noun
- |  @U.DECL-CX.PAR@	 | unify case for collective noun
- |  @U.DECL-CX.PRL@	 | unify case for collective noun
- |  @U.DECL-CX.TRA@	 | unify case for collective noun
+ |  @U.DECL-NX.SG@ | unify number
+ |  @U.DECL-NX.PL@ | unify number
+ |  @R.DECL-NX.PL@ | reset number
+ |  @U.DECL-CX.ABE@ | unify case for collective noun
+ |  @U.DECL-CX.ABL@ | unify case for collective noun
+ |  @U.DECL-CX.ACC@ | unify case for collective noun
+ |  @U.DECL-CX.ADE@ | unify case for collective noun
+ |  @U.DECL-CX.ALL@ | unify case for collective noun
+ |  @U.DECL-CX.COM@ | unify case for collective noun
+ |  @U.DECL-CX.ELA@ | unify case for collective noun
+ |  @U.DECL-CX.ESS@ | unify case for collective noun
+ |  @U.DECL-CX.EXE@ | unify case for collective noun
+ |  @U.DECL-CX.GEN@ | unify case for collective noun
+ |  @U.DECL-CX.ILL@ | unify case for collective noun
+ |  @U.DECL-CX.INE@ | unify case for collective noun
+ |  @U.DECL-CX.INS@ | unify case for collective noun
+ |  @U.DECL-CX.NOM@ | unify case for collective noun
+ |  @U.DECL-CX.PAR@ | unify case for collective noun
+ |  @U.DECL-CX.PRL@ | unify case for collective noun
+ |  @U.DECL-CX.TRA@ | unify case for collective noun
  |  @U.COMPLETE.YES@ |
  |  @D.COMPLETE.YES@ |
- |  @C.DECL-CX@		 | 
- |  @C.DECL-NX@		 | 
- |  @C.COMPLETE@	 | 
+ |  @C.DECL-CX@ | 
+ |  @C.DECL-NX@ | 
+ |  @C.COMPLETE@ | 
 
 
 ## Root lexicon
@@ -432,21 +445,21 @@ FLAGS USED WITH COLLECTIVE NOUNS
 Root
 The word forms  start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **A_izh2x ;		**
- * **Adp_izh2x ;	**
- * **Adv_izh2x ;		**
- * **CC_izh2x ;		**
- * **CS_izh2x ;		**
- * **Interj_izh2x ;	**
- * **N_izh2x ;		**
- * **Pcle_izh2x ;	**
- * **Pron_izh2x ;	**
+ * **A_izh2x ;**
+ * **Adp_izh2x ;**
+ * **Adv_izh2x ;**
+ * **CC_izh2x ;**
+ * **CS_izh2x ;**
+ * **Interj_izh2x ;**
+ * **N_izh2x ;**
+ * **Pcle_izh2x ;**
+ * **Pron_izh2x ;**
  * **N_Prop_izh2x ;**
- * **Num_izh2x ;	**
- * **V_izh2x ;		**
- * **Punctuation	 ;**
+ * **Num_izh2x ;**
+ * **V_izh2x ;**
+ * **Punctuation ;**
  * **Symbols ;**
- * **EXCEPTIONS	 ;**
+ * **EXCEPTIONS ;**
 
 
 POS with minimal morphological variation
