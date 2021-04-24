@@ -1,10 +1,9 @@
 
-# Morphology
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF INGRIAN
+# Ingrian multichar symbols and *Root* lexicon
 
- # Definitions for Multichar_Symbols
+ Definitions for Multichar_Symbols
 
-## Analysis symbols
+## Multichar\_Symbols
 The morphological analyses of wordforms for the Ingrian
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -14,87 +13,58 @@ language are presented in this system in terms of the following symbols.
  **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
 
 #### The parts of speech subtags
+ **+Prop** Types of nouns
+ **+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** Types of pronouns
+ **+Manner +Spat +Temp** = Types of adverbs
+ **+Err/Orth** error forms
+ **+Use/-Spell**  do not suggest
+ **+Err/OverG** Marks Overgeneration of case formatives, such as, exessive with personal pronouns
+ **+Dial/Soik**  Dialects tag. Peculiar to Soikkola
+ **+Dial/Lauk**  Dialect tag. Peculiar to Laukaa
 
-##### Types of nouns
- **+Prop** 
-
-##### Types of pronouns
- **+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** 
-
-##### Types of adverbs
- **+Manner +Spat +Temp** 
-
-##### The Usage extents are marked using following tags:
- **+Err/Orth** 
- **+Use/-Spell** 
-
-##### Overgeneration of case formatives, such as, exessive with personal pronouns
- **+Err/OverG** 
-
-##### Dialects
- **+Dial/Soik**  Peculiar to Soikkola
- **+Dial/Lauk**  Peculiar to Laukaa
-
-##### The nominals are inflected in the following Case and Number
+##### Nominal inflection
  **+Sg +Pl** 
  **+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
  **+Exe +Instr +Com +Ins +Prl** 
+ **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** Possessive suffixes
+ **+Comp +Superl** comparative tags
 
-##### The possession:
- **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** 
-
-The comparative forms are:
- **+Comp +Superl** 
-
-Numerals and other quantifiers are classified under:
+##### Numerals and other quantifier tags
  **+Attr +Card** 
- **+Ord** 
+ **+Ord** ordinal
  **+Univ**  universal quantifier
 
-Verb moods are:
- **+Ind +Prs +Prt +Pot +Cond +Imprt** 
-
-Verb personal forms are:
- **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** 
-
-Other verb forms are
+##### Verb tags 
+ **+Ind +Prs +Prt +Pot +Cond +Imprt**  moods
+ **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** Verb person tags
  **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
  **+ActPrsPrc +ActPrtPrc** 
  **+Prc +PrtPrc +Sup +VGen +VAbess** 
  **+PrfPrc**  Which one is needed?
+ **+TV +IV**  transitivity:
 
-Abbreviated words are classified with:
+##### Miscellanious tags
  **+ABBR +ACR** 
  **+Symbol** = independent symbols in the text stream, like £, €, ©
-
-Special symbols are classified with:
- **+CLB +PUNCT +LEFT +RIGHT** 
-
-The verbs are syntactically split according to transitivity:
- **+TV +IV** 
-
-Special multiword units are analysed with:
- **+Multi** 
-
-Non-dictionary words can be recognised with:
- **+Guess** 
-
-Question and Focus particles:
- **+Qst +Foc** 
+ **+CLB +PUNCT +LEFT +RIGHT**  Special symbols
+ **+Multi** Non-dictionary words can be recognised with: Special multiword units 
+ **+Guess** Non-dictionary words via regex gring stems (not in use?)
+ **+Qst** yes/no question
+ **+Foc** focus
  **+Foc/kä** 
  **+Foc/kii** 
  **+Clt/kAA** 
 
-## Symbols that need to be escaped on the lower side (towards twolc):
+##### Symbols that need to be escaped on the lower side (towards twolc):
  * **»7**:  Literal »
  * **«7**:  Literal «
-```
   %[%>%]  - Literal >
   %[%<%]  - Literal <
-```
 
+### Semantic tags
 
-
+Semantic tags to help disambiguation & synt. analysis: (before POS)
+Borrowed from main/langs/sme/src/morphology/root.lexc
  * **+Sem/Act** Activity
  * **+Sem/Amount** Amount
  * **+Sem/Ani** Animate
@@ -190,7 +160,7 @@ Question and Focus particles:
 
 
 
-Multiple Semantic tags:
+### Multiple Semantic tags:
  * **+Sem/Act_Group** 
  * **+Sem/Act_Plc** 
  * **+Sem/Act_Route** 
@@ -319,9 +289,11 @@ Multiple Semantic tags:
 Semantics are classified with
 
 
+### Derivation
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
+ **+V→N +V→V +V→A** 
  **+Der/jA** = actor name !!2012-10-30
  **+Der/Adj** = for derivation of adjectives without specification
  **+Der/st** = for derivation of manner adverbs
@@ -333,12 +305,15 @@ source and target part-of-speech.
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
+### Archiphonemes
  **{aä} {oö} {uü}** 
  **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
  **%^E1 %^TS** 
  **K1 %^NoGrad**  Nogradation
 
-And following triggers to control variation
+
+### Triggers to control variation
  **{front} {back}** 
  **%^ShVws %^LVws** 
  **%^ShCns %^LCns** 
