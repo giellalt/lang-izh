@@ -1,3 +1,29 @@
+Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lyhyt ensimmäinen tavu
+
+pitkä ensimmäinen tavu
+
 
 # Ingrian multichar symbols and *Root* lexicon
 
@@ -447,63 +473,6 @@ AbbrDot
 
 INTERJ_
 
-# Adjective inflection
-The INGRIAN language adjectives compare.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Adposition tags
-
-Here we just add tags +Po and +Prep
-to the Ingrian pre- and postpositions.
-
-
-
-
-
 # Adverb inflection
 
 Ingrian adjectives compare.
@@ -517,92 +486,150 @@ Ingrian adjectives compare.
 
 
 
-# Clitics
 
-Ingrian clitics are stored in the affixes folder.
-We tag question and focus particles.
+# Symbol affixes
 
 
 
 
 
+# Ingrian noun inflection
+This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
+This file documents the suffixes for noun inflection.
 
+**LEXICON N_YÖ-SG** 
 
-# Noun inflection
+**LEXICON N_YÖ-SG_01** 
 
-Here are the suffixes for noun inflection.
 
+**LEXICON N_MAA** 
 
+**LEXICON N_MAA_01** 
 
+**LEXICON N_PREESENS**  preesens:preesens
 
+**LEXICON N_PREESENS_01** 
 
+**LEXICON N_GLASNOI** 
 
+**LEXICON N_RISTI** 
 
+**LEXICON N-risti_01** 
 
+**LEXICON N_MATO**  mato (II)
 
+**LEXICON N-mato_01** 
 
+**LEXICON N_KOIVU**  koivu
 
 
+**LEXICON N_OSA**  forma osa (II-b)
 
+**LEXICON N-osa_01** 
 
+**LEXICON N_JOKI**  joki:jok joki (II-c)
 
+**LEXICON N-joki_01** 
 
+**LEXICON N_LUMI**  lumi (II-d)
 
+**LEXICON N-lumi_01** 
 
 
+**LEXICON N_EMOI**  emoi (III)
 
+**LEXICON N-emoi_01** 
 
+**LEXICON N_JALKA**  the stem-final "a" is added here. jalka (IV)
 
+**LEXICON N-jalka_01** 
 
+**LEXICON N_KANA** 
 
+**LEXICON N-kana_01** 
 
+## Three-syllable words
 
+**LEXICON N_MONIKKO** 
 
+**LEXICON N_TYTÄR**  tytär:tyttä
 
-Three-syllable words
+**LEXICON N-tytär_01** 
 
+**LEXICON N_PATSAS**  patsas:patsa
 
+**LEXICON N-patsas_01** 
 
 
+**LEXICON N_LÄHE**  lähe:lähte
 
+**LEXICON N-lähe_01** 
 
 
 
 
 
+**LEXICON N_SLOVARI**  from mato (II-e)
 
+**LEXICON N-slovari_01** 
 
 
+**LEXICON N_NUMERO**  numero:numero
 
+**LEXICON N-numero_01** 
 
 
+**LEXICON N_VOKALA**  the stem-final "a" is added here  vokala (IV-b)
 
+**LEXICON N-vokala_01** 
 
 
+**LEXICON N_HARAKKA**  harakka:harakk
+This should operate using principles of ommeena
 
+**LEXICON N-harakka_01** 
 
+**LEXICON N_OMMEENA**  ommeena:omena
 
 
+**LEXICON N_PUTTEELI**  putteeli:puteli
 
+**LEXICON N-putteeli_01** 
 
 
+**LEXICON N_LEIKKUU**  leikkuu, kiukkaa, lämmää (VI)
 
+**LEXICON N-leikkuu_01** 
 
+**LEXICON N_ASSIA**  assia:assi (VII)
 
+**LEXICON N-assia_01** 
 
+**LEXICON N-assia_01-Sg** 
 
+**LEXICON N_PESÄ**  VCV
 
+**LEXICON N-pesä_01** 
 
+**LEXICON N_TÄHKÄ**  VCCV,  tähkä (VIII)
 
+**LEXICON N-tähkä_01** 
 
+**LEXICON N_TAEHTI**  tähti (IX)
 
+**LEXICON NMN_TAEHTI_01** 
 
+**LEXICON N_VARSI** 
 
+**LEXICON N_VOOSI**  voosi:voo
 
 
 
+**LEXICON N_MEES**  mees:mee (??)
 
+**LEXICON N-mees_01** 
 
+**LEXICON N_VARIS**  varis (XII)
 
 
 
@@ -623,10 +650,14 @@ Three-syllable words
 
 
 
+**LEXICON N_KEELI**  keeli (IX-b)
 
+**LEXICON N-keeli_01** 
 
 
+**LEXICON N_SAMMAL** 
 
+**LEXICON N-sammal_01** 
 
 
 
@@ -639,39 +670,142 @@ Three-syllable words
 
 
 
+**LEXICON N_VENÄT**  kevät (XX-a)
 
+**LEXICON N-venät_01** 
 
+**LEXICON N-venät_01-Sg** 
 
+**LEXICON N_PÄIVYT**  päivyt:päivy
 
-
-
-
+**LEXICON N-päivyt_01** 
 
 
 
 ## DERIVATION 
 One derivational process only, DER-t0in.
 
+**LEXICON DER-tOin** 
 
 ## DECLENSION 
 
+**LEXICON Cases** 
 
 
+**LEXICON lOi-Pl** 
+
+**LEXICON Oblique-Plural_blank** 
+
+**LEXICON Oblique-Plural_sse** 
+
+**LEXICON Oblique-Plural_V** 
+
+**LEXICON Oblique-Plural_hV** 
+
+**LEXICON Oblique-Plural** 
 
 
+**LEXICON Oblique-Plural_less-EssExe** 
 
+**LEXICON Oblique-Singular** 
 
-
-
-
-
-
+**LEXICON Oblique-Singular_less-EssExe** 
 
 ## PLURAL TAGS 
 Plural tags separated from singular ones.
 
 
+**LEXICON PL-ABE** 
 
+**LEXICON PL-ABL** 
+
+**LEXICON PL-ABL_Px** 
+
+**LEXICON PL-ADE** 
+
+**LEXICON PL-ALL** 
+
+**LEXICON PL-COM** +Dial/Lauk
+
+**LEXICON PL-ELA** 
+
+**LEXICON PL-ESS_Vn** +Dial/Soik
+
+**LEXICON PL-ESS_n** 
+
+**LEXICON PL-ESS_nnA** +Dial/Lauk
+
+**LEXICON PL-EXE** 
+
+**LEXICON PL-GEN** 
+
+**LEXICON PL-ILL_blank** 
+
+**LEXICON PL-ILL_sse** 
+
+**LEXICON PL-ILL_V** 
+
+**LEXICON PL-ILL_hV** 
+
+**LEXICON PL-INE** 
+
+
+**LEXICON PL-NOM** 
+
+**LEXICON PL-PAR_A** 
+
+**LEXICON PL-PAR_A-LCns** 
+
+
+**LEXICON PL-PAR_tA** 
+
+**LEXICON PL-PRL** 
+
+**LEXICON PL-TRA** @
+
+**LEXICON SG-ABE** 
+
+**LEXICON SG-ABL** 
+
+**LEXICON SG-ADE** 
+
+**LEXICON SG-ALL** 
+
+**LEXICON SG-COM** 
+
+**LEXICON SG-ELA** 
+
+**LEXICON SG-ESS_Vn** 
+
+**LEXICON SG-ESS_nnA** 
+
+**LEXICON SG-EXE** 
+
+**LEXICON SG-GEN** 
+
+**LEXICON SG-ILL_sse** 
+
+
+**LEXICON SG-ILL_V** 
+
+**LEXICON SG-ILL_hV** 
+
+**LEXICON SG-INE** 
+
+**LEXICON SG-NOM** 
+
+**LEXICON SG-PAR_A** 
+
+
+**LEXICON SG-PAR_tA** 
+
+**LEXICON SG-TRA** 
+
+
+
+
+# Adjective inflection
+The INGRIAN language adjectives compare.
 
 
 
@@ -721,192 +855,6 @@ Plural tags separated from singular ones.
 # Particles inflection
 
 Ingrian particles ...
-
-
-
-
-
-# Pronoun inflection
-
-Ingrian pronouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Proper noun inflection
-
-We have a partial program in singular.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Quantifier inflection
-
-
-Still undocumented
-
-
-N-kärpäin (XIII)
-
-
-
-
-N-kärpäin (XIII)
-
-
-
-
-N-mato (II)
-
-
-vähä:vähä
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-enemmän
-
-
-kaik:kaik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1174,6 +1122,155 @@ This is not working 2012-10-30
 
 
 
+# Clitics
+
+Ingrian clitics are stored in the affixes folder.
+We tag question and focus particles.
+
+
+
+
+
+
+
+# Pronoun inflection
+
+Ingrian pronouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Quantifier inflection
+
+Still undocumented
+
+N-kärpäin (XIII)
+
+
+N-kärpäin (XIII)
+
+
+N-mato (II)
+
+vähä:vähä
+
+
+
+
+
+
+
+
+
+enemmän
+
+kaik:kaik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Proper noun inflection
+
+We have a partial program in singular.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Adposition tags
+
+Here we just add tags +Po and +Prep
+to the Ingrian pre- and postpositions.
+
+
+
+
+
 
 # The Ingrian morphophonological/twolc rules file 
 
@@ -1420,4 +1517,119 @@ Vowel raising
 **o:u ö:y in Inf** 
 
 
+
+
+!!!Punctuation symbols
+
+ * __LEXICON Punctuation   __ contains the list
+of punctuation symbols:
+* Symbols like .,: are tagged with __+CLB__
+* other symbols like +.& are tagged with __+PUNCT__, and
+* paired symbols like ()«» are tagged with __+PUNCT+LEFT__
+  and __+PUNCT+RIGHT__, respectively.
+
+* Clause boundary symbols:
+
+* Single punctuation marks
+
+
+* Paired punctuation marks
+
+
+
+
+
+ * __LEXICON PunctEnd   __ leads to # only.
+
+!!!Symbols
+Symbols are single character special signs typically denoting whole nouns. They are different from
+abbreviations and acronyms by not consisting of regular, alphabetic letters.
+
+Symbols are syntactic constituents, and thus part of the sentence analysis. That is, they are
+different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
+are syntactic constituents.
+
+ __LEXICON Symbols__ contains symbols of two types: those that inflect, and those that don't.
+
+Miscellaneous symbols
+
+
+Symbols from Mari OCR reading
+
+
+
+
+
+Smileys
+
+Emojies
+
+
+
+We describe here how abbreviations are in Ingrian are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
