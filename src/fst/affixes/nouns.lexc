@@ -1,13 +1,16 @@
-!! # Noun inflection
+!! # Ingrian noun inflection
 ! ----
-
-!! Here are the suffixes for noun inflection.
+!! This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
+]
+!! This file documents the suffixes for noun inflection.
 
 LEXICON N_YÖ-SG
+!! **LEXICON @LEXNAME@** 
 ! yö:yö
 @U.POS.N@+Dial/Lauk+N:@U.POS.N@ N_YÖ-SG_01 ;
 
 LEXICON N_YÖ-SG_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! yö
  SG-PAR_tA   ; ! yötä
  SG-ILL_hV  ; ! yöhö
@@ -15,11 +18,13 @@ LEXICON N_YÖ-SG_01
 
 
 LEXICON N_MAA
+!! **LEXICON @LEXNAME@** 
 ! maa (I)
 +N: DER-tOin ; ! maatoin
 @U.POS.N@+N:@U.POS.N@ N_MAA_01 ;
 
 LEXICON N_MAA_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! maa
  SG-PAR_tA   ; ! maata
  SG-ILL_hV  ; ! maaha
@@ -32,10 +37,11 @@ LEXICON N_MAA_01
  Oblique-Plural ;
 
 LEXICON N_PREESENS
-! preesens:preesens
+!! **LEXICON @LEXNAME@**  preesens:preesens
 @U.POS.N@+N:@U.POS.N@ N_PREESENS_01 ;
 
 LEXICON N_PREESENS_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! preesens
 :a SG-PAR_A  ; ! maita
 :a SG-ILL_V   ; ! maihe
@@ -47,14 +53,17 @@ LEXICON N_PREESENS_01
 :o Oblique-Plural ;
 
 LEXICON N_GLASNOI
+!! **LEXICON @LEXNAME@** 
 @U.POS.N@+N:@U.POS.N@ NMN_GLASNOI ;
 
 LEXICON N_RISTI
+!! **LEXICON @LEXNAME@** 
 ! risti (II)
 +N: DER-tOin ; ! ristitöin
 @U.POS.N@+N:@U.POS.N@ N-risti_01 ;
 
 LEXICON N-risti_01
+!! **LEXICON @LEXNAME@** 
      SG-NOM   ; ! risti
 !:%>%^LCns%^LVws SG-PAR_A   ; ! mattooa !Is this right
  SG-PAR_A-LCns   ; ! mattoa
@@ -69,11 +78,12 @@ LEXICON N-risti_01
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N_MATO
-! mato (II)
+!! **LEXICON @LEXNAME@**  mato (II)
 +N: DER-tOin ; ! maotoin
 @U.POS.N@+N:@U.POS.N@ N-mato_01 ;
 
 LEXICON N-mato_01
+!! **LEXICON @LEXNAME@** 
      SG-NOM   ; ! mato
 !:%>%^LCns%^LVws SG-PAR_A   ; ! mattooa !Is this right
  SG-PAR_A-LCns   ; ! mattoa
@@ -86,7 +96,7 @@ LEXICON N-mato_01
 :%>%^WCns PL-NOM   ; ! maot
 
 LEXICON N_KOIVU
-! koivu
+!! **LEXICON @LEXNAME@**  koivu
 +N: DER-tOin ; ! koivutoin
 @U.POS.N@+N:@U.POS.N@ N-koivu_01 ;
 @U.POS.N@+N:@U.POS.N@%^NoGrad Oblique-Plural_hV ;
@@ -103,11 +113,12 @@ LEXICON N-koivu_01
  PL-NOM   ; ! koivut
 
 LEXICON N_OSA
-! forma osa (II-b)
+!! **LEXICON @LEXNAME@**  forma osa (II-b)
 +N: DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-osa_01 ;
 
 LEXICON N-osa_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! osa
  SG-PAR_A-LCns   ; ! ossaa
  SG-ILL_V   ; ! ossaa
@@ -120,12 +131,12 @@ Err/Sub:%>i%> PL-PAR_A   ; ! ossia
  Oblique-Plural ;
 
 LEXICON N_JOKI
-! joki:jok
-! joki (II-c)
+!! **LEXICON @LEXNAME@**  joki:jok joki (II-c)
 +N:e DER-tOin ; ! joetoin
 @U.POS.N@+N:@U.POS.N@ N-joki_01 ;
 
 LEXICON N-joki_01
+!! **LEXICON @LEXNAME@** 
 :i  SG-NOM   ; ! joki
 :e SG-PAR_A-LCns   ; ! mattooa
 :e SG-ILL_V   ; ! mattoo
@@ -139,11 +150,12 @@ LEXICON N-joki_01
  Oblique-Plural_V ;
 
 LEXICON N_LUMI
-! lumi (II-d)
+!! **LEXICON @LEXNAME@**  lumi (II-d)
 +N:me DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-lumi_01 ;
 
 LEXICON N-lumi_01
+!! **LEXICON @LEXNAME@** 
 +Sg+Nom:mi     #   ; ! lumi
 :n SG-PAR_tA  ; ! lunta
 +Sg+Ill:me%>%^LCnsV1	#   ; ! mattoo
@@ -154,11 +166,12 @@ LEXICON N-lumi_01
 
 
 LEXICON N_EMOI
-! emoi (III)
+!! **LEXICON @LEXNAME@**  emoi (III)
 +N: DER-tOin ; !emotoin
 @U.POS.N@+N:@U.POS.N@ N-emoi_01 ;
 
 LEXICON N-emoi_01
+!! **LEXICON @LEXNAME@** 
 +Dial/Soik+Sg+Nom:i     #   ; ! emoi
 +Dial/Lauk+Sg+Nom:     #   ; ! emoi
 +Sg+Par:i%>%^LCns%^LVwsAÄ1	#   ; ! emmooja
@@ -169,12 +182,12 @@ LEXICON N-emoi_01
 +Pl+Nom:i%>%^WCnst     #   ; ! emoit
 
 LEXICON N_JALKA
-! the stem-final "a" is added here
-! jalka (IV)
+!! **LEXICON @LEXNAME@**  the stem-final "a" is added here. jalka (IV)
 +N+Der/tOin:a%>%^WCnst A_KALATOIN ; !
 @U.POS.N@+N:@U.POS.N@ N-jalka_01 ;
 
 LEXICON N-jalka_01
+!! **LEXICON @LEXNAME@** 
 :a SG-NOM   ; ! jalka
 :a SG-PAR_A-LCns   ; ! jalkaa
 :a SG-ILL_V   ; ! jalkaa
@@ -187,12 +200,14 @@ LEXICON N-jalka_01
 :o Oblique-Plural ;
 
 LEXICON N_KANA
+!! **LEXICON @LEXNAME@** 
 ! copied from N-jalka
 ! jalka (IV-a)
 +N:a DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-kana_01 ;
 
 LEXICON N-kana_01
+!! **LEXICON @LEXNAME@** 
 :a     SG-NOM   ; ! kana
 :a SG-PAR_A-LCns ;
 :a SG-ILL_V  ; ! jalkaa
@@ -207,19 +222,21 @@ LEXICON N-kana_01
 :o%>%^LCns   PL-ILL_blank   ; ! kannoi
 :o Oblique-Plural ;
 
-!! Three-syllable words
+!! ## Three-syllable words
 
 ! This is incase there are 3-syllable issues
 LEXICON N_MONIKKO
+!! **LEXICON @LEXNAME@** 
  N_MATO ;
 
 LEXICON N_TYTÄR
-! tytär:tyttä
+!! **LEXICON @LEXNAME@**  tytär:tyttä
 @U.POS.N@+N:@U.POS.N@%>%^WCnsr    SG-NOM        ;
 @U.POS.N@+N:@U.POS.N@%>%^WCnsr    SG-PAR_tA        ;
 @U.POS.N@+N:@U.POS.N@r N-tytär_01 ;
 
 LEXICON N-tytär_01
+!! **LEXICON @LEXNAME@** 
 :e     SG-ILL_V		;
 :e Oblique-Singular ;
 :e     PL-NOM		;
@@ -229,11 +246,12 @@ LEXICON N-tytär_01
  Oblique-Plural ;
 
 LEXICON N_PATSAS
-! patsas:patsa
+!! **LEXICON @LEXNAME@**  patsas:patsa
 +N:%>V2 DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-patsas_01 ;
 
 LEXICON N-patsas_01
+!! **LEXICON @LEXNAME@** 
 +Sg+Nom:%>%^WCnss K                ;
        :%>%^WCnss SG-PAR_tA        ;
        :%>V2      SG-ILL_sse       ;
@@ -253,13 +271,14 @@ LEXICON N-patsas_01
 
 
 LEXICON N_LÄHE
-! lähe:lähte
+!! **LEXICON @LEXNAME@**  lähe:lähte
 +N: DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-lähe_01 ;
 @U.POS.N@+N:@U.POS.N@%>%^WCns     SG-NOM        ;
 @U.POS.N@+Err/Orth+N:@U.POS.N@%>%^WCnsh     SG-NOM               ;
 
 LEXICON N-lähe_01
+!! **LEXICON @LEXNAME@** 
 :%>%^WCnst       SG-PAR_tA 	;
 +Sg+Par:%>%^WCnsttAÄ1 K ;
 :%>%^LCnsV2      SG-ILL_sse		;
@@ -280,11 +299,12 @@ LEXICON N-lähe_01
 
 
 LEXICON N_SLOVARI
-! from mato (II-e)
+!! **LEXICON @LEXNAME@**  from mato (II-e)
 +N: DER-tOin ; ! slovaritoin
 @U.POS.N@+N:@U.POS.N@ N-slovari_01 ;
 
 LEXICON N-slovari_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! slovari
 +Sg+Par:%>AÄ1	#   ; ! mattooa
 +Sg+Ill:%>%^LVws	#   ; ! mattoo
@@ -298,11 +318,12 @@ LEXICON N-slovari_01
 
 
 LEXICON N_NUMERO
-! numero:numero
+!! **LEXICON @LEXNAME@**  numero:numero
 +N: DER-tOin ; ! numerotoin
 @U.POS.N@+N:@U.POS.N@ N-numero_01 ;
 
 LEXICON N-numero_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! numero
  SG-PAR_A   ; ! mattooa
  SG-ILL_V   ; ! mattoo
@@ -316,12 +337,12 @@ LEXICON N-numero_01
 
 
 LEXICON N_VOKALA
-! the stem-final "a" is added here
-! vokala (IV-b)
+!! **LEXICON @LEXNAME@**  the stem-final "a" is added here  vokala (IV-b)
 +N:a DER-tOin ; ! vokalatoin
 @U.POS.N@+N:@U.POS.N@ N-vokala_01 ;
 
 LEXICON N-vokala_01
+!! **LEXICON @LEXNAME@** 
 :a     SG-NOM   ; ! vokala
 :a SG-PAR_A   ; ! jalkaa
 :a SG-ILL_V   ; ! jalkaa
@@ -335,12 +356,13 @@ LEXICON N-vokala_01
 
 
 LEXICON N_HARAKKA
-! harakka:harakk
-! This should operate using principles of ommeena
+!! **LEXICON @LEXNAME@**  harakka:harakk
+!! This should operate using principles of ommeena
 +N:AÄ1 DER-tOin ; !harakatoin
 @U.POS.N@+N:@U.POS.N@ N-harakka_01 ;
 
 LEXICON N-harakka_01
+!! **LEXICON @LEXNAME@** 
 +Sg+Nom:AÄ1     #   ; ! harakka
 +Sg+Gen:AÄ1%^StretchSyll2%>%^WCnsn	#   ; ! harraakan
 +Sg+Par:AÄ1AÄ1	#   ; ! mattooa
@@ -362,7 +384,7 @@ LEXICON N-harakka_01
 +Pl+Nom:AÄ1%^StretchSyll2%^WCnst     #   ; ! maot
 
 LEXICON N_OMMEENA
-! ommeena:omena
+!! **LEXICON @LEXNAME@**  ommeena:omena
 +N:AÄ1 DER-tOin ; !omenatoin
 @U.POS.N@+N:@U.POS.N@ N-ommeena_01 ;
 
@@ -389,12 +411,13 @@ LEXICON N-ommeena_01
 :AÄ1%^StretchSyll2 PL-NOM   ; ! maot
 
 LEXICON N_PUTTEELI
-! putteeli:puteli
+!! **LEXICON @LEXNAME@**  putteeli:puteli
 ! 
 +N: DER-tOin ; !putelitoin
 @U.POS.N@+N:@U.POS.N@ N-putteeli_01 ;
 
 LEXICON N-putteeli_01
+!! **LEXICON @LEXNAME@** 
 +Sg+Nom:%^StretchSyll2     #   ; ! mato
 +Sg+Gen:%^StretchSyll2n	#   ; ! maon
 +Sg+Par:AÄ1	#   ; ! mattooa
@@ -415,11 +438,12 @@ LEXICON N-putteeli_01
 
 
 LEXICON N_LEIKKUU
-! leikkuu, kiukkaa, lämmää (VI)
+!! **LEXICON @LEXNAME@**  leikkuu, kiukkaa, lämmää (VI)
 +N: DER-tOin ; ! leikkuutoin
 @U.POS.N@+N:@U.POS.N@ N-leikkuu_01 ;
 
 LEXICON N-leikkuu_01
+!! **LEXICON @LEXNAME@** 
 +Sg+Nom:     #   ; ! mato
 +Sg+Par:%>tAÄ1	#   ; ! ?lämmäätä vs 
 +Sg+Ill:%>sse	#   ; ! mattoo
@@ -429,17 +453,19 @@ LEXICON N-leikkuu_01
 +Pl+Nom:%>t     #   ; ! maot
 
 LEXICON N_ASSIA
-! assia:assi (VII)
+!! **LEXICON @LEXNAME@**  assia:assi (VII)
 +N:AÄ1 DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-assia_01 ;
 
 LEXICON N-assia_01
+!! **LEXICON @LEXNAME@** 
 :AÄ1 N-assia_01-Sg ;
 :OÖ1  Oblique-Plural ;
 :OÖ1 PL-PAR_A ;
 :OÖ1 PL-ILL_hV ;
 
 LEXICON N-assia_01-Sg
+!! **LEXICON @LEXNAME@** 
  SG-NOM	    ; ! assia
  SG-PAR_A   ; ! assiaa
  SG-ILL_V   ; ! assiaa
@@ -448,12 +474,13 @@ LEXICON N-assia_01-Sg
  PL-NOM  ; ! assiat
 
 LEXICON N_PESÄ
-! VCV
+!! **LEXICON @LEXNAME@**  VCV
 ! pesä:pesä
 +N: DER-tOin ; !pesätöin
 @U.POS.N@+N:@U.POS.N@ N-pesä_01 ;
 
 LEXICON N-pesä_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! pesä
  SG-PAR_A-LCns   ; ! pessää
  SG-ILL_V   ; ! pessää
@@ -465,12 +492,12 @@ LEXICON N-pesä_01
  Oblique-Plural ;
 
 LEXICON N_TÄHKÄ
-! VCCV
-! tähkä (VIII)
+!! **LEXICON @LEXNAME@**  VCCV,  tähkä (VIII)
 +N: DER-tOin ; !tähätöin
 @U.POS.N@+N:@U.POS.N@ N-tähkä_01 ;
 
 LEXICON N-tähkä_01
+!! **LEXICON @LEXNAME@** 
  SG-NOM   ; ! mato
  SG-PAR_A-LCns   ; ! mattooa
  SG-ILL_V   ; ! mattoo
@@ -482,11 +509,12 @@ LEXICON N-tähkä_01
  Oblique-Plural ;
 
 LEXICON N_TAEHTI
-! tähti (IX)
+!! **LEXICON @LEXNAME@**  tähti (IX)
 +N:e DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ NMN_TAEHTI_01 ;
 
 LEXICON NMN_TAEHTI_01
+!! **LEXICON @LEXNAME@** 
 :i     SG-NOM   ; ! tähti
 :e SG-PAR_A   ; ! tähteä
 :e SG-ILL_V   ; ! tähtee
@@ -500,11 +528,12 @@ LEXICON NMN_TAEHTI_01
  Oblique-Plural ;
 
 LEXICON N_VARSI
+!! **LEXICON @LEXNAME@** 
  N_KÄSI ;
 @U.POS.N@+N:@U.POS.N@s     SG-NOM   ; ! vars
 
 LEXICON N_VOOSI
-! voosi:voo
+!! **LEXICON @LEXNAME@**  voosi:voo
 @U.POS.N@+N+Sg+Ess:@U.POS.N@nnAÄ1 K ; ! voonna 
 @U.POS.N@+N:@U.POS.N@ N-käsi_01 ;
 
@@ -530,11 +559,12 @@ LEXICON N-käsi_01
 :s Oblique-Plural_less-EssExe ;
 
 LEXICON N_MEES
-! mees:mee (??)
+!! **LEXICON @LEXNAME@**  mees:mee (??)
 +N:he DER-tOin ; !meehetöin
 @U.POS.N@+N:@U.POS.N@ N-mees_01 ; 
 
 LEXICON N-mees_01
+!! **LEXICON @LEXNAME@** 
 :s     SG-NOM   ; ! mees
 :s SG-PAR_tA  ; ! meestä
 :he SG-ILL_V  ; ! meehe ??
@@ -546,7 +576,7 @@ LEXICON N-mees_01
 :s Oblique-Plural ;
 
 LEXICON N_VARIS
-! varis (XII)
+!! **LEXICON @LEXNAME@**  varis (XII)
 +N:kse DER-tOin ; !variksetoin
 @U.POS.N@+N:@U.POS.N@ N-varis_01 ;
 
@@ -695,11 +725,12 @@ LEXICON N_MERI
  N_KEELI ;
 
 LEXICON N_KEELI
-! keeli (IX-b)
+!! **LEXICON @LEXNAME@**  keeli (IX-b)
 +N:e DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-keeli_01 ;
 
 LEXICON N-keeli_01
+!! **LEXICON @LEXNAME@** 
 :i     SG-NOM   ; ! keeli
 +Err/Orth+Sg+Par:t K ;
  SG-PAR_tA  ; ! keeltä
@@ -713,10 +744,12 @@ LEXICON N-keeli_01
 
 
 LEXICON N_SAMMAL
+!! **LEXICON @LEXNAME@** 
 +N:e DER-tOin ; !
 @U.POS.N@+N:@U.POS.N@ N-sammal_01 ;
 
 LEXICON N-sammal_01
+!! **LEXICON @LEXNAME@** 
      SG-NOM   ; ! sammal
  SG-PAR_tA  ; ! keeltä
 :e%>%^LCns SG-ILL_V   ; ! mattoo
@@ -770,16 +803,18 @@ LEXICON N-oikehus_01
 
 
 LEXICON N_VENÄT
-! kevät (XX-a)
+!! **LEXICON @LEXNAME@**  kevät (XX-a)
 ! venät:venä
 @U.POS.N@+N:@U.POS.N@ N-venät_01 ;
 
 LEXICON N-venät_01
+!! **LEXICON @LEXNAME@** 
  N-venät_01-Sg ;
 :%^SyllBr Oblique-Plural ;
 :%^SyllBr PL-PAR_tA ;
 
 LEXICON N-venät_01-Sg
+!! **LEXICON @LEXNAME@** 
 :%^SyllBre%^StretchSyll2 SG-GEN ;
 :%^SyllBre%^StretchSyll2 PL-NOM ;
 :t SG-NOM ;
@@ -798,10 +833,11 @@ LEXICON N-venät_01-Sg
 :e SG-EXE ;
 
 LEXICON N_PÄIVYT
-! päivyt:päivy
+!! **LEXICON @LEXNAME@**  päivyt:päivy
 @U.POS.N@+N:@U.POS.N@ N-päivyt_01 ;
 
 LEXICON N-päivyt_01
+!! **LEXICON @LEXNAME@** 
  N-venät_01-Sg ;
 :e Oblique-Plural_sse ;
 :e PL-PAR_tA ;
@@ -817,6 +853,7 @@ LEXICON N-XXI
 !! One derivational process only, DER-t0in.
 
 LEXICON DER-tOin
+!! **LEXICON @LEXNAME@** 
 @C.POS@+Der/tOin:@C.POS@%>%^WCnst A_KALATOIN ;
 
 !
@@ -824,6 +861,7 @@ LEXICON DER-tOin
 !
 
 LEXICON Cases
+!! **LEXICON @LEXNAME@** 
 !+N+Sg+Nom:     #   ;
 !+N+Pl+Nom:i     #   ;
 +N+Sg+Ine:%>%^WCnsz%^ShVws    #   ; ! opokka : opokaaz
@@ -837,27 +875,33 @@ LEXICON Cases
 
 ! Fed by +N+Pl, +N+Prop+Pl, +A+Pl
 LEXICON lOi-Pl
+!! **LEXICON @LEXNAME@** 
 :%>lOÖ1 Oblique-Plural_hV ;
 :lOÖ1 PL-PAR_A ;
 :lOÖ1 PL-PAR_tA ;
 
 LEXICON Oblique-Plural_blank
+!! **LEXICON @LEXNAME@** 
  PL-ILL_blank ;
  Oblique-Plural ;
 
 LEXICON Oblique-Plural_sse
+!! **LEXICON @LEXNAME@** 
  PL-ILL_sse ;
  Oblique-Plural ;
 
 LEXICON Oblique-Plural_V
+!! **LEXICON @LEXNAME@** 
  PL-ILL_V ;
  Oblique-Plural ;
 
 LEXICON Oblique-Plural_hV
+!! **LEXICON @LEXNAME@** 
  PL-ILL_hV ;
  Oblique-Plural ;
 
 LEXICON Oblique-Plural
+!! **LEXICON @LEXNAME@** 
 Oblique-Plural_less-EssExe ;
       PL-ESS_Vn		;
       PL-ESS_nnA	;
@@ -866,6 +910,7 @@ Oblique-Plural_less-EssExe ;
 
 
 LEXICON Oblique-Plural_less-EssExe
+!! **LEXICON @LEXNAME@** 
       PL-GEN		;
       PL-INE		;
       PL-ELA		;
@@ -879,12 +924,14 @@ LEXICON Oblique-Plural_less-EssExe
       PL-ABE		;
 
 LEXICON Oblique-Singular
+!! **LEXICON @LEXNAME@** 
  Oblique-Singular_less-EssExe ;
       SG-ESS_Vn		;
       SG-ESS_nnA	;
       SG-EXE		;
 
 LEXICON Oblique-Singular_less-EssExe
+!! **LEXICON @LEXNAME@** 
       SG-GEN		;
       SG-INE		;
       SG-ELA		;
@@ -902,63 +949,77 @@ LEXICON Oblique-Singular_less-EssExe
 
 
 LEXICON PL-ABE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ABE@+Pl+Abe0000:@U.DECL-NX.PL@@U.DECL-CX.ABE@%>i%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON PL-ABL
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ABL@+Pl+Abl0000:@U.DECL-NX.PL@@U.DECL-CX.ABL@%>i%>%^WCnslt    K_Num  ;
 !2012-11-03!@R.POS.N@ PL-ABL_Px ;
 
 LEXICON PL-ABL_Px
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ABL@+Pl+Abl+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ABL@%>i%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ADE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade0000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsV3l    K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsl    K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.ADE@+Pl+Ade+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ADE@%>i%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON PL-ALL
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ALL@+Pl+All00000:@U.DECL-NX.PL@@U.DECL-CX.ALL@%>i%>%^WCnslle    K_Num  ; 
 @U.DECL-NX.PL@@U.DECL-CX.ALL@+Pl+All+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ALL@%>i%>%^WCnsllee  K_Num  ; 
 
 LEXICON PL-COM
-!+Dial/Lauk
+!! **LEXICON @LEXNAME@** +Dial/Lauk
 @U.DECL-NX.PL@@U.DECL-CX.COM@+Pl+Com00000:@U.DECL-NX.PL@@U.DECL-CX.COM@%>i%>%^WCnsnkAÄ1    K_Num ;
 
 LEXICON PL-ELA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ELA@+Pl+Ela0000:@U.DECL-NX.PL@@U.DECL-CX.ELA@%>i%>%^WCnsst    K_Num ;
 @U.DECL-NX.PL@@U.DECL-CX.ELA@+Pl+Ela+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.ELA@%>i%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON PL-ESS_Vn
-!+Dial/Soik
+!! **LEXICON @LEXNAME@** +Dial/Soik
 @U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>%^LCns%>i%>V3n K_Num  ;
 
 LEXICON PL-ESS_n
+!! **LEXICON @LEXNAME@** 
 !+Dial/Soik
 @U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess0000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>i%>n    K_Num  ;
 
 LEXICON PL-ESS_nnA
-!+Dial/Lauk
+!! **LEXICON @LEXNAME@** +Dial/Lauk
 @U.DECL-NX.PL@@U.DECL-CX.ESS@+Pl+Ess0000:@U.DECL-NX.PL@@U.DECL-CX.ESS@%>i%>nnAÄ1    K_Num  ;
 
 LEXICON PL-EXE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.EXE@+Pl+Exe000:@U.DECL-NX.PL@@U.DECL-CX.EXE@%>i%>nt    K_Num  ;
 
 LEXICON PL-GEN
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.GEN@+Pl+Gen000:@U.DECL-NX.PL@@U.DECL-CX.GEN@%>%^LCns%>i%>V3n    K_Num  ;
 
 LEXICON PL-ILL_blank
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>%^LCns%>i%>    K_Num   ;
 
 LEXICON PL-ILL_sse
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill0000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>i%>sse    K_Num   ;
 
 LEXICON PL-ILL_V
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill00:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>%^LCns%>i%>V1    K_Num   ;
 
 LEXICON PL-ILL_hV
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.ILL@+Pl+Ill000:@U.DECL-NX.PL@@U.DECL-CX.ILL@%>i%>he    K_Num   ;
 
 LEXICON PL-INE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine0000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnsV3s    K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnss    K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.INE@+Pl+Ine+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.INE@%>i%>%^WCnsssAÄ1AÄ1    K_Num  ;
@@ -969,98 +1030,123 @@ LEXICON PL-INS
 @U.DECL-NX.PL@@U.DECL-CX.INS@+Pl+Instr+PxSg3000:@U.DECL-NX.PL@@U.DECL-CX.INS@%>i%>nee    #   ; ! lehminee
 
 LEXICON PL-NOM
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.NOM@+Pl+Nom0:@U.DECL-NX.PL@@U.DECL-CX.NOM@%>%^WCnst   K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.ACC@+Pl+Acc0:@U.DECL-NX.PL@@U.DECL-CX.ACC@%>%^WCnst   K_Num  ;
 
 LEXICON PL-PAR_A
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par00:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>AÄ1      K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg300:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>AÄ1AÄ1      K_Num  ;
 
 ! kana:kano
 LEXICON PL-PAR_A-LCns
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par00:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>%^LCns%>i%>AÄ1      K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg30000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>%^LCns%>i%>AÄ1AÄ1      K_Num  ;
 
 
 LEXICON PL-PAR_tA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>tAÄ1      K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.PAR@+Pl+Par+PxSg3000:@U.DECL-NX.PL@@U.DECL-CX.PAR@%>i%>tAÄ1AÄ1      K_Num  ;
 
 LEXICON PL-PRL
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.PL@@U.DECL-CX.PRL@+Pl+Prl00000:@U.DECL-NX.PL@@U.DECL-CX.PRL@%>i%>%^WCnstse    K   ; ! rannoitse
 
 LEXICON PL-TRA
-@U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra0000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsks   K_Num  ;
+!! **LEXICON @LEXNAME@** @
+U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra0000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsks   K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra+PxSg2000000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsksees   K_Num  ;
 @U.DECL-NX.PL@@U.DECL-CX.TRA@+Pl+Tra+PxSg300000:@U.DECL-NX.PL@@U.DECL-CX.TRA@%>i%>%^WCnsksee   K_Num  ;
 
 LEXICON SG-ABE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ABE@+Sg+Abe00:@U.DECL-NX.SG@@U.DECL-CX.ABE@%>%^WCnstAÄ1    K_Num  ;
 
 LEXICON SG-ABL
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ABL@+Sg+Abl00:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>%^WCnslt    K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.ABL@+Sg+Abl+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ABL@%>%^WCnsltAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ADE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade00:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsV3l    K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade0:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsl    K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.ADE@+Sg+Ade+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ADE@%>%^WCnsllAÄ1AÄ1  K_Num  ;
 
 LEXICON SG-ALL
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ALL@+Sg+All000:@U.DECL-NX.SG@@U.DECL-CX.ALL@%>%^WCnslle    K_Num  ; 
 @U.DECL-NX.SG@@U.DECL-CX.ALL@+Sg+All+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ALL@%>%^WCnsllee  K_Num  ; 
 
 LEXICON SG-COM
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.COM@+Dial/Lauk+Sg+Com00:@U.DECL-NX.SG@@U.DECL-CX.COM@%>%^WCnsnkAÄ1    K_Num ;
 @U.DECL-NX.SG@@U.DECL-CX.COM@+Dial/Lauk+Sg+Com+PxSg30:@U.DECL-NX.SG@@U.DECL-CX.COM@%>%^LVwsnkAÄ1    K_Num ;
 
 LEXICON SG-ELA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ELA@+Sg+Ela00:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>%^WCnsst    K_Num ;
 @U.DECL-NX.SG@@U.DECL-CX.ELA@+Sg+Ela+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.ELA@%>%^WCnsstAÄ1AÄ1    K_Num ;
 
 LEXICON SG-ESS_Vn
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ESS@+Sg+Ess00:@U.DECL-NX.SG@@U.DECL-CX.ESS@%>%^LCnsV3n K_Num  ;
 
 LEXICON SG-ESS_nnA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ESS@+Sg+Ess0:@U.DECL-NX.SG@@U.DECL-CX.ESS@nnAÄ1    K_Num  ;
 
 LEXICON SG-EXE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.EXE@+Sg+Exe:@U.DECL-NX.SG@@U.DECL-CX.EXE@nt    K_Num  ;
 
 LEXICON SG-GEN
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.GEN@+Sg+Gen0:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>%^WCnsn      K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.ACC@+Sg+Acc0:@U.DECL-NX.SG@@U.DECL-CX.ACC@%>%^WCnsn      K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.GEN@+Sg+Gen+PxSg3:@U.DECL-NX.SG@@U.DECL-CX.GEN@%>%^LVwsn      K_Num  ;
 
 LEXICON SG-ILL_sse
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill0:@U.DECL-NX.SG@@U.DECL-CX.ILL@sse    K_Num   ;
 
+
 LEXICON SG-ILL_V
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>%^LCns%>V1    K_Num   ;
 
 LEXICON SG-ILL_hV
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill0:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>hV1    K_Num   ;
 @U.DECL-NX.SG@@U.DECL-CX.ILL@+Sg+Ill+PxSg300:@U.DECL-NX.SG@@U.DECL-CX.ILL@%>hV1%>V3    K_Num   ;
 
 LEXICON SG-INE
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine00:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnsV3s    K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine0:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnss    K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.INE@+Sg+Ine+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.INE@%>%^WCnsssAÄ1AÄ1    K_Num  ;
 
 LEXICON SG-NOM
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.NOM@+Sg+Nom:@U.DECL-NX.SG@@U.DECL-CX.NOM@    K_Num ;
 
 LEXICON SG-PAR_A
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.PAR@AÄ1      K_Num  ;
 
-LEXICON SG-PAR_A-LCns
-@U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par0:@U.DECL-NX.SG@@U.DECL-CX.PAR@%>%^LCnsAÄ1      K_Num  ;
+LEXICON SG-PAR_A-LCns@
+U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par0:@U.DECL-NX.SG@@U.DECL-CX.PAR@%>%^LCnsAÄ1      K_Num  ;
 
 LEXICON SG-PAR_tA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par:@U.DECL-NX.SG@@U.DECL-CX.PAR@tAÄ1      K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.PAR@+Sg+Par+PxSg3:@U.DECL-NX.SG@@U.DECL-CX.PAR@tAÄ1AÄ1      K_Num  ;
 
 LEXICON SG-TRA
+!! **LEXICON @LEXNAME@** 
 @U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra00:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsks   K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+PxSg20000:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsksees   K_Num  ;
 @U.DECL-NX.SG@@U.DECL-CX.TRA@+Sg+Tra+PxSg3000:@U.DECL-NX.SG@@U.DECL-CX.TRA@%>%^WCnsksee   K_Num  ;
