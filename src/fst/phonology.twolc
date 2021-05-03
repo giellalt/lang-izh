@@ -6,90 +6,86 @@
 !! ### The letters
 
 Alphabet
-a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö !!= * **@CODE@**
-A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö !!= * **@CODE@**
-ş ƶ y											    !!= * **@CODE@**
-Ş Ƶ Y											    !!= * **@CODE@**
-
-ь !!= * **@CODE@** Sьktьvkar
-Ь !!= * **@CODE@**
+a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö !!≈ * **@CODE@**
+A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö !!≈ * **@CODE@**
+ş ƶ y											    !!≈ * **@CODE@**
+Ş Ƶ Y											    !!≈ * **@CODE@**
+!
+ь !!≈ * **@CODE@** Sьktьvkar
+Ь !!≈ * **@CODE@**
 
 !! ### Vowel harmony with "(t)a/ä"
-AÄ1:a !!= * **@CODE@**
-AÄ1:ä !!= * **@CODE@**
-AÄ1:0 !!= * **@CODE@**
+AÄ1:a !!≈ * **@CODE@** realised as a
+AÄ1:ä !!≈ * **@CODE@** realised as ä
+AÄ1:0 !!≈ * **@CODE@** deleted
 
 !! ### Vowel harmony with "loi/löi" also kalatOÖ1in
-OÖ1:o !!= * **@CODE@**
-OÖ1:ö !!= * **@CODE@**
+OÖ1:o !!≈ * **@CODE@**
+OÖ1:ö !!≈ * **@CODE@**
 
 !! ### Vowel harmony with "ttu/tty"
-UY1:u !!= * **@CODE@**
-UY1:y !!= * **@CODE@**
+UY1:u !!≈ * **@CODE@**
+UY1:y !!≈ * **@CODE@**
 
 !! ### this appears in the illative
-V1:a !!= * **@CODE@**
-V1:e !!= * **@CODE@**
-V1:i !!= * **@CODE@**
-V1:o !!= * **@CODE@**
-V1:u !!= * **@CODE@**
-V1:y !!= * **@CODE@**
-V1:ä !!= * **@CODE@**
-V1:ö !!= * **@CODE@**
+V1:a !!≈ * **@CODE@**
+V1:e !!≈ * **@CODE@**
+V1:i !!≈ * **@CODE@**
+V1:o !!≈ * **@CODE@**
+V1:u !!≈ * **@CODE@**
+V1:y !!≈ * **@CODE@**
+V1:ä !!≈ * **@CODE@**
+V1:ö !!≈ * **@CODE@**
 
 !! ### These appear with the inessive and adessive
-V2:a !!= * **@CODE@**
-V2:e !!= * **@CODE@**
-V2:i !!= * **@CODE@**
-V2:o !!= * **@CODE@**
-V2:u !!= * **@CODE@**
-V2:y !!= * **@CODE@**
-V2:ä !!= * **@CODE@**
-V2:ö !!= * **@CODE@** 
+V2:a !!≈ * **@CODE@**
+V2:e !!≈ * **@CODE@**
+V2:i !!≈ * **@CODE@**
+V2:o !!≈ * **@CODE@**
+V2:u !!≈ * **@CODE@**
+V2:y !!≈ * **@CODE@**
+V2:ä !!≈ * **@CODE@**
+V2:ö !!≈ * **@CODE@** 
 
 !! ### These reduplicate the preceding vowel if it in turn is preceded by a consonant
-V3:a !!= * **@CODE@**
-V3:e !!= * **@CODE@**
-V3:i !!= * **@CODE@**
-V3:o !!= * **@CODE@**
-V3:u !!= * **@CODE@**
-V3:y !!= * **@CODE@**
-V3:ä !!= * **@CODE@**
-V3:ö !!= * **@CODE@**
-V3:0 !!= * **@CODE@**
+V3:a !!≈ * **@CODE@**
+V3:e !!≈ * **@CODE@**
+V3:i !!≈ * **@CODE@**
+V3:o !!≈ * **@CODE@**
+V3:u !!≈ * **@CODE@**
+V3:y !!≈ * **@CODE@**
+V3:ä !!≈ * **@CODE@**
+V3:ö !!≈ * **@CODE@**
+V3:0 !!≈ * **@CODE@**
 
 !! ### this k is not effected by gradation
-K1:k !!= * **@CODE@**
-%^NoGrad:0 !!= * **@CODE@** This will be placed after a stem to break Gradation
+K1:k !!≈ * **@CODE@**
+%^NoGrad:0 !!≈ * **@CODE@** This will be placed after a stem to break Gradation
 
 !! ### this weakens the stem *ompel* to *ommel*
-%^WGStem:0 !!= * **@CODE@**
+%^WGStem:0 !!≈ * **@CODE@**
 
 !! ### The ti => si
-%^TS:0 !!= * **@CODE@**
+%^TS:0 !!≈ * **@CODE@**
 
 !! ### Vowel raising
-%^RVws:0 !!= * **@CODE@**
-
-%-    !!= * **@CODE@** Hyphen in  constructions 
-%>:0  !!= * **@CODE@**
-#:0   !!= * hash is Word boundary for both lexicalised and dynamic compounds
-
-Cx !!= * **@CODE@** these should probably not be declared
-Cy !!= * **@CODE@** these should probably not be declared
-X  !!= * **@CODE@** these should probably not be declared
-Y  !!= * **@CODE@** these should probably not be declared
-
-%^LVws:0		 !!= * **@CODE@**
-%^LCns:0		 !!= * **@CODE@**
-%^WCns:0		 !!= * **@CODE@**
-%^AtoO:0		 !!= * **@CODE@**
-%^ÄtoÖ:0		 !!= * **@CODE@**
-%^OddSyll:0		 !!= * **@CODE@**
-%^StretchSyll2:0 !!= * **@CODE@**
-%^SyllBr:0		 !!= * **@CODE@**
-%^E1:0			 !!= * **@CODE@**
-
+%^RVws:0 !!≈ * **@CODE@**
+%-    !!≈ * **@CODE@** Hyphen in  constructions 
+%>:0  !!≈ * **@CODE@**
+#:0   !!≈ * hash is Word boundary for both lexicalised and dynamic compounds
+Cx !!≈ * **@CODE@** these should probably not be declared
+Cy !!≈ * **@CODE@** these should probably not be declared
+X  !!≈ * **@CODE@** these should probably not be declared
+Y  !!≈ * **@CODE@** these should probably not be declared
+%^LVws:0		 !!≈ * **@CODE@**
+%^LCns:0		 !!≈ * **@CODE@**
+%^WCns:0		 !!≈ * **@CODE@**
+%^AtoO:0		 !!≈ * **@CODE@**
+%^ÄtoÖ:0		 !!≈ * **@CODE@**
+%^OddSyll:0		 !!≈ * **@CODE@**
+%^StretchSyll2:0 !!≈ * **@CODE@**
+%^SyllBr:0		 !!≈ * **@CODE@**
+%^E1:0			 !!≈ * **@CODE@**
 ;
 
 
@@ -97,13 +93,13 @@ Y  !!= * **@CODE@** these should probably not be declared
 
 Sets
 
-VwsBack = a o u ;		!!= * **@CODE@**
-VwsFront = ä ö y ü ;		!!= * **@CODE@**
-VwsNeutral = e i ь ; 		!!= * **@CODE@**
-VwsNonHigh = a o ä ö e ;	!!= * **@CODE@**
-Vws = a o u ä ö y ü e i ь ;	!!= * **@CODE@**
-Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; !!= * **@CODE@**
-Letters = Vws Cns ;		!!= * **@CODE@**
+VwsBack = a o u ;		    !!≈ * **@CODE@**
+VwsFront = ä ö y ü ;		!!≈ * **@CODE@**
+VwsNeutral = e i ь ; 		!!≈ * **@CODE@**
+VwsNonHigh = a o ä ö e ;	!!≈ * **@CODE@**
+Vws = a o u ä ö y ü e i ь ;	!!≈ * **@CODE@**
+Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ; !!≈ * **@CODE@**
+Letters = Vws Cns ;		                       !!≈ * **@CODE@**
 
 
 !! ## Definitions
@@ -122,7 +118,7 @@ BT =   ( #: Cns* ( [ VwsNeutral | i: ] \[ #: | VwsFront: | :VwsFront ]* ) ) [ Vw
 !! * Short vowel
 SV = [ [ #: | Cns+ ] :Vws ] ;
 
- ! If a vowel is preceeded by this, is can be long
+! If a vowel is preceeded by this, is can be long
 !  in both the inessive and the adessive
 ! Inessive lengthening of vowel
 IL = [ #: Cns* Vws : Cns:+ | Cns* Vws+ Cns:+  Vws:+ Cns:+  ] ;
@@ -142,7 +138,7 @@ Rules
 
 
 ! Stem vowel loss before plural "i"
-"StemVowLoss" 
+"RULE: StemVowLoss" 
 !! **@RULENAME@** 
  X:Y <=> X _  %>:0 i  %>:0 ;
 !( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 [ i | i:j ] ;
@@ -150,7 +146,7 @@ Rules
                 Y in (0 0 0) matched ;
 
 ! A loss
-"StemALoss" 
+"RULE: StemALoss" 
 !! **@RULENAME@** 
  X:Y <=>  _   ( %>:0 %^LCns:0 ) %>:0 i: %>:0 ;
           where X in (a ä)
@@ -161,13 +157,13 @@ Rules
 
 !%>%^LCnsi%>V1
 ! AÄ1 loss
-"StemAÄLoss" 
+"RULE: StemAÄLoss" 
 !! **@RULENAME@** 
  AÄ1:0 <=> [ AÄ1: | Cns: | :Cns ] _ ( %>:0 %^LCns:0 ) %>:0 i %>:0 ;
 
 
 ! U loss [u:0 | y:0]
-"StemULoss"
+"RULE: StemULoss"
 !! **@RULENAME@** 
  X:Y <=> X _ %>:0  i  %>:0 ;
 ! ( %>:0  %^WCns:0 |  %>:0  %^LCns:0 ) %>:0 i %>:0 ;
@@ -180,12 +176,12 @@ Rules
 !!€ ma00i0n
 
 ! Stem vowel "i" loss before plural "i"
-"i:Zero"
+"RULE: i:Zero"
 !! **@RULENAME@** 
  i:0 <=> i _ %>:0 i  %>:0 ;
 
 ! iToj between vowels
-"i:j"
+"RULE: i:j"
 !! **@RULENAME@** 
  i:j <=> :Vws ( %>:0  %^LCns:0 ) %>:0 _ %>:0 :Vws ;
          Vws _ Cns:0 Vws: ;
@@ -194,78 +190,78 @@ Rules
 !!€ emmooj00a
 
 ! a to e in comparatives
-"a:e"
+"RULE: a:e"
 !! **@RULENAME@** 
  a:e <=> _ %>:0 %^WCns:0 %^E1:0 ;
 
 ! ä to e in comparatives
-"ä:e"
+"RULE: ä:e"
 !! **@RULENAME@** 
  ä:e <=> _ %>:0 %^WCns:0 %^E1:0 ;
 
 
 !
 ! Vowel harmony suffixes Front
-"AÄ1:ä"
+"RULE: AÄ1:ä"
 !! **@RULENAME@** 
  AÄ1:ä <=> FT _  ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | %>:0 %^WCns:0 [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i | %>:0 ( %^WCns:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 ! mato : mattooa
 ! Vowel harmony suffixes Back
-"AÄ1:a"
+"RULE: AÄ1:a"
 !! **@RULENAME@** 
  AÄ1:a <=> BT _   ( %>:0  %^WCns:0 ( %^LVws:0 ) |  %^LVws:0  |  %>:0  %^LCns:0 ( %^LVws:0 ) ) [ ( %>:0 ) [ Cns | %>:0 %^WCns:0 [ Cns ] | [[ Vws: ] - [ i | i:j ]]] | #: | AÄ1: | %^StretchSyll2:0 | i | %>:0 ( %^WCns:0 | %^LCns:0 ) [ V1: | V3: ] ]  ;
 
 !
 ! Vowel harmony suffixes Front
-"OÖ1:ö"
+"RULE: OÖ1:ö"
 !! **@RULENAME@** 
  OÖ1:ö <=>  FT _ ;
 
 ! Vowel harmony suffixes Back
-"OÖ1:o"
+"RULE: OÖ1:o"
 !! **@RULENAME@** 
  OÖ1:o <=>  BT _ ;
 
 !
 ! Vowel harmony suffixes Front
-"UY1:y"
+"RULE: UY1:y"
 !! **@RULENAME@** 
  UY1:y <=>  FT _ ;
 
 ! Vowel harmony suffixes Back
-"UY1:u"
+"RULE: UY1:u"
 !! **@RULENAME@** 
  UY1:u <=>  BT _ ;
 
 ! Vws %>:0 %^LCns: V1:
 ! Vowel agreement in illative 
-"V1:aeouüäö"
+"RULE: V1:aeouüäö"
 !! **@RULENAME@** 
  V1:Vx <=> :Vx %>:0 [ h | ( %^LCns: %>:0 ) ] _ ;
         where Vx in (a o u ä ö ü y) ;
 
 ! Vowel agreement in illative e
-"V1:e"
+"RULE: V1:e"
 !! **@RULENAME@** 
  V1:e <=> [ e | i ] %>:0  h  _ ;
           e ( %>:0 %^LCns: ) %>:0  _ ;
 
 ! Illative i with no intermittent _h_
-"V1:i"
+"RULE: V1:i"
 !! **@RULENAME@** 
  V1:i <=> i ( %>:0 %^LCns: ) %>:0 _ ;
 
 !  _mato:maool_ not allowed
 ! Used with patsas type nominals
-"V2:aeiouüäö"
+"RULE: V2:aeiouüäö"
 !! **@RULENAME@** 
  V2:Vx <=>  Vx ( h ( :h ) ) %>:0  ( %^LCns:0 )  _ [ V2: | ( %>:0 ([ %^WCns:0 | %^LCns:0 ] ( V3: ) ) )  Cns ] ;
             Vx ( h ( :h ) ) %>:0  ( %^LCns:0 | %^WCns:0 ) V2: _ [ ( %>:0 )  Cns ]  ;
         where Vx in (a o u ä ö ü e i y) ;
 
 
-"V2:Zero"
+"RULE: V2:Zero"
 !! **@RULENAME@** 
  V2:0 <=> Vws %>:0 _ %>:0 i: %>:0 ;
 
@@ -274,39 +270,39 @@ Rules
 ! Vowel lengthening for the inesive and adessive with V3
 !! This deals with secondary or perhaps pertary vowel lengthening
 ! e.g. gen plural, ine, ade
-"V3:a"
+"RULE: V3:a"
 !! **@RULENAME@** 
  V3:a <=> :Cns :0* :a :0* _ ;
 
-"V3:e"
+"RULE: V3:e"
 !! **@RULENAME@** 
  V3:e <=> :Cns :0* :e :0* _ ;
 
-"V3:i"
+"RULE: V3:i"
 !! **@RULENAME@** 
  V3:i <=> :Cns :0* :i :0* _ ;
 
-"V3:o"
+"RULE: V3:o"
 !! **@RULENAME@** 
  V3:o <=> :Cns :0* :o :0* _ ;
 
-"V3:u"
+"RULE: V3:u"
 !! **@RULENAME@** 
  V3:u <=> :Cns :0* :u :0* _ ;
 
-"V3:ä"
+"RULE: V3:ä"
 !! **@RULENAME@** 
  V3:ä <=> :Cns :0* :ä :0* _ ;
 
-"V3:ö"
+"RULE: V3:ö"
 !! **@RULENAME@** 
  V3:ö <=> :Cns :0* :ö :0* _ ;
 
-"V3:y"
+"RULE: V3:y"
 !! **@RULENAME@** 
  V3:y <=> :Cns :0* :y :0* _ ;
 
-"V3:Zero"
+"RULE: V3:Zero"
 !! **@RULENAME@** 
  V3:0 <=> :Vws :0* :Vws :0* _ ;
 
@@ -324,7 +320,7 @@ Rules
 ! Secondary Consonant lengthening
 ! mato : mattoo, näytettävä : näytettävvää
 !"even-syllable" This should be secondary
-"consonant lengthening"
+"RULE: consonant lengthening"
 !! **@RULENAME@** 
  0:Cx <=> 
          [ #: Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ( %>:0 %^LCns:0 ) | #: Cns*  Vws | %^OddSyll:0 ] Cx _ ( [ Vws: | :Vws ] ( :Vws ) ) %>:0 %^LCns:0 ; !
@@ -332,7 +328,7 @@ Rules
            where Cx in (m p t s n r l k g h) ;
 !
 ! oja: oija
-"j lengthening"
+"RULE: j lengthening"
 !! **@RULENAME@** 
 0:i <=> [ #: ] Cns* Vws _ j Vws ( 0: ) %>:0 %^LCns:0  ;
           [ [ :Cns | :Cns Vws:0 ] ( %>:0 ) | Cns: ] i _ %>:0 ( %^LCns: | %^WCns:0 ) %^LVws: ;
@@ -354,13 +350,13 @@ Rules
 
 
 
-"Ut:vv Uk:vv weakening"
+"RULE: Ut:vv Uk:vv weakening"
 !! **@RULENAME@** 
  Cx:Cy <=> [ #: ] Cns* Vws [ u: | y: ] _ 0:v [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
               where Cx in (k t)
                     Cy in (v v) matched ;
 
-"0:v Lengthening with Ut:vv weakening"
+"RULE: 0:v Lengthening with Ut:vv weakening"
 !! **@RULENAME@** 
  0:v <=> [ #: ] Cns* Vws [ u: | y: ] [ t: | k: ]  _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
          [ #: ][ Cns* Vws | Cns* Vws+ Cns:+ Vws+ :0* Cns+ :Vws ] v _  ( :Vws | AÄ1: ) [ 0:Vws %>:0 %^LCns: | %>:0 %^LCns: :0* :Vws ] ; ! arvattava:arvattavvaa
@@ -370,11 +366,11 @@ Rules
 
 
 ! viis: viijes
-"it:j"
+"RULE: it:j"
 !! **@RULENAME@** 
  t:j <=> [ i | o ] i _ [ e | o ] %>: %^WCns:0 ;
 
-"st:ss weakening"
+"RULE: st:ss weakening"
 !! **@RULENAME@** 
 t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
 ! last-minute verbs
@@ -382,21 +378,21 @@ t:s <=> Vws+ s _ ( %^TS:0 ) GRC ;
    [ n | l | r | Vws Vws ] _ %^TS:0 ; !  pittää: piti 
 
 
-"rt:rr weakening"
+"RULE: rt:rr weakening"
 !! **@RULENAME@** 
 t:r <=>  Vws r _ GRC ;
 
-"lt:ll weakening"
+"RULE: lt:ll weakening"
 !! **@RULENAME@** 
 t:l <=>  Vws l _ GRC ;
 
-"nt:nn weakening"
+"RULE: nt:nn weakening"
 !! **@RULENAME@** 
 t:n <=>  Vws ( %>:0 %^WCns:0 ) n _ GRC ;
 
 !! p
 
-"mp:mm weakening"
+"RULE: mp:mm weakening"
 !! **@RULENAME@** 
 p:m <=> [ :Vws ( %>:0 %^WCns:0 ) | [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | AÄ1: | Vws+ :Cns+ Vws  %^SyllBr:0 e %^StretchSyll2:0 ] m _ [ GRC | AÄ1: %>:0 %^WCns:0 ( V3: ) Cns | %^TS:0 i %>:0 %^WCns:0 ] ;
         m _ Vws l %^WGStem:0 ; ! ompel- to ommel-
@@ -404,42 +400,42 @@ p:m <=> [ :Vws ( %>:0 %^WCns:0 ) | [ a: | ä: ] %>:0 %^WCns:0 %^E1:0 | AÄ1: | V
 !%> %^WCns %^E1 mp
 !!
 
-"nk:ng weakening"
+"RULE: nk:ng weakening"
 !! **@RULENAME@** 
 k:g <=> [ #: ] Cns* Vws n _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 
 ! aika: ajan
-"kToZero"
+"RULE: kToZero"
 !! **@RULENAME@** 
 k:0 <=> [  #:  Cns* Vws (( r | i | VwsNonHigh ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 ![ [ #: ] Cns* Vws (( r | i ) k | t | h | l | r | s ) | Vws :Cns+ :Vws+ k ] _ [ Vws: | :Vws | ( Vws ) %>:0 i ] ( %>:0 i: | %^StretchSyll2:0 ) %>:0 %^WCns:0 ;
         [ #: ] Cns* VwsBack i: _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 ! liika:liijan, reikä:reijän
-"kToj"
+"RULE: kToj"
 !! **@RULENAME@** 
  k:j <=> [ #: ] Cns* [ VwsFront | VwsNeutral ] i: _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 ! mato : maot, ! mato : maool
 ! tToZero in weak
-"Double stop:weakens tToZero"
+"RULE: Double stop:weakens tToZero"
 !! **@RULENAME@** 
 t:0 <=> [ #: Cns* Vws | #: Cns* Vws [ Vws - [ i | u | y ] ] | Vws h [ y | u ] ] _  GRC ;
         [ #: Cns*  Vws+ [ h | (r) t ] | Vws ( %>:0 %^WCns:0 ) t | Cns* Vws+ Cns+ Vws+ ( n ) t | Vws t ] _  [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
         t _ Vws l %^WGStem:0 ; ! ottel- to otel-
 
 ! lupa : luvan
-"p:v"
+"RULE: p:v"
 !! **@RULENAME@** 
 p:v <=> [ #: ] Cns* Vws ( r | l | Vws ) _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
-"double pp to p"
+"RULE: double pp to p"
 !! **@RULENAME@** 
 p:0 <=> [ #: Cns* Vws ( m ) p | #: Cns* Vws Vws p | Cns* Vws+ Cns+ Vws+ p ] _ [ GRC | %^TS:0 i %>:0 %^WCns:0 ] ;
 
 !! Vowel raising
-"o:u ö:y in Inf"
+"RULE: o:u ö:y in Inf"
 !! **@RULENAME@** 
  Vx:Vy <=> _ Vx: %>:0 v v AÄ1: %^RVws:0 ;
            Vx: _ %>:0 v v AÄ1: %^RVws:0 ;
