@@ -495,6 +495,7 @@ Ingrian adjectives compare.
 
 # Ingrian noun inflection
 This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
+
 This file documents the suffixes for noun inflection.
 
 **LEXICON N_YÖ-SG** 
