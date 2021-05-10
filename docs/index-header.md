@@ -1,7 +1,7 @@
 # Ingrian documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-izh)](https://raw.githubusercontent.com/giellalt/lang-izh/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-izh)](https://raw.githubusercontent.com/giellalt/lang-izh/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/issues)
 [![Build status](https://github.com/giellalt/lang-izh/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-izh/actions)
 
