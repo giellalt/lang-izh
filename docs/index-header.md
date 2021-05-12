@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/issues)
 [![Build status](https://github.com/giellalt/lang-izh/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-izh/actions)
 
-This page documents the work on the **Ingrian language model**. 
+This page documents the work on the [Ingrian language model](http://github.com/giellalt/lang-izh). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
