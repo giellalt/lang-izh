@@ -605,20 +605,28 @@ These were the set types.
 
 
 
-Acronyms
-Veps acronyms ...
+# Verb inflection
+## Irregular verbs
 
+ * **LEXICON V-ei ** lists the negative verb, including imperative forms.
 
+ * **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
 
+ * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
 
 
+oon
 
 
 
 
 
+## Regular verbs
 
+ * **LEXICON V-jäävvä ** so far only splits to the next lexicon
 
+ * **LEXICON V-jäävvä_01 **. 
+TODO: Document difference between this and previous
 
 
 
@@ -626,255 +634,444 @@ Veps acronyms ...
 
 
 
+ * **LEXICON V-käyvvä **  käyvvä:kä
+TODO: Dokument difference between this and previous
 
-lyhyt ensimmäinen tavu
 
-pitkä ensimmäinen tavu
 
 
-# The Ingrian morphophonological/twolc rules file 
 
-## Alphabet
 
-### The letters
 
- * **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
- * **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
- * **ş ƶ y**
- * **Ş Ƶ Y**
- * **ь** Sьktьvkar
- * **Ь**
+ * **LEXICON V-tuuvva ** 
+* tuuvva:too
 
-### Vowel harmony with "(t)a/ä"
- * **AÄ1:a** realised as a
- * **AÄ1:ä** realised as ä
- * **AÄ1:0** deleted
 
-### Vowel harmony with "loi/löi" also kalatOÖ1in
- * **OÖ1:o**
- * **OÖ1:ö**
 
-### Vowel harmony with "ttu/tty"
- * **UY1:u**
- * **UY1:y**
 
-### this appears in the illative
- * **V1:a**
- * **V1:e**
- * **V1:i**
- * **V1:o**
- * **V1:u**
- * **V1:y**
- * **V1:ä**
- * **V1:ö**
 
-### These appear with the inessive and adessive
- * **V2:a**
- * **V2:e**
- * **V2:i**
- * **V2:o**
- * **V2:u**
- * **V2:y**
- * **V2:ä**
- * **V2:ö** 
 
-### These reduplicate the preceding vowel if it in turn is preceded by a consonant
- * **V3:a**
- * **V3:e**
- * **V3:i**
- * **V3:o**
- * **V3:u**
- * **V3:y**
- * **V3:ä**
- * **V3:ö**
- * **V3:0**
 
-### this k is not effected by gradation
- * **K1:k**
- * **%^NoGrad:0** This will be placed after a stem to break Gradation
+ * **LEXICON V-voija  ** voija:voi
 
-### this weakens the stem *ompel* to *ommel*
- * **%^WGStem:0**
 
-### The ti => si
- * **%^TS:0**
 
-### Vowel raising
- * **%^RVws:0**
- * **%-** Hyphen in  constructions 
- * **%>:0**
-#:0 #:0     * hash is Word boundary for both lexicalised and dynamic compounds
- * **Cx** these should probably not be declared
- * **Cy** these should probably not be declared
- * **X** these should probably not be declared
- * **Y** these should probably not be declared
- * **%^LVws:0**
- * **%^LCns:0**
- * **%^WCns:0**
- * **%^AtoO:0**
- * **%^ÄtoÖ:0**
- * **%^OddSyll:0**
- * **%^StretchSyll2:0**
- * **%^SyllBr:0**
- * **%^E1:0**
 
 
-## Sets
 
+ * **LEXICON V-antaa ** redirects to next only antaa:ant
 
- * **VwsBack = a o u ;**
- * **VwsFront = ä ö y ü ;**
- * **VwsNeutral = e i ь ;**
- * **VwsNonHigh = a o ä ö e ;**
- * **Vws = a o u ä ö y ü e i ь ;**
- * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
- * **Letters = Vws Cns ;**
+ * **LEXICON V-antaa_01 ** 
 
 
-## Definitions
 
-* Front Trigger
 
 
-* Back Trigger 
+ * **LEXICON V-lukkia ** 
+* lukkia:luk
 
-* Gradation strong to weak
 
-* Short vowel
 
 
-Right context for gradation
 
 
+ * **LEXICON V-tiitää **
+* tiitää:tiit
 
-# Rules
+ * **LEXICON V-tiitää_01 **
+tiije
 
+tiitämätöin
+tiitää
 
 
-**RULE: StemVowLoss ** 
 
-**RULE: StemALoss ** 
+ * **LEXICON V-näyttää ** näyttää:näytt
 
-* *osa%>^WCns%>i%>st*
-* *os0000i0st*
+ * **LEXICON V-näyttää_01 **
+näytetää
 
-**RULE: StemAÄLoss ** 
+näyttännöö
 
+näyttävä
+näyttänt
+näyttämätöin
+näyttää
+näyttämää
 
-**RULE: StemULoss** 
 
-* *maa%>i%>n*
-* *ma00i0n*
+ * **LEXICON V-laatia ** !! laatia:laati
 
-**RULE: i:Zero** 
+## 3-syllable
+kiirehtiä:kiireh
 
-**RULE: i:j** 
-* *em0o0i%>%^LCnsAÄ1*
-* *emmooj00a*
 
-**RULE: a:e** 
+ * **LEXICON V-hyväksyä **
 
-**RULE: ä:e** 
+ * **LEXICON V-kutsua **
 
+ * **LEXICON V-kutsua_01 **
 
-**RULE: AÄ1:ä** 
 
-**RULE: AÄ1:a** 
 
-**RULE: OÖ1:ö** 
 
-**RULE: OÖ1:o** 
 
-**RULE: UY1:y** 
+ * **LEXICON V-kirjuttaa **
 
-**RULE: UY1:u** 
+ * **LEXICON V-kirjuttaa_01 **
 
-**RULE: V1:aeouüäö** 
 
-**RULE: V1:e** 
 
-**RULE: V1:i** 
 
-**RULE: V2:aeiouüäö** 
+ * **LEXICON V-tulla **
 
+ * **LEXICON V-tulla_01 **
 
-**RULE: V2:Zero** 
 
 
-This deals with secondary or perhaps pertary vowel lengthening
-**RULE: V3:a** 
 
-**RULE: V3:e** 
+ * **LEXICON V-ommella **
 
-**RULE: V3:i** 
+ * **LEXICON V-ommella_01 **
 
-**RULE: V3:o** 
 
-**RULE: V3:u** 
 
-**RULE: V3:ä** 
 
-**RULE: V3:ö** 
 
-**RULE: V3:y** 
+ * **LEXICON V-nähä **
 
-**RULE: V3:Zero** 
+ * **LEXICON V-nähä_01 **
 
-**RULE: V3:Zero** 
 
 
-**RULE: consonant lengthening** 
-**RULE: j lengthening** 
 
+ * **LEXICON V-panna **
 
+ * **LEXICON V-panna_01 **
 
-## Consonant weakening 
 
 
 
+ * **LEXICON V-sannoa **
 
-**RULE: Ut:vv Uk:vv weakening** 
 
-**RULE: 0:v Lengthening with Ut:vv weakening** 
 
 
+ * **LEXICON V-painuttaissa **
 
 
-**RULE: it:j** 
 
-**RULE: st:ss weakening** 
 
+ * **LEXICON V-pittiissä **
 
-**RULE: rt:rr weakening** 
+ * **LEXICON V-pittiissä_01 **
 
-**RULE: lt:ll weakening** 
 
-**RULE: nt:nn weakening** 
 
-p
 
-**RULE: mp:mm weakening** 
+ * **LEXICON V-vuhissa_01 **
 
-**RULE: nk:ng weakening** 
 
 
-**RULE: kToZero** 
 
-**RULE: kToj** 
 
-**RULE: Double stop:weakens tToZero** 
 
-**RULE: p:v** 
+ * **LEXICON V-laatihussa **
 
-**RULE: double pp to p** 
 
-Vowel raising
-**RULE: o:u ö:y in Inf** 
 
+ * **LEXICON V-määrätä ** goes to V-arvata
 
+ * **LEXICON V-upota ** goes to V-arvata
 
 
-# Symbol affixes
+ * **LEXICON V-arvata **
+
+
+
+
+ * **LEXICON V-hävitä **
+
+
+
+
+ * **LEXICON V-merkitä **
+
+ * **LEXICON V-merkitä_01 **
+
+
+
+
+
+ * **LEXICON V-ahavojja **
+
+
+## DERIVATION 
+
+* Actor in jA
+ * **LEXICON V-actor_jA **
+
+
+
+## PARTICIPLES
+
+
+ * **LEXICON V-ActPrsPrc **
+ * **LEXICON V-ActPrtPrc_nt **
+
+ * **LEXICON V-ActPrtPrc_rt **
+
+
+
+
+## CONJUGATION
+
+### INDICATIVE PRETERITE
+
+ * **LEXICON IndPrt ** split 1-2 vs 3
+
+ * **LEXICON IndPrt_1-2 **
+
+ * **LEXICON IndPrt_3 **
+
+ * **LEXICON IND-PRT-SG1 **
+
+ * **LEXICON IND-PRT-SG2 **
+
+ * **LEXICON IND-PRT-SG3 **
+
+ * **LEXICON IND-PRT-PL1 **
+
+ * **LEXICON IND-PRT-PL2 **
+
+ * **LEXICON IND-PRT-PL3 **
+This is not working 2012-10-30
+
+
+
+
+## CONDITIONAL 
+
+ * **LEXICON CondPers **
+
+## POTENTIAL
+
+:n, :s, :l, :r, :n
+ * **LEXICON PotPers **
+
+
+## IMPERATIVE !!
+
+ * **LEXICON ImprtPers_k **
+
+
+
+
+# Proper noun inflection
+
+We have a partial program in singular.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Pronoun inflection
+
+Ingrian pronouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Quantifier inflection
+
+Still undocumented
+
+N-kärpäin (XIII)
+
+
+N-kärpäin (XIII)
+
+
+N-mato (II)
+
+vähä:vähä
+
+
+
+
+
+
+
+
+
+enemmän
+
+kaik:kaik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Adjective inflection
+The INGRIAN language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Clitics
+
+Ingrian clitics are stored in the affixes folder.
+We tag question and focus particles.
+
+
+
+
+
+
+
+# Adposition tags
+
+Here we just add tags +Po and +Prep
+to the Ingrian pre- and postpositions.
+
+
+
+
+
+# Adverb inflection
+
+Ingrian adjectives compare.
+
+
+
+
+
 
 
 
@@ -1192,473 +1389,8 @@ Plural tags separated from singular ones.
 
 
 
-# Quantifier inflection
 
-Still undocumented
-
-N-kärpäin (XIII)
-
-
-N-kärpäin (XIII)
-
-
-N-mato (II)
-
-vähä:vähä
-
-
-
-
-
-
-
-
-
-enemmän
-
-kaik:kaik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Adverb inflection
-
-Ingrian adjectives compare.
-
-
-
-
-
-
-
-
-
-
-# Proper noun inflection
-
-We have a partial program in singular.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Verb inflection
-## Irregular verbs
-
- * **LEXICON V-ei ** lists the negative verb, including imperative forms.
-
- * **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
-
- * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
-
-
-oon
-
-
-
-
-
-## Regular verbs
-
- * **LEXICON V-jäävvä ** so far only splits to the next lexicon
-
- * **LEXICON V-jäävvä_01 **. 
-TODO: Document difference between this and previous
-
-
-
-
-
-
-
- * **LEXICON V-käyvvä **  käyvvä:kä
-TODO: Dokument difference between this and previous
-
-
-
-
-
-
-
- * **LEXICON V-tuuvva ** 
-* tuuvva:too
-
-
-
-
-
-
-
- * **LEXICON V-voija  ** voija:voi
-
-
-
-
-
-
- * **LEXICON V-antaa ** redirects to next only antaa:ant
-
- * **LEXICON V-antaa_01 ** 
-
-
-
-
-
- * **LEXICON V-lukkia ** 
-* lukkia:luk
-
-
-
-
-
-
- * **LEXICON V-tiitää **
-* tiitää:tiit
-
- * **LEXICON V-tiitää_01 **
-tiije
-
-tiitämätöin
-tiitää
-
-
-
- * **LEXICON V-näyttää ** näyttää:näytt
-
- * **LEXICON V-näyttää_01 **
-näytetää
-
-näyttännöö
-
-näyttävä
-näyttänt
-näyttämätöin
-näyttää
-näyttämää
-
-
- * **LEXICON V-laatia ** !! laatia:laati
-
-## 3-syllable
-kiirehtiä:kiireh
-
-
- * **LEXICON V-hyväksyä **
-
- * **LEXICON V-kutsua **
-
- * **LEXICON V-kutsua_01 **
-
-
-
-
-
- * **LEXICON V-kirjuttaa **
-
- * **LEXICON V-kirjuttaa_01 **
-
-
-
-
- * **LEXICON V-tulla **
-
- * **LEXICON V-tulla_01 **
-
-
-
-
- * **LEXICON V-ommella **
-
- * **LEXICON V-ommella_01 **
-
-
-
-
-
- * **LEXICON V-nähä **
-
- * **LEXICON V-nähä_01 **
-
-
-
-
- * **LEXICON V-panna **
-
- * **LEXICON V-panna_01 **
-
-
-
-
- * **LEXICON V-sannoa **
-
-
-
-
- * **LEXICON V-painuttaissa **
-
-
-
-
- * **LEXICON V-pittiissä **
-
- * **LEXICON V-pittiissä_01 **
-
-
-
-
- * **LEXICON V-vuhissa_01 **
-
-
-
-
-
-
- * **LEXICON V-laatihussa **
-
-
-
- * **LEXICON V-määrätä ** goes to V-arvata
-
- * **LEXICON V-upota ** goes to V-arvata
-
-
- * **LEXICON V-arvata **
-
-
-
-
- * **LEXICON V-hävitä **
-
-
-
-
- * **LEXICON V-merkitä **
-
- * **LEXICON V-merkitä_01 **
-
-
-
-
-
- * **LEXICON V-ahavojja **
-
-
-## DERIVATION 
-
-* Actor in jA
- * **LEXICON V-actor_jA **
-
-
-
-## PARTICIPLES
-
-
- * **LEXICON V-ActPrsPrc **
- * **LEXICON V-ActPrtPrc_nt **
-
- * **LEXICON V-ActPrtPrc_rt **
-
-
-
-
-## CONJUGATION
-
-### INDICATIVE PRETERITE
-
- * **LEXICON IndPrt ** split 1-2 vs 3
-
- * **LEXICON IndPrt_1-2 **
-
- * **LEXICON IndPrt_3 **
-
- * **LEXICON IND-PRT-SG1 **
-
- * **LEXICON IND-PRT-SG2 **
-
- * **LEXICON IND-PRT-SG3 **
-
- * **LEXICON IND-PRT-PL1 **
-
- * **LEXICON IND-PRT-PL2 **
-
- * **LEXICON IND-PRT-PL3 **
-This is not working 2012-10-30
-
-
-
-
-## CONDITIONAL 
-
- * **LEXICON CondPers **
-
-## POTENTIAL
-
-:n, :s, :l, :r, :n
- * **LEXICON PotPers **
-
-
-## IMPERATIVE !!
-
- * **LEXICON ImprtPers_k **
-
-
-
-
-# Adposition tags
-
-Here we just add tags +Po and +Prep
-to the Ingrian pre- and postpositions.
-
-
-
-
-
-# Clitics
-
-Ingrian clitics are stored in the affixes folder.
-We tag question and focus particles.
-
-
-
-
-
-
-
-# Adjective inflection
-The INGRIAN language adjectives compare.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Pronoun inflection
-
-Ingrian pronouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Symbol affixes
 
 
 
@@ -1671,6 +1403,274 @@ Ingrian particles ...
 
 
 
+
+
+# The Ingrian morphophonological/twolc rules file 
+
+## Alphabet
+
+### The letters
+
+ * **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
+ * **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
+ * **ş ƶ y**
+ * **Ş Ƶ Y**
+ * **ь** Sьktьvkar
+ * **Ь**
+
+### Vowel harmony with "(t)a/ä"
+ * **AÄ1:a** realised as a
+ * **AÄ1:ä** realised as ä
+ * **AÄ1:0** deleted
+
+### Vowel harmony with "loi/löi" also kalatOÖ1in
+ * **OÖ1:o**
+ * **OÖ1:ö**
+
+### Vowel harmony with "ttu/tty"
+ * **UY1:u**
+ * **UY1:y**
+
+### this appears in the illative
+ * **V1:a**
+ * **V1:e**
+ * **V1:i**
+ * **V1:o**
+ * **V1:u**
+ * **V1:y**
+ * **V1:ä**
+ * **V1:ö**
+
+### These appear with the inessive and adessive
+ * **V2:a**
+ * **V2:e**
+ * **V2:i**
+ * **V2:o**
+ * **V2:u**
+ * **V2:y**
+ * **V2:ä**
+ * **V2:ö** 
+
+### These reduplicate the preceding vowel if it in turn is preceded by a consonant
+ * **V3:a**
+ * **V3:e**
+ * **V3:i**
+ * **V3:o**
+ * **V3:u**
+ * **V3:y**
+ * **V3:ä**
+ * **V3:ö**
+ * **V3:0**
+
+### this k is not effected by gradation
+ * **K1:k**
+ * **%^NoGrad:0** This will be placed after a stem to break Gradation
+
+### this weakens the stem *ompel* to *ommel*
+ * **%^WGStem:0**
+
+### The ti => si
+ * **%^TS:0**
+
+### Vowel raising
+ * **%^RVws:0**
+ * **%-** Hyphen in  constructions 
+ * **%>:0**
+#:0 #:0     * hash is Word boundary for both lexicalised and dynamic compounds
+ * **Cx** these should probably not be declared
+ * **Cy** these should probably not be declared
+ * **X** these should probably not be declared
+ * **Y** these should probably not be declared
+ * **%^LVws:0**
+ * **%^LCns:0**
+ * **%^WCns:0**
+ * **%^AtoO:0**
+ * **%^ÄtoÖ:0**
+ * **%^OddSyll:0**
+ * **%^StretchSyll2:0**
+ * **%^SyllBr:0**
+ * **%^E1:0**
+
+
+## Sets
+
+
+ * **VwsBack = a o u ;**
+ * **VwsFront = ä ö y ü ;**
+ * **VwsNeutral = e i ь ;**
+ * **VwsNonHigh = a o ä ö e ;**
+ * **Vws = a o u ä ö y ü e i ь ;**
+ * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
+ * **Letters = Vws Cns ;**
+
+
+## Definitions
+
+* Front Trigger
+
+
+* Back Trigger 
+
+* Gradation strong to weak
+
+* Short vowel
+
+
+Right context for gradation
+
+
+
+# Rules
+
+
+
+**RULE: StemVowLoss ** 
+
+**RULE: StemALoss ** 
+
+* *osa%>^WCns%>i%>st*
+* *os0000i0st*
+
+**RULE: StemAÄLoss ** 
+
+
+**RULE: StemULoss** 
+
+* *maa%>i%>n*
+* *ma00i0n*
+
+**RULE: i:Zero** 
+
+**RULE: i:j** 
+* *em0o0i%>%^LCnsAÄ1*
+* *emmooj00a*
+
+**RULE: a:e** 
+
+**RULE: ä:e** 
+
+
+**RULE: AÄ1:ä** 
+
+**RULE: AÄ1:a** 
+
+**RULE: OÖ1:ö** 
+
+**RULE: OÖ1:o** 
+
+**RULE: UY1:y** 
+
+**RULE: UY1:u** 
+
+**RULE: V1:aeouüäö** 
+
+**RULE: V1:e** 
+
+**RULE: V1:i** 
+
+**RULE: V2:aeiouüäö** 
+
+
+**RULE: V2:Zero** 
+
+
+This deals with secondary or perhaps pertary vowel lengthening
+**RULE: V3:a** 
+
+**RULE: V3:e** 
+
+**RULE: V3:i** 
+
+**RULE: V3:o** 
+
+**RULE: V3:u** 
+
+**RULE: V3:ä** 
+
+**RULE: V3:ö** 
+
+**RULE: V3:y** 
+
+**RULE: V3:Zero** 
+
+**RULE: V3:Zero** 
+
+
+**RULE: consonant lengthening** 
+**RULE: j lengthening** 
+
+
+
+## Consonant weakening 
+
+
+
+
+**RULE: Ut:vv Uk:vv weakening** 
+
+**RULE: 0:v Lengthening with Ut:vv weakening** 
+
+
+
+
+**RULE: it:j** 
+
+**RULE: st:ss weakening** 
+
+
+**RULE: rt:rr weakening** 
+
+**RULE: lt:ll weakening** 
+
+**RULE: nt:nn weakening** 
+
+p
+
+**RULE: mp:mm weakening** 
+
+**RULE: nk:ng weakening** 
+
+
+**RULE: kToZero** 
+
+**RULE: kToj** 
+
+**RULE: Double stop:weakens tToZero** 
+
+**RULE: p:v** 
+
+**RULE: double pp to p** 
+
+Vowel raising
+**RULE: o:u ö:y in Inf** 
+
+
+
+Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lyhyt ensimmäinen tavu
+
+pitkä ensimmäinen tavu
 
 
 # Ingrian multichar symbols and *Root* lexicon
@@ -2124,22 +2124,6 @@ INTERJ_
 
 
 
-We describe here how abbreviations are in Ingrian are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -2190,6 +2174,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Ingrian are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
