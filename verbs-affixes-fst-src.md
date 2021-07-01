@@ -253,10 +253,12 @@ This is not working 2012-10-30
  * **LEXICON PotPers **
 
 
-## IMPERATIVE !!
+
 
  * **LEXICON ImprtPers_k **
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small>

@@ -447,3 +447,5 @@ AbbrDot
 
 INTERJ_
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
