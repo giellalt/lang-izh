@@ -607,6 +607,34 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-izh/blob/main/../src/cg3/functions.cg3)</small>
+
+
+
+
+
+lyhyt ensimmäinen tavu
+
+pitkä ensimmäinen tavu
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
 # The Ingrian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc) 
@@ -851,21 +879,7 @@ Vowel raising
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small># Adverb inflection
-
-Ingrian adjectives compare.
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Ingrian noun inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small># Ingrian noun inflection
 This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
 
 This file documents the suffixes for noun inflection.
@@ -1178,36 +1192,15 @@ Plural tags separated from singular ones.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Proper noun inflection
-
-We have a partial program in singular.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small># Clitics
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Clitics
 
 Ingrian clitics are stored in the affixes folder.
 We tag question and focus particles.
@@ -1219,7 +1212,70 @@ We tag question and focus particles.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Adverb inflection
+
+Ingrian adjectives compare.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Adjective inflection
+The INGRIAN language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adjectives.lexc)</small># Verb inflection
 ## Irregular verbs
 
  * **LEXICON V-ei ** lists the negative verb, including imperative forms.
@@ -1482,66 +1538,7 @@ This is not working 2012-10-30
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Adjective inflection
-The INGRIAN language adjectives compare.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adjectives.lexc)</small># Adposition tags
-
-Here we just add tags +Po and +Prep
-to the Ingrian pre- and postpositions.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Quantifier inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Quantifier inflection
 
 Still undocumented
 
@@ -1607,24 +1604,36 @@ kaik:kaik
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small>
-# Symbol affixes
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Proper noun inflection
+
+We have a partial program in singular.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Particles inflection
-
-Ingrian particles ...
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small># Pronoun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small># Pronoun inflection
 
 Ingrian pronouns inflect in cases.
 
@@ -1661,7 +1670,26 @@ Ingrian pronouns inflect in cases.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Adposition tags
+
+Here we just add tags +Po and +Prep
+to the Ingrian pre- and postpositions.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Particles inflection
+
+Ingrian particles ...
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small>
 # Ingrian multichar symbols and *Root* lexicon
 
  Definitions for Multichar_Symbols
@@ -2111,35 +2139,24 @@ AbbrDot
 INTERJ_
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>Acronyms
-Veps acronyms ...
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
 
 
+We describe here how abbreviations are in Ingrian are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-
-
-
-
-
-
-
-
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
-
-
-
-
-
-lyhyt ensimmäinen tavu
-
-pitkä ensimmäinen tavu
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -2195,23 +2212,6 @@ pitkä ensimmäinen tavu
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Ingrian are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
