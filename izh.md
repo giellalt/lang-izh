@@ -851,817 +851,18 @@ Vowel raising
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small># Particles inflection
-
-Ingrian particles ...
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small>
 
 
 
 
 
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small># Adverb inflection
+lyhyt ensimmäinen tavu
 
-Ingrian adjectives compare.
-
-
-
-
-
-
-
-
-
+pitkä ensimmäinen tavu
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Pronoun inflection
-
-Ingrian pronouns inflect in cases.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Adposition tags
-
-Here we just add tags +Po and +Prep
-to the Ingrian pre- and postpositions.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Quantifier inflection
-
-Still undocumented
-
-N-kärpäin (XIII)
-
-
-N-kärpäin (XIII)
-
-
-N-mato (II)
-
-vähä:vähä
-
-
-
-
-
-
-
-
-
-enemmän
-
-kaik:kaik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Verb inflection
-## Irregular verbs
-
- * **LEXICON V-ei ** lists the negative verb, including imperative forms.
-
- * **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
-
- * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
-
-
-oon
-
-
-
-
-
-## Regular verbs
-
- * **LEXICON V-jäävvä ** so far only splits to the next lexicon
-
- * **LEXICON V-jäävvä_01 **. 
-TODO: Document difference between this and previous
-
-
-
-
-
-
-
- * **LEXICON V-käyvvä **  käyvvä:kä
-TODO: Dokument difference between this and previous
-
-
-
-
-
-
-
- * **LEXICON V-tuuvva ** 
-* tuuvva:too
-
-
-
-
-
-
-
- * **LEXICON V-voija  ** voija:voi
-
-
-
-
-
-
- * **LEXICON V-antaa ** redirects to next only antaa:ant
-
- * **LEXICON V-antaa_01 ** 
-
-
-
-
-
- * **LEXICON V-lukkia ** 
-* lukkia:luk
-
-
-
-
-
-
- * **LEXICON V-tiitää **
-* tiitää:tiit
-
- * **LEXICON V-tiitää_01 **
-tiije
-
-tiitämätöin
-tiitää
-
-
-
- * **LEXICON V-näyttää ** näyttää:näytt
-
- * **LEXICON V-näyttää_01 **
-näytetää
-
-näyttännöö
-
-näyttävä
-näyttänt
-näyttämätöin
-näyttää
-näyttämää
-
-
- * **LEXICON V-laatia ** !! laatia:laati
-
-## 3-syllable
-kiirehtiä:kiireh
-
-
- * **LEXICON V-hyväksyä **
-
- * **LEXICON V-kutsua **
-
- * **LEXICON V-kutsua_01 **
-
-
-
-
-
- * **LEXICON V-kirjuttaa **
-
- * **LEXICON V-kirjuttaa_01 **
-
-
-
-
- * **LEXICON V-tulla **
-
- * **LEXICON V-tulla_01 **
-
-
-
-
- * **LEXICON V-ommella **
-
- * **LEXICON V-ommella_01 **
-
-
-
-
-
- * **LEXICON V-nähä **
-
- * **LEXICON V-nähä_01 **
-
-
-
-
- * **LEXICON V-panna **
-
- * **LEXICON V-panna_01 **
-
-
-
-
- * **LEXICON V-sannoa **
-
-
-
-
- * **LEXICON V-painuttaissa **
-
-
-
-
- * **LEXICON V-pittiissä **
-
- * **LEXICON V-pittiissä_01 **
-
-
-
-
- * **LEXICON V-vuhissa_01 **
-
-
-
-
-
-
- * **LEXICON V-laatihussa **
-
-
-
- * **LEXICON V-määrätä ** goes to V-arvata
-
- * **LEXICON V-upota ** goes to V-arvata
-
-
- * **LEXICON V-arvata **
-
-
-
-
- * **LEXICON V-hävitä **
-
-
-
-
- * **LEXICON V-merkitä **
-
- * **LEXICON V-merkitä_01 **
-
-
-
-
-
- * **LEXICON V-ahavojja **
-
-
-## DERIVATION 
-
-* Actor in jA
- * **LEXICON V-actor_jA **
-
-
-
-## PARTICIPLES
-
-
- * **LEXICON V-ActPrsPrc **
- * **LEXICON V-ActPrtPrc_nt **
-
- * **LEXICON V-ActPrtPrc_rt **
-
-
-
-
-## CONJUGATION
-
-### INDICATIVE PRETERITE
-
- * **LEXICON IndPrt ** split 1-2 vs 3
-
- * **LEXICON IndPrt_1-2 **
-
- * **LEXICON IndPrt_3 **
-
- * **LEXICON IND-PRT-SG1 **
-
- * **LEXICON IND-PRT-SG2 **
-
- * **LEXICON IND-PRT-SG3 **
-
- * **LEXICON IND-PRT-PL1 **
-
- * **LEXICON IND-PRT-PL2 **
-
- * **LEXICON IND-PRT-PL3 **
-This is not working 2012-10-30
-
-
-
-
-## CONDITIONAL 
-
- * **LEXICON CondPers **
-
-## POTENTIAL
-
-:n, :s, :l, :r, :n
- * **LEXICON PotPers **
-
-
-
-
- * **LEXICON ImprtPers_k **
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Proper noun inflection
-
-We have a partial program in singular.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small># Ingrian noun inflection
-This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
-
-This file documents the suffixes for noun inflection.
-
-**LEXICON N_YÖ-SG** 
-
-**LEXICON N_YÖ-SG_01** 
-
-
-**LEXICON N_MAA** 
-
-**LEXICON N_MAA_01** 
-
-**LEXICON N_PREESENS**  preesens:preesens
-
-**LEXICON N_PREESENS_01** 
-
-**LEXICON N_GLASNOI** 
-
-**LEXICON N_RISTI** 
-
-**LEXICON N-risti_01** 
-
-**LEXICON N_MATO**  mato (II)
-
-**LEXICON N-mato_01** 
-
-**LEXICON N_KOIVU**  koivu
-
-
-**LEXICON N_OSA**  forma osa (II-b)
-
-**LEXICON N-osa_01** 
-
-**LEXICON N_JOKI**  joki:jok joki (II-c)
-
-**LEXICON N-joki_01** 
-
-**LEXICON N_LUMI**  lumi (II-d)
-
-**LEXICON N-lumi_01** 
-
-
-**LEXICON N_EMOI**  emoi (III)
-
-**LEXICON N-emoi_01** 
-
-**LEXICON N_JALKA**  the stem-final "a" is added here. jalka (IV)
-
-**LEXICON N-jalka_01** 
-
-**LEXICON N_KANA** 
-
-**LEXICON N-kana_01** 
-
-## Three-syllable words
-
-**LEXICON N_MONIKKO** 
-
-**LEXICON N_TYTÄR**  tytär:tyttä
-
-**LEXICON N-tytär_01** 
-
-**LEXICON N_PATSAS**  patsas:patsa
-
-**LEXICON N-patsas_01** 
-
-
-**LEXICON N_LÄHE**  lähe:lähte
-
-**LEXICON N-lähe_01** 
-
-
-
-
-
-**LEXICON N_SLOVARI**  from mato (II-e)
-
-**LEXICON N-slovari_01** 
-
-
-**LEXICON N_NUMERO**  numero:numero
-
-**LEXICON N-numero_01** 
-
-
-**LEXICON N_VOKALA**  the stem-final "a" is added here  vokala (IV-b)
-
-**LEXICON N-vokala_01** 
-
-
-**LEXICON N_HARAKKA**  harakka:harakk
-This should operate using principles of ommeena
-
-**LEXICON N-harakka_01** 
-
-**LEXICON N_OMMEENA**  ommeena:omena
-
-
-**LEXICON N_PUTTEELI**  putteeli:puteli
-
-**LEXICON N-putteeli_01** 
-
-
-**LEXICON N_LEIKKUU**  leikkuu, kiukkaa, lämmää (VI)
-
-**LEXICON N-leikkuu_01** 
-
-**LEXICON N_ASSIA**  assia:assi (VII)
-
-**LEXICON N-assia_01** 
-
-**LEXICON N-assia_01-Sg** 
-
-**LEXICON N_PESÄ**  VCV
-
-**LEXICON N-pesä_01** 
-
-**LEXICON N_TÄHKÄ**  VCCV,  tähkä (VIII)
-
-**LEXICON N-tähkä_01** 
-
-**LEXICON N_TAEHTI**  tähti (IX)
-
-**LEXICON NMN_TAEHTI_01** 
-
-**LEXICON N_VARSI** 
-
-**LEXICON N_VOOSI**  voosi:voo
-
-
-
-**LEXICON N_MEES**  mees:mee (??)
-
-**LEXICON N-mees_01** 
-
-**LEXICON N_VARIS**  varis (XII)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**LEXICON N_KEELI**  keeli (IX-b)
-
-**LEXICON N-keeli_01** 
-
-
-**LEXICON N_SAMMAL** 
-
-**LEXICON N-sammal_01** 
-
-
-
-
-
-
-
-
-
-
-
-
-**LEXICON N_VENÄT**  kevät (XX-a)
-
-**LEXICON N-venät_01** 
-
-**LEXICON N-venät_01-Sg** 
-
-**LEXICON N_PÄIVYT**  päivyt:päivy
-
-**LEXICON N-päivyt_01** 
-
-
-
-## DERIVATION 
-One derivational process only, DER-t0in.
-
-**LEXICON DER-tOin** 
-
-## DECLENSION 
-
-**LEXICON Cases** 
-
-
-**LEXICON lOi-Pl** 
-
-**LEXICON Oblique-Plural_blank** 
-
-**LEXICON Oblique-Plural_sse** 
-
-**LEXICON Oblique-Plural_V** 
-
-**LEXICON Oblique-Plural_hV** 
-
-**LEXICON Oblique-Plural** 
-
-
-**LEXICON Oblique-Plural_less-EssExe** 
-
-**LEXICON Oblique-Singular** 
-
-**LEXICON Oblique-Singular_less-EssExe** 
-
-## PLURAL TAGS 
-Plural tags separated from singular ones.
-
-
-**LEXICON PL-ABE** 
-
-**LEXICON PL-ABL** 
-
-**LEXICON PL-ABL_Px** 
-
-**LEXICON PL-ADE** 
-
-**LEXICON PL-ALL** 
-
-**LEXICON PL-COM** +Dial/Lauk
-
-**LEXICON PL-ELA** 
-
-**LEXICON PL-ESS_Vn** +Dial/Soik
-
-**LEXICON PL-ESS_n** 
-
-**LEXICON PL-ESS_nnA** +Dial/Lauk
-
-**LEXICON PL-EXE** 
-
-**LEXICON PL-GEN** 
-
-**LEXICON PL-ILL_blank** 
-
-**LEXICON PL-ILL_sse** 
-
-**LEXICON PL-ILL_V** 
-
-**LEXICON PL-ILL_hV** 
-
-**LEXICON PL-INE** 
-
-
-**LEXICON PL-NOM** 
-
-**LEXICON PL-PAR_A** 
-
-**LEXICON PL-PAR_A-LCns** 
-
-
-**LEXICON PL-PAR_tA** 
-
-**LEXICON PL-PRL** 
-
-**LEXICON PL-TRA** @
-
-**LEXICON SG-ABE** 
-
-**LEXICON SG-ABL** 
-
-**LEXICON SG-ADE** 
-
-**LEXICON SG-ALL** 
-
-**LEXICON SG-COM** 
-
-**LEXICON SG-ELA** 
-
-**LEXICON SG-ESS_Vn** 
-
-**LEXICON SG-ESS_nnA** 
-
-**LEXICON SG-EXE** 
-
-**LEXICON SG-GEN** 
-
-**LEXICON SG-ILL_sse** 
-
-
-**LEXICON SG-ILL_V** 
-
-**LEXICON SG-ILL_hV** 
-
-**LEXICON SG-INE** 
-
-**LEXICON SG-NOM** 
-
-**LEXICON SG-PAR_A** 
-
-
-**LEXICON SG-PAR_tA** 
-
-**LEXICON SG-TRA** 
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Clitics
-
-Ingrian clitics are stored in the affixes folder.
-We tag question and focus particles.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Adjective inflection
-The INGRIAN language adjectives compare.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adjectives.lexc)</small>Acronyms
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>Acronyms
 Veps acronyms ...
 
 
@@ -1679,17 +880,6 @@ Veps acronyms ...
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
-
-
-
-
-
-lyhyt ensimmäinen tavu
-
-pitkä ensimmäinen tavu
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>
 # Ingrian multichar symbols and *Root* lexicon
 
  Definitions for Multichar_Symbols
@@ -2139,7 +1329,817 @@ AbbrDot
 INTERJ_
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small># Particles inflection
+
+Ingrian particles ...
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Ingrian noun inflection
+This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
+
+This file documents the suffixes for noun inflection.
+
+**LEXICON N_YÖ-SG** 
+
+**LEXICON N_YÖ-SG_01** 
+
+
+**LEXICON N_MAA** 
+
+**LEXICON N_MAA_01** 
+
+**LEXICON N_PREESENS**  preesens:preesens
+
+**LEXICON N_PREESENS_01** 
+
+**LEXICON N_GLASNOI** 
+
+**LEXICON N_RISTI** 
+
+**LEXICON N-risti_01** 
+
+**LEXICON N_MATO**  mato (II)
+
+**LEXICON N-mato_01** 
+
+**LEXICON N_KOIVU**  koivu
+
+
+**LEXICON N_OSA**  forma osa (II-b)
+
+**LEXICON N-osa_01** 
+
+**LEXICON N_JOKI**  joki:jok joki (II-c)
+
+**LEXICON N-joki_01** 
+
+**LEXICON N_LUMI**  lumi (II-d)
+
+**LEXICON N-lumi_01** 
+
+
+**LEXICON N_EMOI**  emoi (III)
+
+**LEXICON N-emoi_01** 
+
+**LEXICON N_JALKA**  the stem-final "a" is added here. jalka (IV)
+
+**LEXICON N-jalka_01** 
+
+**LEXICON N_KANA** 
+
+**LEXICON N-kana_01** 
+
+## Three-syllable words
+
+**LEXICON N_MONIKKO** 
+
+**LEXICON N_TYTÄR**  tytär:tyttä
+
+**LEXICON N-tytär_01** 
+
+**LEXICON N_PATSAS**  patsas:patsa
+
+**LEXICON N-patsas_01** 
+
+
+**LEXICON N_LÄHE**  lähe:lähte
+
+**LEXICON N-lähe_01** 
+
+
+
+
+
+**LEXICON N_SLOVARI**  from mato (II-e)
+
+**LEXICON N-slovari_01** 
+
+
+**LEXICON N_NUMERO**  numero:numero
+
+**LEXICON N-numero_01** 
+
+
+**LEXICON N_VOKALA**  the stem-final "a" is added here  vokala (IV-b)
+
+**LEXICON N-vokala_01** 
+
+
+**LEXICON N_HARAKKA**  harakka:harakk
+This should operate using principles of ommeena
+
+**LEXICON N-harakka_01** 
+
+**LEXICON N_OMMEENA**  ommeena:omena
+
+
+**LEXICON N_PUTTEELI**  putteeli:puteli
+
+**LEXICON N-putteeli_01** 
+
+
+**LEXICON N_LEIKKUU**  leikkuu, kiukkaa, lämmää (VI)
+
+**LEXICON N-leikkuu_01** 
+
+**LEXICON N_ASSIA**  assia:assi (VII)
+
+**LEXICON N-assia_01** 
+
+**LEXICON N-assia_01-Sg** 
+
+**LEXICON N_PESÄ**  VCV
+
+**LEXICON N-pesä_01** 
+
+**LEXICON N_TÄHKÄ**  VCCV,  tähkä (VIII)
+
+**LEXICON N-tähkä_01** 
+
+**LEXICON N_TAEHTI**  tähti (IX)
+
+**LEXICON NMN_TAEHTI_01** 
+
+**LEXICON N_VARSI** 
+
+**LEXICON N_VOOSI**  voosi:voo
+
+
+
+**LEXICON N_MEES**  mees:mee (??)
+
+**LEXICON N-mees_01** 
+
+**LEXICON N_VARIS**  varis (XII)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**LEXICON N_KEELI**  keeli (IX-b)
+
+**LEXICON N-keeli_01** 
+
+
+**LEXICON N_SAMMAL** 
+
+**LEXICON N-sammal_01** 
+
+
+
+
+
+
+
+
+
+
+
+
+**LEXICON N_VENÄT**  kevät (XX-a)
+
+**LEXICON N-venät_01** 
+
+**LEXICON N-venät_01-Sg** 
+
+**LEXICON N_PÄIVYT**  päivyt:päivy
+
+**LEXICON N-päivyt_01** 
+
+
+
+## DERIVATION 
+One derivational process only, DER-t0in.
+
+**LEXICON DER-tOin** 
+
+## DECLENSION 
+
+**LEXICON Cases** 
+
+
+**LEXICON lOi-Pl** 
+
+**LEXICON Oblique-Plural_blank** 
+
+**LEXICON Oblique-Plural_sse** 
+
+**LEXICON Oblique-Plural_V** 
+
+**LEXICON Oblique-Plural_hV** 
+
+**LEXICON Oblique-Plural** 
+
+
+**LEXICON Oblique-Plural_less-EssExe** 
+
+**LEXICON Oblique-Singular** 
+
+**LEXICON Oblique-Singular_less-EssExe** 
+
+## PLURAL TAGS 
+Plural tags separated from singular ones.
+
+
+**LEXICON PL-ABE** 
+
+**LEXICON PL-ABL** 
+
+**LEXICON PL-ABL_Px** 
+
+**LEXICON PL-ADE** 
+
+**LEXICON PL-ALL** 
+
+**LEXICON PL-COM** +Dial/Lauk
+
+**LEXICON PL-ELA** 
+
+**LEXICON PL-ESS_Vn** +Dial/Soik
+
+**LEXICON PL-ESS_n** 
+
+**LEXICON PL-ESS_nnA** +Dial/Lauk
+
+**LEXICON PL-EXE** 
+
+**LEXICON PL-GEN** 
+
+**LEXICON PL-ILL_blank** 
+
+**LEXICON PL-ILL_sse** 
+
+**LEXICON PL-ILL_V** 
+
+**LEXICON PL-ILL_hV** 
+
+**LEXICON PL-INE** 
+
+
+**LEXICON PL-NOM** 
+
+**LEXICON PL-PAR_A** 
+
+**LEXICON PL-PAR_A-LCns** 
+
+
+**LEXICON PL-PAR_tA** 
+
+**LEXICON PL-PRL** 
+
+**LEXICON PL-TRA** @
+
+**LEXICON SG-ABE** 
+
+**LEXICON SG-ABL** 
+
+**LEXICON SG-ADE** 
+
+**LEXICON SG-ALL** 
+
+**LEXICON SG-COM** 
+
+**LEXICON SG-ELA** 
+
+**LEXICON SG-ESS_Vn** 
+
+**LEXICON SG-ESS_nnA** 
+
+**LEXICON SG-EXE** 
+
+**LEXICON SG-GEN** 
+
+**LEXICON SG-ILL_sse** 
+
+
+**LEXICON SG-ILL_V** 
+
+**LEXICON SG-ILL_hV** 
+
+**LEXICON SG-INE** 
+
+**LEXICON SG-NOM** 
+
+**LEXICON SG-PAR_A** 
+
+
+**LEXICON SG-PAR_tA** 
+
+**LEXICON SG-TRA** 
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Adverb inflection
+
+Ingrian adjectives compare.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Quantifier inflection
+
+Still undocumented
+
+N-kärpäin (XIII)
+
+
+N-kärpäin (XIII)
+
+
+N-mato (II)
+
+vähä:vähä
+
+
+
+
+
+
+
+
+
+enemmän
+
+kaik:kaik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Adposition tags
+
+Here we just add tags +Po and +Prep
+to the Ingrian pre- and postpositions.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Adjective inflection
+The INGRIAN language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adjectives.lexc)</small># Pronoun inflection
+
+Ingrian pronouns inflect in cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Clitics
+
+Ingrian clitics are stored in the affixes folder.
+We tag question and focus particles.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Verb inflection
+## Irregular verbs
+
+ * **LEXICON V-ei ** lists the negative verb, including imperative forms.
+
+ * **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
+
+ * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
+
+
+oon
+
+
+
+
+
+## Regular verbs
+
+ * **LEXICON V-jäävvä ** so far only splits to the next lexicon
+
+ * **LEXICON V-jäävvä_01 **. 
+TODO: Document difference between this and previous
+
+
+
+
+
+
+
+ * **LEXICON V-käyvvä **  käyvvä:kä
+TODO: Dokument difference between this and previous
+
+
+
+
+
+
+
+ * **LEXICON V-tuuvva ** 
+* tuuvva:too
+
+
+
+
+
+
+
+ * **LEXICON V-voija  ** voija:voi
+
+
+
+
+
+
+ * **LEXICON V-antaa ** redirects to next only antaa:ant
+
+ * **LEXICON V-antaa_01 ** 
+
+
+
+
+
+ * **LEXICON V-lukkia ** 
+* lukkia:luk
+
+
+
+
+
+
+ * **LEXICON V-tiitää **
+* tiitää:tiit
+
+ * **LEXICON V-tiitää_01 **
+tiije
+
+tiitämätöin
+tiitää
+
+
+
+ * **LEXICON V-näyttää ** näyttää:näytt
+
+ * **LEXICON V-näyttää_01 **
+näytetää
+
+näyttännöö
+
+näyttävä
+näyttänt
+näyttämätöin
+näyttää
+näyttämää
+
+
+ * **LEXICON V-laatia ** !! laatia:laati
+
+## 3-syllable
+kiirehtiä:kiireh
+
+
+ * **LEXICON V-hyväksyä **
+
+ * **LEXICON V-kutsua **
+
+ * **LEXICON V-kutsua_01 **
+
+
+
+
+
+ * **LEXICON V-kirjuttaa **
+
+ * **LEXICON V-kirjuttaa_01 **
+
+
+
+
+ * **LEXICON V-tulla **
+
+ * **LEXICON V-tulla_01 **
+
+
+
+
+ * **LEXICON V-ommella **
+
+ * **LEXICON V-ommella_01 **
+
+
+
+
+
+ * **LEXICON V-nähä **
+
+ * **LEXICON V-nähä_01 **
+
+
+
+
+ * **LEXICON V-panna **
+
+ * **LEXICON V-panna_01 **
+
+
+
+
+ * **LEXICON V-sannoa **
+
+
+
+
+ * **LEXICON V-painuttaissa **
+
+
+
+
+ * **LEXICON V-pittiissä **
+
+ * **LEXICON V-pittiissä_01 **
+
+
+
+
+ * **LEXICON V-vuhissa_01 **
+
+
+
+
+
+
+ * **LEXICON V-laatihussa **
+
+
+
+ * **LEXICON V-määrätä ** goes to V-arvata
+
+ * **LEXICON V-upota ** goes to V-arvata
+
+
+ * **LEXICON V-arvata **
+
+
+
+
+ * **LEXICON V-hävitä **
+
+
+
+
+ * **LEXICON V-merkitä **
+
+ * **LEXICON V-merkitä_01 **
+
+
+
+
+
+ * **LEXICON V-ahavojja **
+
+
+## DERIVATION 
+
+* Actor in jA
+ * **LEXICON V-actor_jA **
+
+
+
+## PARTICIPLES
+
+
+ * **LEXICON V-ActPrsPrc **
+ * **LEXICON V-ActPrtPrc_nt **
+
+ * **LEXICON V-ActPrtPrc_rt **
+
+
+
+
+## CONJUGATION
+
+### INDICATIVE PRETERITE
+
+ * **LEXICON IndPrt ** split 1-2 vs 3
+
+ * **LEXICON IndPrt_1-2 **
+
+ * **LEXICON IndPrt_3 **
+
+ * **LEXICON IND-PRT-SG1 **
+
+ * **LEXICON IND-PRT-SG2 **
+
+ * **LEXICON IND-PRT-SG3 **
+
+ * **LEXICON IND-PRT-PL1 **
+
+ * **LEXICON IND-PRT-PL2 **
+
+ * **LEXICON IND-PRT-PL3 **
+This is not working 2012-10-30
+
+
+
+
+## CONDITIONAL 
+
+ * **LEXICON CondPers **
+
+## POTENTIAL
+
+:n, :s, :l, :r, :n
+ * **LEXICON PotPers **
+
+
+
+
+ * **LEXICON ImprtPers_k **
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Proper noun inflection
+
+We have a partial program in singular.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small>
 
 
 We describe here how abbreviations are in Ingrian are read out, e.g.
