@@ -607,282 +607,9 @@ These were the set types.
 
 * * *
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-izh/blob/main/../src/cg3/functions.cg3)</small>
-# The Ingrian morphophonological/twolc rules file 
-
-This file documents the [phonology.twolc file](http://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc) 
-
-## Alphabet
-
-### The letters
-
- * **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
- * **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
- * **ş ƶ y**
- * **Ş Ƶ Y**
- * **ь** Sьktьvkar
- * **Ь**
-
-### Vowel harmony with "(t)a/ä"
- * **AÄ1:a** realised as a
- * **AÄ1:ä** realised as ä
- * **AÄ1:0** deleted
-
-### Vowel harmony with "loi/löi" also kalatOÖ1in
- * **OÖ1:o**
- * **OÖ1:ö**
-
-### Vowel harmony with "ttu/tty"
- * **UY1:u**
- * **UY1:y**
-
-### this appears in the illative
- * **V1:a**
- * **V1:e**
- * **V1:i**
- * **V1:o**
- * **V1:u**
- * **V1:y**
- * **V1:ä**
- * **V1:ö**
-
-### These appear with the inessive and adessive
- * **V2:a**
- * **V2:e**
- * **V2:i**
- * **V2:o**
- * **V2:u**
- * **V2:y**
- * **V2:ä**
- * **V2:ö** 
-
-### These reduplicate the preceding vowel if it in turn is preceded by a consonant
- * **V3:a**
- * **V3:e**
- * **V3:i**
- * **V3:o**
- * **V3:u**
- * **V3:y**
- * **V3:ä**
- * **V3:ö**
- * **V3:0**
-
-### this k is not effected by gradation
- * **K1:k**
- * **%^NoGrad:0** This will be placed after a stem to break Gradation
-
-### this weakens the stem *ompel* to *ommel*
- * **%^WGStem:0**
-
-### The ti => si
- * **%^TS:0**
-
-### Vowel raising
- * **%^RVws:0**
- * **%-** Hyphen in  constructions 
- * **%>:0**
-#:0 #:0     * hash is Word boundary for both lexicalised and dynamic compounds
- * **Cx** these should probably not be declared
- * **Cy** these should probably not be declared
- * **X** these should probably not be declared
- * **Y** these should probably not be declared
- * **%^LVws:0**
- * **%^LCns:0**
- * **%^WCns:0**
- * **%^AtoO:0**
- * **%^ÄtoÖ:0**
- * **%^OddSyll:0**
- * **%^StretchSyll2:0**
- * **%^SyllBr:0**
- * **%^E1:0**
-
-
-## Sets
-
-
- * **VwsBack = a o u ;**
- * **VwsFront = ä ö y ü ;**
- * **VwsNeutral = e i ь ;**
- * **VwsNonHigh = a o ä ö e ;**
- * **Vws = a o u ä ö y ü e i ь ;**
- * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
- * **Letters = Vws Cns ;**
-
-
-## Definitions
-
-* Front Trigger
-
-
-* Back Trigger 
-
-* Gradation strong to weak
-
-* Short vowel
-
-
-Right context for gradation
-
-
-
-# Rules
-
-
-
-**RULE: StemVowLoss ** 
-
-**RULE: StemALoss ** 
-
-* *osa%>^WCns%>i%>st*
-* *os0000i0st*
-
-**RULE: StemAÄLoss ** 
-
-
-**RULE: StemULoss** 
-
-* *maa%>i%>n*
-* *ma00i0n*
-
-**RULE: i:Zero** 
-
-**RULE: i:j** 
-* *em0o0i%>%^LCnsAÄ1*
-* *emmooj00a*
-
-**RULE: a:e** 
-
-**RULE: ä:e** 
-
-
-**RULE: AÄ1:ä** 
-
-**RULE: AÄ1:a** 
-
-**RULE: OÖ1:ö** 
-
-**RULE: OÖ1:o** 
-
-**RULE: UY1:y** 
-
-**RULE: UY1:u** 
-
-**RULE: V1:aeouüäö** 
-
-**RULE: V1:e** 
-
-**RULE: V1:i** 
-
-**RULE: V2:aeiouüäö** 
-
-
-**RULE: V2:Zero** 
-
-
-This deals with secondary or perhaps pertary vowel lengthening
-**RULE: V3:a** 
-
-**RULE: V3:e** 
-
-**RULE: V3:i** 
-
-**RULE: V3:o** 
-
-**RULE: V3:u** 
-
-**RULE: V3:ä** 
-
-**RULE: V3:ö** 
-
-**RULE: V3:y** 
-
-**RULE: V3:Zero** 
-
-**RULE: V3:Zero** 
-
-
-**RULE: consonant lengthening** 
-**RULE: j lengthening** 
-
-
-
-## Consonant weakening 
-
-
-
-
-**RULE: Ut:vv Uk:vv weakening** 
-
-**RULE: 0:v Lengthening with Ut:vv weakening** 
-
-
-
-
-**RULE: it:j** 
-
-**RULE: st:ss weakening** 
-
-
-**RULE: rt:rr weakening** 
-
-**RULE: lt:ll weakening** 
-
-**RULE: nt:nn weakening** 
-
-p
-
-**RULE: mp:mm weakening** 
-
-**RULE: nk:ng weakening** 
-
-
-**RULE: kToZero** 
-
-**RULE: kToj** 
-
-**RULE: Double stop:weakens tToZero** 
-
-**RULE: p:v** 
-
-**RULE: double pp to p** 
-
-Vowel raising
-**RULE: o:u ö:y in Inf** 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small>
-
-
-
-
-
-lyhyt ensimmäinen tavu
-
-pitkä ensimmäinen tavu
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>Acronyms
-Veps acronyms ...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
 # Ingrian multichar symbols and *Root* lexicon
 
- Definitions for Multichar_Symbols
+Definitions for Multichar_Symbols@CODE@
 
 ## Multichar\_Symbols
 The morphological analyses of wordforms for the Ingrian
@@ -890,55 +617,55 @@ language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
 ### The parts-of-speech tags:
- **+N +A +Adv +V** 
- **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
+**+N +A +Adv +V** 
+**+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
 
 #### The parts of speech subtags
- **+Prop** Types of nouns
- **+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** Types of pronouns
- **+Manner +Spat +Temp** = Types of adverbs
- **+Err/Orth** error forms
- **+Use/-Spell**  do not suggest
- **+Err/OverG** Marks Overgeneration of case formatives, such as, exessive with personal pronouns
- **+Dial/Soik**  Dialects tag. Peculiar to Soikkola
- **+Dial/Lauk**  Dialect tag. Peculiar to Laukaa
+**+Propnouns** Types of nouns
+**+Pers +Dem +Interr +Refl +Recipr +Rel +Indefpronouns** Types of pronouns
+**+Manner +Spat +Tempadverbs** = Types of adverbs
+**+Err/Orthforms** error forms
+**+Use/-Spellsuggest**  do not suggest
+**+Err/OverGpronouns** Marks Overgeneration of case formatives, such as, exessive with personal pronouns
+**+Dial/SoikSoikkola**  Dialects tag. Peculiar to Soikkola
+**+Dial/LaukLaukaa**  Dialect tag. Peculiar to Laukaa
 
 ##### Nominal inflection
- **+Sg +Pl** 
- **+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
- **+Exe +Instr +Com +Ins +Prl** 
- **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** Possessive suffixes
- **+Comp +Superl** comparative tags
+**+Sg +Pl** 
+**+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
+**+Exe +Instr +Com +Ins +Prl** 
+**+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3suffixes** Possessive suffixes
+**+Comp +Superltags** comparative tags
 
 ##### Numerals and other quantifier tags
- **+Attr +Card** 
- **+Ord** ordinal
- **+Univ**  universal quantifier
+**+Attr +Card** 
+**+Ordordinal** ordinal
+**+Univquantifier**  universal quantifier
 
 ##### Verb tags 
- **+Ind +Prs +Prt +Pot +Cond +Imprt**  moods
- **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** Verb person tags
- **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
- **+ActPrsPrc +ActPrtPrc** 
- **+Prc +PrtPrc +Sup +VGen +VAbess** 
- **+PrfPrc**  Which one is needed?
- **+TV +IV**  transitivity:
+**+Ind +Prs +Prt +Pot +Cond +Imprtmoods**  moods
+**+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3tags** Verb person tags
+**+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
+**+ActPrsPrc +ActPrtPrc** 
+**+Prc +PrtPrc +Sup +VGen +VAbess** 
+**+PrfPrcneeded?**  Which one is needed?
+**+TV +IVtransitivity:**  transitivity:
 
 ##### Miscellanious tags
- **+ABBR +ACR** 
- **+Symbol** = independent symbols in the text stream, like £, €, ©
- **+CLB +PUNCT +LEFT +RIGHT**  Special symbols
- **+Multi** Non-dictionary words can be recognised with: Special multiword units 
- **+Guess** Non-dictionary words via regex gring stems (not in use?)
- **+Qst** yes/no question
- **+Foc** focus
- **+Foc/kä** 
- **+Foc/kii** 
- **+Clt/kAA** 
+**+ABBR +ACR** 
+**+Symbol©** = independent symbols in the text stream, like £, €, ©
+**+CLB +PUNCT +LEFT +RIGHTsymbols**  Special symbols
+**+Multi** Non-dictionary words can be recognised with: Special multiword units 
+**+Guessuse?)** Non-dictionary words via regex gring stems (not in use?)
+**+Qstquestion** yes/no question
+**+Focfocus** focus
+**+Foc/kä** 
+**+Foc/kii** 
+**+Clt/kAA** 
 
 ##### Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
+* **»7»**:  Literal »
+* **«7«**:  Literal «
   %[%>%]  - Literal >
   %[%<%]  - Literal <
 
@@ -946,225 +673,225 @@ language are presented in this system in terms of the following symbols.
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
 Borrowed from main/langs/sme/src/morphology/root.lexc
- * **+Sem/Act** Activity
- * **+Sem/Amount** Amount
- * **+Sem/Ani** Animate
- * **+Sem/Aniprod** Animal Product
- * **+Sem/Body** Bodypart
- * **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
- * **+Sem/Build** Building
- * **+Sem/Build-part** Part of Bulding, like the closet
- * **+Sem/Cat** Category
- * **+Sem/Clth** Clothes
- * **+Sem/Clth-jewl** Jewelery
- * **+Sem/Clth-part** part of clothes, boallu, sávdnji...
- * **+Sem/Ctain** Container
- * **+Sem/Ctain-abstr** Abstract container like bank account
- * **+Sem/Ctain-clth**
- * **+Sem/Curr** Currency like dollár, Not Money
- * **+Sem/Dance** Dance
- * **+Sem/Dir** Direction like GPS-kursa
- * **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
- * **+Sem/Drink** Drink
- * **+Sem/Dummytag** Dummytag
- * **+Sem/Edu** Educational event
- * **+Sem/Event** Event
- * **+Sem/Feat** Feature, like Árvu
- * **+Sem/Feat-phys** Physiological feature, ivdni, fárda
- * **+Sem/Feat-psych** Psychological feauture
- * **+Sem/Feat-measr** Psychological feauture
- * **+Sem/Fem** Female name
- * **+Sem/Food** Food
- * **+Sem/Food-med** Medicine
- * **+Sem/Furn** Furniture
- * **+Sem/Game** Game
- * **+Sem/Geom** Geometrical object
- * **+Sem/Group** Animal or Human Group
- * **+Sem/Hum** Human
- * **+Sem/Hum-abstr** Human abstract
- * **+Sem/Ideol** Ideology
- * **+Sem/Lang** Language
- * **+Sem/Mal** Male name
- * **+Sem/Mat** Material for producing things
- * **+Sem/Measr** Measure
- * **+Sem/Money** Has to do with money, like wages, not Curr(ency)
- * **+Sem/Obj** Object
- * **+Sem/Obj-clo** Cloth
- * **+Sem/Obj-cogn** Cloth
- * **+Sem/Obj-el** (Electrical) machine or apparatus
- * **+Sem/Obj-ling** Object with something written on it
- * **+Sem/Obj-rope** flexible ropelike object
- * **+Sem/Obj-surfc** Surface object
- * **+Sem/Org** Organisation
- * **+Sem/Part** Feature, oassi, bealli
- * **+Sem/Perc-cogn** Cognative perception
- * **+Sem/Perc-emo** Emotional perception
- * **+Sem/Perc-phys** Physical perception
- * **+Sem/Perc-psych** Physical perception
- * **+Sem/Plant** Plant
- * **+Sem/Plant-part** Plant part
- * **+Sem/Plc** Place
- * **+Sem/Plc-abstr** Abstract place
- * **+Sem/Plc-elevate** Place
- * **+Sem/Plc-line** Place
- * **+Sem/Plc-water** Place
- * **+Sem/Pos** Position (as in social position job)
- * **+Sem/Process** Process
- * **+Sem/Prod** Product
- * **+Sem/Prod-audio** Audio product
- * **+Sem/Prod-cogn** Cognition product
- * **+Sem/Prod-ling** Linguistic product
- * **+Sem/Prod-vis** Visual product
- * **+Sem/Rel** Relation
- * **+Sem/Route** Name of a Route
- * **+Sem/Rule** Rule or convention
- * **+Sem/Semcon** Semantic concept
- * **+Sem/Sign** Sign (e.g. numbers, punctuation) 
- * **+Sem/Sport** Sport
- * **+Sem/State** 
- * **+Sem/State-sick** Illness
- * **+Sem/Substnc** Substance, like Air and Water
- * **+Sem/Sur** Surname
- * **+Sem/Symbol** Symbol
- * **+Sem/Time** Time
- * **+Sem/Tool** Prototypical tool for repairing things
- * **+Sem/Tool-catch** Tool used for catching (e.g. fish)
- * **+Sem/Tool-clean** Tool used for cleaning
- * **+Sem/Tool-it** Tool used in IT
- * **+Sem/Tool-measr** Tool used for measuring
- * **+Sem/Tool-music** Music instrument
- * **+Sem/Tool-write** Writing tool
- * **+Sem/Txt** Text (girji, lávlla...)
- * **+Sem/Veh** Vehicle
- * **+Sem/Wpn** Weapon
- * **+Sem/Wthr** The Weather or the state of ground
+* **+Sem/ActActivity** Activity
+* **+Sem/AmountAmount** Amount
+* **+Sem/AniAnimate** Animate
+* **+Sem/AniprodProduct** Animal Product
+* **+Sem/BodyBodypart** Bodypart
+* **+Sem/Body-abstrjierbmi** siellu, vuoig?a, jierbmi
+* **+Sem/BuildBuilding** Building
+* **+Sem/Build-partcloset** Part of Bulding, like the closet
+* **+Sem/CatCategory** Category
+* **+Sem/ClthClothes** Clothes
+* **+Sem/Clth-jewlJewelery** Jewelery
+* **+Sem/Clth-partsávdnji...** part of clothes, boallu, sávdnji...
+* **+Sem/CtainContainer** Container
+* **+Sem/Ctain-abstraccount** Abstract container like bank account
+* **+Sem/Ctain-clth**@CODE@****
+* **+Sem/CurrMoney** Currency like dollár, Not Money
+* **+Sem/DanceDance** Dance
+* **+Sem/DirGPS-kursa** Direction like GPS-kursa
+* **+Sem/Domainactions)** Domain like politics, reindeerherding (a system of actions)
+* **+Sem/DrinkDrink** Drink
+* **+Sem/DummytagDummytag** Dummytag
+* **+Sem/Eduevent** Educational event
+* **+Sem/EventEvent** Event
+* **+Sem/FeatÁrvu** Feature, like Árvu
+* **+Sem/Feat-physfárda** Physiological feature, ivdni, fárda
+* **+Sem/Feat-psychfeauture** Psychological feauture
+* **+Sem/Feat-measrfeauture** Psychological feauture
+* **+Sem/Femname** Female name
+* **+Sem/FoodFood** Food
+* **+Sem/Food-medMedicine** Medicine
+* **+Sem/FurnFurniture** Furniture
+* **+Sem/GameGame** Game
+* **+Sem/Geomobject** Geometrical object
+* **+Sem/GroupGroup** Animal or Human Group
+* **+Sem/HumHuman** Human
+* **+Sem/Hum-abstrabstract** Human abstract
+* **+Sem/IdeolIdeology** Ideology
+* **+Sem/LangLanguage** Language
+* **+Sem/Malname** Male name
+* **+Sem/Matthings** Material for producing things
+* **+Sem/MeasrMeasure** Measure
+* **+Sem/MoneyCurr(ency)** Has to do with money, like wages, not Curr(ency)
+* **+Sem/ObjObject** Object
+* **+Sem/Obj-cloCloth** Cloth
+* **+Sem/Obj-cognCloth** Cloth
+* **+Sem/Obj-elapparatus** (Electrical) machine or apparatus
+* **+Sem/Obj-lingit** Object with something written on it
+* **+Sem/Obj-ropeobject** flexible ropelike object
+* **+Sem/Obj-surfcobject** Surface object
+* **+Sem/OrgOrganisation** Organisation
+* **+Sem/Partbealli** Feature, oassi, bealli
+* **+Sem/Perc-cognperception** Cognative perception
+* **+Sem/Perc-emoperception** Emotional perception
+* **+Sem/Perc-physperception** Physical perception
+* **+Sem/Perc-psychperception** Physical perception
+* **+Sem/PlantPlant** Plant
+* **+Sem/Plant-partpart** Plant part
+* **+Sem/PlcPlace** Place
+* **+Sem/Plc-abstrplace** Abstract place
+* **+Sem/Plc-elevatePlace** Place
+* **+Sem/Plc-linePlace** Place
+* **+Sem/Plc-waterPlace** Place
+* **+Sem/Posjob)** Position (as in social position job)
+* **+Sem/ProcessProcess** Process
+* **+Sem/ProdProduct** Product
+* **+Sem/Prod-audioproduct** Audio product
+* **+Sem/Prod-cognproduct** Cognition product
+* **+Sem/Prod-lingproduct** Linguistic product
+* **+Sem/Prod-visproduct** Visual product
+* **+Sem/RelRelation** Relation
+* **+Sem/RouteRoute** Name of a Route
+* **+Sem/Ruleconvention** Rule or convention
+* **+Sem/Semconconcept** Semantic concept
+* **+Sem/Sign** Sign (e.g. numbers, punctuation) 
+* **+Sem/SportSport** Sport
+* **+Sem/State** 
+* **+Sem/State-sickIllness** Illness
+* **+Sem/SubstncWater** Substance, like Air and Water
+* **+Sem/SurSurname** Surname
+* **+Sem/SymbolSymbol** Symbol
+* **+Sem/TimeTime** Time
+* **+Sem/Toolthings** Prototypical tool for repairing things
+* **+Sem/Tool-catchfish)** Tool used for catching (e.g. fish)
+* **+Sem/Tool-cleancleaning** Tool used for cleaning
+* **+Sem/Tool-itIT** Tool used in IT
+* **+Sem/Tool-measrmeasuring** Tool used for measuring
+* **+Sem/Tool-musicinstrument** Music instrument
+* **+Sem/Tool-writetool** Writing tool
+* **+Sem/Txtlávlla...)** Text (girji, lávlla...)
+* **+Sem/VehVehicle** Vehicle
+* **+Sem/WpnWeapon** Weapon
+* **+Sem/Wthrground** The Weather or the state of ground
 
 
 
 ### Multiple Semantic tags:
- * **+Sem/Act_Group** 
- * **+Sem/Act_Plc** 
- * **+Sem/Act_Route** 
- * **+Sem/Amount_Build** 
- * **+Sem/Amount_Semcon** 
- * **+Sem/Ani_Body-abstr_Hum** 
- * **+Sem/Ani_Build** 
- * **+Sem/Ani_Build-part** 
- * **+Sem/Ani_Build_Hum_Txt** 
- * **+Sem/Ani_Group** 
- * **+Sem/Ani_Group_Hum** 
- * **+Sem/Ani_Hum** 
- * **+Sem/Ani_Hum_Plc** 
- * **+Sem/Ani_Hum_Time** 
- * **+Sem/Ani_Plc** 
- * **+Sem/Ani_Plc_Txt** 
- * **+Sem/Ani_Time** 
- * **+Sem/Ani_Veh** 
- * **+Sem/Aniprod_Hum** 
- * **+Sem/Aniprod_Obj-clo** 
- * **+Sem/Aniprod_Perc-phys** 
- * **+Sem/Aniprod_Plc** 
- * **+Sem/Body-abstr_Prod-audio_Semcon** 
- * **+Sem/Body_Body-abstr** 
- * **+Sem/Body_Clth** 
- * **+Sem/Body_Food** 
- * **+Sem/Body_Group_Hum** 
- * **+Sem/Body_Hum** 
- * **+Sem/Body_Mat** 
- * **+Sem/Body_Measr** 
- * **+Sem/Body_Obj_Tool-catch** 
- * **+Sem/Body_Plc** 
- * **+Sem/Body_Time** 
- * **+Sem/Build-part_Plc** 
- * **+Sem/Build_Build-part** 
- * **+Sem/Build_Clth-part** 
- * **+Sem/Build_Edu_Org** 
- * **+Sem/Build_Event_Org** 
- * **+Sem/Build_Org** 
- * **+Sem/Build_Route** 
- * **+Sem/Clth-jewl_Curr** 
- * **+Sem/Clth-jewl_Money** 
- * **+Sem/Clth-jewl_Plant** 
- * **+Sem/Clth_Hum** 
- * **+Sem/Ctain-abstr_Org** 
- * **+Sem/Ctain-clth_Plant** 
- * **+Sem/Ctain-clth_Veh** 
- * **+Sem/Ctain_Feat-phys** 
- * **+Sem/Ctain_Furn** 
- * **+Sem/Ctain_Tool** 
- * **+Sem/Ctain_Tool-measr** 
- * **+Sem/Curr_Org** 
- * **+Sem/Dance_Org** 
- * **+Sem/Dance_Prod-audio** 
- * **+Sem/Domain_Food-med** 
- * **+Sem/Domain_Prod-audio** 
- * **+Sem/Edu_Event** 
- * **+Sem/Edu_Group_Hum** 
- * **+Sem/Edu_Mat** 
- * **+Sem/Edu_Org** 
- * **+Sem/Event_Food** 
- * **+Sem/Event_Hum** 
- * **+Sem/Event_Plc** 
- * **+Sem/Event_Time** 
- * **+Sem/Feat-phys_Tool-write** 
- * **+Sem/Feat-phys_Veh** 
- * **+Sem/Feat-phys_Wthr** 
- * **+Sem/Feat-psych_Hum** 
- * **+Sem/Feat_Plant** 
- * **+Sem/Food_Perc-phys** 
- * **+Sem/Food_Plant** 
- * **+Sem/Game_Obj-play** 
- * **+Sem/Geom_Obj** 
- * **+Sem/Group_Hum** 
- * **+Sem/Group_Hum_Org** 
- * **+Sem/Group_Hum_Plc** 
- * **+Sem/Group_Hum_Prod-vis** 
- * **+Sem/Group_Org** 
- * **+Sem/Group_Sign** 
- * **+Sem/Group_Txt** 
- * **+Sem/Hum_Lang** 
- * **+Sem/Hum_Lang_Plc** 
- * **+Sem/Hum_Lang_Time** 
- * **+Sem/Hum_Obj** 
- * **+Sem/Hum_Org** 
- * **+Sem/Hum_Plant** 
- * **+Sem/Hum_Plc** 
- * **+Sem/Hum_Tool** 
- * **+Sem/Hum_Veh** 
- * **+Sem/Hum_Wthr** 
- * **+Sem/Lang_Tool** 
- * **+Sem/Mat_Plant** 
- * **+Sem/Mat_Txt** 
- * **+Sem/Measr_Time** 
- * **+Sem/Money_Obj** 
- * **+Sem/Money_Txt** 
- * **+Sem/Obj-play** 
- * **+Sem/Obj-play_Sport** 
- * **+Sem/Obj_Semcon** 
- * **+Sem/Clth-jewl_Org** 
- * **+Sem/Org_Rule** 
- * **+Sem/Org_Txt** 
- * **+Sem/Org_Veh** 
- * **+Sem/Part_Prod-cogn** 
- * **+Sem/Perc-emo_Wthr** 
- * **+Sem/Plant_Plant-part** 
- * **+Sem/Plant_Tool** 
- * **+Sem/Plant_Tool-measr** 
- * **+Sem/Plc-abstr_Rel_State** 
- * **+Sem/Plc-abstr_Route** 
- * **+Sem/Plc_Pos** 
- * **+Sem/Plc_Route** 
- * **+Sem/Plc_Substnc** 
- * **+Sem/Plc_Substnc_Wthr** 
- * **+Sem/Plc_Time** 
- * **+Sem/Plc_Tool-catch** 
- * **+Sem/Plc_Wthr** 
- * **+Sem/Prod-audio_Txt** 
- * **+Sem/Prod-cogn_Txt** 
- * **+Sem/Semcon_Txt** 
- * **+Sem/Obj_State** 
- * **+Sem/Substnc_Wthr** 
- * **+Sem/Time_Wthr** 
+* **+Sem/Act_Group** 
+* **+Sem/Act_Plc** 
+* **+Sem/Act_Route** 
+* **+Sem/Amount_Build** 
+* **+Sem/Amount_Semcon** 
+* **+Sem/Ani_Body-abstr_Hum** 
+* **+Sem/Ani_Build** 
+* **+Sem/Ani_Build-part** 
+* **+Sem/Ani_Build_Hum_Txt** 
+* **+Sem/Ani_Group** 
+* **+Sem/Ani_Group_Hum** 
+* **+Sem/Ani_Hum** 
+* **+Sem/Ani_Hum_Plc** 
+* **+Sem/Ani_Hum_Time** 
+* **+Sem/Ani_Plc** 
+* **+Sem/Ani_Plc_Txt** 
+* **+Sem/Ani_Time** 
+* **+Sem/Ani_Veh** 
+* **+Sem/Aniprod_Hum** 
+* **+Sem/Aniprod_Obj-clo** 
+* **+Sem/Aniprod_Perc-phys** 
+* **+Sem/Aniprod_Plc** 
+* **+Sem/Body-abstr_Prod-audio_Semcon** 
+* **+Sem/Body_Body-abstr** 
+* **+Sem/Body_Clth** 
+* **+Sem/Body_Food** 
+* **+Sem/Body_Group_Hum** 
+* **+Sem/Body_Hum** 
+* **+Sem/Body_Mat** 
+* **+Sem/Body_Measr** 
+* **+Sem/Body_Obj_Tool-catch** 
+* **+Sem/Body_Plc** 
+* **+Sem/Body_Time** 
+* **+Sem/Build-part_Plc** 
+* **+Sem/Build_Build-part** 
+* **+Sem/Build_Clth-part** 
+* **+Sem/Build_Edu_Org** 
+* **+Sem/Build_Event_Org** 
+* **+Sem/Build_Org** 
+* **+Sem/Build_Route** 
+* **+Sem/Clth-jewl_Curr** 
+* **+Sem/Clth-jewl_Money** 
+* **+Sem/Clth-jewl_Plant** 
+* **+Sem/Clth_Hum** 
+* **+Sem/Ctain-abstr_Org** 
+* **+Sem/Ctain-clth_Plant** 
+* **+Sem/Ctain-clth_Veh** 
+* **+Sem/Ctain_Feat-phys** 
+* **+Sem/Ctain_Furn** 
+* **+Sem/Ctain_Tool** 
+* **+Sem/Ctain_Tool-measr** 
+* **+Sem/Curr_Org** 
+* **+Sem/Dance_Org** 
+* **+Sem/Dance_Prod-audio** 
+* **+Sem/Domain_Food-med** 
+* **+Sem/Domain_Prod-audio** 
+* **+Sem/Edu_Event** 
+* **+Sem/Edu_Group_Hum** 
+* **+Sem/Edu_Mat** 
+* **+Sem/Edu_Org** 
+* **+Sem/Event_Food** 
+* **+Sem/Event_Hum** 
+* **+Sem/Event_Plc** 
+* **+Sem/Event_Time** 
+* **+Sem/Feat-phys_Tool-write** 
+* **+Sem/Feat-phys_Veh** 
+* **+Sem/Feat-phys_Wthr** 
+* **+Sem/Feat-psych_Hum** 
+* **+Sem/Feat_Plant** 
+* **+Sem/Food_Perc-phys** 
+* **+Sem/Food_Plant** 
+* **+Sem/Game_Obj-play** 
+* **+Sem/Geom_Obj** 
+* **+Sem/Group_Hum** 
+* **+Sem/Group_Hum_Org** 
+* **+Sem/Group_Hum_Plc** 
+* **+Sem/Group_Hum_Prod-vis** 
+* **+Sem/Group_Org** 
+* **+Sem/Group_Sign** 
+* **+Sem/Group_Txt** 
+* **+Sem/Hum_Lang** 
+* **+Sem/Hum_Lang_Plc** 
+* **+Sem/Hum_Lang_Time** 
+* **+Sem/Hum_Obj** 
+* **+Sem/Hum_Org** 
+* **+Sem/Hum_Plant** 
+* **+Sem/Hum_Plc** 
+* **+Sem/Hum_Tool** 
+* **+Sem/Hum_Veh** 
+* **+Sem/Hum_Wthr** 
+* **+Sem/Lang_Tool** 
+* **+Sem/Mat_Plant** 
+* **+Sem/Mat_Txt** 
+* **+Sem/Measr_Time** 
+* **+Sem/Money_Obj** 
+* **+Sem/Money_Txt** 
+* **+Sem/Obj-play** 
+* **+Sem/Obj-play_Sport** 
+* **+Sem/Obj_Semcon** 
+* **+Sem/Clth-jewl_Org** 
+* **+Sem/Org_Rule** 
+* **+Sem/Org_Txt** 
+* **+Sem/Org_Veh** 
+* **+Sem/Part_Prod-cogn** 
+* **+Sem/Perc-emo_Wthr** 
+* **+Sem/Plant_Plant-part** 
+* **+Sem/Plant_Tool** 
+* **+Sem/Plant_Tool-measr** 
+* **+Sem/Plc-abstr_Rel_State** 
+* **+Sem/Plc-abstr_Route** 
+* **+Sem/Plc_Pos** 
+* **+Sem/Plc_Route** 
+* **+Sem/Plc_Substnc** 
+* **+Sem/Plc_Substnc_Wthr** 
+* **+Sem/Plc_Time** 
+* **+Sem/Plc_Tool-catch** 
+* **+Sem/Plc_Wthr** 
+* **+Sem/Prod-audio_Txt** 
+* **+Sem/Prod-cogn_Txt** 
+* **+Sem/Semcon_Txt** 
+* **+Sem/Obj_State** 
+* **+Sem/Substnc_Wthr** 
+* **+Sem/Time_Wthr** 
 
 
 Semantics are classified with
@@ -1174,38 +901,38 @@ Semantics are classified with
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
- **+V→N +V→V +V→A** 
- **+Der/jA** = actor name !!2012-10-30
- **+Der/Adj** = for derivation of adjectives without specification
- **+Der/st** = for derivation of manner adverbs
- **+Der/min** = Deverbal nouns
- **+Der/miin** = Deverbal nouns
- **+Der/tOin** = Deverbal _arvaamaton_ and Denominal adjectives
- **+Der/toist** = ykstoist (11), kakstoist (12)
+**+V→N +V→V +V→A** 
+**+Der/jA!!2012-10-30** = actor name !!2012-10-30
+**+Der/Adjspecification** = for derivation of adjectives without specification
+**+Der/stadverbs** = for derivation of manner adverbs
+**+Der/minnouns** = Deverbal nouns
+**+Der/miinnouns** = Deverbal nouns
+**+Der/tOinadjectives** = Deverbal _arvaamaton_ and Denominal adjectives
+**+Der/toist(12)** = ykstoist (11), kakstoist (12)
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
 ### Archiphonemes
- **{aä} {oö} {uü}** 
- **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
- **%^E1 %^TS** 
- **K1 %^NoGrad**  Nogradation
+**{aä} {oö} {uü}** 
+**%> V1 V2 V3 AÄ1 OÖ1 UY1** 
+**%^E1 %^TS** 
+**K1 %^NoGradNogradation**  Nogradation
 
 
 ### Triggers to control variation
- **{front} {back}** 
- **%^ShVws %^LVws** 
- **%^ShCns %^LCns** 
- **%^WCns %^StrCns** 
- **%^AtoO** 
- **%^ÄtoÖ** 
- **%^OddSyll**  arvata, arvant but arvanneet
- **%^StretchSyll2**  creates ommeena from omena
- **%^SyllBr**  syllable break for venät and lyhyt
- **%^RVws** 
- **%^WGStem**  weak-grade stem for _ompel_ to _ommel_
+**{front} {back}** 
+**%^ShVws %^LVws** 
+**%^ShCns %^LCns** 
+**%^WCns %^StrCns** 
+**%^AtoO** 
+**%^ÄtoÖ** 
+**%^OddSyllarvanneet**  arvata, arvant but arvanneet
+**%^StretchSyll2omena**  creates ommeena from omena
+**%^SyllBrlyhyt**  syllable break for venät and lyhyt
+**%^RVws** 
+**%^WGStem_ommel_**  weak-grade stem for _ompel_ to _ommel_
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -1214,9 +941,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flag | Explanation
 | --- | --- 
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
@@ -1225,14 +952,14 @@ do no harm.
 
 | Flag | Explanation
 | --- | --- 
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -1241,8 +968,8 @@ given the proper use of these flags.
 
 | Flag | Explanation
 | --- | --- 
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
 
 This is to facilitate the 'teens' in "-toist"
 This can also be used as a condition for further combinations
@@ -1251,49 +978,49 @@ e.g. tens and hundreds
 
 | Flag | Explanation
 | --- | --- 
- |  @U.CARD.TOIST@ | 
- |  @R.CARD.TOIST@ | 
- |  @C.CARD@ | 
+|  @U.CARD.TOIST@ | 
+|  @R.CARD.TOIST@ | 
+|  @C.CARD@ | 
 
 Part of speech
 
 | Flag | Explanation
 | --- | --- 
- |  @U.POS.N@ | 
- |  @R.POS.N@ | 
- |  @U.POS.NUM@ | 
- |  @R.POS.NUM@ | 
- |  @C.POS@ | 
+|  @U.POS.N@ | 
+|  @R.POS.N@ | 
+|  @U.POS.NUM@ | 
+|  @R.POS.NUM@ | 
+|  @C.POS@ | 
 
 FLAGS USED WITH COLLECTIVE NOUNS
 
 | Flag | Explanation
 | --- | --- 
- |  @U.DECL-NX.SG@ | unify number
- |  @U.DECL-NX.PL@ | unify number
- |  @R.DECL-NX.PL@ | reset number
- |  @U.DECL-CX.ABE@ | unify case for collective noun
- |  @U.DECL-CX.ABL@ | unify case for collective noun
- |  @U.DECL-CX.ACC@ | unify case for collective noun
- |  @U.DECL-CX.ADE@ | unify case for collective noun
- |  @U.DECL-CX.ALL@ | unify case for collective noun
- |  @U.DECL-CX.COM@ | unify case for collective noun
- |  @U.DECL-CX.ELA@ | unify case for collective noun
- |  @U.DECL-CX.ESS@ | unify case for collective noun
- |  @U.DECL-CX.EXE@ | unify case for collective noun
- |  @U.DECL-CX.GEN@ | unify case for collective noun
- |  @U.DECL-CX.ILL@ | unify case for collective noun
- |  @U.DECL-CX.INE@ | unify case for collective noun
- |  @U.DECL-CX.INS@ | unify case for collective noun
- |  @U.DECL-CX.NOM@ | unify case for collective noun
- |  @U.DECL-CX.PAR@ | unify case for collective noun
- |  @U.DECL-CX.PRL@ | unify case for collective noun
- |  @U.DECL-CX.TRA@ | unify case for collective noun
- |  @U.COMPLETE.YES@ |
- |  @D.COMPLETE.YES@ |
- |  @C.DECL-CX@ | 
- |  @C.DECL-NX@ | 
- |  @C.COMPLETE@ | 
+|  @U.DECL-NX.SG@number | unify number
+|  @U.DECL-NX.PL@number | unify number
+|  @R.DECL-NX.PL@number | reset number
+|  @U.DECL-CX.ABE@noun | unify case for collective noun
+|  @U.DECL-CX.ABL@noun | unify case for collective noun
+|  @U.DECL-CX.ACC@noun | unify case for collective noun
+|  @U.DECL-CX.ADE@noun | unify case for collective noun
+|  @U.DECL-CX.ALL@noun | unify case for collective noun
+|  @U.DECL-CX.COM@noun | unify case for collective noun
+|  @U.DECL-CX.ELA@noun | unify case for collective noun
+|  @U.DECL-CX.ESS@noun | unify case for collective noun
+|  @U.DECL-CX.EXE@noun | unify case for collective noun
+|  @U.DECL-CX.GEN@noun | unify case for collective noun
+|  @U.DECL-CX.ILL@noun | unify case for collective noun
+|  @U.DECL-CX.INE@noun | unify case for collective noun
+|  @U.DECL-CX.INS@noun | unify case for collective noun
+|  @U.DECL-CX.NOM@noun | unify case for collective noun
+|  @U.DECL-CX.PAR@noun | unify case for collective noun
+|  @U.DECL-CX.PRL@noun | unify case for collective noun
+|  @U.DECL-CX.TRA@noun | unify case for collective noun
+|  @U.COMPLETE.YES@| |
+|  @D.COMPLETE.YES@| |
+|  @C.DECL-CX@ | 
+|  @C.DECL-NX@ | 
+|  @C.COMPLETE@ | 
 
 
 ## Root lexicon
@@ -1301,21 +1028,21 @@ FLAGS USED WITH COLLECTIVE NOUNS
 Root
 The word forms  start from the lexeme roots of basic
 word classes, or optionally from prefixes:
- * **A_izh2x ;**
- * **Adp_izh2x ;**
- * **Adv_izh2x ;**
- * **CC_izh2x ;**
- * **CS_izh2x ;**
- * **Interj_izh2x ;**
- * **N_izh2x ;**
- * **Pcle_izh2x ;**
- * **Pron_izh2x ;**
- * **N_Prop_izh2x ;**
- * **Num_izh2x ;**
- * **V_izh2x ;**
- * **Punctuation ;**
- * **Symbols ;**
- * **EXCEPTIONS ;**
+* **A_izh2x ;**@CODE@****
+* **Adp_izh2x ;**@CODE@****
+* **Adv_izh2x ;**@CODE@****
+* **CC_izh2x ;**@CODE@****
+* **CS_izh2x ;**@CODE@****
+* **Interj_izh2x ;**@CODE@****
+* **N_izh2x ;**@CODE@****
+* **Pcle_izh2x ;**@CODE@****
+* **Pron_izh2x ;**@CODE@****
+* **N_Prop_izh2x ;**@CODE@****
+* **Num_izh2x ;**@CODE@****
+* **V_izh2x ;**@CODE@****
+* **Punctuation ;**@CODE@****
+* **Symbols ;**@CODE@****
+* **EXCEPTIONS ;**@CODE@****
 
 
 POS with minimal morphological variation
@@ -1329,7 +1056,27 @@ AbbrDot
 INTERJ_
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small># Particles inflection
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Clitics
+
+Ingrian clitics are stored in the affixes folder.
+We tag question and focus particles.
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Particles inflection
 
 Ingrian particles ...
 
@@ -1338,15 +1085,7 @@ Ingrian particles ...
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small># Ingrian noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small># Ingrian noun inflection
 This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
 
 This file documents the suffixes for noun inflection.
@@ -1659,97 +1398,7 @@ Plural tags separated from singular ones.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Adverb inflection
-
-Ingrian adjectives compare.
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Quantifier inflection
-
-Still undocumented
-
-N-kärpäin (XIII)
-
-
-N-kärpäin (XIII)
-
-
-N-mato (II)
-
-vähä:vähä
-
-
-
-
-
-
-
-
-
-enemmän
-
-kaik:kaik
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Adposition tags
-
-Here we just add tags +Po and +Prep
-to the Ingrian pre- and postpositions.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Adjective inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Adjective inflection
 The INGRIAN language adjectives compare.
 
 
@@ -1835,19 +1484,7 @@ Ingrian pronouns inflect in cases.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Clitics
-
-Ingrian clitics are stored in the affixes folder.
-We tag question and focus particles.
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Verb inflection
 ## Irregular verbs
 
  * **LEXICON V-ei ** lists the negative verb, including imperative forms.
@@ -2110,7 +1747,97 @@ This is not working 2012-10-30
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Proper noun inflection
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small># Quantifier inflection
+
+Still undocumented
+
+N-kärpäin (XIII)
+
+
+N-kärpäin (XIII)
+
+
+N-mato (II)
+
+vähä:vähä
+
+
+
+
+
+
+
+
+
+enemmän
+
+kaik:kaik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Adverb inflection
+
+Ingrian adjectives compare.
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Adposition tags
+
+Here we just add tags +Po and +Prep
+to the Ingrian pre- and postpositions.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Proper noun inflection
 
 We have a partial program in singular.
 
@@ -2140,6 +1867,279 @@ We have a partial program in singular.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+# The Ingrian morphophonological/twolc rules file 
+
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc) 
+
+## Alphabet
+
+### The letters
+
+* **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**@CODE@****
+* **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**@CODE@****
+* **ş ƶ y**@CODE@****
+* **Ş Ƶ Y**@CODE@****
+* **ьSьktьvkar** Sьktьvkar
+* **Ь**@CODE@****
+
+### Vowel harmony with "(t)a/ä"
+* **AÄ1:aa** realised as a
+* **AÄ1:ää** realised as ä
+* **AÄ1:0deleted** deleted
+
+### Vowel harmony with "loi/löi" also kalatOÖ1in
+* **OÖ1:o**@CODE@****
+* **OÖ1:ö**@CODE@****
+
+### Vowel harmony with "ttu/tty"
+* **UY1:u**@CODE@****
+* **UY1:y**@CODE@****
+
+### this appears in the illative
+* **V1:a**@CODE@****
+* **V1:e**@CODE@****
+* **V1:i**@CODE@****
+* **V1:o**@CODE@****
+* **V1:u**@CODE@****
+* **V1:y**@CODE@****
+* **V1:ä**@CODE@****
+* **V1:ö**@CODE@****
+
+### These appear with the inessive and adessive
+* **V2:a**@CODE@****
+* **V2:e**@CODE@****
+* **V2:i**@CODE@****
+* **V2:o**@CODE@****
+* **V2:u**@CODE@****
+* **V2:y**@CODE@****
+* **V2:ä**@CODE@****
+* **V2:ö** 
+
+### These reduplicate the preceding vowel if it in turn is preceded by a consonant
+* **V3:a**@CODE@****
+* **V3:e**@CODE@****
+* **V3:i**@CODE@****
+* **V3:o**@CODE@****
+* **V3:u**@CODE@****
+* **V3:y**@CODE@****
+* **V3:ä**@CODE@****
+* **V3:ö**@CODE@****
+* **V3:0**@CODE@****
+
+### this k is not effected by gradation
+* **K1:k**@CODE@****
+* **%^NoGrad:0Gradation** This will be placed after a stem to break Gradation
+
+### this weakens the stem *ompel* to *ommel*
+* **%^WGStem:0**@CODE@****
+
+### The ti => si
+* **%^TS:0**@CODE@****
+
+### Vowel raising
+* **%^RVws:0**@CODE@****
+* **%-** Hyphen in  constructions 
+* **%>:0**@CODE@****
+#:0compounds #:0    * hash is Word boundary for both lexicalised and dynamic compounds
+* **Cxdeclared** these should probably not be declared
+* **Cydeclared** these should probably not be declared
+* **Xdeclared** these should probably not be declared
+* **Ydeclared** these should probably not be declared
+* **%^LVws:0**@CODE@****
+* **%^LCns:0**@CODE@****
+* **%^WCns:0**@CODE@****
+* **%^AtoO:0**@CODE@****
+* **%^ÄtoÖ:0**@CODE@****
+* **%^OddSyll:0**@CODE@****
+* **%^StretchSyll2:0**@CODE@****
+* **%^SyllBr:0**@CODE@****
+* **%^E1:0**@CODE@****
+
+
+## Sets
+
+
+* **VwsBack = a o u ;**@CODE@****
+* **VwsFront = ä ö y ü ;**@CODE@****
+* **VwsNeutral = e i ь ;**@CODE@****
+* **VwsNonHigh = a o ä ö e ;**@CODE@****
+* **Vws = a o u ä ö y ü e i ь ;**@CODE@****
+* **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**@CODE@****
+* **Letters = Vws Cns ;**@CODE@****
+
+
+## Definitions
+
+* Front Trigger
+
+
+* Back Trigger 
+
+* Gradation strong to weak
+
+* Short vowel
+
+
+Right context for gradation
+
+
+
+# Rules
+
+
+
+**RULE: StemVowLoss ** 
+
+**RULE: StemALoss ** 
+
+* *osa%>^WCns%>i%>st*
+* *os0000i0st*
+
+**RULE: StemAÄLoss ** 
+
+
+**RULE: StemULoss** 
+
+* *maa%>i%>n*
+* *ma00i0n*
+
+**RULE: i:Zero** 
+
+**RULE: i:j** 
+* *em0o0i%>%^LCnsAÄ1*
+* *emmooj00a*
+
+**RULE: a:e** 
+
+**RULE: ä:e** 
+
+
+**RULE: AÄ1:ä** 
+
+**RULE: AÄ1:a** 
+
+**RULE: OÖ1:ö** 
+
+**RULE: OÖ1:o** 
+
+**RULE: UY1:y** 
+
+**RULE: UY1:u** 
+
+**RULE: V1:aeouüäö** 
+
+**RULE: V1:e** 
+
+**RULE: V1:i** 
+
+**RULE: V2:aeiouüäö** 
+
+
+**RULE: V2:Zero** 
+
+
+This deals with secondary or perhaps pertary vowel lengthening
+**RULE: V3:a** 
+
+**RULE: V3:e** 
+
+**RULE: V3:i** 
+
+**RULE: V3:o** 
+
+**RULE: V3:u** 
+
+**RULE: V3:ä** 
+
+**RULE: V3:ö** 
+
+**RULE: V3:y** 
+
+**RULE: V3:Zero** 
+
+**RULE: V3:Zero** 
+
+
+**RULE: consonant lengthening** 
+**RULE: j lengthening** 
+
+
+
+## Consonant weakening 
+
+
+
+
+**RULE: Ut:vv Uk:vv weakening** 
+
+**RULE: 0:v Lengthening with Ut:vv weakening** 
+
+
+
+
+**RULE: it:j** 
+
+**RULE: st:ss weakening** 
+
+
+**RULE: rt:rr weakening** 
+
+**RULE: lt:ll weakening** 
+
+**RULE: nt:nn weakening** 
+
+p
+
+**RULE: mp:mm weakening** 
+
+**RULE: nk:ng weakening** 
+
+
+**RULE: kToZero** 
+
+**RULE: kToj** 
+
+**RULE: Double stop:weakens tToZero** 
+
+**RULE: p:v** 
+
+**RULE: double pp to p** 
+
+Vowel raising
+**RULE: o:u ö:y in Inf** 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small>
+
+
+
+
+
+lyhyt ensimmäinen tavu
+
+pitkä ensimmäinen tavu
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small>Acronyms
+Veps acronyms ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
 
 
 We describe here how abbreviations are in Ingrian are read out, e.g.
