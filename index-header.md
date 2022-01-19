@@ -10,7 +10,7 @@ This page documents the work on the [Ingrian language model](http://github.com/g
 It is in an initial phase, and contains some 3400 words, but
 it is nevertheless in use in an Ingrian dictionary.
 
-* Generation of [paradigms|http://giellatekno.uit.no/cgi/p-izh.fi.html]
+* Generation of [paradigms](http://giellatekno.uit.no/cgi/p-izh.fi.html)
 
 # Project documentation
 
