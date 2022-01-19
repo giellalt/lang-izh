@@ -7,6 +7,11 @@
 
 This page documents the work on the [Ingrian language model](http://github.com/giellalt/lang-izh). 
 
+It is in an initial phase, and contains some 3400 words, but
+it is nevertheless in use in an Ingrian dictionary.
+
+* Generation of [paradigms|http://giellatekno.uit.no/cgi/p-izh.fi.html]
+
 # Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)

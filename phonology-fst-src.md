@@ -7,97 +7,97 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 
 ### The letters
 
-* **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**@CODE@****
-* **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**@CODE@****
-* **ş ƶ y**@CODE@****
-* **Ş Ƶ Y**@CODE@****
-* **ьSьktьvkar** Sьktьvkar
-* **Ь**@CODE@****
+* **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
+* **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
+* **ş ƶ y**
+* **Ş Ƶ Y**
+* **ь** Sьktьvkar
+* **Ь**
 
 ### Vowel harmony with "(t)a/ä"
-* **AÄ1:aa** realised as a
-* **AÄ1:ää** realised as ä
-* **AÄ1:0deleted** deleted
+* **AÄ1:a** realised as a
+* **AÄ1:ä** realised as ä
+* **AÄ1:0** deleted
 
 ### Vowel harmony with "loi/löi" also kalatOÖ1in
-* **OÖ1:o**@CODE@****
-* **OÖ1:ö**@CODE@****
+* **OÖ1:o**
+* **OÖ1:ö**
 
 ### Vowel harmony with "ttu/tty"
-* **UY1:u**@CODE@****
-* **UY1:y**@CODE@****
+* **UY1:u**
+* **UY1:y**
 
 ### this appears in the illative
-* **V1:a**@CODE@****
-* **V1:e**@CODE@****
-* **V1:i**@CODE@****
-* **V1:o**@CODE@****
-* **V1:u**@CODE@****
-* **V1:y**@CODE@****
-* **V1:ä**@CODE@****
-* **V1:ö**@CODE@****
+* **V1:a**
+* **V1:e**
+* **V1:i**
+* **V1:o**
+* **V1:u**
+* **V1:y**
+* **V1:ä**
+* **V1:ö**
 
 ### These appear with the inessive and adessive
-* **V2:a**@CODE@****
-* **V2:e**@CODE@****
-* **V2:i**@CODE@****
-* **V2:o**@CODE@****
-* **V2:u**@CODE@****
-* **V2:y**@CODE@****
-* **V2:ä**@CODE@****
+* **V2:a**
+* **V2:e**
+* **V2:i**
+* **V2:o**
+* **V2:u**
+* **V2:y**
+* **V2:ä**
 * **V2:ö** 
 
 ### These reduplicate the preceding vowel if it in turn is preceded by a consonant
-* **V3:a**@CODE@****
-* **V3:e**@CODE@****
-* **V3:i**@CODE@****
-* **V3:o**@CODE@****
-* **V3:u**@CODE@****
-* **V3:y**@CODE@****
-* **V3:ä**@CODE@****
-* **V3:ö**@CODE@****
-* **V3:0**@CODE@****
+* **V3:a**
+* **V3:e**
+* **V3:i**
+* **V3:o**
+* **V3:u**
+* **V3:y**
+* **V3:ä**
+* **V3:ö**
+* **V3:0**
 
 ### this k is not effected by gradation
-* **K1:k**@CODE@****
-* **%^NoGrad:0Gradation** This will be placed after a stem to break Gradation
+* **K1:k**
+* **%^NoGrad:0** This will be placed after a stem to break Gradation
 
 ### this weakens the stem *ompel* to *ommel*
-* **%^WGStem:0**@CODE@****
+* **%^WGStem:0**
 
 ### The ti => si
-* **%^TS:0**@CODE@****
+* **%^TS:0**
 
 ### Vowel raising
-* **%^RVws:0**@CODE@****
+* **%^RVws:0**
 * **%-** Hyphen in  constructions 
-* **%>:0**@CODE@****
-#:0compounds #:0    * hash is Word boundary for both lexicalised and dynamic compounds
-* **Cxdeclared** these should probably not be declared
-* **Cydeclared** these should probably not be declared
-* **Xdeclared** these should probably not be declared
-* **Ydeclared** these should probably not be declared
-* **%^LVws:0**@CODE@****
-* **%^LCns:0**@CODE@****
-* **%^WCns:0**@CODE@****
-* **%^AtoO:0**@CODE@****
-* **%^ÄtoÖ:0**@CODE@****
-* **%^OddSyll:0**@CODE@****
-* **%^StretchSyll2:0**@CODE@****
-* **%^SyllBr:0**@CODE@****
-* **%^E1:0**@CODE@****
+* **%>:0**
+#:0 #:0    * hash is Word boundary for both lexicalised and dynamic compounds
+* **Cx** these should probably not be declared
+* **Cy** these should probably not be declared
+* **X** these should probably not be declared
+* **Y** these should probably not be declared
+* **%^LVws:0**
+* **%^LCns:0**
+* **%^WCns:0**
+* **%^AtoO:0**
+* **%^ÄtoÖ:0**
+* **%^OddSyll:0**
+* **%^StretchSyll2:0**
+* **%^SyllBr:0**
+* **%^E1:0**
 
 
 ## Sets
 
 
-* **VwsBack = a o u ;**@CODE@****
-* **VwsFront = ä ö y ü ;**@CODE@****
-* **VwsNeutral = e i ь ;**@CODE@****
-* **VwsNonHigh = a o ä ö e ;**@CODE@****
-* **Vws = a o u ä ö y ü e i ь ;**@CODE@****
-* **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**@CODE@****
-* **Letters = Vws Cns ;**@CODE@****
+* **VwsBack = a o u ;**
+* **VwsFront = ä ö y ü ;**
+* **VwsNeutral = e i ь ;**
+* **VwsNonHigh = a o ä ö e ;**
+* **Vws = a o u ä ö y ü e i ь ;**
+* **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
+* **Letters = Vws Cns ;**
 
 
 ## Definitions

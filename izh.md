@@ -609,7 +609,7 @@ These were the set types.
 <small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-izh/blob/main/../src/cg3/functions.cg3)</small>
 # Ingrian multichar symbols and *Root* lexicon
 
-Definitions for Multichar_Symbols@CODE@
+Definitions for Multichar_Symbols
 
 ## Multichar\_Symbols
 The morphological analyses of wordforms for the Ingrian
@@ -621,150 +621,150 @@ language are presented in this system in terms of the following symbols.
 **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
 
 #### The parts of speech subtags
-**+Propnouns** Types of nouns
-**+Pers +Dem +Interr +Refl +Recipr +Rel +Indefpronouns** Types of pronouns
-**+Manner +Spat +Tempadverbs** = Types of adverbs
-**+Err/Orthforms** error forms
-**+Use/-Spellsuggest**  do not suggest
-**+Err/OverGpronouns** Marks Overgeneration of case formatives, such as, exessive with personal pronouns
-**+Dial/SoikSoikkola**  Dialects tag. Peculiar to Soikkola
-**+Dial/LaukLaukaa**  Dialect tag. Peculiar to Laukaa
+**+Prop** Types of nouns
+**+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** Types of pronouns
+**+Manner +Spat +Temp** = Types of adverbs
+**+Err/Orth** error forms
+**+Use/-Spell**  do not suggest
+**+Err/OverG** Marks Overgeneration of case formatives, such as, exessive with personal pronouns
+**+Dial/Soik**  Dialects tag. Peculiar to Soikkola
+**+Dial/Lauk**  Dialect tag. Peculiar to Laukaa
 
 ##### Nominal inflection
 **+Sg +Pl** 
 **+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
 **+Exe +Instr +Com +Ins +Prl** 
-**+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3suffixes** Possessive suffixes
-**+Comp +Superltags** comparative tags
+**+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** Possessive suffixes
+**+Comp +Superl** comparative tags
 
 ##### Numerals and other quantifier tags
 **+Attr +Card** 
-**+Ordordinal** ordinal
-**+Univquantifier**  universal quantifier
+**+Ord** ordinal
+**+Univ**  universal quantifier
 
 ##### Verb tags 
-**+Ind +Prs +Prt +Pot +Cond +Imprtmoods**  moods
-**+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3tags** Verb person tags
+**+Ind +Prs +Prt +Pot +Cond +Imprt**  moods
+**+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** Verb person tags
 **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
 **+ActPrsPrc +ActPrtPrc** 
 **+Prc +PrtPrc +Sup +VGen +VAbess** 
-**+PrfPrcneeded?**  Which one is needed?
-**+TV +IVtransitivity:**  transitivity:
+**+PrfPrc**  Which one is needed?
+**+TV +IV**  transitivity:
 
 ##### Miscellanious tags
 **+ABBR +ACR** 
-**+Symbol©** = independent symbols in the text stream, like £, €, ©
-**+CLB +PUNCT +LEFT +RIGHTsymbols**  Special symbols
+**+Symbol** = independent symbols in the text stream, like £, €, ©
+**+CLB +PUNCT +LEFT +RIGHT**  Special symbols
 **+Multi** Non-dictionary words can be recognised with: Special multiword units 
-**+Guessuse?)** Non-dictionary words via regex gring stems (not in use?)
-**+Qstquestion** yes/no question
-**+Focfocus** focus
+**+Guess** Non-dictionary words via regex gring stems (not in use?)
+**+Qst** yes/no question
+**+Foc** focus
 **+Foc/kä** 
 **+Foc/kii** 
 **+Clt/kAA** 
 
 ##### Symbols that need to be escaped on the lower side (towards twolc):
-* **»7»**:  Literal »
-* **«7«**:  Literal «
-  %[%>%]  - Literal >
-  %[%<%]  - Literal <
+* **»7**:  Literal »
+* **«7**:  Literal «
+ %[%>%]  - Literal >
+ %[%<%]  - Literal <
 
 ### Semantic tags
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
 Borrowed from main/langs/sme/src/morphology/root.lexc
-* **+Sem/ActActivity** Activity
-* **+Sem/AmountAmount** Amount
-* **+Sem/AniAnimate** Animate
-* **+Sem/AniprodProduct** Animal Product
-* **+Sem/BodyBodypart** Bodypart
-* **+Sem/Body-abstrjierbmi** siellu, vuoig?a, jierbmi
-* **+Sem/BuildBuilding** Building
-* **+Sem/Build-partcloset** Part of Bulding, like the closet
-* **+Sem/CatCategory** Category
-* **+Sem/ClthClothes** Clothes
-* **+Sem/Clth-jewlJewelery** Jewelery
-* **+Sem/Clth-partsávdnji...** part of clothes, boallu, sávdnji...
-* **+Sem/CtainContainer** Container
-* **+Sem/Ctain-abstraccount** Abstract container like bank account
-* **+Sem/Ctain-clth**@CODE@****
-* **+Sem/CurrMoney** Currency like dollár, Not Money
-* **+Sem/DanceDance** Dance
-* **+Sem/DirGPS-kursa** Direction like GPS-kursa
-* **+Sem/Domainactions)** Domain like politics, reindeerherding (a system of actions)
-* **+Sem/DrinkDrink** Drink
-* **+Sem/DummytagDummytag** Dummytag
-* **+Sem/Eduevent** Educational event
-* **+Sem/EventEvent** Event
-* **+Sem/FeatÁrvu** Feature, like Árvu
-* **+Sem/Feat-physfárda** Physiological feature, ivdni, fárda
-* **+Sem/Feat-psychfeauture** Psychological feauture
-* **+Sem/Feat-measrfeauture** Psychological feauture
-* **+Sem/Femname** Female name
-* **+Sem/FoodFood** Food
-* **+Sem/Food-medMedicine** Medicine
-* **+Sem/FurnFurniture** Furniture
-* **+Sem/GameGame** Game
-* **+Sem/Geomobject** Geometrical object
-* **+Sem/GroupGroup** Animal or Human Group
-* **+Sem/HumHuman** Human
-* **+Sem/Hum-abstrabstract** Human abstract
-* **+Sem/IdeolIdeology** Ideology
-* **+Sem/LangLanguage** Language
-* **+Sem/Malname** Male name
-* **+Sem/Matthings** Material for producing things
-* **+Sem/MeasrMeasure** Measure
-* **+Sem/MoneyCurr(ency)** Has to do with money, like wages, not Curr(ency)
-* **+Sem/ObjObject** Object
-* **+Sem/Obj-cloCloth** Cloth
-* **+Sem/Obj-cognCloth** Cloth
-* **+Sem/Obj-elapparatus** (Electrical) machine or apparatus
-* **+Sem/Obj-lingit** Object with something written on it
-* **+Sem/Obj-ropeobject** flexible ropelike object
-* **+Sem/Obj-surfcobject** Surface object
-* **+Sem/OrgOrganisation** Organisation
-* **+Sem/Partbealli** Feature, oassi, bealli
-* **+Sem/Perc-cognperception** Cognative perception
-* **+Sem/Perc-emoperception** Emotional perception
-* **+Sem/Perc-physperception** Physical perception
-* **+Sem/Perc-psychperception** Physical perception
-* **+Sem/PlantPlant** Plant
-* **+Sem/Plant-partpart** Plant part
-* **+Sem/PlcPlace** Place
-* **+Sem/Plc-abstrplace** Abstract place
-* **+Sem/Plc-elevatePlace** Place
-* **+Sem/Plc-linePlace** Place
-* **+Sem/Plc-waterPlace** Place
-* **+Sem/Posjob)** Position (as in social position job)
-* **+Sem/ProcessProcess** Process
-* **+Sem/ProdProduct** Product
-* **+Sem/Prod-audioproduct** Audio product
-* **+Sem/Prod-cognproduct** Cognition product
-* **+Sem/Prod-lingproduct** Linguistic product
-* **+Sem/Prod-visproduct** Visual product
-* **+Sem/RelRelation** Relation
-* **+Sem/RouteRoute** Name of a Route
-* **+Sem/Ruleconvention** Rule or convention
-* **+Sem/Semconconcept** Semantic concept
+* **+Sem/Act** Activity
+* **+Sem/Amount** Amount
+* **+Sem/Ani** Animate
+* **+Sem/Aniprod** Animal Product
+* **+Sem/Body** Bodypart
+* **+Sem/Body-abstr** siellu, vuoig?a, jierbmi
+* **+Sem/Build** Building
+* **+Sem/Build-part** Part of Bulding, like the closet
+* **+Sem/Cat** Category
+* **+Sem/Clth** Clothes
+* **+Sem/Clth-jewl** Jewelery
+* **+Sem/Clth-part** part of clothes, boallu, sávdnji...
+* **+Sem/Ctain** Container
+* **+Sem/Ctain-abstr** Abstract container like bank account
+* **+Sem/Ctain-clth**
+* **+Sem/Curr** Currency like dollár, Not Money
+* **+Sem/Dance** Dance
+* **+Sem/Dir** Direction like GPS-kursa
+* **+Sem/Domain** Domain like politics, reindeerherding (a system of actions)
+* **+Sem/Drink** Drink
+* **+Sem/Dummytag** Dummytag
+* **+Sem/Edu** Educational event
+* **+Sem/Event** Event
+* **+Sem/Feat** Feature, like Árvu
+* **+Sem/Feat-phys** Physiological feature, ivdni, fárda
+* **+Sem/Feat-psych** Psychological feauture
+* **+Sem/Feat-measr** Psychological feauture
+* **+Sem/Fem** Female name
+* **+Sem/Food** Food
+* **+Sem/Food-med** Medicine
+* **+Sem/Furn** Furniture
+* **+Sem/Game** Game
+* **+Sem/Geom** Geometrical object
+* **+Sem/Group** Animal or Human Group
+* **+Sem/Hum** Human
+* **+Sem/Hum-abstr** Human abstract
+* **+Sem/Ideol** Ideology
+* **+Sem/Lang** Language
+* **+Sem/Mal** Male name
+* **+Sem/Mat** Material for producing things
+* **+Sem/Measr** Measure
+* **+Sem/Money** Has to do with money, like wages, not Curr(ency)
+* **+Sem/Obj** Object
+* **+Sem/Obj-clo** Cloth
+* **+Sem/Obj-cogn** Cloth
+* **+Sem/Obj-el** (Electrical) machine or apparatus
+* **+Sem/Obj-ling** Object with something written on it
+* **+Sem/Obj-rope** flexible ropelike object
+* **+Sem/Obj-surfc** Surface object
+* **+Sem/Org** Organisation
+* **+Sem/Part** Feature, oassi, bealli
+* **+Sem/Perc-cogn** Cognative perception
+* **+Sem/Perc-emo** Emotional perception
+* **+Sem/Perc-phys** Physical perception
+* **+Sem/Perc-psych** Physical perception
+* **+Sem/Plant** Plant
+* **+Sem/Plant-part** Plant part
+* **+Sem/Plc** Place
+* **+Sem/Plc-abstr** Abstract place
+* **+Sem/Plc-elevate** Place
+* **+Sem/Plc-line** Place
+* **+Sem/Plc-water** Place
+* **+Sem/Pos** Position (as in social position job)
+* **+Sem/Process** Process
+* **+Sem/Prod** Product
+* **+Sem/Prod-audio** Audio product
+* **+Sem/Prod-cogn** Cognition product
+* **+Sem/Prod-ling** Linguistic product
+* **+Sem/Prod-vis** Visual product
+* **+Sem/Rel** Relation
+* **+Sem/Route** Name of a Route
+* **+Sem/Rule** Rule or convention
+* **+Sem/Semcon** Semantic concept
 * **+Sem/Sign** Sign (e.g. numbers, punctuation) 
-* **+Sem/SportSport** Sport
+* **+Sem/Sport** Sport
 * **+Sem/State** 
-* **+Sem/State-sickIllness** Illness
-* **+Sem/SubstncWater** Substance, like Air and Water
-* **+Sem/SurSurname** Surname
-* **+Sem/SymbolSymbol** Symbol
-* **+Sem/TimeTime** Time
-* **+Sem/Toolthings** Prototypical tool for repairing things
-* **+Sem/Tool-catchfish)** Tool used for catching (e.g. fish)
-* **+Sem/Tool-cleancleaning** Tool used for cleaning
-* **+Sem/Tool-itIT** Tool used in IT
-* **+Sem/Tool-measrmeasuring** Tool used for measuring
-* **+Sem/Tool-musicinstrument** Music instrument
-* **+Sem/Tool-writetool** Writing tool
-* **+Sem/Txtlávlla...)** Text (girji, lávlla...)
-* **+Sem/VehVehicle** Vehicle
-* **+Sem/WpnWeapon** Weapon
-* **+Sem/Wthrground** The Weather or the state of ground
+* **+Sem/State-sick** Illness
+* **+Sem/Substnc** Substance, like Air and Water
+* **+Sem/Sur** Surname
+* **+Sem/Symbol** Symbol
+* **+Sem/Time** Time
+* **+Sem/Tool** Prototypical tool for repairing things
+* **+Sem/Tool-catch** Tool used for catching (e.g. fish)
+* **+Sem/Tool-clean** Tool used for cleaning
+* **+Sem/Tool-it** Tool used in IT
+* **+Sem/Tool-measr** Tool used for measuring
+* **+Sem/Tool-music** Music instrument
+* **+Sem/Tool-write** Writing tool
+* **+Sem/Txt** Text (girji, lávlla...)
+* **+Sem/Veh** Vehicle
+* **+Sem/Wpn** Weapon
+* **+Sem/Wthr** The Weather or the state of ground
 
 
 
@@ -902,13 +902,13 @@ Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
 **+V→N +V→V +V→A** 
-**+Der/jA!!2012-10-30** = actor name !!2012-10-30
-**+Der/Adjspecification** = for derivation of adjectives without specification
-**+Der/stadverbs** = for derivation of manner adverbs
-**+Der/minnouns** = Deverbal nouns
-**+Der/miinnouns** = Deverbal nouns
-**+Der/tOinadjectives** = Deverbal _arvaamaton_ and Denominal adjectives
-**+Der/toist(12)** = ykstoist (11), kakstoist (12)
+**+Der/jA** = actor name !!2012-10-30
+**+Der/Adj** = for derivation of adjectives without specification
+**+Der/st** = for derivation of manner adverbs
+**+Der/min** = Deverbal nouns
+**+Der/miin** = Deverbal nouns
+**+Der/tOin** = Deverbal _arvaamaton_ and Denominal adjectives
+**+Der/toist** = ykstoist (11), kakstoist (12)
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -918,7 +918,7 @@ symbols in the lexicon files:
 **{aä} {oö} {uü}** 
 **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
 **%^E1 %^TS** 
-**K1 %^NoGradNogradation**  Nogradation
+**K1 %^NoGrad**  Nogradation
 
 
 ### Triggers to control variation
@@ -928,11 +928,11 @@ symbols in the lexicon files:
 **%^WCns %^StrCns** 
 **%^AtoO** 
 **%^ÄtoÖ** 
-**%^OddSyllarvanneet**  arvata, arvant but arvanneet
-**%^StretchSyll2omena**  creates ommeena from omena
-**%^SyllBrlyhyt**  syllable break for venät and lyhyt
+**%^OddSyll**  arvata, arvant but arvanneet
+**%^StretchSyll2**  creates ommeena from omena
+**%^SyllBr**  syllable break for venät and lyhyt
 **%^RVws** 
-**%^WGStem_ommel_**  weak-grade stem for _ompel_ to _ommel_
+**%^WGStem**  weak-grade stem for _ompel_ to _ommel_
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -941,9 +941,9 @@ with verbs if the verb is further derived into a noun again:
 
 | Flag | Explanation
 | --- | --- 
-|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
-|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
@@ -952,14 +952,14 @@ do no harm.
 
 | Flag | Explanation
 | --- | --- 
-|  @P.CmpFrst.FALSE@first | Require that words tagged as such only appear first
-|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
-|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
-|  @D.CmpLast.TRUE@R | Block such words from entering R
-|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
-|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
-|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
-|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
 
 Use the following flag diacritics to control downcasing of derived proper
 nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
@@ -968,8 +968,8 @@ given the proper use of these flags.
 
 | Flag | Explanation
 | --- | --- 
-|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
-|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
 This is to facilitate the 'teens' in "-toist"
 This can also be used as a condition for further combinations
@@ -996,28 +996,28 @@ FLAGS USED WITH COLLECTIVE NOUNS
 
 | Flag | Explanation
 | --- | --- 
-|  @U.DECL-NX.SG@number | unify number
-|  @U.DECL-NX.PL@number | unify number
-|  @R.DECL-NX.PL@number | reset number
-|  @U.DECL-CX.ABE@noun | unify case for collective noun
-|  @U.DECL-CX.ABL@noun | unify case for collective noun
-|  @U.DECL-CX.ACC@noun | unify case for collective noun
-|  @U.DECL-CX.ADE@noun | unify case for collective noun
-|  @U.DECL-CX.ALL@noun | unify case for collective noun
-|  @U.DECL-CX.COM@noun | unify case for collective noun
-|  @U.DECL-CX.ELA@noun | unify case for collective noun
-|  @U.DECL-CX.ESS@noun | unify case for collective noun
-|  @U.DECL-CX.EXE@noun | unify case for collective noun
-|  @U.DECL-CX.GEN@noun | unify case for collective noun
-|  @U.DECL-CX.ILL@noun | unify case for collective noun
-|  @U.DECL-CX.INE@noun | unify case for collective noun
-|  @U.DECL-CX.INS@noun | unify case for collective noun
-|  @U.DECL-CX.NOM@noun | unify case for collective noun
-|  @U.DECL-CX.PAR@noun | unify case for collective noun
-|  @U.DECL-CX.PRL@noun | unify case for collective noun
-|  @U.DECL-CX.TRA@noun | unify case for collective noun
-|  @U.COMPLETE.YES@| |
-|  @D.COMPLETE.YES@| |
+|  @U.DECL-NX.SG@ | unify number
+|  @U.DECL-NX.PL@ | unify number
+|  @R.DECL-NX.PL@ | reset number
+|  @U.DECL-CX.ABE@ | unify case for collective noun
+|  @U.DECL-CX.ABL@ | unify case for collective noun
+|  @U.DECL-CX.ACC@ | unify case for collective noun
+|  @U.DECL-CX.ADE@ | unify case for collective noun
+|  @U.DECL-CX.ALL@ | unify case for collective noun
+|  @U.DECL-CX.COM@ | unify case for collective noun
+|  @U.DECL-CX.ELA@ | unify case for collective noun
+|  @U.DECL-CX.ESS@ | unify case for collective noun
+|  @U.DECL-CX.EXE@ | unify case for collective noun
+|  @U.DECL-CX.GEN@ | unify case for collective noun
+|  @U.DECL-CX.ILL@ | unify case for collective noun
+|  @U.DECL-CX.INE@ | unify case for collective noun
+|  @U.DECL-CX.INS@ | unify case for collective noun
+|  @U.DECL-CX.NOM@ | unify case for collective noun
+|  @U.DECL-CX.PAR@ | unify case for collective noun
+|  @U.DECL-CX.PRL@ | unify case for collective noun
+|  @U.DECL-CX.TRA@ | unify case for collective noun
+|  @U.COMPLETE.YES@ |
+|  @D.COMPLETE.YES@ |
 |  @C.DECL-CX@ | 
 |  @C.DECL-NX@ | 
 |  @C.COMPLETE@ | 
@@ -1028,21 +1028,21 @@ FLAGS USED WITH COLLECTIVE NOUNS
 Root
 The word forms  start from the lexeme roots of basic
 word classes, or optionally from prefixes:
-* **A_izh2x ;**@CODE@****
-* **Adp_izh2x ;**@CODE@****
-* **Adv_izh2x ;**@CODE@****
-* **CC_izh2x ;**@CODE@****
-* **CS_izh2x ;**@CODE@****
-* **Interj_izh2x ;**@CODE@****
-* **N_izh2x ;**@CODE@****
-* **Pcle_izh2x ;**@CODE@****
-* **Pron_izh2x ;**@CODE@****
-* **N_Prop_izh2x ;**@CODE@****
-* **Num_izh2x ;**@CODE@****
-* **V_izh2x ;**@CODE@****
-* **Punctuation ;**@CODE@****
-* **Symbols ;**@CODE@****
-* **EXCEPTIONS ;**@CODE@****
+* **A_izh2x ;**
+* **Adp_izh2x ;**
+* **Adv_izh2x ;**
+* **CC_izh2x ;**
+* **CS_izh2x ;**
+* **Interj_izh2x ;**
+* **N_izh2x ;**
+* **Pcle_izh2x ;**
+* **Pron_izh2x ;**
+* **N_Prop_izh2x ;**
+* **Num_izh2x ;**
+* **V_izh2x ;**
+* **Punctuation ;**
+* **Symbols ;**
+* **EXCEPTIONS ;**
 
 
 POS with minimal morphological variation
@@ -1487,11 +1487,11 @@ Ingrian pronouns inflect in cases.
 <small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Verb inflection
 ## Irregular verbs
 
- * **LEXICON V-ei ** lists the negative verb, including imperative forms.
+* **LEXICON V-ei ** lists the negative verb, including imperative forms.
 
- * **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
+* **LEXICON K_V-neg ** gives the focus particle for +Neg, and directs to K_V.
 
- * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
+* **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
 
 
 oon
@@ -1502,9 +1502,9 @@ oon
 
 ## Regular verbs
 
- * **LEXICON V-jäävvä ** so far only splits to the next lexicon
+* **LEXICON V-jäävvä ** so far only splits to the next lexicon
 
- * **LEXICON V-jäävvä_01 **. 
+* **LEXICON V-jäävvä_01 **. 
 TODO: Document difference between this and previous
 
 
@@ -1513,7 +1513,7 @@ TODO: Document difference between this and previous
 
 
 
- * **LEXICON V-käyvvä **  käyvvä:kä
+* **LEXICON V-käyvvä **  käyvvä:kä
 TODO: Dokument difference between this and previous
 
 
@@ -1522,7 +1522,7 @@ TODO: Dokument difference between this and previous
 
 
 
- * **LEXICON V-tuuvva ** 
+* **LEXICON V-tuuvva ** 
 * tuuvva:too
 
 
@@ -1531,22 +1531,22 @@ TODO: Dokument difference between this and previous
 
 
 
- * **LEXICON V-voija  ** voija:voi
+* **LEXICON V-voija  ** voija:voi
 
 
 
 
 
 
- * **LEXICON V-antaa ** redirects to next only antaa:ant
+* **LEXICON V-antaa ** redirects to next only antaa:ant
 
- * **LEXICON V-antaa_01 ** 
-
-
+* **LEXICON V-antaa_01 ** 
 
 
 
- * **LEXICON V-lukkia ** 
+
+
+* **LEXICON V-lukkia ** 
 * lukkia:luk
 
 
@@ -1554,10 +1554,10 @@ TODO: Dokument difference between this and previous
 
 
 
- * **LEXICON V-tiitää **
+* **LEXICON V-tiitää **
 * tiitää:tiit
 
- * **LEXICON V-tiitää_01 **
+* **LEXICON V-tiitää_01 **
 tiije
 
 tiitämätöin
@@ -1565,9 +1565,9 @@ tiitää
 
 
 
- * **LEXICON V-näyttää ** näyttää:näytt
+* **LEXICON V-näyttää ** näyttää:näytt
 
- * **LEXICON V-näyttää_01 **
+* **LEXICON V-näyttää_01 **
 näytetää
 
 näyttännöö
@@ -1579,126 +1579,126 @@ näyttää
 näyttämää
 
 
- * **LEXICON V-laatia ** !! laatia:laati
+* **LEXICON V-laatia ** !! laatia:laati
 
 ## 3-syllable
 kiirehtiä:kiireh
 
 
- * **LEXICON V-hyväksyä **
+* **LEXICON V-hyväksyä **
 
- * **LEXICON V-kutsua **
+* **LEXICON V-kutsua **
 
- * **LEXICON V-kutsua_01 **
+* **LEXICON V-kutsua_01 **
 
 
 
 
 
- * **LEXICON V-kirjuttaa **
+* **LEXICON V-kirjuttaa **
 
- * **LEXICON V-kirjuttaa_01 **
+* **LEXICON V-kirjuttaa_01 **
 
 
 
 
- * **LEXICON V-tulla **
+* **LEXICON V-tulla **
 
- * **LEXICON V-tulla_01 **
+* **LEXICON V-tulla_01 **
 
 
 
 
- * **LEXICON V-ommella **
+* **LEXICON V-ommella **
 
- * **LEXICON V-ommella_01 **
+* **LEXICON V-ommella_01 **
 
 
 
 
 
- * **LEXICON V-nähä **
+* **LEXICON V-nähä **
 
- * **LEXICON V-nähä_01 **
+* **LEXICON V-nähä_01 **
 
 
 
 
- * **LEXICON V-panna **
+* **LEXICON V-panna **
 
- * **LEXICON V-panna_01 **
+* **LEXICON V-panna_01 **
 
 
 
 
- * **LEXICON V-sannoa **
+* **LEXICON V-sannoa **
 
 
 
 
- * **LEXICON V-painuttaissa **
+* **LEXICON V-painuttaissa **
 
 
 
 
- * **LEXICON V-pittiissä **
+* **LEXICON V-pittiissä **
 
- * **LEXICON V-pittiissä_01 **
+* **LEXICON V-pittiissä_01 **
 
 
 
 
- * **LEXICON V-vuhissa_01 **
+* **LEXICON V-vuhissa_01 **
 
 
 
 
 
 
- * **LEXICON V-laatihussa **
+* **LEXICON V-laatihussa **
 
 
 
- * **LEXICON V-määrätä ** goes to V-arvata
+* **LEXICON V-määrätä ** goes to V-arvata
 
- * **LEXICON V-upota ** goes to V-arvata
+* **LEXICON V-upota ** goes to V-arvata
 
 
- * **LEXICON V-arvata **
+* **LEXICON V-arvata **
 
 
 
 
- * **LEXICON V-hävitä **
+* **LEXICON V-hävitä **
 
 
 
 
- * **LEXICON V-merkitä **
+* **LEXICON V-merkitä **
 
- * **LEXICON V-merkitä_01 **
+* **LEXICON V-merkitä_01 **
 
 
 
 
 
- * **LEXICON V-ahavojja **
+* **LEXICON V-ahavojja **
 
 
 ## DERIVATION 
 
 * Actor in jA
- * **LEXICON V-actor_jA **
+* **LEXICON V-actor_jA **
 
 
 
 ## PARTICIPLES
 
 
- * **LEXICON V-ActPrsPrc **
- * **LEXICON V-ActPrtPrc_nt **
+* **LEXICON V-ActPrsPrc **
+* **LEXICON V-ActPrtPrc_nt **
 
- * **LEXICON V-ActPrtPrc_rt **
+* **LEXICON V-ActPrtPrc_rt **
 
 
 
@@ -1707,23 +1707,23 @@ kiirehtiä:kiireh
 
 ### INDICATIVE PRETERITE
 
- * **LEXICON IndPrt ** split 1-2 vs 3
+* **LEXICON IndPrt ** split 1-2 vs 3
 
- * **LEXICON IndPrt_1-2 **
+* **LEXICON IndPrt_1-2 **
 
- * **LEXICON IndPrt_3 **
+* **LEXICON IndPrt_3 **
 
- * **LEXICON IND-PRT-SG1 **
+* **LEXICON IND-PRT-SG1 **
 
- * **LEXICON IND-PRT-SG2 **
+* **LEXICON IND-PRT-SG2 **
 
- * **LEXICON IND-PRT-SG3 **
+* **LEXICON IND-PRT-SG3 **
 
- * **LEXICON IND-PRT-PL1 **
+* **LEXICON IND-PRT-PL1 **
 
- * **LEXICON IND-PRT-PL2 **
+* **LEXICON IND-PRT-PL2 **
 
- * **LEXICON IND-PRT-PL3 **
+* **LEXICON IND-PRT-PL3 **
 This is not working 2012-10-30
 
 
@@ -1731,17 +1731,17 @@ This is not working 2012-10-30
 
 ## CONDITIONAL 
 
- * **LEXICON CondPers **
+* **LEXICON CondPers **
 
 ## POTENTIAL
 
 :n, :s, :l, :r, :n
- * **LEXICON PotPers **
+* **LEXICON PotPers **
 
 
 
 
- * **LEXICON ImprtPers_k **
+* **LEXICON ImprtPers_k **
 
 
 
@@ -1875,97 +1875,97 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 
 ### The letters
 
-* **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**@CODE@****
-* **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**@CODE@****
-* **ş ƶ y**@CODE@****
-* **Ş Ƶ Y**@CODE@****
-* **ьSьktьvkar** Sьktьvkar
-* **Ь**@CODE@****
+* **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
+* **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
+* **ş ƶ y**
+* **Ş Ƶ Y**
+* **ь** Sьktьvkar
+* **Ь**
 
 ### Vowel harmony with "(t)a/ä"
-* **AÄ1:aa** realised as a
-* **AÄ1:ää** realised as ä
-* **AÄ1:0deleted** deleted
+* **AÄ1:a** realised as a
+* **AÄ1:ä** realised as ä
+* **AÄ1:0** deleted
 
 ### Vowel harmony with "loi/löi" also kalatOÖ1in
-* **OÖ1:o**@CODE@****
-* **OÖ1:ö**@CODE@****
+* **OÖ1:o**
+* **OÖ1:ö**
 
 ### Vowel harmony with "ttu/tty"
-* **UY1:u**@CODE@****
-* **UY1:y**@CODE@****
+* **UY1:u**
+* **UY1:y**
 
 ### this appears in the illative
-* **V1:a**@CODE@****
-* **V1:e**@CODE@****
-* **V1:i**@CODE@****
-* **V1:o**@CODE@****
-* **V1:u**@CODE@****
-* **V1:y**@CODE@****
-* **V1:ä**@CODE@****
-* **V1:ö**@CODE@****
+* **V1:a**
+* **V1:e**
+* **V1:i**
+* **V1:o**
+* **V1:u**
+* **V1:y**
+* **V1:ä**
+* **V1:ö**
 
 ### These appear with the inessive and adessive
-* **V2:a**@CODE@****
-* **V2:e**@CODE@****
-* **V2:i**@CODE@****
-* **V2:o**@CODE@****
-* **V2:u**@CODE@****
-* **V2:y**@CODE@****
-* **V2:ä**@CODE@****
+* **V2:a**
+* **V2:e**
+* **V2:i**
+* **V2:o**
+* **V2:u**
+* **V2:y**
+* **V2:ä**
 * **V2:ö** 
 
 ### These reduplicate the preceding vowel if it in turn is preceded by a consonant
-* **V3:a**@CODE@****
-* **V3:e**@CODE@****
-* **V3:i**@CODE@****
-* **V3:o**@CODE@****
-* **V3:u**@CODE@****
-* **V3:y**@CODE@****
-* **V3:ä**@CODE@****
-* **V3:ö**@CODE@****
-* **V3:0**@CODE@****
+* **V3:a**
+* **V3:e**
+* **V3:i**
+* **V3:o**
+* **V3:u**
+* **V3:y**
+* **V3:ä**
+* **V3:ö**
+* **V3:0**
 
 ### this k is not effected by gradation
-* **K1:k**@CODE@****
-* **%^NoGrad:0Gradation** This will be placed after a stem to break Gradation
+* **K1:k**
+* **%^NoGrad:0** This will be placed after a stem to break Gradation
 
 ### this weakens the stem *ompel* to *ommel*
-* **%^WGStem:0**@CODE@****
+* **%^WGStem:0**
 
 ### The ti => si
-* **%^TS:0**@CODE@****
+* **%^TS:0**
 
 ### Vowel raising
-* **%^RVws:0**@CODE@****
+* **%^RVws:0**
 * **%-** Hyphen in  constructions 
-* **%>:0**@CODE@****
-#:0compounds #:0    * hash is Word boundary for both lexicalised and dynamic compounds
-* **Cxdeclared** these should probably not be declared
-* **Cydeclared** these should probably not be declared
-* **Xdeclared** these should probably not be declared
-* **Ydeclared** these should probably not be declared
-* **%^LVws:0**@CODE@****
-* **%^LCns:0**@CODE@****
-* **%^WCns:0**@CODE@****
-* **%^AtoO:0**@CODE@****
-* **%^ÄtoÖ:0**@CODE@****
-* **%^OddSyll:0**@CODE@****
-* **%^StretchSyll2:0**@CODE@****
-* **%^SyllBr:0**@CODE@****
-* **%^E1:0**@CODE@****
+* **%>:0**
+#:0 #:0    * hash is Word boundary for both lexicalised and dynamic compounds
+* **Cx** these should probably not be declared
+* **Cy** these should probably not be declared
+* **X** these should probably not be declared
+* **Y** these should probably not be declared
+* **%^LVws:0**
+* **%^LCns:0**
+* **%^WCns:0**
+* **%^AtoO:0**
+* **%^ÄtoÖ:0**
+* **%^OddSyll:0**
+* **%^StretchSyll2:0**
+* **%^SyllBr:0**
+* **%^E1:0**
 
 
 ## Sets
 
 
-* **VwsBack = a o u ;**@CODE@****
-* **VwsFront = ä ö y ü ;**@CODE@****
-* **VwsNeutral = e i ь ;**@CODE@****
-* **VwsNonHigh = a o ä ö e ;**@CODE@****
-* **Vws = a o u ä ö y ü e i ь ;**@CODE@****
-* **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**@CODE@****
-* **Letters = Vws Cns ;**@CODE@****
+* **VwsBack = a o u ;**
+* **VwsFront = ä ö y ü ;**
+* **VwsNeutral = e i ь ;**
+* **VwsNonHigh = a o ä ö e ;**
+* **Vws = a o u ä ö y ü e i ь ;**
+* **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
+* **Letters = Vws Cns ;**
 
 
 ## Definitions
@@ -2147,12 +2147,12 @@ for text-to-speech systems.
 
 For example:
 
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
+* s.:syntynyt # ;  
+* os.:omaa% sukua # ;  
+* v.:vuosi # ;  
+* v.:vuonna # ;  
+* esim.:esimerkki # ; 
+* esim.:esimerkiksi # ; 
 
 
 * * *
