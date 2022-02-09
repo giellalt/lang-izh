@@ -87,9 +87,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **%^SyllBr:0**
 * **%^E1:0**
 
-
 ## Sets
-
 
 * **VwsBack = a o u ;**
 * **VwsFront = ä ö y ü ;**
@@ -99,11 +97,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
 * **Letters = Vws Cns ;**
 
-
 ## Definitions
 
 * Front Trigger
-
 
 * Back Trigger 
 
@@ -111,14 +107,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 
 * Short vowel
 
-
 Right context for gradation
 
-
-
 # Rules
-
-
 
 **RULE: StemVowLoss ** 
 
@@ -128,7 +119,6 @@ Right context for gradation
 * *os0000i0st*
 
 **RULE: StemAÄLoss ** 
-
 
 **RULE: StemULoss** 
 
@@ -144,7 +134,6 @@ Right context for gradation
 **RULE: a:e** 
 
 **RULE: ä:e** 
-
 
 **RULE: AÄ1:ä** 
 
@@ -166,9 +155,7 @@ Right context for gradation
 
 **RULE: V2:aeiouüäö** 
 
-
 **RULE: V2:Zero** 
-
 
 This deals with secondary or perhaps pertary vowel lengthening
 **RULE: V3:a** 
@@ -191,28 +178,18 @@ This deals with secondary or perhaps pertary vowel lengthening
 
 **RULE: V3:Zero** 
 
-
 **RULE: consonant lengthening** 
 **RULE: j lengthening** 
 
-
-
 ## Consonant weakening 
-
-
-
 
 **RULE: Ut:vv Uk:vv weakening** 
 
 **RULE: 0:v Lengthening with Ut:vv weakening** 
 
-
-
-
 **RULE: it:j** 
 
 **RULE: st:ss weakening** 
-
 
 **RULE: rt:rr weakening** 
 
@@ -225,7 +202,6 @@ p
 **RULE: mp:mm weakening** 
 
 **RULE: nk:ng weakening** 
-
 
 **RULE: kToZero** 
 
@@ -240,7 +216,9 @@ p
 Vowel raising
 **RULE: o:u ö:y in Inf** 
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc)</small>
+
+---
+

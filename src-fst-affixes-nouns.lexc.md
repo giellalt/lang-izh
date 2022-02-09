@@ -7,7 +7,6 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N_YÖ-SG_01** 
 
-
 **LEXICON N_MAA** 
 
 **LEXICON N_MAA_01** 
@@ -28,7 +27,6 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N_KOIVU**  koivu
 
-
 **LEXICON N_OSA**  forma osa (II-b)
 
 **LEXICON N-osa_01** 
@@ -40,7 +38,6 @@ This file documents the suffixes for noun inflection.
 **LEXICON N_LUMI**  lumi (II-d)
 
 **LEXICON N-lumi_01** 
-
 
 **LEXICON N_EMOI**  emoi (III)
 
@@ -66,29 +63,21 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N-patsas_01** 
 
-
 **LEXICON N_LÄHE**  lähe:lähte
 
 **LEXICON N-lähe_01** 
-
-
-
-
 
 **LEXICON N_SLOVARI**  from mato (II-e)
 
 **LEXICON N-slovari_01** 
 
-
 **LEXICON N_NUMERO**  numero:numero
 
 **LEXICON N-numero_01** 
 
-
 **LEXICON N_VOKALA**  the stem-final "a" is added here  vokala (IV-b)
 
 **LEXICON N-vokala_01** 
-
 
 **LEXICON N_HARAKKA**  harakka:harakk
 This should operate using principles of ommeena
@@ -97,11 +86,9 @@ This should operate using principles of ommeena
 
 **LEXICON N_OMMEENA**  ommeena:omena
 
-
 **LEXICON N_PUTTEELI**  putteeli:puteli
 
 **LEXICON N-putteeli_01** 
-
 
 **LEXICON N_LEIKKUU**  leikkuu, kiukkaa, lämmää (VI)
 
@@ -129,52 +116,19 @@ This should operate using principles of ommeena
 
 **LEXICON N_VOOSI**  voosi:voo
 
-
-
 **LEXICON N_MEES**  mees:mee (??)
 
 **LEXICON N-mees_01** 
 
 **LEXICON N_VARIS**  varis (XII)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **LEXICON N_KEELI**  keeli (IX-b)
 
 **LEXICON N-keeli_01** 
 
-
 **LEXICON N_SAMMAL** 
 
 **LEXICON N-sammal_01** 
-
-
-
-
-
-
-
-
-
-
-
 
 **LEXICON N_VENÄT**  kevät (XX-a)
 
@@ -186,8 +140,6 @@ This should operate using principles of ommeena
 
 **LEXICON N-päivyt_01** 
 
-
-
 ## DERIVATION 
 One derivational process only, DER-t0in.
 
@@ -196,7 +148,6 @@ One derivational process only, DER-t0in.
 ## DECLENSION 
 
 **LEXICON Cases** 
-
 
 **LEXICON lOi-Pl** 
 
@@ -210,7 +161,6 @@ One derivational process only, DER-t0in.
 
 **LEXICON Oblique-Plural** 
 
-
 **LEXICON Oblique-Plural_less-EssExe** 
 
 **LEXICON Oblique-Singular** 
@@ -219,7 +169,6 @@ One derivational process only, DER-t0in.
 
 ## PLURAL TAGS 
 Plural tags separated from singular ones.
-
 
 **LEXICON PL-ABE** 
 
@@ -255,13 +204,11 @@ Plural tags separated from singular ones.
 
 **LEXICON PL-INE** 
 
-
 **LEXICON PL-NOM** 
 
 **LEXICON PL-PAR_A** 
 
 **LEXICON PL-PAR_A-LCns** 
-
 
 **LEXICON PL-PAR_tA** 
 
@@ -291,7 +238,6 @@ Plural tags separated from singular ones.
 
 **LEXICON SG-ILL_sse** 
 
-
 **LEXICON SG-ILL_V** 
 
 **LEXICON SG-ILL_hV** 
@@ -302,13 +248,13 @@ Plural tags separated from singular ones.
 
 **LEXICON SG-PAR_A** 
 
-
 **LEXICON SG-PAR_tA** 
 
 **LEXICON SG-TRA** 
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+

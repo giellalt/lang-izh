@@ -1,225 +1,24 @@
+# Ingrian description 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+All documents in one file
 
 
 
 * Sets for POS sub-categories
 
-
-
-
-
 * Sets for Semantic tags
-
-
-
-
 
 * Sets for Morphosyntactic properties
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * Sets for verbs
-
 
 - V is all readings with a V tag in them, REAL-V should
 be the ones without an N tag following the V.  
 The REAL-V set thus awaits a fix to the preprocess V ... N bug.
 
-
-
 * The set COPULAS is for predicative constructions
 
-
-
-
-
-
-
 * NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
 
 * The PRE-NP-HEAD family of sets
 
@@ -227,90 +26,30 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
 The set **NOT-NPMOD** is used to find barriers between NPs.
 Typical usage: ... (*1 N BARRIER NPT-NPMOD) ...
 meaning: Scan to the first noun, ignoring anything that can be
 part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
-
-
-
-
-
 * Miscellaneous sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 * Border sets and their complements
 
-
-
-
-
-
-
-
-
-
-
-
-
 * Syntactic sets
-
-
-
 
 These were the set types.
 
-
-
 ## HABITIVE MAPPING
 
-
 * **hab1** 
-
 
 * **hab2** 
 
 * **hab3** (<hab> @ADVL>) for hab-actor and hab-case; if leat to the right, and Nom to the right of leat. Lots of restrictions.
 
-
-
 * **habNomLeft** 
 
-
 * **hab4** 	
-
-
 
 * **hab6** 
 
@@ -319,90 +58,11 @@ These were the set types.
 * **hab8** This is not HAB
 * **hab5**  This is not HAB
 
-
-
 * **habDain** (<hab> @ADVL>) for (Pron Dem Pl Loc) if leat followed by Nom to the right
-
-
-
 
 * **habGen** (<hab> @<ADVL) hab for Gen; if Gen is located in the end of the sentence and Nom is sentence initial
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **spred<obj** (@SPRED<OBJ) for Acc; the object of an SPRPED. Not to be mistaken with OPRED. If SPRED is to the left, and copulas is to the left of it. Nom or Hab are found sentence initially.
-
 
 * **Hab<spred** (@<SPRED) for Nom; if copulas, goallut or jápmit is FMAINV and habitive or human Loc is found to the left. OR: if Ill or @Pron< followed by HAB are found to the left.
 
@@ -414,14 +74,11 @@ These were the set types.
 
 * **<spred** (<ext> @<SUBJ) for Nom, but not for Pers. To the left boahtit or heaŋgát as MAINV, and futher to the left is some kind of place related word, or time related word
 
-
 * **<spredQst1** (<ext> @<SUBJ) for Nom in a typically question sentence; if A) Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. B) same as a, only the Qst-pcle is attached to copulas. C) Qst to the left, with copulas to its left, but not if two Nom:s are found somewhere to the right. D) copulas to the left, and BOS to the left. E) Loc or Ill to the left, and Loc or Hab to the left of this, Qst and copulas to the left. F) Num @>N to the left, Hab, some kind of place word, Po or Nom to the left, and Qst followed by copulas to the left. NOTE) for all these rules; human, Loc or Sem/Plc not allowed to the right.
 
 * **<spredQst2** (@<SPRED) for Nom; in a typically question sentence; differs from <spredQst1 by not beeing as restricted to the right. Though you are not allowed to be Pers or human.
 
 * **Nom<spredQst** (@<SPRED) for Nom; in a typically question sentence. Differs from <spredQst2 by letting Nom be found between SPRED and copulas
-
-
 
 * **<spred** (@<SPRED) for A Nom or N Nom if; the subject Nom is on the same side of copulas as you: on the right side of copulas
 
@@ -430,7 +87,6 @@ These were the set types.
 * **leftCop<spred** (@<SPRED) for Nom; if copulas is the main verb to the left, and there is no Ess found to the left of cop (note that Loc is allowed between target and cop). OR: if you are Coll or Sem/Group with copulas to your left. 
 
 * **<spredLocEXPERIMENT** (@<SPRED) for material Loc; if you are to the right of copulas, and the Nom to the left of copulas is not a hab-actor
-
 
 * **NumTime** (@<SPRED) for A Nom
 
@@ -452,22 +108,13 @@ These were the set types.
 
 * **r492>** (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
-
-
 * **AdjSpredSg>** (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
 
 * **SpredSg>Hab** (@SPRED>) for Nom; if you are sentence initial, copulas is located to the right, and there is a habitive to the right of copulas
 
-
-
 * **Spred>SubjInf** (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
 * **spredCoord** (@<SPRED) coordination for Nom; only if there already is a SPRED to the left of CNP. Not if there is some kind of comparison involved.
-
-
-
-
-
 
 * **subj>Sgnr1** (@SUBJ>) for Nom Sg, including Indef Nom if; VFIN + Sg3 or Pl3 to the right (VFIN not allowed to the left) 
 
@@ -476,160 +123,57 @@ These were the set types.
 
 * **subj>Pl** (@SUBJ>) for plural nominatives
 
-
 * **subj>Sgnr2** (@SUBJ>) for Nom Sg; if VFIN + Sg3 to the right.
 
 * **<subjSg** (@<SUBJ) for Nom Sg; if VFIN Sg3 or Du2 to the left (no HAB allowed to the left).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * **f<advl** (@-F<ADVL) for infinite adverbials
 
 * **f<advl** (@-F<ADVL) for infinite adverbials
-
-
 
 * **s-boundary=advl>** (@ADVL>) for ADVL that resemble s-booundaries. Mainverb to the right.
-
-
-
 
 * **-fobj>** (@-FOBJ>) for Acc 
 
 * **-fobj>** (@-FOBJ>) for Acc
 
-
-
-
 * **advl>mainV** (@ADVL>) if; finite mainverb not found to the left, but the finite mainverb is found to the right.
 
-
 * **<advl** (@<ADVL) if; finite mainverb found to the left. Not if a comma is found immediately to the left and a finite mainverb is located somewhere to the right of this comma.
-
-
-
 
 * **<advlPoPr** (@<ADVL) if mainverb to the left.
 * **advlPoPr>** (@<ADVL) if mainverb to the right.
 
-
-
 * **advlEss>** (@<ADVL) for weather and time Ess, if FMAINV to the left.
-
-
-
-
-
 
 * **advl>inbetween** (@ADVL>) for Adv; if inbetween two sentenceboundaries where no mainverb is present.
 
 * **comma<advlEOS** (@<ADVL) if; comma found to the left and the finite mainverb to the left of comma. To the right is the end of the sentence.
 
-
-
 * **advlBOS>** (@ADVL>) if; you are N Ill and found sentnece initially. First one to your right is a clause.
-
 
 * **<advlPoEOS** (@<ADVL) for Po; if you are found at the very end of a sentence. A mainverb is needed to the right though.
 
-
-
 * **cleanupILL<advl** (@<ADVL) for N Ill if; there are no boundarysymbols to your left, if you arent already @N< OR @APP-N<, and no mainverb is to yor left.
-
-
-
-
-
-
-
-
-
-
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-
 ### sma object
-
-
-
-
-
-
-
-
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
-
-
-
-
 
 ## SUBJ MAPPING - leftovers
 
 ## OBJ MAPPING - leftovers
 
-
 ## HNOUN MAPPING
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-izh/blob/main/../src/cg3/functions.cg3)</small>
 
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-izh/blob/main/src/cg3/functions.cg3)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -678,10 +222,6 @@ kaks vootta : kahen vuuvven
 => ommeena | omenaa
 lammaz | lamppaahan | lampahaal
 
-
-
-
-
 define SoftLossBeforeVowel [ ' -> 0 || _ QEQ1 %>  ] ;
 
 define StemFinalVowelLoss [ QAO1 -> 0 , QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _  [ .#. | %- ]  ] ;
@@ -710,14 +250,13 @@ define VowelStemVowelLoss [ e -> 0 || _ %> i ( n| d | m | t ) ] ;
 
 define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology-old.xfscript](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology-old.xfscript)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology-old.xfscript)</small>
+
+---
+
+
 # The Ingrian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc) 
@@ -806,9 +345,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **%^SyllBr:0**
 * **%^E1:0**
 
-
 ## Sets
-
 
 * **VwsBack = a o u ;**
 * **VwsFront = ä ö y ü ;**
@@ -818,11 +355,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
 * **Letters = Vws Cns ;**
 
-
 ## Definitions
 
 * Front Trigger
-
 
 * Back Trigger 
 
@@ -830,14 +365,9 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 
 * Short vowel
 
-
 Right context for gradation
 
-
-
 # Rules
-
-
 
 **RULE: StemVowLoss ** 
 
@@ -847,7 +377,6 @@ Right context for gradation
 * *os0000i0st*
 
 **RULE: StemAÄLoss ** 
-
 
 **RULE: StemULoss** 
 
@@ -863,7 +392,6 @@ Right context for gradation
 **RULE: a:e** 
 
 **RULE: ä:e** 
-
 
 **RULE: AÄ1:ä** 
 
@@ -885,9 +413,7 @@ Right context for gradation
 
 **RULE: V2:aeiouüäö** 
 
-
 **RULE: V2:Zero** 
-
 
 This deals with secondary or perhaps pertary vowel lengthening
 **RULE: V3:a** 
@@ -910,28 +436,18 @@ This deals with secondary or perhaps pertary vowel lengthening
 
 **RULE: V3:Zero** 
 
-
 **RULE: consonant lengthening** 
 **RULE: j lengthening** 
 
-
-
 ## Consonant weakening 
-
-
-
 
 **RULE: Ut:vv Uk:vv weakening** 
 
 **RULE: 0:v Lengthening with Ut:vv weakening** 
 
-
-
-
 **RULE: it:j** 
 
 **RULE: st:ss weakening** 
-
 
 **RULE: rt:rr weakening** 
 
@@ -944,7 +460,6 @@ p
 **RULE: mp:mm weakening** 
 
 **RULE: nk:ng weakening** 
-
 
 **RULE: kToZero** 
 
@@ -959,29 +474,20 @@ p
 Vowel raising
 **RULE: o:u ö:y in Inf** 
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology.twolc)</small>Acronyms
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
+Acronyms
 Veps acronyms ...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/acronyms.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/acronyms.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/stems/acronyms.lexc)</small>
 
+---
 
 
 
@@ -990,7 +496,12 @@ lyhyt ensimmäinen tavu
 pitkä ensimmäinen tavu
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/stems/exceptions.lexc)</small># Ingrian noun inflection
+
+<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/stems/exceptions.lexc)</small>
+
+---
+
+# Ingrian noun inflection
 This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
 
 This file documents the suffixes for noun inflection.
@@ -998,7 +509,6 @@ This file documents the suffixes for noun inflection.
 **LEXICON N_YÖ-SG** 
 
 **LEXICON N_YÖ-SG_01** 
-
 
 **LEXICON N_MAA** 
 
@@ -1020,7 +530,6 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N_KOIVU**  koivu
 
-
 **LEXICON N_OSA**  forma osa (II-b)
 
 **LEXICON N-osa_01** 
@@ -1032,7 +541,6 @@ This file documents the suffixes for noun inflection.
 **LEXICON N_LUMI**  lumi (II-d)
 
 **LEXICON N-lumi_01** 
-
 
 **LEXICON N_EMOI**  emoi (III)
 
@@ -1058,29 +566,21 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N-patsas_01** 
 
-
 **LEXICON N_LÄHE**  lähe:lähte
 
 **LEXICON N-lähe_01** 
-
-
-
-
 
 **LEXICON N_SLOVARI**  from mato (II-e)
 
 **LEXICON N-slovari_01** 
 
-
 **LEXICON N_NUMERO**  numero:numero
 
 **LEXICON N-numero_01** 
 
-
 **LEXICON N_VOKALA**  the stem-final "a" is added here  vokala (IV-b)
 
 **LEXICON N-vokala_01** 
-
 
 **LEXICON N_HARAKKA**  harakka:harakk
 This should operate using principles of ommeena
@@ -1089,11 +589,9 @@ This should operate using principles of ommeena
 
 **LEXICON N_OMMEENA**  ommeena:omena
 
-
 **LEXICON N_PUTTEELI**  putteeli:puteli
 
 **LEXICON N-putteeli_01** 
-
 
 **LEXICON N_LEIKKUU**  leikkuu, kiukkaa, lämmää (VI)
 
@@ -1121,52 +619,19 @@ This should operate using principles of ommeena
 
 **LEXICON N_VOOSI**  voosi:voo
 
-
-
 **LEXICON N_MEES**  mees:mee (??)
 
 **LEXICON N-mees_01** 
 
 **LEXICON N_VARIS**  varis (XII)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **LEXICON N_KEELI**  keeli (IX-b)
 
 **LEXICON N-keeli_01** 
 
-
 **LEXICON N_SAMMAL** 
 
 **LEXICON N-sammal_01** 
-
-
-
-
-
-
-
-
-
-
-
 
 **LEXICON N_VENÄT**  kevät (XX-a)
 
@@ -1178,8 +643,6 @@ This should operate using principles of ommeena
 
 **LEXICON N-päivyt_01** 
 
-
-
 ## DERIVATION 
 One derivational process only, DER-t0in.
 
@@ -1188,7 +651,6 @@ One derivational process only, DER-t0in.
 ## DECLENSION 
 
 **LEXICON Cases** 
-
 
 **LEXICON lOi-Pl** 
 
@@ -1202,7 +664,6 @@ One derivational process only, DER-t0in.
 
 **LEXICON Oblique-Plural** 
 
-
 **LEXICON Oblique-Plural_less-EssExe** 
 
 **LEXICON Oblique-Singular** 
@@ -1211,7 +672,6 @@ One derivational process only, DER-t0in.
 
 ## PLURAL TAGS 
 Plural tags separated from singular ones.
-
 
 **LEXICON PL-ABE** 
 
@@ -1247,13 +707,11 @@ Plural tags separated from singular ones.
 
 **LEXICON PL-INE** 
 
-
 **LEXICON PL-NOM** 
 
 **LEXICON PL-PAR_A** 
 
 **LEXICON PL-PAR_A-LCns** 
-
 
 **LEXICON PL-PAR_tA** 
 
@@ -1283,7 +741,6 @@ Plural tags separated from singular ones.
 
 **LEXICON SG-ILL_sse** 
 
-
 **LEXICON SG-ILL_V** 
 
 **LEXICON SG-ILL_hV** 
@@ -1294,242 +751,110 @@ Plural tags separated from singular ones.
 
 **LEXICON SG-PAR_A** 
 
-
 **LEXICON SG-PAR_tA** 
 
 **LEXICON SG-TRA** 
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/nouns.lexc)</small># Adposition tags
+
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/nouns.lexc)</small>
+
+---
+
+# Adposition tags
 
 Here we just add tags +Po and +Prep
 to the Ingrian pre- and postpositions.
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adpositions.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adpositions.lexc)</small># Particles inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adpositions.lexc)</small>
+
+---
+
+# Particles inflection
 
 Ingrian particles ...
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/particles.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/particles.lexc)</small># Adverb inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/particles.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/particles.lexc)</small>
+
+---
+
+# Adverb inflection
 
 Ingrian adjectives compare.
 
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adverbs.lexc)</small># Pronoun inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adverbs.lexc)</small>
+
+---
+
+# Pronoun inflection
 
 Ingrian pronouns inflect in cases.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/pronouns.lexc)</small># Quantifier inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/pronouns.lexc)</small>
+
+---
+
+# Quantifier inflection
 
 Still undocumented
 
 N-kärpäin (XIII)
 
-
 N-kärpäin (XIII)
-
 
 N-mato (II)
 
 vähä:vähä
 
-
-
-
-
-
-
-
-
 enemmän
 
 kaik:kaik
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/numerals.lexc)</small># Clitics
+
+<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/numerals.lexc)</small>
+
+---
+
+# Clitics
 
 Ingrian clitics are stored in the affixes folder.
 We tag question and focus particles.
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/clitics.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/clitics.lexc)</small># Proper noun inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/clitics.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/clitics.lexc)</small>
+
+---
+
+# Proper noun inflection
 
 We have a partial program in singular.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/propernouns.lexc)</small># Adjective inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+
+# Adjective inflection
 The INGRIAN language adjectives compare.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/adjectives.lexc)</small># Verb inflection
+
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adjectives.lexc)</small>
+
+---
+
+# Verb inflection
 ## Irregular verbs
 
 * **LEXICON V-ei ** lists the negative verb, including imperative forms.
@@ -1538,12 +863,7 @@ The INGRIAN language adjectives compare.
 
 * **LEXICON V-olla ** gives the forms of olla, and redirects to K_V
 
-
 oon
-
-
-
-
 
 ## Regular verbs
 
@@ -1552,52 +872,20 @@ oon
 * **LEXICON V-jäävvä_01 **. 
 TODO: Document difference between this and previous
 
-
-
-
-
-
-
 * **LEXICON V-käyvvä **  käyvvä:kä
 TODO: Dokument difference between this and previous
-
-
-
-
-
-
 
 * **LEXICON V-tuuvva ** 
 * tuuvva:too
 
-
-
-
-
-
-
 * **LEXICON V-voija  ** voija:voi
-
-
-
-
-
 
 * **LEXICON V-antaa ** redirects to next only antaa:ant
 
 * **LEXICON V-antaa_01 ** 
 
-
-
-
-
 * **LEXICON V-lukkia ** 
 * lukkia:luk
-
-
-
-
-
 
 * **LEXICON V-tiitää **
 * tiitää:tiit
@@ -1607,8 +895,6 @@ tiije
 
 tiitämätöin
 tiitää
-
-
 
 * **LEXICON V-näyttää ** näyttää:näytt
 
@@ -1623,12 +909,10 @@ näyttämätöin
 näyttää
 näyttämää
 
-
 * **LEXICON V-laatia ** !! laatia:laati
 
 ## 3-syllable
 kiirehtiä:kiireh
-
 
 * **LEXICON V-hyväksyä **
 
@@ -1636,117 +920,63 @@ kiirehtiä:kiireh
 
 * **LEXICON V-kutsua_01 **
 
-
-
-
-
 * **LEXICON V-kirjuttaa **
 
 * **LEXICON V-kirjuttaa_01 **
-
-
-
 
 * **LEXICON V-tulla **
 
 * **LEXICON V-tulla_01 **
 
-
-
-
 * **LEXICON V-ommella **
 
 * **LEXICON V-ommella_01 **
-
-
-
-
 
 * **LEXICON V-nähä **
 
 * **LEXICON V-nähä_01 **
 
-
-
-
 * **LEXICON V-panna **
 
 * **LEXICON V-panna_01 **
 
-
-
-
 * **LEXICON V-sannoa **
 
-
-
-
 * **LEXICON V-painuttaissa **
-
-
-
 
 * **LEXICON V-pittiissä **
 
 * **LEXICON V-pittiissä_01 **
 
-
-
-
 * **LEXICON V-vuhissa_01 **
 
-
-
-
-
-
 * **LEXICON V-laatihussa **
-
-
 
 * **LEXICON V-määrätä ** goes to V-arvata
 
 * **LEXICON V-upota ** goes to V-arvata
 
-
 * **LEXICON V-arvata **
 
-
-
-
 * **LEXICON V-hävitä **
-
-
-
 
 * **LEXICON V-merkitä **
 
 * **LEXICON V-merkitä_01 **
 
-
-
-
-
 * **LEXICON V-ahavojja **
-
 
 ## DERIVATION 
 
 * Actor in jA
 * **LEXICON V-actor_jA **
 
-
-
 ## PARTICIPLES
-
 
 * **LEXICON V-ActPrsPrc **
 * **LEXICON V-ActPrtPrc_nt **
 
 * **LEXICON V-ActPrtPrc_rt **
-
-
-
 
 ## CONJUGATION
 
@@ -1771,9 +1001,6 @@ kiirehtiä:kiireh
 * **LEXICON IND-PRT-PL3 **
 This is not working 2012-10-30
 
-
-
-
 ## CONDITIONAL 
 
 * **LEXICON CondPers **
@@ -1783,24 +1010,24 @@ This is not working 2012-10-30
 :n, :s, :l, :r, :n
 * **LEXICON PotPers **
 
-
-
-
 * **LEXICON ImprtPers_k **
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+
+
 # Symbol affixes
 
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/affixes/symbols.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/symbols.lexc)</small>
+
+---
+
+
 # Ingrian multichar symbols and *Root* lexicon
 
 Definitions for Multichar_Symbols
@@ -1960,8 +1187,6 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
 ### Multiple Semantic tags:
 * **+Sem/Act_Group** 
 * **+Sem/Act_Plc** 
@@ -2087,9 +1312,7 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Substnc_Wthr** 
 * **+Sem/Time_Wthr** 
 
-
 Semantics are classified with
-
 
 ### Derivation
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -2113,7 +1336,6 @@ symbols in the lexicon files:
 **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
 **%^E1 %^TS** 
 **K1 %^NoGrad**  Nogradation
-
 
 ### Triggers to control variation
 **{front} {back}** 
@@ -2169,7 +1391,6 @@ This is to facilitate the 'teens' in "-toist"
 This can also be used as a condition for further combinations
 e.g. tens and hundreds
 
-
 | Flag | Explanation
 | --- | --- 
 |  @U.CARD.TOIST@ | 
@@ -2216,7 +1437,6 @@ FLAGS USED WITH COLLECTIVE NOUNS
 |  @C.DECL-NX@ | 
 |  @C.COMPLETE@ | 
 
-
 ## Root lexicon
 
 Root
@@ -2238,7 +1458,6 @@ word classes, or optionally from prefixes:
 * **Symbols ;**
 * **EXCEPTIONS ;**
 
-
 POS with minimal morphological variation
 
 CC_
@@ -2250,70 +1469,10 @@ AbbrDot
 INTERJ_
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
 
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/root.lexc)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2475,52 +1634,12 @@ raised							_r
 lowered							_o 
 advanced tongue root				_A 
 retracted tongue root			_q
+
 * * *
-<small>This (part of) documentation was generated from [../src/phonetics/txt2ipa.xfscript](http://github.com/giellalt/lang-izh/blob/main/../src/phonetics/txt2ipa.xfscript)</small>
 
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
@@ -2531,7 +1650,11 @@ retracted tongue root			_q
 % násti% :%*     Root ; 
 
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+
+---
+
 
 
 We describe here how abbreviations are in Ingrian are read out, e.g.
@@ -2546,41 +1669,28 @@ For example:
 * esim.:esimerkki # ; 
 * esim.:esimerkiksi # ; 
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+
+---
+
+
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
-
-
-
-
-
-
-
-
 
 # DELIMITERS
 
-
 # TAGS AND SETS
 
-
-
 ## Tags
-
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-
-
-
 ### Beginning and end of sentence
 BOS
 EOS
-
-
 
 ### Parts of speech tags
 
@@ -2610,8 +1720,6 @@ PUNCT
 COMMA
 ¶
 
-
-
 ### Tags for POS sub-categories
 
 Pers
@@ -2627,7 +1735,6 @@ Prop
 Allegro
 Arab
 Romertall
-
 
 ### Tags for morphosyntactic properties
 
@@ -2690,11 +1797,7 @@ Sup
 Actio
 VAbess
 
-
-
 Err/Orth
-
-
 
 ### Semantic tags
 
@@ -2727,14 +1830,10 @@ HUMAN
 HAB-ACTOR
 HAB-ACTOR-NOT-HUMAN
 
-
 PROP-ATTR
 PROP-SUR
 
-
-
 TIME-N-SET
-
 
 ###  Syntactic tags
 
@@ -2806,22 +1905,15 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-
-
-
-
 ## Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-
-
 ### Sets for Single-word sets
 
 INITIAL
-
 
 ### Sets for word or not
 
@@ -2829,7 +1921,6 @@ WORD
 REAL-WORD
 REAL-WORD-NOT-ABBR
 NOT-COMMA
-
 
 ### Case sets
 
@@ -2844,7 +1935,6 @@ NOT-ACC
 
 ### Verb sets
 
-
 NOT-V
 
 ### Sets for finiteness and mood
@@ -2854,7 +1944,6 @@ REAL-NEG
 MOOD-V
 
 NOT-PRFPRC
-
 
 ### Sets for person
 
@@ -2868,49 +1957,15 @@ PL1-V
 PL2-V
 PL3-V
 
-
-
-
-
 ### Pronoun sets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Adjectival sets and their complements
 
-
-
-
 ### Adverbial sets and their complements
-
-
-
 
 ### Sets of elements with common syntactic behaviour
 
-
 ### NP sets defined according to their morphosyntactic features
-
-
-
-
-
-
-
 
 ### The PRE-NP-HEAD family of sets
 
@@ -2918,86 +1973,34 @@ These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Border sets and their complements
-
-
-
-
-
-
-
-
-
-
 
 ### Grammarchecker sets
 
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-izh/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-izh/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# Grammar checker tokenisation for izh
+
+Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
+```
 $ make
 $ echo "ja, ja" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
-
-Issues:
-- [X] Ambiguous input
-- Seems to work fine
-- [X] Ambiguous multiword expessions with ambiguous tokenisation
-- Seems to work – represented within lexc now; hfst-tokenise also
-supports forms on the analyses now
-- [X] Ambiguous multiword expessions need reorganising after CG
-- The module cg-mwesplit takes wordforms from readings and turns them into
-new cohorts
-- [X] Unknown words
-- The set-difference method only works for words without
-flag diacritics (even though we should be working only on the form-side?)
-and leads to binary blow-up: With only lower unknowns, we get 45M;
-lower+upper gives 67M, while no unknowns gives 27M
-- Fixed instead by treating empty analyses as unknown-tokens in
-hfst-tokenise, and outputting unmatched strings with a prefix
-- [ ] Treat input that's within superblanks as unmatched
-- probably requires a change in hfst-tokenise itself
-- [X] Try >1 space for ambiguous MWE's? – represented within lexc now
-- [ ] Try set-difference-unknowns method with regular hfst commands?
+```
 
 More usage examples:
+```
 $ echo "Juos gorreválggain lea (dárbbašlaš) deavdit gáibádusa boasttu olmmoš, man mielde lahtuid." | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "(gáfe) 'ja' ja 3. ja? ц jaja ukjend \"ukjend\"" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
 $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-desc.pmhfst
+```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -3012,9 +2015,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1) unknown word-like forms, and
@@ -3028,14 +2028,11 @@ so far:
 
 TODO: Could use something like this, but built-in's don't include šžđčŋ:
 
-
 Simply give an empty reading when something is unknown:
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -3044,7 +2041,12 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](http://github.com/giellalt/lang-izh/blob/main/../tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small># Tokeniser for izh
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-izh/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+
+---
+
+# Tokeniser for izh
 
 Usage:
 ```
@@ -3056,12 +2058,7 @@ $ echo "márffibiillagáffe" | hfst-tokenise --giella-cg tokeniser-disamb-gt-des
 ```
 
 Pmatch documentation:
-https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch
-
-
-
-
-
+<https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstPmatch>
 
 Characters which have analyses in the lexicon, but can appear without spaces
 before/after, that is, with no context conditions, and adjacent to words:
@@ -3076,9 +2073,6 @@ the List contains some unicode white space characters
 * Narrow No-Break Space U+202F
 * Medium Mathematical Space U+205F
 * Word joiner U+2060
-
-
-
 
 Apart from what's in our morphology, there are
 1. unknown word-like forms, and
@@ -3096,16 +2090,12 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-
-
 ## Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
 legal in CG, they get a default baseform equal to the wordform, but
 no tag to check, so it's safer to let hfst-tokenise handle them.
-
-
 
 Finally we mark as a token any sequence making up a:
 * known word in context
@@ -3114,4 +2104,8 @@ Finally we mark as a token any sequence making up a:
 * URL in context
 
 * * *
-<small>This (part of) documentation was generated from [../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](http://github.com/giellalt/lang-izh/blob/main/../tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-izh/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+
+---
+

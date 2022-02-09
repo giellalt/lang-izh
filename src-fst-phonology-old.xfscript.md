@@ -1,30 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 two consonants
 XY ==> X
 
@@ -70,10 +45,6 @@ kaks vootta : kahen vuuvven
 => ommeena | omenaa
 lammaz | lamppaahan | lampahaal
 
-
-
-
-
 define SoftLossBeforeVowel [ ' -> 0 || _ QEQ1 %>  ] ;
 
 define StemFinalVowelLoss [ QAO1 -> 0 , QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _  [ .#. | %- ]  ] ;
@@ -102,11 +73,9 @@ define VowelStemVowelLoss [ e -> 0 || _ %> i ( n| d | m | t ) ] ;
 
 define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
 
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology-old.xfscript](http://github.com/giellalt/lang-izh/blob/main/../src/fst/phonology-old.xfscript)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology-old.xfscript)</small>
+
+---
+

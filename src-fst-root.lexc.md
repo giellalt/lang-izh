@@ -158,8 +158,6 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-
-
 ### Multiple Semantic tags:
 * **+Sem/Act_Group** 
 * **+Sem/Act_Plc** 
@@ -285,9 +283,7 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Substnc_Wthr** 
 * **+Sem/Time_Wthr** 
 
-
 Semantics are classified with
-
 
 ### Derivation
 Derivations are classified under the morphophonetic form of the suffix, the
@@ -311,7 +307,6 @@ symbols in the lexicon files:
 **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
 **%^E1 %^TS** 
 **K1 %^NoGrad**  Nogradation
-
 
 ### Triggers to control variation
 **{front} {back}** 
@@ -367,7 +362,6 @@ This is to facilitate the 'teens' in "-toist"
 This can also be used as a condition for further combinations
 e.g. tens and hundreds
 
-
 | Flag | Explanation
 | --- | --- 
 |  @U.CARD.TOIST@ | 
@@ -414,7 +408,6 @@ FLAGS USED WITH COLLECTIVE NOUNS
 |  @C.DECL-NX@ | 
 |  @C.COMPLETE@ | 
 
-
 ## Root lexicon
 
 Root
@@ -436,7 +429,6 @@ word classes, or optionally from prefixes:
 * **Symbols ;**
 * **EXCEPTIONS ;**
 
-
 POS with minimal morphological variation
 
 CC_
@@ -448,4 +440,8 @@ AbbrDot
 INTERJ_
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-izh/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/root.lexc)</small>
+
+---
+
