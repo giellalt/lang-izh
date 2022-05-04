@@ -851,7 +851,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **%^RVws:0**
 * **%-** Hyphen in  constructions 
 * **%>:0**
-#:0 #:0    * hash is Word boundary for both lexicalised and dynamic compounds
+* hash is Word boundary for both lexicalised and dynamic compounds
 * **Cx** these should probably not be declared
 * **Cy** these should probably not be declared
 * **X** these should probably not be declared
