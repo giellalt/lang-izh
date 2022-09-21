@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/izh/IngrianDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-izh/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
