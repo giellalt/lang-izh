@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-izh/main/badge.svg)](https://github.com/giellalt/lang-izh/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-izh/main/badge.svg)](https://github.com/giellalt/lang-izh/actions)
 
 This page documents the work on the [Ingrian language model](http://github.com/giellalt/lang-izh). 
 
