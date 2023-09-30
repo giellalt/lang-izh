@@ -2,7 +2,7 @@ The Ingrian morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-izh/main/badge.svg)](https://github.com/giellalt/lang-izh/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-izh/main/badge.svg)](https://github.com/giellalt/lang-izh/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-izh?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-izh?platform=mbile&channel=nightly)
