@@ -175,7 +175,7 @@ The INGRIAN language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -186,7 +186,7 @@ to the Ingrian pre- and postpositions.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adpositions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adpositions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adpositions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/adpositions.lexc)</small>
 
 ---
 
@@ -196,7 +196,7 @@ Ingrian adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adverbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/adverbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
 
@@ -207,7 +207,7 @@ We tag question and focus particles.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/clitics.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/clitics.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/clitics.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/clitics.lexc)</small>
 
 ---
 
@@ -467,7 +467,7 @@ Plural tags separated from singular ones.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -489,7 +489,7 @@ kaik:kaik
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/numerals.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/numerals.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/numerals.lexc)</small>
 
 ---
 
@@ -499,7 +499,7 @@ Ingrian particles ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/particles.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/particles.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/particles.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/particles.lexc)</small>
 
 ---
 
@@ -509,7 +509,7 @@ Ingrian pronouns inflect in cases.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/pronouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
 
@@ -519,7 +519,7 @@ We have a partial program in singular.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -528,7 +528,7 @@ We have a partial program in singular.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -692,88 +692,7 @@ This is not working 2012-10-30
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/affixes/verbs.lexc)</small>
-
----
-
-
-
-two consonants
-XY ==> X
-
-paikka : paikan
-tuhka : tuhan
-jalka : jalan
-verka : veran
-matka : matan
-
-lappa : lapan
-
-lampahaal : lammaz
-kelpajaa : kelvata
-varpahaal : varvaz
-
-vika : vian
-
-aika : aijjan
-reikä : reijjän
-
-hauki : hauvven
-rooka : roovvan
-luku : luvvun
-
-(4) ossaan : ozata
-suzi : suen
-(5) katto : katon
-vahti : vahin
-silta : sillan
-rakentaa : rakennan : rakenzin
-parta : parran
-vassaan : vasata
-
-(6) pata : paan
-aita : aijjan
-viittä : viijjeel
-voitua : voijjun
-kaks vootta : kahen vuuvven
-
-(7) vattsa : vatsan
-
-*omena   | *omenaa
-=> ommeena | omenaa
-lammaz | lamppaahan | lampahaal
-
-define SoftLossBeforeVowel [ ' -> 0 || _ QEQ1 %>  ] ;
-
-define StemFinalVowelLoss [ QAO1 -> 0 , QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _  [ .#. | %- ]  ] ;
-!€ marj>QAO1:marj
-
-define VowelLossBeforePli [ QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _ %> i ] ;
-
-define QAO [ QAO1 -> a , QAQ1 -> a || _ %> [ n | d | t a | k s | l | h V1 | n n o | d m e | s ] ,,
-QAO1 -> o || _ %> i ] ;
-
-define QÄQ1 [ QÄQ1 -> ä , QEQ1 -> e || _ %> [ Cns | VwsLessi ] ] ;
-
-define D1E1 [ D1E1 -> d e || _ %> [ Cns | VwsLessi ] ] ;
-! This should have voz' > vodel
-
-define S2SH     [ s -> š || i %> _ ] ;
-
-define VOICING     [ t -> d , k -> g || [ Vws | n | l | r ] %> _ [ Vws ] ,,
-z -> s || Vws _ %> [ t | k ] ] ; ! in verb stems
-!€ sugi>ta:sugida
-!€ vali^DEVOICE>ta:valita
-
-define DEVOICE [ %^DEVOICE -> 0 ||  _ ] ;
-
-define VowelStemVowelLoss [ e -> 0 || _ %> i ( n| d | m | t ) ] ;
-
-define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology-old.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -997,7 +916,7 @@ Vowel raising
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -1444,7 +1363,7 @@ INTERJ_
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -1453,7 +1372,7 @@ Veps acronyms ...
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/acronyms.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/stems/acronyms.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/acronyms.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/stems/acronyms.lexc)</small>
 
 ---
 
@@ -1465,7 +1384,7 @@ pitkä ensimmäinen tavu
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/stems/exceptions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/exceptions.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/morphology/stems/exceptions.lexc)</small>
 
 ---
 
@@ -1632,7 +1551,88 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
+
+---
+
+
+
+two consonants
+XY ==> X
+
+paikka : paikan
+tuhka : tuhan
+jalka : jalan
+verka : veran
+matka : matan
+
+lappa : lapan
+
+lampahaal : lammaz
+kelpajaa : kelvata
+varpahaal : varvaz
+
+vika : vian
+
+aika : aijjan
+reikä : reijjän
+
+hauki : hauvven
+rooka : roovvan
+luku : luvvun
+
+(4) ossaan : ozata
+suzi : suen
+(5) katto : katon
+vahti : vahin
+silta : sillan
+rakentaa : rakennan : rakenzin
+parta : parran
+vassaan : vasata
+
+(6) pata : paan
+aita : aijjan
+viittä : viijjeel
+voitua : voijjun
+kaks vootta : kahen vuuvven
+
+(7) vattsa : vatsan
+
+*omena   | *omenaa
+=> ommeena | omenaa
+lammaz | lamppaahan | lampahaal
+
+define SoftLossBeforeVowel [ ' -> 0 || _ QEQ1 %>  ] ;
+
+define StemFinalVowelLoss [ QAO1 -> 0 , QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _  [ .#. | %- ]  ] ;
+!€ marj>QAO1:marj
+
+define VowelLossBeforePli [ QEQ1 -> 0 , QAQ1 -> 0 , QÄQ1 -> 0  || _ %> i ] ;
+
+define QAO [ QAO1 -> a , QAQ1 -> a || _ %> [ n | d | t a | k s | l | h V1 | n n o | d m e | s ] ,,
+QAO1 -> o || _ %> i ] ;
+
+define QÄQ1 [ QÄQ1 -> ä , QEQ1 -> e || _ %> [ Cns | VwsLessi ] ] ;
+
+define D1E1 [ D1E1 -> d e || _ %> [ Cns | VwsLessi ] ] ;
+! This should have voz' > vodel
+
+define S2SH     [ s -> š || i %> _ ] ;
+
+define VOICING     [ t -> d , k -> g || [ Vws | n | l | r ] %> _ [ Vws ] ,,
+z -> s || Vws _ %> [ t | k ] ] ; ! in verb stems
+!€ sugi>ta:sugida
+!€ vali^DEVOICE>ta:valita
+
+define DEVOICE [ %^DEVOICE -> 0 ||  _ ] ;
+
+define VowelStemVowelLoss [ e -> 0 || _ %> i ( n| d | m | t ) ] ;
+
+define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology-old.xfscript)</small>
 
 ---
 
@@ -1652,7 +1652,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1666,7 +1666,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-izh/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
