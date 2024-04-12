@@ -76,6 +76,3 @@ define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/phonology-old.xfscript](https://github.com/giellalt/lang-izh/blob/main/src/fst/phonology-old.xfscript)</small>
-
----
-
