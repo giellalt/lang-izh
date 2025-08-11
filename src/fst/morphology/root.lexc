@@ -60,7 +60,7 @@ Multichar_Symbols  !!≈ Definitions for @CODE@
 !! ##### Miscellanious tags
  +ABBR +ACR !!≈ **@CODE@** 
 +Symbol !!≈ **@CODE@** = independent symbols in the text stream, like £, €, ©
-+CLB +PUNCT +LEFT +RIGHT !!≈ **@CODE@**  Special symbols
++CLB +PUNCT +LEFT +RIGHT +MIDDLE !!≈ **@CODE@**  Special symbols
  +Multi !!≈ **@CODE@** Non-dictionary words can be recognised with: Special multiword units 
  +Guess !!≈ **@CODE@** Non-dictionary words via regex gring stems (not in use?)
  +Qst !!≈ **@CODE@** yes/no question
