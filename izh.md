@@ -1003,7 +1003,7 @@ language are presented in this system in terms of the following symbols.
 ##### Miscellanious tags
 **+ABBR +ACR** 
 **+Symbol** = independent symbols in the text stream, like £, €, ©
-**+CLB +PUNCT +LEFT +RIGHT**  Special symbols
+**+CLB +PUNCT +LEFT +RIGHT +MIDDLE**  Special symbols
 **+Multi** Non-dictionary words can be recognised with: Special multiword units 
 **+Guess** Non-dictionary words via regex gring stems (not in use?)
 **+Qst** yes/no question
