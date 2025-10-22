@@ -4,7 +4,7 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-izh%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-izh)](https://github.com/giellalt/lang-izh/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-izh/main/badge.svg)](https://github.com/giellalt/lang-izh/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-izh?label=CI)](https://builds.giellalt.org/pipelines/lang-izh/builds/latest)
 
 This page documents the work on the [Ingrian language model](http://github.com/giellalt/lang-izh). 
 
