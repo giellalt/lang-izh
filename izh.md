@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,9 +179,9 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection
+## Adjective inflection
 The INGRIAN language adjectives compare.
 
 * * *
@@ -190,9 +190,9 @@ The INGRIAN language adjectives compare.
 
 ---
 
-# src-fst-morphology-affixes-adpositions.lexc.md 
+## src-fst-morphology-affixes-adpositions.lexc.md 
 
-# Adposition tags
+## Adposition tags
 
 Here we just add tags +Po and +Prep
 to the Ingrian pre- and postpositions.
@@ -203,9 +203,9 @@ to the Ingrian pre- and postpositions.
 
 ---
 
-# src-fst-morphology-affixes-adverbs.lexc.md 
+## src-fst-morphology-affixes-adverbs.lexc.md 
 
-# Adverb inflection
+## Adverb inflection
 
 Ingrian adjectives compare.
 
@@ -215,9 +215,9 @@ Ingrian adjectives compare.
 
 ---
 
-# src-fst-morphology-affixes-clitics.lexc.md 
+## src-fst-morphology-affixes-clitics.lexc.md 
 
-# Clitics
+## Clitics
 
 Ingrian clitics are stored in the affixes folder.
 We tag question and focus particles.
@@ -228,9 +228,9 @@ We tag question and focus particles.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Ingrian noun inflection
+## Ingrian noun inflection
 This file documents [affixes/nouns.lexc](../src/fst/affixes/nouns.lexc)
 
 This file documents the suffixes for noun inflection.
@@ -283,7 +283,7 @@ This file documents the suffixes for noun inflection.
 
 **LEXICON N-kana_01** 
 
-## Three-syllable words
+### Three-syllable words
 
 **LEXICON N_MONIKKO** 
 
@@ -372,12 +372,12 @@ This should operate using principles of ommeena
 
 **LEXICON N-päivyt_01** 
 
-## DERIVATION 
+### DERIVATION 
 One derivational process only, DER-t0in.
 
 **LEXICON DER-tOin** 
 
-## DECLENSION 
+### DECLENSION 
 
 **LEXICON Cases** 
 
@@ -399,7 +399,7 @@ One derivational process only, DER-t0in.
 
 **LEXICON Oblique-Singular_less-EssExe** 
 
-## PLURAL TAGS 
+### PLURAL TAGS 
 Plural tags separated from singular ones.
 
 **LEXICON PL-ABE** 
@@ -490,9 +490,9 @@ Plural tags separated from singular ones.
 
 ---
 
-# src-fst-morphology-affixes-numerals.lexc.md 
+## src-fst-morphology-affixes-numerals.lexc.md 
 
-# Quantifier inflection
+## Quantifier inflection
 
 Still undocumented
 
@@ -514,9 +514,9 @@ kaik:kaik
 
 ---
 
-# src-fst-morphology-affixes-particles.lexc.md 
+## src-fst-morphology-affixes-particles.lexc.md 
 
-# Particles inflection
+## Particles inflection
 
 Ingrian particles ...
 
@@ -526,9 +526,9 @@ Ingrian particles ...
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
-# Pronoun inflection
+## Pronoun inflection
 
 Ingrian pronouns inflect in cases.
 
@@ -538,9 +538,9 @@ Ingrian pronouns inflect in cases.
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection
+## Proper noun inflection
 
 We have a partial program in singular.
 
@@ -550,10 +550,10 @@ We have a partial program in singular.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -561,10 +561,10 @@ We have a partial program in singular.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Verb inflection
-## Irregular verbs
+## Verb inflection
+### Irregular verbs
 
 * **LEXICON V-ei ** lists the negative verb, including imperative forms.
 
@@ -574,7 +574,7 @@ We have a partial program in singular.
 
 oon
 
-## Regular verbs
+### Regular verbs
 
 * **LEXICON V-jäävvä ** so far only splits to the next lexicon
 
@@ -620,7 +620,7 @@ näyttämää
 
 * **LEXICON V-laatia ** !! laatia:laati
 
-## 3-syllable
+### 3-syllable
 kiirehtiä:kiireh
 
 * **LEXICON V-hyväksyä **
@@ -675,21 +675,21 @@ kiirehtiä:kiireh
 
 * **LEXICON V-ahavojja **
 
-## DERIVATION 
+### DERIVATION 
 
 * Actor in jA
 * **LEXICON V-actor_jA **
 
-## PARTICIPLES
+### PARTICIPLES
 
 * **LEXICON V-ActPrsPrc **
 * **LEXICON V-ActPrtPrc_nt **
 
 * **LEXICON V-ActPrtPrc_rt **
 
-## CONJUGATION
+### CONJUGATION
 
-### INDICATIVE PRETERITE
+#### INDICATIVE PRETERITE
 
 * **LEXICON IndPrt ** split 1-2 vs 3
 
@@ -710,11 +710,11 @@ kiirehtiä:kiireh
 * **LEXICON IND-PRT-PL3 **
 This is not working 2012-10-30
 
-## CONDITIONAL 
+### CONDITIONAL 
 
 * **LEXICON CondPers **
 
-## POTENTIAL
+### POTENTIAL
 
 :n, :s, :l, :r, :n
 * **LEXICON PotPers **
@@ -727,16 +727,16 @@ This is not working 2012-10-30
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 
-# The Ingrian morphophonological/twolc rules file 
+## The Ingrian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-izh/blob/main/src/fst/phonology.twolc) 
 
-## Alphabet
+### Alphabet
 
-### The letters
+#### The letters
 
 * **a b d e f g h i j k l m n o p r s š t u v z ž ü ä ö**
 * **A B D E F G H I J K L M N O P R S Š T U V Z Ž Ü Ä Ö**
@@ -745,20 +745,20 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **ь** Sьktьvkar
 * **Ь**
 
-### Vowel harmony with "(t)a/ä"
+#### Vowel harmony with "(t)a/ä"
 * **AÄ1:a** realised as a
 * **AÄ1:ä** realised as ä
 * **AÄ1:0** deleted
 
-### Vowel harmony with "loi/löi" also kalatOÖ1in
+#### Vowel harmony with "loi/löi" also kalatOÖ1in
 * **OÖ1:o**
 * **OÖ1:ö**
 
-### Vowel harmony with "ttu/tty"
+#### Vowel harmony with "ttu/tty"
 * **UY1:u**
 * **UY1:y**
 
-### this appears in the illative
+#### this appears in the illative
 * **V1:a**
 * **V1:e**
 * **V1:i**
@@ -768,7 +768,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **V1:ä**
 * **V1:ö**
 
-### These appear with the inessive and adessive
+#### These appear with the inessive and adessive
 * **V2:a**
 * **V2:e**
 * **V2:i**
@@ -778,7 +778,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **V2:ä**
 * **V2:ö** 
 
-### These reduplicate the preceding vowel if it in turn is preceded by a consonant
+#### These reduplicate the preceding vowel if it in turn is preceded by a consonant
 * **V3:a**
 * **V3:e**
 * **V3:i**
@@ -789,17 +789,17 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **V3:ö**
 * **V3:0**
 
-### this k is not effected by gradation
+#### this k is not effected by gradation
 * **K1:k**
 * **%^NoGrad:0** This will be placed after a stem to break Gradation
 
-### this weakens the stem *ompel* to *ommel*
+#### this weakens the stem *ompel* to *ommel*
 * **%^WGStem:0**
 
-### The ti => si
+#### The ti => si
 * **%^TS:0**
 
-### Vowel raising
+#### Vowel raising
 * **%^RVws:0**
 * **%-** Hyphen in  constructions 
 * **%>:0**
@@ -818,7 +818,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **%^SyllBr:0**
 * **%^E1:0**
 
-## Sets
+### Sets
 
 * **VwsBack = a o u ;**
 * **VwsFront = ä ö y ü ;**
@@ -828,7 +828,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 * **Cns = b d f g h j k l m n p r s ş š t v z ƶ ž ;**
 * **Letters = Vws Cns ;**
 
-## Definitions
+### Definitions
 
 * Front Trigger
 
@@ -840,7 +840,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-i
 
 Right context for gradation
 
-# Rules
+## Rules
 
 **RULE: StemVowLoss ** 
 
@@ -912,7 +912,7 @@ This deals with secondary or perhaps pertary vowel lengthening
 **RULE: consonant lengthening** 
 **RULE: j lengthening** 
 
-## Consonant weakening 
+### Consonant weakening 
 
 **RULE: Ut:vv Uk:vv weakening** 
 
@@ -953,23 +953,23 @@ Vowel raising
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Ingrian multichar symbols and *Root* lexicon
+## Ingrian multichar symbols and *Root* lexicon
 
 Definitions for Multichar_Symbols
 
-## Multichar\_Symbols
+### Multichar\_Symbols
 The morphological analyses of wordforms for the Ingrian
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-### The parts-of-speech tags:
+#### The parts-of-speech tags:
 **+N +A +Adv +V** 
 **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Qnt** 
 
-#### The parts of speech subtags
+##### The parts of speech subtags
 **+Prop** Types of nouns
 **+Pers +Dem +Interr +Refl +Recipr +Rel +Indef** Types of pronouns
 **+Manner +Spat +Temp** = Types of adverbs
@@ -979,19 +979,19 @@ language are presented in this system in terms of the following symbols.
 **+Dial/Soik**  Dialects tag. Peculiar to Soikkola
 **+Dial/Lauk**  Dialect tag. Peculiar to Laukaa
 
-##### Nominal inflection
+###### Nominal inflection
 **+Sg +Pl** 
 **+Ess +Nom +Gen +Acc +Ill +Ine +Ela +All +Ade +Abl +Tra +Par** 
 **+Exe +Instr +Com +Ins +Prl** 
 **+PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3** Possessive suffixes
 **+Comp +Superl** comparative tags
 
-##### Numerals and other quantifier tags
+###### Numerals and other quantifier tags
 **+Attr +Card** 
 **+Ord** ordinal
 **+Univ**  universal quantifier
 
-##### Verb tags 
+###### Verb tags 
 **+Ind +Prs +Prt +Pot +Cond +Imprt**  moods
 **+Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3** Verb person tags
 **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII** 
@@ -1000,7 +1000,7 @@ language are presented in this system in terms of the following symbols.
 **+PrfPrc**  Which one is needed?
 **+TV +IV**  transitivity:
 
-##### Miscellanious tags
+###### Miscellanious tags
 **+ABBR +ACR** 
 **+Symbol** = independent symbols in the text stream, like £, €, ©
 **+CLB +PUNCT +LEFT +RIGHT +MIDDLE**  Special symbols
@@ -1012,13 +1012,13 @@ language are presented in this system in terms of the following symbols.
 **+Foc/kii** 
 **+Clt/kAA** 
 
-##### Symbols that need to be escaped on the lower side (towards twolc):
+###### Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
  %[%>%]  - Literal >
  %[%<%]  - Literal <
 
-### Semantic tags
+#### Semantic tags
 
 Semantic tags to help disambiguation & synt. analysis: (before POS)
 Borrowed from main/langs/sme/src/morphology/root.lexc
@@ -1115,7 +1115,7 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 * **+Sem/Wpn** Weapon
 * **+Sem/Wthr** The Weather or the state of ground
 
-### Multiple Semantic tags:
+#### Multiple Semantic tags:
 * **+Sem/Act_Group** 
 * **+Sem/Act_Plc** 
 * **+Sem/Act_Route** 
@@ -1242,7 +1242,7 @@ Borrowed from main/langs/sme/src/morphology/root.lexc
 
 Semantics are classified with
 
-### Derivation
+#### Derivation
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
@@ -1255,17 +1255,17 @@ source and target part-of-speech.
 **+Der/tOin** = Deverbal _arvaamaton_ and Denominal adjectives
 **+Der/toist** = ykstoist (11), kakstoist (12)
 
-## Morphophonology
+### Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
-### Archiphonemes
+#### Archiphonemes
 **{aä} {oö} {uü}** 
 **%> V1 V2 V3 AÄ1 OÖ1 UY1** 
 **%^E1 %^TS** 
 **K1 %^NoGrad**  Nogradation
 
-### Triggers to control variation
+#### Triggers to control variation
 **{front} {back}** 
 **%^ShVws %^LVws** 
 **%^ShCns %^LCns** 
@@ -1278,7 +1278,7 @@ symbols in the lexicon files:
 **%^RVws** 
 **%^WGStem**  weak-grade stem for _ompel_ to _ommel_
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -1365,7 +1365,7 @@ FLAGS USED WITH COLLECTIVE NOUNS
 |  @C.DECL-NX@ | 
 |  @C.COMPLETE@ | 
 
-## Root lexicon
+### Root lexicon
 
 Root
 The word forms  start from the lexeme roots of basic
@@ -1402,7 +1402,7 @@ INTERJ_
 
 ---
 
-# src-fst-morphology-stems-acronyms.lexc.md 
+## src-fst-morphology-stems-acronyms.lexc.md 
 
 Acronyms
 Veps acronyms ...
@@ -1413,7 +1413,7 @@ Veps acronyms ...
 
 ---
 
-# src-fst-morphology-stems-exceptions.lexc.md 
+## src-fst-morphology-stems-exceptions.lexc.md 
 
 
 
@@ -1427,7 +1427,7 @@ pitkä ensimmäinen tavu
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1596,7 +1596,7 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-phonology-old.xfscript.md 
+## src-fst-phonology-old.xfscript.md 
 
 
 
@@ -1679,7 +1679,7 @@ define I1Variation [ I1 -> 0 || Vws  %- _ k ,, I1 -> i || Cns :0* %- _ k ] ;
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -1701,7 +1701,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -1717,26 +1717,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1763,7 +1763,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1779,7 +1779,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1842,7 +1842,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1875,7 +1875,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1945,22 +1945,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1971,11 +1971,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1983,7 +1983,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1995,25 +1995,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -2021,9 +2021,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for izh
+## Tokeniser for izh
 
 Usage:
 ```
@@ -2067,7 +2067,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -2086,9 +2086,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for izh
+## Grammar checker tokenisation for izh
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -2151,9 +2151,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
